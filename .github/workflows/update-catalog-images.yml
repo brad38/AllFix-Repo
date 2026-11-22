@@ -1,0 +1,61 @@
+﻿name: Atualizar imagens do catalogo
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - catalog.json
+      - scripts/update_catalog_images.py
+      - .github/workflows/update-catalog-images.yml
+  schedule:
+    - cron: "23 9 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-catalog-images-main
+  cancel-in-progress: false
+
+jobs:
+  atualizar-imagens:
+    if: github.repository == 'brad38/AllFix-Repo'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: python -m pip install --disable-pip-version-check requests==2.32.3
+
+      - name: Atualizar imagens ausentes
+        env:
+          STEAMGRIDDB_API_KEY: ${{ secrets.STEAMGRIDDB_API_KEY }}
+        run: python scripts/update_catalog_images.py
+
+      - name: Validar alteracoes
+        run: |
+          python -m json.tool catalog.json > /dev/null
+          git diff --check
+          git diff --stat
+
+      - name: Publicar apenas se houver mudancas
+        run: |
+          if git diff --quiet -- catalog.json; then
+            echo "Nenhuma imagem nova encontrada."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- catalog.json
+          git commit -m "Atualizar imagens do catalogo automaticamente [skip ci]"
+          git push
