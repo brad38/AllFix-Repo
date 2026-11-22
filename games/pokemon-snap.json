@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "pokemon-snap",
+  "title": "Pokémon Snap",
+  "platform_group": "Nintendo 64 — Franquias Nintendo e Rare",
+  "category": null,
+  "cover": null,
+  "banner": null,
+  "screenshots": [],
+  "featured": false,
+  "projects": [
+    {
+      "id": "snap64-recomp",
+      "name": "Snap64 Recomp",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/JackandBeans/Snap64Recomp",
+        "github_repository": "JackandBeans/Snap64Recomp",
+        "releases_url": "https://github.com/JackandBeans/Snap64Recomp/releases"
+      },
+      "description": "Recompilação estática com RT64 e melhorias integradas à tela de opções original. Widescreen/ultrawide, alto FPS interpolado, mira com mouse/giroscópio, exportação de fotos PNG em alta resolução, emulação do quiosque Snap Station, 4 saves com autosave e mods .nrm.",
+      "requirements": "Extrair o ZIP portátil e colocar ROM US (.z64/.v64/.n64) ao lado de Snap64Recomp.exe. Requer Windows 10/11 x64, D3D12 SM 6.3 e CPU SSE4.1.",
+      "development_status_reported": "Estável e muito ativo",
+      "version": {
+        "reported_by_gemini": "v1.1.8 (~18/11/2026)",
+        "latest_tag_observed_in_audit": "v1.1.8",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (Snap64Recomp-1.1.8-win64.zip)",
+        "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    }
+  ],
+  "addons": []
+}

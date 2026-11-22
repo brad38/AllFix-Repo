@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "mario-kart-64",
+  "title": "Mario Kart 64",
+  "platform_group": "Nintendo 64 — Franquias Nintendo e Rare",
+  "category": null,
+  "cover": null,
+  "banner": null,
+  "screenshots": [],
+  "featured": false,
+  "projects": [
+    {
+      "id": "spaghettikart",
+      "name": "SpaghettiKart",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/HarbourMasters/SpaghettiKart",
+        "github_repository": "HarbourMasters/SpaghettiKart",
+        "releases_url": "https://github.com/HarbourMasters/SpaghettiKart/releases"
+      },
+      "description": "Port via decompilação e libultraship. Inclui multiplayer split-screen completo para até 4 jogadores, Editor e Importador de Pistas Customizadas, modo Harder CPU, opção sem rubberbanding, freecam, resolução até 400% e mods .o2r/.zip.",
+      "requirements": "Extrair o ZIP, executar Spaghettify.exe e fornecer ROM US (.z64) para gerar mk64.o2r.",
+      "development_status_reported": "Estável e ativo",
+      "version": {
+        "reported_by_gemini": "1.0.0 — Bolognese Alfa (24/02/2026)",
+        "latest_tag_observed_in_audit": "1.0.0",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (spaghetti-windows.zip, 7,44 MB)",
+        "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    },
+    {
+      "id": "mariokart-64-recompiled",
+      "name": "MarioKart 64: Recompiled",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/sonicdcer/MarioKart64Recomp",
+        "github_repository": "sonicdcer/MarioKart64Recomp",
+        "releases_url": "https://github.com/sonicdcer/MarioKart64Recomp/releases"
+      },
+      "description": "Recompilação estática via N64Recomp + RT64 com fidelidade aos efeitos N64, plug-and-play, FPS ilimitado, ultrawide, Controller Pak para fantasmas e suporte a texturas HD MK64 Reloaded (.rtz). Limitação: apenas Single Player no momento.",
+      "requirements": "Baixar release Windows e selecionar ROM US de Mario Kart 64. Requer GPU D3D12/Vulkan 1.2 e CPU SSE4.1.",
+      "development_status_reported": "Beta / Experimental (sem multiplayer)",
+      "version": {
+        "reported_by_gemini": "v0.9.2 (13/02/2026)",
+        "latest_tag_observed_in_audit": "v0.9.2",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (binários Windows na release v0.9.2)",
+        "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    }
+  ],
+  "addons": []
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "earthbound-mother-2",
+  "title": "EarthBound / Mother 2",
+  "platform_group": "Super Nintendo (SNES) e Game Boy Advance (GBA)",
+  "category": null,
+  "cover": null,
+  "banner": null,
+  "screenshots": [],
+  "featured": false,
+  "projects": [
+    {
+      "id": "phase-distorter",
+      "name": "Phase Distorter",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/TheRunaway5/Phase-Distorter",
+        "github_repository": "TheRunaway5/Phase-Distorter",
+        "releases_url": "https://github.com/TheRunaway5/Phase-Distorter/releases"
+      },
+      "description": "Port nativo em C++20 suportando EarthBound (USA) e Mother 2 (JP) no mesmo executável. Widescreen/ultrawide real (16:9 até 32:9), 90–300 FPS ou desbloqueado, VRR, CRT-Lottes, filtro de fotossensibilidade, save states e menu Debug.",
+      "requirements": "ROM limpa (sem patches) de EarthBound (US) ou Mother 2 (JP) validada por SHA-256. Sem compilação manual.",
+      "development_status_reported": "Beta / Experimental",
+      "version": {
+        "reported_by_gemini": "v0.5 (out/2026)",
+        "latest_tag_observed_in_audit": "0.5",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (Phase-Distorter-0.5-windows-x86_64.zip; testado via Wine)",
+        "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    }
+  ],
+  "addons": []
+}

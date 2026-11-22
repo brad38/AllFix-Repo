@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "the-legend-of-zelda-majora-s-mask",
+  "title": "The Legend of Zelda: Majora's Mask",
+  "platform_group": "Nintendo 64 — Franquias Nintendo e Rare",
+  "category": null,
+  "cover": null,
+  "banner": null,
+  "screenshots": [],
+  "featured": false,
+  "projects": [
+    {
+      "id": "zelda-64-recompiled",
+      "name": "Zelda 64: Recompiled",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/Zelda64Recomp/Zelda64Recomp",
+        "github_repository": "Zelda64Recomp/Zelda64Recomp",
+        "releases_url": "https://github.com/Zelda64Recomp/Zelda64Recomp/releases"
+      },
+      "description": "Port inaugural do N64: Recompiled + RT64. Prioriza fidelidade absoluta aos efeitos originais de framebuffer do N64, inicialização plug-and-play sem extração, FPS ilimitado, ultrawide, câmera analógica dupla, giroscópio e mods via Thunderstore (MMRecompRando).",
+      "requirements": "Extrair o ZIP e selecionar a ROM US de Majora's Mask (conversão automática). Requer GPU D3D12 (SM 6) ou Vulkan 1.2 e CPU SSE4.1.",
+      "development_status_reported": "Estável e ativo",
+      "version": {
+        "reported_by_gemini": "v1.2.2 (26/08/2025)",
+        "latest_tag_observed_in_audit": "v1.2.2",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (Zelda64Recompiled-v1.2.2-Windows.zip, 27,6 MB)",
+        "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    },
+    {
+      "id": "2-ship-2-harkinian-2s2h",
+      "name": "2 Ship 2 Harkinian (2S2H)",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/2ship2harkinian/2ship2harkinian",
+        "github_repository": "2ship2harkinian/2ship2harkinian",
+        "releases_url": "https://github.com/2ship2harkinian/2ship2harkinian/releases"
+      },
+      "description": "Port via decompilação em libultraship. Traz centenas de melhorias nativas no menu: Randomizer completo embutido, Editor de Cosméticos, Modo Espelhado, Bomb Arrows, Easy Mask Equip, Pictograph em PNG, DX11/OpenGL/Metal e mods .o2r/.otr.",
+      "requirements": "Extrair o ZIP, executar 2ship.exe e selecionar ROM suportada (verificável em 2ship.equipment) para extração automática.",
+      "development_status_reported": "Estável e muito ativo",
+      "version": {
+        "reported_by_gemini": "5.0.1 — Battler Bravo (25/08/2026)",
+        "latest_tag_observed_in_audit": "5.0.1",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (2Ship-Battler-Bravo-Win64.zip, 42,9 MB)",
+        "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    }
+  ],
+  "addons": []
+}

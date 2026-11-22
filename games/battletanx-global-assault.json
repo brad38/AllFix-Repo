@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "battletanx-global-assault",
+  "title": "BattleTanx: Global Assault",
+  "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+  "category": null,
+  "cover": null,
+  "banner": null,
+  "screenshots": [],
+  "featured": false,
+  "projects": [
+    {
+      "id": "battletanx-global-assault-pc-port",
+      "name": "BattleTanx-Global-Assault-PC-Port",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/TheGh0stShip/BattleTanx-Global-Assault-PC-Port",
+        "github_repository": "TheGh0stShip/BattleTanx-Global-Assault-PC-Port",
+        "releases_url": "https://github.com/TheGh0stShip/BattleTanx-Global-Assault-PC-Port/releases"
+      },
+      "description": "Construído sobre a decompilação 100% byte-matching + N64Recomp + RT64 (D3D12) + SDL2. Menus e campanha jogáveis, 4:3 até 32:9, mira independente da torre por mouse/dual-stick, Controller Pak .mpk e multiplayer online experimental com servidor dedicado.",
+      "requirements": "ROM USA Rev 0 (NBQE, 8 MiB .z64). Sem compilação manual via release ZIP.",
+      "development_status_reported": "Beta / Experimental (ativo)",
+      "version": {
+        "reported_by_gemini": "v0.2.5 (13/10/2026)",
+        "latest_tag_observed_in_audit": "v0.2.5",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (ZIP portátil Windows x64 nas releases)",
+        "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    },
+    {
+      "id": "btgarecomp",
+      "name": "btgarecomp",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/wootbeer/btgarecomp",
+        "github_repository": "wootbeer/btgarecomp",
+        "releases_url": "https://github.com/wootbeer/btgarecomp/releases"
+      },
+      "description": "Alternativa muito ativa ('super beta') com netplay para até 4 jogadores em tela cheia individual, filtros CRT/Bloom, Lossless Scaling, cheats e sound packs.",
+      "requirements": "ROM USA Rev 0 de BattleTanx: Global Assault e GPU compatível com RT64.",
+      "development_status_reported": "Beta / Experimental (ativo)",
+      "version": {
+        "reported_by_gemini": "v0.1.12 (nov/2026)",
+        "latest_tag_observed_in_audit": "v0.1.12",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (builds Windows nas releases)",
+        "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    }
+  ],
+  "addons": []
+}

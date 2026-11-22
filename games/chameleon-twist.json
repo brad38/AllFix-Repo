@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "chameleon-twist",
+  "title": "Chameleon Twist",
+  "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+  "category": null,
+  "cover": null,
+  "banner": null,
+  "screenshots": [],
+  "featured": false,
+  "projects": [
+    {
+      "id": "chameleontwist1-jp-recomp",
+      "name": "ChameleonTwist1-JP-Recomp",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/Rainchus/ChameleonTwist1-JP-Recomp",
+        "github_repository": "Rainchus/ChameleonTwist1-JP-Recomp",
+        "releases_url": "https://github.com/Rainchus/ChameleonTwist1-JP-Recomp/releases"
+      },
+      "description": "Primeira versão funcional via N64Recomp + RT64 com alto framerate, widescreen/ultrawide e menus RmlUi. Ainda carrega textos residuais do template de Majora's Mask Recomp e não recebe releases há quase 2 anos. Existe irmão para Chameleon Twist 2 (JP).",
+      "requirements": "Aceita exclusivamente a ROM japonesa (JP Rev 0) de Chameleon Twist. Requer GPU D3D12/Vulkan 1.2 e CPU AVX.",
+      "development_status_reported": "Beta / Experimental (inativo)",
+      "version": {
+        "reported_by_gemini": "v0.1 (14/12/2024)",
+        "latest_tag_observed_in_audit": "v0.1",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (build pré-compilado na release v0.1)",
+        "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    }
+  ],
+  "addons": []
+}

@@ -1,0 +1,790 @@
+{
+  "schema_version": 1,
+  "catalog_version": "2026-11-22-initial",
+  "source": "Pesquisa Gemini e auditoria inicial de repositórios/releases; não homologado para instalação",
+  "games": [
+    {
+      "id": "super-mario-64",
+      "title": "Super Mario 64",
+      "platform_group": "Nintendo 64 — Franquias Nintendo e Rare",
+      "project_count": 6,
+      "details": "games/super-mario-64.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "the-legend-of-zelda-ocarina-of-time",
+      "title": "The Legend of Zelda: Ocarina of Time",
+      "platform_group": "Nintendo 64 — Franquias Nintendo e Rare",
+      "project_count": 1,
+      "details": "games/the-legend-of-zelda-ocarina-of-time.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "the-legend-of-zelda-majora-s-mask",
+      "title": "The Legend of Zelda: Majora's Mask",
+      "platform_group": "Nintendo 64 — Franquias Nintendo e Rare",
+      "project_count": 2,
+      "details": "games/the-legend-of-zelda-majora-s-mask.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "star-fox-64",
+      "title": "Star Fox 64",
+      "platform_group": "Nintendo 64 — Franquias Nintendo e Rare",
+      "project_count": 1,
+      "details": "games/star-fox-64.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "mario-kart-64",
+      "title": "Mario Kart 64",
+      "platform_group": "Nintendo 64 — Franquias Nintendo e Rare",
+      "project_count": 2,
+      "details": "games/mario-kart-64.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "super-smash-bros",
+      "title": "Super Smash Bros.",
+      "platform_group": "Nintendo 64 — Franquias Nintendo e Rare",
+      "project_count": 1,
+      "details": "games/super-smash-bros.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "paper-mario",
+      "title": "Paper Mario",
+      "platform_group": "Nintendo 64 — Franquias Nintendo e Rare",
+      "project_count": 1,
+      "details": "games/paper-mario.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "donkey-kong-64",
+      "title": "Donkey Kong 64",
+      "platform_group": "Nintendo 64 — Franquias Nintendo e Rare",
+      "project_count": 1,
+      "details": "games/donkey-kong-64.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "pokemon-snap",
+      "title": "Pokémon Snap",
+      "platform_group": "Nintendo 64 — Franquias Nintendo e Rare",
+      "project_count": 1,
+      "details": "games/pokemon-snap.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "dr-mario-64",
+      "title": "Dr. Mario 64",
+      "platform_group": "Nintendo 64 — Franquias Nintendo e Rare",
+      "project_count": 2,
+      "details": "games/dr-mario-64.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "banjo-kazooie",
+      "title": "Banjo-Kazooie",
+      "platform_group": "Nintendo 64 — Franquias Nintendo e Rare",
+      "project_count": 2,
+      "details": "games/banjo-kazooie.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "banjo-tooie",
+      "title": "Banjo-Tooie",
+      "platform_group": "Nintendo 64 — Franquias Nintendo e Rare",
+      "project_count": 1,
+      "details": "games/banjo-tooie.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "perfect-dark",
+      "title": "Perfect Dark",
+      "platform_group": "Nintendo 64 — Franquias Nintendo e Rare",
+      "project_count": 1,
+      "details": "games/perfect-dark.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "goldeneye-007",
+      "title": "GoldenEye 007",
+      "platform_group": "Nintendo 64 — Franquias Nintendo e Rare",
+      "project_count": 2,
+      "details": "games/goldeneye-007.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "dinosaur-planet",
+      "title": "Dinosaur Planet",
+      "platform_group": "Nintendo 64 — Franquias Nintendo e Rare",
+      "project_count": 1,
+      "details": "games/dinosaur-planet.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "bomberman-64",
+      "title": "Bomberman 64",
+      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "project_count": 1,
+      "details": "games/bomberman-64.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "bomberman-hero",
+      "title": "Bomberman Hero",
+      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "project_count": 1,
+      "details": "games/bomberman-hero.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "mystical-ninja-starring-goemon",
+      "title": "Mystical Ninja Starring Goemon",
+      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "project_count": 1,
+      "details": "games/mystical-ninja-starring-goemon.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "goemon-s-great-adventure",
+      "title": "Goemon's Great Adventure",
+      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "project_count": 2,
+      "details": "games/goemon-s-great-adventure.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "duke-nukem-zero-hour",
+      "title": "Duke Nukem: Zero Hour",
+      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "project_count": 1,
+      "details": "games/duke-nukem-zero-hour.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "body-harvest",
+      "title": "Body Harvest",
+      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "project_count": 2,
+      "details": "games/body-harvest.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "space-station-silicon-valley",
+      "title": "Space Station Silicon Valley",
+      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "project_count": 1,
+      "details": "games/space-station-silicon-valley.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "quest-64",
+      "title": "Quest 64",
+      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "project_count": 1,
+      "details": "games/quest-64.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "mega-man-64",
+      "title": "Mega Man 64",
+      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "project_count": 1,
+      "details": "games/mega-man-64.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "battletanx-global-assault",
+      "title": "BattleTanx: Global Assault",
+      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "project_count": 2,
+      "details": "games/battletanx-global-assault.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "snowboard-kids-2",
+      "title": "Snowboard Kids 2",
+      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "project_count": 1,
+      "details": "games/snowboard-kids-2.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "extreme-g",
+      "title": "Extreme-G",
+      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "project_count": 1,
+      "details": "games/extreme-g.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "rocket-robot-on-wheels",
+      "title": "Rocket: Robot on Wheels",
+      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "project_count": 1,
+      "details": "games/rocket-robot-on-wheels.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "chameleon-twist",
+      "title": "Chameleon Twist",
+      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "project_count": 1,
+      "details": "games/chameleon-twist.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "automobili-lamborghini",
+      "title": "Automobili Lamborghini",
+      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "project_count": 1,
+      "details": "games/automobili-lamborghini.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "wcw-vs-nwo-world-tour",
+      "title": "WCW vs. nWo: World Tour",
+      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "project_count": 1,
+      "details": "games/wcw-vs-nwo-world-tour.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "wcw-nwo-revenge",
+      "title": "WCW/nWo Revenge",
+      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "project_count": 1,
+      "details": "games/wcw-nwo-revenge.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "wwf-wrestlemania-2000",
+      "title": "WWF WrestleMania 2000",
+      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "project_count": 1,
+      "details": "games/wwf-wrestlemania-2000.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "virtual-pro-wrestling-64",
+      "title": "Virtual Pro Wrestling 64",
+      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "project_count": 1,
+      "details": "games/virtual-pro-wrestling-64.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "wwf-no-mercy",
+      "title": "WWF No Mercy",
+      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "project_count": 1,
+      "details": "games/wwf-no-mercy.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "the-legend-of-zelda-the-wind-waker",
+      "title": "The Legend of Zelda: The Wind Waker",
+      "platform_group": "GameCube, Wii e Wii U",
+      "project_count": 2,
+      "details": "games/the-legend-of-zelda-the-wind-waker.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "the-legend-of-zelda-the-wind-waker-hd",
+      "title": "The Legend of Zelda: The Wind Waker HD",
+      "platform_group": "GameCube, Wii e Wii U",
+      "project_count": 1,
+      "details": "games/the-legend-of-zelda-the-wind-waker-hd.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "the-legend-of-zelda-twilight-princess",
+      "title": "The Legend of Zelda: Twilight Princess",
+      "platform_group": "GameCube, Wii e Wii U",
+      "project_count": 2,
+      "details": "games/the-legend-of-zelda-twilight-princess.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "star-fox-adventures",
+      "title": "Star Fox Adventures",
+      "platform_group": "GameCube, Wii e Wii U",
+      "project_count": 1,
+      "details": "games/star-fox-adventures.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "animal-crossing",
+      "title": "Animal Crossing",
+      "platform_group": "GameCube, Wii e Wii U",
+      "project_count": 1,
+      "details": "games/animal-crossing.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "pikmin-pikmin-2",
+      "title": "Pikmin & Pikmin 2",
+      "platform_group": "GameCube, Wii e Wii U",
+      "project_count": 1,
+      "details": "games/pikmin-pikmin-2.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "metroid-prime",
+      "title": "Metroid Prime",
+      "platform_group": "GameCube, Wii e Wii U",
+      "project_count": 1,
+      "details": "games/metroid-prime.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "super-mario-strikers",
+      "title": "Super Mario Strikers",
+      "platform_group": "GameCube, Wii e Wii U",
+      "project_count": 2,
+      "details": "games/super-mario-strikers.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "mario-strikers-charged",
+      "title": "Mario Strikers Charged",
+      "platform_group": "GameCube, Wii e Wii U",
+      "project_count": 2,
+      "details": "games/mario-strikers-charged.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "mario-kart-double-dash",
+      "title": "Mario Kart: Double Dash!!",
+      "platform_group": "GameCube, Wii e Wii U",
+      "project_count": 3,
+      "details": "games/mario-kart-double-dash.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "the-legend-of-zelda-a-link-to-the-past",
+      "title": "The Legend of Zelda: A Link to the Past",
+      "platform_group": "Super Nintendo (SNES) e Game Boy Advance (GBA)",
+      "project_count": 2,
+      "details": "games/the-legend-of-zelda-a-link-to-the-past.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "super-metroid",
+      "title": "Super Metroid",
+      "platform_group": "Super Nintendo (SNES) e Game Boy Advance (GBA)",
+      "project_count": 3,
+      "details": "games/super-metroid.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "super-mario-world",
+      "title": "Super Mario World",
+      "platform_group": "Super Nintendo (SNES) e Game Boy Advance (GBA)",
+      "project_count": 2,
+      "details": "games/super-mario-world.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "earthbound-mother-2",
+      "title": "EarthBound / Mother 2",
+      "platform_group": "Super Nintendo (SNES) e Game Boy Advance (GBA)",
+      "project_count": 1,
+      "details": "games/earthbound-mother-2.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "the-legend-of-zelda-the-minish-cap",
+      "title": "The Legend of Zelda: The Minish Cap",
+      "platform_group": "Super Nintendo (SNES) e Game Boy Advance (GBA)",
+      "project_count": 3,
+      "details": "games/the-legend-of-zelda-the-minish-cap.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "golden-sun-golden-sun-the-lost-age",
+      "title": "Golden Sun & Golden Sun: The Lost Age",
+      "platform_group": "Super Nintendo (SNES) e Game Boy Advance (GBA)",
+      "project_count": 1,
+      "details": "games/golden-sun-golden-sun-the-lost-age.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "jak-and-daxter-1-2-e-3",
+      "title": "Jak and Daxter 1, 2 e 3",
+      "platform_group": "PlayStation 1 e PlayStation 2",
+      "project_count": 1,
+      "details": "games/jak-and-daxter-1-2-e-3.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "god-of-war-2005",
+      "title": "God of War (2005)",
+      "platform_group": "PlayStation 1 e PlayStation 2",
+      "project_count": 1,
+      "details": "games/god-of-war-2005.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "shadow-of-rome",
+      "title": "Shadow of Rome",
+      "platform_group": "PlayStation 1 e PlayStation 2",
+      "project_count": 1,
+      "details": "games/shadow-of-rome.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "castlevania-symphony-of-the-night",
+      "title": "Castlevania: Symphony of the Night",
+      "platform_group": "PlayStation 1 e PlayStation 2",
+      "project_count": 1,
+      "details": "games/castlevania-symphony-of-the-night.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "crash-team-racing",
+      "title": "Crash Team Racing",
+      "platform_group": "PlayStation 1 e PlayStation 2",
+      "project_count": 3,
+      "details": "games/crash-team-racing.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "wipeout",
+      "title": "Wipeout",
+      "platform_group": "PlayStation 1 e PlayStation 2",
+      "project_count": 2,
+      "details": "games/wipeout.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "driver-2",
+      "title": "Driver 2",
+      "platform_group": "PlayStation 1 e PlayStation 2",
+      "project_count": 1,
+      "details": "games/driver-2.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "the-legend-of-dragoon",
+      "title": "The Legend of Dragoon",
+      "platform_group": "PlayStation 1 e PlayStation 2",
+      "project_count": 1,
+      "details": "games/the-legend-of-dragoon.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "silent-hill",
+      "title": "Silent Hill",
+      "platform_group": "PlayStation 1 e PlayStation 2",
+      "project_count": 1,
+      "details": "games/silent-hill.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "vandal-hearts",
+      "title": "Vandal Hearts",
+      "platform_group": "PlayStation 1 e PlayStation 2",
+      "project_count": 1,
+      "details": "games/vandal-hearts.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "bloody-roar-ii",
+      "title": "Bloody Roar II",
+      "platform_group": "PlayStation 1 e PlayStation 2",
+      "project_count": 1,
+      "details": "games/bloody-roar-ii.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "wwf-smackdown-2-know-your-role",
+      "title": "WWF SmackDown! 2: Know Your Role",
+      "platform_group": "PlayStation 1 e PlayStation 2",
+      "project_count": 1,
+      "details": "games/wwf-smackdown-2-know-your-role.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "king-s-field-jp-1994",
+      "title": "King's Field (JP, 1994)",
+      "platform_group": "PlayStation 1 e PlayStation 2",
+      "project_count": 1,
+      "details": "games/king-s-field-jp-1994.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "yu-gi-oh-forbidden-memories",
+      "title": "Yu-Gi-Oh! Forbidden Memories",
+      "platform_group": "PlayStation 1 e PlayStation 2",
+      "project_count": 1,
+      "details": "games/yu-gi-oh-forbidden-memories.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "tomb-raider-i-v",
+      "title": "Tomb Raider I–V",
+      "platform_group": "PlayStation 1 e PlayStation 2",
+      "project_count": 2,
+      "details": "games/tomb-raider-i-v.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "mega-man-legends-rockman-dash",
+      "title": "Mega Man Legends / Rockman DASH",
+      "platform_group": "PlayStation 1 e PlayStation 2",
+      "project_count": 2,
+      "details": "games/mega-man-legends-rockman-dash.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "sonic-unleashed",
+      "title": "Sonic Unleashed",
+      "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+      "project_count": 1,
+      "details": "games/sonic-unleashed.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "sonic-the-hedgehog-2006",
+      "title": "Sonic the Hedgehog (2006)",
+      "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+      "project_count": 1,
+      "details": "games/sonic-the-hedgehog-2006.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "shadow-the-hedgehog",
+      "title": "Shadow the Hedgehog",
+      "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+      "project_count": 1,
+      "details": "games/shadow-the-hedgehog.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "sonic-adventure",
+      "title": "Sonic Adventure",
+      "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+      "project_count": 1,
+      "details": "games/sonic-adventure.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "sonic-the-hedgehog-1-2-2013",
+      "title": "Sonic the Hedgehog 1 & 2 (2013)",
+      "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+      "project_count": 2,
+      "details": "games/sonic-the-hedgehog-1-2-2013.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "sonic-3-knuckles",
+      "title": "Sonic 3 & Knuckles",
+      "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+      "project_count": 1,
+      "details": "games/sonic-3-knuckles.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "outrun",
+      "title": "OutRun",
+      "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+      "project_count": 1,
+      "details": "games/outrun.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "forza-horizon",
+      "title": "Forza Horizon",
+      "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+      "project_count": 1,
+      "details": "games/forza-horizon.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "blue-dragon",
+      "title": "Blue Dragon",
+      "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+      "project_count": 1,
+      "details": "games/blue-dragon.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "the-darkness",
+      "title": "The Darkness",
+      "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+      "project_count": 1,
+      "details": "games/the-darkness.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "silent-hill-downpour",
+      "title": "Silent Hill: Downpour",
+      "platform_group": "PlayStation 1 e PlayStation 2",
+      "project_count": 1,
+      "details": "games/silent-hill-downpour.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "deadly-premonition",
+      "title": "Deadly Premonition",
+      "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+      "project_count": 1,
+      "details": "games/deadly-premonition.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "tony-hawk-s-project-8",
+      "title": "Tony Hawk's Project 8",
+      "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+      "project_count": 1,
+      "details": "games/tony-hawk-s-project-8.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "spider-man-edge-of-time",
+      "title": "Spider-Man: Edge of Time",
+      "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+      "project_count": 1,
+      "details": "games/spider-man-edge-of-time.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "peter-jackson-s-king-kong",
+      "title": "Peter Jackson's King Kong",
+      "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+      "project_count": 1,
+      "details": "games/peter-jackson-s-king-kong.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "earthworm-jim-hd",
+      "title": "Earthworm Jim HD",
+      "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+      "project_count": 1,
+      "details": "games/earthworm-jim-hd.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "the-simpsons-game",
+      "title": "The Simpsons Game",
+      "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+      "project_count": 1,
+      "details": "games/the-simpsons-game.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "dead-rising-2-case-zero-case-west",
+      "title": "Dead Rising 2: Case Zero & Case West",
+      "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+      "project_count": 2,
+      "details": "games/dead-rising-2-case-zero-case-west.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "dead-or-alive-xtreme-beach-volleyball",
+      "title": "Dead or Alive Xtreme Beach Volleyball",
+      "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+      "project_count": 1,
+      "details": "games/dead-or-alive-xtreme-beach-volleyball.json",
+      "cover": null,
+      "banner": null
+    },
+    {
+      "id": "3-on-3-nhl-arcade",
+      "title": "3 on 3 NHL Arcade",
+      "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+      "project_count": 1,
+      "details": "games/3-on-3-nhl-arcade.json",
+      "cover": null,
+      "banner": null
+    }
+  ]
+}

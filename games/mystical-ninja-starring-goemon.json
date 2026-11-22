@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "mystical-ninja-starring-goemon",
+  "title": "Mystical Ninja Starring Goemon",
+  "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+  "category": null,
+  "cover": null,
+  "banner": null,
+  "screenshots": [],
+  "featured": false,
+  "projects": [
+    {
+      "id": "goemon64recomp",
+      "name": "Goemon64Recomp",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/klorfmorf/Goemon64Recomp",
+        "github_repository": "klorfmorf/Goemon64Recomp",
+        "releases_url": "https://github.com/klorfmorf/Goemon64Recomp/releases"
+      },
+      "description": "Baseado em Zelda64Recomp + RT64 (backend Plume com fallback Vulkan para GPUs Intel antigas). Jogável do início ao fim, UI reformulada, sliders BGM/SFX, descompressão de ROM no primeiro boot e suporte a mods/texturas.",
+      "requirements": "ROM US de Mystical Ninja Starring Goemon, GPU D3D12/Vulkan 1.2 e CPU SSE4.1. Sem compilação manual.",
+      "development_status_reported": "Beta / Experimental",
+      "version": {
+        "reported_by_gemini": "v0.2.0-dev (31/01/2026)",
+        "latest_tag_observed_in_audit": "v0.2.0-dev",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (Goemon64Recompiled-Windows-RelWithDebInfo.zip, 23,8 MB)",
+        "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    }
+  ],
+  "addons": []
+}

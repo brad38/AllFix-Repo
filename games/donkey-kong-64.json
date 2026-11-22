@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "donkey-kong-64",
+  "title": "Donkey Kong 64",
+  "platform_group": "Nintendo 64 — Franquias Nintendo e Rare",
+  "category": null,
+  "cover": null,
+  "banner": null,
+  "screenshots": [],
+  "featured": false,
+  "projects": [
+    {
+      "id": "donkey-kong-64-recompiled-dk64-rekongpiled",
+      "name": "Donkey Kong 64: Recompiled (DK64 Rekongpiled)",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/Rainchus/Donkey-Kong-64-Recompiled",
+        "github_repository": "Rainchus/Donkey-Kong-64-Recompiled",
+        "releases_url": "https://github.com/Rainchus/Donkey-Kong-64-Recompiled/releases"
+      },
+      "description": "Recompilação estática via N64Recomp + RT64. Roda na taxa do monitor sem afetar a física, widescreen/ultrawide, distância de desenho estendida, câmera analógica responsiva, redução de flashes de relâmpago, loads instantâneos e API de mods.",
+      "requirements": "Extrair o ZIP e fornecer ROM US de Donkey Kong 64 (conversão automática). Requer GPU D3D12/Vulkan 1.2 e CPU com AVX.",
+      "development_status_reported": "Estável e ativo",
+      "version": {
+        "reported_by_gemini": "v1.0.3 (29/09/2026)",
+        "latest_tag_observed_in_audit": "v1.0.3",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (DK64Recompiled-Windows-Release-1-0-3.zip, 19,1 MB)",
+        "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    }
+  ],
+  "addons": []
+}

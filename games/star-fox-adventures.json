@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "star-fox-adventures",
+  "title": "Star Fox Adventures",
+  "platform_group": "GameCube, Wii e Wii U",
+  "category": null,
+  "cover": null,
+  "banner": null,
+  "screenshots": [],
+  "featured": false,
+  "projects": [
+    {
+      "id": "foxhollow",
+      "name": "FoxHollow",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/JackPriceBurns/foxhollow",
+        "github_repository": "JackPriceBurns/foxhollow",
+        "releases_url": "https://github.com/JackPriceBurns/foxhollow/releases"
+      },
+      "description": "Port nativo sobre SFA-Decomp e Aurora (D3D11/D3D12, Vulkan, Metal). Focado em fidelidade total ao original, com launcher auto-atualizável, gerenciamento de saves, remapeamento de controles, biblioteca de mods e networking (v1.0.19).",
+      "requirements": "ISO legal de Star Fox Adventures. Sem compilação manual via launcher.",
+      "development_status_reported": "Estável",
+      "version": {
+        "reported_by_gemini": "v1.0.22 (nov/2026)",
+        "latest_tag_observed_in_audit": "v1.0.30",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (via launcher oficial / GitHub Releases)",
+        "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": "HTML cita v1.0.22; GH lista v1.0.30, mas não detectado pacote Windows pelo nome no primeiro registro.",
+        "functional_installation_tested": false
+      }
+    }
+  ],
+  "addons": []
+}

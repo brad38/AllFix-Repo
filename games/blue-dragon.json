@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "blue-dragon",
+  "title": "Blue Dragon",
+  "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+  "category": null,
+  "cover": null,
+  "banner": null,
+  "screenshots": [],
+  "featured": false,
+  "projects": [
+    {
+      "id": "re-blue",
+      "name": "re:Blue",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/zolaware/reblue",
+        "github_repository": "zolaware/reblue",
+        "releases_url": "https://github.com/zolaware/reblue/releases"
+      },
+      "description": "Recompilação estática via ReXGlue SDK: até 4K, 16:9/21:9/32:9, FPS destravado, MSAA 8x/SSAA 4x, FOV 45°–120°, save em qualquer lugar, teclado/mouse clicáveis, gerenciador de mods, DLCs e 8 conquistas extras.",
+      "requirements": "ISOs de todos os 3 DVDs da edição Global (US/EU) + 15 GB livres e GPU D3D12 SM 6.0. Assistente extrai automaticamente.",
+      "development_status_reported": "Estável",
+      "version": {
+        "reported_by_gemini": "v1.3.1 (05/10/2026) · nightly v1.4.0 (19/11/2026)",
+        "latest_tag_observed_in_audit": "nightly-v1.4.0-dd4359fe1-s115171b4",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (builds Windows x64 D3D12 nas releases)",
+        "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    }
+  ],
+  "addons": []
+}

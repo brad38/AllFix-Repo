@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "tomb-raider-i-v",
+  "title": "Tomb Raider I–V",
+  "platform_group": "PlayStation 1 e PlayStation 2",
+  "category": null,
+  "cover": null,
+  "banner": null,
+  "screenshots": [],
+  "featured": false,
+  "projects": [
+    {
+      "id": "trx-tomb-raider-i-iii-community-edition",
+      "name": "TRX (Tomb Raider I–III Community Edition)",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/LostArtefacts/TRX",
+        "github_repository": "LostArtefacts/TRX",
+        "releases_url": "https://github.com/LostArtefacts/TRX/releases"
+      },
+      "description": "Reimplementação por decompilação em engine unificada para TR1, TR2, TR3 e níveis customizados (TR4 em andamento). Trança restaurada no TR1, 60 FPS, modo foto, itens 3D, barra de vida, opções retrô PS1, console dev, API Lua e centenas de correções.",
+      "requirements": "Arquivos originais de Tomb Raider I–III (PC/Steam/GOG ou disco detectado pelo instalador TRX). Sem compilação manual.",
+      "development_status_reported": "Estável (TR1–3) / Beta (TR4)",
+      "version": {
+        "reported_by_gemini": "trx-1.12 (02/11/2026)",
+        "latest_tag_observed_in_audit": "latest",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (instalador e ZIP Windows nas releases)",
+        "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    },
+    {
+      "id": "openlara",
+      "name": "OpenLara",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/XProger/OpenLara",
+        "github_repository": "XProger/OpenLara",
+        "releases_url": "https://github.com/XProger/OpenLara/releases"
+      },
+      "description": "Engine open-source ultraleve multiplataforma com iluminação dinâmica, cáusticas na água, modo em primeira pessoa, co-op split-screen e 60+ FPS. TR2–TR5 seguem incompletos.",
+      "requirements": "Arquivos de fases e áudio de Tomb Raider (PC ou PS1). Compilação manual necessária para correções pós-2021.",
+      "development_status_reported": "Beta / Experimental (releases estagnadas)",
+      "version": {
+        "reported_by_gemini": "latest (build Windows de 23/03/2021)",
+        "latest_tag_observed_in_audit": "latest",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (ZIP Windows antigo de 2021 na release latest)",
+        "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    }
+  ],
+  "addons": []
+}

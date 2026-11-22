@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "duke-nukem-zero-hour",
+  "title": "Duke Nukem: Zero Hour",
+  "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+  "category": null,
+  "cover": null,
+  "banner": null,
+  "screenshots": [],
+  "featured": false,
+  "projects": [
+    {
+      "id": "dnzhrecomp",
+      "name": "DNZHRecomp",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/sonicdcer/DNZHRecomp",
+        "github_repository": "sonicdcer/DNZHRecomp",
+        "releases_url": "https://github.com/sonicdcer/DNZHRecomp/releases"
+      },
+      "description": "Recompilação estática N64Recomp + RT64 apoiada nos cabeçalhos da decompilação gillou68310/dukenukemzerohour. Alto framerate, widescreen/ultrawide com HUD 16:9, menus RmlUi e ajuste de deadzone. Marcado como WIP.",
+      "requirements": "ROM US de Duke Nukem: Zero Hour, GPU D3D12/Vulkan 1.2 e CPU SSE4.1. Sem compilação manual.",
+      "development_status_reported": "Beta / Experimental (WIP)",
+      "version": {
+        "reported_by_gemini": "0.0.3 (01/11/2025)",
+        "latest_tag_observed_in_audit": "0.0.3",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (builds Windows via release / recomp.gg)",
+        "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    }
+  ],
+  "addons": []
+}

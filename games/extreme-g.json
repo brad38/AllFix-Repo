@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "extreme-g",
+  "title": "Extreme-G",
+  "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+  "category": null,
+  "cover": null,
+  "banner": null,
+  "screenshots": [],
+  "featured": false,
+  "projects": [
+    {
+      "id": "extremegrecomp",
+      "name": "ExtremeGRecomp",
+      "developer": null,
+      "source": {
+        "url": "https://gitlab.com/sonicdcer/ExtremeGRecomp/-/releases/v1.0.0",
+        "github_repository": null,
+        "releases_url": null
+      },
+      "description": "Recompilação estática nativa via N64Recomp + RT64 com alta resolução, widescreen, alto FPS e suporte a mods. Nota: o repositório oficial fica no GitLab (no GitHub existe apenas empacotador Linux).",
+      "requirements": "Baixar pacote Windows no GitLab e fornecer ROM US de Extreme-G em hardware compatível com RT64.",
+      "development_status_reported": "Estável",
+      "version": {
+        "reported_by_gemini": "v1.0.0 (ago/2026)",
+        "latest_tag_observed_in_audit": "-",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (binários Windows no GitLab oficial)",
+        "audit_result": "Requer verificação na origem",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "Fonte externa ou URL não específica de repositório GitHub",
+        "releases": "Não verificado por API GitHub",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    }
+  ],
+  "addons": []
+}

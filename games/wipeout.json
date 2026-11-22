@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "wipeout",
+  "title": "Wipeout",
+  "platform_group": "PlayStation 1 e PlayStation 2",
+  "category": null,
+  "cover": null,
+  "banner": null,
+  "screenshots": [],
+  "featured": false,
+  "projects": [
+    {
+      "id": "wipeout-phantom-edition",
+      "name": "WipeOut Phantom Edition",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/wipeout-phantom-edition/wipeout-phantom-edition",
+        "github_repository": "wipeout-phantom-edition/wipeout-phantom-edition",
+        "releases_url": "https://github.com/wipeout-phantom-edition/wipeout-phantom-edition/releases"
+      },
+      "description": "Source port aprimorado usando dados do PS1 (mais fiel que o PC port de 1995): FPS desbloqueado, alta resolução, widescreen, distância de visão ampliada, partículas, iluminação nas naves, 3 modos de colisão e áudio 3D.",
+      "requirements": "Imagem PS1 USA multi-bin (9 .bin + 1 .cue) colocada em wipeout/diskimages. Sem compilação manual.",
+      "development_status_reported": "Estável",
+      "version": {
+        "reported_by_gemini": "wipeout-v1.2.256 (16/02/2024)",
+        "latest_tag_observed_in_audit": "v1.2.256",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (ZIP Windows nas releases)",
+        "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    },
+    {
+      "id": "wipeout-rewrite",
+      "name": "wipEout Rewrite",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/phoboslab/wipeout-rewrite",
+        "github_repository": "phoboslab/wipeout-rewrite",
+        "releases_url": "https://github.com/phoboslab/wipeout-rewrite/releases"
+      },
+      "description": "Reescrita aberta em C com backends SDL2/Sokol e renderizador software opcional, alta resolução e widescreen (ainda sem animações finais e reverb em túneis).",
+      "requirements": "Compilação manual obrigatória (VS clang-cl ou MSYS2) + assets mistos do PSX NTSC e menus do PC.",
+      "development_status_reported": "Beta / Experimental",
+      "version": {
+        "reported_by_gemini": "Sem tag / release (branch master)",
+        "latest_tag_observed_in_audit": "-",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Não (apenas demo WebAssembly; Windows exige compilar)",
+        "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Sem releases GitHub",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    }
+  ],
+  "addons": []
+}

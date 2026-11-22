@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "automobili-lamborghini",
+  "title": "Automobili Lamborghini",
+  "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+  "category": null,
+  "cover": null,
+  "banner": null,
+  "screenshots": [],
+  "featured": false,
+  "projects": [
+    {
+      "id": "automobililamborghini-recomp",
+      "name": "automobililamborghini-recomp",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/alondero/automobililamborghini-recomp",
+        "github_repository": "alondero/automobililamborghini-recomp",
+        "releases_url": "https://github.com/alondero/automobililamborghini-recomp/releases"
+      },
+      "description": "Um dos projetos mais ativos de 2026: widescreen, alto FPS, eliminação de pop-in, câmera/FOV ajustável, gatilhos analógicos, Rumble+Controller Pak simultâneos, síntese física de áudio de motores (V12/V10), mod de clima da versão JP e sombras RT pré-alfa.",
+      "requirements": "Extrair ZIP e colocar ROM USA (.z64/.n64) ao lado de lamborghini_modern.exe. Sem compilação manual.",
+      "development_status_reported": "Beta / Experimental (muito ativo)",
+      "version": {
+        "reported_by_gemini": "v0.8.1 (13/10/2026; branch main em v0.11.0)",
+        "latest_tag_observed_in_audit": "v0.11.1",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (lamborghini-recomp-windows-x64.zip, 34,1 MB)",
+        "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": "HTML cita v0.8.1; GH disponibiliza v0.11.1.",
+        "functional_installation_tested": false
+      }
+    }
+  ],
+  "addons": []
+}

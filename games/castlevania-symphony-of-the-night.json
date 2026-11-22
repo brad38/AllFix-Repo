@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "castlevania-symphony-of-the-night",
+  "title": "Castlevania: Symphony of the Night",
+  "platform_group": "PlayStation 1 e PlayStation 2",
+  "category": null,
+  "cover": null,
+  "banner": null,
+  "screenshots": [],
+  "featured": false,
+  "projects": [
+    {
+      "id": "symphonyrecomp",
+      "name": "SymphonyRecomp",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/BlackLabelHQ/SymphonyRecomp",
+        "github_repository": "BlackLabelHQ/SymphonyRecomp",
+        "releases_url": "https://github.com/BlackLabelHQ/SymphonyRecomp/releases"
+      },
+      "description": "Recompilação estática em C# via RecompOne. Widescreen real com extensão de salas e entidades fora do 4:3, interface BigPicture, cor 24-bit, shaders Slang/Libretro, Asset Pack Editor, randomizer integrado, mods e interface em PT-BR.",
+      "requirements": "Cópia NTSC-U (USA) em BIN+CUE ou .CHD, runtime .NET 10 obrigatório, OpenAL e GPU OpenGL 2.1+. Sem compilação manual.",
+      "development_status_reported": "Beta / Experimental",
+      "version": {
+        "reported_by_gemini": "v1.2.0p pré-release (nov/2026) · v0.5.1b (18/08/2026)",
+        "latest_tag_observed_in_audit": "v1.2.0p",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (SymphonyRecomp-v1.2.0p-windows-x64.zip, 60,9 MB / arm64)",
+        "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    }
+  ],
+  "addons": []
+}

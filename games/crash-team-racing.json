@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "crash-team-racing",
+  "title": "Crash Team Racing",
+  "platform_group": "PlayStation 1 e PlayStation 2",
+  "category": null,
+  "cover": null,
+  "banner": null,
+  "screenshots": [],
+  "featured": false,
+  "projects": [
+    {
+      "id": "crash-team-racing-high-octane",
+      "name": "Crash Team Racing: High Octane",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/Rinnegatamante/Crash-Team-Racing-High-Octane",
+        "github_repository": "Rinnegatamante/Crash-Team-Racing-High-Octane",
+        "releases_url": "https://github.com/Rinnegatamante/Crash-Team-Racing-High-Octane/releases"
+      },
+      "description": "Source port multiplataforma derivado de ctr-native: widescreen real, 60 FPS, PGXP, filtros pós-processamento (CRT/FXAA), split-screen até 4 jogadores, leaderboard online Time Trial/Relic, Ghost Replay, pistas reversas/Mirror e personagens customizados.",
+      "requirements": "Dump BIN NTSC-U (USA) renomeado para assets/ctr-u.bin ao lado do executável. Sem compilação manual.",
+      "development_status_reported": "Estável",
+      "version": {
+        "reported_by_gemini": "v.1.5 (12/10/2026)",
+        "latest_tag_observed_in_audit": "v.1.5",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (ctr-high-octane-x64.win.zip, 2,29 MB)",
+        "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    },
+    {
+      "id": "crash-team-racing-turbocharged",
+      "name": "Crash Team Racing: Turbocharged",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/CameronRedmore/Crash-Team-Racing-Turbocharged",
+        "github_repository": "CameronRedmore/Crash-Team-Racing-Turbocharged",
+        "releases_url": "https://github.com/CameronRedmore/Crash-Team-Racing-Turbocharged/releases"
+      },
+      "description": "Fork de High Octane focado em PC: renderizador 3D nativo com depth buffer, PGXP, até 240 FPS interpolados, 4:3 a 32:9, MSAA/SSAA/FXAA, seleção de motor independente do personagem, autosave e HUD vetorial moderno.",
+      "requirements": "Dump raw BIN (MODE2/2352) NTSC-U em assets/ctr-u.bin e GPU OpenGL 3.3+. Baixar ZIP pronto em ctr.cmzi.uk.",
+      "development_status_reported": "Beta / Experimental",
+      "version": {
+        "reported_by_gemini": "2026.10.1 / build 07d0c49 (06/10/2026)",
+        "latest_tag_observed_in_audit": "-",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim no site oficial ctr.cmzi.uk (não na aba GH Releases)",
+        "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Sem releases GitHub",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    },
+    {
+      "id": "ctr-native",
+      "name": "CTR Native",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/CTR-tools/ctr-native",
+        "github_repository": "CTR-tools/ctr-native",
+        "releases_url": "https://github.com/CTR-tools/ctr-native/releases"
+      },
+      "description": "Port nativo base compilado dos 943 arquivos C da decompilação CTR-ModSDK com SDL3. Foca em paridade fiel com o jogo de 1999 (incluindo glitches de speedrun) e serve de fundação para forks.",
+      "requirements": "Dump raw BIN (MODE2/2352) NTSC-U em assets/ctr-u.bin e GPU OpenGL 3.3+. Sem compilação manual.",
+      "development_status_reported": "Beta / Experimental",
+      "version": {
+        "reported_by_gemini": "beta-7.1 (07/07/2026)",
+        "latest_tag_observed_in_audit": "beta-7.1",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (executável estático Windows x86 nas releases)",
+        "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    }
+  ],
+  "addons": []
+}

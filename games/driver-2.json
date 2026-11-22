@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "driver-2",
+  "title": "Driver 2",
+  "platform_group": "PlayStation 1 e PlayStation 2",
+  "category": null,
+  "cover": null,
+  "banner": null,
+  "screenshots": [],
+  "featured": false,
+  "projects": [
+    {
+      "id": "redriver2",
+      "name": "REDRIVER2",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/OpenDriver2/REDRIVER2",
+        "github_repository": "OpenDriver2/REDRIVER2",
+        "releases_url": "https://github.com/OpenDriver2/REDRIVER2/releases"
+      },
+      "description": "Decompilação completa MIPS → C via Psy-X/PsyCross sem emulação. Corrige bugs do PS1, restaura conteúdo cortado (monotrilho de Vegas, luzes dinâmicas), fontes HD, widescreen, FOV, câmera livre, fast load e troca de texturas/modelos.",
+      "requirements": "Imagens dos 2 CDs de Driver 2 em ISO ou BIN+CUE (instalação guiada via Launcher). Sem compilação manual.",
+      "development_status_reported": "Estável",
+      "version": {
+        "reported_by_gemini": "8.0 RC (02/07/2026) · 7.4-rc2 (04/02/2022)",
+        "latest_tag_observed_in_audit": "8.0",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (ZIPs Windows 64-bit na 8.0 / Launcher)",
+        "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    }
+  ],
+  "addons": []
+}

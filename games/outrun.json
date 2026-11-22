@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "outrun",
+  "title": "OutRun",
+  "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+  "category": null,
+  "cover": null,
+  "banner": null,
+  "screenshots": [],
+  "featured": false,
+  "projects": [
+    {
+      "id": "cannonball",
+      "name": "Cannonball",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/djyt/cannonball",
+        "github_repository": "djyt/cannonball",
+        "releases_url": "https://github.com/djyt/cannonball/releases"
+      },
+      "description": "Reescrita completa em C++ (SDL2/OpenGL) do código 68000/Z80 do arcade com 60 FPS reais, widescreen, correções opcionais, Time Trial/Continuous e suporte a áudio Switch/3DS.",
+      "requirements": "Romset arcade OutRun Revision B colocado na pasta roms/ (CRC32 validado). Sem compilação manual.",
+      "development_status_reported": "Estável (repositório original inativo)",
+      "version": {
+        "reported_by_gemini": "v0.34 (26/04/2021)",
+        "latest_tag_observed_in_audit": "v0.34",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (build oficial Windows na release v0.34)",
+        "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    }
+  ],
+  "addons": []
+}

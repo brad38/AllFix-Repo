@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "goldeneye-007",
+  "title": "GoldenEye 007",
+  "platform_group": "Nintendo 64 — Franquias Nintendo e Rare",
+  "category": null,
+  "cover": null,
+  "banner": null,
+  "screenshots": [],
+  "featured": false,
+  "projects": [
+    {
+      "id": "project-midas",
+      "name": "Project Midas",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/murkantor/Project-Midas",
+        "github_repository": "murkantor/Project-Midas",
+        "releases_url": "https://github.com/murkantor/Project-Midas/releases"
+      },
+      "description": "Port nativo (OpenGL/Fast3D + SDL2) pelo autor do netplay de Perfect Dark. Widescreen, mouselook, FOV independente para armas, HUD escalável, Modo Clássico (N64 AA + vídeo composto), perfis MP, saves do Project64 e correções de alto FPS. Co-op/netplay e mods em desenvolvimento.",
+      "requirements": "Extrair o ZIP e colocar a ROM US de GoldenEye 007 na pasta Data/ ao lado de ProjectMidas.exe.",
+      "development_status_reported": "Estável / Beta avançado",
+      "version": {
+        "reported_by_gemini": "1.0.2b (23/10/2026)",
+        "latest_tag_observed_in_audit": "1.0.2b",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (ProjectMidas-v1.0.2b-windows.zip, 6,87 MB)",
+        "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    },
+    {
+      "id": "goldeneye-007-pc-port",
+      "name": "GoldenEye 007 PC Port",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/jkdansereau/goldeneye-pc-port",
+        "github_repository": "jkdansereau/goldeneye-pc-port",
+        "releases_url": "https://github.com/jkdansereau/goldeneye-pc-port/releases"
+      },
+      "description": "Port nativo focado em fidelidade 1:1 ao N64 e leveza (60 FPS até em Intel HD 3000): campanha completa (20 missões), split-screen 2–4 jogadores, estilos de controle N64/Xbox, mira N64 ou centralizada e importação de saves .eep.",
+      "requirements": "Extrair o ZIP, criar data/ com a ROM US renomeada para ge007.ntsc-final.z64. Requer Windows 10/11 x64 e OpenGL 3.0+.",
+      "development_status_reported": "Beta / Pré-1.0 ativo",
+      "version": {
+        "reported_by_gemini": "v0.5.0 (07/10/2026)",
+        "latest_tag_observed_in_audit": "v0.5.0",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (goldeneye-pc-port-0.5.0-win64.zip)",
+        "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    }
+  ],
+  "addons": []
+}

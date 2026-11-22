@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "3-on-3-nhl-arcade",
+  "title": "3 on 3 NHL Arcade",
+  "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+  "category": null,
+  "cover": null,
+  "banner": null,
+  "screenshots": [],
+  "featured": false,
+  "projects": [
+    {
+      "id": "3on3nhl-recomp",
+      "name": "3on3NHL-recomp",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/Wndwsqrrl/3on3NHL-recomp",
+        "github_repository": "Wndwsqrrl/3on3NHL-recomp",
+        "releases_url": "https://github.com/Wndwsqrrl/3on3NHL-recomp/releases"
+      },
+      "description": "Recompilação estática ReXGlue (D3D12) com partidas completas, controles Xbox/PS, conquistas locais (10/12) e modo online/mods em desenvolvimento.",
+      "requirements": "Pacote XBLA próprio (58410975), CPU SSE4.2, GPU D3D12 e ~350 MB livres. Sem compilação manual.",
+      "development_status_reported": "Beta / Experimental",
+      "version": {
+        "reported_by_gemini": "v0.1.1 (out/2026)",
+        "latest_tag_observed_in_audit": "v0.1.1",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (ZIP Windows x64 com NHL 3on3 Launcher.exe)",
+        "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    }
+  ],
+  "addons": []
+}

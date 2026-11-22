@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "sonic-adventure",
+  "title": "Sonic Adventure",
+  "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+  "category": null,
+  "cover": null,
+  "banner": null,
+  "screenshots": [],
+  "featured": false,
+  "projects": [
+    {
+      "id": "sarecomp-sonic-adventure-recompiled",
+      "name": "SARecomp (Sonic Adventure Recompiled)",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/sonicfreak1337/SARecomp",
+        "github_repository": "sonicfreak1337/SARecomp",
+        "releases_url": "https://github.com/sonicfreak1337/SARecomp/releases"
+      },
+      "description": "Recompilação estática (KatanaRecomp) em D3D11/Vulkan, 4:3/16:9/21:9, opção de 60 updates/s, câmera moderna com mouse/analógico, importação de VMU .bin do Flycast e todas as 7 histórias jogáveis.",
+      "requirements": "Imagem .gdi específica de Sonic Adventure Dreamcast PAL v1.003 (1999) com todas as trilhas (SADX não suportado).",
+      "development_status_reported": "Beta / Experimental",
+      "version": {
+        "reported_by_gemini": "v0.52.1 (out/2026 Linux) · v0.52.0 (out/2026 Windows)",
+        "latest_tag_observed_in_audit": "v0.52.1",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (instalador .exe na release v0.52.0)",
+        "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    }
+  ],
+  "addons": []
+}

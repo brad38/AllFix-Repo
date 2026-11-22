@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "id": "super-mario-64",
+  "title": "Super Mario 64",
+  "platform_group": "Nintendo 64 — Franquias Nintendo e Rare",
+  "category": null,
+  "cover": null,
+  "banner": null,
+  "screenshots": [],
+  "featured": false,
+  "projects": [
+    {
+      "id": "ghostship",
+      "name": "Ghostship",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/HarbourMasters/Ghostship",
+        "github_repository": "HarbourMasters/Ghostship",
+        "releases_url": "https://github.com/HarbourMasters/Ghostship/releases"
+      },
+      "description": "Port moderno em libultraship e Torch com interface ImGui, 4 backends gráficos (DX11, OpenGL, Metal, Vulkan), shaders multipass, texturas HD, Randomizer completo, conquistas, modo espelhado, scripting em C (TinyCC) e suporte a ROM hacks.",
+      "requirements": "Extrair o ZIP, executar Ghostship.exe e apontar ROM .z64 US ou JP para gerar sm64.o2r automaticamente. Sem compilação manual.",
+      "development_status_reported": "Estável e muito ativo",
+      "version": {
+        "reported_by_gemini": "3.0.0 — Nautilus Alfa (06/09/2026)",
+        "latest_tag_observed_in_audit": "3.0.0",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (Nautilus-Alfa-Win64.zip, 19,4 MB)",
+        "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    },
+    {
+      "id": "sm64coopdx-super-mario-64-coop-deluxe",
+      "name": "sm64coopdx (Super Mario 64 Coop Deluxe)",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/coop-deluxe/sm64coopdx",
+        "github_repository": "coop-deluxe/sm64coopdx",
+        "releases_url": "https://github.com/coop-deluxe/sm64coopdx/releases"
+      },
+      "description": "Sucessor oficial do sm64ex-coop. Focado em multiplayer online em tempo real (CoopNet ou direto), API completa de mods em Lua, packs DynOS, ROM hacks integráveis (SM74, Star Road), atualizador automático e seleção OpenGL/DirectX.",
+      "requirements": "Extrair o ZIP e selecionar a ROM original de SM64 na primeira execução. Sem compilação manual.",
+      "development_status_reported": "Estável e ativo",
+      "version": {
+        "reported_by_gemini": "v1.5.1 (31/05/2026)",
+        "latest_tag_observed_in_audit": "v1.5.1",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (sm64coopdx_Windows.zip, 39,9 MB)",
+        "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    },
+    {
+      "id": "sm64plus",
+      "name": "SM64Plus",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/MorsGames/sm64plus",
+        "github_repository": "MorsGames/sm64plus",
+        "releases_url": "https://github.com/MorsGames/sm64plus/releases"
+      },
+      "description": "Fork de sm64-port focado em qualidade de vida single-player: controles responsivos, moveset estendido, câmera melhorada, opção de permanecer na fase após estrelas (Remain Mod), modos extras (Green Demon) e 60 FPS interpolados.",
+      "requirements": "Exige launcher externo no MFGG para automatizar o build no Windows ou compilação manual com ROM original (baserom.us.z64).",
+      "development_status_reported": "Estável (atualização lenta)",
+      "version": {
+        "reported_by_gemini": "Sem release no repo principal (v4.0.0 WIP; launcher v3.0.0)",
+        "latest_tag_observed_in_audit": "LauncherMirror",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Não no GitHub (launcher Windows via MFGG)",
+        "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    },
+    {
+      "id": "render96ex",
+      "name": "Render96ex",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/Render96/Render96ex",
+        "github_repository": "Render96/Render96ex",
+        "releases_url": "https://github.com/Render96/Render96ex/releases"
+      },
+      "description": "Fork do sm64ex voltado à estética promocional Silicon Graphics de 1996. Combina substituição total de modelos 3D via DynOS, texturas HD e integração nativa do path-tracer sm64rt.",
+      "requirements": "Compilação manual (MSYS2/sm64pcBuilder) com ROM original, mais download manual do Render96/ModelPack e RENDER96-HD-TEXTURE-PACK.",
+      "development_status_reported": "Estável (manutenção leve)",
+      "version": {
+        "reported_by_gemini": "Sem releases (último commit jul/2026)",
+        "latest_tag_observed_in_audit": "-",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Não (compilação manual)",
+        "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Sem releases GitHub",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    },
+    {
+      "id": "sm64ex",
+      "name": "sm64ex",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/sm64pc/sm64ex",
+        "github_repository": "sm64pc/sm64ex",
+        "releases_url": "https://github.com/sm64pc/sm64ex/releases"
+      },
+      "description": "Fork histórico base da cena de PC ports: menu in-game, Puppycam (câmera analógica/mouse), texturas/soundbanks externos e backends OpenGL/DX11/DX12. Superado em praticidade por Ghostship e sm64coopdx.",
+      "requirements": "Compilação manual obrigatória via MSYS2 ou MXE usando ROM original (US, EU, JP ou Shindou).",
+      "development_status_reported": "Estável / Inativo",
+      "version": {
+        "reported_by_gemini": "Sem releases (último commit ~2024)",
+        "latest_tag_observed_in_audit": "-",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Não (compilação manual)",
+        "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Sem releases GitHub",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    },
+    {
+      "id": "sm64rt",
+      "name": "sm64rt",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/DarioSamo/sm64rt",
+        "github_repository": "DarioSamo/sm64rt",
+        "releases_url": "https://github.com/DarioSamo/sm64rt/releases"
+      },
+      "description": "Fork experimental de sm64ex com path-tracing em tempo real via RT64 (iluminação global, reflexos, refrações, DLSS, FSR 2 e XeSS). Integrado nativamente ao Render96ex.",
+      "requirements": "Compilação manual com flags RENDER_API=RT64 EXTERNAL_DATA=1, ROM original e GPU com DirectX Raytracing (DXR).",
+      "development_status_reported": "Abandonado / Arquivado (integrado ao Render96ex)",
+      "version": {
+        "reported_by_gemini": "Sem releases (último commit ~2024)",
+        "latest_tag_observed_in_audit": "-",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Não (compilação manual)",
+        "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Sem releases GitHub",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    }
+  ],
+  "addons": []
+}

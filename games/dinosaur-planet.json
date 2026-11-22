@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "dinosaur-planet",
+  "title": "Dinosaur Planet",
+  "platform_group": "Nintendo 64 — Franquias Nintendo e Rare",
+  "category": null,
+  "cover": null,
+  "banner": null,
+  "screenshots": [],
+  "featured": false,
+  "projects": [
+    {
+      "id": "dinosaur-planet-recompiled-dino-recomp",
+      "name": "Dinosaur Planet: Recompiled (dino-recomp)",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/DinosaurPlanetRecomp/dino-recomp",
+        "github_repository": "DinosaurPlanetRecomp/dino-recomp",
+        "releases_url": "https://github.com/DinosaurPlanetRecomp/dino-recomp/releases"
+      },
+      "description": "Recompilação estática do protótipo de dez/2000 (que originou Star Fox Adventures), baseada em Zelda64Recomp + RT64. Widescreen 16:9, FPS desbloqueado em refinamento, menu debug e API ReAsset/Thunderstore (recomenda o mod Dinomod Enhanced para avançar além dos atos iniciais).",
+      "requirements": "Extrair o ZIP e fornecer a ROM limpa do protótipo de dez/2000 + mod Dinomod Enhanced. Requer D3D12/Vulkan 1.2 e CPU SSE4.1.",
+      "development_status_reported": "Beta / Experimental",
+      "version": {
+        "reported_by_gemini": "v0.3.0 (30/05/2026) · v0.3.1-beta1 (01/11/2026)",
+        "latest_tag_observed_in_audit": "v0.3.1-beta1",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (DinosaurPlanetRecompiled-v0.3.0-Windows-x64.zip, 20 MB)",
+        "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    }
+  ],
+  "addons": []
+}

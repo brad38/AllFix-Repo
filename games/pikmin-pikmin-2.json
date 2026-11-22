@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "pikmin-pikmin-2",
+  "title": "Pikmin & Pikmin 2",
+  "platform_group": "GameCube, Wii e Wii U",
+  "category": null,
+  "cover": null,
+  "banner": null,
+  "screenshots": [],
+  "featured": false,
+  "projects": [
+    {
+      "id": "open-nectar",
+      "name": "Open Nectar",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port",
+        "github_repository": "SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port",
+        "releases_url": "https://github.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port/releases"
+      },
+      "description": "Port nativo sem emulação (GX→OpenGL 3.3+ e JAudio) que executa Pikmin 1 e 2 no mesmo launcher: 30/60/120 FPS, widescreen/ultrawide, mira com mouse, pós-processamento opcional, texturas HD 4K, modelos de Pikmin 3, Randomizer, Speedrun, co-op local e Map/Model Maker.",
+      "requirements": "Windows 64-bit, GPU OpenGL 3.3+ e discos Pikmin 1 (USA Rev 1 / EU) e/ou Pikmin 2 (USA / EU) em .iso/.gcm. Sem compilação manual.",
+      "development_status_reported": "Estável / Beta ativo",
+      "version": {
+        "reported_by_gemini": "1.3 (nov/2026)",
+        "latest_tag_observed_in_audit": "1.3",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (nectar-windows.zip com nectar-launcher.exe)",
+        "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    }
+  ],
+  "addons": []
+}

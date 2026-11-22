@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "bloody-roar-ii",
+  "title": "Bloody Roar II",
+  "platform_group": "PlayStation 1 e PlayStation 2",
+  "category": null,
+  "cover": null,
+  "banner": null,
+  "screenshots": [],
+  "featured": false,
+  "projects": [
+    {
+      "id": "bloodyroar2recomp",
+      "name": "BloodyRoar2Recomp",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/novapowers0/BloodyRoar2Recomp",
+        "github_repository": "novapowers0/BloodyRoar2Recomp",
+        "releases_url": "https://github.com/novapowers0/BloodyRoar2Recomp/releases"
+      },
+      "description": "Recompilação estática MIPS → C via psxrecomp. Detecta automaticamente discos EU, USA e JP (exp.). Widescreen real (16:9/21:9), PGXP, Turbo Mode (75/120 Hz+), loads rápidos, Unlock All e Netplay online 2P com lobby e rollback.",
+      "requirements": "Imagem .bin/.cue, .iso ou .chd (EU ou USA). OpenBIOS já embutido (SCPH-1001.BIN opcional). Sem compilação manual.",
+      "development_status_reported": "Beta / Experimental",
+      "version": {
+        "reported_by_gemini": "v0.7.1 (set/2026)",
+        "latest_tag_observed_in_audit": "v0.7.1",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (BloodyRoar2-v0.7.1.zip autossuficiente)",
+        "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    }
+  ],
+  "addons": []
+}

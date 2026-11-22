@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "god-of-war-2005",
+  "title": "God of War (2005)",
+  "platform_group": "PlayStation 1 e PlayStation 2",
+  "category": null,
+  "cover": null,
+  "banner": null,
+  "screenshots": [],
+  "featured": false,
+  "projects": [
+    {
+      "id": "god-of-war-native-pc-port-gow-pc-port",
+      "name": "God of War: native PC port (gow-pc-port)",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/danielalves96/gow-pc-port",
+        "github_repository": "danielalves96/gow-pc-port",
+        "releases_url": "https://github.com/danielalves96/gow-pc-port/releases"
+      },
+      "description": "Recompilação estática MIPS R5900 → C++ (recompiler em Rust) com OpenGL 4.6 (0,25x–8x), 60/120 FPS, widescreen Hor+, vídeos MPEG-2 nativos, teclado+mouse, menu Port Options injetado, saves compatíveis com PCSX2, texturas HD, RetroAchievements e perfil PGO. Launcher em EN e PT-BR.",
+      "requirements": "ISO USA (SCUS-97399 ou .chd), ~20 GB livres no build (~11 GB depois), CPU SSE4.1 (4+ núcleos), GPU OpenGL 4.6 e 8 GB RAM. O assistente baixa Clang portátil e compila em 10–20 min.",
+      "development_status_reported": "Beta / Experimental (muito otimizado)",
+      "version": {
+        "reported_by_gemini": "launcher-v0.4.0 (12/11/2026)",
+        "latest_tag_observed_in_audit": "launcher-v0.4.0",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (setup.exe e portable.zip — recompila localmente)",
+        "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    }
+  ],
+  "addons": []
+}

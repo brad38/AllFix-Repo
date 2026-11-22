@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "dead-rising-2-case-zero-case-west",
+  "title": "Dead Rising 2: Case Zero & Case West",
+  "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+  "category": null,
+  "cover": null,
+  "banner": null,
+  "screenshots": [],
+  "featured": false,
+  "projects": [
+    {
+      "id": "dead-rising-2-case-zero-xenon-recomp",
+      "name": "Dead_Rising_2_Case_Zero_Xenon_Recomp",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/wivi514/Dead_Rising_2_Case_Zero_Xenon_Recomp",
+        "github_repository": "wivi514/Dead_Rising_2_Case_Zero_Xenon_Recomp",
+        "releases_url": "https://github.com/wivi514/Dead_Rising_2_Case_Zero_Xenon_Recomp/releases"
+      },
+      "description": "Recompilação estática XenonRecomp + Vulkan 1.3, até 5K, 21:9, 60+ FPS, MSAA, teclado/mouse de DR2 PC, co-op online 2P e conquistas via XenonLive_Launcher, limite de nível 50 e suporte a mods DR2-Studio.",
+      "requirements": "Pacote XBLA próprio sem extensão de Case Zero (58410A8D) e GPU Vulkan 1.3.",
+      "development_status_reported": "Estável / Finalizado (sem novas atualizações planejadas)",
+      "version": {
+        "reported_by_gemini": "v1.1.3 (14/10/2026)",
+        "latest_tag_observed_in_audit": "v1.1.3",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (CaseZeroRecomp-windows-x86_64.zip, 23,8 MB)",
+        "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    },
+    {
+      "id": "dead-rising-2-case-west-xenon-recomp",
+      "name": "Dead_Rising_2_Case_West_Xenon_Recomp",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/wivi514/Dead_Rising_2_Case_West_Xenon_Recomp",
+        "github_repository": "wivi514/Dead_Rising_2_Case_West_Xenon_Recomp",
+        "releases_url": "https://github.com/wivi514/Dead_Rising_2_Case_West_Xenon_Recomp/releases"
+      },
+      "description": "Recompilação estática irmã de Case Zero com mesma base XenonRecomp + Vulkan 1.3, 5K, ultrawide, 60+ FPS, teclado/mouse nativos, co-op online 2P via XenonLive_Launcher e suporte a mods.",
+      "requirements": "Pacote XBLA próprio sem extensão de Case West (58410B00) e GPU Vulkan 1.3.",
+      "development_status_reported": "Estável / Finalizado (sem novas atualizações planejadas)",
+      "version": {
+        "reported_by_gemini": "v1.1.2 (14/10/2026)",
+        "latest_tag_observed_in_audit": "v1.1.2",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (CaseWestRecomp-windows-x86_64.zip, 23,8 MB)",
+        "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    }
+  ],
+  "addons": []
+}

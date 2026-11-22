@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "sonic-unleashed",
+  "title": "Sonic Unleashed",
+  "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+  "category": null,
+  "cover": null,
+  "banner": null,
+  "screenshots": [],
+  "featured": false,
+  "projects": [
+    {
+      "id": "unleashedrecomp",
+      "name": "UnleashedRecomp",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/hedge-dev/UnleashedRecomp",
+        "github_repository": "hedge-dev/UnleashedRecomp",
+        "releases_url": "https://github.com/hedge-dev/UnleashedRecomp/releases"
+      },
+      "description": "Recompilação estática via XenonRecomp/XenosRecomp com D3D12/Vulkan, 60+ FPS, ultrawide 21:9+, MSAA > 2x, DoF/Motion Blur aprimorados, compilação assíncrona de shaders, conquistas locais, DualSense e mods via Hedge Mod Manager.",
+      "requirements": "Cópia Xbox 360 (US ou EU) + Title Update obrigatório (DLCs opcionais). Assistente importa imagens/pastas; requer CPU AVX e GPU D3D12/Vulkan 1.2.",
+      "development_status_reported": "Estável",
+      "version": {
+        "reported_by_gemini": "v1.0.3 (03/04/2025)",
+        "latest_tag_observed_in_audit": "v1.0.3",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (UnleashedRecomp-Windows.zip, 50,9 MB)",
+        "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    }
+  ],
+  "addons": []
+}

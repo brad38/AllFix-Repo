@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "the-legend-of-zelda-the-wind-waker",
+  "title": "The Legend of Zelda: The Wind Waker",
+  "platform_group": "GameCube, Wii e Wii U",
+  "category": null,
+  "cover": null,
+  "banner": null,
+  "screenshots": [],
+  "featured": false,
+  "projects": [
+    {
+      "id": "bluewake",
+      "name": "BlueWake",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/chrissotraidis/bluewake",
+        "github_repository": "chrissotraidis/bluewake",
+        "releases_url": "https://github.com/chrissotraidis/bluewake/releases"
+      },
+      "description": "Recompilação estática PowerPC → nativo com runtime derivado do Dolphin (sem JIT). D3D12 (fallback D3D11), resolução até 4x, widescreen 16:9/21:9, Smooth Motion até 240 FPS, modo visual estilo WWHD (F2), texturas HD, mods embutidos (Better Wind Waker) e importação de saves .gci/.raw.",
+      "requirements": "Windows 10/11 x64, CPU AVX2, GPU D3D12/D3D11 e cópia USA (GZLE01 rev. 0) em .iso ou .gcm. Sem compilação manual.",
+      "development_status_reported": "Beta / Experimental (ativo semanalmente)",
+      "version": {
+        "reported_by_gemini": "v0.12.0 (14/11/2026)",
+        "latest_tag_observed_in_audit": "v0.12.0",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (BlueWake-v0.12.0-windows-x64.zip, 203 MB)",
+        "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    },
+    {
+      "id": "wind-waker-recomp",
+      "name": "Wind-Waker-Recomp",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/elliotttate/Wind-Waker-Recomp",
+        "github_repository": "elliotttate/Wind-Waker-Recomp",
+        "releases_url": "https://github.com/elliotttate/Wind-Waker-Recomp/releases"
+      },
+      "description": "Fork original que introduziu D3D12, Smooth Motion 240 FPS e escalada livre; foi oficialmente fundido de volta ao BlueWake em outubro de 2026.",
+      "requirements": "Mesmos do BlueWake (baixar diretamente no repositório BlueWake).",
+      "development_status_reported": "Abandonado / Fundido ao BlueWake",
+      "version": {
+        "reported_by_gemini": "Despublicado em out/2026 (última tag 0.4.0)",
+        "latest_tag_observed_in_audit": "-",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Não neste repo (downloads movidos para BlueWake)",
+        "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Sem releases GitHub",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    }
+  ],
+  "addons": []
+}

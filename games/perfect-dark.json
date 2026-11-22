@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "perfect-dark",
+  "title": "Perfect Dark",
+  "platform_group": "Nintendo 64 — Franquias Nintendo e Rare",
+  "category": null,
+  "cover": null,
+  "banner": null,
+  "screenshots": [],
+  "featured": false,
+  "projects": [
+    {
+      "id": "perfect-dark-pc-port-perfect-dark",
+      "name": "Perfect Dark PC Port (perfect_dark)",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/perfect-dark-pc-port/perfect_dark",
+        "github_repository": "perfect-dark-pc-port/perfect_dark",
+        "releases_url": "https://github.com/perfect-dark-pc-port/perfect_dark/releases"
+      },
+      "description": "Port nativo consolidado da decompilação. Campanha e split-screen completos, mouselook nativo, dual-analog, widescreen, FOV, 60 FPS estáveis e modo até 240 FPS, emulação de Transfer Pak (ROM GBC), mods e branch port-net para netplay.",
+      "requirements": "Extrair o ZIP, criar pasta data/ ao lado de pd.x86_64.exe com a ROM NTSC-final / US v1.1 renomeada para pd.ntsc-final.z64. Requer OpenGL 3.0+.",
+      "development_status_reported": "Beta funcional e ativo",
+      "version": {
+        "reported_by_gemini": "ci-dev-build (12/08/2026)",
+        "latest_tag_observed_in_audit": "ci-dev-build",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (pd-x86_64-windows.zip, 24,5 MB / i686)",
+        "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    }
+  ],
+  "addons": []
+}

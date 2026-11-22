@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "dr-mario-64",
+  "title": "Dr. Mario 64",
+  "platform_group": "Nintendo 64 — Franquias Nintendo e Rare",
+  "category": null,
+  "cover": null,
+  "banner": null,
+  "screenshots": [],
+  "featured": false,
+  "projects": [
+    {
+      "id": "drmario64-recomp-plus",
+      "name": "drmario64_recomp_plus",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/theboy181/drmario64_recomp_plus",
+        "github_repository": "theboy181/drmario64_recomp_plus",
+        "releases_url": "https://github.com/theboy181/drmario64_recomp_plus/releases"
+      },
+      "description": "Fork com release pronta que move a renderização de cápsulas para a GPU, adiciona interpolação 60+ FPS, habilita multiplayer local para 4 controles, efeitos CRT e menu atualizado.",
+      "requirements": "Baixar a release v1.0.0 e fornecer ROM US vanilla de Dr. Mario 64 em tempo de execução.",
+      "development_status_reported": "Beta / Experimental",
+      "version": {
+        "reported_by_gemini": "1.0.0 (17/12/2025)",
+        "latest_tag_observed_in_audit": "1.0.0",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Sim (release v1.0.0 publicada)",
+        "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Release GitHub consultada",
+        "notes": null,
+        "functional_installation_tested": false
+      }
+    },
+    {
+      "id": "drmario64-recomp",
+      "name": "drmario64_recomp",
+      "developer": null,
+      "source": {
+        "url": "https://github.com/AngheloAlf/drmario64_recomp",
+        "github_repository": "AngheloAlf/drmario64_recomp",
+        "releases_url": "https://github.com/AngheloAlf/drmario64_recomp/releases"
+      },
+      "description": "Prova de conceito inicial limitada a 1 jogador, com problemas de proporção e crash ao fechar. Substituído pelo fork drmario64_recomp_plus.",
+      "requirements": "Compilação manual complexa (decomp + N64Recomp + CMake/Clang) e ROM US original.",
+      "development_status_reported": "Abandonado / Arquivado",
+      "version": {
+        "reported_by_gemini": "Sem releases (arquivado em 06/10/2026)",
+        "latest_tag_observed_in_audit": "-",
+        "release_tag_to_install": null,
+        "release_asset_to_install": null
+      },
+      "windows": {
+        "reported_availability": "Não (compilação manual)",
+        "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+        "installation_enabled": false
+      },
+      "validation": {
+        "repository": "GitHub API: OK",
+        "releases": "Sem releases GitHub",
+        "notes": "Repositório arquivado; não há releases.",
+        "functional_installation_tested": false
+      }
+    }
+  ],
+  "addons": []
+}
