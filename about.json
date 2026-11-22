@@ -2,529 +2,616 @@
   "schema_version": 1,
   "language": "pt-BR",
   "updated_at": "2026-11-22",
-  "notice": "Descricoes anteriores sao resumos de pesquisa, nao substituem metadados dinamicos da API do repositorio. Descricoes de jogos ainda nao foram pesquisadas.",
+  "notice": "Textos em português brasileiro prontos para exibição. Verificar documentação oficial antes de confiar em requisitos, status de desenvolvimento ou recursos de projetos.",
   "games": {
     "super-mario-64": {
       "title": "Super Mario 64",
-      "description": null,
+      "description": "Jogo de plataforma 3D em que Mario explora os mundos do castelo da Princesa Peach para recuperar Estrelas de Poder e enfrentar Bowser.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "the-legend-of-zelda-ocarina-of-time": {
       "title": "The Legend of Zelda: Ocarina of Time",
-      "description": null,
+      "description": "Aventura de ação em Hyrule na qual Link viaja entre períodos de sua vida para impedir os planos de Ganondorf.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "the-legend-of-zelda-majora-s-mask": {
       "title": "The Legend of Zelda: Majora's Mask",
-      "description": null,
+      "description": "Aventura de ação em Termina, onde Link precisa impedir a queda da lua em um ciclo de três dias, usando máscaras com diferentes habilidades.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "star-fox-64": {
       "title": "Star Fox 64",
-      "description": null,
+      "description": "Jogo de combate espacial em que Fox McCloud e sua equipe enfrentam as forças de Andross em missões com veículos e diferentes rotas.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "mario-kart-64": {
       "title": "Mario Kart 64",
-      "description": null,
+      "description": "Jogo de corrida de karts com personagens da série Mario, pistas temáticas e itens usados para atacar adversários.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "super-smash-bros": {
       "title": "Super Smash Bros.",
-      "description": null,
+      "description": "Jogo de luta em arenas com personagens da Nintendo, no qual o objetivo é lançar os oponentes para fora do cenário.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "paper-mario": {
       "title": "Paper Mario",
-      "description": null,
+      "description": "RPG com Mario e personagens apresentados como figuras de papel, combinando exploração, diálogos e batalhas por turnos.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "donkey-kong-64": {
       "title": "Donkey Kong 64",
-      "description": null,
+      "description": "Aventura de plataforma 3D em que Donkey Kong e outros membros da família Kong exploram fases e coletam itens para deter King K. Rool.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "pokemon-snap": {
       "title": "Pokémon Snap",
-      "description": null,
+      "description": "Jogo de fotografia em que o jogador percorre ambientes naturais para registrar Pokémon em seu habitat.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "dr-mario-64": {
       "title": "Dr. Mario 64",
-      "description": null,
+      "description": "Jogo de quebra-cabeça em que cápsulas coloridas precisam ser combinadas para eliminar vírus do tabuleiro.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "banjo-kazooie": {
       "title": "Banjo-Kazooie",
-      "description": null,
+      "description": "Aventura de plataforma 3D em que Banjo e Kazooie exploram mundos, resolvem desafios e coletam peças de quebra-cabeça.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "banjo-tooie": {
       "title": "Banjo-Tooie",
-      "description": null,
+      "description": "Continuação de Banjo-Kazooie, com mundos interligados, habilidades adicionais e novos desafios de plataforma e exploração.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "perfect-dark": {
       "title": "Perfect Dark",
-      "description": null,
+      "description": "Jogo de tiro em primeira pessoa com temática de espionagem e ficção científica, estrelado pela agente Joanna Dark.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "goldeneye-007": {
       "title": "GoldenEye 007",
-      "description": null,
+      "description": "Jogo de tiro em primeira pessoa inspirado no filme GoldenEye, com missões de espionagem e modos multijogador.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "dinosaur-planet": {
       "title": "Dinosaur Planet",
-      "description": null,
+      "description": "Projeto de aventura da Rare ambientado em um mundo de dinossauros, conhecido por seu desenvolvimento antes de ser transformado em Star Fox Adventures.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "bomberman-64": {
       "title": "Bomberman 64",
-      "description": null,
+      "description": "Jogo de ação e aventura com Bomberman, que usa bombas para enfrentar inimigos e resolver desafios em ambientes tridimensionais.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "bomberman-hero": {
       "title": "Bomberman Hero",
-      "description": null,
+      "description": "Aventura de plataforma em que Bomberman percorre fases, enfrenta inimigos e utiliza bombas para avançar.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "mystical-ninja-starring-goemon": {
       "title": "Mystical Ninja Starring Goemon",
-      "description": null,
+      "description": "Aventura de ação com Goemon e seus companheiros, ambientada em uma versão fantástica do Japão.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "goemon-s-great-adventure": {
       "title": "Goemon's Great Adventure",
-      "description": null,
+      "description": "Jogo de plataforma com Goemon e seus aliados, combinando exploração, combate e trechos com o robô Impact.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "duke-nukem-zero-hour": {
       "title": "Duke Nukem: Zero Hour",
-      "description": null,
+      "description": "Jogo de tiro em terceira pessoa em que Duke Nukem enfrenta alienígenas por diferentes períodos históricos.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "body-harvest": {
       "title": "Body Harvest",
-      "description": null,
+      "description": "Jogo de ação com exploração e veículos, no qual o protagonista enfrenta uma invasão alienígena em diferentes épocas.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "space-station-silicon-valley": {
       "title": "Space Station Silicon Valley",
-      "description": null,
+      "description": "Jogo de quebra-cabeças e plataforma no qual o jogador controla animais robóticos para superar obstáculos em uma estação espacial.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "quest-64": {
       "title": "Quest 64",
-      "description": null,
+      "description": "RPG de exploração e combate em tempo real no qual Brian busca seu pai em um mundo de fantasia.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "mega-man-64": {
       "title": "Mega Man 64",
-      "description": null,
+      "description": "Versão de Mega Man Legends para Nintendo 64, com exploração 3D, combate e uma história protagonizada por Mega Man Volnutt.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "battletanx-global-assault": {
       "title": "BattleTanx: Global Assault",
-      "description": null,
+      "description": "Jogo de combate com tanques em arenas e campanhas, ambientado em um futuro pós-apocalíptico.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "snowboard-kids-2": {
       "title": "Snowboard Kids 2",
-      "description": null,
+      "description": "Jogo de corrida de snowboard com personagens estilizados, pistas variadas e itens para atrapalhar os adversários.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "extreme-g": {
       "title": "Extreme-G",
-      "description": null,
+      "description": "Jogo de corrida futurista com motocicletas de alta velocidade, pistas acrobáticas e armamentos.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "rocket-robot-on-wheels": {
       "title": "Rocket: Robot on Wheels",
-      "description": null,
+      "description": "Jogo de plataforma 3D com desafios de física e exploração, estrelado pelo robô Rocket.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "chameleon-twist": {
       "title": "Chameleon Twist",
-      "description": null,
+      "description": "Jogo de plataforma 3D em que camaleões usam suas línguas para agarrar objetos e superar obstáculos.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "automobili-lamborghini": {
       "title": "Automobili Lamborghini",
-      "description": null,
+      "description": "Jogo de corrida com carros esportivos e diferentes circuitos, lançado para Nintendo 64.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "wcw-vs-nwo-world-tour": {
       "title": "WCW vs. nWo: World Tour",
-      "description": null,
+      "description": "Jogo de luta livre profissional da WCW com lutadores, golpes e modos de disputa.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "wcw-nwo-revenge": {
       "title": "WCW/nWo Revenge",
-      "description": null,
+      "description": "Jogo de luta livre profissional que reúne lutadores da WCW e da nWo em combates individuais e por equipes.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "wwf-wrestlemania-2000": {
       "title": "WWF WrestleMania 2000",
-      "description": null,
+      "description": "Jogo de luta livre baseado na WWF, com criação de personagens e diferentes tipos de combate.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "virtual-pro-wrestling-64": {
       "title": "Virtual Pro Wrestling 64",
-      "description": null,
+      "description": "Jogo japonês de luta livre profissional com elenco e modos inspirados em competições de wrestling.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "wwf-no-mercy": {
       "title": "WWF No Mercy",
-      "description": null,
+      "description": "Jogo de luta livre da WWF com modos de carreira, criação de lutadores e diferentes tipos de combate.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "the-legend-of-zelda-the-wind-waker": {
       "title": "The Legend of Zelda: The Wind Waker",
-      "description": null,
+      "description": "Aventura de ação em que Link navega por um grande oceano, explora ilhas e enfrenta ameaças ao reino.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "the-legend-of-zelda-the-wind-waker-hd": {
       "title": "The Legend of Zelda: The Wind Waker HD",
-      "description": null,
+      "description": "Versão remasterizada de The Wind Waker para Wii U, com gráficos atualizados e ajustes de jogabilidade.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "the-legend-of-zelda-twilight-princess": {
       "title": "The Legend of Zelda: Twilight Princess",
-      "description": null,
+      "description": "Aventura de ação em Hyrule na qual Link alterna entre as formas humana e de lobo para enfrentar o Reino do Crepúsculo.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "star-fox-adventures": {
       "title": "Star Fox Adventures",
-      "description": null,
+      "description": "Aventura de ação e exploração em que Fox McCloud percorre o Dinosaur Planet para restaurar o equilíbrio do planeta.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "animal-crossing": {
       "title": "Animal Crossing",
-      "description": null,
+      "description": "Jogo de simulação social em que o jogador vive em uma vila com animais, decora a casa, coleta itens e acompanha o calendário do mundo real.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "pikmin-pikmin-2": {
       "title": "Pikmin & Pikmin 2",
-      "description": null,
+      "description": "Série de estratégia e exploração na qual pequenos seres chamados Pikmin ajudam a coletar objetos e enfrentar criaturas.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "metroid-prime": {
       "title": "Metroid Prime",
-      "description": null,
+      "description": "Aventura de ação em primeira pessoa em que Samus Aran explora Tallon IV, encontra equipamentos e investiga uma ameaça biológica.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "super-mario-strikers": {
       "title": "Super Mario Strikers",
-      "description": null,
+      "description": "Jogo de futebol arcade com personagens de Mario, ataques especiais e partidas rápidas.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "mario-strikers-charged": {
       "title": "Mario Strikers Charged",
-      "description": null,
+      "description": "Jogo de futebol arcade para Wii com personagens da série Mario, itens e movimentos especiais.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "mario-kart-double-dash": {
       "title": "Mario Kart: Double Dash!!",
-      "description": null,
+      "description": "Jogo de corrida de karts para GameCube em que cada veículo leva dois personagens, que alternam entre dirigir e usar itens.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "the-legend-of-zelda-a-link-to-the-past": {
       "title": "The Legend of Zelda: A Link to the Past",
-      "description": null,
+      "description": "Aventura de ação em que Link explora Hyrule e o Mundo das Trevas, enfrentando masmorras e resolvendo enigmas.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "super-metroid": {
       "title": "Super Metroid",
-      "description": null,
+      "description": "Jogo de ação e exploração em que Samus Aran percorre Zebes e ganha habilidades para acessar novas áreas.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "super-mario-world": {
       "title": "Super Mario World",
-      "description": null,
+      "description": "Jogo de plataforma em 2D no qual Mario explora Dinosaur Land, encontra saídas secretas e enfrenta os Koopalings.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "earthbound-mother-2": {
       "title": "EarthBound / Mother 2",
-      "description": null,
+      "description": "RPG ambientado em um mundo inspirado na vida contemporânea, no qual Ness e seus amigos enfrentam uma ameaça misteriosa.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "the-legend-of-zelda-the-minish-cap": {
       "title": "The Legend of Zelda: The Minish Cap",
-      "description": null,
+      "description": "Aventura de ação em que Link pode encolher para explorar locais ocultos e ajudar os Minish.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "golden-sun-golden-sun-the-lost-age": {
       "title": "Golden Sun & Golden Sun: The Lost Age",
-      "description": null,
+      "description": "Dois RPGs conectados com batalhas por turnos, magia elemental e enigmas resolvidos com habilidades psíquicas.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "jak-and-daxter-1-2-e-3": {
       "title": "Jak and Daxter 1, 2 e 3",
-      "description": null,
+      "description": "Trilogia de ação e plataforma protagonizada por Jak e Daxter, com exploração, combate e mudanças de estilo entre os jogos.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "god-of-war-2005": {
       "title": "God of War (2005)",
-      "description": null,
+      "description": "Jogo de ação em que Kratos enfrenta criaturas e deuses da mitologia grega em combates e quebra-cabeças.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "shadow-of-rome": {
       "title": "Shadow of Rome",
-      "description": null,
+      "description": "Jogo de ação ambientado na Roma Antiga, alternando combates de gladiadores e segmentos de furtividade.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "castlevania-symphony-of-the-night": {
       "title": "Castlevania: Symphony of the Night",
-      "description": null,
+      "description": "Jogo de ação e exploração em que Alucard investiga o castelo de Drácula e desbloqueia novas habilidades.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "crash-team-racing": {
       "title": "Crash Team Racing",
-      "description": null,
+      "description": "Jogo de corrida de karts com personagens da série Crash Bandicoot, itens, atalhos e pistas temáticas.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "wipeout": {
       "title": "Wipeout",
-      "description": null,
+      "description": "Jogo de corrida futurista com naves antigravidade, circuitos velozes e armamentos.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "driver-2": {
       "title": "Driver 2",
-      "description": null,
+      "description": "Jogo de direção e ação em mundo urbano, com perseguições, missões e exploração a pé.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "the-legend-of-dragoon": {
       "title": "The Legend of Dragoon",
-      "description": null,
+      "description": "RPG de fantasia com batalhas por turnos e comandos de tempo, em que Dart investiga seu passado.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "silent-hill": {
       "title": "Silent Hill",
-      "description": null,
+      "description": "Jogo de terror psicológico no qual Harry Mason procura sua filha em uma cidade coberta por névoa.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "vandal-hearts": {
       "title": "Vandal Hearts",
-      "description": null,
+      "description": "RPG tático com batalhas em mapas quadriculados e uma história sobre conflitos políticos e militares.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "bloody-roar-ii": {
       "title": "Bloody Roar II",
-      "description": null,
+      "description": "Jogo de luta em que os personagens podem se transformar em animais durante os combates.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "wwf-smackdown-2-know-your-role": {
       "title": "WWF SmackDown! 2: Know Your Role",
-      "description": null,
+      "description": "Jogo de luta livre da WWF com elenco de lutadores, criação de personagens e modos de competição.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "king-s-field-jp-1994": {
       "title": "King's Field (JP, 1994)",
-      "description": null,
+      "description": "RPG de ação em primeira pessoa com exploração de masmorras e combate em tempo real, lançado originalmente no Japão.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "yu-gi-oh-forbidden-memories": {
       "title": "Yu-Gi-Oh! Forbidden Memories",
-      "description": null,
+      "description": "Jogo de cartas baseado no universo Yu-Gi-Oh!, com duelos e regras próprias para fusões e combinações.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "tomb-raider-i-v": {
       "title": "Tomb Raider I–V",
-      "description": null,
+      "description": "Conjunto dos primeiros jogos de Tomb Raider, com Lara Croft explorando ruínas, resolvendo enigmas e enfrentando inimigos.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "mega-man-legends-rockman-dash": {
       "title": "Mega Man Legends / Rockman DASH",
-      "description": null,
+      "description": "Aventura de ação 3D com Mega Man Volnutt, combinando exploração de ruínas, personagens e combate.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "sonic-unleashed": {
       "title": "Sonic Unleashed",
-      "description": null,
+      "description": "Jogo de ação e plataforma em que Sonic alterna fases de velocidade com segmentos de combate na forma Werehog.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "sonic-the-hedgehog-2006": {
       "title": "Sonic the Hedgehog (2006)",
-      "description": null,
+      "description": "Jogo de ação e plataforma 3D com campanhas de Sonic, Shadow e Silver.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "shadow-the-hedgehog": {
       "title": "Shadow the Hedgehog",
-      "description": null,
+      "description": "Jogo de ação com Shadow, que combina plataforma, combate e caminhos alternativos na história.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "sonic-adventure": {
       "title": "Sonic Adventure",
-      "description": null,
+      "description": "Jogo de plataforma 3D com diferentes personagens e campanhas que se cruzam em torno de uma ameaça comum.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "sonic-the-hedgehog-1-2-2013": {
       "title": "Sonic the Hedgehog 1 & 2 (2013)",
-      "description": null,
+      "description": "Versões de Sonic 1 e Sonic 2 para dispositivos modernos, baseadas nos jogos clássicos de plataforma em 2D.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "sonic-3-knuckles": {
       "title": "Sonic 3 & Knuckles",
-      "description": null,
+      "description": "Aventura de plataforma 2D em que Sonic, Tails e Knuckles atravessam fases interligadas e enfrentam Dr. Robotnik.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "outrun": {
       "title": "OutRun",
-      "description": null,
+      "description": "Jogo de corrida arcade em que o jogador dirige um carro esportivo por rotas alternativas contra o relógio.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "forza-horizon": {
       "title": "Forza Horizon",
-      "description": null,
+      "description": "Jogo de corrida em mundo aberto ambientado em um festival automobilístico, com eventos e exploração.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "blue-dragon": {
       "title": "Blue Dragon",
-      "description": null,
+      "description": "RPG de fantasia em que jovens aventureiros usam criaturas-sombra em batalhas por turnos.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "the-darkness": {
       "title": "The Darkness",
-      "description": null,
+      "description": "Jogo de tiro em primeira pessoa no qual Jackie Estacado controla poderes sobrenaturais ligados à Escuridão.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "silent-hill-downpour": {
       "title": "Silent Hill: Downpour",
-      "description": null,
+      "description": "Jogo de terror em que Murphy Pendleton explora Silent Hill após um acidente durante seu transporte como prisioneiro.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "deadly-premonition": {
       "title": "Deadly Premonition",
-      "description": null,
+      "description": "Jogo de investigação e terror em mundo aberto, protagonizado pelo agente Francis York Morgan.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "tony-hawk-s-project-8": {
       "title": "Tony Hawk's Project 8",
-      "description": null,
+      "description": "Jogo de skate em que o jogador realiza manobras e desafios para integrar a equipe Project 8.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "spider-man-edge-of-time": {
       "title": "Spider-Man: Edge of Time",
-      "description": null,
+      "description": "Jogo de ação em que duas versões do Homem-Aranha atuam em períodos diferentes para impedir uma catástrofe.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "peter-jackson-s-king-kong": {
       "title": "Peter Jackson's King Kong",
-      "description": null,
+      "description": "Jogo de ação e aventura inspirado no filme King Kong, alternando a perspectiva de personagens humanos e do gorila.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "earthworm-jim-hd": {
       "title": "Earthworm Jim HD",
-      "description": null,
+      "description": "Versão em alta definição do jogo de plataforma Earthworm Jim, protagonizado por uma minhoca em traje espacial.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "the-simpsons-game": {
       "title": "The Simpsons Game",
-      "description": null,
+      "description": "Jogo de ação e plataforma com membros da família Simpson, cada um com habilidades próprias.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "dead-rising-2-case-zero-case-west": {
       "title": "Dead Rising 2: Case Zero & Case West",
-      "description": null,
+      "description": "Dois episódios derivados de Dead Rising 2, com combate contra zumbis, missões e personagens da série.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "dead-or-alive-xtreme-beach-volleyball": {
       "title": "Dead or Alive Xtreme Beach Volleyball",
-      "description": null,
+      "description": "Jogo esportivo e de lazer ambientado em uma ilha, com partidas de vôlei de praia e atividades entre personagens de Dead or Alive.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     },
     "3-on-3-nhl-arcade": {
       "title": "3 on 3 NHL Arcade",
-      "description": null,
+      "description": "Jogo de hóquei no gelo em estilo arcade, com equipes de três jogadores e ações exageradas.",
       "description_source_url": null,
-      "review_status": "pending_review"
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     }
   },
   "projects": {
@@ -532,8 +619,8 @@
       "game_id": "super-mario-64",
       "fallback_name": "Ghostship",
       "description_pt": "Port moderno em libultraship e Torch com interface ImGui, 4 backends gráficos (DX11, OpenGL, Metal, Vulkan), shaders multipass, texturas HD, Randomizer completo, conquistas, modo espelhado, scripting em C (TinyCC) e suporte a ROM hacks.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/HarbourMasters/Ghostship/HEAD/README.md",
       "development_status_reported": "Estável e muito ativo",
       "legacy_audit": {
         "developer": null,
@@ -554,14 +641,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "sm64coopdx-super-mario-64-coop-deluxe": {
       "game_id": "super-mario-64",
       "fallback_name": "sm64coopdx (Super Mario 64 Coop Deluxe)",
       "description_pt": "Sucessor oficial do sm64ex-coop. Focado em multiplayer online em tempo real (CoopNet ou direto), API completa de mods em Lua, packs DynOS, ROM hacks integráveis (SM74, Star Road), atualizador automático e seleção OpenGL/DirectX.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/coop-deluxe/sm64coopdx/HEAD/README.md",
       "development_status_reported": "Estável e ativo",
       "legacy_audit": {
         "developer": null,
@@ -582,14 +670,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "sm64plus": {
       "game_id": "super-mario-64",
       "fallback_name": "SM64Plus",
       "description_pt": "Fork de sm64-port focado em qualidade de vida single-player: controles responsivos, moveset estendido, câmera melhorada, opção de permanecer na fase após estrelas (Remain Mod), modos extras (Green Demon) e 60 FPS interpolados.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/MorsGames/sm64plus/HEAD/README.md",
       "development_status_reported": "Estável (atualização lenta)",
       "legacy_audit": {
         "developer": null,
@@ -610,14 +699,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "render96ex": {
       "game_id": "super-mario-64",
       "fallback_name": "Render96ex",
       "description_pt": "Fork do sm64ex voltado à estética promocional Silicon Graphics de 1996. Combina substituição total de modelos 3D via DynOS, texturas HD e integração nativa do path-tracer sm64rt.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/Render96/Render96ex/HEAD/README.md",
       "development_status_reported": "Estável (manutenção leve)",
       "legacy_audit": {
         "developer": null,
@@ -638,14 +728,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "sm64ex": {
       "game_id": "super-mario-64",
       "fallback_name": "sm64ex",
       "description_pt": "Fork histórico base da cena de PC ports: menu in-game, Puppycam (câmera analógica/mouse), texturas/soundbanks externos e backends OpenGL/DX11/DX12. Superado em praticidade por Ghostship e sm64coopdx.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/sm64pc/sm64ex/HEAD/README.md",
       "development_status_reported": "Estável / Inativo",
       "legacy_audit": {
         "developer": null,
@@ -666,14 +757,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "sm64rt": {
       "game_id": "super-mario-64",
       "fallback_name": "sm64rt",
       "description_pt": "Fork experimental de sm64ex com path-tracing em tempo real via RT64 (iluminação global, reflexos, refrações, DLSS, FSR 2 e XeSS). Integrado nativamente ao Render96ex.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/DarioSamo/sm64rt/HEAD/README.md",
       "development_status_reported": "Abandonado / Arquivado (integrado ao Render96ex)",
       "legacy_audit": {
         "developer": null,
@@ -694,14 +786,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "ship-of-harkinian-soh": {
       "game_id": "the-legend-of-zelda-ocarina-of-time",
       "fallback_name": "Ship of Harkinian (SoH)",
       "description_pt": "Port nativo mais maduro do N64. Oferece altas taxas de quadros interpoladas, widescreen, DX11/OpenGL/Metal, Randomizer extensivo (Master Quest, Enemy Randomizer), modos Speedrun, multiplayer online via Anchor, cosméticos, save states e mods .o2r/.otr.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/HarbourMasters/Shipwright/HEAD/README.md",
       "development_status_reported": "Estável e muito ativo",
       "legacy_audit": {
         "developer": null,
@@ -722,14 +815,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "zelda-64-recompiled": {
       "game_id": "the-legend-of-zelda-majora-s-mask",
       "fallback_name": "Zelda 64: Recompiled",
       "description_pt": "Port inaugural do N64: Recompiled + RT64. Prioriza fidelidade absoluta aos efeitos originais de framebuffer do N64, inicialização plug-and-play sem extração, FPS ilimitado, ultrawide, câmera analógica dupla, giroscópio e mods via Thunderstore (MMRecompRando).",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/Zelda64Recomp/Zelda64Recomp/HEAD/README.md",
       "development_status_reported": "Estável e ativo",
       "legacy_audit": {
         "developer": null,
@@ -750,14 +844,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "2-ship-2-harkinian-2s2h": {
       "game_id": "the-legend-of-zelda-majora-s-mask",
       "fallback_name": "2 Ship 2 Harkinian (2S2H)",
       "description_pt": "Port via decompilação em libultraship. Traz centenas de melhorias nativas no menu: Randomizer completo embutido, Editor de Cosméticos, Modo Espelhado, Bomb Arrows, Easy Mask Equip, Pictograph em PNG, DX11/OpenGL/Metal e mods .o2r/.otr.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/2ship2harkinian/2ship2harkinian/HEAD/README.md",
       "development_status_reported": "Estável e muito ativo",
       "legacy_audit": {
         "developer": null,
@@ -778,14 +873,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "starship": {
       "game_id": "star-fox-64",
       "fallback_name": "Starship",
       "description_pt": "Port nativo em libultraship com widescreen expandido, alto FPS interpolado, áudio surround 5.1, substituição de vozes usando ROMs EU/JP sobre a base US, cheats, elementos beta restauráveis e mods .o2r/.otr.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/HarbourMasters/Starship/HEAD/README.md",
       "development_status_reported": "Estável e ativo",
       "legacy_audit": {
         "developer": null,
@@ -806,14 +902,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "spaghettikart": {
       "game_id": "mario-kart-64",
       "fallback_name": "SpaghettiKart",
       "description_pt": "Port via decompilação e libultraship. Inclui multiplayer split-screen completo para até 4 jogadores, Editor e Importador de Pistas Customizadas, modo Harder CPU, opção sem rubberbanding, freecam, resolução até 400% e mods .o2r/.zip.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/HarbourMasters/SpaghettiKart/HEAD/README.md",
       "development_status_reported": "Estável e ativo",
       "legacy_audit": {
         "developer": null,
@@ -834,14 +931,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "mariokart-64-recompiled": {
       "game_id": "mario-kart-64",
       "fallback_name": "MarioKart 64: Recompiled",
       "description_pt": "Recompilação estática via N64Recomp + RT64 com fidelidade aos efeitos N64, plug-and-play, FPS ilimitado, ultrawide, Controller Pak para fantasmas e suporte a texturas HD MK64 Reloaded (.rtz). Limitação: apenas Single Player no momento.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/sonicdcer/MarioKart64Recomp/HEAD/README.md",
       "development_status_reported": "Beta / Experimental (sem multiplayer)",
       "legacy_audit": {
         "developer": null,
@@ -862,14 +960,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "battleship": {
       "game_id": "super-smash-bros",
       "fallback_name": "BattleShip",
       "description_pt": "Port nativo via decompilação com libultraship e Torch. 120/180/240 FPS interpolados (lógica em 60 Hz), widescreen/ultrawide, Classic Co-op, hitboxes/hurtboxes, 3 estágios extras no VS, adaptadores GameCube nativos (WUP-028/Raphnet), mods em C (TinyCC) e texturas HD.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/JRickey/BattleShip/HEAD/README.md",
       "development_status_reported": "Estável e ativo",
       "legacy_audit": {
         "developer": null,
@@ -890,14 +989,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "paperboat": {
       "game_id": "paper-mario",
       "fallback_name": "PaperBoat",
       "description_pt": "Port nativo sobre Paper Mario DX e libultraship. Widescreen/ultrawide com HUD customizável, interpolação acima de 30 FPS, texturas HD preservando paletas de sprites, Sprint, Badges de QoL gratuitas, Blueprint Editor, Save Editor e importação de saves N64.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/HarbourMasters/PaperBoat/HEAD/README.md",
       "development_status_reported": "Estável e muito ativo",
       "legacy_audit": {
         "developer": null,
@@ -918,14 +1018,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "donkey-kong-64-recompiled-dk64-rekongpiled": {
       "game_id": "donkey-kong-64",
       "fallback_name": "Donkey Kong 64: Recompiled (DK64 Rekongpiled)",
       "description_pt": "Recompilação estática via N64Recomp + RT64. Roda na taxa do monitor sem afetar a física, widescreen/ultrawide, distância de desenho estendida, câmera analógica responsiva, redução de flashes de relâmpago, loads instantâneos e API de mods.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/Rainchus/Donkey-Kong-64-Recompiled/HEAD/README.md",
       "development_status_reported": "Estável e ativo",
       "legacy_audit": {
         "developer": null,
@@ -946,14 +1047,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "snap64-recomp": {
       "game_id": "pokemon-snap",
       "fallback_name": "Snap64 Recomp",
       "description_pt": "Recompilação estática com RT64 e melhorias integradas à tela de opções original. Widescreen/ultrawide, alto FPS interpolado, mira com mouse/giroscópio, exportação de fotos PNG em alta resolução, emulação do quiosque Snap Station, 4 saves com autosave e mods .nrm.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/JackandBeans/Snap64Recomp/HEAD/README.md",
       "development_status_reported": "Estável e muito ativo",
       "legacy_audit": {
         "developer": null,
@@ -974,14 +1076,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "drmario64-recomp-plus": {
       "game_id": "dr-mario-64",
       "fallback_name": "drmario64_recomp_plus",
       "description_pt": "Fork com release pronta que move a renderização de cápsulas para a GPU, adiciona interpolação 60+ FPS, habilita multiplayer local para 4 controles, efeitos CRT e menu atualizado.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/theboy181/drmario64_recomp_plus/HEAD/README.md",
       "development_status_reported": "Beta / Experimental",
       "legacy_audit": {
         "developer": null,
@@ -1002,14 +1105,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "drmario64-recomp": {
       "game_id": "dr-mario-64",
       "fallback_name": "drmario64_recomp",
       "description_pt": "Prova de conceito inicial limitada a 1 jogador, com problemas de proporção e crash ao fechar. Substituído pelo fork drmario64_recomp_plus.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/AngheloAlf/drmario64_recomp/HEAD/README.md",
       "development_status_reported": "Abandonado / Arquivado",
       "legacy_audit": {
         "developer": null,
@@ -1030,14 +1134,15 @@
           "notes": "Repositório arquivado; não há releases.",
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "banjo-recompiled": {
       "game_id": "banjo-kazooie",
       "fallback_name": "Banjo: Recompiled",
       "description_pt": "Recompilação estática oficial com RT64. Prioriza fidelidade total aos efeitos N64 (quebra-cabeça, mipmapping), FPS ilimitado, widescreen/ultrawide, câmera analógica dupla, salvamento permanente de Notas/Jinjos opcional e grandes mods via Thunderstore (Jiggies of Time, Nostalgia 64).",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/BanjoRecomp/BanjoRecomp/HEAD/README.md",
       "development_status_reported": "Estável e ativo",
       "legacy_audit": {
         "developer": null,
@@ -1058,14 +1163,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "lighthouse": {
       "game_id": "banjo-kazooie",
       "fallback_name": "Lighthouse",
       "description_pt": "Port de decompilação em libultraship. Inclui multiplayer cooperativo online via Anchor, Randomizer integrado com World Tracker, pacotes multi-idioma, extração direta de ROM hacks (Lair Witch Project 2.0), cosméticos, mecânicas de Banjo-Tooie e importador de saves do Recomp.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/HarbourMasters/Lighthouse/HEAD/README.md",
       "development_status_reported": "Estável e muito ativo",
       "legacy_audit": {
         "developer": null,
@@ -1086,14 +1192,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "banjo-tooie-recompiled": {
       "game_id": "banjo-tooie",
       "fallback_name": "Banjo-Tooie: Recompiled",
       "description_pt": "Recompilação estática comunitária com N64Recomp + RT64 e patches para o sistema de overlays do jogo. Jogável de ponta a ponta com widescreen e alto FPS; apresenta bordas laterais no skybox 4:3 em 16:9 e limitações pontuais de interpolação em CPU skinning.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/Vidanox/BanjoTooieRecompiled/HEAD/README.md",
       "development_status_reported": "Beta / Experimental",
       "legacy_audit": {
         "developer": null,
@@ -1114,14 +1221,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "perfect-dark-pc-port-perfect-dark": {
       "game_id": "perfect-dark",
       "fallback_name": "Perfect Dark PC Port (perfect_dark)",
       "description_pt": "Port nativo consolidado da decompilação. Campanha e split-screen completos, mouselook nativo, dual-analog, widescreen, FOV, 60 FPS estáveis e modo até 240 FPS, emulação de Transfer Pak (ROM GBC), mods e branch port-net para netplay.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/perfect-dark-pc-port/perfect_dark/HEAD/README.md",
       "development_status_reported": "Beta funcional e ativo",
       "legacy_audit": {
         "developer": null,
@@ -1142,14 +1250,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "project-midas": {
       "game_id": "goldeneye-007",
       "fallback_name": "Project Midas",
       "description_pt": "Port nativo (OpenGL/Fast3D + SDL2) pelo autor do netplay de Perfect Dark. Widescreen, mouselook, FOV independente para armas, HUD escalável, Modo Clássico (N64 AA + vídeo composto), perfis MP, saves do Project64 e correções de alto FPS. Co-op/netplay e mods em desenvolvimento.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/murkantor/Project-Midas/HEAD/readme.md",
       "development_status_reported": "Estável / Beta avançado",
       "legacy_audit": {
         "developer": null,
@@ -1170,14 +1279,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "goldeneye-007-pc-port": {
       "game_id": "goldeneye-007",
       "fallback_name": "GoldenEye 007 PC Port",
       "description_pt": "Port nativo focado em fidelidade 1:1 ao N64 e leveza (60 FPS até em Intel HD 3000): campanha completa (20 missões), split-screen 2–4 jogadores, estilos de controle N64/Xbox, mira N64 ou centralizada e importação de saves .eep.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/jkdansereau/goldeneye-pc-port/HEAD/README.md",
       "development_status_reported": "Beta / Pré-1.0 ativo",
       "legacy_audit": {
         "developer": null,
@@ -1198,14 +1308,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "dinosaur-planet-recompiled-dino-recomp": {
       "game_id": "dinosaur-planet",
       "fallback_name": "Dinosaur Planet: Recompiled (dino-recomp)",
       "description_pt": "Recompilação estática do protótipo de dez/2000 (que originou Star Fox Adventures), baseada em Zelda64Recomp + RT64. Widescreen 16:9, FPS desbloqueado em refinamento, menu debug e API ReAsset/Thunderstore (recomenda o mod Dinomod Enhanced para avançar além dos atos iniciais).",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/DinosaurPlanetRecomp/dino-recomp/HEAD/README.md",
       "development_status_reported": "Beta / Experimental",
       "legacy_audit": {
         "developer": null,
@@ -1226,14 +1337,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "bm64recomp": {
       "game_id": "bomberman-64",
       "fallback_name": "BM64Recomp",
       "description_pt": "Recompilação estática via N64Recomp + RT64. FPS desbloqueado por interpolação, widescreen e ultrawide (HUD 16:9), mods/texturas via drag-and-drop, loads instantâneos e modo portátil (portable.txt).",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/RevoSucks/BM64Recomp/HEAD/README.md",
       "development_status_reported": "Estável",
       "legacy_audit": {
         "developer": null,
@@ -1254,14 +1366,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "bmherorecomp": {
       "game_id": "bomberman-hero",
       "fallback_name": "BMHeroRecomp",
       "description_pt": "Recompilação estática N64Recomp + RT64 com alto FPS, sistema de marcação de objetos para evitar artefatos de interpolação, widescreen/ultrawide, raio estendido de chunks e mods/texturas. Imperfeições pontuais em transições de cutscenes.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/RevoSucks/BMHeroRecomp/HEAD/README.md",
       "development_status_reported": "Beta (estável)",
       "legacy_audit": {
         "developer": null,
@@ -1282,14 +1395,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "goemon64recomp": {
       "game_id": "mystical-ninja-starring-goemon",
       "fallback_name": "Goemon64Recomp",
       "description_pt": "Baseado em Zelda64Recomp + RT64 (backend Plume com fallback Vulkan para GPUs Intel antigas). Jogável do início ao fim, UI reformulada, sliders BGM/SFX, descompressão de ROM no primeiro boot e suporte a mods/texturas.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/klorfmorf/Goemon64Recomp/HEAD/README.md",
       "development_status_reported": "Beta / Experimental",
       "legacy_audit": {
         "developer": null,
@@ -1310,14 +1424,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "ggarecomp": {
       "game_id": "goemon-s-great-adventure",
       "fallback_name": "GGARecomp",
       "description_pt": "Recompilação estática direta de disassembly via N64Recomp + RT64. FPS interpolado, widescreen 16:9 com fundos 2D expandidos, multiplayer local até 4 jogadores, desbloqueio opcional de Sasuke/Yae, distância 2x e pacotes .rtz. Mundos 1–3 testados.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/DreaXer/GGARecomp/HEAD/README.md",
       "development_status_reported": "Beta / Experimental",
       "legacy_audit": {
         "developer": null,
@@ -1338,14 +1453,15 @@
           "notes": "HTML cita v0.1.0; GitHub mostra v0.3.0 como release mais recente consultada.",
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "gga64recomp": {
       "game_id": "goemon-s-great-adventure",
       "fallback_name": "GGA64Recomp",
       "description_pt": "Fork WIP de Goemon64Recomp com widescreen e Controller Pak funcional, em estágio inicial frente ao GGARecomp (baseado na decompilação PandaPandel/Goemons-Great-Adventure-Decomp).",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/StopSine/GGA64Recomp/HEAD/README.md",
       "development_status_reported": "Beta / Experimental",
       "legacy_audit": {
         "developer": null,
@@ -1366,14 +1482,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "dnzhrecomp": {
       "game_id": "duke-nukem-zero-hour",
       "fallback_name": "DNZHRecomp",
       "description_pt": "Recompilação estática N64Recomp + RT64 apoiada nos cabeçalhos da decompilação gillou68310/dukenukemzerohour. Alto framerate, widescreen/ultrawide com HUD 16:9, menus RmlUi e ajuste de deadzone. Marcado como WIP.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/sonicdcer/DNZHRecomp/HEAD/README.md",
       "development_status_reported": "Beta / Experimental (WIP)",
       "legacy_audit": {
         "developer": null,
@@ -1394,14 +1511,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "adam-s-ant-farm": {
       "game_id": "body-harvest",
       "fallback_name": "Adam's Ant Farm",
       "description_pt": "Construído sobre a decompilação colaborativa + N64Recomp + RT64. Jogável do início ao fim com áudio autêntico, widescreen com HUD ancorado, MSAA/SSAA, filtragem 3-point, controle ao vivo de draw distance/neblina, texturas HD e teclado+mouse simultâneos.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/LunarLaurus/adams-ant-farm-recomp/HEAD/README.md",
       "development_status_reported": "Beta (ativo)",
       "legacy_audit": {
         "developer": null,
@@ -1422,14 +1540,15 @@
           "notes": "HTML cita v0.10.2; GH disponibiliza v0.11.14.",
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "body-harvest-recomp": {
       "game_id": "body-harvest",
       "fallback_name": "body-harvest-recomp",
       "description_pt": "Port N64Recomp anterior que serviu de referência técnica para o Adam's Ant Farm.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/danielgomesvieira2000/body-harvest-recomp/HEAD/README.md",
       "development_status_reported": "Abandonado / Superado",
       "legacy_audit": {
         "developer": null,
@@ -1450,14 +1569,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "sssv-recomp": {
       "game_id": "space-station-silicon-valley",
       "fallback_name": "SSSV_Recomp",
       "description_pt": "Recompilação estática com N64Recomp e fork customizado do RT64 com suporte ao microcódigo S2DEX. Reescreve billboards em quads 3D interpolados, adiciona widescreen, mods e corrige o famoso bug do troféu inalcançável de Fat Bear Mountain.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/Cellenseres/SSSV_Recomp/HEAD/README.md",
       "development_status_reported": "Beta / Experimental",
       "legacy_audit": {
         "developer": null,
@@ -1478,14 +1598,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "quest64-recomp": {
       "game_id": "quest-64",
       "fallback_name": "Quest64-Recomp",
       "description_pt": "Recompilação estática inicial via N64Recomp + RT64 descrita como básica (bare-bones): widescreen, interpolação a 60 Hz (flicker conhecido no cabelo do protagonista), menu na tecla F1, mods/texturas e modo portátil.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/Rainchus/Quest64-Recomp/HEAD/README.md",
       "development_status_reported": "Beta / Experimental (inicial)",
       "legacy_audit": {
         "developer": null,
@@ -1506,14 +1627,15 @@
           "notes": "Release v0.1 encontrada, mas nome de asset Windows não confirmado pelo filtro.",
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "megaman64recompiled": {
       "game_id": "mega-man-64",
       "fallback_name": "MegaMan64Recompiled",
       "description_pt": "Recompilação estática N64Recomp + RT64. Série 0.9.x marca a primeira linha jogável estável com alto framerate e widescreen (parcial). Corrigiu crashes e interpolação de terreno; restam pequenas emendas de geometria e dessincronização em cutscenes.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/MegaMan64Recomp/MegaMan64Recompiled/HEAD/README.md",
       "development_status_reported": "Beta avançado",
       "legacy_audit": {
         "developer": null,
@@ -1534,14 +1656,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "battletanx-global-assault-pc-port": {
       "game_id": "battletanx-global-assault",
       "fallback_name": "BattleTanx-Global-Assault-PC-Port",
       "description_pt": "Construído sobre a decompilação 100% byte-matching + N64Recomp + RT64 (D3D12) + SDL2. Menus e campanha jogáveis, 4:3 até 32:9, mira independente da torre por mouse/dual-stick, Controller Pak .mpk e multiplayer online experimental com servidor dedicado.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/TheGh0stShip/BattleTanx-Global-Assault-PC-Port/HEAD/README.md",
       "development_status_reported": "Beta / Experimental (ativo)",
       "legacy_audit": {
         "developer": null,
@@ -1562,14 +1685,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "btgarecomp": {
       "game_id": "battletanx-global-assault",
       "fallback_name": "btgarecomp",
       "description_pt": "Alternativa muito ativa ('super beta') com netplay para até 4 jogadores em tela cheia individual, filtros CRT/Bloom, Lossless Scaling, cheats e sound packs.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/wootbeer/btgarecomp/HEAD/README.md",
       "development_status_reported": "Beta / Experimental (ativo)",
       "legacy_audit": {
         "developer": null,
@@ -1590,14 +1714,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "snowboardkids2-recomp": {
       "game_id": "snowboard-kids-2",
       "fallback_name": "snowboardkids2-recomp",
       "description_pt": "Um dos ports N64Recomp + RT64 mais completos: multiplayer local em tela dividida 1–4 jogadores com FPS desbloqueado, split-screen horizontal/vertical, HUD configurável, widescreen/ultrawide, dump PNG de texturas e mods (Quick Start, Randomiser).",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/cdlewis/snowboardkids2-recomp/HEAD/README.md",
       "development_status_reported": "Estável",
       "legacy_audit": {
         "developer": null,
@@ -1618,13 +1743,14 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "extremegrecomp": {
       "game_id": "extreme-g",
       "fallback_name": "ExtremeGRecomp",
       "description_pt": "Recompilação estática nativa via N64Recomp + RT64 com alta resolução, widescreen, alto FPS e suporte a mods. Nota: o repositório oficial fica no GitLab (no GitHub existe apenas empacotador Linux).",
-      "description_status": "legacy_unverified",
+      "description_status": "reviewed_pt_br",
       "description_source_url": null,
       "development_status_reported": "Estável",
       "legacy_audit": {
@@ -1646,14 +1772,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português; fonte oficial individual não foi verificada nesta auditoria."
     },
     "rocket-r": {
       "game_id": "rocket-robot-on-wheels",
       "fallback_name": "Rocket-R",
       "description_pt": "Recompilação estática nativa (baseada na decompilação RocketRet) com aba dedicada de Mods (saves isolados), mod embutido Modern Analogue Camera (analógico direito/mouse/teclado), Controller Studio e correções de FOV/céu.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/thatguymcd/rocket-r/HEAD/README.md",
       "development_status_reported": "Estável",
       "legacy_audit": {
         "developer": null,
@@ -1674,14 +1801,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "chameleontwist1-jp-recomp": {
       "game_id": "chameleon-twist",
       "fallback_name": "ChameleonTwist1-JP-Recomp",
       "description_pt": "Primeira versão funcional via N64Recomp + RT64 com alto framerate, widescreen/ultrawide e menus RmlUi. Ainda carrega textos residuais do template de Majora's Mask Recomp e não recebe releases há quase 2 anos. Existe irmão para Chameleon Twist 2 (JP).",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/Rainchus/ChameleonTwist1-JP-Recomp/HEAD/README.md",
       "development_status_reported": "Beta / Experimental (inativo)",
       "legacy_audit": {
         "developer": null,
@@ -1702,14 +1830,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "automobililamborghini-recomp": {
       "game_id": "automobili-lamborghini",
       "fallback_name": "automobililamborghini-recomp",
       "description_pt": "Um dos projetos mais ativos de 2026: widescreen, alto FPS, eliminação de pop-in, câmera/FOV ajustável, gatilhos analógicos, Rumble+Controller Pak simultâneos, síntese física de áudio de motores (V12/V10), mod de clima da versão JP e sombras RT pré-alfa.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/alondero/automobililamborghini-recomp/HEAD/README.md",
       "development_status_reported": "Beta / Experimental (muito ativo)",
       "legacy_audit": {
         "developer": null,
@@ -1730,14 +1859,15 @@
           "notes": "HTML cita v0.8.1; GH disponibiliza v0.11.1.",
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "wcwvsnwoworldtourrecomp": {
       "game_id": "wcw-vs-nwo-world-tour",
       "fallback_name": "WCWvsNWOWorldTourRecomp",
       "description_pt": "Recompilação direta de disassembly com pilha N64Recomp + RT64: widescreen, interpolação 60/120 FPS, ray tracing por arena (D3D12 DXR 1.1), filtro CRT Blur Busters, HDR, pak híbrido (Controller Pak + Rumble simultâneos) e multiplayer local 4P.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/jessetbh/WCWvsNWOWorldTourRecomp/HEAD/README.md",
       "development_status_reported": "Beta ativo",
       "legacy_audit": {
         "developer": null,
@@ -1758,14 +1888,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "wcwnworevengerecomp": {
       "game_id": "wcw-nwo-revenge",
       "fallback_name": "WCWnWoRevengeRecomp",
       "description_pt": "Emula SRAM do cartucho com backup automático liberando o slot para Rumble Pak simultâneo, iluminação RT nas 6 arenas, correção de culling em widescreen, 60/120 FPS, CRT, HDR e patch mods .nrm.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/jessetbh/WCWnWoRevengeRecomp/HEAD/README.md",
       "development_status_reported": "Beta ativo",
       "legacy_audit": {
         "developer": null,
@@ -1786,14 +1917,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "wwfwrestlemania2000recomp": {
       "game_id": "wwf-wrestlemania-2000",
       "fallback_name": "WWFWrestleMania2000Recomp",
       "description_pt": "Emula simultaneamente SRAM + Controller Pak virtual + Rumble Pak, iluminação RT nas 7 arenas, 60/120 FPS experimentais, filtro CRT, HDR, câmera livre (F6) e suporte a mods .nrm/.rtz.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/jessetbh/WWFWrestleMania2000Recomp/HEAD/README.md",
       "development_status_reported": "Beta ativo",
       "legacy_audit": {
         "developer": null,
@@ -1814,14 +1946,15 @@
           "notes": "HTML cita v0.3.1; GH disponibiliza v0.3.2.",
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "vpw64recomp": {
       "game_id": "virtual-pro-wrestling-64",
       "fallback_name": "VPW64Recomp",
       "description_pt": "Irmão de World Tour com menus do port em inglês, suporte a traduções da comunidade via patch mods (.nrm) sobre a ROM limpa, Controller+Rumble Pak virtuais, iluminação RT nas 7 arenas, CRT e HDR.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/jessetbh/VPW64Recomp/HEAD/README.md",
       "development_status_reported": "Beta ativo",
       "legacy_audit": {
         "developer": null,
@@ -1842,14 +1975,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "wwfnomercyrecomp": {
       "game_id": "wwf-no-mercy",
       "fallback_name": "WWFNoMercyRecomp",
       "description_pt": "Emula Flash do cartucho com persistência e backup automático, rumble, iluminação RT em arenas/palcos/5 áreas de bastidores, importação de modelos 3D, conversão de ROM hacks (AKI_CONVERSION) e patch mods .nrm.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/jessetbh/WWFNoMercyRecomp/HEAD/README.md",
       "development_status_reported": "Beta ativo",
       "legacy_audit": {
         "developer": null,
@@ -1870,14 +2004,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "bluewake": {
       "game_id": "the-legend-of-zelda-the-wind-waker",
       "fallback_name": "BlueWake",
       "description_pt": "Recompilação estática PowerPC → nativo com runtime derivado do Dolphin (sem JIT). D3D12 (fallback D3D11), resolução até 4x, widescreen 16:9/21:9, Smooth Motion até 240 FPS, modo visual estilo WWHD (F2), texturas HD, mods embutidos (Better Wind Waker) e importação de saves .gci/.raw.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/chrissotraidis/bluewake/HEAD/README.md",
       "development_status_reported": "Beta / Experimental (ativo semanalmente)",
       "legacy_audit": {
         "developer": null,
@@ -1898,14 +2033,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "wind-waker-recomp": {
       "game_id": "the-legend-of-zelda-the-wind-waker",
       "fallback_name": "Wind-Waker-Recomp",
       "description_pt": "Fork original que introduziu D3D12, Smooth Motion 240 FPS e escalada livre; foi oficialmente fundido de volta ao BlueWake em outubro de 2026.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/elliotttate/Wind-Waker-Recomp/HEAD/README.md",
       "development_status_reported": "Abandonado / Fundido ao BlueWake",
       "legacy_audit": {
         "developer": null,
@@ -1926,14 +2062,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "zeldawwhdrecomp": {
       "game_id": "the-legend-of-zelda-the-wind-waker-hd",
       "fallback_name": "ZeldaWWHDRecomp",
       "description_pt": "Recompilação estática Wii U com Cafe OS e gráficos GX2 nativos em Vulkan/Metal (sem Cemu). Randomizer embutido, 99 conquistas, catálogo interno de mods, modelos de GameCube, interpolação/frame gen 60 FPS experimental, HDR, tela do GamePad em PiP e cloud saves.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp/HEAD/README.md",
       "development_status_reported": "Beta / Experimental (muito ativo)",
       "legacy_audit": {
         "developer": null,
@@ -1954,14 +2091,15 @@
           "notes": "A release devel-build está acima de v0.5.1; não usar devel automaticamente como versão estável.",
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "dusklight-ex-dusk": {
       "game_id": "the-legend-of-zelda-twilight-princess",
       "fallback_name": "Dusklight (ex-Dusk)",
       "description_pt": "Reimplementação nativa sobre a decompilação zeldaret/tp e backend Aurora (D3D12, Vulkan, Metal, D3D11). FPS desbloqueado interpolado (60/120/144+ FPS), widescreen/ultrawide, navegador de mods in-game (.dusk, C++ e Luau), Randomizer oficial, texturas HD/4K e áudio 5.1/7.1.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/TwilitRealm/dusklight/HEAD/README.md",
       "development_status_reported": "Estável",
       "legacy_audit": {
         "developer": null,
@@ -1982,13 +2120,14 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "twilight-princess-courage-reborn": {
       "game_id": "the-legend-of-zelda-twilight-princess",
       "fallback_name": "Twilight Princess: Courage Reborn",
       "description_pt": "Port nativo separado baseado na decompilação GC em parceria anunciada com libultraship, focado em 60+ FPS, mouse/teclado, texturas e mods.",
-      "description_status": "legacy_unverified",
+      "description_status": "reviewed_pt_br",
       "description_source_url": null,
       "development_status_reported": "Beta / Experimental (fechado)",
       "legacy_audit": {
@@ -2010,14 +2149,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português; fonte oficial individual não foi verificada nesta auditoria."
     },
     "foxhollow": {
       "game_id": "star-fox-adventures",
       "fallback_name": "FoxHollow",
-      "description_pt": "Port nativo sobre SFA-Decomp e Aurora (D3D11/D3D12, Vulkan, Metal). Focado em fidelidade total ao original, com launcher auto-atualizável, gerenciamento de saves, remapeamento de controles, biblioteca de mods e networking (v1.0.19).",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_pt": "Port nativo sobre SFA-Decomp e Aurora (D3D11/D3D12, Vulkan, Metal). Focado em fidelidade total ao original, com launcher auto-atualizável, gerenciamento de saves, remapeamento de controles, biblioteca de mods e networking (versão não especificada).",
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/JackPriceBurns/foxhollow/HEAD/README.md",
       "development_status_reported": "Estável",
       "legacy_audit": {
         "developer": null,
@@ -2038,14 +2178,15 @@
           "notes": "HTML cita v1.0.22; GH lista v1.0.30, mas não detectado pacote Windows pelo nome no primeiro registro.",
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "nookery-ex-acgc-pc-port": {
       "game_id": "animal-crossing",
       "fallback_name": "Nookery (ex-ACGC-PC-Port)",
-      "description_pt": "Port nativo 64-bit baseado em ac-decomp e migrado na v1.0 para Aurora. FPS desbloqueado, widescreen, Borderless Acres, mouse completo, teclado para cartas, emulador NES embutido (fixNES), viagem à ilha sem GBA, texturas HD Dolphin e melhorias Deluxe.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_pt": "Port nativo 64-bit baseado em ac-decomp e migrado na versão não especificada para Aurora. FPS desbloqueado, widescreen, Borderless Acres, mouse completo, teclado para cartas, emulador NES embutido (fixNES), viagem à ilha sem GBA, texturas HD Dolphin e melhorias Deluxe.",
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/flyngmt/Nookery/HEAD/README.md",
       "development_status_reported": "Estável",
       "legacy_audit": {
         "developer": null,
@@ -2066,14 +2207,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "open-nectar": {
       "game_id": "pikmin-pikmin-2",
       "fallback_name": "Open Nectar",
       "description_pt": "Port nativo sem emulação (GX→OpenGL 3.3+ e JAudio) que executa Pikmin 1 e 2 no mesmo launcher: 30/60/120 FPS, widescreen/ultrawide, mira com mouse, pós-processamento opcional, texturas HD 4K, modelos de Pikmin 3, Randomizer, Speedrun, co-op local e Map/Model Maker.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port/HEAD/README.md",
       "development_status_reported": "Estável / Beta ativo",
       "legacy_audit": {
         "developer": null,
@@ -2094,13 +2236,14 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "metaforce": {
       "game_id": "metroid-prime",
       "fallback_name": "Metaforce",
       "description_pt": "Reimplementação nativa em C++ da engine da Retro Studios (Metroid Prime 1 e DKCR) com extrator HECL e apoio de PrimeDecomp. Reconstrução completa da engine do zero (status In-Game em MP1).",
-      "description_status": "legacy_unverified",
+      "description_status": "reviewed_pt_br",
       "description_source_url": null,
       "development_status_reported": "Beta / Experimental (desenvolvimento lento)",
       "legacy_audit": {
@@ -2122,14 +2265,15 @@
           "notes": "Requisições autenticadas de metadata e releases retornaram 404, mas buscas públicas indexam a página. Tratar como acesso não resolvido, não como inexistente.",
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português; fonte oficial individual não foi verificada nesta auditoria."
     },
     "strikers": {
       "game_id": "super-mario-strikers",
       "fallback_name": "Strikers",
       "description_pt": "Port nativo compilado da decompilação com Aurora (Vulkan, D3D12, Metal). Multiplayer online e LAN com rollback netcode, UPnP, Discord Rich Presence, ultrawide até 12:1, alto FPS, 4x MSAA, texturas Dolphin e suporte USA/EU/JP.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/new-coke/strikers/HEAD/README.md",
       "development_status_reported": "Estável",
       "legacy_audit": {
         "developer": null,
@@ -2150,14 +2294,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "strikersrecomp": {
       "game_id": "super-mario-strikers",
       "fallback_name": "StrikersRecomp",
       "description_pt": "Recompilação estática de prova de conceito via DolRecomp para testar RecompCore e GXRuntime standalone (sem sombras de jogadores). Para jogar no Windows, new-coke/strikers é muito mais maduro.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/aharonahdoot/StrikersRecomp/HEAD/README.md",
       "development_status_reported": "Beta / Experimental (prova de conceito)",
       "legacy_audit": {
         "developer": null,
@@ -2178,14 +2323,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "recharged": {
       "game_id": "mario-strikers-charged",
       "fallback_name": "Recharged",
       "description_pt": "Port nativo da decompilação 100% matching com backend Aurora. Launcher auto-atualizável, online com servidor dedicado (ranqueadas, rollback netcode, Miis), modo Treino, 4 jogadores (suporta Wii Remotes reais), 4x AA, 16:9, texturas Dolphin e 5 edições regionais.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/previouslevelgames/recharged/HEAD/README.md",
       "development_status_reported": "Estável",
       "legacy_audit": {
         "developer": null,
@@ -2206,14 +2352,15 @@
           "notes": "Registro mais recente consultado é build de teste; release estável v1.1.7 também existe.",
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "strikers-wiicompiled": {
       "game_id": "mario-strikers-charged",
       "fallback_name": "Strikers-WiiCompiled",
       "description_pt": "Recompilação estática PowerPC → C++ derivada de WiiCompiled. Diferencia-se do Recharged por suportar mods Riivolution (Kamek) e até 165 FPS sem interpolação, mas sem multiplayer online.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/BlackAndBlue95/Strikers-WiiCompiled/HEAD/README.md",
       "development_status_reported": "Beta / Experimental",
       "legacy_audit": {
         "developer": null,
@@ -2234,14 +2381,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "mariokartdd-recomp": {
       "game_id": "mario-kart-double-dash",
       "fallback_name": "mariokartdd-recomp",
       "description_pt": "Recompilação estática PowerPC → C via gcn-recomp que já inicia menus e corridas Grand Prix com áudio. Diferencial: suporte nativo a VR (OpenXR, visão de cockpit), volantes com Force Feedback e telemetria UDP para simuladores.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/ethannicholas/mariokartdd-recomp/HEAD/README.md",
       "development_status_reported": "Beta / Experimental",
       "legacy_audit": {
         "developer": null,
@@ -2262,14 +2410,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "mkdd-recomp": {
       "game_id": "mario-kart-double-dash",
       "fallback_name": "MKDD-Recomp",
       "description_pt": "Recompilação estática experimental para Rust usando Ghidra p-code e runtime Bevy 0.19 com shaders WGSL (resolução 1x–6x) e áudio JAudio HLE. Ainda sem névoa, texturas indiretas ou rumble.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/LeftInWalmart/MKDD-Recomp/HEAD/README.md",
       "development_status_reported": "Beta / Experimental",
       "legacy_audit": {
         "developer": null,
@@ -2290,14 +2439,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "doldecomp-mkdd-decompilacao-base": {
       "game_id": "mario-kart-double-dash",
       "fallback_name": "doldecomp/mkdd (Decompilação-base)",
       "description_pt": "Decompilação matching em andamento (focada na build de debug MarioClub_us) que fornece símbolos para futuros ports nativos.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/doldecomp/mkdd/HEAD/README.md",
       "development_status_reported": "Beta / Experimental (WIP)",
       "legacy_audit": {
         "developer": null,
@@ -2318,14 +2468,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "zelda3": {
       "game_id": "the-legend-of-zelda-a-link-to-the-past",
       "fallback_name": "zelda3",
       "description_pt": "Reimplementação completa em C (~75k linhas) jogável do início ao fim. Widescreen 16:9/16:10, shaders GLSL, mapa Mode 7 HD, áudio MSU-1/Opus, troca rápida L/R, sprites customizados (.zspr), traduções e 30+ correções de bugs.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/snesrev/zelda3/HEAD/README.md",
       "development_status_reported": "Estável",
       "legacy_audit": {
         "developer": null,
@@ -2346,14 +2497,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "zelda-3-launcher": {
       "game_id": "the-legend-of-zelda-a-link-to-the-past",
       "fallback_name": "Zelda 3 Launcher",
       "description_pt": "Interface C# para Windows que automatiza download, extração, compilação e atualização do snesrev/zelda3 com menus visuais completos para widescreen, shaders, MSU-1, sprites e controles.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/RadzPrower/Zelda-3-Launcher/HEAD/README.md",
       "development_status_reported": "Estável",
       "legacy_audit": {
         "developer": null,
@@ -2374,14 +2526,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "super-metroid-launcher": {
       "game_id": "super-metroid",
       "fallback_name": "Super Metroid Launcher",
       "description_pt": "Launcher em C#/.NET para snesrev/sm no Windows: automatiza download, extração e build, adicionando menus para PPU otimizada, sem limite de sprites, shaders GLSL, autosave e cheats.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/RadzPrower/Super-Metroid-Launcher/HEAD/README.md",
       "development_status_reported": "Estável",
       "legacy_audit": {
         "developer": null,
@@ -2402,14 +2555,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "sm": {
       "game_id": "super-metroid",
       "fallback_name": "sm",
       "description_pt": "Reimplementação inicial em C de Super Metroid pelo criador do zelda3, com verificação quadro a quadro contra emulador. Estágio inicial com bugs.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/snesrev/sm/HEAD/README.md",
       "development_status_reported": "Beta / Experimental (estagnado)",
       "legacy_audit": {
         "developer": null,
@@ -2430,14 +2584,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "sm-rewrite": {
       "game_id": "super-metroid",
       "fallback_name": "sm_rewrite",
       "description_pt": "Fork de snesrev/sm focado em refatoração, CMake e suporte inicial a MSU-1. Widescreen planejado nunca foi concluído.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/testyourmine/sm_rewrite/HEAD/README.md",
       "development_status_reported": "Abandonado / Inativo",
       "legacy_audit": {
         "developer": null,
@@ -2458,14 +2613,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "supermarioworldrecomp": {
       "game_id": "super-mario-world",
       "fallback_name": "SuperMarioWorldRecomp",
       "description_pt": "Recompilação estática moderna (65816 → C) com launcher gráfico integrado, SMW Adaptive Widescreen (até 100:9), áudio MSU-1, co-op simultâneo experimental (Mario e Luigi na mesma tela) e netplay online via Discord.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/mstan/SuperMarioWorldRecomp/HEAD/README.md",
       "development_status_reported": "Beta / Experimental (atualizações diárias)",
       "legacy_audit": {
         "developer": null,
@@ -2486,14 +2642,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "smw": {
       "game_id": "super-mario-world",
       "fallback_name": "smw",
       "description_pt": "Reimplementação completa em C jogável do início ao fim, compatível com mods Lunar Magic e patches .bps. Não possui launcher RadzPrower (configuração via smw.ini).",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/snesrev/smw/HEAD/README.md",
       "development_status_reported": "Estável (pausado)",
       "legacy_audit": {
         "developer": null,
@@ -2514,14 +2671,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "phase-distorter": {
       "game_id": "earthbound-mother-2",
       "fallback_name": "Phase Distorter",
       "description_pt": "Port nativo em C++20 suportando EarthBound (USA) e Mother 2 (JP) no mesmo executável. Widescreen/ultrawide real (16:9 até 32:9), 90–300 FPS ou desbloqueado, VRR, CRT-Lottes, filtro de fotossensibilidade, save states e menu Debug.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/TheRunaway5/Phase-Distorter/HEAD/README.md",
       "development_status_reported": "Beta / Experimental",
       "legacy_audit": {
         "developer": null,
@@ -2542,14 +2700,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "autotmc-auto-tmc": {
       "game_id": "the-legend-of-zelda-the-minish-cap",
       "fallback_name": "AutoTMC (auto-tmc)",
       "description_pt": "Instalador e launcher gráfico que baixa os binários do Project Picori (999sian/tmc), valida SHA-256, extrai os assets da ROM e gerencia atualizações (1.0.2 adiciona suporte EU/JP/Demos).",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/StonedModder/auto-tmc/HEAD/README.md",
       "development_status_reported": "Estável",
       "legacy_audit": {
         "developer": null,
@@ -2570,13 +2729,14 @@
           "notes": "GH lista pre-release 1.0.2; HTML inclui as duas versões.",
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "project-picori-999sian-tmc": {
       "game_id": "the-legend-of-zelda-the-minish-cap",
       "fallback_name": "Project Picori (999sian/tmc)",
       "description_pt": "Port nativo para PC (SDL3, VirtuaPPU e áudio agbplay) construído sobre a decompilação em C zeldaret/tmc (95,2%).",
-      "description_status": "legacy_unverified",
+      "description_status": "reviewed_pt_br",
       "description_source_url": null,
       "development_status_reported": "Beta / Experimental (ativo)",
       "legacy_audit": {
@@ -2598,14 +2758,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português; fonte oficial individual não foi verificada nesta auditoria."
     },
     "tmc-decompilacao-base": {
       "game_id": "the-legend-of-zelda-the-minish-cap",
       "fallback_name": "tmc (Decompilação-base)",
       "description_pt": "Decompilação matching (95,2%) das versões USA/JP/EU/Demos que serve de base para o Project Picori.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/zeldaret/tmc/HEAD/README.md",
       "development_status_reported": "Beta / Experimental (WIP maduro)",
       "legacy_audit": {
         "developer": null,
@@ -2626,14 +2787,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "gsrecomp": {
       "game_id": "golden-sun-golden-sun-the-lost-age",
       "fallback_name": "GSRecomp",
       "description_pt": "Recompilação estática ARM/Thumb → C++ reunindo ambos os Golden Sun no mesmo launcher. Modos Wide/Extra Wide, Modo Seamless (transfere Clear Data sem senha do 1º ao 2º jogo), músicas FLAC, filtros CRT/LCD3x/xBR, rastreadores de Djinn e ROMs com patch.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/Shmargus/GSRecomp/HEAD/README.md",
       "development_status_reported": "Beta / Experimental (muito ativo)",
       "legacy_audit": {
         "developer": null,
@@ -2654,14 +2816,15 @@
           "notes": "HTML cita tags até 0.8.3; GH lista pre-release 0.8.4 Windows.",
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "opengoal": {
       "game_id": "jak-and-daxter-1-2-e-3",
       "fallback_name": "OpenGOAL",
       "description_pt": "Decompilação da linguagem GOAL (Lisp) com compilador nativo x86-64/ARM64 sem emulação. Widescreen, alto FPS, pacotes de texturas e mods no launcher, traduções (PT-BR em Jak 2), ferramentas de speedrun e REPL ao vivo.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/open-goal/jak-project/HEAD/README.md",
       "development_status_reported": "Estável (Jak 1) / Beta (Jak 2 e Jak 3)",
       "legacy_audit": {
         "developer": null,
@@ -2682,14 +2845,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "god-of-war-native-pc-port-gow-pc-port": {
       "game_id": "god-of-war-2005",
       "fallback_name": "God of War: native PC port (gow-pc-port)",
       "description_pt": "Recompilação estática MIPS R5900 → C++ (recompiler em Rust) com OpenGL 4.6 (0,25x–8x), 60/120 FPS, widescreen Hor+, vídeos MPEG-2 nativos, teclado+mouse, menu Port Options injetado, saves compatíveis com PCSX2, texturas HD, RetroAchievements e perfil PGO. Launcher em EN e PT-BR.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/danielalves96/gow-pc-port/HEAD/README.md",
       "development_status_reported": "Beta / Experimental (muito otimizado)",
       "legacy_audit": {
         "developer": null,
@@ -2710,14 +2874,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "shadow-of-rome-recompiled": {
       "game_id": "shadow-of-rome",
       "fallback_name": "Shadow of Rome Recompiled",
       "description_pt": "Recompilação estática via PS2Recomp com GS do PCSX2 (DX12/DX11/Vulkan) e VU1 microVU. 60 FPS estáveis, resolução até 8x, 16:9/21:9, FOV +30%, modo POST EFFECTS: CLEAN, câmera no mouse, ReShade integrado, vídeos MP4 HD e suporte PAL/NTSC.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/Korvonordico/shadow-of-rome-recompiled/HEAD/README.md",
       "development_status_reported": "Beta / Experimental (zerável)",
       "legacy_audit": {
         "developer": null,
@@ -2738,14 +2903,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "symphonyrecomp": {
       "game_id": "castlevania-symphony-of-the-night",
       "fallback_name": "SymphonyRecomp",
       "description_pt": "Recompilação estática em C# via RecompOne. Widescreen real com extensão de salas e entidades fora do 4:3, interface BigPicture, cor 24-bit, shaders Slang/Libretro, Asset Pack Editor, randomizer integrado, mods e interface em PT-BR.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/BlackLabelHQ/SymphonyRecomp/HEAD/README.md",
       "development_status_reported": "Beta / Experimental",
       "legacy_audit": {
         "developer": null,
@@ -2766,14 +2932,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "crash-team-racing-high-octane": {
       "game_id": "crash-team-racing",
       "fallback_name": "Crash Team Racing: High Octane",
       "description_pt": "Source port multiplataforma derivado de ctr-native: widescreen real, 60 FPS, PGXP, filtros pós-processamento (CRT/FXAA), split-screen até 4 jogadores, leaderboard online Time Trial/Relic, Ghost Replay, pistas reversas/Mirror e personagens customizados.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/Rinnegatamante/Crash-Team-Racing-High-Octane/HEAD/README.md",
       "development_status_reported": "Estável",
       "legacy_audit": {
         "developer": null,
@@ -2794,14 +2961,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "crash-team-racing-turbocharged": {
       "game_id": "crash-team-racing",
       "fallback_name": "Crash Team Racing: Turbocharged",
       "description_pt": "Fork de High Octane focado em PC: renderizador 3D nativo com depth buffer, PGXP, até 240 FPS interpolados, 4:3 a 32:9, MSAA/SSAA/FXAA, seleção de motor independente do personagem, autosave e HUD vetorial moderno.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/CameronRedmore/Crash-Team-Racing-Turbocharged/HEAD/README.md",
       "development_status_reported": "Beta / Experimental",
       "legacy_audit": {
         "developer": null,
@@ -2822,14 +2990,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "ctr-native": {
       "game_id": "crash-team-racing",
       "fallback_name": "CTR Native",
       "description_pt": "Port nativo base compilado dos 943 arquivos C da decompilação CTR-ModSDK com SDL3. Foca em paridade fiel com o jogo de 1999 (incluindo glitches de speedrun) e serve de fundação para forks.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/CTR-tools/ctr-native/HEAD/README.md",
       "development_status_reported": "Beta / Experimental",
       "legacy_audit": {
         "developer": null,
@@ -2850,14 +3019,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "wipeout-phantom-edition": {
       "game_id": "wipeout",
       "fallback_name": "WipeOut Phantom Edition",
       "description_pt": "Source port aprimorado usando dados do PS1 (mais fiel que o PC port de 1995): FPS desbloqueado, alta resolução, widescreen, distância de visão ampliada, partículas, iluminação nas naves, 3 modos de colisão e áudio 3D.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/wipeout-phantom-edition/wipeout-phantom-edition/HEAD/README.md",
       "development_status_reported": "Estável",
       "legacy_audit": {
         "developer": null,
@@ -2878,14 +3048,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "wipeout-rewrite": {
       "game_id": "wipeout",
       "fallback_name": "wipEout Rewrite",
       "description_pt": "Reescrita aberta em C com backends SDL2/Sokol e renderizador software opcional, alta resolução e widescreen (ainda sem animações finais e reverb em túneis).",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/phoboslab/wipeout-rewrite/HEAD/README.md",
       "development_status_reported": "Beta / Experimental",
       "legacy_audit": {
         "developer": null,
@@ -2906,14 +3077,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "redriver2": {
       "game_id": "driver-2",
       "fallback_name": "REDRIVER2",
       "description_pt": "Decompilação completa MIPS → C via Psy-X/PsyCross sem emulação. Corrige bugs do PS1, restaura conteúdo cortado (monotrilho de Vegas, luzes dinâmicas), fontes HD, widescreen, FOV, câmera livre, fast load e troca de texturas/modelos.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/OpenDriver2/REDRIVER2/HEAD/README.md",
       "development_status_reported": "Estável",
       "legacy_audit": {
         "developer": null,
@@ -2934,14 +3106,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "severed-chains": {
       "game_id": "the-legend-of-dragoon",
       "fallback_name": "Severed Chains",
       "description_pt": "Reescrita em Java de alto nível sem emulação. Totalmente jogável, corrige bugs originais, upscaling de resolução, áudio aprimorado, suporte a 1.800+ controles + mouse nos menus, fast-forward, saves ilimitados, sem troca de disco e API extensa de mods.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/Legend-of-Dragoon-Modding/Severed-Chains/HEAD/README.md",
       "development_status_reported": "Estável",
       "legacy_audit": {
         "developer": null,
@@ -2962,14 +3135,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "silent-hill-native-pc-port": {
       "game_id": "silent-hill",
       "fallback_name": "Silent Hill - Native PC Port",
       "description_pt": "Executável nativo da decompilação C + PsyCross (zerável do início ao fim). Widescreen 16:9/21:9+, FPS desbloqueado, PGXP, MSAA, 4 modos de lanterna com sombras até 8K, câmeras TPS/FPS, áudio 5.1/7.1, modelos glTF high-poly, Mod Manager, RetroAchievements e edição online separada (silenthill-online).",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/SlickAmogus/silent-hill-decomp/HEAD/README.md",
       "development_status_reported": "Beta / Experimental",
       "legacy_audit": {
         "developer": null,
@@ -2990,14 +3164,15 @@
           "notes": "Últimas releases incluem builds UWP/Xbox; selecionar canal Windows PC especificamente.",
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "vandalhearts-pcport": {
       "game_id": "vandal-hearts",
       "fallback_name": "VandalHearts-PcPort",
       "description_pt": "Port nativo 64-bit sobre decompilação 100% byte-exact. Um executável auto-detecta USA, Asia e Japan; rasterizador software preciso com supersampling 1x–4x, HD Packs (.webp + FMVs HEVC), fast-forward 2x, Tactical Mode e framework de traduções.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/HalmyLyseas/VandalHearts-PcPort/HEAD/README.md",
       "development_status_reported": "Estável",
       "legacy_audit": {
         "developer": null,
@@ -3018,14 +3193,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "bloodyroar2recomp": {
       "game_id": "bloody-roar-ii",
       "fallback_name": "BloodyRoar2Recomp",
       "description_pt": "Recompilação estática MIPS → C via psxrecomp. Detecta automaticamente discos EU, USA e JP (exp.). Widescreen real (16:9/21:9), PGXP, Turbo Mode (75/120 Hz+), loads rápidos, Unlock All e Netplay online 2P com lobby e rollback.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/novapowers0/BloodyRoar2Recomp/HEAD/README.md",
       "development_status_reported": "Beta / Experimental",
       "legacy_audit": {
         "developer": null,
@@ -3046,14 +3222,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "knowyourrolerecomp": {
       "game_id": "wwf-smackdown-2-know-your-role",
       "fallback_name": "KnowYourRoleRecomp",
       "description_pt": "Recompilação estática completa do jogo de PS1 para PC, eliminando praticamente todas as telas de loading originais e preparando suporte a mods e texturas HD.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/Comfubar/KnowYourRoleRecomp/HEAD/README.md",
       "development_status_reported": "Beta / Experimental",
       "legacy_audit": {
         "developer": null,
@@ -3074,14 +3251,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "kf1-enhanced": {
       "game_id": "king-s-field-jp-1994",
       "fallback_name": "kf1-enhanced",
       "description_pt": "Port nativo aprimorado do primeiro King's Field japonês (1994) sobre kf1-decomp, adicionando melhorias de qualidade de vida como automapa e estatísticas de equipamentos (irmão de kf3-enhanced).",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/Acranon/kf1-enhanced/HEAD/README.md",
       "development_status_reported": "Beta / Experimental (Alpha)",
       "legacy_audit": {
         "developer": null,
@@ -3102,14 +3280,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "yu-gi-oh-forbidden-memories-recompiled": {
       "game_id": "yu-gi-oh-forbidden-memories",
       "fallback_name": "Yu-Gi-Oh! Forbidden Memories Recompiled",
       "description_pt": "Port nativo sobre decompilação 100% byte-exact (1.134/1.134 funções C). Resolução até 4x, widescreen, texto HD, modo 3D Monsters, pacote HD opcional, importação de saves .mcr/.mcd, 5 idiomas europeus, assistente de fusão, Tower Mode e FM Editor.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/krystalgamer/Yu-Gi-Oh-Forbidden-Memories-Recompiled/HEAD/README.md",
       "development_status_reported": "Beta / Experimental (100% decompilado)",
       "legacy_audit": {
         "developer": null,
@@ -3130,14 +3309,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "trx-tomb-raider-i-iii-community-edition": {
       "game_id": "tomb-raider-i-v",
       "fallback_name": "TRX (Tomb Raider I–III Community Edition)",
       "description_pt": "Reimplementação por decompilação em engine unificada para TR1, TR2, TR3 e níveis customizados (TR4 em andamento). Trança restaurada no TR1, 60 FPS, modo foto, itens 3D, barra de vida, opções retrô PS1, console dev, API Lua e centenas de correções.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/LostArtefacts/TRX/HEAD/README.md",
       "development_status_reported": "Estável (TR1–3) / Beta (TR4)",
       "legacy_audit": {
         "developer": null,
@@ -3158,14 +3338,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "openlara": {
       "game_id": "tomb-raider-i-v",
       "fallback_name": "OpenLara",
       "description_pt": "Engine open-source ultraleve multiplataforma com iluminação dinâmica, cáusticas na água, modo em primeira pessoa, co-op split-screen e 60+ FPS. TR2–TR5 seguem incompletos.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/XProger/OpenLara/HEAD/README.md",
       "development_status_reported": "Beta / Experimental (releases estagnadas)",
       "legacy_audit": {
         "developer": null,
@@ -3186,14 +3367,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "mega-man-legends-modernization-project": {
       "game_id": "mega-man-legends-rockman-dash",
       "fallback_name": "Mega Man Legends Modernization Project",
       "description_pt": "Modernização e recompilação estática x86 → C via Ghidra (modo 64-bit mml_run64.exe ou 32-bit mml.dll). D3D11/Vulkan, widescreen real, 60/120 FPS, controles modernos/câmera livre, shaders RetroArch, ReShade, pacotes HD e vozes JP.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/Drakfix/MML_Modernization-Project/HEAD/README.md",
       "development_status_reported": "Beta / Experimental (muito ativo)",
       "legacy_audit": {
         "developer": null,
@@ -3214,14 +3396,15 @@
           "notes": "Última release v0.9.6-beta encontrada, porém o filtro de nome não confirmou instalador Windows; inspecionar assets.",
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "mml1-megaman-legends-decomp": {
       "game_id": "mega-man-legends-rockman-dash",
       "fallback_name": "mml1 (Megaman Legends Decomp)",
       "description_pt": "Decompilação inicial em C da versão PS1 US focada apenas em reconstruir ROCK_NEO.EXE para PS1. Não gera port jogável de PC.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/ChrisNonyminus/mml1/HEAD/README.md",
       "development_status_reported": "Abandonado / Inativo",
       "legacy_audit": {
         "developer": null,
@@ -3242,14 +3425,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "unleashedrecomp": {
       "game_id": "sonic-unleashed",
       "fallback_name": "UnleashedRecomp",
       "description_pt": "Recompilação estática via XenonRecomp/XenosRecomp com D3D12/Vulkan, 60+ FPS, ultrawide 21:9+, MSAA > 2x, DoF/Motion Blur aprimorados, compilação assíncrona de shaders, conquistas locais, DualSense e mods via Hedge Mod Manager.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/hedge-dev/UnleashedRecomp/HEAD/README.md",
       "development_status_reported": "Estável",
       "legacy_audit": {
         "developer": null,
@@ -3270,14 +3454,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "marathon-recompiled": {
       "game_id": "sonic-the-hedgehog-2006",
       "fallback_name": "Marathon Recompiled",
       "description_pt": "Recompilação estática via XenonRecomp/XenosRecomp (backend plume D3D12/Vulkan/Metal), teclado e mouse com mouselook, menus em 6 idiomas, conquistas locais, patches de QoL e opções da versão PS3.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/sonicnext-dev/MarathonRecomp/HEAD/README.md",
       "development_status_reported": "Estável",
       "legacy_audit": {
         "developer": null,
@@ -3298,14 +3483,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "shadow-recompiled": {
       "game_id": "shadow-the-hedgehog",
       "fallback_name": "Shadow Recompiled",
       "description_pt": "Recompilação estática do x86 do Xbox via XboxRecomp2/XShaderRecomp (D3D12/Vulkan). 16:9/21:9+, altas taxas de quadros, bloom reformulado, correção de bugs exclusivos do Xbox, pulo de cutscenes liberado, conquistas locais e mod loader SA Mod Manager.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/FoxWorkshop/ShadowRecomp/HEAD/README.md",
       "development_status_reported": "Estável",
       "legacy_audit": {
         "developer": null,
@@ -3326,14 +3512,15 @@
           "notes": "GH mostra v1.0.0 com ZIP Windows.",
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "sarecomp-sonic-adventure-recompiled": {
       "game_id": "sonic-adventure",
       "fallback_name": "SARecomp (Sonic Adventure Recompiled)",
       "description_pt": "Recompilação estática (KatanaRecomp) em D3D11/Vulkan, 4:3/16:9/21:9, opção de 60 updates/s, câmera moderna com mouse/analógico, importação de VMU .bin do Flycast e todas as 7 histórias jogáveis.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/sonicfreak1337/SARecomp/HEAD/README.md",
       "development_status_reported": "Beta / Experimental",
       "legacy_audit": {
         "developer": null,
@@ -3354,14 +3541,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "rsdkv4-decompilation": {
       "game_id": "sonic-the-hedgehog-1-2-2013",
       "fallback_name": "RSDKv4-Decompilation",
       "description_pt": "Decompilação completa da Retro Engine v4 (C++/SDL2/OpenGL) com compilador de scripts, mod loader, modo 2P VS online experimental para Sonic 2 e compatibilidade com Data.rsdk mobile/Sonic Origins.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/RSDKModding/RSDKv4-Decompilation/HEAD/README.md",
       "development_status_reported": "Estável",
       "legacy_audit": {
         "developer": null,
@@ -3382,13 +3570,14 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "sonic-1-forever-sonic-2-absolute": {
       "game_id": "sonic-the-hedgehog-1-2-2013",
       "fallback_name": "Sonic 1 Forever & Sonic 2 Absolute",
       "description_pt": "Overhauls completos sobre fork da RSDKv4 com widescreen aprimorado, melhorias visuais, novos personagens/modos e opções estilo Sonic 3 A.I.R. (espelho de código em ElspethThePict/TeamForever-v4-1.3).",
-      "description_status": "legacy_unverified",
+      "description_status": "reviewed_pt_br",
       "description_source_url": null,
       "development_status_reported": "Estável",
       "legacy_audit": {
@@ -3410,14 +3599,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português; fonte oficial individual não foi verificada nesta auditoria."
     },
     "sonic-3-a-i-r-oxygen-engine": {
       "game_id": "sonic-3-knuckles",
       "fallback_name": "Sonic 3 A.I.R. (Oxygen Engine)",
       "description_pt": "Remasterização nativa na Oxygen Engine (C++/SDL2/OpenGL + Lemonscript) com widescreen 16:9, 60 FPS suaves, trilha remasterizada opcional, Ghost Sync, amplo suporte a mods (até 4 jogadores) e shaders.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/Eukaryot/sonic3air/HEAD/README.md",
       "development_status_reported": "Estável",
       "legacy_audit": {
         "developer": null,
@@ -3438,14 +3628,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "cannonball": {
       "game_id": "outrun",
       "fallback_name": "Cannonball",
       "description_pt": "Reescrita completa em C++ (SDL2/OpenGL) do código 68000/Z80 do arcade com 60 FPS reais, widescreen, correções opcionais, Time Trial/Continuous e suporte a áudio Switch/3DS.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/djyt/cannonball/HEAD/README.md",
       "development_status_reported": "Estável (repositório original inativo)",
       "legacy_audit": {
         "developer": null,
@@ -3466,14 +3657,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "pinyon-shift": {
       "game_id": "forza-horizon",
       "fallback_name": "Pinyon Shift",
       "description_pt": "Recompilação estática via ShiftGlue (Vulkan 1.3 + D3D11 exp.), 60–240 FPS, resolução até 4K, FSR 1/3, DLSS Frame Gen, HDR, ultrawide, rádios customizadas, suporte a DLCs (Rally/1000 Club), mods, conquistas e trainer.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/arcanite24/pinyon-shift/HEAD/README.md",
       "development_status_reported": "Beta / Experimental (muito ativo)",
       "legacy_audit": {
         "developer": null,
@@ -3494,14 +3686,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "re-blue": {
       "game_id": "blue-dragon",
       "fallback_name": "re:Blue",
       "description_pt": "Recompilação estática via ReXGlue SDK: até 4K, 16:9/21:9/32:9, FPS destravado, MSAA 8x/SSAA 4x, FOV 45°–120°, save em qualquer lugar, teclado/mouse clicáveis, gerenciador de mods, DLCs e 8 conquistas extras.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/zolaware/reblue/HEAD/README.md",
       "development_status_reported": "Estável",
       "legacy_audit": {
         "developer": null,
@@ -3522,14 +3715,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "the-darkness-recomp": {
       "game_id": "the-darkness",
       "fallback_name": "The-Darkness-Recomp",
       "description_pt": "Recompilação estática XenonRecomp com D3D11, teclado/mouse remapeáveis, DualSense nativo, FOV 120°, FXAA/SMAA/MSAA 8x, AF 16x, legendas escaláveis, conquistas locais e packs de textura/vídeo.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/portingpete/The-Darkness-Recomp/HEAD/README.md",
       "development_status_reported": "Beta / Experimental",
       "legacy_audit": {
         "developer": null,
@@ -3550,14 +3744,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "downpourrecomp": {
       "game_id": "silent-hill-downpour",
       "fallback_name": "DownpourRecomp",
       "description_pt": "Recompilação estática ReXGlue: 60 FPS destravados, até 4K + 2x SSAA, FSR 3, 7 presets de cor ASC-CDL, mouse look raw input, DualSense com gatilhos adaptativos, shader cache pré-aquecido e launcher com auto-update.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/LittleBitUA/DownpourRecomp/HEAD/README.md",
       "development_status_reported": "Estável",
       "legacy_audit": {
         "developer": null,
@@ -3578,14 +3773,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "dprecomp": {
       "game_id": "deadly-premonition",
       "fallback_name": "DPRecomp",
       "description_pt": "Recompilação estática ReXGlue com 60 FPS corrigidos na base de tempo, mouse look, direção W/S, DualSense, 2x SSAA + FSR 3, renderizador D3D12 nativo opcional em preview (4x) e suporte PAL/USA.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/LittleBitUA/DPRecomp/HEAD/README.md",
       "development_status_reported": "Estável (modo ROV) / Beta (D3D12 nativo)",
       "legacy_audit": {
         "developer": null,
@@ -3606,14 +3802,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "project8recomp": {
       "game_id": "tony-hawk-s-project-8",
       "fallback_name": "Project8Recomp",
       "description_pt": "Recompilação estática ReXGlue 0.10 (Vulkan) com launcher portátil e verificação de hash. Build Windows é cross-compilado do Linux (testado via Proton no Steam Deck, ainda não validado em Windows real).",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/theokyr/Project8Recomp/HEAD/README.md",
       "development_status_reported": "Beta / Experimental",
       "legacy_audit": {
         "developer": null,
@@ -3634,14 +3831,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "project-2099": {
       "game_id": "spider-man-edge-of-time",
       "fallback_name": "Project 2099",
       "description_pt": "Recompilação ReXGlue focada em Windows (D3D12), 30/60/75/120 FPS, até 4K, AF 16x, teclado/mouse com QTEs dinâmicos, 6 idiomas, 47 conquistas locais e 9 trajes novos.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/GenryTheFox0/Project-2099/HEAD/README.md",
       "development_status_reported": "Beta / Experimental",
       "legacy_audit": {
         "developer": null,
@@ -3662,14 +3860,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "king-kong-recompiled": {
       "game_id": "peter-jackson-s-king-kong",
       "fallback_name": "King Kong: Recompiled",
       "description_pt": "Recompilação estática ReXGlue (D3D12/Vulkan) até 8K, 21:9/32:9, até 240 FPS, modo Remastered (GI, AO, reflexos, light shafts), FSR 1/NIS, modo foto, co-op online 2P antecipado e Workshop integrado.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/TekRantGaming/king-kong-recompiled/HEAD/README.md",
       "development_status_reported": "Beta / Experimental (ativo)",
       "legacy_audit": {
         "developer": null,
@@ -3690,14 +3889,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "earthworm-jim-hd-recompiled": {
       "game_id": "earthworm-jim-hd",
       "fallback_name": "Earthworm Jim HD: Recompiled",
       "description_pt": "Recompilação estática ReXGlue com TRG Launcher, resolução até 6x (8K), FXAA/MSAA 2x, AF 16x, 30–240 FPS, cheats opcionais, conquistas e auto-update.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/TekRantGaming/earthworm-jim-hd-recompiled/HEAD/README.md",
       "development_status_reported": "Beta / Experimental",
       "legacy_audit": {
         "developer": null,
@@ -3718,14 +3918,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "thesimpsonsgamerecomp": {
       "game_id": "the-simpsons-game",
       "fallback_name": "TheSimpsonsGameRecomp",
       "description_pt": "Recompilação estática ReXGlue com Vulkan/D3D12/D3D11 exp., 60–240 FPS (Havok fixo), co-op split-screen em Springfield, teclado/mouse, controle de cel-shading, 44 conquistas e Modkit Lua/C++.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/YesterMester/TheSimpsonsGameRecomp/HEAD/README.md",
       "development_status_reported": "Beta / Experimental (muito ativo)",
       "legacy_audit": {
         "developer": null,
@@ -3746,14 +3947,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "dead-rising-2-case-zero-xenon-recomp": {
       "game_id": "dead-rising-2-case-zero-case-west",
       "fallback_name": "Dead_Rising_2_Case_Zero_Xenon_Recomp",
       "description_pt": "Recompilação estática XenonRecomp + Vulkan 1.3, até 5K, 21:9, 60+ FPS, MSAA, teclado/mouse de DR2 PC, co-op online 2P e conquistas via XenonLive_Launcher, limite de nível 50 e suporte a mods DR2-Studio.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/wivi514/Dead_Rising_2_Case_Zero_Xenon_Recomp/HEAD/README.md",
       "development_status_reported": "Estável / Finalizado (sem novas atualizações planejadas)",
       "legacy_audit": {
         "developer": null,
@@ -3774,14 +3976,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "dead-rising-2-case-west-xenon-recomp": {
       "game_id": "dead-rising-2-case-zero-case-west",
       "fallback_name": "Dead_Rising_2_Case_West_Xenon_Recomp",
       "description_pt": "Recompilação estática irmã de Case Zero com mesma base XenonRecomp + Vulkan 1.3, 5K, ultrawide, 60+ FPS, teclado/mouse nativos, co-op online 2P via XenonLive_Launcher e suporte a mods.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/wivi514/Dead_Rising_2_Case_West_Xenon_Recomp/HEAD/README.md",
       "development_status_reported": "Estável / Finalizado (sem novas atualizações planejadas)",
       "legacy_audit": {
         "developer": null,
@@ -3802,14 +4005,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "doaxvb-re": {
       "game_id": "dead-or-alive-xtreme-beach-volleyball",
       "fallback_name": "doaxvb-re",
       "description_pt": "Recompilação estática do XBE para C (D3D11 e Vulkan exp.), alta resolução, MSAA/SMAA, RTGI opcional, trilhas customizadas, câmera livre, Model Viewer e modo online Exhibition experimental com rollback.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/NoRain211/doaxvb-re/HEAD/README.md",
       "development_status_reported": "Beta / Experimental (jogável e ativo)",
       "legacy_audit": {
         "developer": null,
@@ -3830,14 +4034,15 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     },
     "3on3nhl-recomp": {
       "game_id": "3-on-3-nhl-arcade",
       "fallback_name": "3on3NHL-recomp",
       "description_pt": "Recompilação estática ReXGlue (D3D12) com partidas completas, controles Xbox/PS, conquistas locais (10/12) e modo online/mods em desenvolvimento.",
-      "description_status": "legacy_unverified",
-      "description_source_url": null,
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/Wndwsqrrl/3on3NHL-recomp/HEAD/README.md",
       "development_status_reported": "Beta / Experimental",
       "legacy_audit": {
         "developer": null,
@@ -3858,7 +4063,9 @@
           "notes": null,
           "functional_installation_tested": false
         }
-      }
+      },
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
     }
-  }
+  },
+  "editorial_policy": "Resumos curtos dos jogos originais revisados em português brasileiro. Descrições de projetos originalmente compiladas em pesquisa anterior foram revisadas apenas quanto ao idioma e vinculadas ao README acessível; não significam validação funcional, completude nem atualidade das funcionalidades citadas."
 }
