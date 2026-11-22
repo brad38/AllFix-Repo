@@ -1,0 +1,3864 @@
+{
+  "schema_version": 1,
+  "language": "pt-BR",
+  "updated_at": "2026-11-22",
+  "notice": "Descricoes anteriores sao resumos de pesquisa, nao substituem metadados dinamicos da API do repositorio. Descricoes de jogos ainda nao foram pesquisadas.",
+  "games": {
+    "super-mario-64": {
+      "title": "Super Mario 64",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "the-legend-of-zelda-ocarina-of-time": {
+      "title": "The Legend of Zelda: Ocarina of Time",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "the-legend-of-zelda-majora-s-mask": {
+      "title": "The Legend of Zelda: Majora's Mask",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "star-fox-64": {
+      "title": "Star Fox 64",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "mario-kart-64": {
+      "title": "Mario Kart 64",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "super-smash-bros": {
+      "title": "Super Smash Bros.",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "paper-mario": {
+      "title": "Paper Mario",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "donkey-kong-64": {
+      "title": "Donkey Kong 64",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "pokemon-snap": {
+      "title": "Pokémon Snap",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "dr-mario-64": {
+      "title": "Dr. Mario 64",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "banjo-kazooie": {
+      "title": "Banjo-Kazooie",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "banjo-tooie": {
+      "title": "Banjo-Tooie",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "perfect-dark": {
+      "title": "Perfect Dark",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "goldeneye-007": {
+      "title": "GoldenEye 007",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "dinosaur-planet": {
+      "title": "Dinosaur Planet",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "bomberman-64": {
+      "title": "Bomberman 64",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "bomberman-hero": {
+      "title": "Bomberman Hero",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "mystical-ninja-starring-goemon": {
+      "title": "Mystical Ninja Starring Goemon",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "goemon-s-great-adventure": {
+      "title": "Goemon's Great Adventure",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "duke-nukem-zero-hour": {
+      "title": "Duke Nukem: Zero Hour",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "body-harvest": {
+      "title": "Body Harvest",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "space-station-silicon-valley": {
+      "title": "Space Station Silicon Valley",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "quest-64": {
+      "title": "Quest 64",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "mega-man-64": {
+      "title": "Mega Man 64",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "battletanx-global-assault": {
+      "title": "BattleTanx: Global Assault",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "snowboard-kids-2": {
+      "title": "Snowboard Kids 2",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "extreme-g": {
+      "title": "Extreme-G",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "rocket-robot-on-wheels": {
+      "title": "Rocket: Robot on Wheels",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "chameleon-twist": {
+      "title": "Chameleon Twist",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "automobili-lamborghini": {
+      "title": "Automobili Lamborghini",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "wcw-vs-nwo-world-tour": {
+      "title": "WCW vs. nWo: World Tour",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "wcw-nwo-revenge": {
+      "title": "WCW/nWo Revenge",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "wwf-wrestlemania-2000": {
+      "title": "WWF WrestleMania 2000",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "virtual-pro-wrestling-64": {
+      "title": "Virtual Pro Wrestling 64",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "wwf-no-mercy": {
+      "title": "WWF No Mercy",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "the-legend-of-zelda-the-wind-waker": {
+      "title": "The Legend of Zelda: The Wind Waker",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "the-legend-of-zelda-the-wind-waker-hd": {
+      "title": "The Legend of Zelda: The Wind Waker HD",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "the-legend-of-zelda-twilight-princess": {
+      "title": "The Legend of Zelda: Twilight Princess",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "star-fox-adventures": {
+      "title": "Star Fox Adventures",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "animal-crossing": {
+      "title": "Animal Crossing",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "pikmin-pikmin-2": {
+      "title": "Pikmin & Pikmin 2",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "metroid-prime": {
+      "title": "Metroid Prime",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "super-mario-strikers": {
+      "title": "Super Mario Strikers",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "mario-strikers-charged": {
+      "title": "Mario Strikers Charged",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "mario-kart-double-dash": {
+      "title": "Mario Kart: Double Dash!!",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "the-legend-of-zelda-a-link-to-the-past": {
+      "title": "The Legend of Zelda: A Link to the Past",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "super-metroid": {
+      "title": "Super Metroid",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "super-mario-world": {
+      "title": "Super Mario World",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "earthbound-mother-2": {
+      "title": "EarthBound / Mother 2",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "the-legend-of-zelda-the-minish-cap": {
+      "title": "The Legend of Zelda: The Minish Cap",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "golden-sun-golden-sun-the-lost-age": {
+      "title": "Golden Sun & Golden Sun: The Lost Age",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "jak-and-daxter-1-2-e-3": {
+      "title": "Jak and Daxter 1, 2 e 3",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "god-of-war-2005": {
+      "title": "God of War (2005)",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "shadow-of-rome": {
+      "title": "Shadow of Rome",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "castlevania-symphony-of-the-night": {
+      "title": "Castlevania: Symphony of the Night",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "crash-team-racing": {
+      "title": "Crash Team Racing",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "wipeout": {
+      "title": "Wipeout",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "driver-2": {
+      "title": "Driver 2",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "the-legend-of-dragoon": {
+      "title": "The Legend of Dragoon",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "silent-hill": {
+      "title": "Silent Hill",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "vandal-hearts": {
+      "title": "Vandal Hearts",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "bloody-roar-ii": {
+      "title": "Bloody Roar II",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "wwf-smackdown-2-know-your-role": {
+      "title": "WWF SmackDown! 2: Know Your Role",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "king-s-field-jp-1994": {
+      "title": "King's Field (JP, 1994)",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "yu-gi-oh-forbidden-memories": {
+      "title": "Yu-Gi-Oh! Forbidden Memories",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "tomb-raider-i-v": {
+      "title": "Tomb Raider I–V",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "mega-man-legends-rockman-dash": {
+      "title": "Mega Man Legends / Rockman DASH",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "sonic-unleashed": {
+      "title": "Sonic Unleashed",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "sonic-the-hedgehog-2006": {
+      "title": "Sonic the Hedgehog (2006)",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "shadow-the-hedgehog": {
+      "title": "Shadow the Hedgehog",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "sonic-adventure": {
+      "title": "Sonic Adventure",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "sonic-the-hedgehog-1-2-2013": {
+      "title": "Sonic the Hedgehog 1 & 2 (2013)",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "sonic-3-knuckles": {
+      "title": "Sonic 3 & Knuckles",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "outrun": {
+      "title": "OutRun",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "forza-horizon": {
+      "title": "Forza Horizon",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "blue-dragon": {
+      "title": "Blue Dragon",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "the-darkness": {
+      "title": "The Darkness",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "silent-hill-downpour": {
+      "title": "Silent Hill: Downpour",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "deadly-premonition": {
+      "title": "Deadly Premonition",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "tony-hawk-s-project-8": {
+      "title": "Tony Hawk's Project 8",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "spider-man-edge-of-time": {
+      "title": "Spider-Man: Edge of Time",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "peter-jackson-s-king-kong": {
+      "title": "Peter Jackson's King Kong",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "earthworm-jim-hd": {
+      "title": "Earthworm Jim HD",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "the-simpsons-game": {
+      "title": "The Simpsons Game",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "dead-rising-2-case-zero-case-west": {
+      "title": "Dead Rising 2: Case Zero & Case West",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "dead-or-alive-xtreme-beach-volleyball": {
+      "title": "Dead or Alive Xtreme Beach Volleyball",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    },
+    "3-on-3-nhl-arcade": {
+      "title": "3 on 3 NHL Arcade",
+      "description": null,
+      "description_source_url": null,
+      "review_status": "pending_review"
+    }
+  },
+  "projects": {
+    "ghostship": {
+      "game_id": "super-mario-64",
+      "fallback_name": "Ghostship",
+      "description_pt": "Port moderno em libultraship e Torch com interface ImGui, 4 backends gráficos (DX11, OpenGL, Metal, Vulkan), shaders multipass, texturas HD, Randomizer completo, conquistas, modo espelhado, scripting em C (TinyCC) e suporte a ROM hacks.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável e muito ativo",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "3.0.0 — Nautilus Alfa (06/09/2026)",
+          "latest_tag_observed_in_audit": "3.0.0",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (Nautilus-Alfa-Win64.zip, 19,4 MB)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "sm64coopdx-super-mario-64-coop-deluxe": {
+      "game_id": "super-mario-64",
+      "fallback_name": "sm64coopdx (Super Mario 64 Coop Deluxe)",
+      "description_pt": "Sucessor oficial do sm64ex-coop. Focado em multiplayer online em tempo real (CoopNet ou direto), API completa de mods em Lua, packs DynOS, ROM hacks integráveis (SM74, Star Road), atualizador automático e seleção OpenGL/DirectX.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável e ativo",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v1.5.1 (31/05/2026)",
+          "latest_tag_observed_in_audit": "v1.5.1",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (sm64coopdx_Windows.zip, 39,9 MB)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "sm64plus": {
+      "game_id": "super-mario-64",
+      "fallback_name": "SM64Plus",
+      "description_pt": "Fork de sm64-port focado em qualidade de vida single-player: controles responsivos, moveset estendido, câmera melhorada, opção de permanecer na fase após estrelas (Remain Mod), modos extras (Green Demon) e 60 FPS interpolados.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável (atualização lenta)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "Sem release no repo principal (v4.0.0 WIP; launcher v3.0.0)",
+          "latest_tag_observed_in_audit": "LauncherMirror",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Não no GitHub (launcher Windows via MFGG)",
+          "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "render96ex": {
+      "game_id": "super-mario-64",
+      "fallback_name": "Render96ex",
+      "description_pt": "Fork do sm64ex voltado à estética promocional Silicon Graphics de 1996. Combina substituição total de modelos 3D via DynOS, texturas HD e integração nativa do path-tracer sm64rt.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável (manutenção leve)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "Sem releases (último commit jul/2026)",
+          "latest_tag_observed_in_audit": "-",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Não (compilação manual)",
+          "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Sem releases GitHub",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "sm64ex": {
+      "game_id": "super-mario-64",
+      "fallback_name": "sm64ex",
+      "description_pt": "Fork histórico base da cena de PC ports: menu in-game, Puppycam (câmera analógica/mouse), texturas/soundbanks externos e backends OpenGL/DX11/DX12. Superado em praticidade por Ghostship e sm64coopdx.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável / Inativo",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "Sem releases (último commit ~2024)",
+          "latest_tag_observed_in_audit": "-",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Não (compilação manual)",
+          "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Sem releases GitHub",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "sm64rt": {
+      "game_id": "super-mario-64",
+      "fallback_name": "sm64rt",
+      "description_pt": "Fork experimental de sm64ex com path-tracing em tempo real via RT64 (iluminação global, reflexos, refrações, DLSS, FSR 2 e XeSS). Integrado nativamente ao Render96ex.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Abandonado / Arquivado (integrado ao Render96ex)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "Sem releases (último commit ~2024)",
+          "latest_tag_observed_in_audit": "-",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Não (compilação manual)",
+          "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Sem releases GitHub",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "ship-of-harkinian-soh": {
+      "game_id": "the-legend-of-zelda-ocarina-of-time",
+      "fallback_name": "Ship of Harkinian (SoH)",
+      "description_pt": "Port nativo mais maduro do N64. Oferece altas taxas de quadros interpoladas, widescreen, DX11/OpenGL/Metal, Randomizer extensivo (Master Quest, Enemy Randomizer), modos Speedrun, multiplayer online via Anchor, cosméticos, save states e mods .o2r/.otr.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável e muito ativo",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "9.3.1 — Dewey Bravo (18/10/2026)",
+          "latest_tag_observed_in_audit": "9.3.1",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (SoH-Dewey-Bravo-Win64.zip, 69,6 MB)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "zelda-64-recompiled": {
+      "game_id": "the-legend-of-zelda-majora-s-mask",
+      "fallback_name": "Zelda 64: Recompiled",
+      "description_pt": "Port inaugural do N64: Recompiled + RT64. Prioriza fidelidade absoluta aos efeitos originais de framebuffer do N64, inicialização plug-and-play sem extração, FPS ilimitado, ultrawide, câmera analógica dupla, giroscópio e mods via Thunderstore (MMRecompRando).",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável e ativo",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v1.2.2 (26/08/2025)",
+          "latest_tag_observed_in_audit": "v1.2.2",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (Zelda64Recompiled-v1.2.2-Windows.zip, 27,6 MB)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "2-ship-2-harkinian-2s2h": {
+      "game_id": "the-legend-of-zelda-majora-s-mask",
+      "fallback_name": "2 Ship 2 Harkinian (2S2H)",
+      "description_pt": "Port via decompilação em libultraship. Traz centenas de melhorias nativas no menu: Randomizer completo embutido, Editor de Cosméticos, Modo Espelhado, Bomb Arrows, Easy Mask Equip, Pictograph em PNG, DX11/OpenGL/Metal e mods .o2r/.otr.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável e muito ativo",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "5.0.1 — Battler Bravo (25/08/2026)",
+          "latest_tag_observed_in_audit": "5.0.1",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (2Ship-Battler-Bravo-Win64.zip, 42,9 MB)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "starship": {
+      "game_id": "star-fox-64",
+      "fallback_name": "Starship",
+      "description_pt": "Port nativo em libultraship com widescreen expandido, alto FPS interpolado, áudio surround 5.1, substituição de vozes usando ROMs EU/JP sobre a base US, cheats, elementos beta restauráveis e mods .o2r/.otr.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável e ativo",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v2.0.0 — Barnard Alfa (24/05/2025)",
+          "latest_tag_observed_in_audit": "v2.0.0",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (Starship-Barnard-Alfa-Windows.zip, 4,02 MB)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "spaghettikart": {
+      "game_id": "mario-kart-64",
+      "fallback_name": "SpaghettiKart",
+      "description_pt": "Port via decompilação e libultraship. Inclui multiplayer split-screen completo para até 4 jogadores, Editor e Importador de Pistas Customizadas, modo Harder CPU, opção sem rubberbanding, freecam, resolução até 400% e mods .o2r/.zip.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável e ativo",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "1.0.0 — Bolognese Alfa (24/02/2026)",
+          "latest_tag_observed_in_audit": "1.0.0",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (spaghetti-windows.zip, 7,44 MB)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "mariokart-64-recompiled": {
+      "game_id": "mario-kart-64",
+      "fallback_name": "MarioKart 64: Recompiled",
+      "description_pt": "Recompilação estática via N64Recomp + RT64 com fidelidade aos efeitos N64, plug-and-play, FPS ilimitado, ultrawide, Controller Pak para fantasmas e suporte a texturas HD MK64 Reloaded (.rtz). Limitação: apenas Single Player no momento.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental (sem multiplayer)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v0.9.2 (13/02/2026)",
+          "latest_tag_observed_in_audit": "v0.9.2",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (binários Windows na release v0.9.2)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "battleship": {
+      "game_id": "super-smash-bros",
+      "fallback_name": "BattleShip",
+      "description_pt": "Port nativo via decompilação com libultraship e Torch. 120/180/240 FPS interpolados (lógica em 60 Hz), widescreen/ultrawide, Classic Co-op, hitboxes/hurtboxes, 3 estágios extras no VS, adaptadores GameCube nativos (WUP-028/Raphnet), mods em C (TinyCC) e texturas HD.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável e ativo",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v1.6 (11/08/2026)",
+          "latest_tag_observed_in_audit": "v1.6",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (BattleShip-windows.zip, 8,41 MB / JP 6,22 MB)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "paperboat": {
+      "game_id": "paper-mario",
+      "fallback_name": "PaperBoat",
+      "description_pt": "Port nativo sobre Paper Mario DX e libultraship. Widescreen/ultrawide com HUD customizável, interpolação acima de 30 FPS, texturas HD preservando paletas de sprites, Sprint, Badges de QoL gratuitas, Blueprint Editor, Save Editor e importação de saves N64.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável e muito ativo",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "1.0.3 — Mulberry Delta (11/10/2026)",
+          "latest_tag_observed_in_audit": "1.0.3",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (Paperboat-Mulberry-Delta-Win64.zip, 26,2 MB)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "donkey-kong-64-recompiled-dk64-rekongpiled": {
+      "game_id": "donkey-kong-64",
+      "fallback_name": "Donkey Kong 64: Recompiled (DK64 Rekongpiled)",
+      "description_pt": "Recompilação estática via N64Recomp + RT64. Roda na taxa do monitor sem afetar a física, widescreen/ultrawide, distância de desenho estendida, câmera analógica responsiva, redução de flashes de relâmpago, loads instantâneos e API de mods.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável e ativo",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v1.0.3 (29/09/2026)",
+          "latest_tag_observed_in_audit": "v1.0.3",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (DK64Recompiled-Windows-Release-1-0-3.zip, 19,1 MB)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "snap64-recomp": {
+      "game_id": "pokemon-snap",
+      "fallback_name": "Snap64 Recomp",
+      "description_pt": "Recompilação estática com RT64 e melhorias integradas à tela de opções original. Widescreen/ultrawide, alto FPS interpolado, mira com mouse/giroscópio, exportação de fotos PNG em alta resolução, emulação do quiosque Snap Station, 4 saves com autosave e mods .nrm.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável e muito ativo",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v1.1.8 (~18/11/2026)",
+          "latest_tag_observed_in_audit": "v1.1.8",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (Snap64Recomp-1.1.8-win64.zip)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "drmario64-recomp-plus": {
+      "game_id": "dr-mario-64",
+      "fallback_name": "drmario64_recomp_plus",
+      "description_pt": "Fork com release pronta que move a renderização de cápsulas para a GPU, adiciona interpolação 60+ FPS, habilita multiplayer local para 4 controles, efeitos CRT e menu atualizado.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "1.0.0 (17/12/2025)",
+          "latest_tag_observed_in_audit": "1.0.0",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (release v1.0.0 publicada)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "drmario64-recomp": {
+      "game_id": "dr-mario-64",
+      "fallback_name": "drmario64_recomp",
+      "description_pt": "Prova de conceito inicial limitada a 1 jogador, com problemas de proporção e crash ao fechar. Substituído pelo fork drmario64_recomp_plus.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Abandonado / Arquivado",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "Sem releases (arquivado em 06/10/2026)",
+          "latest_tag_observed_in_audit": "-",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Não (compilação manual)",
+          "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Sem releases GitHub",
+          "notes": "Repositório arquivado; não há releases.",
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "banjo-recompiled": {
+      "game_id": "banjo-kazooie",
+      "fallback_name": "Banjo: Recompiled",
+      "description_pt": "Recompilação estática oficial com RT64. Prioriza fidelidade total aos efeitos N64 (quebra-cabeça, mipmapping), FPS ilimitado, widescreen/ultrawide, câmera analógica dupla, salvamento permanente de Notas/Jinjos opcional e grandes mods via Thunderstore (Jiggies of Time, Nostalgia 64).",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável e ativo",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v1.0.2 (31/07/2026)",
+          "latest_tag_observed_in_audit": "v1.0.2",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (BanjoRecompiled-v1.0.2-Windows.zip, 17,8 MB)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "lighthouse": {
+      "game_id": "banjo-kazooie",
+      "fallback_name": "Lighthouse",
+      "description_pt": "Port de decompilação em libultraship. Inclui multiplayer cooperativo online via Anchor, Randomizer integrado com World Tracker, pacotes multi-idioma, extração direta de ROM hacks (Lair Witch Project 2.0), cosméticos, mecânicas de Banjo-Tooie e importador de saves do Recomp.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável e muito ativo",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "1.2.2 — Montauk Charlie (~01/11/2026)",
+          "latest_tag_observed_in_audit": "1.2.2",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (Lighthouse-Montauk-Charlie-Win64.zip, 34,9 MB)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "banjo-tooie-recompiled": {
+      "game_id": "banjo-tooie",
+      "fallback_name": "Banjo-Tooie: Recompiled",
+      "description_pt": "Recompilação estática comunitária com N64Recomp + RT64 e patches para o sistema de overlays do jogo. Jogável de ponta a ponta com widescreen e alto FPS; apresenta bordas laterais no skybox 4:3 em 16:9 e limitações pontuais de interpolação em CPU skinning.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v1.0.1 (out/2026)",
+          "latest_tag_observed_in_audit": "v1.0.1",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (BanjoTooieRecompiled-windows-x64.zip)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "perfect-dark-pc-port-perfect-dark": {
+      "game_id": "perfect-dark",
+      "fallback_name": "Perfect Dark PC Port (perfect_dark)",
+      "description_pt": "Port nativo consolidado da decompilação. Campanha e split-screen completos, mouselook nativo, dual-analog, widescreen, FOV, 60 FPS estáveis e modo até 240 FPS, emulação de Transfer Pak (ROM GBC), mods e branch port-net para netplay.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta funcional e ativo",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "ci-dev-build (12/08/2026)",
+          "latest_tag_observed_in_audit": "ci-dev-build",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (pd-x86_64-windows.zip, 24,5 MB / i686)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "project-midas": {
+      "game_id": "goldeneye-007",
+      "fallback_name": "Project Midas",
+      "description_pt": "Port nativo (OpenGL/Fast3D + SDL2) pelo autor do netplay de Perfect Dark. Widescreen, mouselook, FOV independente para armas, HUD escalável, Modo Clássico (N64 AA + vídeo composto), perfis MP, saves do Project64 e correções de alto FPS. Co-op/netplay e mods em desenvolvimento.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável / Beta avançado",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "1.0.2b (23/10/2026)",
+          "latest_tag_observed_in_audit": "1.0.2b",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (ProjectMidas-v1.0.2b-windows.zip, 6,87 MB)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "goldeneye-007-pc-port": {
+      "game_id": "goldeneye-007",
+      "fallback_name": "GoldenEye 007 PC Port",
+      "description_pt": "Port nativo focado em fidelidade 1:1 ao N64 e leveza (60 FPS até em Intel HD 3000): campanha completa (20 missões), split-screen 2–4 jogadores, estilos de controle N64/Xbox, mira N64 ou centralizada e importação de saves .eep.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Pré-1.0 ativo",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v0.5.0 (07/10/2026)",
+          "latest_tag_observed_in_audit": "v0.5.0",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (goldeneye-pc-port-0.5.0-win64.zip)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "dinosaur-planet-recompiled-dino-recomp": {
+      "game_id": "dinosaur-planet",
+      "fallback_name": "Dinosaur Planet: Recompiled (dino-recomp)",
+      "description_pt": "Recompilação estática do protótipo de dez/2000 (que originou Star Fox Adventures), baseada em Zelda64Recomp + RT64. Widescreen 16:9, FPS desbloqueado em refinamento, menu debug e API ReAsset/Thunderstore (recomenda o mod Dinomod Enhanced para avançar além dos atos iniciais).",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v0.3.0 (30/05/2026) · v0.3.1-beta1 (01/11/2026)",
+          "latest_tag_observed_in_audit": "v0.3.1-beta1",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (DinosaurPlanetRecompiled-v0.3.0-Windows-x64.zip, 20 MB)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "bm64recomp": {
+      "game_id": "bomberman-64",
+      "fallback_name": "BM64Recomp",
+      "description_pt": "Recompilação estática via N64Recomp + RT64. FPS desbloqueado por interpolação, widescreen e ultrawide (HUD 16:9), mods/texturas via drag-and-drop, loads instantâneos e modo portátil (portable.txt).",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v1.0.0 (22/03/2026)",
+          "latest_tag_observed_in_audit": "v1.0.0",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (BM64Recompiled-Windows-RelWithDebInfo.zip, 24,1 MB)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "bmherorecomp": {
+      "game_id": "bomberman-hero",
+      "fallback_name": "BMHeroRecomp",
+      "description_pt": "Recompilação estática N64Recomp + RT64 com alto FPS, sistema de marcação de objetos para evitar artefatos de interpolação, widescreen/ultrawide, raio estendido de chunks e mods/texturas. Imperfeições pontuais em transições de cutscenes.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta (estável)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v0.7.1 Pre-release (03/05/2026; master até v0.7.3)",
+          "latest_tag_observed_in_audit": "v0.7.1",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (pacote Windows nas Releases)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "goemon64recomp": {
+      "game_id": "mystical-ninja-starring-goemon",
+      "fallback_name": "Goemon64Recomp",
+      "description_pt": "Baseado em Zelda64Recomp + RT64 (backend Plume com fallback Vulkan para GPUs Intel antigas). Jogável do início ao fim, UI reformulada, sliders BGM/SFX, descompressão de ROM no primeiro boot e suporte a mods/texturas.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v0.2.0-dev (31/01/2026)",
+          "latest_tag_observed_in_audit": "v0.2.0-dev",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (Goemon64Recompiled-Windows-RelWithDebInfo.zip, 23,8 MB)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "ggarecomp": {
+      "game_id": "goemon-s-great-adventure",
+      "fallback_name": "GGARecomp",
+      "description_pt": "Recompilação estática direta de disassembly via N64Recomp + RT64. FPS interpolado, widescreen 16:9 com fundos 2D expandidos, multiplayer local até 4 jogadores, desbloqueio opcional de Sasuke/Yae, distância 2x e pacotes .rtz. Mundos 1–3 testados.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v0.1.0 (nov/2026)",
+          "latest_tag_observed_in_audit": "v0.3.0",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (GGARecompiled-v0.1.0-windows.zip)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": "HTML cita v0.1.0; GitHub mostra v0.3.0 como release mais recente consultada.",
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "gga64recomp": {
+      "game_id": "goemon-s-great-adventure",
+      "fallback_name": "GGA64Recomp",
+      "description_pt": "Fork WIP de Goemon64Recomp com widescreen e Controller Pak funcional, em estágio inicial frente ao GGARecomp (baseado na decompilação PandaPandel/Goemons-Great-Adventure-Decomp).",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "1 tag inicial (WIP)",
+          "latest_tag_observed_in_audit": "v0.1.0",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Não verificado / WIP inicial",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "dnzhrecomp": {
+      "game_id": "duke-nukem-zero-hour",
+      "fallback_name": "DNZHRecomp",
+      "description_pt": "Recompilação estática N64Recomp + RT64 apoiada nos cabeçalhos da decompilação gillou68310/dukenukemzerohour. Alto framerate, widescreen/ultrawide com HUD 16:9, menus RmlUi e ajuste de deadzone. Marcado como WIP.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental (WIP)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "0.0.3 (01/11/2025)",
+          "latest_tag_observed_in_audit": "0.0.3",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (builds Windows via release / recomp.gg)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "adam-s-ant-farm": {
+      "game_id": "body-harvest",
+      "fallback_name": "Adam's Ant Farm",
+      "description_pt": "Construído sobre a decompilação colaborativa + N64Recomp + RT64. Jogável do início ao fim com áudio autêntico, widescreen com HUD ancorado, MSAA/SSAA, filtragem 3-point, controle ao vivo de draw distance/neblina, texturas HD e teclado+mouse simultâneos.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta (ativo)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v0.10.2 (nov/2026)",
+          "latest_tag_observed_in_audit": "v0.11.14",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (ZIP Windows x64 com bh-launcher.exe)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": "HTML cita v0.10.2; GH disponibiliza v0.11.14.",
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "body-harvest-recomp": {
+      "game_id": "body-harvest",
+      "fallback_name": "body-harvest-recomp",
+      "description_pt": "Port N64Recomp anterior que serviu de referência técnica para o Adam's Ant Farm.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Abandonado / Superado",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "Projeto anterior de referência",
+          "latest_tag_observed_in_audit": "v0.1.0",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Não (referência superada por Adam's Ant Farm)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "sssv-recomp": {
+      "game_id": "space-station-silicon-valley",
+      "fallback_name": "SSSV_Recomp",
+      "description_pt": "Recompilação estática com N64Recomp e fork customizado do RT64 com suporte ao microcódigo S2DEX. Reescreve billboards em quads 3D interpolados, adiciona widescreen, mods e corrige o famoso bug do troféu inalcançável de Fat Bear Mountain.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v0.2.0 (13/03/2026)",
+          "latest_tag_observed_in_audit": "v0.2.0",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (SSSVRecompiled_v0.2.0_Windows.zip, 44,4 MB)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "quest64-recomp": {
+      "game_id": "quest-64",
+      "fallback_name": "Quest64-Recomp",
+      "description_pt": "Recompilação estática inicial via N64Recomp + RT64 descrita como básica (bare-bones): widescreen, interpolação a 60 Hz (flicker conhecido no cabelo do protagonista), menu na tecla F1, mods/texturas e modo portátil.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental (inicial)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v0.1 (11/01/2026)",
+          "latest_tag_observed_in_audit": "v0.1",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (executável Windows na release v0.1)",
+          "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": "Release v0.1 encontrada, mas nome de asset Windows não confirmado pelo filtro.",
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "megaman64recompiled": {
+      "game_id": "mega-man-64",
+      "fallback_name": "MegaMan64Recompiled",
+      "description_pt": "Recompilação estática N64Recomp + RT64. Série 0.9.x marca a primeira linha jogável estável com alto framerate e widescreen (parcial). Corrigiu crashes e interpolação de terreno; restam pequenas emendas de geometria e dessincronização em cutscenes.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta avançado",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v0.9.1 (30/04/2026)",
+          "latest_tag_observed_in_audit": "v0.9.1",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (MegaMan64Recompiled-v0.9.1-Windows.zip, 23,6 MB)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "battletanx-global-assault-pc-port": {
+      "game_id": "battletanx-global-assault",
+      "fallback_name": "BattleTanx-Global-Assault-PC-Port",
+      "description_pt": "Construído sobre a decompilação 100% byte-matching + N64Recomp + RT64 (D3D12) + SDL2. Menus e campanha jogáveis, 4:3 até 32:9, mira independente da torre por mouse/dual-stick, Controller Pak .mpk e multiplayer online experimental com servidor dedicado.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental (ativo)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v0.2.5 (13/10/2026)",
+          "latest_tag_observed_in_audit": "v0.2.5",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (ZIP portátil Windows x64 nas releases)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "btgarecomp": {
+      "game_id": "battletanx-global-assault",
+      "fallback_name": "btgarecomp",
+      "description_pt": "Alternativa muito ativa ('super beta') com netplay para até 4 jogadores em tela cheia individual, filtros CRT/Bloom, Lossless Scaling, cheats e sound packs.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental (ativo)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v0.1.12 (nov/2026)",
+          "latest_tag_observed_in_audit": "v0.1.12",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (builds Windows nas releases)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "snowboardkids2-recomp": {
+      "game_id": "snowboard-kids-2",
+      "fallback_name": "snowboardkids2-recomp",
+      "description_pt": "Um dos ports N64Recomp + RT64 mais completos: multiplayer local em tela dividida 1–4 jogadores com FPS desbloqueado, split-screen horizontal/vertical, HUD configurável, widescreen/ultrawide, dump PNG de texturas e mods (Quick Start, Randomiser).",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v2.0.2 (17/10/2026)",
+          "latest_tag_observed_in_audit": "v2.0.2",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (SnowboardKids2Recompiled-Windows.zip, 19,1 MB)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "extremegrecomp": {
+      "game_id": "extreme-g",
+      "fallback_name": "ExtremeGRecomp",
+      "description_pt": "Recompilação estática nativa via N64Recomp + RT64 com alta resolução, widescreen, alto FPS e suporte a mods. Nota: o repositório oficial fica no GitLab (no GitHub existe apenas empacotador Linux).",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v1.0.0 (ago/2026)",
+          "latest_tag_observed_in_audit": "-",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (binários Windows no GitLab oficial)",
+          "audit_result": "Requer verificação na origem",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "Fonte externa ou URL não específica de repositório GitHub",
+          "releases": "Não verificado por API GitHub",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "rocket-r": {
+      "game_id": "rocket-robot-on-wheels",
+      "fallback_name": "Rocket-R",
+      "description_pt": "Recompilação estática nativa (baseada na decompilação RocketRet) com aba dedicada de Mods (saves isolados), mod embutido Modern Analogue Camera (analógico direito/mouse/teclado), Controller Studio e correções de FOV/céu.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v.1.0.1 (out/2026)",
+          "latest_tag_observed_in_audit": "v.1.0.1",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (pacote Windows x64 nas releases)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "chameleontwist1-jp-recomp": {
+      "game_id": "chameleon-twist",
+      "fallback_name": "ChameleonTwist1-JP-Recomp",
+      "description_pt": "Primeira versão funcional via N64Recomp + RT64 com alto framerate, widescreen/ultrawide e menus RmlUi. Ainda carrega textos residuais do template de Majora's Mask Recomp e não recebe releases há quase 2 anos. Existe irmão para Chameleon Twist 2 (JP).",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental (inativo)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v0.1 (14/12/2024)",
+          "latest_tag_observed_in_audit": "v0.1",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (build pré-compilado na release v0.1)",
+          "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "automobililamborghini-recomp": {
+      "game_id": "automobili-lamborghini",
+      "fallback_name": "automobililamborghini-recomp",
+      "description_pt": "Um dos projetos mais ativos de 2026: widescreen, alto FPS, eliminação de pop-in, câmera/FOV ajustável, gatilhos analógicos, Rumble+Controller Pak simultâneos, síntese física de áudio de motores (V12/V10), mod de clima da versão JP e sombras RT pré-alfa.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental (muito ativo)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v0.8.1 (13/10/2026; branch main em v0.11.0)",
+          "latest_tag_observed_in_audit": "v0.11.1",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (lamborghini-recomp-windows-x64.zip, 34,1 MB)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": "HTML cita v0.8.1; GH disponibiliza v0.11.1.",
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "wcwvsnwoworldtourrecomp": {
+      "game_id": "wcw-vs-nwo-world-tour",
+      "fallback_name": "WCWvsNWOWorldTourRecomp",
+      "description_pt": "Recompilação direta de disassembly com pilha N64Recomp + RT64: widescreen, interpolação 60/120 FPS, ray tracing por arena (D3D12 DXR 1.1), filtro CRT Blur Busters, HDR, pak híbrido (Controller Pak + Rumble simultâneos) e multiplayer local 4P.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta ativo",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v0.3.2 (nov/2026)",
+          "latest_tag_observed_in_audit": "v0.3.2",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (executável Windows nas releases / AKI Launcher)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "wcwnworevengerecomp": {
+      "game_id": "wcw-nwo-revenge",
+      "fallback_name": "WCWnWoRevengeRecomp",
+      "description_pt": "Emula SRAM do cartucho com backup automático liberando o slot para Rumble Pak simultâneo, iluminação RT nas 6 arenas, correção de culling em widescreen, 60/120 FPS, CRT, HDR e patch mods .nrm.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta ativo",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v0.3.2 (nov/2026)",
+          "latest_tag_observed_in_audit": "v0.3.2",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (executável Windows nas releases / AKI Launcher)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "wwfwrestlemania2000recomp": {
+      "game_id": "wwf-wrestlemania-2000",
+      "fallback_name": "WWFWrestleMania2000Recomp",
+      "description_pt": "Emula simultaneamente SRAM + Controller Pak virtual + Rumble Pak, iluminação RT nas 7 arenas, 60/120 FPS experimentais, filtro CRT, HDR, câmera livre (F6) e suporte a mods .nrm/.rtz.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta ativo",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v0.3.1 (nov/2026)",
+          "latest_tag_observed_in_audit": "v0.3.2",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (executável Windows nas releases / AKI Launcher)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": "HTML cita v0.3.1; GH disponibiliza v0.3.2.",
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "vpw64recomp": {
+      "game_id": "virtual-pro-wrestling-64",
+      "fallback_name": "VPW64Recomp",
+      "description_pt": "Irmão de World Tour com menus do port em inglês, suporte a traduções da comunidade via patch mods (.nrm) sobre a ROM limpa, Controller+Rumble Pak virtuais, iluminação RT nas 7 arenas, CRT e HDR.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta ativo",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v0.3.2 (nov/2026)",
+          "latest_tag_observed_in_audit": "v0.3.2",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (executável Windows nas releases / AKI Launcher)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "wwfnomercyrecomp": {
+      "game_id": "wwf-no-mercy",
+      "fallback_name": "WWFNoMercyRecomp",
+      "description_pt": "Emula Flash do cartucho com persistência e backup automático, rumble, iluminação RT em arenas/palcos/5 áreas de bastidores, importação de modelos 3D, conversão de ROM hacks (AKI_CONVERSION) e patch mods .nrm.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta ativo",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v0.3.2 (nov/2026)",
+          "latest_tag_observed_in_audit": "v0.3.2",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (executável Windows nas releases / AKI Launcher)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "bluewake": {
+      "game_id": "the-legend-of-zelda-the-wind-waker",
+      "fallback_name": "BlueWake",
+      "description_pt": "Recompilação estática PowerPC → nativo com runtime derivado do Dolphin (sem JIT). D3D12 (fallback D3D11), resolução até 4x, widescreen 16:9/21:9, Smooth Motion até 240 FPS, modo visual estilo WWHD (F2), texturas HD, mods embutidos (Better Wind Waker) e importação de saves .gci/.raw.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental (ativo semanalmente)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v0.12.0 (14/11/2026)",
+          "latest_tag_observed_in_audit": "v0.12.0",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (BlueWake-v0.12.0-windows-x64.zip, 203 MB)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "wind-waker-recomp": {
+      "game_id": "the-legend-of-zelda-the-wind-waker",
+      "fallback_name": "Wind-Waker-Recomp",
+      "description_pt": "Fork original que introduziu D3D12, Smooth Motion 240 FPS e escalada livre; foi oficialmente fundido de volta ao BlueWake em outubro de 2026.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Abandonado / Fundido ao BlueWake",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "Despublicado em out/2026 (última tag 0.4.0)",
+          "latest_tag_observed_in_audit": "-",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Não neste repo (downloads movidos para BlueWake)",
+          "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Sem releases GitHub",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "zeldawwhdrecomp": {
+      "game_id": "the-legend-of-zelda-the-wind-waker-hd",
+      "fallback_name": "ZeldaWWHDRecomp",
+      "description_pt": "Recompilação estática Wii U com Cafe OS e gráficos GX2 nativos em Vulkan/Metal (sem Cemu). Randomizer embutido, 99 conquistas, catálogo interno de mods, modelos de GameCube, interpolação/frame gen 60 FPS experimental, HDR, tela do GamePad em PiP e cloud saves.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental (muito ativo)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v0.5.1 (06/11/2026) · devel-build (17/11/2026)",
+          "latest_tag_observed_in_audit": "devel-build",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (pacotes portáteis windows-x86_64 e arm64)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": "A release devel-build está acima de v0.5.1; não usar devel automaticamente como versão estável.",
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "dusklight-ex-dusk": {
+      "game_id": "the-legend-of-zelda-twilight-princess",
+      "fallback_name": "Dusklight (ex-Dusk)",
+      "description_pt": "Reimplementação nativa sobre a decompilação zeldaret/tp e backend Aurora (D3D12, Vulkan, Metal, D3D11). FPS desbloqueado interpolado (60/120/144+ FPS), widescreen/ultrawide, navegador de mods in-game (.dusk, C++ e Luau), Randomizer oficial, texturas HD/4K e áudio 5.1/7.1.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v2.0.3 (30/09/2026)",
+          "latest_tag_observed_in_audit": "v2.0.3",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (Dusklight-v2.0.3-win32-x86_64.zip, 53,4 MB / arm64)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "twilight-princess-courage-reborn": {
+      "game_id": "the-legend-of-zelda-twilight-princess",
+      "fallback_name": "Twilight Princess: Courage Reborn",
+      "description_pt": "Port nativo separado baseado na decompilação GC em parceria anunciada com libultraship, focado em 60+ FPS, mouse/teclado, texturas e mods.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental (fechado)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "Sem release pública (sem repo público no GitHub)",
+          "latest_tag_observed_in_audit": "-",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Não (desenvolvimento fechado em Discord)",
+          "audit_result": "Requer verificação na origem",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "Fonte externa ou URL não específica de repositório GitHub",
+          "releases": "Não verificado por API GitHub",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "foxhollow": {
+      "game_id": "star-fox-adventures",
+      "fallback_name": "FoxHollow",
+      "description_pt": "Port nativo sobre SFA-Decomp e Aurora (D3D11/D3D12, Vulkan, Metal). Focado em fidelidade total ao original, com launcher auto-atualizável, gerenciamento de saves, remapeamento de controles, biblioteca de mods e networking (v1.0.19).",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v1.0.22 (nov/2026)",
+          "latest_tag_observed_in_audit": "v1.0.30",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (via launcher oficial / GitHub Releases)",
+          "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": "HTML cita v1.0.22; GH lista v1.0.30, mas não detectado pacote Windows pelo nome no primeiro registro.",
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "nookery-ex-acgc-pc-port": {
+      "game_id": "animal-crossing",
+      "fallback_name": "Nookery (ex-ACGC-PC-Port)",
+      "description_pt": "Port nativo 64-bit baseado em ac-decomp e migrado na v1.0 para Aurora. FPS desbloqueado, widescreen, Borderless Acres, mouse completo, teclado para cartas, emulador NES embutido (fixNES), viagem à ilha sem GBA, texturas HD Dolphin e melhorias Deluxe.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v1.0.0 (02/11/2026)",
+          "latest_tag_observed_in_audit": "v1.0.0",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (Nookery-v1.0.0-windows-x86_64.zip, 30,9 MB / arm64)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "open-nectar": {
+      "game_id": "pikmin-pikmin-2",
+      "fallback_name": "Open Nectar",
+      "description_pt": "Port nativo sem emulação (GX→OpenGL 3.3+ e JAudio) que executa Pikmin 1 e 2 no mesmo launcher: 30/60/120 FPS, widescreen/ultrawide, mira com mouse, pós-processamento opcional, texturas HD 4K, modelos de Pikmin 3, Randomizer, Speedrun, co-op local e Map/Model Maker.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável / Beta ativo",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "1.3 (nov/2026)",
+          "latest_tag_observed_in_audit": "1.3",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (nectar-windows.zip com nectar-launcher.exe)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "metaforce": {
+      "game_id": "metroid-prime",
+      "fallback_name": "Metaforce",
+      "description_pt": "Reimplementação nativa em C++ da engine da Retro Studios (Metroid Prime 1 e DKCR) com extrator HECL e apoio de PrimeDecomp. Reconstrução completa da engine do zero (status In-Game em MP1).",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental (desenvolvimento lento)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "p12 (02/09/2015 — tag obsoleta no GitHub)",
+          "latest_tag_observed_in_audit": "ERROR",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Não atualizado nas GitHub Releases",
+          "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: 404 (fonte indexada na busca pública; conferir acesso)",
+          "releases": "GitHub API 404",
+          "notes": "Requisições autenticadas de metadata e releases retornaram 404, mas buscas públicas indexam a página. Tratar como acesso não resolvido, não como inexistente.",
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "strikers": {
+      "game_id": "super-mario-strikers",
+      "fallback_name": "Strikers",
+      "description_pt": "Port nativo compilado da decompilação com Aurora (Vulkan, D3D12, Metal). Multiplayer online e LAN com rollback netcode, UPnP, Discord Rich Presence, ultrawide até 12:1, alto FPS, 4x MSAA, texturas Dolphin e suporte USA/EU/JP.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v2.0.0 (nov/2026)",
+          "latest_tag_observed_in_audit": "v2.0.0",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (strikers-windows-x86_64.zip, 28,8 MB)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "strikersrecomp": {
+      "game_id": "super-mario-strikers",
+      "fallback_name": "StrikersRecomp",
+      "description_pt": "Recompilação estática de prova de conceito via DolRecomp para testar RecompCore e GXRuntime standalone (sem sombras de jogadores). Para jogar no Windows, new-coke/strikers é muito mais maduro.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental (prova de conceito)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "0.1.0 (jul/2026)",
+          "latest_tag_observed_in_audit": "v0.1.0",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Não (compilação manual)",
+          "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "recharged": {
+      "game_id": "mario-strikers-charged",
+      "fallback_name": "Recharged",
+      "description_pt": "Port nativo da decompilação 100% matching com backend Aurora. Launcher auto-atualizável, online com servidor dedicado (ranqueadas, rollback netcode, Miis), modo Treino, 4 jogadores (suporta Wii Remotes reais), 4x AA, 16:9, texturas Dolphin e 5 edições regionais.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v1.1.7 (14/11/2026) · Pre-release 1.2.0",
+          "latest_tag_observed_in_audit": "test-pr111-0c83d86b902d",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (recharged-1.1.7-windows-x86_64.zip, 42,1 MB)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": "Registro mais recente consultado é build de teste; release estável v1.1.7 também existe.",
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "strikers-wiicompiled": {
+      "game_id": "mario-strikers-charged",
+      "fallback_name": "Strikers-WiiCompiled",
+      "description_pt": "Recompilação estática PowerPC → C++ derivada de WiiCompiled. Diferencia-se do Recharged por suportar mods Riivolution (Kamek) e até 165 FPS sem interpolação, mas sem multiplayer online.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "1 tag sem releases publicadas (out/2026)",
+          "latest_tag_observed_in_audit": "-",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Não (compilação manual; foco em macOS)",
+          "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Sem releases GitHub",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "mariokartdd-recomp": {
+      "game_id": "mario-kart-double-dash",
+      "fallback_name": "mariokartdd-recomp",
+      "description_pt": "Recompilação estática PowerPC → C via gcn-recomp que já inicia menus e corridas Grand Prix com áudio. Diferencial: suporte nativo a VR (OpenXR, visão de cockpit), volantes com Force Feedback e telemetria UDP para simuladores.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "Sem releases ou tags (commit out/2026)",
+          "latest_tag_observed_in_audit": "-",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Não (compilação manual)",
+          "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Sem releases GitHub",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "mkdd-recomp": {
+      "game_id": "mario-kart-double-dash",
+      "fallback_name": "MKDD-Recomp",
+      "description_pt": "Recompilação estática experimental para Rust usando Ghidra p-code e runtime Bevy 0.19 com shaders WGSL (resolução 1x–6x) e áudio JAudio HLE. Ainda sem névoa, texturas indiretas ou rumble.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "Sem releases ou tags (commit out/nov 2026)",
+          "latest_tag_observed_in_audit": "-",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Não (compilação manual)",
+          "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Sem releases GitHub",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "doldecomp-mkdd-decompilacao-base": {
+      "game_id": "mario-kart-double-dash",
+      "fallback_name": "doldecomp/mkdd (Decompilação-base)",
+      "description_pt": "Decompilação matching em andamento (focada na build de debug MarioClub_us) que fornece símbolos para futuros ports nativos.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental (WIP)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "Sem releases ou tags (commit nov/2026)",
+          "latest_tag_observed_in_audit": "-",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Não (decompilação 1:1 para GameCube)",
+          "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Sem releases GitHub",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "zelda3": {
+      "game_id": "the-legend-of-zelda-a-link-to-the-past",
+      "fallback_name": "zelda3",
+      "description_pt": "Reimplementação completa em C (~75k linhas) jogável do início ao fim. Widescreen 16:9/16:10, shaders GLSL, mapa Mode 7 HD, áudio MSU-1/Opus, troca rápida L/R, sprites customizados (.zspr), traduções e 30+ correções de bugs.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v0.3 (16/08/2023; commits até out/2026)",
+          "latest_tag_observed_in_audit": "v0.3",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (zelda3_v0.3.zip, 1,76 MB)",
+          "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "zelda-3-launcher": {
+      "game_id": "the-legend-of-zelda-a-link-to-the-past",
+      "fallback_name": "Zelda 3 Launcher",
+      "description_pt": "Interface C# para Windows que automatiza download, extração, compilação e atualização do snesrev/zelda3 com menus visuais completos para widescreen, shaders, MSU-1, sprites e controles.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v1.3.7.0 (out/2026)",
+          "latest_tag_observed_in_audit": "v1.3.7.0",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (Zelda 3 Launcher.exe em ZIP nas releases)",
+          "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "super-metroid-launcher": {
+      "game_id": "super-metroid",
+      "fallback_name": "Super Metroid Launcher",
+      "description_pt": "Launcher em C#/.NET para snesrev/sm no Windows: automatiza download, extração e build, adicionando menus para PPU otimizada, sem limite de sprites, shaders GLSL, autosave e cheats.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v1.0.1 (out/nov 2026)",
+          "latest_tag_observed_in_audit": "v1.0.1",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (Super_Metroid_Launcher_v1.0.1.zip, 2 MB)",
+          "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "sm": {
+      "game_id": "super-metroid",
+      "fallback_name": "sm",
+      "description_pt": "Reimplementação inicial em C de Super Metroid pelo criador do zelda3, com verificação quadro a quadro contra emulador. Estágio inicial com bugs.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental (estagnado)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "Sem releases ou tags (94 commits)",
+          "latest_tag_observed_in_audit": "-",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Não (compilação manual ou via Super Metroid Launcher)",
+          "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Sem releases GitHub",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "sm-rewrite": {
+      "game_id": "super-metroid",
+      "fallback_name": "sm_rewrite",
+      "description_pt": "Fork de snesrev/sm focado em refatoração, CMake e suporte inicial a MSU-1. Widescreen planejado nunca foi concluído.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Abandonado / Inativo",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "Sem releases ou tags (último commit ~2024)",
+          "latest_tag_observed_in_audit": "-",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Não (compilação manual)",
+          "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Sem releases GitHub",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "supermarioworldrecomp": {
+      "game_id": "super-mario-world",
+      "fallback_name": "SuperMarioWorldRecomp",
+      "description_pt": "Recompilação estática moderna (65816 → C) com launcher gráfico integrado, SMW Adaptive Widescreen (até 100:9), áudio MSU-1, co-op simultâneo experimental (Mario e Luigi na mesma tela) e netplay online via Discord.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental (atualizações diárias)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v0.15.11 (21/11/2026)",
+          "latest_tag_observed_in_audit": "v0.15.11",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (ZIP com SuperMarioWorldSNESRecomp.exe e launcher ImGui)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "smw": {
+      "game_id": "super-mario-world",
+      "fallback_name": "smw",
+      "description_pt": "Reimplementação completa em C jogável do início ao fim, compatível com mods Lunar Magic e patches .bps. Não possui launcher RadzPrower (configuração via smw.ini).",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável (pausado)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v0.1 (16/08/2023)",
+          "latest_tag_observed_in_audit": "v0.1",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (smw_0.1.zip, 1,66 MB)",
+          "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "phase-distorter": {
+      "game_id": "earthbound-mother-2",
+      "fallback_name": "Phase Distorter",
+      "description_pt": "Port nativo em C++20 suportando EarthBound (USA) e Mother 2 (JP) no mesmo executável. Widescreen/ultrawide real (16:9 até 32:9), 90–300 FPS ou desbloqueado, VRR, CRT-Lottes, filtro de fotossensibilidade, save states e menu Debug.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v0.5 (out/2026)",
+          "latest_tag_observed_in_audit": "0.5",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (Phase-Distorter-0.5-windows-x86_64.zip; testado via Wine)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "autotmc-auto-tmc": {
+      "game_id": "the-legend-of-zelda-the-minish-cap",
+      "fallback_name": "AutoTMC (auto-tmc)",
+      "description_pt": "Instalador e launcher gráfico que baixa os binários do Project Picori (999sian/tmc), valida SHA-256, extrai os assets da ROM e gerencia atualizações (1.0.2 adiciona suporte EU/JP/Demos).",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "1.0.1 (03/05/2026) · Pre-release 1.0.2 (08/05/2026)",
+          "latest_tag_observed_in_audit": "1.0.2",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (AutoTMC-Windows.exe, 24,2 MB)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": "GH lista pre-release 1.0.2; HTML inclui as duas versões.",
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "project-picori-999sian-tmc": {
+      "game_id": "the-legend-of-zelda-the-minish-cap",
+      "fallback_name": "Project Picori (999sian/tmc)",
+      "description_pt": "Port nativo para PC (SDL3, VirtuaPPU e áudio agbplay) construído sobre a decompilação em C zeldaret/tmc (95,2%).",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental (ativo)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "Releases ativas via AutoTMC",
+          "latest_tag_observed_in_audit": "-",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (releases Windows baixadas pelo AutoTMC)",
+          "audit_result": "Requer verificação na origem",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "Fonte externa ou URL não específica de repositório GitHub",
+          "releases": "Não verificado por API GitHub",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "tmc-decompilacao-base": {
+      "game_id": "the-legend-of-zelda-the-minish-cap",
+      "fallback_name": "tmc (Decompilação-base)",
+      "description_pt": "Decompilação matching (95,2%) das versões USA/JP/EU/Demos que serve de base para o Project Picori.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental (WIP maduro)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "Sem releases ou tags (commit set/2026)",
+          "latest_tag_observed_in_audit": "-",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Não (decompilação em C para GBA)",
+          "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Sem releases GitHub",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "gsrecomp": {
+      "game_id": "golden-sun-golden-sun-the-lost-age",
+      "fallback_name": "GSRecomp",
+      "description_pt": "Recompilação estática ARM/Thumb → C++ reunindo ambos os Golden Sun no mesmo launcher. Modos Wide/Extra Wide, Modo Seamless (transfere Clear Data sem senha do 1º ao 2º jogo), músicas FLAC, filtros CRT/LCD3x/xBR, rastreadores de Djinn e ROMs com patch.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental (muito ativo)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "0.5.2 (releases) · tags até 0.8.3 (19/11/2026)",
+          "latest_tag_observed_in_audit": "0.8.4",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (ZIP Windows com GoldenSunLauncher.exe e compilador embutido)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": "HTML cita tags até 0.8.3; GH lista pre-release 0.8.4 Windows.",
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "opengoal": {
+      "game_id": "jak-and-daxter-1-2-e-3",
+      "fallback_name": "OpenGOAL",
+      "description_pt": "Decompilação da linguagem GOAL (Lisp) com compilador nativo x86-64/ARM64 sem emulação. Widescreen, alto FPS, pacotes de texturas e mods no launcher, traduções (PT-BR em Jak 2), ferramentas de speedrun e REPL ao vivo.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável (Jak 1) / Beta (Jak 2 e Jak 3)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v0.3.9 (15/10/2026) · Launcher v2.11.2 (09/10/2026)",
+          "latest_tag_observed_in_audit": "v0.3.9",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (OpenGOAL Launcher e ZIPs x64 nas releases)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "god-of-war-native-pc-port-gow-pc-port": {
+      "game_id": "god-of-war-2005",
+      "fallback_name": "God of War: native PC port (gow-pc-port)",
+      "description_pt": "Recompilação estática MIPS R5900 → C++ (recompiler em Rust) com OpenGL 4.6 (0,25x–8x), 60/120 FPS, widescreen Hor+, vídeos MPEG-2 nativos, teclado+mouse, menu Port Options injetado, saves compatíveis com PCSX2, texturas HD, RetroAchievements e perfil PGO. Launcher em EN e PT-BR.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental (muito otimizado)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "launcher-v0.4.0 (12/11/2026)",
+          "latest_tag_observed_in_audit": "launcher-v0.4.0",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (setup.exe e portable.zip — recompila localmente)",
+          "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "shadow-of-rome-recompiled": {
+      "game_id": "shadow-of-rome",
+      "fallback_name": "Shadow of Rome Recompiled",
+      "description_pt": "Recompilação estática via PS2Recomp com GS do PCSX2 (DX12/DX11/Vulkan) e VU1 microVU. 60 FPS estáveis, resolução até 8x, 16:9/21:9, FOV +30%, modo POST EFFECTS: CLEAN, câmera no mouse, ReShade integrado, vídeos MP4 HD e suporte PAL/NTSC.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental (zerável)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "2.9.5 (20/11/2026)",
+          "latest_tag_observed_in_audit": "v2.9.5",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (ShadowOfRome-2.9.5-windows.zip pronto)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "symphonyrecomp": {
+      "game_id": "castlevania-symphony-of-the-night",
+      "fallback_name": "SymphonyRecomp",
+      "description_pt": "Recompilação estática em C# via RecompOne. Widescreen real com extensão de salas e entidades fora do 4:3, interface BigPicture, cor 24-bit, shaders Slang/Libretro, Asset Pack Editor, randomizer integrado, mods e interface em PT-BR.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v1.2.0p pré-release (nov/2026) · v0.5.1b (18/08/2026)",
+          "latest_tag_observed_in_audit": "v1.2.0p",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (SymphonyRecomp-v1.2.0p-windows-x64.zip, 60,9 MB / arm64)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "crash-team-racing-high-octane": {
+      "game_id": "crash-team-racing",
+      "fallback_name": "Crash Team Racing: High Octane",
+      "description_pt": "Source port multiplataforma derivado de ctr-native: widescreen real, 60 FPS, PGXP, filtros pós-processamento (CRT/FXAA), split-screen até 4 jogadores, leaderboard online Time Trial/Relic, Ghost Replay, pistas reversas/Mirror e personagens customizados.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v.1.5 (12/10/2026)",
+          "latest_tag_observed_in_audit": "v.1.5",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (ctr-high-octane-x64.win.zip, 2,29 MB)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "crash-team-racing-turbocharged": {
+      "game_id": "crash-team-racing",
+      "fallback_name": "Crash Team Racing: Turbocharged",
+      "description_pt": "Fork de High Octane focado em PC: renderizador 3D nativo com depth buffer, PGXP, até 240 FPS interpolados, 4:3 a 32:9, MSAA/SSAA/FXAA, seleção de motor independente do personagem, autosave e HUD vetorial moderno.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "2026.10.1 / build 07d0c49 (06/10/2026)",
+          "latest_tag_observed_in_audit": "-",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim no site oficial ctr.cmzi.uk (não na aba GH Releases)",
+          "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Sem releases GitHub",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "ctr-native": {
+      "game_id": "crash-team-racing",
+      "fallback_name": "CTR Native",
+      "description_pt": "Port nativo base compilado dos 943 arquivos C da decompilação CTR-ModSDK com SDL3. Foca em paridade fiel com o jogo de 1999 (incluindo glitches de speedrun) e serve de fundação para forks.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "beta-7.1 (07/07/2026)",
+          "latest_tag_observed_in_audit": "beta-7.1",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (executável estático Windows x86 nas releases)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "wipeout-phantom-edition": {
+      "game_id": "wipeout",
+      "fallback_name": "WipeOut Phantom Edition",
+      "description_pt": "Source port aprimorado usando dados do PS1 (mais fiel que o PC port de 1995): FPS desbloqueado, alta resolução, widescreen, distância de visão ampliada, partículas, iluminação nas naves, 3 modos de colisão e áudio 3D.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "wipeout-v1.2.256 (16/02/2024)",
+          "latest_tag_observed_in_audit": "v1.2.256",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (ZIP Windows nas releases)",
+          "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "wipeout-rewrite": {
+      "game_id": "wipeout",
+      "fallback_name": "wipEout Rewrite",
+      "description_pt": "Reescrita aberta em C com backends SDL2/Sokol e renderizador software opcional, alta resolução e widescreen (ainda sem animações finais e reverb em túneis).",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "Sem tag / release (branch master)",
+          "latest_tag_observed_in_audit": "-",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Não (apenas demo WebAssembly; Windows exige compilar)",
+          "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Sem releases GitHub",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "redriver2": {
+      "game_id": "driver-2",
+      "fallback_name": "REDRIVER2",
+      "description_pt": "Decompilação completa MIPS → C via Psy-X/PsyCross sem emulação. Corrige bugs do PS1, restaura conteúdo cortado (monotrilho de Vegas, luzes dinâmicas), fontes HD, widescreen, FOV, câmera livre, fast load e troca de texturas/modelos.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "8.0 RC (02/07/2026) · 7.4-rc2 (04/02/2022)",
+          "latest_tag_observed_in_audit": "8.0",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (ZIPs Windows 64-bit na 8.0 / Launcher)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "severed-chains": {
+      "game_id": "the-legend-of-dragoon",
+      "fallback_name": "Severed Chains",
+      "description_pt": "Reescrita em Java de alto nível sem emulação. Totalmente jogável, corrige bugs originais, upscaling de resolução, áudio aprimorado, suporte a 1.800+ controles + mouse nos menus, fast-forward, saves ilimitados, sem troca de disco e API extensa de mods.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "release-3.0.0 (out/2026)",
+          "latest_tag_observed_in_audit": "release-3.0.0",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (Severed_Chains_Windows.zip, 125 MB)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "silent-hill-native-pc-port": {
+      "game_id": "silent-hill",
+      "fallback_name": "Silent Hill - Native PC Port",
+      "description_pt": "Executável nativo da decompilação C + PsyCross (zerável do início ao fim). Widescreen 16:9/21:9+, FPS desbloqueado, PGXP, MSAA, 4 modos de lanterna com sombras até 8K, câmeras TPS/FPS, áudio 5.1/7.1, modelos glTF high-poly, Mod Manager, RetroAchievements e edição online separada (silenthill-online).",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "realtime 2026.11.18.3 (18/11/2026) · crossplatform-beta",
+          "latest_tag_observed_in_audit": "uwp-alpha-1",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (SHPC_rt-2026.11.18.3.zip com Launcher)",
+          "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": "Últimas releases incluem builds UWP/Xbox; selecionar canal Windows PC especificamente.",
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "vandalhearts-pcport": {
+      "game_id": "vandal-hearts",
+      "fallback_name": "VandalHearts-PcPort",
+      "description_pt": "Port nativo 64-bit sobre decompilação 100% byte-exact. Um executável auto-detecta USA, Asia e Japan; rasterizador software preciso com supersampling 1x–4x, HD Packs (.webp + FMVs HEVC), fast-forward 2x, Tactical Mode e framework de traduções.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v2.1.0 (30/08/2026)",
+          "latest_tag_observed_in_audit": "v2.1.0",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (VandalHearts-v2.1.0-windows-x64.zip + HD Packs)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "bloodyroar2recomp": {
+      "game_id": "bloody-roar-ii",
+      "fallback_name": "BloodyRoar2Recomp",
+      "description_pt": "Recompilação estática MIPS → C via psxrecomp. Detecta automaticamente discos EU, USA e JP (exp.). Widescreen real (16:9/21:9), PGXP, Turbo Mode (75/120 Hz+), loads rápidos, Unlock All e Netplay online 2P com lobby e rollback.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v0.7.1 (set/2026)",
+          "latest_tag_observed_in_audit": "v0.7.1",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (BloodyRoar2-v0.7.1.zip autossuficiente)",
+          "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "knowyourrolerecomp": {
+      "game_id": "wwf-smackdown-2-know-your-role",
+      "fallback_name": "KnowYourRoleRecomp",
+      "description_pt": "Recompilação estática completa do jogo de PS1 para PC, eliminando praticamente todas as telas de loading originais e preparando suporte a mods e texturas HD.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v0.2.0 (01/10/2026)",
+          "latest_tag_observed_in_audit": "v0.2.0",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Listado para Windows/Linux no PlayPorted (repo recente não indexado no GH)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "kf1-enhanced": {
+      "game_id": "king-s-field-jp-1994",
+      "fallback_name": "kf1-enhanced",
+      "description_pt": "Port nativo aprimorado do primeiro King's Field japonês (1994) sobre kf1-decomp, adicionando melhorias de qualidade de vida como automapa e estatísticas de equipamentos (irmão de kf3-enhanced).",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental (Alpha)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v0.1.0-pre.3 (01/10/2026)",
+          "latest_tag_observed_in_audit": "v0.1.0-pre.3",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Listado para Windows/Linux no PlayPorted (repo não indexado no GH)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "yu-gi-oh-forbidden-memories-recompiled": {
+      "game_id": "yu-gi-oh-forbidden-memories",
+      "fallback_name": "Yu-Gi-Oh! Forbidden Memories Recompiled",
+      "description_pt": "Port nativo sobre decompilação 100% byte-exact (1.134/1.134 funções C). Resolução até 4x, widescreen, texto HD, modo 3D Monsters, pacote HD opcional, importação de saves .mcr/.mcd, 5 idiomas europeus, assistente de fusão, Tower Mode e FM Editor.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental (100% decompilado)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v0.3.1-preview.2 (05/11/2026) · v0.3.0 (11/10/2026)",
+          "latest_tag_observed_in_audit": "v0.3.1-preview.2",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (yfm-redecomp-v0.3.0-windows.zip, 7,47 MB + preview)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "trx-tomb-raider-i-iii-community-edition": {
+      "game_id": "tomb-raider-i-v",
+      "fallback_name": "TRX (Tomb Raider I–III Community Edition)",
+      "description_pt": "Reimplementação por decompilação em engine unificada para TR1, TR2, TR3 e níveis customizados (TR4 em andamento). Trança restaurada no TR1, 60 FPS, modo foto, itens 3D, barra de vida, opções retrô PS1, console dev, API Lua e centenas de correções.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável (TR1–3) / Beta (TR4)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "trx-1.12 (02/11/2026)",
+          "latest_tag_observed_in_audit": "latest",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (instalador e ZIP Windows nas releases)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "openlara": {
+      "game_id": "tomb-raider-i-v",
+      "fallback_name": "OpenLara",
+      "description_pt": "Engine open-source ultraleve multiplataforma com iluminação dinâmica, cáusticas na água, modo em primeira pessoa, co-op split-screen e 60+ FPS. TR2–TR5 seguem incompletos.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental (releases estagnadas)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "latest (build Windows de 23/03/2021)",
+          "latest_tag_observed_in_audit": "latest",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (ZIP Windows antigo de 2021 na release latest)",
+          "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "mega-man-legends-modernization-project": {
+      "game_id": "mega-man-legends-rockman-dash",
+      "fallback_name": "Mega Man Legends Modernization Project",
+      "description_pt": "Modernização e recompilação estática x86 → C via Ghidra (modo 64-bit mml_run64.exe ou 32-bit mml.dll). D3D11/Vulkan, widescreen real, 60/120 FPS, controles modernos/câmera livre, shaders RetroArch, ReShade, pacotes HD e vozes JP.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental (muito ativo)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "0.9.6 beta (21/11/2026)",
+          "latest_tag_observed_in_audit": "v0.9.6-beta",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (MML-Setup.exe nas releases)",
+          "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": "Última release v0.9.6-beta encontrada, porém o filtro de nome não confirmou instalador Windows; inspecionar assets.",
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "mml1-megaman-legends-decomp": {
+      "game_id": "mega-man-legends-rockman-dash",
+      "fallback_name": "mml1 (Megaman Legends Decomp)",
+      "description_pt": "Decompilação inicial em C da versão PS1 US focada apenas em reconstruir ROCK_NEO.EXE para PS1. Não gera port jogável de PC.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Abandonado / Inativo",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "Sem tag / release (último commit ~2023)",
+          "latest_tag_observed_in_audit": "-",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Não (apenas Linux/MIPS)",
+          "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Sem releases GitHub",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "unleashedrecomp": {
+      "game_id": "sonic-unleashed",
+      "fallback_name": "UnleashedRecomp",
+      "description_pt": "Recompilação estática via XenonRecomp/XenosRecomp com D3D12/Vulkan, 60+ FPS, ultrawide 21:9+, MSAA > 2x, DoF/Motion Blur aprimorados, compilação assíncrona de shaders, conquistas locais, DualSense e mods via Hedge Mod Manager.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v1.0.3 (03/04/2025)",
+          "latest_tag_observed_in_audit": "v1.0.3",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (UnleashedRecomp-Windows.zip, 50,9 MB)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "marathon-recompiled": {
+      "game_id": "sonic-the-hedgehog-2006",
+      "fallback_name": "Marathon Recompiled",
+      "description_pt": "Recompilação estática via XenonRecomp/XenosRecomp (backend plume D3D12/Vulkan/Metal), teclado e mouse com mouselook, menus em 6 idiomas, conquistas locais, patches de QoL e opções da versão PS3.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v1.0.0 (14–19/11/2026)",
+          "latest_tag_observed_in_audit": "v1.0.0",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (MarathonRecomp-Windows-x64.zip, 36,1 MB / arm64)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "shadow-recompiled": {
+      "game_id": "shadow-the-hedgehog",
+      "fallback_name": "Shadow Recompiled",
+      "description_pt": "Recompilação estática do x86 do Xbox via XboxRecomp2/XShaderRecomp (D3D12/Vulkan). 16:9/21:9+, altas taxas de quadros, bloom reformulado, correção de bugs exclusivos do Xbox, pulo de cutscenes liberado, conquistas locais e mod loader SA Mod Manager.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v1.0.0 (nov/2026)",
+          "latest_tag_observed_in_audit": "v1.0.0",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (ShadowRecomp-Windows-x64-v1.0.0.zip, 29,3 MB)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": "GH mostra v1.0.0 com ZIP Windows.",
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "sarecomp-sonic-adventure-recompiled": {
+      "game_id": "sonic-adventure",
+      "fallback_name": "SARecomp (Sonic Adventure Recompiled)",
+      "description_pt": "Recompilação estática (KatanaRecomp) em D3D11/Vulkan, 4:3/16:9/21:9, opção de 60 updates/s, câmera moderna com mouse/analógico, importação de VMU .bin do Flycast e todas as 7 histórias jogáveis.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v0.52.1 (out/2026 Linux) · v0.52.0 (out/2026 Windows)",
+          "latest_tag_observed_in_audit": "v0.52.1",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (instalador .exe na release v0.52.0)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "rsdkv4-decompilation": {
+      "game_id": "sonic-the-hedgehog-1-2-2013",
+      "fallback_name": "RSDKv4-Decompilation",
+      "description_pt": "Decompilação completa da Retro Engine v4 (C++/SDL2/OpenGL) com compilador de scripts, mod loader, modo 2P VS online experimental para Sonic 2 e compatibilidade com Data.rsdk mobile/Sonic Origins.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "1.3.3 (01/11/2025)",
+          "latest_tag_observed_in_audit": "1.3.3",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (v4-windows-x64.zip, 1,29 MB / x86)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "sonic-1-forever-sonic-2-absolute": {
+      "game_id": "sonic-the-hedgehog-1-2-2013",
+      "fallback_name": "Sonic 1 Forever & Sonic 2 Absolute",
+      "description_pt": "Overhauls completos sobre fork da RSDKv4 com widescreen aprimorado, melhorias visuais, novos personagens/modos e opções estilo Sonic 3 A.I.R. (espelho de código em ElspethThePict/TeamForever-v4-1.3).",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "Sonic 1 Forever 1.5.1 (14/10/2024) · Sonic 2 Absolute 1.2.1",
+          "latest_tag_observed_in_audit": "-",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (pacotes Windows no site oficial Team Forever)",
+          "audit_result": "Requer verificação na origem",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "Fonte externa ou URL não específica de repositório GitHub",
+          "releases": "Não verificado por API GitHub",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "sonic-3-a-i-r-oxygen-engine": {
+      "game_id": "sonic-3-knuckles",
+      "fallback_name": "Sonic 3 A.I.R. (Oxygen Engine)",
+      "description_pt": "Remasterização nativa na Oxygen Engine (C++/SDL2/OpenGL + Lemonscript) com widescreen 16:9, 60 FPS suaves, trilha remasterizada opcional, Ghost Sync, amplo suporte a mods (até 4 jogadores) e shaders.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v26.03.28.0-stable (28/03/2026) · v26.08.15.0-test",
+          "latest_tag_observed_in_audit": "v26.08.15.0-test",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (sonic3air_game_64bit.zip, 16,3 MB)",
+          "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "cannonball": {
+      "game_id": "outrun",
+      "fallback_name": "Cannonball",
+      "description_pt": "Reescrita completa em C++ (SDL2/OpenGL) do código 68000/Z80 do arcade com 60 FPS reais, widescreen, correções opcionais, Time Trial/Continuous e suporte a áudio Switch/3DS.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável (repositório original inativo)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v0.34 (26/04/2021)",
+          "latest_tag_observed_in_audit": "v0.34",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (build oficial Windows na release v0.34)",
+          "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "pinyon-shift": {
+      "game_id": "forza-horizon",
+      "fallback_name": "Pinyon Shift",
+      "description_pt": "Recompilação estática via ShiftGlue (Vulkan 1.3 + D3D11 exp.), 60–240 FPS, resolução até 4K, FSR 1/3, DLSS Frame Gen, HDR, ultrawide, rádios customizadas, suporte a DLCs (Rally/1000 Club), mods, conquistas e trainer.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental (muito ativo)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v0.9.5 (19/11/2026)",
+          "latest_tag_observed_in_audit": "v0.9.5",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Parcial (PinyonShift-Launcher.zip compila localmente)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "re-blue": {
+      "game_id": "blue-dragon",
+      "fallback_name": "re:Blue",
+      "description_pt": "Recompilação estática via ReXGlue SDK: até 4K, 16:9/21:9/32:9, FPS destravado, MSAA 8x/SSAA 4x, FOV 45°–120°, save em qualquer lugar, teclado/mouse clicáveis, gerenciador de mods, DLCs e 8 conquistas extras.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v1.3.1 (05/10/2026) · nightly v1.4.0 (19/11/2026)",
+          "latest_tag_observed_in_audit": "nightly-v1.4.0-dd4359fe1-s115171b4",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (builds Windows x64 D3D12 nas releases)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "the-darkness-recomp": {
+      "game_id": "the-darkness",
+      "fallback_name": "The-Darkness-Recomp",
+      "description_pt": "Recompilação estática XenonRecomp com D3D11, teclado/mouse remapeáveis, DualSense nativo, FOV 120°, FXAA/SMAA/MSAA 8x, AF 16x, legendas escaláveis, conquistas locais e packs de textura/vídeo.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v0.1.10 Pre-release (11/11/2026)",
+          "latest_tag_observed_in_audit": "v0.1.10",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (The-Darkness-Recomp-v0.1.10-windows-x64.zip)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "downpourrecomp": {
+      "game_id": "silent-hill-downpour",
+      "fallback_name": "DownpourRecomp",
+      "description_pt": "Recompilação estática ReXGlue: 60 FPS destravados, até 4K + 2x SSAA, FSR 3, 7 presets de cor ASC-CDL, mouse look raw input, DualSense com gatilhos adaptativos, shader cache pré-aquecido e launcher com auto-update.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v1.1.8 (02/09/2026)",
+          "latest_tag_observed_in_audit": "v1.1.8",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (DownpourRecomp-v1.1.8.zip, 39,5 MB)",
+          "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "dprecomp": {
+      "game_id": "deadly-premonition",
+      "fallback_name": "DPRecomp",
+      "description_pt": "Recompilação estática ReXGlue com 60 FPS corrigidos na base de tempo, mouse look, direção W/S, DualSense, 2x SSAA + FSR 3, renderizador D3D12 nativo opcional em preview (4x) e suporte PAL/USA.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável (modo ROV) / Beta (D3D12 nativo)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "2.0.14 (out/2026)",
+          "latest_tag_observed_in_audit": "v2.0.14",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (DPRecomp-2.0.14-win64.zip, 47 MB)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "project8recomp": {
+      "game_id": "tony-hawk-s-project-8",
+      "fallback_name": "Project8Recomp",
+      "description_pt": "Recompilação estática ReXGlue 0.10 (Vulkan) com launcher portátil e verificação de hash. Build Windows é cross-compilado do Linux (testado via Proton no Steam Deck, ainda não validado em Windows real).",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v0.3.0",
+          "latest_tag_observed_in_audit": "v0.3.0",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (pacote portátil Windows x64 experimental)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "project-2099": {
+      "game_id": "spider-man-edge-of-time",
+      "fallback_name": "Project 2099",
+      "description_pt": "Recompilação ReXGlue focada em Windows (D3D12), 30/60/75/120 FPS, até 4K, AF 16x, teclado/mouse com QTEs dinâmicos, 6 idiomas, 47 conquistas locais e 9 trajes novos.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "V2 BETA 5 (out/2026)",
+          "latest_tag_observed_in_audit": "android-v1.0.0-beta.1",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (Project2099-Beta5-Setup.exe)",
+          "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "king-kong-recompiled": {
+      "game_id": "peter-jackson-s-king-kong",
+      "fallback_name": "King Kong: Recompiled",
+      "description_pt": "Recompilação estática ReXGlue (D3D12/Vulkan) até 8K, 21:9/32:9, até 240 FPS, modo Remastered (GI, AO, reflexos, light shafts), FSR 1/NIS, modo foto, co-op online 2P antecipado e Workshop integrado.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental (ativo)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v2.1.3 (nov/2026)",
+          "latest_tag_observed_in_audit": "v2.1.3",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (KingKong-v2.1.3-windows-x64.zip, 402 MB)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "earthworm-jim-hd-recompiled": {
+      "game_id": "earthworm-jim-hd",
+      "fallback_name": "Earthworm Jim HD: Recompiled",
+      "description_pt": "Recompilação estática ReXGlue com TRG Launcher, resolução até 6x (8K), FXAA/MSAA 2x, AF 16x, 30–240 FPS, cheats opcionais, conquistas e auto-update.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v0.9.0",
+          "latest_tag_observed_in_audit": "v0.9.6",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (EarthwormJimHD-v0.9.0-windows-x64.zip)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "thesimpsonsgamerecomp": {
+      "game_id": "the-simpsons-game",
+      "fallback_name": "TheSimpsonsGameRecomp",
+      "description_pt": "Recompilação estática ReXGlue com Vulkan/D3D12/D3D11 exp., 60–240 FPS (Havok fixo), co-op split-screen em Springfield, teclado/mouse, controle de cel-shading, 44 conquistas e Modkit Lua/C++.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental (muito ativo)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v0.0.7.1 (~17/11/2026)",
+          "latest_tag_observed_in_audit": "v0.0.7.1",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (Windows-x64.zip, 379 MB e -NoAVX2.zip, 378 MB)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "dead-rising-2-case-zero-xenon-recomp": {
+      "game_id": "dead-rising-2-case-zero-case-west",
+      "fallback_name": "Dead_Rising_2_Case_Zero_Xenon_Recomp",
+      "description_pt": "Recompilação estática XenonRecomp + Vulkan 1.3, até 5K, 21:9, 60+ FPS, MSAA, teclado/mouse de DR2 PC, co-op online 2P e conquistas via XenonLive_Launcher, limite de nível 50 e suporte a mods DR2-Studio.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável / Finalizado (sem novas atualizações planejadas)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v1.1.3 (14/10/2026)",
+          "latest_tag_observed_in_audit": "v1.1.3",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (CaseZeroRecomp-windows-x86_64.zip, 23,8 MB)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "dead-rising-2-case-west-xenon-recomp": {
+      "game_id": "dead-rising-2-case-zero-case-west",
+      "fallback_name": "Dead_Rising_2_Case_West_Xenon_Recomp",
+      "description_pt": "Recompilação estática irmã de Case Zero com mesma base XenonRecomp + Vulkan 1.3, 5K, ultrawide, 60+ FPS, teclado/mouse nativos, co-op online 2P via XenonLive_Launcher e suporte a mods.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Estável / Finalizado (sem novas atualizações planejadas)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v1.1.2 (14/10/2026)",
+          "latest_tag_observed_in_audit": "v1.1.2",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (CaseWestRecomp-windows-x86_64.zip, 23,8 MB)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "doaxvb-re": {
+      "game_id": "dead-or-alive-xtreme-beach-volleyball",
+      "fallback_name": "doaxvb-re",
+      "description_pt": "Recompilação estática do XBE para C (D3D11 e Vulkan exp.), alta resolução, MSAA/SMAA, RTGI opcional, trilhas customizadas, câmera livre, Model Viewer e modo online Exhibition experimental com rollback.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental (jogável e ativo)",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "0.7.0 Beta (20/11/2026)",
+          "latest_tag_observed_in_audit": "v0.7.0",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Parcial (Launcher compila automaticamente na máquina)",
+          "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "3on3nhl-recomp": {
+      "game_id": "3-on-3-nhl-arcade",
+      "fallback_name": "3on3NHL-recomp",
+      "description_pt": "Recompilação estática ReXGlue (D3D12) com partidas completas, controles Xbox/PS, conquistas locais (10/12) e modo online/mods em desenvolvimento.",
+      "description_status": "legacy_unverified",
+      "description_source_url": null,
+      "development_status_reported": "Beta / Experimental",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": "v0.1.1 (out/2026)",
+          "latest_tag_observed_in_audit": "v0.1.1",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (ZIP Windows x64 com NHL 3on3 Launcher.exe)",
+          "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Release GitHub consultada",
+          "notes": null,
+          "functional_installation_tested": false
+        }
+      }
+    }
+  }
+}

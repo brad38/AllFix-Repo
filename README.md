@@ -1,22 +1,16 @@
-# AllFix â€” catalogo remoto (schema v3)
+# AllFix — dados remotos da Loja (schema v4)
 
-Catalogo publico: https://raw.githubusercontent.com/brad38/AllFix-Repo/main/catalog.json
+Fonte: https://github.com/brad38/AllFix-Repo
 
-## Estrutura
-- Um unico arquivo JSON: 87 jogos e 119 projetos.
-- `games`: dados estaticos de curadoria por jogo.
-- `projects[].source`: links oficiais e identificador GitHub, quando disponivel.
-- `projects[].fallback_name`: rotulo de reserva; nome e descricao atuais de projetos GitHub sao consultados via GET /repos/{owner}/{repo}.
-- `projects[].documentation.requirements`: `system`, `installation`, `build` e `general` com **trechos da documentacao oficial**. `source_url` e `evidence` indicam a fonte e os titulos das secoes de origem.
-- `verification_status: documented_in_readme`: evidencia foi localizada no README (NAO significa que o projeto roda, que a instalacao foi testada ou que os requisitos estejam completos).
-- `verification_status: pending_review`: o README nao foi acessivel ou nao havia secoes de requisitos explicitamente identificadas. Nao assumir que nao existem requisitos.
-- `legacy_unverified`: material de pesquisa anterior preservado, nao tratar como confirmado.
-- `windows.installation_enabled`: false ate validacao funcional.
-- Versoes e assets consultados ao vivo via GitHub Releases, nao no catalogo.
-- Capas/banners/screenshot de fontes externas. Sem ratings fabricados.
+Arquivos na raiz:
+- **catalog.json**: estrutura principal (87 jogos, 119 projetos, identificadores, plataformas, links dos repositórios, imagens externas, addons); referencias `requirements_file` e `about_file`.
+- **requirements.json**: requisitos por ID do projeto; categorias `system` (sistema), `installation` (instalação/execução), `build` (compilação), `general` (geral). O objeto `source_text` contém as seções ORIGINAIS dos READMEs, na maioria em inglês. Os campos localizados permanecem `null` até tradução/revisão; não tratar `legacy_reported_pt` como documentação confirmada.
+- **about.json**: informações para a aba Sobre, indexadas por ID de jogo e de projeto. As descrições legadas de projetos em português estão em `description_pt` com `description_status=legacy_unverified`. As descrições dos jogos continuam pendentes de fonte confiável.
 
-## Auditoria de README â€” 2026-11-22
-Foram analisados automaticamente 119 registros; 114 READMEs oficiais encontrados por URL GitHub RAW (HEAD) e 5 sem README GitHub acessivel pela rota de catalogo (inclui URLs externas). O extrator identificou somente secoes rotuladas e preservou a evidencia textual. **Campos pendentes exigem revisao manual**, especialmente quando requisitos estao fora do README, em arquivos BUILDING/INSTALL ou outras paginas. Uma secao Building e apenas requisito de compilacao, nao de execucao.
+A interface deve ser em português brasileiro. Não apresentar texto inglês cru ao usuário; enquanto faltar tradução de requisitos, exibir aviso em português e um link para a documentação oficial. Não apresentar requisitos desatualizados da pesquisa antiga como verificados. Seções de compilação não são requisitos de execução.
 
-## Descoberta futura
-Ao adicionar novos projetos, ler README/docs oficiais, separar requisitos de sistema/instalacao/compilacao, registrar fonte, nao inferir hardware e nao confundir ferramentas de build com dependencias de execucao. Validar IDs e URLs sem remover dados preexistentes.
+Os dados dinâmicos de repositórios GitHub (nome, descrição, disponibilidade) e as versões/downloads são consultados pela API do GitHub sob demanda, com cache. **Não** incluir tags/releases atuais no catálogo. Projetos de provedores externos requerem integração apropriada.
+
+**Compatibilidade:** o aplicativo que aceita apenas schema v3 precisa ser adaptado antes de usar a versão v4. A divisão em três arquivos é uma mudança intencional do formato de distribuição de dados.
+
+**Importante:** a auditoria anterior localizou seções relevantes em 99 projetos, mas não revisou manualmente todas as instruções de README/BUILDING. `verification_status=documented_in_readme` significa apenas que o trecho consta no README, não que a instalação tenha sido testada. A tradução de texto técnico completo ainda está pendente, conforme `translation_status`.
