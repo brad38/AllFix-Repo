@@ -11,8 +11,8 @@
       "source_url": "https://raw.githubusercontent.com/HarbourMasters/Ghostship/HEAD/README.md",
       "verified_at": "2026-11-22",
       "system": null,
-      "installation": null,
-      "build": null,
+      "installation": "O Ghostship não inclui nenhum elemento protegido por direitos autorais. Você deve fornecer uma cópia compatível do jogo. • Extraia todos os arquivos do arquivo ZIP para uma pasta de sua escolha. • Execute o Ghostship.exe e selecione sua ROM dos EUA ou do Japão.",
+      "build": "Se você quiser compilar o Ghostship manualmente, consulte as instruções de compilação.",
       "general": null,
       "source_text": {
         "system": null,
@@ -37,8 +37,10 @@
           "source_url": "https://raw.githubusercontent.com/HarbourMasters/Ghostship/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Extrair o ZIP, executar Ghostship.exe e apontar ROM .z64 US ou JP para gerar sm64.o2r automaticamente. Sem compilação manual."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Extrair o ZIP, executar Ghostship.exe e apontar ROM .z64 US ou JP para gerar sm64.o2r automaticamente. Sem compilação manual.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "sm64coopdx-super-mario-64-coop-deluxe": {
       "game_id": "super-mario-64",
@@ -85,7 +87,7 @@
       "verified_at": "2026-11-22",
       "system": null,
       "installation": null,
-      "build": null,
+      "build": "[Verifique a página wiki para obter ajuda detalhada sobre compilação]\nhttps://github.com/Render96/Render96ex/wiki",
       "general": null,
       "source_text": {
         "system": null,
@@ -100,8 +102,10 @@
           "source_url": "https://raw.githubusercontent.com/Render96/Render96ex/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Compilação manual (MSYS2/sm64pcBuilder) com ROM original, mais download manual do Render96/ModelPack e RENDER96-HD-TEXTURE-PACK."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Compilação manual (MSYS2/sm64pcBuilder) com ROM original, mais download manual do Render96/ModelPack e RENDER96-HD-TEXTURE-PACK.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "sm64ex": {
       "game_id": "super-mario-64",
@@ -110,7 +114,7 @@
       "verified_at": "2026-11-22",
       "system": null,
       "installation": null,
-      "build": null,
+      "build": "Para obter instruções de compilação, consulte o wiki. • *Certifique-se de ter o MXE antes de tentar compilar para Windows no Linux e no WSL. Siga o guia no wiki.**",
       "general": null,
       "source_text": {
         "system": null,
@@ -125,8 +129,10 @@
           "source_url": "https://raw.githubusercontent.com/sm64pc/sm64ex/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Compilação manual obrigatória via MSYS2 ou MXE usando ROM original (US, EU, JP ou Shindou)."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Compilação manual obrigatória via MSYS2 ou MXE usando ROM original (US, EU, JP ou Shindou).",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "sm64rt": {
       "game_id": "super-mario-64",
@@ -135,8 +141,8 @@
       "verified_at": "2026-11-22",
       "system": null,
       "installation": null,
-      "build": null,
-      "general": null,
+      "build": "Para obter instruções de compilação, consulte o wiki do sm64ex e siga o processo normalmente com estes sinalizadores de compilação adicionais: • RENDER_API=RT64 (necessário para usar o RT64 como renderizador) • EXTERNAL_DATA=1 (necessário para associar texturas às propriedades de material do renderizador) O repositório já vem com um binário pré-compilado e o arquivo de cabeçalho compatível com o RT64 para facilitar o processo de compilação.",
+      "general": "• Windows 10 (2004 ou mais recente) • Microsoft Visual C++ Redistributable para Visual Studio 2019 • GPU com suporte a DXR (drivers NVIDIA versão 470 ou mais recente **obrigatórios** para suporte a DLSS) • Não tem certeza se pode executar o mod? Em vez disso, baixe e execute o exemplo do RT64!",
       "source_text": {
         "system": null,
         "installation": null,
@@ -155,8 +161,10 @@
           "source_url": "https://raw.githubusercontent.com/DarioSamo/sm64rt/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Compilação manual com flags RENDER_API=RT64 EXTERNAL_DATA=1, ROM original e GPU com DirectX Raytracing (DXR)."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Compilação manual com flags RENDER_API=RT64 EXTERNAL_DATA=1, ROM original e GPU com DirectX Raytracing (DXR).",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "ship-of-harkinian-soh": {
       "game_id": "the-legend-of-zelda-ocarina-of-time",
@@ -164,8 +172,8 @@
       "source_url": "https://raw.githubusercontent.com/HarbourMasters/Shipwright/HEAD/README.md",
       "verified_at": "2026-11-22",
       "system": null,
-      "installation": null,
-      "build": null,
+      "installation": "O The Ship não inclui nenhum dos ativos protegidos por direitos autorais do jogo original. Você deve fornecer uma cópia compatível do jogo. • Extraia o arquivo zip • Execute o arquivo \"soh.exe\"",
+      "build": "Se você quiser compilar o SoH manualmente, consulte as [instruções de compilação](docs/BUILDING.md).",
       "general": null,
       "source_text": {
         "system": null,
@@ -190,17 +198,19 @@
           "source_url": "https://raw.githubusercontent.com/HarbourMasters/Shipwright/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Extrair o ZIP, executar soh.exe e fornecer ROM suportada (verificável em ship.equipment) para gerar oot.o2r automaticamente."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Extrair o ZIP, executar soh.exe e fornecer ROM suportada (verificável em ship.equipment) para gerar oot.o2r automaticamente.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "zelda-64-recompiled": {
       "game_id": "the-legend-of-zelda-majora-s-mask",
       "verification_status": "documented_in_readme",
       "source_url": "https://raw.githubusercontent.com/Zelda64Recomp/Zelda64Recomp/HEAD/README.md",
       "verified_at": "2026-11-22",
-      "system": null,
+      "system": "É necessária uma GPU compatível com Direct3D 12.0 (Shader Model 6), Vulkan 1.2 ou suporte a Metal Argument Buffers Tier 2 para executar este projeto. As GPUs mais antigas que devem ser compatíveis para cada fornecedor são: • GeForce GT 630 • Radeon HD 7750 (a de 2012, não confundir com a série RX 7000) e mais recentes • Intel HD 510 (Skylake)",
       "installation": null,
-      "build": null,
+      "build": "Não é necessário compilar para jogar este projeto, pois os binários pré-compilados (que não contêm ativos do jogo) podem ser encontrados na seção Releases. As instruções sobre como compilar este projeto podem ser encontradas no arquivo [BUILDING.md](BUILDING.md).",
       "general": null,
       "source_text": {
         "system": "[System Requirements]\nA GPU supporting Direct3D 12.0 (Shader Model 6), Vulkan 1.2, or Metal Argument Buffers Tier 2 support is required to run this project. The oldest GPUs that should be supported for each vendor are:\n* GeForce GT 630\n* Radeon HD 7750 (the one from 2012, not to be confused with the RX 7000 series) and newer\n* Intel HD 510 (Skylake)\n* A Mac with Apple Silicon or an Intel 7th Gen CPU with MacOS 13.0+\n\nOn x86-64 PCs, a CPU supporting the SSE4.1 instruction set is also required (Intel Core 2 Penryn series or AMD Bulldozer and newer). ARM64 builds will work on any ARM64 CPU.\n\nIf you have issues with crashes on startup, make sure your graphics drivers are fully up to date.",
@@ -220,8 +230,10 @@
           "source_url": "https://raw.githubusercontent.com/Zelda64Recomp/Zelda64Recomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Extrair o ZIP e selecionar a ROM US de Majora's Mask (conversão automática). Requer GPU D3D12 (SM 6) ou Vulkan 1.2 e CPU SSE4.1."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Extrair o ZIP e selecionar a ROM US de Majora's Mask (conversão automática). Requer GPU D3D12 (SM 6) ou Vulkan 1.2 e CPU SSE4.1.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "2-ship-2-harkinian-2s2h": {
       "game_id": "the-legend-of-zelda-majora-s-mask",
@@ -229,7 +241,7 @@
       "source_url": "https://raw.githubusercontent.com/2ship2harkinian/2ship2harkinian/HEAD/README.md",
       "verified_at": "2026-11-22",
       "system": null,
-      "installation": null,
+      "installation": "O 2Ship não inclui nenhum ativo protegido por direitos autorais. Você deve fornecer uma cópia compatível do jogo. • Extraia o arquivo zip • Execute o arquivo \"2ship.exe\"",
       "build": null,
       "general": null,
       "source_text": {
@@ -250,8 +262,10 @@
           "source_url": "https://raw.githubusercontent.com/2ship2harkinian/2ship2harkinian/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Extrair o ZIP, executar 2ship.exe e selecionar ROM suportada (verificável em 2ship.equipment) para extração automática."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Extrair o ZIP, executar 2ship.exe e selecionar ROM suportada (verificável em 2ship.equipment) para extração automática.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "starship": {
       "game_id": "star-fox-64",
@@ -259,8 +273,8 @@
       "source_url": "https://raw.githubusercontent.com/HarbourMasters/Starship/HEAD/README.md",
       "verified_at": "2026-11-22",
       "system": null,
-      "installation": null,
-      "build": null,
+      "installation": "O Starship não inclui nenhum recurso protegido por direitos autorais. Você deve fornecer uma cópia compatível do jogo. • Extraia todos os arquivos do arquivo ZIP para uma pasta de sua escolha. • Execute o starship.exe e selecione sua ROM US 1.0 ou US 1.1.",
+      "build": "Se você quiser compilar o Starship manualmente, consulte as instruções de compilação.",
       "general": null,
       "source_text": {
         "system": null,
@@ -285,8 +299,10 @@
           "source_url": "https://raw.githubusercontent.com/HarbourMasters/Starship/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Extrair o ZIP e fornecer ROM .z64 US 1.0 ou US 1.1 Rev A para gerar sf64.o2r (ROMs EU/JP opcionais para vozes)."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Extrair o ZIP e fornecer ROM .z64 US 1.0 ou US 1.1 Rev A para gerar sf64.o2r (ROMs EU/JP opcionais para vozes).",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "spaghettikart": {
       "game_id": "mario-kart-64",
@@ -294,8 +310,8 @@
       "source_url": "https://raw.githubusercontent.com/HarbourMasters/SpaghettiKart/HEAD/README.md",
       "verified_at": "2026-11-22",
       "system": null,
-      "installation": null,
-      "build": null,
+      "installation": "O SpaghettiKart não inclui nenhum ativo protegido por direitos autorais. Você deve fornecer uma cópia compatível do jogo. • Extraia todos os arquivos do arquivo ZIP para uma pasta de sua escolha. • Execute \"Spaghettify.exe\" e selecione sua ROM dos EUA.",
+      "build": "Se você quiser compilar o SpaghettiKart manualmente, consulte as instruções de compilação.",
       "general": null,
       "source_text": {
         "system": null,
@@ -320,17 +336,19 @@
           "source_url": "https://raw.githubusercontent.com/HarbourMasters/SpaghettiKart/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Extrair o ZIP, executar Spaghettify.exe e fornecer ROM US (.z64) para gerar mk64.o2r."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Extrair o ZIP, executar Spaghettify.exe e fornecer ROM US (.z64) para gerar mk64.o2r.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "mariokart-64-recompiled": {
       "game_id": "mario-kart-64",
       "verification_status": "documented_in_readme",
       "source_url": "https://raw.githubusercontent.com/sonicdcer/MarioKart64Recomp/HEAD/README.md",
       "verified_at": "2026-11-22",
-      "system": null,
+      "system": "É necessária uma GPU compatível com Direct3D 12.0 (Shader Model 6), Vulkan 1.2 ou suporte a Metal Argument Buffers Tier 2 para executar este projeto. As GPUs mais antigas que devem ser compatíveis para cada fornecedor são: • GeForce GT 630 • Radeon HD 7750 (a de 2012, não confundir com a série RX 7000) e mais recentes • Intel HD 510 (Skylake)",
       "installation": null,
-      "build": null,
+      "build": "Não é necessário compilar para jogar este projeto, pois os binários pré-compilados (que não contêm ativos do jogo) podem ser encontrados na seção Releases. As instruções sobre como compilar este projeto podem ser encontradas no arquivo [BUILDING.md](BUILDING.md).",
       "general": null,
       "source_text": {
         "system": "[System Requirements]\nA GPU supporting Direct3D 12.0 (Shader Model 6), Vulkan 1.2, or Metal Argument Buffers Tier 2 support is required to run this project. The oldest GPUs that should be supported for each vendor are:\n* GeForce GT 630\n* Radeon HD 7750 (the one from 2012, not to be confused with the RX 7000 series) and newer\n* Intel HD 510 (Skylake)\n* A Mac with Apple Silicon or an Intel 7th Gen CPU with MacOS 13.0+\n\nOn x86-64 PCs, a CPU supporting the SSE4.1 instruction set is also required (Intel Core 2 Penryn series or AMD Bulldozer and newer). ARM64 builds will work on any ARM64 CPU.\n\nIf you have issues with crashes on startup, make sure your graphics drivers are fully up to date.",
@@ -350,8 +368,10 @@
           "source_url": "https://raw.githubusercontent.com/sonicdcer/MarioKart64Recomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Baixar release Windows e selecionar ROM US de Mario Kart 64. Requer GPU D3D12/Vulkan 1.2 e CPU SSE4.1."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Baixar release Windows e selecionar ROM US de Mario Kart 64. Requer GPU D3D12/Vulkan 1.2 e CPU SSE4.1.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "battleship": {
       "game_id": "super-smash-bros",
@@ -360,7 +380,7 @@
       "verified_at": "2026-11-22",
       "system": null,
       "installation": null,
-      "build": null,
+      "build": "Se você quiser compilar o BattleShip manualmente, consulte as [instruções de compilação](BUILDING.md).",
       "general": null,
       "source_text": {
         "system": null,
@@ -375,8 +395,10 @@
           "source_url": "https://raw.githubusercontent.com/JRickey/BattleShip/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Baixar a build correspondente à região da ROM (US v1.0 NALE ou JP v1.0 NALJ) e concluir o assistente de extração."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Baixar a build correspondente à região da ROM (US v1.0 NALE ou JP v1.0 NALJ) e concluir o assistente de extração.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "paperboat": {
       "game_id": "paper-mario",
@@ -384,8 +406,8 @@
       "source_url": "https://raw.githubusercontent.com/HarbourMasters/PaperBoat/HEAD/README.md",
       "verified_at": "2026-11-22",
       "system": null,
-      "installation": null,
-      "build": null,
+      "installation": "O PaperBoat não inclui nenhum ativo protegido por direitos autorais. Você deve fornecer uma cópia compatível do jogo. • Extraia o arquivo zip • Execute o arquivo \"paperboat.exe\"",
+      "build": "Se você quiser compilar o PaperBoat manualmente, consulte as [instruções de compilação](docs/BUILDING.md).",
       "general": null,
       "source_text": {
         "system": null,
@@ -410,17 +432,19 @@
           "source_url": "https://raw.githubusercontent.com/HarbourMasters/PaperBoat/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Extrair o ZIP, executar paperboat.exe e fornecer ROM US (verificável em paperboat.equipment) para extração automática."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Extrair o ZIP, executar paperboat.exe e fornecer ROM US (verificável em paperboat.equipment) para extração automática.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "donkey-kong-64-recompiled-dk64-rekongpiled": {
       "game_id": "donkey-kong-64",
       "verification_status": "documented_in_readme",
       "source_url": "https://raw.githubusercontent.com/Rainchus/Donkey-Kong-64-Recompiled/HEAD/README.md",
       "verified_at": "2026-11-22",
-      "system": null,
+      "system": "É necessária uma GPU compatível com Direct3D 12.0 (Shader Model 6) ou Vulkan 1.2 para executar este projeto. As GPUs mais antigas que devem ser compatíveis para cada fornecedor são: • GeForce GT 630 • Radeon HD 7750 (a de 2012, não deve ser confundida com a série RX 7000) e mais recentes • Intel HD 510 (Skylake) Também é necessária uma CPU compatível com o conjunto de instruções AVX (Intel Core série 2000 ou AMD Bulldozer e mais recentes).",
       "installation": null,
-      "build": null,
+      "build": "Não é necessário compilar para jogar este projeto, pois os binários pré-compilados (que não contêm ativos do jogo) podem ser encontrados na seção Releases. As instruções sobre como compilar este projeto podem ser encontradas no arquivo [BUILDING.md](BUILDING.md).",
       "general": null,
       "source_text": {
         "system": "[System Requirements]\nA GPU supporting Direct3D 12.0 (Shader Model 6) or Vulkan 1.2 is required to run this project. The oldest GPUs that should be supported for each vendor are:\n* GeForce GT 630\n* Radeon HD 7750 (the one from 2012, not to be confused with the RX 7000 series) and newer\n* Intel HD 510 (Skylake)\n\nA CPU supporting the AVX instruction set is also required (Intel Core 2000 series or AMD Bulldozer and newer).\n\nIf you have issues with crashes on startup, make sure your graphics drivers are fully up to date.",
@@ -440,17 +464,19 @@
           "source_url": "https://raw.githubusercontent.com/Rainchus/Donkey-Kong-64-Recompiled/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Extrair o ZIP e fornecer ROM US de Donkey Kong 64 (conversão automática). Requer GPU D3D12/Vulkan 1.2 e CPU com AVX."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Extrair o ZIP e fornecer ROM US de Donkey Kong 64 (conversão automática). Requer GPU D3D12/Vulkan 1.2 e CPU com AVX.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "snap64-recomp": {
       "game_id": "pokemon-snap",
       "verification_status": "documented_in_readme",
       "source_url": "https://raw.githubusercontent.com/JackandBeans/Snap64Recomp/HEAD/README.md",
       "verified_at": "2026-11-22",
-      "system": null,
-      "installation": null,
-      "build": null,
+      "system": "• **Windows:** Windows 10 de 64 bits (versão 1809 ou mais recente) ou 11, e uma GPU cujo driver seja compatível com Direct3D 12 com Shader Model 6.3. Um driver de antes do final de 2018 é muito antigo, e o port informa isso no início. • **Linux e Steam Deck:** um driver Vulkan 1.2 e o Flatpak ou o SDL2 e o GTK 3 do sistema; x86_64 ou ARM64 para o arquivo tar compilado para ele. As compilações para Linux são experimentais.",
+      "installation": "Sim. O programa não é assinado, portanto, o SmartScreen pode exibir \"O Windows protegeu seu PC\" na primeira vez: \"Mais informações\" e, em seguida, \"Executar mesmo assim\". Baixe-o apenas na página de versões deste repositório, onde cada arquivo vem com uma soma de verificação SHA-256. A porta não abre nenhuma conexão de rede.",
+      "build": "Consulte [BUILDING.md](BUILDING.md). Versão resumida: a descompilação e o IDO no WSL, o N64Recomp para o jogo e os patches, o CMake e o MSVC no Windows e uma lista de coisas que o Git não inclui ([O que está faltando em um checkout limpo](BUILDING.md#what-a-clean-checkout-is-missing)). Em seguida, `cpack -C Release` no diretório de compilação grava `Snap64Recomp-1.1.8-win64.zip` ([etapa 13](BUILDING.md#13-package)). <a id=\"how-i-made-it\"></a>",
       "general": null,
       "source_text": {
         "system": "[System requirements]\n* **Windows:** 64-bit Windows 10 (version 1809 or newer) or 11, and a GPU\n  whose driver supports Direct3D 12 with Shader Model 6.3. A driver from\n  before late 2018 is too old, and the port says so at start.\n* **Linux and Steam Deck:** a Vulkan 1.2 driver, and either Flatpak or the\n  system's SDL2 and GTK 3; x86_64, or ARM64 for the tarball built for it.\n  The Linux builds are experimental.\n* **macOS:** macOS 14 (Sonoma) or newer, on Apple Silicon or Intel; one app\n  runs on both. The Mac build has run on GitHub's virtual Mac and not yet on\n  a physical one (see [macOS](#macos)).\n* **Android (beta):** Android 10 or newer on a 64-bit (arm64) phone or\n  handheld, with a Vulkan 1.2 driver. It has run on one phone, with a\n  Snapdragon 8 Elite (see [Android](#android-beta)).\n* **CPU:** a 64-bit x86 processor with SSE4.1. That is Intel from 2008\n  (Penryn), AMD from 2011 (Bulldozer), or anything newer.\n* **Your own ROM of the US cartridge.** Its SHA-1 checksum is\n  `edc7c49cc568c045fe48be0d18011c30f393cbaf`, the value the\n  [decompilation project](https://github.com/ethteck/pokemonsnap)\n  publishes. `.z64`, `.v64` and `.n64` files all work. The port checks the\n  file for you, and refuses a wrong one with both checksums shown.\n\nNothing has to be installed. The download holds everything but the game.\n\nNo one has tested how old a graphics card can be and still run the port.\n[Zelda 64: Recompiled](https://github.com/Zelda64Recomp/Zelda64Recomp),\nwhich uses the same renderer, names the GeForce GT 630, the Radeon HD 7750\nand the Intel HD 510 as the oldest that should work. This port has run on an\nAMD Radeon RX 9060 XT, an NVIDIA GeForce RTX 4070 Ti Super, an Intel UHD 630\nand the Steam Deck. If it closes at start, update the graphics driver\nfirst. The detail is in\n[the manual](docs/MANUAL.md#what-you-need-in-detail).\n\n<a id=\"what-the-port-adds\"></a>",
@@ -475,8 +501,10 @@
           "source_url": "https://raw.githubusercontent.com/JackandBeans/Snap64Recomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Extrair o ZIP portátil e colocar ROM US (.z64/.v64/.n64) ao lado de Snap64Recomp.exe. Requer Windows 10/11 x64, D3D12 SM 6.3 e CPU SSE4.1."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Extrair o ZIP portátil e colocar ROM US (.z64/.v64/.n64) ao lado de Snap64Recomp.exe. Requer Windows 10/11 x64, D3D12 SM 6.3 e CPU SSE4.1.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "drmario64-recomp-plus": {
       "game_id": "dr-mario-64",
@@ -486,7 +514,7 @@
       "system": null,
       "installation": null,
       "build": null,
-      "general": null,
+      "general": "• ROM do Dr. Mario 64 (EUA) É necessária uma ROM original dos EUA no momento da execução. • Compiladores C (C17) e C++ (C++20) • Recomenda-se o Clang 15 ou mais recente • Deve ser compilado a partir do código-fonte no Linux • Exemplo: tar -xzf SDL2-2.26.1.tar.gz sudo make install • libgtk-3-dev",
       "source_text": {
         "system": null,
         "installation": null,
@@ -505,8 +533,10 @@
           "source_url": "https://raw.githubusercontent.com/theboy181/drmario64_recomp_plus/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Baixar a release v1.0.0 e fornecer ROM US vanilla de Dr. Mario 64 em tempo de execução."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Baixar a release v1.0.0 e fornecer ROM US vanilla de Dr. Mario 64 em tempo de execução.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "drmario64-recomp": {
       "game_id": "dr-mario-64",
@@ -516,7 +546,7 @@
       "system": null,
       "installation": null,
       "build": null,
-      "general": null,
+      "general": "• Compiladores C (c17) e C++ (c++20). • É recomendado o Clang 15 ou mais recente. • Isso deve ser instalado a partir do código-fonte no Linux. • Por exemplo: tar -xzf SDL2-2.26.1.tar.gz sudo make install • libgtk-3-dev",
       "source_text": {
         "system": null,
         "installation": null,
@@ -530,17 +560,19 @@
           "source_url": "https://raw.githubusercontent.com/AngheloAlf/drmario64_recomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Compilação manual complexa (decomp + N64Recomp + CMake/Clang) e ROM US original."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Compilação manual complexa (decomp + N64Recomp + CMake/Clang) e ROM US original.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "banjo-recompiled": {
       "game_id": "banjo-kazooie",
       "verification_status": "documented_in_readme",
       "source_url": "https://raw.githubusercontent.com/BanjoRecomp/BanjoRecomp/HEAD/README.md",
       "verified_at": "2026-11-22",
-      "system": null,
+      "system": "É necessária uma GPU compatível com Direct3D 12.0 (Shader Model 6), Vulkan 1.2 ou suporte a Metal Argument Buffers Tier 2 para executar este projeto. As GPUs mais antigas que devem ser compatíveis para cada fornecedor são: • GeForce GT 630 • Radeon HD 7750 (a de 2012, não confundir com a série RX 7000) e mais recentes • Intel HD 510 (Skylake)",
       "installation": null,
-      "build": null,
+      "build": "Não é necessário compilar para jogar este projeto, pois os binários pré-compilados (que não contêm ativos do jogo) podem ser encontrados na seção Releases. As instruções sobre como compilar este projeto podem ser encontradas no arquivo [BUILDING.md](BUILDING.md).",
       "general": null,
       "source_text": {
         "system": "[System Requirements]\nA GPU supporting Direct3D 12.0 (Shader Model 6), Vulkan 1.2, or Metal Argument Buffers Tier 2 support is required to run this project. The oldest GPUs that should be supported for each vendor are:\n* GeForce GT 630\n* Radeon HD 7750 (the one from 2012, not to be confused with the RX 7000 series) and newer\n* Intel HD 510 (Skylake)\n* A Mac with Apple Silicon or an Intel 7th Gen CPU with MacOS 13.0+\n\nOn x86-64 PCs, a CPU supporting the SSE4.1 instruction set is also required (Intel Core 2 Penryn series or AMD Bulldozer and newer). ARM64 builds will work on any ARM64 CPU.\n\nIf you have issues with crashes on startup, make sure your graphics drivers are fully up to date.",
@@ -560,8 +592,10 @@
           "source_url": "https://raw.githubusercontent.com/BanjoRecomp/BanjoRecomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Extrair o ZIP e apontar ROM US v1.0 de Banjo-Kazooie. Requer GPU D3D12/Vulkan 1.2 e CPU SSE4.1."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Extrair o ZIP e apontar ROM US v1.0 de Banjo-Kazooie. Requer GPU D3D12/Vulkan 1.2 e CPU SSE4.1.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "lighthouse": {
       "game_id": "banjo-kazooie",
@@ -569,8 +603,8 @@
       "source_url": "https://raw.githubusercontent.com/HarbourMasters/Lighthouse/HEAD/README.md",
       "verified_at": "2026-11-22",
       "system": null,
-      "installation": null,
-      "build": null,
+      "installation": "O Lighthouse não inclui nenhum ativo protegido por direitos autorais. Você deve fornecer uma cópia compatível do jogo. • Extraia todos os arquivos do arquivo ZIP para uma pasta de sua escolha. • Execute o lighthouse.exe e selecione sua ROM compatível.",
+      "build": "Se você quiser compilar o Lighthouse manualmente, consulte as instruções de compilação.",
       "general": null,
       "source_text": {
         "system": null,
@@ -595,18 +629,20 @@
           "source_url": "https://raw.githubusercontent.com/HarbourMasters/Lighthouse/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Extrair o ZIP, rodar lighthouse.exe e fornecer qualquer ROM retail .z64 (US v1.0/1.1, PAL ou JP) para gerar bk.o2r."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Extrair o ZIP, rodar lighthouse.exe e fornecer qualquer ROM retail .z64 (US v1.0/1.1, PAL ou JP) para gerar bk.o2r.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "banjo-tooie-recompiled": {
       "game_id": "banjo-tooie",
       "verification_status": "documented_in_readme",
       "source_url": "https://raw.githubusercontent.com/Vidanox/BanjoTooieRecompiled/HEAD/README.md",
       "verified_at": "2026-11-22",
-      "system": null,
-      "installation": null,
-      "build": null,
-      "general": null,
+      "system": "Uma GPU compatível com **Direct3D 12 (Shader Model 6)** ou **Vulkan 1.2**: • GeForce GT 630 ou mais recente • Radeon HD 7750 (2012) ou mais recente • Intel HD 510 (Skylake) ou mais recente Em x86-64, uma CPU compatível com **SSE4.1** (Intel Core 2 Penryn / AMD Bulldozer ou mais recente).",
+      "installation": "build-cmake\\BanjoTooieRecompiled.exe # Windows build-cmake/BanjoTooieRecompiled # Linux ⚠ **Execute-o a partir do diretório que contém `assets/`** — o inicializador resolve suas fontes, ícones e papel de parede em relação ao *diretório de trabalho*, não em relação ao local do executável. No Windows, iniciar a partir do Explorador ou de `build-cmake/` faz isso por você; no Linux, use `cd` para acessar o diretório primeiro.",
+      "build": "Comum: **CMake** 3.20+, **Ninja** e **Python 3.8+** (apenas ferramentas). • *O clang não é opcional em nenhuma das plataformas.** `rt64` e `N64ModernRuntime` passam flags no estilo GCC por meio de `target_compile_options`, que o `cl` do MSVC rejeita imediatamente com `D8021: argumento numérico inválido '/Wno-unused-parameter'`. • *Windows:** • **clang-cl** (LLVM) **19 ou mais recente**.",
+      "general": "Quatro projetos upstream são usados como **submódulos git** em `lib/`. Eles não são fornecidos por terceiros e não são forks — `.gitmodules` aponta para os repositórios upstream. | Submódulo | Upstream | Licença | Com patch? | | `lib/N64ModernRuntime` | N64Recomp/N64ModernRuntime | GPL-3.0 | **Sim** | | `lib/rt64` | rt64/rt64 | MIT | **Sim** | | `lib/N64Recomp` | N64Recomp/N64Recomp | MIT | **Sim** | | `lib/RecompFrontend` | N64Recomp/RecompFrontend…",
       "source_text": {
         "system": "[System Requirements]\nA GPU supporting **Direct3D 12 (Shader Model 6)** or **Vulkan 1.2**:\n\n* GeForce GT 630 or newer\n* Radeon HD 7750 (2012) or newer\n* Intel HD 510 (Skylake) or newer\n\nOn x86-64, an **SSE4.1**-capable CPU (Intel Core 2 Penryn / AMD Bulldozer or\nnewer).",
         "installation": "[Running]\n```\nbuild-cmake\\BanjoTooieRecompiled.exe          # Windows\nbuild-cmake/BanjoTooieRecompiled              # Linux\n```\n\n⚠ **Run it from the directory containing `assets/`** — the launcher resolves its\nfonts, icons and wallpaper against the *working directory*, not against the\nexecutable's location. On Windows, launching from Explorer or from\n`build-cmake/` does this for you; on Linux, `cd` into the directory first. The\nrelease archive's `run.sh` does it for you:\n\n```bash\ntar xzf BanjoTooieRecompiled-linux-x64.tar.gz\ncd BanjoTooieRecompiled\n./run.sh\n```\n\nRunning the executable from elsewhere without doing this fails on startup with\n`Failed to load font face from assets\\LatoLatin-Regular.ttf`.\n\nOn first launch, choose **Select ROM** and point it at your Banjo-Tooie (USA)\nROM. The supported dump is:\n\n| | |\n|---|---|\n| Format | `.z64` (big-endian, unbyteswapped) |\n| SHA-1 | `AF1A89E12B638B8D82CC4C085C8E01D4CBA03FB3` |\n| Size | 33,554,432 bytes (32 MiB) |\n| Internal name | `BANJO TOOIE` |\n| Cartridge ID | `NB7E` |\n\nThe ROM is read directly — there is no separate extraction step. Settings are\nstored in `%LOCALAPPDATA%\\BanjoTooieRecompiled\\` on Windows and\n`~/.config/BanjoTooieRecompiled/` on Linux.\n\n`--game bt` skips the launcher and starts the game immediately; it still needs a\nROM to have been selected once.",
@@ -645,8 +681,10 @@
           "source_url": "https://raw.githubusercontent.com/Vidanox/BanjoTooieRecompiled/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Extrair o ZIP, executar BanjoTooieRecompiled.exe e selecionar ROM US .z64 (NB7E, 32 MiB). Requer D3D12/Vulkan 1.2 e CPU SSE4.1."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Extrair o ZIP, executar BanjoTooieRecompiled.exe e selecionar ROM US .z64 (NB7E, 32 MiB). Requer D3D12/Vulkan 1.2 e CPU SSE4.1.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "perfect-dark-pc-port-perfect-dark": {
       "game_id": "perfect-dark",
@@ -654,8 +692,8 @@
       "source_url": "https://raw.githubusercontent.com/perfect-dark-pc-port/perfect_dark/HEAD/README.md",
       "verified_at": "2026-11-22",
       "system": null,
-      "installation": null,
-      "build": null,
+      "installation": "Versões automáticas mais recentes para as plataformas compatíveis: • x86_64-windows • i686-windows • x86_64-linux • i686-linux • arm64-nswitch Se você estiver procurando versões para netplay (o branch \"port-net\"), consulte este link. Você já deve ter uma ROM do Perfect Dark para executar o jogo, conforme especificado acima. Isso pressupõe que você esteja usando uma compilação x86_64. Caso contrário, substitua `x86_64` abaixo pela sua arquitetura (por exemplo, `i686`). 1.",
+      "build": "1. Instale o MSYS2. 2. Abra o prompt `MINGW64` se estiver compilando para x86_64 ou o prompt `MINGW32` se estiver compilando para i686. (**OBSERVAÇÃO:** _não_ use o prompt `MSYS`) 3. Instale as dependências: `pacman -S mingw-w64-x86_64-toolchain mingw-w64-x86_64-SDL2 mingw-w64-x86_64-zlib mingw-w64-x86_64-cmake mingw-w64-x86_64-python3 mingw-w64-i686-toolchain mingw-w64-i686-SDL2 mingw-w64-i686-zlib mingw-w64-i686-cmake mingw-w64-i686-python3 make git` 4.",
       "general": null,
       "source_text": {
         "system": null,
@@ -690,8 +728,10 @@
           "source_url": "https://raw.githubusercontent.com/perfect-dark-pc-port/perfect_dark/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Extrair o ZIP, criar pasta data/ ao lado de pd.x86_64.exe com a ROM NTSC-final / US v1.1 renomeada para pd.ntsc-final.z64. Requer OpenGL 3.0+."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Extrair o ZIP, criar pasta data/ ao lado de pd.x86_64.exe com a ROM NTSC-final / US v1.1 renomeada para pd.ntsc-final.z64. Requer OpenGL 3.0+.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "project-midas": {
       "game_id": "goldeneye-007",
@@ -700,7 +740,7 @@
       "verified_at": "2026-11-22",
       "system": null,
       "installation": null,
-      "build": null,
+      "build": "A compilação é executada no Docker, que tem todas as ferramentas e bibliotecas de que ambas as compilações precisam. Você também precisa do cartucho GE (EUA) como `baserom.u.z64` na raiz do repositório: sha1: abe01e4aeb033b6c0836819f549c791b26cfde83 Os comandos abaixo são para um shell Linux. No Windows, execute-os no WSL: 1. Instale o WSL com o Ubuntu (`wsl --install` no PowerShell) e ative a integração do WSL no Docker Desktop (Configurações > Recursos > Integração do WSL). 2.",
       "general": null,
       "source_text": {
         "system": null,
@@ -725,17 +765,19 @@
           "source_url": "https://raw.githubusercontent.com/murkantor/Project-Midas/HEAD/readme.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Extrair o ZIP e colocar a ROM US de GoldenEye 007 na pasta Data/ ao lado de ProjectMidas.exe."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Extrair o ZIP e colocar a ROM US de GoldenEye 007 na pasta Data/ ao lado de ProjectMidas.exe.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "goldeneye-007-pc-port": {
       "game_id": "goldeneye-007",
       "verification_status": "documented_in_readme",
       "source_url": "https://raw.githubusercontent.com/jkdansereau/goldeneye-pc-port/HEAD/README.md",
       "verified_at": "2026-11-22",
-      "system": null,
-      "installation": null,
-      "build": null,
+      "system": "• *Windows:** Windows 10 ou 11, 64 bits. Nada mais para instalar: o download contém suas próprias bibliotecas de tempo de execução e a ferramenta de ativos de uso único (sem • *Linux/Steam Deck:** Linux x86 de 64 bits com glibc 2.31 ou mais recente (Ubuntu 20.04+, Debian 11+, Fedora 32+, SteamOS). O SDL2 está incluído, portanto, o tarball é executado como está; ele é carregado lateralmente em um Steam Deck sem nada instalado.",
+      "installation": "1. Em Releases, baixe o **win64.zip** (Windows) ou o **linux tarball** (Linux e Steam Deck) e extraia-o. No Windows, nunca execute o arquivo .exe de dentro do 2. Crie uma pasta `data/` ao lado do executável e coloque sua ROM nela como `ge007.ntsc-final.z64`. Atualmente, apenas a ROM **dos EUA (NTSC-U)** funciona. Consulte [O que é uma ROM?](#whats-a-rom) para verificar a sua. 3. Execute o arquivo executável a partir dessa pasta.",
+      "build": "Pré-requisitos: CMake >= 3.16, uma toolchain C/C++, SDL2, zlib, OpenGL e extração (nenhuma toolchain IDO/IRIX está envolvida; no Windows, a extração é mais fácil no WSL). Consulte [`docs/building.md`](docs/building.md) para obter o passo a passo completo e os detalhes da extração de ativos. O executável é gravado em `build-pc/ge007.x86_64` (no Windows, `build-pc/ge007.x86_64.exe`).",
       "general": null,
       "source_text": {
         "system": "[System requirements]\n**Windows:** Windows 10 or 11, 64-bit. Nothing else to install: the\ndownload carries its own runtime libraries and the one-time asset tool (no\nPython, no emulator).\n\n**Linux / Steam Deck:** 64-bit x86 Linux with glibc 2.31 or newer (Ubuntu\n20.04+, Debian 11+, Fedora 32+, SteamOS). SDL2 is bundled, so\nthe tarball runs as-is; it sideloads onto a Steam Deck with nothing installed.\n\n**Both:** a GPU with OpenGL 3.0 drivers (practically any PC GPU from the last\nfifteen years; keep the driver up to date). A 2011 laptop with Intel HD\n3000 graphics holds 60 fps; on very weak integrated GPUs (Atom/Celeron class)\nthe first launch lowers draw distance and anti-aliasing to keep up. A\nkeyboard and mouse, or a controller (Xbox, PlayStation, Switch and most\nSDL-supported pads); split-screen needs one controller per extra player.\n\n**Not yet:** macOS, ARM Linux and Windows 7 are on the [roadmap](#roadmap).",
@@ -770,17 +812,19 @@
           "source_url": "https://raw.githubusercontent.com/jkdansereau/goldeneye-pc-port/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Extrair o ZIP, criar data/ com a ROM US renomeada para ge007.ntsc-final.z64. Requer Windows 10/11 x64 e OpenGL 3.0+."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Extrair o ZIP, criar data/ com a ROM US renomeada para ge007.ntsc-final.z64. Requer Windows 10/11 x64 e OpenGL 3.0+.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "dinosaur-planet-recompiled-dino-recomp": {
       "game_id": "dinosaur-planet",
       "verification_status": "documented_in_readme",
       "source_url": "https://raw.githubusercontent.com/DinosaurPlanetRecomp/dino-recomp/HEAD/README.md",
       "verified_at": "2026-11-22",
-      "system": null,
+      "system": "É necessária uma GPU compatível com Direct3D 12.0 (Shader Model 6) ou Vulkan 1.2 para executar este projeto. As GPUs mais antigas que devem ser compatíveis para cada fornecedor são: • GeForce GT 630 • Radeon HD 7750 (a de 2012, não confundir com a série RX 7000) e mais recentes • Intel HD 510 (Skylake) Também é necessária uma CPU compatível com o conjunto de instruções SSE4.1 (série Intel Core 2 Penryn ou AMD Bulldozer e mais recentes).",
       "installation": null,
-      "build": null,
+      "build": "Para desenvolvedores, consulte [BUILDING.md](./BUILDING.md) para obter instruções de configuração do ambiente de compilação e desenvolvimento.",
       "general": null,
       "source_text": {
         "system": "[System Requirements]\nA GPU supporting Direct3D 12.0 (Shader Model 6) or Vulkan 1.2 is required to run this project. The oldest GPUs that should be supported for each vendor are:\n* GeForce GT 630\n* Radeon HD 7750 (the one from 2012, not to be confused with the RX 7000 series) and newer\n* Intel HD 510 (Skylake)\n\nA CPU supporting the SSE4.1 instruction set is also required (Intel Core 2 Penryn series or AMD Bulldozer and newer).\n\nIf you have issues with crashes on startup, make sure your graphics drivers are fully up to date.",
@@ -800,17 +844,19 @@
           "source_url": "https://raw.githubusercontent.com/DinosaurPlanetRecomp/dino-recomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Extrair o ZIP e fornecer a ROM limpa do protótipo de dez/2000 + mod Dinomod Enhanced. Requer D3D12/Vulkan 1.2 e CPU SSE4.1."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Extrair o ZIP e fornecer a ROM limpa do protótipo de dez/2000 + mod Dinomod Enhanced. Requer D3D12/Vulkan 1.2 e CPU SSE4.1.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "bm64recomp": {
       "game_id": "bomberman-64",
       "verification_status": "documented_in_readme",
       "source_url": "https://raw.githubusercontent.com/RevoSucks/BM64Recomp/HEAD/README.md",
       "verified_at": "2026-11-22",
-      "system": null,
+      "system": "No momento, apenas um arquivo .exe para **Windows** é fornecido, mas outros sistemas operacionais serão compatíveis em breve.<br/> É necessária uma GPU compatível com Direct3D 12.0 (Shader Model 6), Vulkan 1.2 ou Metal Argument Buffers Tier 2 para executar este projeto. As GPUs mais antigas que devem ser compatíveis para cada fornecedor são: • GeForce GT 630 • Radeon HD 7750 (a de 2012, não confundir com a série RX 7000) e mais recentes • Intel HD 510 (Skylake)",
       "installation": null,
-      "build": null,
+      "build": "As instruções de compilação sobre como compilar este projeto podem ser encontradas no arquivo [BUILDING.md](BUILDING.md).",
       "general": null,
       "source_text": {
         "system": "[System Requirements]\nCurrently, only a **Windows** exe is provided but other operating systems will be supported soon.<br/>\nA GPU supporting Direct3D 12.0 (Shader Model 6), Vulkan 1.2, or Metal Argument Buffers Tier 2 support is required to run this project. The oldest GPUs that should be supported for each vendor are:\n* GeForce GT 630\n* Radeon HD 7750 (the one from 2012, not to be confused with the RX 7000 series) and newer\n* Intel HD 510 (Skylake)\n* A Mac with Apple Silicon or an Intel 7th Gen CPU with MacOS 13.0+\n\nOn x86-64 PCs, a CPU supporting the SSE4.1 instruction set is also required (Intel Core 2 Penryn series or AMD Bulldozer and newer). ARM64 builds will work on any ARM64 CPU.\n\nIf you have issues with crashes on startup, make sure your graphics drivers are fully up to date.",
@@ -830,17 +876,19 @@
           "source_url": "https://raw.githubusercontent.com/RevoSucks/BM64Recomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "ROM US 1.0 de Bomberman 64 (conversão automática), GPU D3D12/Vulkan 1.2 e CPU SSE4.1. Sem compilação manual."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "ROM US 1.0 de Bomberman 64 (conversão automática), GPU D3D12/Vulkan 1.2 e CPU SSE4.1. Sem compilação manual.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "bmherorecomp": {
       "game_id": "bomberman-hero",
       "verification_status": "documented_in_readme",
       "source_url": "https://raw.githubusercontent.com/RevoSucks/BMHeroRecomp/HEAD/README.md",
       "verified_at": "2026-11-22",
-      "system": null,
+      "system": "No momento, apenas um arquivo .exe para **Windows** é fornecido, mas outros sistemas operacionais serão compatíveis em breve.<br/> É necessária uma GPU compatível com Direct3D 12.0 (Shader Model 6), Vulkan 1.2 ou suporte a Metal Argument Buffers Tier 2 para executar este projeto. As GPUs mais antigas que devem ser compatíveis para cada fornecedor são: • GeForce GT 630 • Radeon HD 7750 (a de 2012, não confundir com a série RX 7000) e mais recentes • Intel HD 510 (Skylake)",
       "installation": null,
-      "build": null,
+      "build": "As instruções de compilação sobre como compilar este projeto podem ser encontradas no arquivo [BUILDING.md](BUILDING.md).",
       "general": null,
       "source_text": {
         "system": "[System Requirements]\nCurrently, only a **Windows** exe is provided but other operating systems will be supported soon.<br/>\nA GPU supporting Direct3D 12.0 (Shader Model 6), Vulkan 1.2, or Metal Argument Buffers Tier 2 support is required to run this project. The oldest GPUs that should be supported for each vendor are:\n* GeForce GT 630\n* Radeon HD 7750 (the one from 2012, not to be confused with the RX 7000 series) and newer\n* Intel HD 510 (Skylake)\n* A Mac with Apple Silicon or an Intel 7th Gen CPU with MacOS 13.0+\n\nOn x86-64 PCs, a CPU supporting the SSE4.1 instruction set is also required (Intel Core 2 Penryn series or AMD Bulldozer and newer). ARM64 builds will work on any ARM64 CPU.\n\nIf you have issues with crashes on startup, make sure your graphics drivers are fully up to date.",
@@ -860,17 +908,19 @@
           "source_url": "https://raw.githubusercontent.com/RevoSucks/BMHeroRecomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "ROM US 1.0 de Bomberman Hero, GPU D3D12/Vulkan 1.2 e CPU SSE4.1. Sem compilação manual."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "ROM US 1.0 de Bomberman Hero, GPU D3D12/Vulkan 1.2 e CPU SSE4.1. Sem compilação manual.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "goemon64recomp": {
       "game_id": "mystical-ninja-starring-goemon",
       "verification_status": "documented_in_readme",
       "source_url": "https://raw.githubusercontent.com/klorfmorf/Goemon64Recomp/HEAD/README.md",
       "verified_at": "2026-11-22",
-      "system": null,
+      "system": "É necessária uma GPU compatível com Direct3D 12.0 (Shader Model 6), Vulkan 1.2 ou suporte a Metal Argument Buffers Tier 2 para executar este projeto. As GPUs mais antigas que devem ser compatíveis para cada fornecedor são: • GeForce GT 630 • Radeon HD 7750 (a de 2012, não confundir com a série RX 7000) e mais recentes • Intel HD 510 (Skylake)",
       "installation": null,
-      "build": null,
+      "build": "Não é necessário compilar para jogar este projeto, pois os binários pré-compilados (que não contêm ativos do jogo) podem ser encontrados na seção Releases. As instruções sobre como compilar este projeto podem ser encontradas no arquivo [BUILDING.md](BUILDING.md).",
       "general": null,
       "source_text": {
         "system": "[System Requirements]\nA GPU supporting Direct3D 12.0 (Shader Model 6), Vulkan 1.2, or Metal Argument Buffers Tier 2 support is required to run this project. The oldest GPUs that should be supported for each vendor are:\n* GeForce GT 630\n* Radeon HD 7750 (the one from 2012, not to be confused with the RX 7000 series) and newer\n* Intel HD 510 (Skylake)\n* A Mac with Apple Silicon or an Intel 7th Gen CPU with MacOS 13.0+\n\nOn x86-64 PCs, a CPU supporting the SSE4.1 instruction set is also required (Intel Core 2 Penryn series or AMD Bulldozer and newer). ARM64 builds will work on any ARM64 CPU.\n\nIf you have issues with crashes on startup, make sure your graphics drivers are fully up to date.",
@@ -890,17 +940,19 @@
           "source_url": "https://raw.githubusercontent.com/klorfmorf/Goemon64Recomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "ROM US de Mystical Ninja Starring Goemon, GPU D3D12/Vulkan 1.2 e CPU SSE4.1. Sem compilação manual."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "ROM US de Mystical Ninja Starring Goemon, GPU D3D12/Vulkan 1.2 e CPU SSE4.1. Sem compilação manual.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "ggarecomp": {
       "game_id": "goemon-s-great-adventure",
       "verification_status": "documented_in_readme",
       "source_url": "https://raw.githubusercontent.com/DreaXer/GGARecomp/HEAD/README.md",
       "verified_at": "2026-11-22",
-      "system": null,
-      "installation": null,
-      "build": null,
+      "system": "• Windows 10 ou 11, 64 bits ou Linux x86-64 (testado no Ubuntu com X11). Ainda não há versão para macOS. • Uma GPU compatível com Direct3D 12.0 (Shader Model 6) ou Vulkan 1.2 (Vulkan apenas no Linux). • Uma CPU compatível com AVX. • Windows: Microsoft Visual C++ Redistributable (x64). A maioria dos PCs já o tem; sem ele, o Windows informa que o arquivo \"MSVCP140.dll\" está ausente.",
+      "installation": "1. Baixe `GGARecompiled-v0.3.0-windows.zip` (ou `GGARecompiled-v0.3.0-linux-x86_64.tar.gz`) das versões e extraia-o em qualquer lugar. 2. Execute `GGARecompiled.exe`. No Linux, abra um terminal **na pasta extraída** e execute `./GGARecompiled` (se for iniciado a partir de outra pasta, o jogo não encontrará sua pasta `assets`). 3. Na primeira vez que for iniciado, o inicializador solicitará a sua ROM do Goemon's Great Adventure.",
+      "build": "A compilação precisa da sua própria ROM: o código do jogo é desmontado a partir dela e, em seguida, recompilado. Apenas para Windows. O repositório ainda não é compilado a partir de um clone novo (suas bibliotecas não são adicionadas como submódulos); as instruções de compilação virão em uma versão posterior.",
       "general": null,
       "source_text": {
         "system": "[System requirements]\n- Windows 10 or 11, 64-bit, or Linux x86-64 (tested on Ubuntu with X11). No macOS build yet.\n- A GPU supporting Direct3D 12.0 (Shader Model 6) or Vulkan 1.2 (Vulkan only on Linux).\n- A CPU supporting AVX.\n- Windows: the [Microsoft Visual C++ Redistributable (x64)](https://aka.ms/vs/17/release/vc_redist.x64.exe). Most PCs\n  already have it; without it, Windows reports a missing `MSVCP140.dll`.\n- Linux: SDL2, GTK 3, FreeType and a Vulkan driver, for example on Ubuntu / Debian:\n  `sudo apt install libsdl2-2.0-0 libgtk-3-0 libfreetype6 mesa-vulkan-drivers`.\n\nIf the game crashes on startup, update your graphics drivers first.",
@@ -925,17 +977,19 @@
           "source_url": "https://raw.githubusercontent.com/DreaXer/GGARecomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Windows 10/11 x64, CPU AVX, GPU D3D12/Vulkan 1.2, VC++ Redistributable x64 e ROM US (NGME; ROM EU opcional para FR/DE)."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Windows 10/11 x64, CPU AVX, GPU D3D12/Vulkan 1.2, VC++ Redistributable x64 e ROM US (NGME; ROM EU opcional para FR/DE).",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "gga64recomp": {
       "game_id": "goemon-s-great-adventure",
       "verification_status": "documented_in_readme",
       "source_url": "https://raw.githubusercontent.com/StopSine/GGA64Recomp/HEAD/README.md",
       "verified_at": "2026-11-22",
-      "system": null,
+      "system": "É necessária uma GPU compatível com Direct3D 12.0 (Shader Model 6), Vulkan 1.2 ou suporte a Metal Argument Buffers Tier 2 para executar este projeto. As GPUs mais antigas que devem ser compatíveis para cada fornecedor são: • GeForce GT 630 • Radeon HD 7750 (a de 2012, não confundir com a série RX 7000) e mais recentes • Intel HD 510 (Skylake)",
       "installation": null,
-      "build": null,
+      "build": "As instruções sobre como compilar este projeto podem ser encontradas no arquivo [BUILDING.md](BUILDING.md). A compilação requer uma cópia do jogo, e a geração do código desmontado a partir do qual ele é recompilado é uma etapa separada, gerenciada pelo submódulo `lib/gga`.",
       "general": null,
       "source_text": {
         "system": "[System Requirements]\nA GPU supporting Direct3D 12.0 (Shader Model 6), Vulkan 1.2, or Metal Argument Buffers Tier 2 support is required to run this project. The oldest GPUs that should be supported for each vendor are:\n* GeForce GT 630\n* Radeon HD 7750 (the one from 2012, not to be confused with the RX 7000 series) and newer\n* Intel HD 510 (Skylake)\n* A Mac with Apple Silicon or an Intel 7th Gen CPU with MacOS 13.0+\n\nOn x86-64 PCs, a CPU supporting the SSE4.1 instruction set is also required (Intel Core 2 Penryn series or AMD Bulldozer and newer). ARM64 builds will work on any ARM64 CPU.\n\nIf you have issues with crashes on startup, make sure your graphics drivers are fully up to date.",
@@ -955,17 +1009,19 @@
           "source_url": "https://raw.githubusercontent.com/StopSine/GGA64Recomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "ROM US de Goemon's Great Adventure e build local para testes."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "ROM US de Goemon's Great Adventure e build local para testes.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "dnzhrecomp": {
       "game_id": "duke-nukem-zero-hour",
       "verification_status": "documented_in_readme",
       "source_url": "https://raw.githubusercontent.com/sonicdcer/DNZHRecomp/HEAD/README.md",
       "verified_at": "2026-11-22",
-      "system": null,
+      "system": "É necessária uma GPU compatível com Direct3D 12.0 (Shader Model 6), Vulkan 1.2 ou suporte a Metal Argument Buffers Tier 2 para executar este projeto. As GPUs mais antigas que devem ser compatíveis para cada fornecedor são: • GeForce GT 630 • Radeon HD 7750 (a de 2012, não confundir com a série RX 7000) e mais recentes • Intel HD 510 (Skylake)",
       "installation": null,
-      "build": null,
+      "build": "A construção não é necessária para jogar este projeto, pois binários pré-construídos (que não contêm recursos do jogo) podem ser encontrados na seção Lançamentos. Instruções sobre como construir este projeto podem ser encontradas no arquivo [BUILDING.md](BUILDING.md).",
       "general": null,
       "source_text": {
         "system": "[System Requirements]\nA GPU supporting Direct3D 12.0 (Shader Model 6), Vulkan 1.2, or Metal Argument Buffers Tier 2 support is required to run this project. The oldest GPUs that should be supported for each vendor are:\n* GeForce GT 630\n* Radeon HD 7750 (the one from 2012, not to be confused with the RX 7000 series) and newer\n* Intel HD 510 (Skylake)\n* A Mac with Apple Silicon or an Intel 7th Gen CPU with MacOS 13.0+\n\nOn x86-64 PCs, a CPU supporting the SSE4.1 instruction set is also required (Intel Core 2 Penryn series or AMD Bulldozer and newer). ARM64 builds will work on any ARM64 CPU.\n\nIf you have issues with crashes on startup, make sure your graphics drivers are fully up to date.",
@@ -985,8 +1041,10 @@
           "source_url": "https://raw.githubusercontent.com/sonicdcer/DNZHRecomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "ROM US de Duke Nukem: Zero Hour, GPU D3D12/Vulkan 1.2 e CPU SSE4.1. Sem compilação manual."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "ROM US de Duke Nukem: Zero Hour, GPU D3D12/Vulkan 1.2 e CPU SSE4.1. Sem compilação manual.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "adam-s-ant-farm": {
       "game_id": "body-harvest",
@@ -994,7 +1052,7 @@
       "source_url": "https://raw.githubusercontent.com/LunarLaurus/adams-ant-farm-recomp/HEAD/README.md",
       "verified_at": "2026-11-22",
       "system": null,
-      "installation": null,
+      "installation": "Pegue a versão mais recente da [página de lançamentos](../../releases): um zip do Windows ou um tarball do Linux. `SHA256SUMS` lista a soma de verificação de cada arquivo. As compilações abaixo de 1.0 não foram concluídas; as notas de lançamento listam o que não funciona.",
       "build": null,
       "general": null,
       "source_text": {
@@ -1010,8 +1068,10 @@
           "source_url": "https://raw.githubusercontent.com/LunarLaurus/adams-ant-farm-recomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Extrair ZIP e rodar bh-launcher.exe (baixa SDL2.dll com SHA-256). Requer VC++ 2015–2022 x64, GPU Vulkan/D3D12 e ROM US ou PAL."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Extrair ZIP e rodar bh-launcher.exe (baixa SDL2.dll com SHA-256). Requer VC++ 2015–2022 x64, GPU Vulkan/D3D12 e ROM US ou PAL.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "body-harvest-recomp": {
       "game_id": "body-harvest",
@@ -1019,7 +1079,7 @@
       "source_url": "https://raw.githubusercontent.com/danielgomesvieira2000/body-harvest-recomp/HEAD/README.md",
       "verified_at": "2026-11-22",
       "system": null,
-      "installation": null,
+      "installation": "Baixe o pacote Windows ou Linux em Releases. Windows: descompacte e execute `body-harvest-recomp.exe`. Linux: extraia e execute `./body-harvest-recomp.sh`. Escolha seu despejo no inicializador. Para construí-lo você mesmo: Linux (Debian/Ubuntu ou WSL): bash tools/setup_linux.sh --install bash tools/build_linux.sh \"/path/to/Body Harvest (USA).z64\" O Windows precisa do Visual Studio Build Tools com clang-cl, CMake, Ninja, Python e WSL (a descompilação…",
       "build": null,
       "general": null,
       "source_text": {
@@ -1035,17 +1095,19 @@
           "source_url": "https://raw.githubusercontent.com/danielgomesvieira2000/body-harvest-recomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Compilação manual e ROM US de Body Harvest."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Compilação manual e ROM US de Body Harvest.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "sssv-recomp": {
       "game_id": "space-station-silicon-valley",
       "verification_status": "documented_in_readme",
       "source_url": "https://raw.githubusercontent.com/Cellenseres/SSSV_Recomp/HEAD/README.md",
       "verified_at": "2026-11-22",
-      "system": null,
+      "system": "Uma GPU com suporte para Direct3D 12.0 (Shader Model 6), Vulkan 1.2 ou suporte para Metal Argument Buffers Tier 2 é necessária para executar este projeto. As GPUs mais antigas que devem ser suportadas por cada fornecedor são: • GeForce GT 630 • Radeon HD 7750 (a de 2012, não confundir com a série RX 7000) e mais recentes • Intel HD 510 (Skylake)",
       "installation": null,
-      "build": null,
+      "build": "A construção não é necessária para jogar este projeto, pois binários pré-construídos (que não contêm recursos do jogo) podem ser encontrados na seção Lançamentos. Instruções sobre como construir este projeto podem ser encontradas no arquivo [BUILDING.md](BUILDING.md).",
       "general": null,
       "source_text": {
         "system": "[System Requirements]\nA GPU supporting Direct3D 12.0 (Shader Model 6), Vulkan 1.2, or Metal Argument Buffers Tier 2 support is required to run this project. The oldest GPUs that should be supported for each vendor are:\n* GeForce GT 630\n* Radeon HD 7750 (the one from 2012, not to be confused with the RX 7000 series) and newer\n* Intel HD 510 (Skylake)\n* A Mac with Apple Silicon or an Intel 7th Gen CPU with MacOS 13.0+\n\nOn x86-64 PCs, a CPU supporting the SSE4.1 instruction set is also required (Intel Core 2 Penryn series or AMD Bulldozer and newer). ARM64 builds will work on any ARM64 CPU.\n\nIf you have issues with crashes on startup, make sure your graphics drivers are fully up to date.",
@@ -1065,17 +1127,19 @@
           "source_url": "https://raw.githubusercontent.com/Cellenseres/SSSV_Recomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "ROM US 1.0 de Space Station Silicon Valley, GPU D3D12/Vulkan 1.2 e CPU SSE4.1. Sem compilação manual."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "ROM US 1.0 de Space Station Silicon Valley, GPU D3D12/Vulkan 1.2 e CPU SSE4.1. Sem compilação manual.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "quest64-recomp": {
       "game_id": "quest-64",
       "verification_status": "documented_in_readme",
       "source_url": "https://raw.githubusercontent.com/Rainchus/Quest64-Recomp/HEAD/README.md",
       "verified_at": "2026-11-22",
-      "system": null,
+      "system": "Atualmente, apenas um exe do **Windows** é fornecido, mas outros sistemas operacionais serão suportados em breve.<br/> Uma GPU com suporte para Direct3D 12.0 (Shader Model 6), Vulkan 1.2 ou suporte para Metal Argument Buffers Tier 2 é necessária para executar este projeto. As GPUs mais antigas que devem ser suportadas por cada fornecedor são: • GeForce GT 630 • Radeon HD 7750 (a de 2012, não confundir com a série RX 7000) e mais recentes • Intel HD 510 (Skylake)",
       "installation": null,
-      "build": null,
+      "build": "A construção não é necessária para jogar este projeto, pois binários pré-construídos (que não contêm recursos do jogo) podem ser encontrados na seção Lançamentos. Instruções sobre como construir este projeto podem ser encontradas no arquivo [BUILDING.md](BUILDING.md).",
       "general": null,
       "source_text": {
         "system": "[System Requirements]\nCurrently, only a **Windows** exe is provided but other operating systems will be supported soon.<br/>\nA GPU supporting Direct3D 12.0 (Shader Model 6), Vulkan 1.2, or Metal Argument Buffers Tier 2 support is required to run this project. The oldest GPUs that should be supported for each vendor are:\n* GeForce GT 630\n* Radeon HD 7750 (the one from 2012, not to be confused with the RX 7000 series) and newer\n* Intel HD 510 (Skylake)\n* A Mac with Apple Silicon or an Intel 7th Gen CPU with MacOS 13.0+\n\nOn x86-64 PCs, a CPU supporting the SSE4.1 instruction set is also required (Intel Core 2 Penryn series or AMD Bulldozer and newer). ARM64 builds will work on any ARM64 CPU.\n\nIf you have issues with crashes on startup, make sure your graphics drivers are fully up to date.",
@@ -1095,8 +1159,10 @@
           "source_url": "https://raw.githubusercontent.com/Rainchus/Quest64-Recomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "ROM US 1.0 de Quest 64, GPU D3D12/Vulkan 1.2 e CPU SSE4.1. Sem compilação manual."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "ROM US 1.0 de Quest 64, GPU D3D12/Vulkan 1.2 e CPU SSE4.1. Sem compilação manual.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "megaman64recompiled": {
       "game_id": "mega-man-64",
@@ -1143,7 +1209,7 @@
       "verified_at": "2026-11-22",
       "system": null,
       "installation": null,
-      "build": null,
+      "build": "Consulte [CONSTRUÇÃO.md](CONSTRUÇÃO.md).",
       "general": null,
       "source_text": {
         "system": null,
@@ -1158,17 +1224,19 @@
           "source_url": "https://raw.githubusercontent.com/wootbeer/btgarecomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "ROM USA Rev 0 de BattleTanx: Global Assault e GPU compatível com RT64."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "ROM USA Rev 0 de BattleTanx: Global Assault e GPU compatível com RT64.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "snowboardkids2-recomp": {
       "game_id": "snowboard-kids-2",
       "verification_status": "documented_in_readme",
       "source_url": "https://raw.githubusercontent.com/cdlewis/snowboardkids2-recomp/HEAD/README.md",
       "verified_at": "2026-11-22",
-      "system": null,
+      "system": "Uma GPU com suporte para Direct3D 12.0 (Shader Model 6), Vulkan 1.2 ou suporte para Metal Argument Buffers Tier 2 é necessária para executar este projeto. As GPUs mais antigas que devem ser suportadas por cada fornecedor são: • GeForce GT 630 • Radeon HD 7750 (a de 2012, não confundir com a série RX 7000) e mais recentes • Intel HD 510 (Skylake)",
       "installation": null,
-      "build": null,
+      "build": "A construção não é necessária para jogar este projeto, pois binários pré-construídos (que não contêm recursos do jogo) podem ser encontrados na seção Lançamentos. Instruções sobre como construir este projeto podem ser encontradas no arquivo [BUILDING.md](BUILDING.md).",
       "general": null,
       "source_text": {
         "system": "[System Requirements]\nA GPU supporting Direct3D 12.0 (Shader Model 6), Vulkan 1.2, or Metal Argument Buffers Tier 2 support is required to run this project. The oldest GPUs that should be supported for each vendor are:\n\n- GeForce GT 630\n- Radeon HD 7750 (the one from 2012, not to be confused with the RX 7000 series) and newer\n- Intel HD 510 (Skylake)\n- A Mac with Apple Silicon or an Intel 7th Gen CPU with MacOS 13.0+\n\nOn x86-64 PCs, a CPU supporting the SSE4.1 instruction set is also required (Intel Core 2 Penryn series or AMD Bulldozer and newer). ARM64 builds will work on any ARM64 CPU.\n\nWindows users should have the [Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) installed.\n\nIf you have issues with crashes on startup, make sure your graphics drivers are fully up to date.",
@@ -1188,8 +1256,10 @@
           "source_url": "https://raw.githubusercontent.com/cdlewis/snowboardkids2-recomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "ROM US de Snowboard Kids 2, VC++ Redistributable, GPU D3D12/Vulkan 1.2 e CPU SSE4.1. Sem compilação manual."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "ROM US de Snowboard Kids 2, VC++ Redistributable, GPU D3D12/Vulkan 1.2 e CPU SSE4.1. Sem compilação manual.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "extremegrecomp": {
       "game_id": "extreme-g",
@@ -1216,8 +1286,8 @@
       "source_url": "https://raw.githubusercontent.com/thatguymcd/rocket-r/HEAD/README.md",
       "verified_at": "2026-11-22",
       "system": null,
-      "installation": null,
-      "build": null,
+      "installation": "A versão atual é **1.0.2**, com SDK 2 e suporte para mods SDK 1 existentes. Consulte o [guia do SDK 2](docs/SDK2.md) para fazer mods e o exemplo do Workshop. Use o pacote para o seu dispositivo abaixo. Consulte [notas de teste](docs/TESTING.md) para saber quais compilações foram verificadas no hardware.",
+      "build": "Execute `ONE-CLICK-BUILD.cmd` para compilar a partir do código-fonte no Windows. Pode produzir pacotes Windows, Linux x64, Linux ARM64 e Android ARM64. As compilações do Windows também produzem um AppImage Linux x64 correspondente. • [Instruções de construção](docs/BUILDING.md) • [Regras de desenvolvimento](docs/DEVELOPMENT.md) • [Arquitetura de tempo de execução](docs/ARCHITECTURE.md) • [Sombreadores personalizados](docs/CUSTOM_SHADERS.md)",
       "general": null,
       "source_text": {
         "system": null,
@@ -1237,17 +1307,19 @@
           "source_url": "https://raw.githubusercontent.com/thatguymcd/rocket-r/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Abrir o executável e selecionar ou arrastar ROM US não modificada de Rocket: Robot on Wheels. Sem compilação manual."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Abrir o executável e selecionar ou arrastar ROM US não modificada de Rocket: Robot on Wheels. Sem compilação manual.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "chameleontwist1-jp-recomp": {
       "game_id": "chameleon-twist",
       "verification_status": "documented_in_readme",
       "source_url": "https://raw.githubusercontent.com/Rainchus/ChameleonTwist1-JP-Recomp/HEAD/README.md",
       "verified_at": "2026-11-22",
-      "system": null,
+      "system": "Uma GPU com suporte para Direct3D 12.0 (Shader Model 6) ou Vulkan 1.2 é necessária para executar este projeto. As GPUs mais antigas que devem ser suportadas por cada fornecedor são: • GeForce GT 630 • Radeon HD 7750 (a de 2012, não deve ser confundida com a série RX 7000) e mais recente • Intel HD 510 (Skylake) Uma CPU que suporte o conjunto de instruções AVX também é necessária (Intel Core série 2000 ou AMD Bulldozer e mais recente).",
       "installation": null,
-      "build": null,
+      "build": "A construção não é necessária para jogar este projeto, pois binários pré-construídos (que não contêm recursos do jogo) podem ser encontrados na seção Lançamentos. Instruções sobre como construir este projeto podem ser encontradas no arquivo [BUILDING.md](BUILDING.md).",
       "general": null,
       "source_text": {
         "system": "[System Requirements]\nA GPU supporting Direct3D 12.0 (Shader Model 6) or Vulkan 1.2 is required to run this project. The oldest GPUs that should be supported for each vendor are:\n* GeForce GT 630\n* Radeon HD 7750 (the one from 2012, not to be confused with the RX 7000 series) and newer\n* Intel HD 510 (Skylake)\n\nA CPU supporting the AVX instruction set is also required (Intel Core 2000 series or AMD Bulldozer and newer).\n\nIf you have issues with crashes on startup, make sure your graphics drivers are fully up to date.",
@@ -1267,8 +1339,10 @@
           "source_url": "https://raw.githubusercontent.com/Rainchus/ChameleonTwist1-JP-Recomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Aceita exclusivamente a ROM japonesa (JP Rev 0) de Chameleon Twist. Requer GPU D3D12/Vulkan 1.2 e CPU AVX."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Aceita exclusivamente a ROM japonesa (JP Rev 0) de Chameleon Twist. Requer GPU D3D12/Vulkan 1.2 e CPU AVX.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "automobililamborghini-recomp": {
       "game_id": "automobili-lamborghini",
@@ -1294,9 +1368,9 @@
       "verification_status": "documented_in_readme",
       "source_url": "https://raw.githubusercontent.com/jessetbh/WCWvsNWOWorldTourRecomp/HEAD/README.md",
       "verified_at": "2026-11-22",
-      "system": null,
+      "system": "Atualmente é fornecida uma versão do **Windows**; outros sistemas operacionais podem ser suportados É necessária uma GPU com suporte para Direct3D 12.0 (Shader Model 6) ou Vulkan 1.2. Também é necessária uma CPU que suporte o conjunto de instruções SSE4.1 (série Intel Core 2 Penryn ou AMD Bulldozer e mais recente). Se você travar na inicialização, certifique-se de que seus drivers gráficos estejam totalmente atualizados.",
       "installation": null,
-      "build": null,
+      "build": "Construir **não** é obrigatório para jogar – em vez disso, pegue um lançamento. Para compilar a partir do código-fonte, consulte [BUILDING.md](BUILDING.md).",
       "general": null,
       "source_text": {
         "system": "[System Requirements]\nCurrently a **Windows** build is provided; other operating systems may be supported\nlater.\n\nA GPU supporting Direct3D 12.0 (Shader Model 6) or Vulkan 1.2 is required. A CPU\nsupporting the SSE4.1 instruction set is also required (Intel Core 2 Penryn series or\nAMD Bulldozer and newer).\n\nIf you have crashes on startup, make sure your graphics drivers are fully up to date.",
@@ -1316,17 +1390,19 @@
           "source_url": "https://raw.githubusercontent.com/jessetbh/WCWvsNWOWorldTourRecomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "ROM US (NTSC-U) em .z64, GPU D3D12/Vulkan 1.2 e CPU SSE4.1. Sem compilação manual."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "ROM US (NTSC-U) em .z64, GPU D3D12/Vulkan 1.2 e CPU SSE4.1. Sem compilação manual.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "wcwnworevengerecomp": {
       "game_id": "wcw-nwo-revenge",
       "verification_status": "documented_in_readme",
       "source_url": "https://raw.githubusercontent.com/jessetbh/WCWnWoRevengeRecomp/HEAD/README.md",
       "verified_at": "2026-11-22",
-      "system": null,
+      "system": "Atualmente é fornecida uma versão do **Windows**; outros sistemas operacionais podem ser suportados É necessária uma GPU com suporte para Direct3D 12.0 (Shader Model 6) ou Vulkan 1.2. Também é necessária uma CPU que suporte o conjunto de instruções SSE4.1 (série Intel Core 2 Penryn ou AMD Bulldozer e mais recente). Se você travar na inicialização, certifique-se de que seus drivers gráficos estejam totalmente atualizados.",
       "installation": null,
-      "build": null,
+      "build": "Construir **não** é obrigatório para jogar – em vez disso, pegue um lançamento. Para compilar a partir do código-fonte, consulte [BUILDING.md](BUILDING.md).",
       "general": null,
       "source_text": {
         "system": "[System Requirements]\nCurrently a **Windows** build is provided; other operating systems may be supported\nlater.\n\nA GPU supporting Direct3D 12.0 (Shader Model 6) or Vulkan 1.2 is required. A CPU\nsupporting the SSE4.1 instruction set is also required (Intel Core 2 Penryn series or\nAMD Bulldozer and newer).\n\nIf you have crashes on startup, make sure your graphics drivers are fully up to date.",
@@ -1346,17 +1422,19 @@
           "source_url": "https://raw.githubusercontent.com/jessetbh/WCWnWoRevengeRecomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "ROM US (NTSC-U) em .z64, GPU D3D12/Vulkan 1.2 e CPU SSE4.1. Sem compilação manual."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "ROM US (NTSC-U) em .z64, GPU D3D12/Vulkan 1.2 e CPU SSE4.1. Sem compilação manual.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "wwfwrestlemania2000recomp": {
       "game_id": "wwf-wrestlemania-2000",
       "verification_status": "documented_in_readme",
       "source_url": "https://raw.githubusercontent.com/jessetbh/WWFWrestleMania2000Recomp/HEAD/README.md",
       "verified_at": "2026-11-22",
-      "system": null,
+      "system": "Atualmente é fornecida uma versão do **Windows**; outros sistemas operacionais podem ser suportados É necessária uma GPU com suporte para Direct3D 12.0 (Shader Model 6) ou Vulkan 1.2. Também é necessária uma CPU que suporte o conjunto de instruções SSE4.1 (série Intel Core 2 Penryn ou AMD Bulldozer e mais recente). Se você travar na inicialização, certifique-se de que seus drivers gráficos estejam totalmente atualizados.",
       "installation": null,
-      "build": null,
+      "build": "Construir **não** é obrigatório para jogar – em vez disso, pegue um lançamento. Para compilar a partir do código-fonte, consulte [BUILDING.md](BUILDING.md).",
       "general": null,
       "source_text": {
         "system": "[System Requirements]\nCurrently a **Windows** build is provided; other operating systems may be supported\nlater.\n\nA GPU supporting Direct3D 12.0 (Shader Model 6) or Vulkan 1.2 is required. A CPU\nsupporting the SSE4.1 instruction set is also required (Intel Core 2 Penryn series or\nAMD Bulldozer and newer).\n\nIf you have crashes on startup, make sure your graphics drivers are fully up to date.",
@@ -1376,17 +1454,19 @@
           "source_url": "https://raw.githubusercontent.com/jessetbh/WWFWrestleMania2000Recomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "ROM US (NTSC-U) retail em .z64 (rejeita hacks como V1.2), GPU D3D12/Vulkan 1.2 e CPU SSE4.1."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "ROM US (NTSC-U) retail em .z64 (rejeita hacks como V1.2), GPU D3D12/Vulkan 1.2 e CPU SSE4.1.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "vpw64recomp": {
       "game_id": "virtual-pro-wrestling-64",
       "verification_status": "documented_in_readme",
       "source_url": "https://raw.githubusercontent.com/jessetbh/VPW64Recomp/HEAD/README.md",
       "verified_at": "2026-11-22",
-      "system": null,
+      "system": "Atualmente é fornecida uma versão do **Windows**; outros sistemas operacionais podem ser suportados É necessária uma GPU com suporte para Direct3D 12.0 (Shader Model 6) ou Vulkan 1.2. Também é necessária uma CPU que suporte o conjunto de instruções SSE4.1 (série Intel Core 2 Penryn ou AMD Bulldozer e mais recente). Se você travar na inicialização, certifique-se de que seus drivers gráficos estejam totalmente atualizados.",
       "installation": null,
-      "build": null,
+      "build": "Construir **não** é obrigatório para jogar – em vez disso, pegue um lançamento. Para compilar a partir do código-fonte, consulte [BUILDING.md](BUILDING.md).",
       "general": null,
       "source_text": {
         "system": "[System Requirements]\nCurrently a **Windows** build is provided; other operating systems may be supported\nlater.\n\nA GPU supporting Direct3D 12.0 (Shader Model 6) or Vulkan 1.2 is required. A CPU\nsupporting the SSE4.1 instruction set is also required (Intel Core 2 Penryn series or\nAMD Bulldozer and newer).\n\nIf you have crashes on startup, make sure your graphics drivers are fully up to date.",
@@ -1406,17 +1486,19 @@
           "source_url": "https://raw.githubusercontent.com/jessetbh/VPW64Recomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "ROM japonesa (JP) original limpa em .z64 (ROMs pré-traduzidas são rejeitadas), GPU D3D12/Vulkan 1.2 e CPU SSE4.1."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "ROM japonesa (JP) original limpa em .z64 (ROMs pré-traduzidas são rejeitadas), GPU D3D12/Vulkan 1.2 e CPU SSE4.1.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "wwfnomercyrecomp": {
       "game_id": "wwf-no-mercy",
       "verification_status": "documented_in_readme",
       "source_url": "https://raw.githubusercontent.com/jessetbh/WWFNoMercyRecomp/HEAD/README.md",
       "verified_at": "2026-11-22",
-      "system": null,
+      "system": "Atualmente, uma versão do **Windows** está sendo direcionada; outros sistemas operacionais podem ser suportados É necessária uma GPU com suporte para Direct3D 12.0 (Shader Model 6) ou Vulkan 1.2. Também é necessária uma CPU que suporte o conjunto de instruções SSE4.1 (série Intel Core 2 Penryn ou AMD Bulldozer e mais recente).",
       "installation": null,
-      "build": null,
+      "build": "Consulte [CONSTRUÇÃO.md](CONSTRUÇÃO.md).",
       "general": null,
       "source_text": {
         "system": "[System Requirements]\nCurrently a **Windows** build is targeted; other operating systems may be supported\nlater.\n\nA GPU supporting Direct3D 12.0 (Shader Model 6) or Vulkan 1.2 is required. A CPU\nsupporting the SSE4.1 instruction set is also required (Intel Core 2 Penryn series or\nAMD Bulldozer and newer).",
@@ -1436,8 +1518,10 @@
           "source_url": "https://raw.githubusercontent.com/jessetbh/WWFNoMercyRecomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Obrigatoriamente ROM USA Rev 1 em .z64 (Rev 0 com bug de save é rejeitada), GPU D3D12/Vulkan 1.2 e CPU SSE4.1."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Obrigatoriamente ROM USA Rev 1 em .z64 (Rev 0 com bug de save é rejeitada), GPU D3D12/Vulkan 1.2 e CPU SSE4.1.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "bluewake": {
       "game_id": "the-legend-of-zelda-the-wind-waker",
@@ -1445,7 +1529,7 @@
       "source_url": "https://raw.githubusercontent.com/chrissotraidis/bluewake/HEAD/README.md",
       "verified_at": "2026-11-22",
       "system": null,
-      "installation": null,
+      "installation": "1. Baixe `BlueWake-v0.12.0-windows-x64.zip` da versão mais recente. Está pronto para jogar: você não precisa do PadMint ou de um Mac. 2. Descompacte todo o ZIP e execute `BlueWake.exe`. 3. Na primeira inicialização, escolha a imagem do seu disco (`.iso` ou `.gcm`). Um `.rvz` do Dolphin deve primeiro ser convertido para ISO no Dolphin: clique com o botão direito no jogo e escolha **Converter arquivo**.",
       "build": null,
       "general": null,
       "source_text": {
@@ -1461,8 +1545,10 @@
           "source_url": "https://raw.githubusercontent.com/chrissotraidis/bluewake/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Windows 10/11 x64, CPU AVX2, GPU D3D12/D3D11 e cópia USA (GZLE01 rev. 0) em .iso ou .gcm. Sem compilação manual."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Windows 10/11 x64, CPU AVX2, GPU D3D12/D3D11 e cópia USA (GZLE01 rev. 0) em .iso ou .gcm. Sem compilação manual.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "wind-waker-recomp": {
       "game_id": "the-legend-of-zelda-the-wind-waker",
@@ -1471,7 +1557,7 @@
       "verified_at": "2026-11-22",
       "system": null,
       "installation": null,
-      "build": null,
+      "build": "• *Baixe:** a versão do Windows na página de lançamentos do BlueWake. 1. Descompacte a pasta inteira em qualquer lugar e execute `BlueWake.exe`. Ele não está assinado, então o Windows pode dizer que protegeu seu PC: escolha **Mais informações** e **Executar mesmo assim**. 2. Na primeira vez, ele pede a imagem do seu disco. Ele verifica se é o disco dos EUA, prepara-o uma vez (alguns segundos; um `.rvz` é primeiro descompactado em um ISO) e lembra-se dele.",
       "general": null,
       "source_text": {
         "system": null,
@@ -1486,8 +1572,10 @@
           "source_url": "https://raw.githubusercontent.com/elliotttate/Wind-Waker-Recomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Mesmos do BlueWake (baixar diretamente no repositório BlueWake)."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Mesmos do BlueWake (baixar diretamente no repositório BlueWake).",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "zeldawwhdrecomp": {
       "game_id": "the-legend-of-zelda-the-wind-waker-hd",
@@ -1496,7 +1584,7 @@
       "verified_at": "2026-11-22",
       "system": null,
       "installation": null,
-      "build": null,
+      "build": "• **macOS** no Apple Silicon, **Linux** (x86-64 ou arm64, Vulkan) ou **Windows** (x86-64 ou arm64, Vulkan); as etapas de construção específicas da plataforma estão em \"Construção\" abaixo • macOS: ferramentas de linha de comando Xcode (`xcode-select --install`) • zstd para o suporte `.wua` do extrator: um sistema, se instalado (`brew install zstd`, `apt install libzstd-dev`;",
       "general": null,
       "source_text": {
         "system": null,
@@ -1521,8 +1609,10 @@
           "source_url": "https://raw.githubusercontent.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Windows 10/11, GPU Vulkan 1.3 e dump Wii U (v0 sem update: .wud/.wux + chaves ou .wua). O instalador baixa llvm-mingw e compila localmente em ~2 min."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Windows 10/11, GPU Vulkan 1.3 e dump Wii U (v0 sem update: .wud/.wux + chaves ou .wua). O instalador baixa llvm-mingw e compila localmente em ~2 min.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "dusklight-ex-dusk": {
       "game_id": "the-legend-of-zelda-twilight-princess",
@@ -1530,8 +1620,8 @@
       "source_url": "https://raw.githubusercontent.com/TwilitRealm/dusklight/HEAD/README.md",
       "verified_at": "2026-11-22",
       "system": null,
-      "installation": null,
-      "build": null,
+      "installation": "> [!IMPORTANT] > Dusklight *não* fornece quaisquer recursos protegidos por direitos autorais. Você deve fornecer sua própria cópia do jogo original. > [!IMPORTANT] > No mínimo, o Dusklight requer uma GPU com suporte para D3D12, Vulkan 1.1+ ou Metal. Para dispositivos mais antigos, o suporte de melhor esforço é fornecido para D3D11 e OpenGL ES (Android), mas não alcançará precisão ou desempenho total.",
+      "build": "Se você quiser compilar o Dusklight a partir do código-fonte, leia as [instruções de compilação](docs/building.md). Solicitações pull são bem-vindas! Observe que não aceitamos contribuições geradas principalmente por IA e fecharemos seu PR se suspeitarmos disso. Consulte também as [convenções de código](docs/code-conventions.md).",
       "general": null,
       "source_text": {
         "system": null,
@@ -1551,8 +1641,10 @@
           "source_url": "https://raw.githubusercontent.com/TwilitRealm/dusklight/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "GPU D3D12 ou Vulkan 1.1+ e dump .iso ou .rvz de qualquer disco comercial GC ou Wii (exceto Coreia). Sem compilação manual."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "GPU D3D12 ou Vulkan 1.1+ e dump .iso ou .rvz de qualquer disco comercial GC ou Wii (exceto Coreia). Sem compilação manual.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "twilight-princess-courage-reborn": {
       "game_id": "the-legend-of-zelda-twilight-princess",
@@ -1579,9 +1671,9 @@
       "source_url": "https://raw.githubusercontent.com/JackPriceBurns/foxhollow/HEAD/README.md",
       "verified_at": "2026-11-22",
       "system": null,
-      "installation": null,
+      "installation": "Se você deseja jogar Foxhollow, acesse https://foxhollow.dev e baixe o inicializador oficial para jogar. O launcher mantém seu jogo atualizado, permite gerenciar seus salvamentos e também oferece uma biblioteca de mods. As instruções abaixo são para pessoas que estão melhorando contribuindo para o porto ou construindo mods.",
       "build": null,
-      "general": null,
+      "general": "• CMake 3.25+ • Ninja • Compilador C++20 • Verifique .github/workflows/publish.yml para pré-requisitos específicos da plataforma",
       "source_text": {
         "system": null,
         "installation": "[How to run]\nIf you're looking to play Foxhollow, please go to https://foxhollow.dev and download the official launcher to play. The\nlauncher keeps your game up to date, allows you to manage your saves and also offers a mod library. The instructions\nbelow are for people who are improving contributing to the port or building mods.",
@@ -1600,8 +1692,10 @@
           "source_url": "https://raw.githubusercontent.com/JackPriceBurns/foxhollow/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "ISO legal de Star Fox Adventures. Sem compilação manual via launcher."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "ISO legal de Star Fox Adventures. Sem compilação manual via launcher.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "nookery-ex-acgc-pc-port": {
       "game_id": "animal-crossing",
@@ -1610,7 +1704,7 @@
       "verified_at": "2026-11-22",
       "system": null,
       "installation": null,
-      "build": null,
+      "build": "Consulte [BUILDING.md](BUILDING.md) para Windows, Linux e macOS, [BUILDING_ANDROID.md](BUILDING_ANDROID.md) para Android e [BUILDING_IOS.md](BUILDING_IOS.md) para iOS. Você pode usar `Nookery --help` para ver as opções de linha de comando disponíveis após a construção.",
       "general": null,
       "source_text": {
         "system": null,
@@ -1625,8 +1719,10 @@
           "source_url": "https://raw.githubusercontent.com/flyngmt/Nookery/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Windows 64-bit e imagem USA (GAFE01, Rev. 0) em .rvz, .iso, .ciso ou .gcm. Sem compilação manual."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Windows 64-bit e imagem USA (GAFE01, Rev. 0) em .rvz, .iso, .ciso ou .gcm. Sem compilação manual.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "open-nectar": {
       "game_id": "pikmin-pikmin-2",
@@ -1635,7 +1731,7 @@
       "verified_at": "2026-11-22",
       "system": null,
       "installation": null,
-      "build": null,
+      "build": "Pegue o pacote para o seu sistema em [Releases](../../releases). Dois downloads com o mesmo conteúdo; escolha um: • **`Open_Nectar-x86_64.AppImage`** — um arquivo. Torne-o executável (`chmod +x Open_Nectar-x86_64.AppImage`, ou *Permitir execução como programa* em suas propriedades) e abra-o. • **`nectar-linux.tar.gz`** — uma pasta: `tar -xzf nectar-linux.tar.gz`, então abra `nectar-linux/nectar-launcher`.",
       "general": null,
       "source_text": {
         "system": null,
@@ -1660,8 +1756,10 @@
           "source_url": "https://raw.githubusercontent.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Windows 64-bit, GPU OpenGL 3.3+ e discos Pikmin 1 (USA Rev 1 / EU) e/ou Pikmin 2 (USA / EU) em .iso/.gcm. Sem compilação manual."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Windows 64-bit, GPU OpenGL 3.3+ e discos Pikmin 1 (USA Rev 1 / EU) e/ou Pikmin 2 (USA / EU) em .iso/.gcm. Sem compilação manual.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "metaforce": {
       "game_id": "metroid-prime",
@@ -1688,8 +1786,8 @@
       "source_url": "https://raw.githubusercontent.com/new-coke/strikers/HEAD/README.md",
       "verified_at": "2026-11-22",
       "system": null,
-      "installation": null,
-      "build": null,
+      "installation": "Baixe o arquivo da sua plataforma acima ou em Releases e siga sua página no wiki: • Windows • macOS • Linux, como um arquivo ou AppImage • Steam Deck • Nintendo Switch O wiki também lista os discos suportados e como relatar um problema. A solução de problemas abrange problemas que você pode ter ao jogar ou instalar o jogo.",
+      "build": "O desenvolvimento no wiki abrange a construção, execução a partir de um checkout e depuração: • Windows • macOS • Linux • Steam Deck • Nintendo Switch",
       "general": null,
       "source_text": {
         "system": null,
@@ -1709,8 +1807,10 @@
           "source_url": "https://raw.githubusercontent.com/new-coke/strikers/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Windows x64 e imagem USA/EU/JP em .iso, .gcm, .ciso ou .gcz. Sem compilação manual."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Windows x64 e imagem USA/EU/JP em .iso, .gcm, .ciso ou .gcz. Sem compilação manual.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "strikersrecomp": {
       "game_id": "super-mario-strikers",
@@ -1718,7 +1818,7 @@
       "source_url": "https://raw.githubusercontent.com/aharonahdoot/StrikersRecomp/HEAD/README.md",
       "verified_at": "2026-11-22",
       "system": null,
-      "installation": null,
+      "installation": "A construção espera verificações de irmãos. De um diretório pai vazio: `bootstrap.sh` clona DolRecomp (nosso fork mantido, com revisão upstream pendente), GXRuntime e RecompCore próximo a este checkout.",
       "build": null,
       "general": null,
       "source_text": {
@@ -1734,8 +1834,10 @@
           "source_url": "https://raw.githubusercontent.com/aharonahdoot/StrikersRecomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "ISO USA (G4QE01) e compilação manual via bootstrap.sh, Python 3 e CMake."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "ISO USA (G4QE01) e compilação manual via bootstrap.sh, Python 3 e CMake.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "recharged": {
       "game_id": "mario-strikers-charged",
@@ -1743,7 +1845,7 @@
       "source_url": "https://raw.githubusercontent.com/previouslevelgames/recharged/HEAD/README.md",
       "verified_at": "2026-11-22",
       "system": null,
-      "installation": null,
+      "installation": "Clique em seu sistema para abrir • *a versão mais recente** e baixe o pacote nomeado abaixo: <table> <td align=\"center\" width=\"25%\"> <a href=\"https://github.com/previouslevelgames/recharged/releases/latest\"><img alt=\"Download for Windows\"…",
       "build": null,
       "general": null,
       "source_text": {
@@ -1759,8 +1861,10 @@
           "source_url": "https://raw.githubusercontent.com/previouslevelgames/recharged/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Windows 10/11 x64 e disco legal em .iso, .rvz ou .wbfs (USA/EU/JP/KR). Sem compilação manual."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Windows 10/11 x64 e disco legal em .iso, .rvz ou .wbfs (USA/EU/JP/KR). Sem compilação manual.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "strikers-wiicompiled": {
       "game_id": "mario-strikers-charged",
@@ -1769,8 +1873,8 @@
       "verified_at": "2026-11-22",
       "system": null,
       "installation": null,
-      "build": null,
-      "general": null,
+      "build": "Clone o repositório, execute `./build.sh` (`build.cmd` no Windows) e escolha a imagem do disco quando solicitado. O script extrai, traduz o código do jogo e compila o tempo de execução. Você não precisa da imagem do disco depois: os arquivos do jogo, configurações, salvamentos e caches ficam em uma pasta `MSCRecomp` (onde).",
+      "general": "• **Jogo:** seu próprio despejo de Mario Strikers Charged (EUA) (Rev 1), `R4QE01`. A compilação verifica o SHA-256 do `main.dol` e rejeita qualquer outra versão. • **Máquina:** Windows 10/11 de 64 bits, Linux ou macOS 14+ no Apple Silicon, com uma GPU compatível com Direct3D 12, Vulkan ou Metal e cerca de 10 GB de espaço livre em disco. • **Ferramentas:** SDK do .NET 8, CMake 3.25+, Ninja e Clang (LLVM-MinGW Clang no Windows). Configuração por plataforma: Edifício.",
       "source_text": {
         "system": null,
         "installation": null,
@@ -1789,8 +1893,10 @@
           "source_url": "https://raw.githubusercontent.com/BlackAndBlue95/Strikers-WiiCompiled/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Dump USA Rev 1 (R4QE01), ~10 GB livres e compilação manual via build.cmd (.NET 8, CMake, Ninja, LLVM-MinGW)."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Dump USA Rev 1 (R4QE01), ~10 GB livres e compilação manual via build.cmd (.NET 8, CMake, Ninja, LLVM-MinGW).",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "mariokartdd-recomp": {
       "game_id": "mario-kart-double-dash",
@@ -1799,8 +1905,8 @@
       "verified_at": "2026-11-22",
       "system": null,
       "installation": null,
-      "build": null,
-      "general": null,
+      "build": "• *macOS (Apple Silicon)** • Xcode (ou as ferramentas de linha de comando), CMake 3.20+, Ninja, Python 3 brew install cmake ninja sdl2 python • *Windows (x64 ou ARM64)** • Clang, CMake 3.20+, Ninja, Python 3 • Os cabeçalhos/bibliotecas do Windows SDK e MSVC (a carga de trabalho \"desenvolvimento de desktop com C++\" do Visual Studio ou das ferramentas de compilação independentes): clang tem como alvo o MSVC ABI e os usa winget install Kitware.CMake Ninja-build.Ninja…",
+      "general": "No PC, além de CMake, Ninja e Python para a compilação de desktop: • Android NDK, descompactado em `%LOCALAPPDATA%\\Android\\Sdk\\ndk\\<versão>\\` • platform-tools (para `adb`), descompactado em `%LOCALAPPDATA%\\Android\\Sdk\\platform-tools\\` • As `build-tools;34.0.0` do Android SDK e `platforms;android-34`, instalado com `sdkmanager` a partir das ferramentas de linha de comando (execute `sdkmanager --licenses` primeiro)",
       "source_text": {
         "system": null,
         "installation": null,
@@ -1834,8 +1940,10 @@
           "source_url": "https://raw.githubusercontent.com/ethannicholas/mariokartdd-recomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Dump USA (GM4E01) em .iso/.ciso e compilação manual via build.ps1 (Clang, CMake, Ninja, Python 3, VS 2022)."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Dump USA (GM4E01) em .iso/.ciso e compilação manual via build.ps1 (Clang, CMake, Ninja, Python 3, VS 2022).",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "mkdd-recomp": {
       "game_id": "mario-kart-double-dash",
@@ -1844,7 +1952,7 @@
       "verified_at": "2026-11-22",
       "system": null,
       "installation": null,
-      "build": null,
+      "build": "O repositório contém o pipeline, o tempo de execução, o renderizador, o aplicativo Bevy e as planilhas editadas manualmente. O resto é produzido a partir do seu próprio disco: 1. Extraia `main.dol` da imagem do seu disco: `python tools/ciso_extract.py \"path/to/your disc.ciso\" ../MKDD/extracted`. 2. Importe e analise-o no Ghidra (GameCubeLoader) como projeto `MKDD` em `../MKDD/ghidra_project`, então execute os comandos em [Regenerar tudo](#regenerate-everything).",
       "general": null,
       "source_text": {
         "system": null,
@@ -1859,8 +1967,10 @@
           "source_url": "https://raw.githubusercontent.com/LeftInWalmart/MKDD-Recomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Dump USA (GM4E01) e pipeline manual (~30 min) com Ghidra 12.1.4, JDK 21, ghidra-cli, Python e Rust 1.98."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Dump USA (GM4E01) e pipeline manual (~30 min) com Ghidra 12.1.4, JDK 21, ghidra-cli, Python e Rust 1.98.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "doldecomp-mkdd-decompilacao-base": {
       "game_id": "mario-kart-double-dash",
@@ -1888,7 +1998,7 @@
       "verified_at": "2026-11-22",
       "system": null,
       "installation": null,
-      "build": null,
+      "build": "Você deve se autoconstruir por enquanto. Etapas para Windows de 64 bits:<br> (0) Baixe Python e instale com \"Adicionar ao PATH\" marcado<br> (1) Clique no botão verde \"Código> Baixar ZIP\" na página do github e extraia o ZIP<br> (2) Coloque sua rom dos EUA chamada zelda3.sfc nessa pasta<br> (3) Baixe TCC e SDL2 e extraia cada ZIP na subpasta \"terceiros\"<br> (4) Clique duas vezes \"get_python_libs.bat\" no diretório principal.<br> (5) Clique duas vezes…",
       "general": null,
       "source_text": {
         "system": null,
@@ -1903,8 +2013,10 @@
           "source_url": "https://raw.githubusercontent.com/snesrev/zelda3/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "ROM legal USA (zelda3.sfc) na mesma pasta. Compilação manual opcional via Python + TCC + SDL2 para commits pós-v0.3."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "ROM legal USA (zelda3.sfc) na mesma pasta. Compilação manual opcional via Python + TCC + SDL2 para commits pós-v0.3.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "zelda-3-launcher": {
       "game_id": "the-legend-of-zelda-a-link-to-the-past",
@@ -1913,8 +2025,8 @@
       "verified_at": "2026-11-22",
       "system": null,
       "installation": null,
-      "build": null,
-      "general": null,
+      "build": "1. Baixe a versão mais recente. 2. Descompacte o arquivo. 3. Execute `Zelda 3 Launcher.exe` e então você será saudado por uma janela semelhante a esta: 4. Clique no botão de download. Se acontecer de você ter um arquivo `zelda3.sfc` no mesmo diretório do executável, ele irá copiá-lo automaticamente para você, mas se não, uma caixa de diálogo de seleção de arquivo será aberta e permitirá que você selecione seu arquivo ROM (nome não é importante). 5.",
+      "general": "1. Uma cópia obtida legitimamente da ROM dos EUA de Zelda 3 (A Link to the Past). `66871d66be19ad2c34c927d6b14cd8eb6fc3181965b6e517cb361f7316009cfb` E é isso fora deste executável em si.",
       "source_text": {
         "system": null,
         "installation": null,
@@ -1933,8 +2045,10 @@
           "source_url": "https://raw.githubusercontent.com/RadzPrower/Zelda-3-Launcher/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Windows e ROM legal USA de A Link to the Past (validada por SHA-256). Dispensa compilação manual."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Windows e ROM legal USA de A Link to the Past (validada por SHA-256). Dispensa compilação manual.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "super-metroid-launcher": {
       "game_id": "super-metroid",
@@ -1943,8 +2057,8 @@
       "verified_at": "2026-11-22",
       "system": null,
       "installation": null,
-      "build": null,
-      "general": null,
+      "build": "1. Baixe a versão mais recente. 2. Descompacte o arquivo. 3. Execute `Super Metroid Launcher.exe` e você será saudado por uma janela semelhante a esta: 4. Clique no botão de download. Se acontecer de você ter um arquivo `sm.sfc` no mesmo diretório do executável, ele será copiado automaticamente para você, mas se não, uma caixa de diálogo de seleção de arquivo será aberta e permitirá que você selecione seu arquivo ROM (nome não é importante). 5.",
+      "general": "1. Uma cópia obtida legitimamente da ROM Super Metroid (EUA). SHA256: `12B77C4BC9C1832CEE8881244659065EE1D84C70C3D29E6EAF92E6798CC2CA72` E é isso fora deste executável em si.",
       "source_text": {
         "system": null,
         "installation": null,
@@ -1963,8 +2077,10 @@
           "source_url": "https://raw.githubusercontent.com/RadzPrower/Super-Metroid-Launcher/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Windows e ROM legal USA de Super Metroid (SHA-256 validado)."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Windows e ROM legal USA de Super Metroid (SHA-256 validado).",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "sm": {
       "game_id": "super-metroid",
@@ -2011,7 +2127,7 @@
       "verified_at": "2026-11-22",
       "system": null,
       "installation": null,
-      "build": null,
+      "build": "Para o protótipo cooperativo nativo, use o destino CMake ROM padrão descrito no [guia de construção do renderizador adaptativo](docs/adaptive-renderer.md). As opções `--coop`/`SMW_BUILD_COOP` abaixo selecionam o executável IPS legado. Pré-requisitos: Windows 10+, Visual Studio 2022 (com carga de trabalho de desktop C++), Python 3.9+ em PATH e `rustup` para regeneração. Regenere a variante desejada a partir de sua ROM de estoque obtida legalmente e, em seguida, construa-a.",
       "general": null,
       "source_text": {
         "system": null,
@@ -2026,8 +2142,10 @@
           "source_url": "https://raw.githubusercontent.com/mstan/SuperMarioWorldRecomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Windows e ROM legal USA de Super Mario World (.sfc/.smc) selecionada no primeiro início. Sem compilação manual."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Windows e ROM legal USA de Super Mario World (.sfc/.smc) selecionada no primeiro início. Sem compilação manual.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "smw": {
       "game_id": "super-mario-world",
@@ -2036,7 +2154,7 @@
       "verified_at": "2026-11-22",
       "system": null,
       "installation": null,
-      "build": null,
+      "build": "Você deve se autoconstruir por enquanto. Método fácil no Windows de 64 bits (sem terminal ou grandes downloads):<br> (1) Baixe o Python se você não o tiver e instale com \"Adicionar ao PATH\" marcado<br> (2) Clique no botão verde \"Código> Baixar ZIP\" na página do github e extraia o ZIP<br> (3) Coloque sua rom dos EUA chamada smw.sfc nessa pasta<br> (4) Baixe TCC e SDL2 e extraia cada ZIP para o \"terceiro\" subpasta<br> (5) Clique duas vezes…",
       "general": null,
       "source_text": {
         "system": null,
@@ -2051,8 +2169,10 @@
           "source_url": "https://raw.githubusercontent.com/snesrev/smw/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "ROM legal USA (smw.sfc) na pasta do executável. Sem compilação manual na release v0.1."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "ROM legal USA (smw.sfc) na pasta do executável. Sem compilação manual na release v0.1.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "phase-distorter": {
       "game_id": "earthbound-mother-2",
@@ -2060,8 +2180,8 @@
       "source_url": "https://raw.githubusercontent.com/TheRunaway5/Phase-Distorter/HEAD/README.md",
       "verified_at": "2026-11-22",
       "system": null,
-      "installation": null,
-      "build": null,
+      "installation": "1. Coloque a pasta extraída em algum lugar conveniente, como `C:\\Games\\PhaseDistorter`. 2. Clique duas vezes em **`Phase Distorter.exe`**. 3. Conclua a importação da ROM descrita abaixo. Mantenha o **`SDL2.dll`** fornecido ao lado de **`Phase Distorter.exe`** na pasta de nível superior. Para selecionar um jogo explicitamente, use `--game earthbound` para inglês ou `--game mother2` para japonês;",
+      "build": "O repositório independente contém a implementação C++ e fontes de programa C++ geradas para ambos os jogos. A compilação requer um **compilador C++20**, **CMake 3.20 ou mais recente**, **arquivos de desenvolvimento SDL2** e **arquivos de desenvolvimento OpenGL para desktop**. **Python 3 é exigido pela configuração padrão habilitada para teste.** Uma compilação somente para jogos pode desabilitar testes e omitir o Python. Construa a partir da raiz deste repositório usando `cmake -S .`, conforme mostrado abaixo.",
       "general": null,
       "source_text": {
         "system": null,
@@ -2091,17 +2211,19 @@
           "source_url": "https://raw.githubusercontent.com/TheRunaway5/Phase-Distorter/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "ROM limpa (sem patches) de EarthBound (US) ou Mother 2 (JP) validada por SHA-256. Sem compilação manual."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "ROM limpa (sem patches) de EarthBound (US) ou Mother 2 (JP) validada por SHA-256. Sem compilação manual.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "autotmc-auto-tmc": {
       "game_id": "the-legend-of-zelda-the-minish-cap",
       "verification_status": "documented_in_readme",
       "source_url": "https://raw.githubusercontent.com/StonedModder/auto-tmc/HEAD/README.md",
       "verified_at": "2026-11-22",
-      "system": null,
-      "installation": null,
-      "build": null,
+      "system": "• **Python 3.14+** • **Windows, macOS ou Linux** • **200 MB+ de espaço em disco** para o aplicativo e dependências",
+      "installation": "1. Baixe Python 3.14 em python.org 2. Execute o instalador 3. Marque \"Adicionar Python ao PATH\" durante a instalação 4. Verifique com: `python --version`",
+      "build": "Para empacotar o AutoTMC como um executável independente do Windows, use PyInstaller: pyinstaller --onefile --windowed --name=\"AutoTMC-Windows\" --distpath=\".\" main.py • *Importante:** Isto coloca `AutoTMC-Windows.exe` diretamente na raiz do projeto (nenhuma pasta `dist/` é criada). • *Build flags:** • `--onefile` - Cria um único arquivo executável • `--windowed` - Remove a janela do console (aplicativo somente GUI)",
       "general": null,
       "source_text": {
         "system": "[System Requirements]\n- **Python 3.14+**\n- **Windows, macOS, or Linux**\n- **200MB+ disk space** for the application and dependencies",
@@ -2136,8 +2258,10 @@
           "source_url": "https://raw.githubusercontent.com/StonedModder/auto-tmc/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Windows e ROM legal de The Minish Cap (.gba). Dispensa Python e compilação manual."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Windows e ROM legal de The Minish Cap (.gba). Dispensa Python e compilação manual.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "project-picori-999sian-tmc": {
       "game_id": "the-legend-of-zelda-the-minish-cap",
@@ -2164,7 +2288,7 @@
       "source_url": "https://raw.githubusercontent.com/zeldaret/tmc/HEAD/README.md",
       "verified_at": "2026-11-22",
       "system": null,
-      "installation": null,
+      "installation": "Para configurar o repositório, consulte [INSTALL.md](INSTALL.md).",
       "build": null,
       "general": null,
       "source_text": {
@@ -2180,8 +2304,10 @@
           "source_url": "https://raw.githubusercontent.com/zeldaret/tmc/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "ROM .gba e toolchain GBA para reconstrução."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "ROM .gba e toolchain GBA para reconstrução.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "gsrecomp": {
       "game_id": "golden-sun-golden-sun-the-lost-age",
@@ -2190,7 +2316,7 @@
       "verified_at": "2026-11-22",
       "system": null,
       "installation": null,
-      "build": null,
+      "build": "Consulte [CONSTRUÇÃO.md](CONSTRUÇÃO.md). Resumindo: o inicializador cria um jogo a partir de seu cartucho ou da engrenagem de ouro, e `build_dev.bat` cria os jogos do desenvolvedor e o inicializador.",
       "general": null,
       "source_text": {
         "system": null,
@@ -2205,8 +2331,10 @@
           "source_url": "https://raw.githubusercontent.com/Shmargus/GSRecomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "ROMs legais USA/EU (.gba) de The Broken Seal e/ou The Lost Age. O launcher compila o código localmente com compilador já embutido."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "ROMs legais USA/EU (.gba) de The Broken Seal e/ou The Lost Age. O launcher compila o código localmente com compilador já embutido.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "opengoal": {
       "game_id": "jak-and-daxter-1-2-e-3",
@@ -2215,7 +2343,7 @@
       "verified_at": "2026-11-22",
       "system": null,
       "installation": null,
-      "build": null,
+      "build": "Conseguir um jogo em execução envolve 4 etapas principais: 1. Construir ferramentas C++ (siga as etapas de introdução acima para sua plataforma) 2. Extrair ativos do jogo 3. Construir o jogo 4. Executar o jogo Primeiro, precisamos configurar nosso ambiente para sabermos com qual jogo e versão estamos operando.",
       "general": null,
       "source_text": {
         "system": null,
@@ -2240,8 +2368,10 @@
           "source_url": "https://raw.githubusercontent.com/open-goal/jak-project/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "ISO varejo de PS2 (PAL, NTSC ou NTSC-J). O Launcher extrai e compila automaticamente sem compilação manual."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "ISO varejo de PS2 (PAL, NTSC ou NTSC-J). O Launcher extrai e compila automaticamente sem compilação manual.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "god-of-war-native-pc-port-gow-pc-port": {
       "game_id": "god-of-war-2005",
@@ -2249,7 +2379,7 @@
       "source_url": "https://raw.githubusercontent.com/danielalves96/gow-pc-port/HEAD/README.md",
       "verified_at": "2026-11-22",
       "system": null,
-      "installation": null,
+      "installation": "• *Windows: o inicializador.** Baixe o instalador na página Releases, execute-o e deixe o assistente de configuração fazer o trabalho. Ele encontra e verifica seu ISO, baixa um compilador C++ portátil (não é necessário Visual Studio desde 0.3.0), extrai o disco, recompila o jogo e o constrói. Em seguida, pressione **PLAY**.",
       "build": null,
       "general": null,
       "source_text": {
@@ -2265,8 +2395,10 @@
           "source_url": "https://raw.githubusercontent.com/danielalves96/gow-pc-port/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "ISO USA (SCUS-97399 ou .chd), ~20 GB livres no build (~11 GB depois), CPU SSE4.1 (4+ núcleos), GPU OpenGL 4.6 e 8 GB RAM. O assistente baixa Clang portátil e compila em 10–20 min."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "ISO USA (SCUS-97399 ou .chd), ~20 GB livres no build (~11 GB depois), CPU SSE4.1 (4+ núcleos), GPU OpenGL 4.6 e 8 GB RAM. O assistente baixa Clang portátil e compila em 10–20 min.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "shadow-of-rome-recompiled": {
       "game_id": "shadow-of-rome",
@@ -2275,7 +2407,7 @@
       "verified_at": "2026-11-22",
       "system": null,
       "installation": null,
-      "build": null,
+      "build": "Você constrói o jogo uma vez, no seu PC, a partir da sua própria imagem de disco. É necessária alguma configuração e um comando faz o resto. Tudo isso foi testado em um PC, com Windows 11 e Ubuntu 26.04. • Sua própria imagem do disco: Shadow of Rome, PAL, SLES-52950, ​​como um arquivo `.iso`. Se você tiver apenas o disco, copie-o primeiro para um arquivo `.iso`, com um programa de cópia de disco em um PC com unidade de DVD.",
       "general": null,
       "source_text": {
         "system": null,
@@ -2300,8 +2432,10 @@
           "source_url": "https://raw.githubusercontent.com/Korvonordico/shadow-of-rome-recompiled/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "ISO PAL (SLES-52950) ou NTSC (SLUS-20902), Windows 10/11 x64, CPU SSE4.1, GPU DX11+ e VC++ Redistributable x64. Sem compilação manual."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "ISO PAL (SLES-52950) ou NTSC (SLUS-20902), Windows 10/11 x64, CPU SSE4.1, GPU DX11+ e VC++ Redistributable x64. Sem compilação manual.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "symphonyrecomp": {
       "game_id": "castlevania-symphony-of-the-night",
@@ -2310,7 +2444,7 @@
       "verified_at": "2026-11-22",
       "system": null,
       "installation": null,
-      "build": null,
+      "build": "Clonar repositório. Adicione arquivos de jogos de propriedade legal ao disco. Execute windows_run.bat ou windows_initial_build.bat ou execute manualmente o RecompOne em sotn.json, isso produzirá o código do jogo, você mesmo poderá compilá-lo, as compilações de desenvolvimento não são atualizadas automaticamente • Uma GPU que suporte pelo menos OpenGL 2.1 • .NET 10 • OpenAL",
       "general": null,
       "source_text": {
         "system": null,
@@ -2335,8 +2469,10 @@
           "source_url": "https://raw.githubusercontent.com/BlackLabelHQ/SymphonyRecomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Cópia NTSC-U (USA) em BIN+CUE ou .CHD, runtime .NET 10 obrigatório, OpenAL e GPU OpenGL 2.1+. Sem compilação manual."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Cópia NTSC-U (USA) em BIN+CUE ou .CHD, runtime .NET 10 obrigatório, OpenAL e GPU OpenGL 2.1+. Sem compilação manual.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "crash-team-racing-high-octane": {
       "game_id": "crash-team-racing",
@@ -2345,7 +2481,7 @@
       "verified_at": "2026-11-22",
       "system": null,
       "installation": null,
-      "build": null,
+      "build": "`HAVE_SHADER_CACHE=1 NO_DEBUG=1 READBACKS_SPEEDHACK=1 CIRCULAR_POOL_SPEEDHACK=1`",
       "general": null,
       "source_text": {
         "system": null,
@@ -2360,8 +2496,10 @@
           "source_url": "https://raw.githubusercontent.com/Rinnegatamante/Crash-Team-Racing-High-Octane/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Dump BIN NTSC-U (USA) renomeado para assets/ctr-u.bin ao lado do executável. Sem compilação manual."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Dump BIN NTSC-U (USA) renomeado para assets/ctr-u.bin ao lado do executável. Sem compilação manual.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "crash-team-racing-turbocharged": {
       "game_id": "crash-team-racing",
@@ -2370,7 +2508,7 @@
       "verified_at": "2026-11-22",
       "system": null,
       "installation": null,
-      "build": null,
+      "build": "Requer CMake 3.20 ou mais recente e um **destino x86 de 32 bits**: o jogo é uma descompilação do PS1 e ainda assume ponteiros de 4 bytes. Somente Windows e Linux são suportados; a versão vem do arquivo `VERSION`. A verificação de atualização opcional identifica uma compilação por seu commit do git e tempo de commit, lido no momento da configuração, portanto, construa a partir de um checkout do git para que funcione; sem git ele é ignorado.",
       "general": null,
       "source_text": {
         "system": null,
@@ -2395,8 +2533,10 @@
           "source_url": "https://raw.githubusercontent.com/CameronRedmore/Crash-Team-Racing-Turbocharged/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Dump raw BIN (MODE2/2352) NTSC-U em assets/ctr-u.bin e GPU OpenGL 3.3+. Baixar ZIP pronto em ctr.cmzi.uk."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Dump raw BIN (MODE2/2352) NTSC-U em assets/ctr-u.bin e GPU OpenGL 3.3+. Baixar ZIP pronto em ctr.cmzi.uk.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "ctr-native": {
       "game_id": "crash-team-racing",
@@ -2405,7 +2545,7 @@
       "verified_at": "2026-11-22",
       "system": null,
       "installation": null,
-      "build": null,
+      "build": "A cadeia de ferramentas nativa recomendada do Windows é MSVC x86: 1. Instale o Visual Studio 2022 ou o Visual Studio Build Tools 2022. 2. Selecione a carga de trabalho **Desenvolvimento de desktop com C++** e um SDK do Windows atual. 3. Certifique-se de que o CMake 3.20 ou mais recente esteja em `PATH` (autônomo ou o componente de ferramentas CMake do Visual Studio C++). 4. Execute `build-msvc.bat` ou selecione a predefinição CMake `windows-msvc-x86` no CLion. A versão existente do MinGW i686 permanece suportada: 1.",
       "general": null,
       "source_text": {
         "system": null,
@@ -2430,8 +2570,10 @@
           "source_url": "https://raw.githubusercontent.com/CTR-tools/ctr-native/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Dump raw BIN (MODE2/2352) NTSC-U em assets/ctr-u.bin e GPU OpenGL 3.3+. Sem compilação manual."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Dump raw BIN (MODE2/2352) NTSC-U em assets/ctr-u.bin e GPU OpenGL 3.3+. Sem compilação manual.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "wipeout-phantom-edition": {
       "game_id": "wipeout",
@@ -2439,7 +2581,7 @@
       "source_url": "https://raw.githubusercontent.com/wipeout-phantom-edition/wipeout-phantom-edition/HEAD/README.md",
       "verified_at": "2026-11-22",
       "system": null,
-      "installation": null,
+      "installation": "> #### **TL;DR**: Baixe a versão mais recente, coloque os arquivos `.bin` e `.cue` da região PlayStation EUA em `wipeout/diskimages` e inicie o jogo. Baixe a versão mais recente e descompacte a pasta `wipeout` no local desejado em seu disco rígido. Você precisará de arquivos de dados do jogo da versão original do Wipeout para a região PlayStation EUA.",
       "build": null,
       "general": null,
       "source_text": {
@@ -2455,8 +2597,10 @@
           "source_url": "https://raw.githubusercontent.com/wipeout-phantom-edition/wipeout-phantom-edition/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Imagem PS1 USA multi-bin (9 .bin + 1 .cue) colocada em wipeout/diskimages. Sem compilação manual."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Imagem PS1 USA multi-bin (9 .bin + 1 .cue) colocada em wipeout/diskimages. Sem compilação manual.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "wipeout-rewrite": {
       "game_id": "wipeout",
@@ -2464,8 +2608,8 @@
       "source_url": "https://raw.githubusercontent.com/phoboslab/wipeout-rewrite/HEAD/README.md",
       "verified_at": "2026-11-22",
       "system": null,
-      "installation": null,
-      "build": null,
+      "installation": "Este repositório não contém os ativos (texturas, modelos 3D etc.) necessários para executar o jogo. Este código pressupõe principalmente ter dados PSX NTSC, mas alguns modelos de menu da versão para PC também são necessários. Ambos podem ser facilmente encontrados em archive.org e sites semelhantes. A música (opcional) precisa ser fornecida no formato QOA. O vídeo de introdução como MPEG1.",
+      "build": "A reescrita Wipeout oferece suporte a dois back-ends de plataforma diferentes: SDL2 e A única diferença nos recursos é que o back-end SDL2 oferece suporte a controladores de jogo (joysticks, gamepads) e usa OpenGL 2.x, enquanto o back-end Sokol não oferece suporte a controladores e usa OpenGL 3.3. O backend Sokol também é compatível apenas com macOS, Linux, Windows e Emscripten. Para Linux e Unix, um Makefile simples é fornecido.",
       "general": null,
       "source_text": {
         "system": null,
@@ -2495,8 +2639,10 @@
           "source_url": "https://raw.githubusercontent.com/phoboslab/wipeout-rewrite/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Compilação manual obrigatória (VS clang-cl ou MSYS2) + assets mistos do PSX NTSC e menus do PC."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Compilação manual obrigatória (VS clang-cl ou MSYS2) + assets mistos do PSX NTSC e menus do PC.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "redriver2": {
       "game_id": "driver-2",
@@ -2543,7 +2689,7 @@
       "verified_at": "2026-11-22",
       "system": null,
       "installation": null,
-      "build": null,
+      "build": "• **MSYS2/MinGW64** (Windows). Instale o MSYS2 em https://www.msys2.org/ e, a partir de um shell **MSYS2 MinGW x64**, instale o conjunto de ferramentas: pacman -S --needed mingw-w64-x86_64-gcc mingw-w64-x86_64-cmake mingw-w64-x86_64-ninja mingw-w64-x86_64-SDL2 mingw-w64-x86_64-openal mingw-w64-x86_64-libjpeg-turbo • **PsyCross**, extraído como um **submódulo** git (o fork específico do SH). Da raiz do repositório: Isso preenche `pc_port/PsyCross`.",
       "general": null,
       "source_text": {
         "system": null,
@@ -2563,8 +2709,10 @@
           "source_url": "https://raw.githubusercontent.com/SlickAmogus/silent-hill-decomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Imagem .bin legítima (USA, PAL ou JP) na pasta gamedata/. Sem compilação manual."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Imagem .bin legítima (USA, PAL ou JP) na pasta gamedata/. Sem compilação manual.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "vandalhearts-pcport": {
       "game_id": "vandal-hearts",
@@ -2572,8 +2720,8 @@
       "source_url": "https://raw.githubusercontent.com/HalmyLyseas/VandalHearts-PcPort/HEAD/README.md",
       "verified_at": "2026-11-22",
       "system": null,
-      "installation": null,
-      "build": null,
+      "installation": "Você fornece o jogo; o porto fornece todo o resto. **Você precisa de sua própria cópia legal de Vandal Hearts — EUA (`SLUS-00447`), Ásia (`SCPS-45183`) ou Japão (`SLPM-86007`) — descartada como uma imagem de disco `.bin` bruta** — nada derivado do jogo é distribuído aqui.",
+      "build": "> **Nenhum executável de jogo, imagem de disco, dados de BIOS/SDK da Sony ou texto do jogo é distribuído aqui.** Eles > são ignorados pelo git e devem vir de sua própria cópia de propriedade legal; a construção reconstrói o que precisa localmente. (O repositório contém o código do jogo descompilado e alguns dados funcionais do jogo > tabelas - consulte *Legal* e [NOTICE](NOTICE).) (Deps nativos: SDL2/OpenAL/GL/libwebp/libav, Python 3.) O quadro completo — CMake, o Windows…",
       "general": null,
       "source_text": {
         "system": null,
@@ -2593,8 +2741,10 @@
           "source_url": "https://raw.githubusercontent.com/HalmyLyseas/VandalHearts-PcPort/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Imagem raw .bin (USA, Asia ou Japan) na pasta game\\ ao lado de vandalhearts_pc.exe. Windows 10/11 x64."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Imagem raw .bin (USA, Asia ou Japan) na pasta game\\ ao lado de vandalhearts_pc.exe. Windows 10/11 x64.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "bloodyroar2recomp": {
       "game_id": "bloody-roar-ii",
@@ -2602,7 +2752,7 @@
       "source_url": "https://raw.githubusercontent.com/novapowers0/BloodyRoar2Recomp/HEAD/README.md",
       "verified_at": "2026-11-22",
       "system": null,
-      "installation": null,
+      "installation": "1. **Pegue uma versão** — baixe o zip para o seu sistema operacional em Releases (Windows `BloodyRoar2-v0.7.1.zip` ou a variante `BloodyRoar2-linux-x64-0.7.1.zip`). 2. **Descompacte em qualquer lugar** — cada zip é independente (executável, OpenBIOS, ativos do iniciador e mods incluídos). 3. **Adicione sua imagem de disco** — coloque sua imagem *Bloody Roar II* `.bin`/`.cue` (ou `.iso` / `.chd`) de propriedade legal ao lado da pasta.",
       "build": null,
       "general": null,
       "source_text": {
@@ -2618,8 +2768,10 @@
           "source_url": "https://raw.githubusercontent.com/novapowers0/BloodyRoar2Recomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Imagem .bin/.cue, .iso ou .chd (EU ou USA). OpenBIOS já embutido (SCPH-1001.BIN opcional). Sem compilação manual."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Imagem .bin/.cue, .iso ou .chd (EU ou USA). OpenBIOS já embutido (SCPH-1001.BIN opcional). Sem compilação manual.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "knowyourrolerecomp": {
       "game_id": "wwf-smackdown-2-know-your-role",
@@ -2627,8 +2779,8 @@
       "source_url": "https://raw.githubusercontent.com/Comfubar/KnowYourRoleRecomp/HEAD/README.md",
       "verified_at": "2026-11-22",
       "system": null,
-      "installation": null,
-      "build": null,
+      "installation": "• *Baixe a versão mais recente (KnowYourRole-win-x64.zip)** 1. Extraia o zip para uma pasta onde você possa gravar, por exemplo `C:\\Games\\KnowYourRole`. 2. Clique duas vezes em **KnowYourRole.exe**. 3. Escolha o arquivo `.cue` da imagem do disco (o `.bin` próximo a ele é encontrado automaticamente). O disco é verificado, o jogo é construído (cerca de três minutos) e então iniciado. Mais tarde, KnowYourRole.exe abre o inicializador: pressione **PLAY**.",
+      "build": "<details> <summary><b>Crie você mesmo o jogo e o inicializador</b></summary> • *Pré-requisitos**: Windows 10 ou 11 (x64), o SDK do .NET 10, git e sua própria imagem de disco. Coloque a imagem do seu disco em `disc\\KnowYourRole.cue` (+ `.bin`), então: dotnet build RecompOne/RecompOne.Recompiler -c Release dotnet run -c Release --no-build -- ../../config/KnowYourRole.json dotnet build KnowYourRole.csproj -m:1 Isto constrói…",
       "general": null,
       "source_text": {
         "system": null,
@@ -2648,8 +2800,10 @@
           "source_url": "https://raw.githubusercontent.com/Comfubar/KnowYourRoleRecomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Cópia legítima (BIN+CUE) do disco original de WWF SmackDown! 2."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Cópia legítima (BIN+CUE) do disco original de WWF SmackDown! 2.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "kf1-enhanced": {
       "game_id": "king-s-field-jp-1994",
@@ -2658,7 +2812,7 @@
       "verified_at": "2026-11-22",
       "system": null,
       "installation": null,
-      "build": null,
+      "build": "Compilação do Windows: • llvm-mingw (o pacote `ucrt-x86_64`), com sua pasta `bin` em `PATH`. • Python 3 (a etapa de construção que pode incorporar um delta de tradução, como upstream). • CMake 3.25 ou mais recente e Ninja. O SDL3 é baixado automaticamente na primeira configuração. O resultado é `build/windows/kings-field.exe` com `SDL3.dll` ao lado.",
       "general": null,
       "source_text": {
         "system": null,
@@ -2673,8 +2827,10 @@
           "source_url": "https://raw.githubusercontent.com/Acranon/kf1-enhanced/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Imagem de disco legítima do King's Field japonês de 1994 (PS1)."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Imagem de disco legítima do King's Field japonês de 1994 (PS1).",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "yu-gi-oh-forbidden-memories-recompiled": {
       "game_id": "yu-gi-oh-forbidden-memories",
@@ -2701,7 +2857,7 @@
       "source_url": "https://raw.githubusercontent.com/LostArtefacts/TRX/HEAD/README.md",
       "verified_at": "2026-11-22",
       "system": null,
-      "installation": null,
+      "installation": "Baixe a versão mais recente do TRX: <a href=\"https://github.com/LostArtefacts/TRX/releases?q=prerelease%3Afalse&expanded=true\"> <img src=\"data/download_trx.svg\"/> Consulte [este documento](docs/trx/INSTALLING.md).",
       "build": null,
       "general": null,
       "source_text": {
@@ -2722,8 +2878,10 @@
           "source_url": "https://raw.githubusercontent.com/LostArtefacts/TRX/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Arquivos originais de Tomb Raider I–III (PC/Steam/GOG ou disco detectado pelo instalador TRX). Sem compilação manual."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Arquivos originais de Tomb Raider I–III (PC/Steam/GOG ou disco detectado pelo instalador TRX). Sem compilação manual.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "openlara": {
       "game_id": "tomb-raider-i-v",
@@ -2751,8 +2909,8 @@
       "verified_at": "2026-11-22",
       "system": null,
       "installation": null,
-      "build": null,
-      "general": null,
+      "build": "O código do jogo recompilado é gerado a partir do seu próprio `MEGAMAN.EXE` com [tools/recomp](tools/recomp) e nunca é armazenado no repositório; sem ele, o tempo de execução é compilado sem o mecanismo independente. • *Windows.** Requisitos: Ferramentas de compilação do Visual Studio (carga de trabalho C++, ferramentas x86 e x64), o `clang-cl` do Android NDK (defina `RECOMP_CLANG` para ele) e Python 3 com `pip install pyinstaller pillow`.",
+      "general": "• *Windows** • A **porta PC Mega Man Legends** (lançamento em CD-ROM da Capcom de 2001), ou **Rockman DASH**, a versão japonesa para PC. O instalador verifica o executável do jogo e corrige apenas as compilações suportadas. Rockman DASH também é a base das vozes japonesas opcionais para a versão dos EUA. • **Windows 10 ou 11** (64 bits) e uma GPU com Direct3D 11. Vulkan 1.1 para o renderizador Vulkan. • Um controlador é opcional.",
       "source_text": {
         "system": null,
         "installation": null,
@@ -2771,8 +2929,10 @@
           "source_url": "https://raw.githubusercontent.com/Drakfix/MML_Modernization-Project/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Exige a versão PC de 2001 (MEGAMAN.EXE ou ROCKMAN.EXE) — não aceita ISO de PS1. Windows 10/11 x64 e D3D11/Vulkan 1.1."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Exige a versão PC de 2001 (MEGAMAN.EXE ou ROCKMAN.EXE) — não aceita ISO de PS1. Windows 10/11 x64 e D3D11/Vulkan 1.1.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "mml1-megaman-legends-decomp": {
       "game_id": "mega-man-legends-rockman-dash",
@@ -2781,7 +2941,7 @@
       "verified_at": "2026-11-22",
       "system": null,
       "installation": null,
-      "build": null,
+      "build": "• Pegue um cue e uma lixeira do lançamento americano de Mega Man Legends e coloque-o na pasta de discos. • Renomeie o compartimento da trilha 1 para mml1.us.track1.bin. (A faixa 2 é apenas um arquivo vazio de 32MB) • execute ``make extract_disk`` • execute ``make split_all`` • execute ``make`` • Para fazer uma nova imagem de disco do jogo, execute ``make disk``.",
       "general": null,
       "source_text": {
         "system": null,
@@ -2796,17 +2956,19 @@
           "source_url": "https://raw.githubusercontent.com/ChrisNonyminus/mml1/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Compilação manual em Linux (mipsel-linux-gnu) + BIN+CUE PS1 US."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Compilação manual em Linux (mipsel-linux-gnu) + BIN+CUE PS1 US.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "unleashedrecomp": {
       "game_id": "sonic-unleashed",
       "verification_status": "documented_in_readme",
       "source_url": "https://raw.githubusercontent.com/hedge-dev/UnleashedRecomp/HEAD/README.md",
       "verified_at": "2026-11-22",
-      "system": null,
+      "system": "• CPU com suporte para o conjunto de instruções AVX: • Intel: Sandy Bridge (Intel Core 2ª geração) • AMD: Bulldozer (série AMD FX) • GPU com suporte para Direct3D 12.0 (Shader Model 6) ou Vulkan 1.2: • NVIDIA: GeForce GT 630 (Kepler) • AMD: Radeon HD 7750 (2012, não o RX 7000) • Intel: HD Graphics 510 (Skylake) • Memória: • Mínimo de 8 GB • Sistema operacional: • Windows 10 (versão 1909) • Uma distribuição Linux moderna, como Ubuntu 22.04 LTS",
       "installation": null,
-      "build": null,
+      "build": "Uma das maiores melhorias que a recompilação apresenta em relação aos emuladores é o fato de que a Compilação de Pipeline (comumente conhecida como “Compilação de Shader”) está diretamente integrada ao jogo como parte do processo de carregamento de ativos. Isso significa que **não há travamentos durante o jogo na primeira vez que novos objetos ou efeitos aparecem**.",
       "general": null,
       "source_text": {
         "system": "[Minimum System Requirements]\n- CPU with support for the AVX instruction set:\n  - Intel: Sandy Bridge (Intel Core 2nd Generation)\n  - AMD: Bulldozer (AMD FX series)\n- GPU with support for Direct3D 12.0 (Shader Model 6) or Vulkan 1.2:\n  - NVIDIA: GeForce GT 630 (Kepler)\n  - AMD: Radeon HD 7750 (2012, not the RX 7000)\n  - Intel: HD Graphics 510 (Skylake)\n- Memory:\n  - 8 GB minimum\n- Operating System:\n  - Windows 10 (version 1909)\n  - A modern Linux distro such as Ubuntu 22.04 LTS\n- Storage:\n  - With DLC: 10 GiB required\n  - Without DLC: 6 GiB required\n\n> [!NOTE]\n> More storage space may be required if uncompressed game files are provided during installation.",
@@ -2831,17 +2993,19 @@
           "source_url": "https://raw.githubusercontent.com/hedge-dev/UnleashedRecomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Cópia Xbox 360 (US ou EU) + Title Update obrigatório (DLCs opcionais). Assistente importa imagens/pastas; requer CPU AVX e GPU D3D12/Vulkan 1.2."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Cópia Xbox 360 (US ou EU) + Title Update obrigatório (DLCs opcionais). Assistente importa imagens/pastas; requer CPU AVX e GPU D3D12/Vulkan 1.2.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "marathon-recompiled": {
       "game_id": "sonic-the-hedgehog-2006",
       "verification_status": "documented_in_readme",
       "source_url": "https://raw.githubusercontent.com/sonicnext-dev/MarathonRecomp/HEAD/README.md",
       "verified_at": "2026-11-22",
-      "system": null,
+      "system": "• x86: CPU de 64 bits com suporte para o conjunto de instruções AVX • Intel: Sandy Bridge (Intel Core 2ª geração) • AMD: Bulldozer (série AMD FX) • ARM: CPU ARMv8 de 64 bits • GPU com suporte para Direct3D 12.0 (Shader Model 6), Vulkan 1.2 ou Metal 3: • NVIDIA: GeForce GT 630 (Kepler) • AMD: Radeon HD 7750 (2012, não o RX 7000) • Intel: HD Graphics 510 (Skylake) • Apple: M1 • Memória: • Mínimo de 8 GB • Sistema operacional:",
       "installation": null,
-      "build": null,
+      "build": "[Confira as instruções de construção aqui](/docs/BUILDING.md).",
       "general": null,
       "source_text": {
         "system": "[Minimum System Requirements]\n- CPU:\n    - x86: 64-bit CPU with support for the AVX instruction set\n        - Intel: Sandy Bridge (Intel Core 2nd Generation)\n        - AMD: Bulldozer (AMD FX series)\n    - ARM: 64-bit ARMv8 CPU\n- GPU with support for Direct3D 12.0 (Shader Model 6), Vulkan 1.2, or Metal 3:\n    - NVIDIA: GeForce GT 630 (Kepler)\n    - AMD: Radeon HD 7750 (2012, not the RX 7000)\n    - Intel: HD Graphics 510 (Skylake)\n    - Apple: M1\n- Memory:\n    - 8 GB minimum\n- Operating System:\n    - Windows 10 (version 1909)\n    - A modern Linux distro such as Ubuntu 26.04 LTS\n    - macOS 15.0 or newer\n- Storage: 6 GiB required",
@@ -2861,17 +3025,19 @@
           "source_url": "https://raw.githubusercontent.com/sonicnext-dev/MarathonRecomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Cópia Xbox 360 de Sonic '06 (disco ou digital; PS3 não suportada). Instalador integrado; requer CPU AVX (ou ARM64) e D3D12/Vulkan 1.2."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Cópia Xbox 360 de Sonic '06 (disco ou digital; PS3 não suportada). Instalador integrado; requer CPU AVX (ou ARM64) e D3D12/Vulkan 1.2.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "shadow-recompiled": {
       "game_id": "shadow-the-hedgehog",
       "verification_status": "documented_in_readme",
       "source_url": "https://raw.githubusercontent.com/FoxWorkshop/ShadowRecomp/HEAD/README.md",
       "verified_at": "2026-11-22",
-      "system": null,
+      "system": "• CPU: Sandy Bridge (2011) equivalente ou mais recente • GPU com suporte para Direct3D 12.0 (Shader Model 6) ou Vulkan 1.2 • Qualquer versão 2012+ para AMD/Nvidia e 2015+ para Intel • Sistema operacional: • Windows 10 (1909+) • Uma distribuição Linux moderna • Armazenamento: • 2,4 GiB necessários",
       "installation": null,
-      "build": null,
+      "build": "[Confira as instruções de construção aqui][BUILDING.md].",
       "general": null,
       "source_text": {
         "system": "[Minimum System Requirements]\n- CPU: Sandy Bridge (2011) equivalent or newer\n- GPU with support for Direct3D 12.0 (Shader Model 6) or Vulkan 1.2\n    - Anything 2012+ for AMD/Nvidia and 2015+ for Intel\n- Operating System:\n    - Windows 10 (1909+)\n    - A modern Linux distro\n- Storage:\n    - 2.4 GiB required",
@@ -2891,16 +3057,18 @@
           "source_url": "https://raw.githubusercontent.com/FoxWorkshop/ShadowRecomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Cópia do Xbox original (GameCube/PS2 não suportadas) e ~2,4 GiB livres. Instalador integrado com extract-xiso."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Cópia do Xbox original (GameCube/PS2 não suportadas) e ~2,4 GiB livres. Instalador integrado com extract-xiso.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "sarecomp-sonic-adventure-recompiled": {
       "game_id": "sonic-adventure",
       "verification_status": "documented_in_readme",
       "source_url": "https://raw.githubusercontent.com/sonicfreak1337/SARecomp/HEAD/README.md",
       "verified_at": "2026-11-22",
-      "system": null,
-      "installation": null,
+      "system": "| Plataforma | Requisitos atuais | | --- | --- | | Janelas | PC x64 com uma GPU compatível com Direct3D 11 ou uma GPU compatível com Vulkan 1.3 e driver para Vulkan. | | Linux | Linux de 64 bits com GPU e driver compatíveis com Vulkan 1.3. Veja as notas de compatibilidade abaixo. | | Plataforma de vapor | SteamOS; use o pacote Steam Deck e instale no modo Desktop. |",
+      "installation": "Baixe **v0.52.1 para Linux/Steam Deck** ou **v0.52.0 para Windows** e siga a configuração na tela. • *A configuração está em inglês.** Os idiomas de texto e voz do jogo podem ser alterados em Opções. | Plataforma | Pacote | Primeiros passos | | --- | --- | --- | | Janelas | Instalador do Windows (`.exe`) | Execute a configuração, selecione seu `.gdi` e inicie **Sonic Adventure Recompiled**.",
       "build": null,
       "general": null,
       "source_text": {
@@ -2921,8 +3089,10 @@
           "source_url": "https://raw.githubusercontent.com/sonicfreak1337/SARecomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Imagem .gdi específica de Sonic Adventure Dreamcast PAL v1.003 (1999) com todas as trilhas (SADX não suportado)."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Imagem .gdi específica de Sonic Adventure Dreamcast PAL v1.003 (1999) com todas as trilhas (SADX não suportado).",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "rsdkv4-decompilation": {
       "game_id": "sonic-the-hedgehog-1-2-2013",
@@ -2931,7 +3101,7 @@
       "verified_at": "2026-11-22",
       "system": null,
       "installation": null,
-      "build": null,
+      "build": "Para lidar com dependências, você precisará instalar o Visual Studio Community (certifique-se de instalar o pacote `Desktop development with C++` durante a instalação) e vcpkg (você só precisa seguir `1 - Configurar vcpkg`). Depois de instalá-los, execute o seguinte no prompt de comando (certifique-se de substituir `[vcpkg root]` pelo caminho para a instalação do vcpkg!):",
       "general": null,
       "source_text": {
         "system": null,
@@ -2956,8 +3126,10 @@
           "source_url": "https://raw.githubusercontent.com/RSDKModding/RSDKv4-Decompilation/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Arquivo Data.rsdk das versões mobile/Sonic Origins colocado na pasta do executável. Sem compilação manual."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Arquivo Data.rsdk das versões mobile/Sonic Origins colocado na pasta do executável. Sem compilação manual.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "sonic-1-forever-sonic-2-absolute": {
       "game_id": "sonic-the-hedgehog-1-2-2013",
@@ -3023,8 +3195,8 @@
       "verified_at": "2026-11-22",
       "system": null,
       "installation": null,
-      "build": null,
-      "general": null,
+      "build": "Do PowerShell em uma verificação de repositório: .\\tools\\setup-preview.ps1 -IsoPath C:\\path\\to\\your-disc.iso .\\tools\\launch-preview.ps1 Consulte [Building](docs/BUILDING.md) para obter detalhes e a linha de comando `tools/pinyon.py`.",
+      "general": "• O disco de varejo dos EUA, serial `MS-2505`, título ID `4D5309C9`. • Windows 10 ou 11, x64; Linux x86-64, incluindo SteamOS no Steam Deck; ou macOS 13.3 ou mais recente em Apple Silicon (Intel Macs experimental). • Uma GPU com Vulkan 1.3. NVIDIA é testada; AMD e Intel ainda não estão qualificadas. No Windows, uma GPU com apenas nível de recurso Direct3D 11_0 executa um back-end experimental do Direct3D 11 a 1x. • Uma CPU com 4 núcleos para 60 de baixa especificação.",
       "source_text": {
         "system": null,
         "installation": null,
@@ -3043,17 +3215,19 @@
           "source_url": "https://raw.githubusercontent.com/arcanite24/pinyon-shift/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "ISO/pasta USA retail (MS-2505), GPU Vulkan 1.3 e ~30 GB livres para compilação automática local pelo launcher (20–60 min; dispensa VS desde v0.8.0)."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "ISO/pasta USA retail (MS-2505), GPU Vulkan 1.3 e ~30 GB livres para compilação automática local pelo launcher (20–60 min; dispensa VS desde v0.8.0).",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "re-blue": {
       "game_id": "blue-dragon",
       "verification_status": "documented_in_readme",
       "source_url": "https://raw.githubusercontent.com/zolaware/reblue/HEAD/README.md",
       "verified_at": "2026-11-22",
-      "system": null,
+      "system": "Requer todos os três discos Blue Dragon de varejo ou suas imagens de disco. Steam Deck é compatível. Processadores ARM de 64 bits são compatíveis com Linux e macOS. O Windows é apenas x86-64.",
       "installation": null,
-      "build": null,
+      "build": "re:Blue é compilado com CMake e vcpkg no ReXGlue SDK. As predefinições cobrem `win-AMD64`, `win-vk`, `linux-AMD64`, `linux-arm64`, `mac-AMD64` e `mac-arm64`, cada uma em Debug, Release e RelWithDebInfo. Uma predefinição `win-amd64` constrói o executável DX12 (`reblue.exe`) e o Vulkan (`reblue_vk.exe`), e uma predefinição `win-vk` constrói o executável Vulkan sozinho.",
       "general": null,
       "source_text": {
         "system": "[Hardware Requirements]\nRequires all three retail Blue Dragon discs or their disc images. Steam Deck is supported. 64-bit ARM processors are supported on Linux and macOS. Windows is x86-64 only.",
@@ -3073,8 +3247,10 @@
           "source_url": "https://raw.githubusercontent.com/zolaware/reblue/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "ISOs de todos os 3 DVDs da edição Global (US/EU) + 15 GB livres e GPU D3D12 SM 6.0. Assistente extrai automaticamente."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "ISOs de todos os 3 DVDs da edição Global (US/EU) + 15 GB livres e GPU D3D12 SM 6.0. Assistente extrai automaticamente.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "the-darkness-recomp": {
       "game_id": "the-darkness",
@@ -3083,7 +3259,7 @@
       "verified_at": "2026-11-22",
       "system": null,
       "installation": null,
-      "build": null,
+      "build": "Para Windows, instale o Git, Visual Studio 2022 com as **ferramentas C++ e ClangCL**, LLVM autônomo em `C:\\Program Files\\LLVM` (incluindo `llvm-lib.exe` para áudio). O movimento alternativo e o auxiliar de notificação do trabalhador de recurso requerem Rust com o destino `x86_64-pc-windows-msvc` e `rustc` no PATH (testado com Rust 1.90). Eles não têm dependências de carga.",
       "general": null,
       "source_text": {
         "system": null,
@@ -3098,8 +3274,10 @@
           "source_url": "https://raw.githubusercontent.com/portingpete/The-Darkness-Recomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Arquivos já extraídos do dump Xbox 360 (incluindo default.xex) na pasta Darkness/, Windows 10/11 x64, CPU SSSE3 e GPU D3D11."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Arquivos já extraídos do dump Xbox 360 (incluindo default.xex) na pasta Darkness/, Windows 10/11 x64, CPU SSSE3 e GPU D3D11.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "downpourrecomp": {
       "game_id": "silent-hill-downpour",
@@ -3109,7 +3287,7 @@
       "system": null,
       "installation": null,
       "build": null,
-      "general": null,
+      "general": "Windows 10/11 x86-64, Visual Studio 2022 (17.8+) com carga de trabalho C++, CMake ≥ 3.25, Ninja ≥ 1.11, LLVM/Clang em `PATH` e uma cópia legal do jogo (`title id 4B4E0823`, hash `7A3D5809776EE6AB`).",
       "source_text": {
         "system": null,
         "installation": null,
@@ -3123,8 +3301,10 @@
           "source_url": "https://raw.githubusercontent.com/LittleBitUA/DownpourRecomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "ISO ou arquivos extraídos (USA/EUR) + TU1 (assistente extrai e baixa TU1 automaticamente), CPU SSSE3, GPU D3D12 e VC++ x64."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "ISO ou arquivos extraídos (USA/EUR) + TU1 (assistente extrai e baixa TU1 automaticamente), CPU SSSE3, GPU D3D12 e VC++ x64.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "dprecomp": {
       "game_id": "deadly-premonition",
@@ -3132,8 +3312,8 @@
       "source_url": "https://raw.githubusercontent.com/LittleBitUA/DPRecomp/HEAD/README.md",
       "verified_at": "2026-11-22",
       "system": null,
-      "installation": null,
-      "build": null,
+      "installation": "• *Você precisa de:** Windows 10/11 de 64 bits · uma GPU Direct3D 12 com visualizações ordenadas por rasterizador (NVIDIA GTX 900+, AMD RX 400+, Intel Arc; gráficos integrados recentes em 1×) · ~6 GB grátis para os dados do jogo · sua imagem de disco *Deadly Premonition* do Xbox 360 ou arquivos extraídos. 1. **Baixe** `DPRecomp-2.0.14-win64.zip` e descompacte-o em qualquer lugar fora de *Arquivos de Programas*. 2.",
+      "build": "<details> <summary><b>Clique para expandir</b></summary> 1. Instale o Visual Studio 2022 Build Tools, LLVM/Clang 18+, CMake 3.25+ e Ninja. 2. Construa e instale o SDK ReXGlue (0.10 nightly, branch `development`) com os patches locais de [`docs/sdk-patches`](docs/sdk-patches) (um diff rastreado mais novos arquivos): `cmake --preset win-amd64 -DREXGLUE_ENABLE_FIDELITYFX=ON`, então construa e instale o `Release` e `RelWithDebInfo`…",
       "general": null,
       "source_text": {
         "system": null,
@@ -3153,8 +3333,10 @@
           "source_url": "https://raw.githubusercontent.com/LittleBitUA/DPRecomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "ISO ou arquivos extraídos PAL/USA + ~6 GB livres, CPU SSE4.1 e GPU D3D12 com ROV. Instalador integrado no launcher."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "ISO ou arquivos extraídos PAL/USA + ~6 GB livres, CPU SSE4.1 e GPU D3D12 com ROV. Instalador integrado no launcher.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "project8recomp": {
       "game_id": "tony-hawk-s-project-8",
@@ -3162,8 +3344,8 @@
       "source_url": "https://raw.githubusercontent.com/theokyr/Project8Recomp/HEAD/README.md",
       "verified_at": "2026-11-22",
       "system": null,
-      "installation": null,
-      "build": null,
+      "installation": "<p align=\"center\"> <img src=\"docs/images/launcher-first-run.png\" alt=\"A tela de primeira execução do inicializador, solicitando uma imagem de disco\" width=\"640\"> 1. Baixe a versão para sua plataforma e descompacte-a em qualquer lugar onde você possa escrever. 2. Execute `Project8Recomp` (`Project8Recomp.exe` no Windows). No Steam Deck, adicione este arquivo como um jogo não Steam e não force o Proton para a compilação do Linux. 3. Ele pede a imagem do seu disco. Aponte para o seu `.iso`. 4.",
+      "build": "A maioria das pessoas não precisa. Se você quiser: o inicializador é compilado em cerca de um minuto a partir de nada além de um compilador e SDL3, e o jogo precisa de sua própria cópia porque o recompilador lê `default.xex` como entrada. • *[docs/BUILDING.md](docs/BUILDING.md)**",
       "general": null,
       "source_text": {
         "system": null,
@@ -3188,8 +3370,10 @@
           "source_url": "https://raw.githubusercontent.com/theokyr/Project8Recomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "ISO retail 2006 de Tony Hawk's Project 8 (Xbox 360), ~5 GB livres e GPU Vulkan."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "ISO retail 2006 de Tony Hawk's Project 8 (Xbox 360), ~5 GB livres e GPU Vulkan.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "project-2099": {
       "game_id": "spider-man-edge-of-time",
@@ -3197,7 +3381,7 @@
       "source_url": "https://raw.githubusercontent.com/GenryTheFox0/Project-2099/HEAD/README.md",
       "verified_at": "2026-11-22",
       "system": null,
-      "installation": null,
+      "installation": "O iniciador lida com resolução, modo de exibição, VSync, limites de taxa de quadros, seleção de monitor e GPU, filtragem, idioma, controles, salvamentos e conquistas locais. Inicie o jogo através do `Launcher.exe`; ele inicia `SpiderManEOT.exe`. O instalador permanece separado do jogo instalado. O limitador oferece valores de até **120 FPS**. Se o jogo realmente os alcança depende da cena, do hardware e das configurações.",
       "build": null,
       "general": null,
       "source_text": {
@@ -3218,8 +3402,10 @@
           "source_url": "https://raw.githubusercontent.com/GenryTheFox0/Project-2099/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Cópia Xbox 360 em ISO, ZIP, pasta extraída ou GOD/SVOD. O instalador monta a edição PC automaticamente."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Cópia Xbox 360 em ISO, ZIP, pasta extraída ou GOD/SVOD. O instalador monta a edição PC automaticamente.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "king-kong-recompiled": {
       "game_id": "peter-jackson-s-king-kong",
@@ -3227,7 +3413,7 @@
       "source_url": "https://raw.githubusercontent.com/TekRantGaming/king-kong-recompiled/HEAD/README.md",
       "verified_at": "2026-11-22",
       "system": null,
-      "installation": null,
+      "installation": "• *Você precisa de:** Windows 10 ou 11 (64 bits) ou Linux (x86 64 bits), uma placa gráfica compatível com DirectX 12 ou Vulkan, cerca de 7 GB de espaço livre e uma imagem de disco criada a partir do seu próprio disco King Kong Xbox 360 de Peter Jackson (consulte [Qual versão você precisa](#qual-versão-você-precisa)). 1. Baixe o arquivo **KingKong-...-windows-x64.zip** da versão mais recente e descompacte-o em qualquer lugar.",
       "build": null,
       "general": null,
       "source_text": {
@@ -3243,8 +3429,10 @@
           "source_url": "https://raw.githubusercontent.com/TekRantGaming/king-kong-recompiled/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "ISO Xbox 360 USA/EUR (555307D3 v0.0.0.1; versão PC de 2005 não funciona), ~7 GB livres e GPU D3D12/Vulkan."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "ISO Xbox 360 USA/EUR (555307D3 v0.0.0.1; versão PC de 2005 não funciona), ~7 GB livres e GPU D3D12/Vulkan.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "earthworm-jim-hd-recompiled": {
       "game_id": "earthworm-jim-hd",
@@ -3252,8 +3440,8 @@
       "source_url": "https://raw.githubusercontent.com/TekRantGaming/earthworm-jim-hd-recompiled/HEAD/README.md",
       "verified_at": "2026-11-22",
       "system": null,
-      "installation": null,
-      "build": null,
+      "installation": "1. Baixe **EarthwormJimHD-v0.9.0-windows-x64.zip** da versão mais recente e descompacte-o em qualquer lugar. 2. Execute **earthworm_jim_hd.exe**. O iniciador é aberto. 3. Na página **Play**, clique em **Instalar do pacote...** e escolha o arquivo do pacote (ou solte-o na janela). Seus arquivos (cerca de 430 MB) são copiados para a pasta `game` ao lado do programa. 4. Pressione **PLAY**.",
+      "build": "Em vez dos downloads pré-compilados você pode construir o port no seu próprio PC a partir do seu pacote: clone este repositório com `--recursive` (para que o submódulo do iniciador TRG também venha) e clique duas vezes em • *Build Earthworm Jim HD.bat**. Ele instala as ferramentas de build, se necessário (Visual Studio 2022 Build Tools with Clang, minutos, cerca de 5 GB grátis).",
       "general": null,
       "source_text": {
         "system": null,
@@ -3273,8 +3461,10 @@
           "source_url": "https://raw.githubusercontent.com/TekRantGaming/earthworm-jim-hd-recompiled/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Pacote XBLA (LIVE) exato de Earthworm Jim HD (584109E2, default.xex v1.0.0.11) e GPU DirectX 12."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Pacote XBLA (LIVE) exato de Earthworm Jim HD (584109E2, default.xex v1.0.0.11) e GPU DirectX 12.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "thesimpsonsgamerecomp": {
       "game_id": "the-simpsons-game",
@@ -3282,9 +3472,9 @@
       "source_url": "https://raw.githubusercontent.com/YesterMester/TheSimpsonsGameRecomp/HEAD/README.md",
       "verified_at": "2026-11-22",
       "system": null,
-      "installation": null,
-      "build": null,
-      "general": null,
+      "installation": "1. Baixe o arquivo para sua plataforma na página Releases. Use o pacote `-NoAVX2` se sua CPU for anterior ao AVX2 (o pacote padrão falha ao iniciar, no Windows com o erro 0xc0000142). 2. Extraia-o em qualquer lugar. 3. Inicie o inicializador: • Linux e Steam Deck: execute `Play.sh`. • Windows: execute `simpsons-launcher.exe`. É um programa independente e não precisa de Python. 4. Na guia **Instalar**, selecione a ISO do Xbox 360.",
+      "build": "O jogo e o ReXGlue SDK são construídos juntos em um projeto CMake. A integração contínua utiliza exatamente essas etapas; veja `.github/workflows/build.yml` para a lista completa de pacotes Linux. Requisitos: Clang 20, CMake 3.25 ou mais recente, Ninja, pkg-config e os pacotes de desenvolvimento para GTK 3, Vulkan, X11 e XCB, Wayland, xkbcommon, udev, ALSA, PulseAudio, PipeWire e D-Bus.",
+      "general": "• Sua própria cópia de *The Simpsons Game* para Xbox 360, como imagem ISO. O lançamento nos EUA (título ID 45410809) é o alvo principal. O lançamento europeu também arranca e joga, mas passou por menos testes. • Cerca de 5 GB de espaço livre em disco para os dados do jogo instalado. • Uma CPU x86 de 64 bits. O download padrão precisa do AVX2 (Intel Haswell, AMD Excavator ou Zen, ou mais recente, aproximadamente de 2013 em diante).",
       "source_text": {
         "system": null,
         "installation": "[Installation]\n1. Download the archive for your platform from the\n   [Releases page](https://github.com/YesterMester/TheSimpsonsGameRecomp/releases). Use the\n   `-NoAVX2` package if your CPU predates AVX2 (the standard package then fails to start, on\n   Windows with error 0xc0000142).\n2. Extract it anywhere.\n3. Start the launcher:\n   - Linux and Steam Deck: run `Play.sh`.\n   - Windows: run `simpsons-launcher.exe`. It is a standalone program and does not need Python.\n4. In the **Install** tab, select your Xbox 360 ISO. The launcher extracts and installs the game\n   data.\n5. Press **Play**.\n\n**Android (preview):** on an ARM64 phone with Android 10 or newer and Vulkan 1.1, download\n`TheSimpsonsGame-Recompiled-Android-arm64.apk` from the release and open it, allowing installs\nfrom your browser or file manager when Android asks. The app installs the game from your ISO or\nan already extracted folder, and offers later releases itself.\n\nOn Steam Deck, use **Add to Steam** in the launcher from Desktop Mode, then find\n**The Simpsons Game (Recompiled)** under Steam's **Non-Steam Games** to play from Game Mode.\nIf this installation is already registered, the button shows its existing Steam name instead\nof adding another copy. It reports command errors and keeps Steam running while it starts.\n\nThe 0.0.7.0 Linux launcher bundles its native window and opens fullscreen in Game Mode.\nSteam Linux Runtime 1.0 is supported. When Steam runs the shell launcher inside Runtime 2,\nit starts the native launcher alongside Steam, keeping the game's Steam identity and controller\nenvironment. **Add to Steam** uses a desktop entry for the game's name and donut icon,\nhandles spaces and special characters in the installation path, and sends sandboxed requests\nto the same host as Steam. If Steam opens an Add a Game dialog, finish it in Desktop Mode.\n\nTo start the game without the launcher window, for example from your own Steam shortcut, run\n`Play.sh --play` on Linux or `simpsons-launcher.exe --play` on Windows. It uses the same settings\nas the launcher's Play button.\n\nThe launcher can update itself from the **About** tab. Updates replace only the engine and\nlauncher files. Your settings, saves and mods are kept. If the installed package does not match\nyour CPU, the launcher offers the right one.\n\nUpdating from 0.0.6.5 or earlier takes two steps. That launcher copies only the files its own",
@@ -3318,8 +3508,10 @@
           "source_url": "https://raw.githubusercontent.com/YesterMester/TheSimpsonsGameRecomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "ISO Xbox 360 (USA 45410809 principal), ~5 GB livres e GPU Vulkan/D3D12. Launcher extrai automaticamente."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "ISO Xbox 360 (USA 45410809 principal), ~5 GB livres e GPU Vulkan/D3D12. Launcher extrai automaticamente.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "dead-rising-2-case-zero-xenon-recomp": {
       "game_id": "dead-rising-2-case-zero-case-west",
@@ -3328,8 +3520,8 @@
       "verified_at": "2026-11-22",
       "system": null,
       "installation": null,
-      "build": null,
-      "general": null,
+      "build": "O repositório não contém dados do jogo, portanto, uma compilação precisa de seu próprio pacote, além de verificações de irmãos dos recompiladores (corrigidos) - consulte `docs/xenonrecomp-upstream-bugs.md` para os patches locais e `docs/windows-build-setup.md` para o conjunto de ferramentas do Windows.",
+      "general": "• Uma GPU e driver com suporte para **Vulkan 1.3**. • **Windows**: Windows 10 ou posterior, x86-64. • **Linux**: x86-64 com glibc **2.35 ou mais recente** da v1.0.2 (v1.0.1 precisava da versão 2.43 — veja problemas conhecidos). Um AppImage é fornecido a partir da v1.0.2. • **Steam Deck**: use `CaseZeroRecomp-steamdeck-x86_64.tar.gz` (sem launcher, 1280x800 nativo, configurações de detalhes nos valores originais para desempenho).",
       "source_text": {
         "system": null,
         "installation": null,
@@ -3348,8 +3540,10 @@
           "source_url": "https://raw.githubusercontent.com/wivi514/Dead_Rising_2_Case_Zero_Xenon_Recomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Pacote XBLA próprio sem extensão de Case Zero (58410A8D) e GPU Vulkan 1.3."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Pacote XBLA próprio sem extensão de Case Zero (58410A8D) e GPU Vulkan 1.3.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "dead-rising-2-case-west-xenon-recomp": {
       "game_id": "dead-rising-2-case-zero-case-west",
@@ -3358,8 +3552,8 @@
       "verified_at": "2026-11-22",
       "system": null,
       "installation": null,
-      "build": null,
-      "general": null,
+      "build": "O repositório não contém dados do jogo, portanto, uma compilação precisa de seu próprio pacote, além de verificações de irmãos dos recompiladores (corrigidos) — os patches locais são vendidos em `tools/ci/`, e o conjunto de ferramentas do Windows está documentado no port irmão windows-build-setup.md.",
+      "general": "• Uma GPU e driver com suporte para **Vulkan 1.3** (testado em NVIDIA e AMD). • **Windows**: Windows 10 ou posterior, x86-64. • **Linux**: x86-64 com glibc **2.35 ou mais recente** (Ubuntu 22.04, Debian 12, Fedora 36 e mais recente). • **Steam Deck**: use o arquivo dedicado do Steam Deck; o padrão é a tela 1280×800 do Deck e omite o inicializador da área de trabalho. • **macOS**: Apple Silicon (M1 ou mais recente), macOS 13 ou posterior. Macs Intel não são suportados.",
       "source_text": {
         "system": null,
         "installation": null,
@@ -3378,8 +3572,10 @@
           "source_url": "https://raw.githubusercontent.com/wivi514/Dead_Rising_2_Case_West_Xenon_Recomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Pacote XBLA próprio sem extensão de Case West (58410B00) e GPU Vulkan 1.3."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Pacote XBLA próprio sem extensão de Case West (58410B00) e GPU Vulkan 1.3.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     },
     "doaxvb-re": {
       "game_id": "dead-or-alive-xtreme-beach-volleyball",
@@ -3405,9 +3601,9 @@
       "verification_status": "documented_in_readme",
       "source_url": "https://raw.githubusercontent.com/Wndwsqrrl/3on3NHL-recomp/HEAD/README.md",
       "verified_at": "2026-11-22",
-      "system": null,
-      "installation": null,
-      "build": null,
+      "system": "| SO | Windows 10 ou 11, 64 bits | | CPU | x86-64 com SSE4.2 (Intel Core 1ª geração/2008 ou mais recente, AMD FX/2011 ou mais recente, qualquer Ryzen); AVX não é necessário | | GPU | Suporte Direct3D 12 | | Memória | 4 GB de RAM | | Disco | Cerca de 350 MB (lançamento mais jogo descompactado) | | Jogo | Seu próprio pacote 3 contra 3 NHL Arcade XBLA | Testado em uma NVIDIA GeForce RTX 2080 SUPER.",
+      "installation": "Você precisa de sua própria cópia do pacote Xbox Live Arcade do jogo (ID do título `58410975`). Este repositório e seus lançamentos **não contêm código ou dados do jogo**. 1. Baixe a versão mais recente e descompacte-a. 2. Coloque seu pacote XBLA próximo a ele: o arquivo dentro de `58410975\\000D0000\\`, ou toda a pasta `58410975`. 3. Execute `NHL 3on3 Launcher.exe`, clique em **Configurar jogo** e em **Jogar**.",
+      "build": "Consulte [CONSTRUÇÃO.md](CONSTRUÇÃO.md). A compilação precisa do ReXGlue SDK com as correções em [patches/rexglue](patches/rexglue/README.md) e sua própria cópia do jogo.",
       "general": null,
       "source_text": {
         "system": "[System requirements]\n| | |\n|---|---|\n| OS | Windows 10 or 11, 64-bit |\n| CPU | x86-64 with SSE4.2 (Intel Core 1st gen / 2008 or newer, AMD FX / 2011 or newer, any Ryzen); AVX not needed |\n| GPU | Direct3D 12 support |\n| Memory | 4 GB RAM |\n| Disk | About 350 MB (release plus unpacked game) |\n| Game | Your own 3 on 3 NHL Arcade XBLA package |\n\nTested on an NVIDIA GeForce RTX 2080 SUPER.",
@@ -3432,8 +3628,11 @@
           "source_url": "https://raw.githubusercontent.com/Wndwsqrrl/3on3NHL-recomp/HEAD/README.md"
         }
       ],
-      "translation_status": "pending_translation",
-      "legacy_reported_pt": "Pacote XBLA próprio (58410975), CPU SSE4.2, GPU D3D12 e ~350 MB livres. Sem compilação manual."
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "Pacote XBLA próprio (58410975), CPU SSE4.2, GPU D3D12 e ~350 MB livres. Sem compilação manual.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
     }
-  }
+  },
+  "translation_note": "Conte?do em portugu?s obtido por tradu??o autom?tica resumida dos trechos de README. N?o houve revis?o humana integral. Nomes de arquivos e comandos devem ser conferidos na documenta??o oficial antes de executar."
 }
