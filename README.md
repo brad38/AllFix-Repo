@@ -1,9 +1,7 @@
-# AllFix — Catálogo remoto
+# AllFix ? Cat?logo remoto
 
-Este repositório hospeda os manifestos JSON da Loja de Jogos do All-Fix.
+O reposit?rio cont?m um ?nico arquivo `catalog.json`, com 87 jogos, 119 projetos e o ?ndice de addons.
 
-- `catalog.json`: índice de 87 jogos.
-- `games/*.json`: projetos e implementações de cada jogo (119 projetos).
-- `addons/index.json`: índice de addons (ainda vazio).
+Cada jogo inclui seu array `projects`. As releases s?o consultadas sob demanda no GitHub. Os projetos n?o est?o homologados para instala??o autom?tica.
 
-As informações de versões e arquivos de download são consultadas nas releases oficiais dos projetos pelo aplicativo. Os registros do catálogo ainda não homologam instalação automática de nenhum projeto.
+**Aten??o:** esquema v2; o cliente All-Fix precisa ser adaptado antes de remover o fallback local antigo.
