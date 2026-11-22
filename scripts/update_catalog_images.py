@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Preenche apenas capas e banners ausentes no catalogo do AllFix.
 
 Sem chave embutida, sem sobrescrever imagens existentes e sem depender do app.

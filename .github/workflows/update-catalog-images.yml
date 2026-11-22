@@ -1,4 +1,4 @@
-﻿name: Atualizar imagens do catalogo
+name: Atualizar imagens do catalogo
 
 on:
   push:
