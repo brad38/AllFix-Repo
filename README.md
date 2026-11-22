@@ -1,19 +1,22 @@
-# AllFix ? catalogo remoto
+# AllFix â€” catalogo remoto (schema v3)
 
-Fonte publica de dados: https://raw.githubusercontent.com/brad38/AllFix-Repo/main/catalog.json
+Catalogo publico: https://raw.githubusercontent.com/brad38/AllFix-Repo/main/catalog.json
 
-## Schema v3
-- Um unico `catalog.json`, com 87 jogos e 119 projetos.
-- `games[]`: dados editoriais estaticos por jogo; `cover`, `banner`, `screenshots` usam fontes externas, atualmente nao preenchidas.
-- `games[].projects[].source`: URL oficial, provedor e identificador GitHub (quando existe). **115 projetos GitHub e 4 fontes externas/sem repositorio GitHub individual identificado.**
-- `fallback_name`: rotulo apenas para falha da API ou fonte externa. Para projetos GitHub, buscar nome/descricao atuais via GitHub REST API GET /repos/{owner}/{repo}.
-- `documentation.requirements`: texto, URL-fonte, estado de verificacao e data. Estao pendentes de revisao; nao alegar que foram confirmados no README.
-- `legacy_unverified`: anotacoes e observacoes de pesquisa anterior, preservadas para revisao. **Nao exibir como dados atuais/confirmados**.
-- `windows.installation_enabled` = false ate verificacao de instalacao.
-- Releases e assets Windows: consultar GitHub Releases API sob demanda; nao armazenar tag atual no catalogo.
-- Nenhuma avaliacao disponivel: ocultar estrelas/rating em vez de atribuir nota baixa.
+## Estrutura
+- Um unico arquivo JSON: 87 jogos e 119 projetos.
+- `games`: dados estaticos de curadoria por jogo.
+- `projects[].source`: links oficiais e identificador GitHub, quando disponivel.
+- `projects[].fallback_name`: rotulo de reserva; nome e descricao atuais de projetos GitHub sao consultados via GET /repos/{owner}/{repo}.
+- `projects[].documentation.requirements`: `system`, `installation`, `build` e `general` com **trechos da documentacao oficial**. `source_url` e `evidence` indicam a fonte e os titulos das secoes de origem.
+- `verification_status: documented_in_readme`: evidencia foi localizada no README (NAO significa que o projeto roda, que a instalacao foi testada ou que os requisitos estejam completos).
+- `verification_status: pending_review`: o README nao foi acessivel ou nao havia secoes de requisitos explicitamente identificadas. Nao assumir que nao existem requisitos.
+- `legacy_unverified`: material de pesquisa anterior preservado, nao tratar como confirmado.
+- `windows.installation_enabled`: false ate validacao funcional.
+- Versoes e assets consultados ao vivo via GitHub Releases, nao no catalogo.
+- Capas/banners/screenshot de fontes externas. Sem ratings fabricados.
 
-**Incompatibilidade:** clientes que exigem `schema_version=2` devem ser migrados antes de usar esta versao v3.
+## Auditoria de README â€” 2026-11-22
+Foram analisados automaticamente 119 registros; 114 READMEs oficiais encontrados por URL GitHub RAW (HEAD) e 5 sem README GitHub acessivel pela rota de catalogo (inclui URLs externas). O extrator identificou somente secoes rotuladas e preservou a evidencia textual. **Campos pendentes exigem revisao manual**, especialmente quando requisitos estao fora do README, em arquivos BUILDING/INSTALL ou outras paginas. Uma secao Building e apenas requisito de compilacao, nao de execucao.
 
-## Inclusao de novos projetos
-Deduplicar por URL canonica do repositorio e por ID; associar a jogo existente ou cadastrar novo jogo; ler README/documentacao para requisitos de execucao no Windows; preencher `documentation.requirements` apenas quando houver fonte explicita, com URL e estado verificado; caso contrario manter pendente. Nao confundir instrucoes de build com requisitos para executar. Preservar os dados existentes e validar contagens/JSON antes de publicar.
+## Descoberta futura
+Ao adicionar novos projetos, ler README/docs oficiais, separar requisitos de sistema/instalacao/compilacao, registrar fonte, nao inferir hardware e nao confundir ferramentas de build com dependencias de execucao. Validar IDs e URLs sem remover dados preexistentes.
