@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "language": "pt-BR",
-  "updated_at": "2026-11-22",
+  "updated_at": "2026-11-23",
   "notice": "Textos em português brasileiro prontos para exibição. Verificar documentação oficial antes de confiar em requisitos, status de desenvolvimento ou recursos de projetos.",
   "games": {
     "super-mario-64": {
@@ -609,6 +609,34 @@
     "3-on-3-nhl-arcade": {
       "title": "3 on 3 NHL Arcade",
       "description": "Jogo de hóquei no gelo em estilo arcade, com equipes de três jogadores e ações exageradas.",
+      "description_source_url": null,
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
+    },
+    "grand-theft-auto-vi": {
+      "title": "Grand Theft Auto VI",
+      "description": "Jogo de ação em mundo aberto situado no estado fictício de Leonida, com os protagonistas Lucia e Jason em uma história de crime e perseguição.",
+      "description_source_url": null,
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
+    },
+    "shadow-of-the-colossus": {
+      "title": "Shadow of the Colossus",
+      "description": "Aventura de ação na qual Wander percorre uma terra isolada e enfrenta enormes colossos para tentar trazer Mono de volta à vida. Este registro se refere ao remake de PS4 lançado em 2018.",
+      "description_source_url": null,
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
+    },
+    "the-legend-of-zelda-breath-of-the-wild": {
+      "title": "The Legend of Zelda: Breath of the Wild",
+      "description": "Aventura de ação em mundo aberto em que Link desperta após um longo sono e explora Hyrule para enfrentar a ameaça de Calamity Ganon.",
+      "description_source_url": null,
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
+    },
+    "the-legend-of-zelda-tears-of-the-kingdom": {
+      "title": "The Legend of Zelda: Tears of the Kingdom",
+      "description": "Aventura de ação em Hyrule na qual Link explora o céu, a superfície e o subsolo do reino, combina objetos e constrói dispositivos para superar desafios.",
       "description_source_url": null,
       "review_status": "reviewed_pt_br",
       "description_type": "resumo_editorial_do_jogo"
@@ -4065,6 +4093,51 @@
         }
       },
       "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
+    },
+    "hookshot-zelda-oot-port": {
+      "game_id": "the-legend-of-zelda-ocarina-of-time",
+      "fallback_name": "Hookshot",
+      "description_pt": "Recompilação estática experimental da edição de Ocarina of Time para Nintendo Switch 2 em executáveis nativos para Windows e Linux. O Hookshot Builder prepara o jogo a partir dos arquivos do próprio usuário; não acompanha o jogo e ainda apresenta problemas conhecidos.",
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/ZuanCrisp/Zelda-OOT-Port/HEAD/readme.md",
+      "development_status_reported": "Experimental; o desenvolvedor relata acesso à jogabilidade, mas ainda há travamentos, erros gráficos e variação de desempenho.",
+      "description_review_note": "Resumo editorial elaborado a partir do README, da documentação e das releases em 23/11/2026. Instalação e funcionamento não foram testados pelo All-Fix; instalação GetAll desabilitada."
+    },
+    "leonida": {
+      "game_id": "grand-theft-auto-vi",
+      "fallback_name": "Leonida",
+      "description_pt": "Projeto experimental de execução nativa do código da edição Xbox Series de Grand Theft Auto VI no Windows. Pesquisa um carregador e a tradução de gráficos para Vulkan, mas o jogo ainda não inicia; não existe distribuição jogável.",
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/ItsNotRexed/Leonida/HEAD/README.md",
+      "development_status_reported": "Desenvolvimento inicial; o próprio README declara que o jogo ainda não inicia e não há jogabilidade.",
+      "description_review_note": "Resumo editorial elaborado a partir do README, da documentação e das releases em 23/11/2026. Instalação e funcionamento não foram testados pelo All-Fix; instalação GetAll desabilitada."
+    },
+    "shadow-of-the-colossus-pc": {
+      "game_id": "shadow-of-the-colossus",
+      "fallback_name": "Shadow of the Colossus PC",
+      "description_pt": "Port nativo experimental para Windows do remake de Shadow of the Colossus lançado em 2018 para PS4, usando um carregador e tradução de gráficos para Vulkan. Requer arquivos da versão de PS4 do usuário; não utiliza a versão original de PS2.",
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/AjncSystem/ShadowOfTheColossus-PC/HEAD/README.md",
+      "development_status_reported": "Port nativo do remake de PS4 com release utilizável; persistem limitações de compatibilidade, desempenho e estabilidade.",
+      "description_review_note": "Resumo editorial elaborado a partir do README, da documentação e das releases em 23/11/2026. Instalação e funcionamento não foram testados pelo All-Fix; instalação GetAll desabilitada."
+    },
+    "savagewindrecomp": {
+      "game_id": "the-legend-of-zelda-breath-of-the-wild",
+      "fallback_name": "Savage Wind Recomp",
+      "description_pt": "Recompilação estática de The Legend of Zelda: Breath of the Wild (edição Nintendo Switch) em uma aplicação nativa para Windows e Linux. Recompila localmente o código da versão 1.9.0 fornecida pelo usuário, com melhorias gráficas experimentais.",
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/revivedx/savagewindrecomp/HEAD/README.md",
+      "development_status_reported": "Alfa jogável segundo o mantenedor; o README declara campanha concluível, mas alerta para bugs, travamentos e problemas acima de 30 FPS.",
+      "description_review_note": "Resumo editorial elaborado a partir do README, da documentação e das releases em 23/11/2026. Instalação e funcionamento não foram testados pelo All-Fix; instalação GetAll desabilitada."
+    },
+    "totk-pc-recomp": {
+      "game_id": "the-legend-of-zelda-tears-of-the-kingdom",
+      "fallback_name": "TotK Recomp",
+      "description_pt": "Recompilação estática de The Legend of Zelda: Tears of the Kingdom (Nintendo Switch) para Windows e Linux x86-64. O instalador utiliza arquivos originais do usuário e prepara localmente o executável, sem distribuir o jogo.",
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/valentderah/totk-pc-recomp/HEAD/README.md",
+      "development_status_reported": "Desenvolvimento inicial; o mantenedor afirma jogabilidade em Windows e Linux, com bugs visuais e travamentos esperados.",
+      "description_review_note": "Resumo editorial elaborado a partir do README, da documentação e das releases em 23/11/2026. Instalação e funcionamento não foram testados pelo All-Fix; instalação GetAll desabilitada."
     }
   },
   "editorial_policy": "Resumos curtos dos jogos originais revisados em português brasileiro. Descrições de projetos originalmente compiladas em pesquisa anterior foram revisadas apenas quanto ao idioma e vinculadas ao README acessível; não significam validação funcional, completude nem atualidade das funcionalidades citadas."
