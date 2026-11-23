@@ -3,9 +3,9 @@
 Fonte: https://github.com/brad38/AllFix-Repo
 
 Arquivos na raiz:
-- **catalog.json**: estrutura principal (87 jogos, 119 projetos, identificadores, plataformas, links dos repositórios, imagens externas, addons); referencias `requirements_file` e `about_file`.
-- **requirements.json**: requisitos por ID do projeto; categorias `system` (sistema), `installation` (instalação/execução), `build` (compilação), `general` (geral). O objeto `source_text` contém as seções ORIGINAIS dos READMEs, na maioria em inglês. Os campos localizados permanecem `null` até tradução/revisão; não tratar `legacy_reported_pt` como documentação confirmada.
-- **about.json**: informações para a aba Sobre, indexadas por ID de jogo e de projeto. As descrições legadas de projetos em português estão em `description_pt` com `description_status=legacy_unverified`. As descrições dos jogos continuam pendentes de fonte confiável.
+- **catalog.json**: estrutura principal (91 jogos, 124 projetos, identificadores, plataformas, links dos repositórios, imagens externas, addons); referencias `requirements_file` e `about_file`.
+- **requirements.json**: requisitos por ID do projeto; categorias `system` (sistema), `installation` (instalação/execução), `build` (compilação), `general` (geral). O objeto `source_text` contém as seções ORIGINAIS dos READMEs, na maioria em inglês. Os campos localizados podem permanecer `null` nos registros ainda não traduzidos; não tratar `legacy_reported_pt` como documentação confirmada.
+- **about.json**: informações para a aba Sobre, indexadas por ID de jogo e de projeto. As descrições dos projetos em português estão em `description_pt` e são acompanhadas de informações sobre sua verificação; descrições e resumos editoriais não são prova de funcionamento. As descrições dos jogos devem permanecer separadas dos detalhes dos projetos de port e recompilação.
 
 A interface deve ser em português brasileiro. Não apresentar texto inglês cru ao usuário; enquanto faltar tradução de requisitos, exibir aviso em português e um link para a documentação oficial. Não apresentar requisitos desatualizados da pesquisa antiga como verificados. Seções de compilação não são requisitos de execução.
 
@@ -13,4 +13,4 @@ Os dados dinâmicos de repositórios GitHub (nome, descrição, disponibilidade)
 
 **Compatibilidade:** o aplicativo que aceita apenas schema v3 precisa ser adaptado antes de usar a versão v4. A divisão em três arquivos é uma mudança intencional do formato de distribuição de dados.
 
-**Importante:** a auditoria anterior localizou seções relevantes em 99 projetos, mas não revisou manualmente todas as instruções de README/BUILDING. `verification_status=documented_in_readme` significa apenas que o trecho consta no README, não que a instalação tenha sido testada. A tradução de texto técnico completo ainda está pendente, conforme `translation_status`.
+**Importante:** a auditoria original localizou seções relevantes em 99 projetos, mas não revisou manualmente todas as instruções de README/BUILDING. `verification_status=documented_in_readme` significa apenas que o trecho consta no README, não que a instalação tenha sido testada. A tradução de texto técnico completo ainda está pendente, conforme `translation_status`.
