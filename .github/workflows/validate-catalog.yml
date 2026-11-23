@@ -1,0 +1,42 @@
+name: Validar catálogo AllFix
+
+on:
+  pull_request:
+    paths:
+      - catalog.json
+      - requirements.json
+      - about.json
+      - scripts/validate_catalog.py
+      - .github/workflows/validate-catalog.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validar-catalogo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Sintaxe dos arquivos JSON
+        run: |
+          python -m json.tool catalog.json > /dev/null
+          python -m json.tool requirements.json > /dev/null
+          python -m json.tool about.json > /dev/null
+
+      - name: Validar schemas e referências
+        run: python scripts/validate_catalog.py
+
+      - name: Verificar espaços em branco no diff
+        if: github.event_name == 'pull_request'
+        run: git diff --check "$(git merge-base "origin/${{ github.base_ref }}" HEAD)" HEAD

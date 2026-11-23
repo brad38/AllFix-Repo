@@ -2,7 +2,7 @@
   "schema_version": 1,
   "language": "pt-BR",
   "source_language": "en",
-  "updated_at": "2026-11-22",
+  "updated_at": "2026-11-23",
   "notice": "Trechos originais de README podem estar em ingles. As traducoes e resumos ainda precisam de revisao. Nunca exibir trecho original como traducao.",
   "projects": {
     "ghostship": {
@@ -3630,6 +3630,251 @@
       ],
       "translation_status": "machine_translated_pt_br",
       "legacy_reported_pt": "Pacote XBLA próprio (58410975), CPU SSE4.2, GPU D3D12 e ~350 MB livres. Sem compilação manual.",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
+    },
+    "hookshot-zelda-oot-port": {
+      "game_id": "the-legend-of-zelda-ocarina-of-time",
+      "verification_status": "documented_in_readme",
+      "source_url": "https://raw.githubusercontent.com/ZuanCrisp/Zelda-OOT-Port/HEAD/readme.md",
+      "verified_at": "2026-11-23",
+      "system": "Windows 10/11 de 64 bits ou Linux x86-64 com glibc 2.35 ou superior. Em Linux/AppImage exige AVX2; no Windows o instalador pode compilar uma variante mais lenta para CPU sem AVX2. GPU Vulkan 1.3 com mesh shaders (RTX 20+, Radeon RX 6000+ ou Intel Arc); 16 GB de RAM ou mais; 8 GB de VRAM recomendados; aproximadamente 60 GB livres durante a compilação. Conexão à internet necessária para os componentes do instalador.",
+      "installation": "Exige cópia própria da edição para Nintendo Switch 2, programa 0400486024DEC000, atualização v131072 e build e0f3ccfa. A versão precisa coincidir exatamente. Aceita arquivos .nup, .nx ou as pastas romfs e exefs. Windows: a release oferece HookshotBuilder.exe, que baixa ferramentas, valida os arquivos e compila o jogo localmente. Linux: AppImage x86-64. Não há jogo completo pronto para executar na release.",
+      "build": "O Hookshot Builder realiza a recompilação local, com ferramentas próprias; o README informa cerca de 10 a 45 minutos dependendo do computador. Compilação manual e desenvolvimento são documentados em docs/development.md; nenhuma receita GetAll foi preparada.",
+      "general": "Projeto independente do Ship of Harkinian e de outros ports já cadastrados. Desenvolvimento experimental; podem ocorrer stutter na primeira visita a áreas, erros de iluminação e travamentos, especialmente dependendo da GPU. Release v3.0.2 com HookshotBuilder.exe para Windows e AppImage para Linux foi observada; a presença dos arquivos não constitui teste de execução.",
+      "source_text": {
+        "system": "### What you need\n\n- **Your copy of the game at the supported version:** program `0400486024DEC000`, update v131072, build `e0f3ccfa`.\n  Other versions do not work. A `.nup` file, a `.nx` file made from one\n  ([NXFormat](https://github.com/fab918/nxformat)'s `nxconvert pack-nup`), or the `romfs` and `exefs` folders.\n- 64-bit Windows 10 or 11, or 64-bit Linux with glibc 2.35 or newer (Ubuntu 22.04, Debian 12, Fedora, Arch,\n  SteamOS ...) and a CPU with AVX2. The Linux AppImage needs AVX2; on Windows, and in a build from source, a CPU\n  without it gets a game built for what it has, a little slower.\n- A graphics card with Vulkan 1.3 and mesh shaders, with an up-to-date driver: NVIDIA GeForce RTX 20 series or newer,\n  AMD Radeon RX 6000 series or newer, or Intel Arc. On Linux, Mesa or NVIDIA's driver. Cards without mesh shaders are\n  not supported.\n- 8 GB of video memory (VRAM) or more is recommended. Cards with less can use the in-game menu's lower Quality presets.\n- 16 GB of RAM or more. A run uses about 10 GB.\n- About 60 GB free while building, on an SSD if you can: a hard drive makes the build much slower. You can build on one\n  anyway; the builder says so first.\n- An internet connection for the download. Nothing else to install: the builder brings its own compiler and tools.",
+        "installation": "### On Windows\n\nFor a portable install on an external SSD, run the downloaded setup with `--portable`; see\n[Portable Hookshot Builder](docs/windows-portable-builder.md) for folder, move and repair behavior.\n\n1. Open the [latest release](https://github.com/ZuanCrisp/Zelda-OOT-Port/releases/latest) and download `HookshotBuilder.exe`.\n2. Run it. It downloads the rest of Hookshot Builder (about 500 MB), checks it, and opens it.\n3. Pick your game. The builder looks for `.nup` and `.nx` files in your Downloads, Desktop and Documents folders and lists them\n   under **Found on this PC**. Not listed? Press **Browse…**, drop the file on the window, or choose\n   **romfs and exefs folders**. The builder checks that it is the right version.\n4. Under **Install the game to**, keep the folder (`Games\\Hookshot` in your user folder) or press **Change**. Choose\n   the **Game language**.\n5. Press **Build the game**. It takes about 10 to 45 minutes, depending on your CPU and memory. You can use your PC in\n   the meantime.\n6. When it says **Your game is ready**, press **Play**. The **Desktop shortcut** and **Start menu entry** boxes are\n   ticked: untick them if you don't want them.\n\nNext time, start the game from the Hookshot shortcut, or `hookshot.exe` in the game folder. That is the launcher: it\nhas **Play**, and **Update** when a newer release is out.\n\nThe first start prepares the game's shaders, which takes a while. Later starts are faster.",
+        "build": "## Build from source\n\nFor developers, and for players who prefer the command line. The builder windows run the same script,\n`nx2/make_game.py`. [CONTRIBUTING.md](CONTRIBUTING.md) has more.\n\n<details>\n<summary>Windows, from the command line</summary>\n\n```powershell\npython -I nx2/make_game.py --nup \"C:\\path\\your-game.nup\" --out \"C:\\Games\\Hookshot\" --language en-US\npython -I nx2/make_game.py --romfs \"C:\\path\\romfs\" --exefs \"C:\\path\\exefs\" --out \"C:\\Games\\Hookshot\" --language en-US\n```\n\nAdd `--check` with your `.nup` or `--exefs` to only check the game's version. It builds nothing.\nAdd `--log \"C:\\path\\build.log\"` to also save the build's output to a file (UTF-8, replaced if it exists); it works\nwith `--check` and `--update` too, and on Linux.\n`HOOKSHOT_JOBS=<n>` (or `--jobs <n>`) limits how many files compile at once.\n`HOOKSHOT_MEM_LIMIT_GB=<n>` lets the compilers take that many GB together, whatever is free now; up to 4 always run.\n\nYou need:\n\n- Python 3 from python.org (the Microsoft Store's Python installs packages where `python -I` does not look), with\n  `pip install -r requirements.txt` (core tools plus the button-prompt packages).\n- [llvm-mingw](https://github.com/mstorsjo/llvm-mingw) (the `ucrt-x86_64` build), unpacked as `llvm-mingw` in the\n  clone or with `HOOKSHOT_MINGW` set to its folder. Without it the build uses the clang from\n  [emsdk](https://github.com/emscripten-core/emsdk) at `C:\\emsdk` with Visual Studio's C++ tools and the Windows SDK\n  (`HOOKSHOT_MSVC=1` forces that route).\n- What the builder's `tools` folder carries and a clone does not. Run `HookshotBuilder.exe` once: the folder is\n  `%LOCALAPPDATA%\\HookshotBuilder\\versions\\<version>\\HookshotBuilder\\tools`. The builder sets the variables itself;\n  from the command line, set them before you run `make_game.py`:\n  - `tools\\cpm`: the Vulkan headers and FFmpeg. Set `RX_CPM` to this folder. Without it (and without system\n    Vulkan / SPIR-V / VMA headers or `HOOKSHOT_*_HEADERS`), the standalone build stops instead of shipping a\n    game with no renderer.\n  - `tools\\wgpu-native`: set `WGPU_NATIVE` to this folder.\n  - `tools\\third_party`: the prebuilt files a clone lacks (`a64emit`, `lld-link`, `zbic` and SDL2). Copy its `.dll`,\n    `.exe`, `.lib` and `.sha1` files to the same places under `third_party\\`.\n  - `tools\\work`: copy it to `work\\`. It holds the hot-function list, the link order, the profile and the icon;\n    without them the game builds but runs slower.\n[trecho abreviado]",
+        "general": "## Project status\n\nExperimental. Players have reported on many PCs, from Kokiri Forest to the dungeons: the table says what works and\nwhat does not yet. Open problems are collected in tracking issues, linked below.\n\n| What | Status |\n|---|---|\n| Kokiri Forest: reaching gameplay and walking around | ✅ Works |\n| Sound, controller, keyboard and saves | ✅ Works |\n| In-game menu, frame generation and upscaling | ✅ Works |\n| Flicker (the picture flashing too bright while moving) | ✅ Fixed in v2.0.2 (#645) |\n| Ground fog vanishing when looking down | ✅ Fixed in v2.0.2 (#638) |\n| Models with missing pieces (doors, fences, parts of trees) | ✅ Fixed where tested, more play needed |\n| Stutter when entering new areas | ⚠️ Still happens the first time you visit a place. The next visits are smooth |\n| Performance | ⚠️ Depends on the PC: some reach a steady 60 fps, others stay below it, more so in Hyrule Field |\n| Hyrule Field, Castle Town, Kakariko and the dungeons | ⚠️ Players got there, with open bugs: lighting and shadows (#1004), crashes and freezes (#2507) |\n| Ultrawide and 4:3 | ✅ Works. The Aspect ratio row's default, Monitor's shape, widens the 3D to the screen ([#2119](https://github.com/ZuanCrisp/Zelda-OOT-Port/commit/145eed2650d9d2cebad85a8a0052d302086015c7)); the HUD keeps its 16:9 size with its corners at the screen's edges, or in the middle 16:9 with the HUD layout row; movies stay in the middle 16:9 |\n| NVIDIA cards | ✅ Works. The most tested |\n| AMD cards | ⚠️ Many tested: reports from the RX 6600, RX 6800 XT, RX 7800 XT, RX 7900 XTX and RX 9070 XT. On Windows, the RX 6000 cards (Navi 21 and 22) draw task and mesh shaders through the compute fallback by default, as the driver lost the GPU with them (#1747, [#1992](https://github.com/ZuanCrisp/Zelda-OOT-Port/commit/1396428d0bfcde68b5c7bd63f9837564d9af1a05), [#2215](https://github.com/ZuanCrisp/Zelda-OOT-Port/commit/f95d80f5371821420c5a47a0c7e9f73e7f484abc)). Driver crashes and device lost are still reported ([#996](https://github.com/ZuanCrisp/Zelda-OOT-Port/commit/f95d80f5371821420c5a47a0c7e9f73e7f484abc)) |\n| Intel cards | ❓ Few reports, many of them black screens or crashes (#999) |\n[trecho abreviado]"
+      },
+      "evidence": [
+        {
+          "category": "system",
+          "heading": "What you need",
+          "source_url": "https://raw.githubusercontent.com/ZuanCrisp/Zelda-OOT-Port/HEAD/readme.md"
+        },
+        {
+          "category": "installation",
+          "heading": "On Windows",
+          "source_url": "https://raw.githubusercontent.com/ZuanCrisp/Zelda-OOT-Port/HEAD/readme.md"
+        },
+        {
+          "category": "build",
+          "heading": "Build from source",
+          "source_url": "https://raw.githubusercontent.com/ZuanCrisp/Zelda-OOT-Port/HEAD/readme.md"
+        },
+        {
+          "category": "general",
+          "heading": "Project status",
+          "source_url": "https://raw.githubusercontent.com/ZuanCrisp/Zelda-OOT-Port/HEAD/readme.md"
+        },
+        {
+          "category": "general",
+          "heading": "Versions",
+          "source_url": "https://github.com/ZuanCrisp/Zelda-OOT-Port/blob/main/docs/README.md"
+        },
+        {
+          "category": "system",
+          "heading": "Get started",
+          "source_url": "https://github.com/ZuanCrisp/Zelda-OOT-Port/blob/main/docs/getting-started.md"
+        }
+      ],
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
+    },
+    "leonida": {
+      "game_id": "grand-theft-auto-vi",
+      "verification_status": "documented_in_readme",
+      "source_url": "https://raw.githubusercontent.com/ItsNotRexed/Leonida/HEAD/README.md",
+      "verified_at": "2026-11-23",
+      "system": "Ferramentas de preparação: Windows 10/11 x64, Python 3.12+, .NET 8 SDK, Vulkan SDK, LLVM 21+ com backend AMDGPU e Visual Studio 2022 com ferramentas C++ e Windows SDK 10.0.26100 ou superior. Git e ffmpeg são dependências condicionais. O README menciona cerca de 400 GiB livres para a preparação completa de arquivos e cerca de 30 GB para etapas limitadas sem exportação de assets. Não há mínimos de CPU, RAM ou GPU homologados para jogar: o jogo não inicia.",
+      "installation": "Exige arquivos já legíveis no disco da versão Xbox Series 1.0.2.1, de cópia própria, incluindo MicrosoftGame.Config e arquivos .rpf; o projeto não fornece jogo, chaves, descriptografia nem executável do jogo. Clonar com submódulo (`git clone --recursive`) e executar Build.bat apenas para as etapas de preparação e testes. Um pacote .xvc criptografado não é aceito diretamente. O jogo ainda não inicia.",
+      "build": "Build.bat e make_game.py preparam shaders, assets e componentes da camada de execução. O código da edição Xbox Series é x86-64, com carregamento PE e funções do console implementadas por camadas de compatibilidade; shaders RDNA2 são traduzidos para SPIR-V. Sem arquivo executável do jogo disponível aos desenvolvedores para completar a inicialização, o runtime real permanece não validado.",
+      "general": "Sem releases oficiais na data da verificação. O README afirma explicitamente 'The game does not boot yet'. Testes de shaders, ferramentas ou um executável substituto não comprovam que GTA VI seja inicializável ou jogável. A compilação é para desenvolvimento e não constitui uma distribuição de jogo.",
+      "source_text": {
+        "system": "## How to build\n\nThe port isn't downloaded ready-made. It's built on your PC from your own copy.\n\n**The easy way:**\n\n1. Install the prerequisites below.\n2. Download this project **with its submodule**: `git clone --recursive https://github.com/ItsNotRexed/Leonida`. A\n   \"Download ZIP\" from GitHub leaves out `third_party/rpf9-explorer`. The build fetches it if `git` is installed,\n   and otherwise tells you what to do.\n3. Double-click **`Build.bat`**.\n\nIt finds your copy of the game by itself: it looks in Downloads, Desktop, Documents (also where Windows keeps them,\nsuch as in OneDrive), Games, your home folder and the top of every drive, two folders deep. It recognises the\nversion from a few file sizes, without reading anything large. If you have more than one copy it asks which one, and if it finds none it asks you to paste the\nfolder. Before starting it checks that everything below is installed and that there is enough free space, and it\nlists anything missing in one go. The result goes to `Documents\\Leonida`. A stopped build continues where it left\noff.\n\nYour game folder is the one that holds `MicrosoftGame.Config` and the `.rpf` archives, as plain files.\n\n**Prerequisites:**\n\n- **Your own copy** of the Xbox Series package, version 1.0.2.1.\n- **Windows 10/11 x64**, with about **400 GB** free for work files (an assets export alone measured about 337 GB before its audio step, in about 2 h 35 min). Disk sizes here are as Windows Explorer shows them, which are GiB: 400 GiB is about 430 GB in decimal units. They can go on another drive with `--work`.\n- [Python 3.12+](https://www.python.org/downloads/) (tick \"Add python.exe to PATH\").\n- [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0).\n- [Vulkan SDK](https://vulkan.lunarg.com/), for `spirv-as` / `spirv-val`.\n- [LLVM 21+](https://github.com/llvm/llvm-project/releases) with the **AMDGPU target** for `llvm-mc`. The official\n  Windows build has no AMDGPU target. On Windows, `scripts\\build_llvm_mc.ps1` builds a native `llvm-mc.exe` with it\n  (no WSL; needs git and the Visual Studio C++ tools below) and sets `LLVM_MC`; it takes about 20-40 minutes. A faster\n  way, if you use [conda](https://docs.conda.io/): `conda install -c conda-forge llvm-tools` (its Windows build\n  includes the AMDGPU target; [docs/testing.md](docs/testing.md) used version 23.1.6), then set `LLVM_MC` to the full\n  path of the `llvm-mc.exe` it installs (`where.exe llvm-mc` shows it once the environment is active; in PowerShell a\n[trecho abreviado]",
+        "installation": "## How to build\n\nThe port isn't downloaded ready-made. It's built on your PC from your own copy.\n\n**The easy way:**\n\n1. Install the prerequisites below.\n2. Download this project **with its submodule**: `git clone --recursive https://github.com/ItsNotRexed/Leonida`. A\n   \"Download ZIP\" from GitHub leaves out `third_party/rpf9-explorer`. The build fetches it if `git` is installed,\n   and otherwise tells you what to do.\n3. Double-click **`Build.bat`**.\n\nIt finds your copy of the game by itself: it looks in Downloads, Desktop, Documents (also where Windows keeps them,\nsuch as in OneDrive), Games, your home folder and the top of every drive, two folders deep. It recognises the\nversion from a few file sizes, without reading anything large. If you have more than one copy it asks which one, and if it finds none it asks you to paste the\nfolder. Before starting it checks that everything below is installed and that there is enough free space, and it\nlists anything missing in one go. The result goes to `Documents\\Leonida`. A stopped build continues where it left\noff.\n\nYour game folder is the one that holds `MicrosoftGame.Config` and the `.rpf` archives, as plain files.\n\n**Prerequisites:**\n\n- **Your own copy** of the Xbox Series package, version 1.0.2.1.\n- **Windows 10/11 x64**, with about **400 GB** free for work files (an assets export alone measured about 337 GB before its audio step, in about 2 h 35 min). Disk sizes here are as Windows Explorer shows them, which are GiB: 400 GiB is about 430 GB in decimal units. They can go on another drive with `--work`.\n- [Python 3.12+](https://www.python.org/downloads/) (tick \"Add python.exe to PATH\").\n- [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0).\n- [Vulkan SDK](https://vulkan.lunarg.com/), for `spirv-as` / `spirv-val`.\n- [LLVM 21+](https://github.com/llvm/llvm-project/releases) with the **AMDGPU target** for `llvm-mc`. The official\n  Windows build has no AMDGPU target. On Windows, `scripts\\build_llvm_mc.ps1` builds a native `llvm-mc.exe` with it\n  (no WSL; needs git and the Visual Studio C++ tools below) and sets `LLVM_MC`; it takes about 20-40 minutes. A faster\n  way, if you use [conda](https://docs.conda.io/): `conda install -c conda-forge llvm-tools` (its Windows build\n  includes the AMDGPU target; [docs/testing.md](docs/testing.md) used version 23.1.6), then set `LLVM_MC` to the full\n  path of the `llvm-mc.exe` it installs (`where.exe llvm-mc` shows it once the environment is active; in PowerShell a\n  bare `where` is `Where-Object`). Or install `llvm-21`\n  in WSL and set `LLVM_MC` to the whole command, `LLVM_MC=\"wsl -d Ubuntu -e /usr/lib/llvm-21/bin/llvm-mc\"` (see\n  [docs/design.md](docs/design.md#disassembling-shaders)). On Linux, `llvm-mc` on PATH is enough.\n- Visual Studio 2022 with **Desktop development with C++** and the **Windows SDK 10.0.26100 or newer**, for the\n  runtime stage (the runtime uses version 1.2 root signatures, which older SDKs don't declare).\n- [ffmpeg](https://ffmpeg.org/download.html) on PATH (optional: decodes the XMA2 streams, and required for `--wav`).\n\n**Is this PC strong enough?** `python -I tools/pc_checker.py --cli` detects the CPU, GPU and RAM and compares them\nwith the reference profiles before a long build: `--profile 1`, the default, is an Xbox Series X PC equivalent and\n`--profile 2` a 1080p Low community estimate. `python -I tools/pc_checker.py --check --json` prints the same verdict\nas JSON and returns it as an exit code (0 good, 1 weak, 2 unknown).\n\n**Low disk space:** the ~400 GB figure is for the full build. To *run* the port, `--stages check,shaders,runtime`\nneeds about 30 GB; the `assets` stage (~370 GB) is only for the asset tools, and `--wav` adds several times the\n[trecho abreviado]",
+        "build": "## How to build\n\nThe port isn't downloaded ready-made. It's built on your PC from your own copy.\n\n**The easy way:**\n\n1. Install the prerequisites below.\n2. Download this project **with its submodule**: `git clone --recursive https://github.com/ItsNotRexed/Leonida`. A\n   \"Download ZIP\" from GitHub leaves out `third_party/rpf9-explorer`. The build fetches it if `git` is installed,\n   and otherwise tells you what to do.\n3. Double-click **`Build.bat`**.\n\nIt finds your copy of the game by itself: it looks in Downloads, Desktop, Documents (also where Windows keeps them,\nsuch as in OneDrive), Games, your home folder and the top of every drive, two folders deep. It recognises the\nversion from a few file sizes, without reading anything large. If you have more than one copy it asks which one, and if it finds none it asks you to paste the\nfolder. Before starting it checks that everything below is installed and that there is enough free space, and it\nlists anything missing in one go. The result goes to `Documents\\Leonida`. A stopped build continues where it left\noff.\n\nYour game folder is the one that holds `MicrosoftGame.Config` and the `.rpf` archives, as plain files.\n\n**Prerequisites:**\n\n- **Your own copy** of the Xbox Series package, version 1.0.2.1.\n- **Windows 10/11 x64**, with about **400 GB** free for work files (an assets export alone measured about 337 GB before its audio step, in about 2 h 35 min). Disk sizes here are as Windows Explorer shows them, which are GiB: 400 GiB is about 430 GB in decimal units. They can go on another drive with `--work`.\n- [Python 3.12+](https://www.python.org/downloads/) (tick \"Add python.exe to PATH\").\n- [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0).\n- [Vulkan SDK](https://vulkan.lunarg.com/), for `spirv-as` / `spirv-val`.\n- [LLVM 21+](https://github.com/llvm/llvm-project/releases) with the **AMDGPU target** for `llvm-mc`. The official\n  Windows build has no AMDGPU target. On Windows, `scripts\\build_llvm_mc.ps1` builds a native `llvm-mc.exe` with it\n  (no WSL; needs git and the Visual Studio C++ tools below) and sets `LLVM_MC`; it takes about 20-40 minutes. A faster\n  way, if you use [conda](https://docs.conda.io/): `conda install -c conda-forge llvm-tools` (its Windows build\n  includes the AMDGPU target; [docs/testing.md](docs/testing.md) used version 23.1.6), then set `LLVM_MC` to the full\n  path of the `llvm-mc.exe` it installs (`where.exe llvm-mc` shows it once the environment is active; in PowerShell a\n[trecho abreviado]",
+        "general": "## Project status\n\n**Early. The game does not boot yet.** Everything that can be done without the game's executable is in place, so\nwork on booting can start as soon as one is available to a developer.\n\n| What | Status |\n|---|---|\n| Booting, story mode, anything playable | ❌ No |\n| Finding and checking your copy (Xbox Series 1.0.2.1) | ✅ Works |\n| Shaders: carve, unpack native RDNA2 code, disassemble | ✅ All 26,503 |\n| Shaders: RDNA2 → SPIR-V translation | ✅ **26,503 / 26,503 translated**: 2,236 VS, 12,101 PS, 2,689 CS, 9,282 mesh, 195 geometry, with a per-shader metadata index for pipeline creation. The LLVM 23.1.5 Linux rerun at `c432cdc` and the LLVM 23.1.3 Windows rerun at `43d0015` both translated all 26,503 ([Linux](https://github.com/ItsNotRexed/Leonida/issues/644#issuecomment-7072972586), [Windows](https://github.com/ItsNotRexed/Leonida/issues/644#issuecomment-7074299915)). Translation and SPIR-V validation are separate steps; validation results are listed below. ⚠️ 23,841 are wave64: exact on 64-wide subgroups (AMD). On 32-wide subgroups (NVIDIA, Intel), compute and mesh shaders are exact with wave64 emulation (`--wave64-emulate`, on by default there); cross-half wave ops in vertex, pixel and geometry shaders are still approximate |\n| SPIR-V validation (`spirv-val`) | ✅ **26,503 / 26,503 passed** in the LLVM 23.1.5 Linux rerun at `c432cdc` and in the full-corpus rerun at `43d4703`, after `dcd8ecf` fixed the SPIR-V ID-bound error ([Linux rerun](https://github.com/ItsNotRexed/Leonida/issues/644#issuecomment-7072972586), [full-corpus rerun](https://github.com/ItsNotRexed/Leonida/issues/881#issuecomment-7075507328)). On Windows at `43d0015`, all 26,503 translated but 26,501 passed validation; the two ID-bound failures were fixed by `dcd8ecf`. The intermediate `dedd75c` run also passed 26,501. |\n[trecho abreviado]"
+      },
+      "evidence": [
+        {
+          "category": "system",
+          "heading": "How to build",
+          "source_url": "https://raw.githubusercontent.com/ItsNotRexed/Leonida/HEAD/README.md"
+        },
+        {
+          "category": "installation",
+          "heading": "How to build",
+          "source_url": "https://raw.githubusercontent.com/ItsNotRexed/Leonida/HEAD/README.md"
+        },
+        {
+          "category": "build",
+          "heading": "How to build",
+          "source_url": "https://raw.githubusercontent.com/ItsNotRexed/Leonida/HEAD/README.md"
+        },
+        {
+          "category": "general",
+          "heading": "Project status",
+          "source_url": "https://raw.githubusercontent.com/ItsNotRexed/Leonida/HEAD/README.md"
+        },
+        {
+          "category": "build",
+          "heading": "Ground rules",
+          "source_url": "https://github.com/ItsNotRexed/Leonida/blob/main/docs/design.md"
+        }
+      ],
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
+    },
+    "shadow-of-the-colossus-pc": {
+      "game_id": "shadow-of-the-colossus",
+      "verification_status": "documented_in_readme",
+      "source_url": "https://raw.githubusercontent.com/AjncSystem/ShadowOfTheColossus-PC/HEAD/README.md",
+      "verified_at": "2026-11-23",
+      "system": "Windows 10/11 x64 e GPU com Vulkan 1.3 e driver atualizado. O desenvolvedor recomenda instalar os arquivos do jogo em SSD para reduzir engasgos ao carregar novas áreas. Não há requisitos mínimos específicos confirmados de RAM, CPU ou espaço total. O executável distribuído não requer instalação do Python.",
+      "installation": "Baixar o SotC-PC.zip da release oficial, extrair e abrir SotC.exe. Informar o dump próprio do remake de PS4: CUSA08809 (Europa 1.01) ou CUSA08034 (EUA 1.00), com eboot.bin, sce_module e sce_sys. Atualizações diferentes dessas versões podem funcionar limitadas a 30 FPS; os modos especiais de 60 FPS e filtro anisotrópico 16x se aplicam às versões indicadas. Os módulos de firmware libSceNgs2.sprx e libSceUlt.sprx são opcionais desde v0.75, graças ao mixer integrado.",
+      "build": "Compilação de fonte para Windows documentada com MSYS2 CLANG64, build.sh e packaging/windows/package_sotc.sh. Empacotamento de SotC.exe usa Python, PyInstaller e Pillow, mas o launcher pronto não exige Python.",
+      "general": "Release v0.77 inclui SotC-PC.zip para Windows. O projeto é sobre a edição PS4 (remake de 2018), não a edição PS2 de 2005. Problemas reportados incluem reconstrução e engasgos do cache de shaders, riscos com texturas no modo Máximo e recursos de geração de quadros experimentais. Não foi realizado teste funcional independente nesta catalogação.",
+      "source_text": {
+        "system": "### Download and use\n\n1. Download `SotC-PC.zip` from [Releases](../../releases) and unzip it into a folder.\n2. Run **`SotC.exe`**. On first start the launcher searches the PC's drives for:\n   - the game folder (the CUSA08809 or CUSA08034 dump with `eboot.bin`, `sce_module` and `sce_sys`);\n   - the sound modules (`libSceNgs2.sprx` and `libSceUlt.sprx`) of an installed shadPS4\n     (`user/sys_modules`), which it copies to the port's data folder;\n   - a shadPS4 save of the game, which it offers to import;\n   - the game's DLCs, if any (shadPS4's `addcont` folder, or a folder with one subfolder per DLC).\n3. Check the **Game and saves** page. The **game library** works like shadPS4's.\n4. Click **PLAY**.\n\nRequirements: Windows 10/11 64-bit and a **Vulkan 1.3** GPU (NVIDIA, AMD or Intel with a recent\ndriver). No Python install needed. **The game folder should be on an SSD** (NVMe best): on a hard\ndisk new areas stutter much more.\n\n| What | Where from | What for |\n|---|---|---|\n| CUSA08809 (EU 1.01) or CUSA08034 (US 1.00) game dump | your PS4, through GoldHEN | the game |\n| decrypted `libSceNgs2.sprx`, `libSceUlt.sprx` (optional) | your PS4 (`/system/common/lib/`, GoldHEN FTP), or shadPS4's `user/sys_modules` | the firmware's sound mixer (since v0.75 the port's built-in mixer plays the sound without them) |\n\nThe patch modes (60 FPS, 16x filtering) apply to EU 1.01 and US 1.00 (the same executable);\nother versions run at 30 FPS. Each release keeps its own saves (`user/savedata/1/<title ID>`),\nand only DLC of the same region is used.",
+        "installation": "### Download and use\n\n1. Download `SotC-PC.zip` from [Releases](../../releases) and unzip it into a folder.\n2. Run **`SotC.exe`**. On first start the launcher searches the PC's drives for:\n   - the game folder (the CUSA08809 or CUSA08034 dump with `eboot.bin`, `sce_module` and `sce_sys`);\n   - the sound modules (`libSceNgs2.sprx` and `libSceUlt.sprx`) of an installed shadPS4\n     (`user/sys_modules`), which it copies to the port's data folder;\n   - a shadPS4 save of the game, which it offers to import;\n   - the game's DLCs, if any (shadPS4's `addcont` folder, or a folder with one subfolder per DLC).\n3. Check the **Game and saves** page. The **game library** works like shadPS4's.\n4. Click **PLAY**.\n\nRequirements: Windows 10/11 64-bit and a **Vulkan 1.3** GPU (NVIDIA, AMD or Intel with a recent\ndriver). No Python install needed. **The game folder should be on an SSD** (NVMe best): on a hard\ndisk new areas stutter much more.\n\n| What | Where from | What for |\n|---|---|---|\n| CUSA08809 (EU 1.01) or CUSA08034 (US 1.00) game dump | your PS4, through GoldHEN | the game |\n| decrypted `libSceNgs2.sprx`, `libSceUlt.sprx` (optional) | your PS4 (`/system/common/lib/`, GoldHEN FTP), or shadPS4's `user/sys_modules` | the firmware's sound mixer (since v0.75 the port's built-in mixer plays the sound without them) |\n\nThe patch modes (60 FPS, 16x filtering) apply to EU 1.01 and US 1.00 (the same executable);\nother versions run at 30 FPS. Each release keeps its own saves (`user/savedata/1/<title ID>`),\nand only DLC of the same region is used.",
+        "build": "## Building\n\nWindows with [MSYS2](https://www.msys2.org/) (CLANG64); packages:\n[packaging/windows/README.md](packaging/windows/README.md). To freeze `SotC.exe`: a Windows\nPython with PyInstaller and Pillow (`WINPYTHON`).\n\n```\nbash build.sh                              # out/bb-probe.exe\nbash packaging/windows/package_sotc.sh     # dist/SotC-PC.zip\n```\n\nPackaging refuses any `.sprx`/`.prx`: Sony firmware never goes into the package. Test tools:\n`tools/`. Diagnostic variables: [docs/sotc/README-SotC.md](docs/sotc/README-SotC.md).",
+        "general": "### Known issues\n\n- The first start after updating rebuilds the shaders: the first load is slow and stutters.\n- **Texture quality \"Maximum\"** can close the game in very wide views (sword raised against the\n  sun, the last colossus' area; #186). In PS4 Pro mode it is experimental since 0.60.6-C1 (with\n  tabnul's page allocator fix): an hour without a crash in our test, but some colour garbage can\n  still show in the 7th and 8th colossus' areas after several visits.\n- **Frame generation (FSR 3) with DLSS:** text and HUD may shake; best left off.\n- The first start after an update rebuilds the GPU driver's shader cache: about 2 minutes of\n  loading screen, and short stalls the first time each area is visited.\n- **AMD GCN** cards (RX 470–590, Vega, APUs on the legacy driver): characters and Agro may glow\n  white (#152, #158, #187). 0.60.5 adds the LDS barriers these cards were missing (PR #205), which\n  is the likely fix: please report whether it helps. `SOTC_AMD64_LDS=0` turns it off.\n- **60 FPS:** since 0.60 the game targets 60 FPS itself (its PS4 Pro Performance mode), which\n  should fix the 60 FPS physics (the 2nd colossus' wall, colossi \"flying\"); still being tested\n  there. `SOTC_MODES=af16` in the extra variables goes back to the old mode.\n- **Frame generation** (experimental): the health/stamina bars may shake (`SOTC_FG_HUDLESS=1`\n  tries a HUD-less image), and it only matters at 30 FPS.\n- With 8 GB of video memory or less, pick a lower **Video memory use** level if the game runs out."
+      },
+      "evidence": [
+        {
+          "category": "system",
+          "heading": "Download and use",
+          "source_url": "https://raw.githubusercontent.com/AjncSystem/ShadowOfTheColossus-PC/HEAD/README.md"
+        },
+        {
+          "category": "installation",
+          "heading": "Download and use",
+          "source_url": "https://raw.githubusercontent.com/AjncSystem/ShadowOfTheColossus-PC/HEAD/README.md"
+        },
+        {
+          "category": "build",
+          "heading": "Building",
+          "source_url": "https://raw.githubusercontent.com/AjncSystem/ShadowOfTheColossus-PC/HEAD/README.md"
+        },
+        {
+          "category": "general",
+          "heading": "Known issues",
+          "source_url": "https://raw.githubusercontent.com/AjncSystem/ShadowOfTheColossus-PC/HEAD/README.md"
+        },
+        {
+          "category": "system",
+          "heading": "Requisitos",
+          "source_url": "https://github.com/AjncSystem/ShadowOfTheColossus-PC/blob/main/docs/sotc/README-SotC.md"
+        }
+      ],
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
+    },
+    "savagewindrecomp": {
+      "game_id": "the-legend-of-zelda-breath-of-the-wild",
+      "verification_status": "documented_in_readme",
+      "source_url": "https://raw.githubusercontent.com/revivedx/savagewindrecomp/HEAD/README.md",
+      "verified_at": "2026-11-23",
+      "system": "Windows 10 ou superior ou Linux x86-64; CPU com SSE4.2 (AVX2 melhora o desempenho), 16 GB de RAM, GPU e driver compatíveis com Vulkan 1.3 e cerca de 20 GB livres. Há AppImage Linux ARM64 experimental, sem equivalência ao suporte principal x86-64.",
+      "installation": "Exige cópia própria de Breath of the Wild para Switch atualizada para 1.9.0, com ExeFS e RomFS extraídos (RomFS do jogo e da atualização mesclados). DLC é opcional e precisa estar na versão 3.0, em pastas separadas aoc1 e aoc2. Releases oferecem ZIP Windows e AppImage Linux/Steam Deck. Ao selecionar os arquivos, o configurador verifica a versão e recompila o código localmente; nenhuma imagem do jogo é distribuída.",
+      "build": "O README aponta docs/BUILD-windows.md e docs/linux.md para compilação a partir do código-fonte; a instalação por release prepara o jogo na máquina do usuário (estimativa do desenvolvedor de aproximadamente 15 minutos com CPU de 12 threads).",
+      "general": "Alpha 6 v0.6.0-alpha.6 publicada com pacotes Windows e Linux. Mantenedor relata jogo completável, mas ainda não é versão estável; falhas de cena, travamentos e mecânicas de jogo acima de 30 FPS são conhecidos. O README recomenda limitar a 30 FPS ao enfrentar certos problemas.",
+      "source_text": {
+        "system": "## Get started\n\n**You need:** your own game files (see [Game files](docs/game-files.md)), Windows 10 or later or Linux on x86-64, a\nGPU with Vulkan 1.3, 16 GB of RAM, a CPU with SSE4.2 (AVX2 runs faster) and about 20 GB of free disk space.\n\n1. Download the latest build from [Releases](https://github.com/Revivedx/SavageWindRecomp/releases/latest):\n   - **Windows:** the file ending in `windows.zip`. Extract it to a folder you can write to, not Program Files.\n   - **Linux and Steam Deck:** the file ending in `x86_64.AppImage`. Make it executable and run it\n     ([docs/linux.md](docs/linux.md)).\n   - **Linux on ARM:** the file ending in `aarch64.AppImage`. It is highly experimental.\n2. Start it and choose the folder with your extracted game (`exefs/` and `romfs/`). Then choose **Set up game files**.\n   It checks the version, copies the files and recompiles the game code once, about 15 minutes on a 12-thread CPU.\n   Your own files aren't changed.\n3. Play. Settings and languages are in the game's Options. **Savage Wind Configuration** has your game files and the\n   rest of the settings.\n\n**Updating:** from version 0.5.1 on, Savage Wind Configuration updates it in one click, on Windows and in the Linux\nAppImages. Before that, extract the new zip over the old folder or use the new AppImage. Your game files, saves and\nsettings stay.\n\nSomething wrong? See the [FAQ](docs/FAQ.md), which also lists the known issues.",
+        "installation": "## Get started\n\n**You need:** your own game files (see [Game files](docs/game-files.md)), Windows 10 or later or Linux on x86-64, a\nGPU with Vulkan 1.3, 16 GB of RAM, a CPU with SSE4.2 (AVX2 runs faster) and about 20 GB of free disk space.\n\n1. Download the latest build from [Releases](https://github.com/Revivedx/SavageWindRecomp/releases/latest):\n   - **Windows:** the file ending in `windows.zip`. Extract it to a folder you can write to, not Program Files.\n   - **Linux and Steam Deck:** the file ending in `x86_64.AppImage`. Make it executable and run it\n     ([docs/linux.md](docs/linux.md)).\n   - **Linux on ARM:** the file ending in `aarch64.AppImage`. It is highly experimental.\n2. Start it and choose the folder with your extracted game (`exefs/` and `romfs/`). Then choose **Set up game files**.\n   It checks the version, copies the files and recompiles the game code once, about 15 minutes on a 12-thread CPU.\n   Your own files aren't changed.\n3. Play. Settings and languages are in the game's Options. **Savage Wind Configuration** has your game files and the\n   rest of the settings.\n\n**Updating:** from version 0.5.1 on, Savage Wind Configuration updates it in one click, on Windows and in the Linux\nAppImages. Before that, extract the new zip over the old folder or use the new AppImage. Your game files, saves and\nsettings stay.\n\nSomething wrong? See the [FAQ](docs/FAQ.md), which also lists the known issues.",
+        "build": "## Contributing and building\n\nOpen pull requests against the [`test`](https://github.com/Revivedx/SavageWindRecomp/tree/test) branch, which has\neverything ahead of the latest release. See [CONTRIBUTING.md](CONTRIBUTING.md). To build from source:\n[Windows](docs/BUILD-windows.md) and [Linux](docs/linux.md).",
+        "general": "## Status\n\n| Area | Share | Progress |\n|---|---|---|\n| Core game | 45% | ![Core game](docs/media/progress/area-core-game.svg) |\n| Platforms and input | 15% | ![Platforms and input](docs/media/progress/area-platforms-and-input.svg) |\n| Performance | 15% | ![Performance](docs/media/progress/area-performance.svg) |\n| Graphics options | 12% | ![Graphics options](docs/media/progress/area-graphics-options.svg) |\n| Player features | 13% | ![Player features](docs/media/progress/area-player-features.svg) |\n\nEvery part, what it means and how the average is calculated: [Status](docs/STATUS.md)."
+      },
+      "evidence": [
+        {
+          "category": "system",
+          "heading": "Get started",
+          "source_url": "https://raw.githubusercontent.com/revivedx/savagewindrecomp/HEAD/README.md"
+        },
+        {
+          "category": "installation",
+          "heading": "Get started",
+          "source_url": "https://raw.githubusercontent.com/revivedx/savagewindrecomp/HEAD/README.md"
+        },
+        {
+          "category": "build",
+          "heading": "Contributing and building",
+          "source_url": "https://raw.githubusercontent.com/revivedx/savagewindrecomp/HEAD/README.md"
+        },
+        {
+          "category": "general",
+          "heading": "Status",
+          "source_url": "https://raw.githubusercontent.com/revivedx/savagewindrecomp/HEAD/README.md"
+        },
+        {
+          "category": "installation",
+          "heading": "Game files",
+          "source_url": "https://github.com/revivedx/savagewindrecomp/blob/main/docs/game-files.md"
+        },
+        {
+          "category": "general",
+          "heading": "FAQ",
+          "source_url": "https://github.com/revivedx/savagewindrecomp/blob/main/docs/FAQ.md"
+        }
+      ],
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
+    },
+    "totk-pc-recomp": {
+      "game_id": "the-legend-of-zelda-tears-of-the-kingdom",
+      "verification_status": "documented_in_readme",
+      "source_url": "https://raw.githubusercontent.com/valentderah/totk-pc-recomp/HEAD/README.md",
+      "verified_at": "2026-11-23",
+      "system": "Windows 10+ x86-64 com SSE4.2 (AVX2/FMA acelera) ou Linux x86-64 com kernel 6.7+ e glibc 2.34+. GPU com Vulkan 1.3 e extensão VK_EXT_external_memory_host. Aproximadamente 36 GiB livres durante a preparação e 20 GiB depois. Requisitos numéricos de RAM e VRAM não confirmados no README.",
+      "installation": "Necessários jogo base e atualização 1.1.0, 1.2.1 ou 1.4.3 do próprio Nintendo Switch. Instalador aceita NSP, XCI, NSZ e XCZ e requer prod.keys da própria cópia conforme docs/installer.md; arquivos de firmware são opcionais para determinados idiomas. Windows: extrair TotK-Setup-<versão>-windows.zip, iniciar TotK-Setup.exe, selecionar arquivos e gerar totk.exe. Linux/Steam Deck: executar AppImage de instalação e gerar totk. O instalador não inclui o jogo.",
+      "build": "A preparação recompila o jogo e pré-compila shaders a partir dos arquivos originais do usuário; guia de compilação de código-fonte em docs/building.md. O instalador da release v0.5.0 é distribuição de ferramentas, não de jogo pré-compilado.",
+      "general": "O mantenedor indica v0.5.0 como release estável recomendada em 23/11/2026; v0.5.1-rc1 é candidata de testes. O port é jogável segundo o README, porém experimental. A publicação de AppImage Linux não equivale a homologação completa pelo mantenedor, que relata não ter testado pessoalmente o build Linux na release.",
+      "source_text": {
+        "system": "### Windows\n\nRequirements: Windows 10 or later, an x86-64 CPU with SSE4.2 (AVX2/FMA machines get a faster build), a GPU with Vulkan 1.3 and `VK_EXT_external_memory_host`, about 36 GiB free during setup (20 GiB after).\n\n1. Download `TotK-Setup-<version>-windows.zip` from [Releases](../../releases/latest) and unpack it.\n2. Start `TotK-Setup.exe`. If SmartScreen warns about an unsigned app, choose *More info*, then *Run anyway*.\n3. Pick your game files, the language and an install folder, and press *Start*. The setup builds the game once. With\n   an NVIDIA RTX GPU it also downloads NVIDIA DLSS, unless you untick *Download NVIDIA DLSS*; turn DLSS on in the\n   menu (F1).\n4. Play `totk.exe` from the install folder.",
+        "installation": "## Installing\n\n### Windows\n\nRequirements: Windows 10 or later, an x86-64 CPU with SSE4.2 (AVX2/FMA machines get a faster build), a GPU with Vulkan 1.3 and `VK_EXT_external_memory_host`, about 36 GiB free during setup (20 GiB after).\n\n1. Download `TotK-Setup-<version>-windows.zip` from [Releases](../../releases/latest) and unpack it.\n2. Start `TotK-Setup.exe`. If SmartScreen warns about an unsigned app, choose *More info*, then *Run anyway*.\n3. Pick your game files, the language and an install folder, and press *Start*. The setup builds the game once. With\n   an NVIDIA RTX GPU it also downloads NVIDIA DLSS, unless you untick *Download NVIDIA DLSS*; turn DLSS on in the\n   menu (F1).\n4. Play `totk.exe` from the install folder.\n\n### Linux\n\nRequirements: as on Windows, plus Linux 6.7 or later and glibc 2.34 or later (Ubuntu 22.04, Debian 12, Fedora 35, SteamOS 3).\n\n1. Download `TotK-Setup-x86_64.AppImage` from [Releases](../../releases/latest), or build it ([docs/installer.md](docs/installer.md), \"Linux release\").\n2. Make it executable (`chmod +x TotK-Setup-x86_64.AppImage`) and start it. On a Steam Deck, do this in Desktop Mode.\n3. Pick your game files, the language and an install folder, and press *Start*.\n4. Play `totk` from the install folder.\n\nTo update, run a newer setup on the same folder; saves and settings are kept. Settings are in the in-game menu and in `totk.ini` ([totk.ini.example](totk.ini.example) lists every key). Controls: [docs/controls.md](docs/controls.md).",
+        "build": "## Building from source\n\n[docs/building.md](docs/building.md) lists the toolchain and the steps. Everything the build writes stays under `build\\` and `generated\\`, which git ignores; run `tools/check_content.py` before a commit. Testers: [docs/tester-guide.md](docs/tester-guide.md).\n\nMost of the code and documentation is written by AI coding agents (Claude Code) under the maintainer's direction; the maintainer plays every build and decides what is merged. [AGENTS.md](AGENTS.md) holds the rules they work under.",
+        "general": "## Status\n\nEarly development. The game is playable on Windows and Linux; visual bugs and crashes are still expected.\n\nReport problems as issues, following [CONTRIBUTING.md](CONTRIBUTING.md)."
+      },
+      "evidence": [
+        {
+          "category": "system",
+          "heading": "Windows",
+          "source_url": "https://raw.githubusercontent.com/valentderah/totk-pc-recomp/HEAD/README.md"
+        },
+        {
+          "category": "installation",
+          "heading": "Installing",
+          "source_url": "https://raw.githubusercontent.com/valentderah/totk-pc-recomp/HEAD/README.md"
+        },
+        {
+          "category": "build",
+          "heading": "Building from source",
+          "source_url": "https://raw.githubusercontent.com/valentderah/totk-pc-recomp/HEAD/README.md"
+        },
+        {
+          "category": "general",
+          "heading": "Status",
+          "source_url": "https://raw.githubusercontent.com/valentderah/totk-pc-recomp/HEAD/README.md"
+        },
+        {
+          "category": "installation",
+          "heading": "What the player does",
+          "source_url": "https://github.com/valentderah/totk-pc-recomp/blob/main/docs/installer.md"
+        }
+      ],
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "",
       "translation_method": "automatic_machine_translation",
       "translation_reviewed_by_human": false
     }
