@@ -3,7 +3,7 @@
 Fonte: https://github.com/brad38/AllFix-Repo
 
 Arquivos na raiz:
-- **catalog.json**: estrutura principal (91 jogos, 124 projetos, identificadores, plataformas, links dos repositórios, imagens externas, addons); referencias `requirements_file` e `about_file`.
+- **catalog.json**: estrutura principal (108 jogos, 142 projetos, identificadores, plataformas, links dos repositórios, imagens externas, addons); referencias `requirements_file` e `about_file`.
 - **requirements.json**: requisitos por ID do projeto; categorias `system` (sistema), `installation` (instalação/execução), `build` (compilação), `general` (geral). O objeto `source_text` contém as seções ORIGINAIS dos READMEs, na maioria em inglês. Os campos localizados podem permanecer `null` nos registros ainda não traduzidos; não tratar `legacy_reported_pt` como documentação confirmada.
 - **about.json**: informações para a aba Sobre, indexadas por ID de jogo e de projeto. As descrições dos projetos em português estão em `description_pt` e são acompanhadas de informações sobre sua verificação; descrições e resumos editoriais não são prova de funcionamento. As descrições dos jogos devem permanecer separadas dos detalhes dos projetos de port e recompilação.
 
@@ -29,3 +29,9 @@ python scripts/validate_catalog.py
 O validador confere versões de schema, IDs únicos, URLs de fonte, campos estruturais e correspondência entre jogos, projetos, requisitos e descrições. O workflow `.github/workflows/validate-catalog.yml` executa esses testes em PRs que modificam o catálogo, e verifica também espaços em branco no diff.
 
 A verificação estrutural não substitui a conferência de imagens externas, o teste de execução do jogo nem a homologação do instalador GetAll.
+
+## Novos ports promissores (23/11/2026)
+
+Foram adicionados **18 projetos**, incluindo **17 jogos novos** e um projeto alternativo para **God of War (2005)**, que permanece uma única entrada com múltiplos ports. Entre eles: LAS Recomp, Super Odyssey PC Recomp, God Hand Rearmed, GTA Stories Recompiled, SpartanPort, The Last Guardian PC, inFAMOUS Second Son PC, P.T. for PC, Gears of War 2 PC Port, Ninja Gaiden II Recompiled, PGR4 Recomp, Burnout 3 Recomp, OpenCE, Lost Odyssey Recomp, SSX Recomp, DKB Recomp e mkw-recomp.
+
+**Escopo:** somente catalogação; `windows.installation_enabled=false` em todos os novos projetos. A disponibilidade de releases e a jogabilidade não foram verificadas localmente. Descrições editoriais dos novos jogos e mídias (`cover` e `banner`) ainda precisam de curadoria; os campos de mídia ficam `null` em vez de apontar para imagens não verificadas. As seções de requisitos incluem trechos dos READMEs originais e resumos provisórios em português, pendentes de revisão técnica. Nenhum jogo ou ROM é distribuído.
