@@ -117,8 +117,10 @@ def main():
     catalog = json.loads(CATALOG.read_text(encoding="utf-8-sig"))
     games = catalog["games"]
     assert catalog["schema_version"] == 4
-    assert len(games) == 87
-    assert sum(len(game["projects"]) for game in games) == 119
+    assert isinstance(games, list) and games
+    assert len({game["id"] for game in games}) == len(games)
+    projects = [project for game in games for project in game["projects"]]
+    assert len({project["id"] for project in projects}) == len(projects)
     updated = 0
     failures = 0
     for game in games:
