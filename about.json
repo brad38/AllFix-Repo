@@ -4101,7 +4101,27 @@
       "description_status": "reviewed_pt_br",
       "description_source_url": "https://raw.githubusercontent.com/ZuanCrisp/Zelda-OOT-Port/HEAD/readme.md",
       "development_status_reported": "Experimental; o desenvolvedor relata acesso à jogabilidade, mas ainda há travamentos, erros gráficos e variação de desempenho.",
-      "description_review_note": "Resumo editorial elaborado a partir do README, da documentação e das releases em 23/11/2026. Instalação e funcionamento não foram testados pelo All-Fix; instalação GetAll desabilitada."
+      "description_review_note": "Resumo editorial elaborado a partir do README, da documentação e das releases em 23/11/2026. Instalação e funcionamento não foram testados pelo All-Fix; instalação GetAll desabilitada.",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": null,
+          "latest_tag_observed_in_audit": null,
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Há HookshotBuilder.exe para Windows e AppImage para Linux; o jogo precisa ser preparado a partir dos arquivos do usuário.",
+          "audit_result": "Situação dos assets de release consultada pelo GitHub; sem teste de funcionamento.",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Releases e assets consultados",
+          "notes": "Somente catalogação; nenhuma instalação executada e nenhuma receita GetAll criada.",
+          "functional_installation_tested": false
+        }
+      }
     },
     "leonida": {
       "game_id": "grand-theft-auto-vi",
@@ -4110,7 +4130,27 @@
       "description_status": "reviewed_pt_br",
       "description_source_url": "https://raw.githubusercontent.com/ItsNotRexed/Leonida/HEAD/README.md",
       "development_status_reported": "Desenvolvimento inicial; o próprio README declara que o jogo ainda não inicia e não há jogabilidade.",
-      "description_review_note": "Resumo editorial elaborado a partir do README, da documentação e das releases em 23/11/2026. Instalação e funcionamento não foram testados pelo All-Fix; instalação GetAll desabilitada."
+      "description_review_note": "Resumo editorial elaborado a partir do README, da documentação e das releases em 23/11/2026. Instalação e funcionamento não foram testados pelo All-Fix; instalação GetAll desabilitada.",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": null,
+          "latest_tag_observed_in_audit": null,
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Nenhuma release oficial; jogo não inicializável.",
+          "audit_result": "Situação dos assets de release consultada pelo GitHub; sem teste de funcionamento.",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Nenhuma release encontrada",
+          "notes": "Somente catalogação; nenhuma instalação executada e nenhuma receita GetAll criada.",
+          "functional_installation_tested": false
+        }
+      }
     },
     "shadow-of-the-colossus-pc": {
       "game_id": "shadow-of-the-colossus",
@@ -4119,7 +4159,27 @@
       "description_status": "reviewed_pt_br",
       "description_source_url": "https://raw.githubusercontent.com/AjncSystem/ShadowOfTheColossus-PC/HEAD/README.md",
       "development_status_reported": "Port nativo do remake de PS4 com release utilizável; persistem limitações de compatibilidade, desempenho e estabilidade.",
-      "description_review_note": "Resumo editorial elaborado a partir do README, da documentação e das releases em 23/11/2026. Instalação e funcionamento não foram testados pelo All-Fix; instalação GetAll desabilitada."
+      "description_review_note": "Resumo editorial elaborado a partir do README, da documentação e das releases em 23/11/2026. Instalação e funcionamento não foram testados pelo All-Fix; instalação GetAll desabilitada.",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": null,
+          "latest_tag_observed_in_audit": null,
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Há SotC-PC.zip para Windows; necessita do dump próprio do remake de PS4.",
+          "audit_result": "Situação dos assets de release consultada pelo GitHub; sem teste de funcionamento.",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Releases e assets consultados",
+          "notes": "Somente catalogação; nenhuma instalação executada e nenhuma receita GetAll criada.",
+          "functional_installation_tested": false
+        }
+      }
     },
     "savagewindrecomp": {
       "game_id": "the-legend-of-zelda-breath-of-the-wild",
@@ -4128,7 +4188,27 @@
       "description_status": "reviewed_pt_br",
       "description_source_url": "https://raw.githubusercontent.com/revivedx/savagewindrecomp/HEAD/README.md",
       "development_status_reported": "Alfa jogável segundo o mantenedor; o README declara campanha concluível, mas alerta para bugs, travamentos e problemas acima de 30 FPS.",
-      "description_review_note": "Resumo editorial elaborado a partir do README, da documentação e das releases em 23/11/2026. Instalação e funcionamento não foram testados pelo All-Fix; instalação GetAll desabilitada."
+      "description_review_note": "Resumo editorial elaborado a partir do README, da documentação e das releases em 23/11/2026. Instalação e funcionamento não foram testados pelo All-Fix; instalação GetAll desabilitada.",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": null,
+          "latest_tag_observed_in_audit": null,
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Há ZIP Windows e AppImage Linux/Steam Deck em versão alfa; o jogo não está incluído.",
+          "audit_result": "Situação dos assets de release consultada pelo GitHub; sem teste de funcionamento.",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Releases e assets consultados",
+          "notes": "Somente catalogação; nenhuma instalação executada e nenhuma receita GetAll criada.",
+          "functional_installation_tested": false
+        }
+      }
     },
     "totk-pc-recomp": {
       "game_id": "the-legend-of-zelda-tears-of-the-kingdom",
@@ -4137,7 +4217,27 @@
       "description_status": "reviewed_pt_br",
       "description_source_url": "https://raw.githubusercontent.com/valentderah/totk-pc-recomp/HEAD/README.md",
       "development_status_reported": "Desenvolvimento inicial; o mantenedor afirma jogabilidade em Windows e Linux, com bugs visuais e travamentos esperados.",
-      "description_review_note": "Resumo editorial elaborado a partir do README, da documentação e das releases em 23/11/2026. Instalação e funcionamento não foram testados pelo All-Fix; instalação GetAll desabilitada."
+      "description_review_note": "Resumo editorial elaborado a partir do README, da documentação e das releases em 23/11/2026. Instalação e funcionamento não foram testados pelo All-Fix; instalação GetAll desabilitada.",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": null,
+          "latest_tag_observed_in_audit": null,
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Há instalador Windows e AppImage Linux em releases oficiais; o jogo não está incluído.",
+          "audit_result": "Situação dos assets de release consultada pelo GitHub; sem teste de funcionamento.",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Releases e assets consultados",
+          "notes": "Somente catalogação; nenhuma instalação executada e nenhuma receita GetAll criada.",
+          "functional_installation_tested": false
+        }
+      }
     }
   },
   "editorial_policy": "Resumos curtos dos jogos originais revisados em português brasileiro. Descrições de projetos originalmente compiladas em pesquisa anterior foram revisadas apenas quanto ao idioma e vinculadas ao README acessível; não significam validação funcional, completude nem atualidade das funcionalidades citadas."
