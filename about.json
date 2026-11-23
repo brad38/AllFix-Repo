@@ -4879,6 +4879,35 @@
           "functional_installation_tested": false
         }
       }
+    },
+    "fh1-reimagined": {
+      "game_id": "forza-horizon",
+      "fallback_name": "Forza Horizon 1: ReImagined",
+      "description_pt": "Port nativo de Forza Horizon (2012) para Windows e Linux por recompilação estática, com restauração comunitária de modos online e rankings.",
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/FH1-ReImagined/ForzaHorizon1-ReImagined/HEAD/README.md",
+      "development_status_reported": "Port ativo com releases; estado de compatibilidade e serviços online informado pelo mantenedor, sem teste do All-Fix.",
+      "description_review_note": "Adicionado como alternativa ao Pinyon Shift no mesmo jogo, sem duplicação. README consultado em 23/11/2026.",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": null,
+          "latest_tag_observed_in_audit": null,
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Launcher Windows e Linux descrito no README.",
+          "audit_result": "Sem teste funcional.",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Não auditadas individualmente",
+          "notes": "Somente catálogo.",
+          "functional_installation_tested": false
+        }
+      }
     }
   },
   "editorial_policy": "Resumos curtos dos jogos originais revisados em português brasileiro. Descrições de projetos originalmente compiladas em pesquisa anterior foram revisadas apenas quanto ao idioma e vinculadas ao README acessível; não significam validação funcional, completude nem atualidade das funcionalidades citadas."
