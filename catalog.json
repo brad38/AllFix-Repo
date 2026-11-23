@@ -2306,6 +2306,19 @@
           "windows": {
             "installation_enabled": false
           }
+        },
+        {
+          "id": "fh1-reimagined",
+          "source": {
+            "url": "https://github.com/FH1-ReImagined/ForzaHorizon1-ReImagined",
+            "provider": "github",
+            "github_repository": "FH1-ReImagined/ForzaHorizon1-ReImagined",
+            "releases_url": "https://github.com/FH1-ReImagined/ForzaHorizon1-ReImagined/releases"
+          },
+          "fallback_name": "Forza Horizon 1: ReImagined",
+          "windows": {
+            "installation_enabled": false
+          }
         }
       ]
     },
