@@ -14,3 +14,18 @@ Os dados dinâmicos de repositórios GitHub (nome, descrição, disponibilidade)
 **Compatibilidade:** o aplicativo que aceita apenas schema v3 precisa ser adaptado antes de usar a versão v4. A divisão em três arquivos é uma mudança intencional do formato de distribuição de dados.
 
 **Importante:** a auditoria original localizou seções relevantes em 99 projetos, mas não revisou manualmente todas as instruções de README/BUILDING. `verification_status=documented_in_readme` significa apenas que o trecho consta no README, não que a instalação tenha sido testada. A tradução de texto técnico completo ainda está pendente, conforme `translation_status`.
+
+## Validação do catálogo
+
+A validação local não instala jogos nem executa código dos projetos catalogados:
+
+```bash
+python -m json.tool catalog.json > /dev/null
+python -m json.tool requirements.json > /dev/null
+python -m json.tool about.json > /dev/null
+python scripts/validate_catalog.py
+```
+
+O validador confere versões de schema, IDs únicos, URLs de fonte, campos estruturais e correspondência entre jogos, projetos, requisitos e descrições. O workflow `.github/workflows/validate-catalog.yml` executa esses testes em PRs que modificam o catálogo, e verifica também espaços em branco no diff.
+
+A verificação estrutural não substitui a conferência de imagens externas, o teste de execução do jogo nem a homologação do instalador GetAll.
