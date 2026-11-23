@@ -4850,6 +4850,35 @@
           "functional_installation_tested": false
         }
       }
+    },
+    "god-of-war-recomp": {
+      "game_id": "god-of-war-2005",
+      "fallback_name": "God of War Recomp",
+      "description_pt": "Projeto independente de recompilação de God of War (2005) para PC, diferente do gow-pc-port já catalogado.",
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/KIexster/god-of-war-recomp/HEAD/README.md",
+      "development_status_reported": "Port experimental; verificar estado atual na documentação oficial.",
+      "description_review_note": "README consultado em 23/11/2026; sem testes funcionais.",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": null,
+          "latest_tag_observed_in_audit": null,
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Consultar releases oficiais.",
+          "audit_result": "Sem teste funcional.",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Não auditadas individualmente",
+          "notes": "Somente catálogo.",
+          "functional_installation_tested": false
+        }
+      }
     }
   },
   "editorial_policy": "Resumos curtos dos jogos originais revisados em português brasileiro. Descrições de projetos originalmente compiladas em pesquisa anterior foram revisadas apenas quanto ao idioma e vinculadas ao README acessível; não significam validação funcional, completude nem atualidade das funcionalidades citadas."
