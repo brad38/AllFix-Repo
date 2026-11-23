@@ -83,7 +83,8 @@ def validate() -> None:
                 require(repo_name.casefold() not in repositories,
                         f"Repositório GitHub repetido: {repo_name}")
                 repositories.add(repo_name.casefold())
-                require(valid_url(source.get("releases_url")),
+                releases_url = source.get("releases_url")
+                require(releases_url is None or valid_url(releases_url),
                         f"{pid}: releases_url inválida")
 
             require(isinstance(project.get("fallback_name"), str)
