@@ -1665,6 +1665,19 @@
           "windows": {
             "installation_enabled": false
           }
+        },
+        {
+          "id": "god-of-war-recomp",
+          "source": {
+            "url": "https://github.com/KIexster/god-of-war-recomp",
+            "provider": "github",
+            "github_repository": "KIexster/god-of-war-recomp",
+            "releases_url": "https://github.com/KIexster/god-of-war-recomp/releases"
+          },
+          "fallback_name": "God of War Recomp",
+          "windows": {
+            "installation_enabled": false
+          }
         }
       ]
     },
