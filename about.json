@@ -640,6 +640,27 @@
       "description_source_url": null,
       "review_status": "reviewed_pt_br",
       "description_type": "resumo_editorial_do_jogo"
+    },
+    "gran-turismo-4": {
+      "title": "Gran Turismo 4",
+      "description": "Simulador de automobilismo da Polyphony Digital para PlayStation 2. Reúne centenas de veículos licenciados, campeonatos, testes de licença, provas em autódromos e corridas de rua, além de modos de fotografia e gerenciamento de carreira.",
+      "description_source_url": "https://www.gran-turismo.com/us/products/gt4/",
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
+    },
+    "gran-turismo-5": {
+      "title": "Gran Turismo 5",
+      "description": "Simulador de automobilismo lançado para PlayStation 3, com modos A-Spec e B-Spec, amplo catálogo de carros e pistas, licenças, diferentes modalidades de corrida, eventos, replays e fotografia.",
+      "description_source_url": "https://www.gran-turismo.com/br/products/gt5/",
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
+    },
+    "gran-turismo-7": {
+      "title": "Gran Turismo 7",
+      "description": "Simulador de corridas da Polyphony Digital para PlayStation 4 e PlayStation 5. Inclui progressão pelo Café GT, coleção e preparação de veículos, campeonatos em circuitos, testes de licença e opções de personalização e fotografia.",
+      "description_source_url": "https://www.playstation.com/pt-br/games/gran-turismo-7/",
+      "review_status": "reviewed_pt_br",
+      "description_type": "resumo_editorial_do_jogo"
     }
   },
   "projects": {
@@ -4235,6 +4256,93 @@
           "repository": "GitHub API: OK",
           "releases": "Releases e assets consultados",
           "notes": "Somente catalogação; nenhuma instalação executada e nenhuma receita GetAll criada.",
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "gt4recomp": {
+      "game_id": "gran-turismo-4",
+      "fallback_name": "GT4Recomp",
+      "description_pt": "Port não oficial de Gran Turismo 4 para Windows x86-64 por recompilação antecipada do código de PS2. Disponibiliza launcher Windows e backend Vulkan CoreGS experimental, além do GSdx opcional; exige imagem ISO própria da versão americana compatível.",
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/moesuito/gt4-staticrecomp/HEAD/README.md",
+      "development_status_reported": "Jogável segundo o mantenedor; lançamentos Windows estáveis e versões beta disponíveis. Ainda há limitações de desempenho, vídeos, menus e compatibilidade gráfica.",
+      "description_review_note": "Informação editorial em português baseada no README, documentação técnica e releases consultados em 23/11/2026; jogabilidade informada pelo mantenedor e não testada pelo All-Fix. Nenhuma receita GetAll.",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": null,
+          "latest_tag_observed_in_audit": null,
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Há instalador EXE e ZIP portátil de Windows em GitHub Releases.",
+          "audit_result": "Artefatos observados nas releases oficiais; nenhum teste local de instalação ou execução.",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Releases oficiais consultadas",
+          "notes": "Catalogação somente; projeto não homologado pelo All-Fix e sem receita GetAll.",
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "gt5-recomp": {
+      "game_id": "gran-turismo-5",
+      "fallback_name": "GT5 Recomp",
+      "description_pt": "Port experimental para PC de Gran Turismo 5, baseado na recompilação estática de instruções PPU e SPU do PS3. No Windows utiliza Direct3D 12 para gráficos; possui instalação assistida que gera o jogo localmente a partir de arquivos do usuário.",
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/MormonFTP-hub/gt5-recomp/HEAD/README.md",
+      "development_status_reported": "Jogável no Windows segundo o mantenedor; corridas, progresso de carreira e salvamentos relatados, com desempenho variável. Linux nativo ainda experimental e sem corrida confirmada no ambiente informado.",
+      "description_review_note": "Informação editorial em português baseada no README, documentação técnica e releases consultados em 23/11/2026; jogabilidade informada pelo mantenedor e não testada pelo All-Fix. Nenhuma receita GetAll.",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": null,
+          "latest_tag_observed_in_audit": null,
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Há script GT5-Installer.bat de preparação local em GitHub Releases.",
+          "audit_result": "Artefatos observados nas releases oficiais; nenhum teste local de instalação ou execução.",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Releases oficiais consultadas",
+          "notes": "Catalogação somente; projeto não homologado pelo All-Fix e sem receita GetAll.",
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "rygt-gt7": {
+      "game_id": "gran-turismo-7",
+      "fallback_name": "RyGT",
+      "description_pt": "Port experimental para Windows da edição PlayStation 4 de Gran Turismo 7, mediante conversão do executável próprio para código x86-64 nativo e implementação de serviços do PS4. Usa renderização Vulkan pelo shadGT e um launcher compartilhado com Gran Turismo Sport.",
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/RyGT-Team/RyGT/HEAD/README.md",
+      "development_status_reported": "Projeto experimental: o antecessor ryGT7 registrou inicialização até o menu e corrida em Deep Forest. RyGT herdou essa implementação, mas a compatibilidade geral e recursos on-line não estão homologados pelo All-Fix.",
+      "description_review_note": "Informação editorial em português baseada no README, documentação técnica e releases consultados em 23/11/2026; jogabilidade informada pelo mantenedor e não testada pelo All-Fix. Nenhuma receita GetAll.",
+      "legacy_audit": {
+        "developer": null,
+        "version": {
+          "reported_by_gemini": null,
+          "latest_tag_observed_in_audit": null,
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Há pacote ZIP Windows do RyGT em GitHub Releases; exige dump PS4 próprio.",
+          "audit_result": "Artefatos observados nas releases oficiais; nenhum teste local de instalação ou execução.",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Releases oficiais consultadas",
+          "notes": "Catalogação somente; projeto não homologado pelo All-Fix e sem receita GetAll.",
           "functional_installation_tested": false
         }
       }
