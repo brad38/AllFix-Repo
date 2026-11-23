@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "catalog_version": "2026-11-22-three-files",
+  "catalog_version": "2026-11-23-five-projects",
   "language": "pt-BR",
   "requirements_file": "requirements.json",
   "about_file": "about.json",
@@ -114,6 +114,19 @@
             "releases_url": "https://github.com/HarbourMasters/Shipwright/releases"
           },
           "fallback_name": "Ship of Harkinian (SoH)",
+          "windows": {
+            "installation_enabled": false
+          }
+        },
+        {
+          "id": "hookshot-zelda-oot-port",
+          "source": {
+            "url": "https://github.com/ZuanCrisp/Zelda-OOT-Port",
+            "provider": "github",
+            "github_repository": "ZuanCrisp/Zelda-OOT-Port",
+            "releases_url": "https://github.com/ZuanCrisp/Zelda-OOT-Port/releases"
+          },
+          "fallback_name": "Hookshot",
           "windows": {
             "installation_enabled": false
           }
@@ -2590,6 +2603,106 @@
             "releases_url": "https://github.com/Wndwsqrrl/3on3NHL-recomp/releases"
           },
           "fallback_name": "3on3NHL-recomp",
+          "windows": {
+            "installation_enabled": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "grand-theft-auto-vi",
+      "title": "Grand Theft Auto VI",
+      "platform_group": "PlayStation 5 e Xbox Series X|S",
+      "category": null,
+      "cover": "https://www.levelup.com/resizer/v2/SO373M7P6NAA5D5ZRQKOBHUV4Q.jpg?auth=19bc0f398ec3b71d87f0be3bfb3182761d4b510fb2d4695dd62f1fd267d5ff5a&height=1600&quality=70&smart=true&width=1200",
+      "banner": "https://cms-assets.xboxservices.com/assets/88/46/8846e055-df41-4fc0-a3a0-67c4cd158dba.jpg?n=Grand-Theft-Auto-VI_Page-Hero-1084_1920x720.jpg",
+      "screenshots": [],
+      "featured": false,
+      "projects": [
+        {
+          "id": "leonida",
+          "source": {
+            "url": "https://github.com/ItsNotRexed/Leonida",
+            "provider": "github",
+            "github_repository": "ItsNotRexed/Leonida",
+            "releases_url": "https://github.com/ItsNotRexed/Leonida/releases"
+          },
+          "fallback_name": "Leonida",
+          "windows": {
+            "installation_enabled": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "shadow-of-the-colossus",
+      "title": "Shadow of the Colossus",
+      "platform_group": "PlayStation 4",
+      "category": null,
+      "cover": "https://images.igdb.com/igdb/image/upload/t_1080p/cobmel.jpg",
+      "banner": "https://image.api.playstation.com/vulcan/img/rnd/202010/2823/3fmAofanbWidiCgBeUAmAPWe.png",
+      "screenshots": [],
+      "featured": false,
+      "projects": [
+        {
+          "id": "shadow-of-the-colossus-pc",
+          "source": {
+            "url": "https://github.com/AjncSystem/ShadowOfTheColossus-PC",
+            "provider": "github",
+            "github_repository": "AjncSystem/ShadowOfTheColossus-PC",
+            "releases_url": "https://github.com/AjncSystem/ShadowOfTheColossus-PC/releases"
+          },
+          "fallback_name": "Shadow of the Colossus PC",
+          "windows": {
+            "installation_enabled": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "the-legend-of-zelda-breath-of-the-wild",
+      "title": "The Legend of Zelda: Breath of the Wild",
+      "platform_group": "Nintendo Switch e Wii U",
+      "category": null,
+      "cover": "https://www.cubed3.com/wp-content/uploads/2025/03/the-legend-of-zelda-breath-of-the-wild-cover-box-art.jpg",
+      "banner": "https://cdn2.steamgriddb.com/grid/de6463ab48a09fdbacec5692b14de598.png",
+      "screenshots": [],
+      "featured": false,
+      "projects": [
+        {
+          "id": "savagewindrecomp",
+          "source": {
+            "url": "https://github.com/revivedx/savagewindrecomp",
+            "provider": "github",
+            "github_repository": "revivedx/savagewindrecomp",
+            "releases_url": "https://github.com/revivedx/savagewindrecomp/releases"
+          },
+          "fallback_name": "Savage Wind Recomp",
+          "windows": {
+            "installation_enabled": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "the-legend-of-zelda-tears-of-the-kingdom",
+      "title": "The Legend of Zelda: Tears of the Kingdom",
+      "platform_group": "Nintendo Switch",
+      "category": null,
+      "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/104362-1.jpg",
+      "banner": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/2x1_NSwitch_TloZTearsOfTheKingdom_Gamepage_image1600w.jpg",
+      "screenshots": [],
+      "featured": false,
+      "projects": [
+        {
+          "id": "totk-pc-recomp",
+          "source": {
+            "url": "https://github.com/valentderah/totk-pc-recomp",
+            "provider": "github",
+            "github_repository": "valentderah/totk-pc-recomp",
+            "releases_url": "https://github.com/valentderah/totk-pc-recomp/releases"
+          },
+          "fallback_name": "TotK Recomp",
           "windows": {
             "installation_enabled": false
           }
