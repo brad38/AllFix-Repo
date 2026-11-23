@@ -4633,6 +4633,48 @@
       "legacy_reported_pt": "",
       "translation_method": "editorial_summary_from_readme",
       "translation_reviewed_by_human": false
+    },
+    "fh1-reimagined": {
+      "game_id": "forza-horizon",
+      "verification_status": "documented_in_readme",
+      "source_url": "https://raw.githubusercontent.com/FH1-ReImagined/ForzaHorizon1-ReImagined/HEAD/README.md",
+      "verified_at": "2026-11-23",
+      "system": "Windows ou Linux; requisitos detalhados no README oficial, ainda não homologados pelo All-Fix.",
+      "installation": "Baixar o launcher oficial e fornecer os arquivos de uma cópia própria de Forza Horizon de Xbox 360. Instalação GetAll desabilitada.",
+      "build": "Recompilação estática da versão Xbox 360 para PC; launcher prepara o executável a partir dos arquivos originais.",
+      "general": "Inclui multiplayer comunitário Horizon World, leaderboards e Rivals. Compatibilidade e funcionamento não foram testados pelo All-Fix.",
+      "source_text": {
+        "system": "## Requirements\n\n- Windows 10/11 64-bit, or Linux x86-64. Windows can use Vulkan or Direct3D 12. Linux uses Vulkan. Vulkan 1.3 is what the Vulkan path asks for.\n- About 4 GB of free RAM while playing (the game peaks near 1.1 GB). A build needs more: about 2 GB at 4 jobs, about 3.2 GB at 8. About 15 GB of disk. [`docs/launcher.md`](docs/launcher.md)\n- Your own copy of Forza Horizon: a disc image, a Games on Demand package, or an extracted folder. Title Update 4 and DLC are optional. TU4 is what you want for Horizon Rally and the 1000 Club.\n- A controller, a keyboard and mouse, or a wheel.\n\n> [!IMPORTANT]\n> **macOS is a source-build experiment.** The launcher does not support macOS, and there is no Mac download.\n> Opening drives render on Apple Silicon. Full races, save reloads and physical controllers still need validation.\n> [macOS setup and limits](docs/macos.md)\n",
+        "installation": "## Install with the launcher\n\nThis is the way to install. The launcher builds the game on your machine from your own files. Nothing of the game is downloaded.\n\n1. Get the launcher from the [latest release](https://github.com/FH1-ReImagined/ForzaHorizon1-ReImagined/releases/latest). On Windows, the installer. On Linux, the Flatpak (recommended on SteamOS) or the `.tar.gz`. From v0.1.9 onward the launcher checks for updates itself (**About > Launcher updates**).\n   The Flatpak is `flatpak install --user ForzaHorizon1-ReImagined-x86_64.flatpak`. It pulls the freedesktop SDK runtime from Flathub. Install the compiler extension once, or the launcher downloads a 2 GB compiler instead and tells you so:\n\n   ```sh\n   flatpak install flathub org.freedesktop.Sdk.Extension.llvm22//26.08\n   ```\n\n   **On SteamOS (Steam Deck):** in Desktop Mode, download the `.flatpak` and open it in Dolphin (Discover installs it) or run the command above, install the compiler extension, then in Steam choose **Games > Add a Non-Steam Game to My Library** and pick **Forza Horizon 1: ReImagined**. It then starts from Game Mode. [`docs/steam_deck.md`](docs/steam_deck.md)\n\n2. In Setup, **Game files**: your disc image, Games on Demand package, or an extracted folder. **Updates & DLC**: Title Update 4 and your DLC folder, if you have them.\n3. **Build.** The launcher generates the game from your copy and compiles it. A measured build at 4 jobs on an 8-core PC took about 4.6 minutes ([`docs/launcher.md`](docs/launcher.md)). It can be cancelled and resumed, and it runs again only when something changed.\n4. **Prebuild shaders** (optional, Vulkan). This builds pipelines from your own game files before you play, so the first visit to a place stutters less. The launcher offers it again after a driver, launcher or graphics-setting change. [`docs/shader_prebuild.md`](docs/shader_prebuild.md)\n5. **Play.** Settings cover display, controls, audio, online, profile and advanced options. **Saves** is the backup and profile editor.\n\nDetails: [`docs/launcher.md`](docs/launcher.md).\n\nTo verify a download when its release includes `SHA256SUMS`, download that file from the\nsame release. On Windows, run `certutil -hashfile .\\YourDownloadedSetup.exe SHA256` or, in\nPowerShell, `Get-FileHash .\\YourDownloadedSetup.exe -Algorithm SHA256`, and compare the hash with\nthe matching filename in `SHA256SUMS` ([details](docs/launcher.md#verify-your-download)).\nOn Linux, put both files in the same folder and run\n`sha256sum --ignore-missing -c SHA256SUMS`. A match confirms the downloaded bytes match\nthe published checksum; it does not certify that the program is safe or code-signed.\n\nWindows releases also include `ForzaHoriz",
+        "build": "## Building from source\n\nFor developers. Players should use the launcher.\n\nLinux configure and the pinned SDK are in [`docs/PROJECT.md`](docs/PROJECT.md). Title Update 4 is in [`docs/dlc.md`](docs/dlc.md). The Windows cross-compile is `tools/build_windows.sh` ([`docs/launcher.md`](docs/launcher.md)). macOS is [`docs/macos.md`](docs/macos.md), ARM64 Linux [`docs/arm64_linux.md`](docs/arm64_linux.md). Android is only a study so far, with no build: [`docs/android-port.md`](docs/android-port.md). A source tree launches with `tools/play.sh` ([`docs/playing.md`](docs/playing.md)).\n",
+        "general": "<p align=\"center\">\n  <img src=\"docs/images/logo.svg\" alt=\"Forza Horizon 1: ReImagined logo\" width=\"160\">\n</p>\n\n<h1 align=\"center\">Forza Horizon 1: ReImagined</h1>\n\n<p align=\"center\">\n  <b>The original 2012 Forza Horizon, recompiled to run natively on Windows and Linux, and online again.</b>\n</p>\n\n<p align=\"center\">\n  The official online services closed on 22 August 2023\n  (<a href=\"https://forza.net/news/forza-horizon-online-services-closure\">Turn 10's notice</a>).\n  ReImagined is a static recompilation (recomp) of the Xbox 360 game: it runs natively on your PC and brings online play back through a public server,\n  or one you host yourself. You bring your own copy; no game code or data is included.\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/FH1-ReImagined/ForzaHorizon1-ReImagined/releases/latest\"><img alt=\"Latest release\" src=\"https://img.shields.io/github/v/release/FH1-ReImagined/ForzaHorizon1-ReImagined\"></a>\n  <a href=\"https://github.com/FH1-ReImagined/ForzaHorizon1-ReImagined/releases\"><img alt=\"Total downloads\" src=\"https://img.shields.io/github/downloads/FH1-ReImagined/ForzaHorizon1-ReImagined/total\"></a>\n  <a href=\"LICENSE\"><img alt=\"License: GPL-3.0-or-later\" src=\"https://img.shields.io/badge/license-GPL--3.0--or--later-blue\"></a>\n  <a href=\"https://discord.gg/yu7zScdcWw\"><img alt=\"Discord\" src=\"https://img.shields.io/discord/1560035448125137099?logo=discord&logoColor=white&label=Discord\"></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/FH1-ReImagined/ForzaHorizon1-ReImagined/releases/latest\"><img alt=\"Download the launcher\" src=\"https://img.shields.io/badge/Download-the%20launcher-e8964f?style=for-the-badge\"></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://forza.dyotson.dev\">Website</a> ·\n  <a href=\"https://discord.gg/yu7zScdcWw\">Discord</a> ·\n  <a href=\"https://forza.dyotson.dev/leaderboards.html\">Leaderboards</a>\n</p>\n\n<p align=\"center\">\n  The launcher is a Windows installer, a Linux Flatpak or a Linux <code>.tar.gz</code>.\n  It upd"
+      },
+      "evidence": [
+        {
+          "category": "system",
+          "heading": "README oficial",
+          "source_url": "https://raw.githubusercontent.com/FH1-ReImagined/ForzaHorizon1-ReImagined/HEAD/README.md"
+        },
+        {
+          "category": "installation",
+          "heading": "README oficial",
+          "source_url": "https://raw.githubusercontent.com/FH1-ReImagined/ForzaHorizon1-ReImagined/HEAD/README.md"
+        },
+        {
+          "category": "build",
+          "heading": "README oficial",
+          "source_url": "https://raw.githubusercontent.com/FH1-ReImagined/ForzaHorizon1-ReImagined/HEAD/README.md"
+        },
+        {
+          "category": "general",
+          "heading": "README oficial",
+          "source_url": "https://raw.githubusercontent.com/FH1-ReImagined/ForzaHorizon1-ReImagined/HEAD/README.md"
+        }
+      ],
+      "translation_status": "pending_human_review",
+      "legacy_reported_pt": "",
+      "translation_method": "editorial_summary_from_readme",
+      "translation_reviewed_by_human": false
     }
   },
   "translation_note": "Conte?do em portugu?s obtido por tradu??o autom?tica resumida dos trechos de README. N?o houve revis?o humana integral. Nomes de arquivos e comandos devem ser conferidos na documenta??o oficial antes de executar."
