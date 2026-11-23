@@ -2622,10 +2622,10 @@
         {
           "id": "leonida",
           "source": {
-            "url": "https://github.com/ItsNotRexed/Leonida",
+            "url": "https://github.com/ProjectLeonida/Leonida",
             "provider": "github",
-            "github_repository": "ItsNotRexed/Leonida",
-            "releases_url": "https://github.com/ItsNotRexed/Leonida/releases"
+            "github_repository": "ProjectLeonida/Leonida",
+            "releases_url": "https://github.com/ProjectLeonida/Leonida/releases"
           },
           "fallback_name": "Leonida",
           "windows": {
