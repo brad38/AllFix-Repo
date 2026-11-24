@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "catalog_version": "2026-11-23-new-native-ports",
+  "catalog_version": "2026-11-23-console-categories-curated",
   "language": "pt-BR",
   "requirements_file": "requirements.json",
   "about_file": "about.json",
