@@ -4469,11 +4469,11 @@
     "god-of-war-recomp": {
       "game_id": "god-of-war-2005",
       "fallback_name": "God of War Recomp",
-      "description_pt": "Projeto independente de recompilação de God of War (2005) para PC, diferente do gow-pc-port já catalogado.",
+      "description_pt": "Recompilação nativa experimental de God of War (2005) para Windows, distinta do gow-pc-port existente, com processo de build a partir do disco PS2 NTSC-U.",
       "description_status": "reviewed_pt_br",
       "description_source_url": "https://raw.githubusercontent.com/KIexster/god-of-war-recomp/HEAD/README.md",
-      "development_status_reported": "Port experimental; verificar estado atual na documentação oficial.",
-      "description_review_note": "README consultado em 23/11/2026; sem testes funcionais.",
+      "development_status_reported": "Recompilação experimental com foco na construção e compatibilidade do runtime; sem homologação do jogo completo.",
+      "description_review_note": "Resumo técnico/editorial revisto em 23/11/2026 a partir do README oficial; as alegações de jogabilidade e desempenho são do mantenedor, sem teste independente ou receita GetAll.",
       "legacy_audit": {
         "developer": null,
         "version": {
@@ -4498,11 +4498,11 @@
     "fh1-reimagined": {
       "game_id": "forza-horizon",
       "fallback_name": "Forza Horizon 1: ReImagined",
-      "description_pt": "Port nativo de Forza Horizon (2012) para Windows e Linux por recompilação estática, com restauração comunitária de modos online e rankings.",
+      "description_pt": "Recompilação estática de Forza Horizon (2012) de Xbox 360 para Windows e Linux, com servidor comunitário opcional de multiplayer e rankings; segundo port ao lado do Pinyon Shift.",
       "description_status": "reviewed_pt_br",
       "description_source_url": "https://raw.githubusercontent.com/FH1-ReImagined/ForzaHorizon1-ReImagined/HEAD/README.md",
-      "development_status_reported": "Port ativo com releases; estado de compatibilidade e serviços online informado pelo mantenedor, sem teste do All-Fix.",
-      "description_review_note": "Adicionado como alternativa ao Pinyon Shift no mesmo jogo, sem duplicação. README consultado em 23/11/2026.",
+      "development_status_reported": "Port com corridas e serviços online comunitários declarados; problemas de desempenho e compatibilidade em desenvolvimento.",
+      "description_review_note": "Resumo técnico/editorial revisto em 23/11/2026 a partir do README oficial; as alegações de jogabilidade e desempenho são do mantenedor, sem teste independente ou receita GetAll.",
       "legacy_audit": {
         "developer": null,
         "version": {
@@ -4527,11 +4527,11 @@
     "lasrecomp": {
       "game_id": "the-legend-of-zelda-link-s-awakening",
       "fallback_name": "LAS Recomp",
-      "description_pt": "Recompilação estática de Link's Awakening para Windows e outras plataformas.",
+      "description_pt": "Recompilação estática de The Legend of Zelda: Link's Awakening (edição Nintendo Switch de 2019) para Windows, Linux, macOS e plataformas móveis.",
       "description_status": "reviewed_pt_br",
       "description_source_url": "https://raw.githubusercontent.com/peiikai/LASRecomp/HEAD/README.md",
-      "development_status_reported": "Projeto de port não oficial; jogabilidade e limitações a confirmar na documentação atual do mantenedor.",
-      "description_review_note": "README consultado em 23/11/2026; sem teste de execução e sem receita GetAll.",
+      "development_status_reported": "Beta de desenvolvimento com suporte multiplataforma e bugs visuais ainda abertos.",
+      "description_review_note": "Resumo técnico/editorial revisto em 23/11/2026 a partir do README oficial; as alegações de jogabilidade e desempenho são do mantenedor, sem teste independente ou receita GetAll.",
       "legacy_audit": {
         "developer": null,
         "version": {
@@ -4556,11 +4556,11 @@
     "super-odyssey-pc-recomp": {
       "game_id": "super-mario-odyssey",
       "fallback_name": "Super Odyssey PC Recomp",
-      "description_pt": "Port nativo de Super Mario Odyssey para Windows e Linux.",
+      "description_pt": "Recompilação estática de Super Mario Odyssey para Windows, Linux e Steam Deck, com preparação local a partir das versões 1.0.0 e 1.4.1 do Switch.",
       "description_status": "reviewed_pt_br",
       "description_source_url": "https://raw.githubusercontent.com/Simon3Sarkis/super-odyssey-pc-recomp/HEAD/README.md",
-      "development_status_reported": "Projeto de port não oficial; jogabilidade e limitações a confirmar na documentação atual do mantenedor.",
-      "description_review_note": "README consultado em 23/11/2026; sem teste de execução e sem receita GetAll.",
+      "development_status_reported": "Port com releases e gameplay relatado, mas otimizações e correções de estabilidade permanecem em andamento.",
+      "description_review_note": "Resumo técnico/editorial revisto em 23/11/2026 a partir do README oficial; as alegações de jogabilidade e desempenho são do mantenedor, sem teste independente ou receita GetAll.",
       "legacy_audit": {
         "developer": null,
         "version": {
@@ -4585,11 +4585,11 @@
     "god-hand-rearmed": {
       "game_id": "god-hand",
       "fallback_name": "God Hand: Rearmed",
-      "description_pt": "Port de God Hand para Windows por recompilação estática.",
+      "description_pt": "Port Windows de God Hand (PS2) por recompilação estática, com melhorias de controle e apresentação e necessidade de ISO própria dos EUA.",
       "description_status": "reviewed_pt_br",
       "description_source_url": "https://raw.githubusercontent.com/God-Hand-Rearmed/God-Hand-Rearmed/HEAD/README.md",
-      "development_status_reported": "Projeto de port não oficial; jogabilidade e limitações a confirmar na documentação atual do mantenedor.",
-      "description_review_note": "README consultado em 23/11/2026; sem teste de execução e sem receita GetAll.",
+      "development_status_reported": "Beta com campanha completa segundo a documentação, sujeita a falhas conhecidas.",
+      "description_review_note": "Resumo técnico/editorial revisto em 23/11/2026 a partir do README oficial; as alegações de jogabilidade e desempenho são do mantenedor, sem teste independente ou receita GetAll.",
       "legacy_audit": {
         "developer": null,
         "version": {
@@ -4614,11 +4614,11 @@
     "gta-stories-recompiled": {
       "game_id": "grand-theft-auto-liberty-city-stories-vice-city-stories",
       "fallback_name": "GTA Stories Recompiled",
-      "description_pt": "Recompilação estática dos dois jogos GTA Stories de PS2 para PC.",
+      "description_pt": "Port nativo por recompilação de GTA Liberty City Stories e Vice City Stories de PS2, com launcher comum e modo experimental que conecta os dois cenários.",
       "description_status": "reviewed_pt_br",
       "description_source_url": "https://raw.githubusercontent.com/batinium/gta-stories-recompiled/HEAD/README.md",
-      "development_status_reported": "Projeto de port não oficial; jogabilidade e limitações a confirmar na documentação atual do mantenedor.",
-      "description_review_note": "README consultado em 23/11/2026; sem teste de execução e sem receita GetAll.",
+      "development_status_reported": "Port experimental com missões iniciais e veículos funcionando; conclusão integral da campanha não confirmada.",
+      "description_review_note": "Resumo técnico/editorial revisto em 23/11/2026 a partir do README oficial; as alegações de jogabilidade e desempenho são do mantenedor, sem teste independente ou receita GetAll.",
       "legacy_audit": {
         "developer": null,
         "version": {
@@ -4643,11 +4643,11 @@
     "spartanport": {
       "game_id": "god-of-war-iii-remastered",
       "fallback_name": "SpartanPort",
-      "description_pt": "Port de God of War III Remastered de PS4 para Windows e Linux.",
+      "description_pt": "Port para PC da edição PlayStation 4 de God of War III Remastered, com launcher, opções gráficas e arquivos do próprio PS4 do usuário.",
       "description_status": "reviewed_pt_br",
       "description_source_url": "https://raw.githubusercontent.com/FelipePrado0/SpartanPort/HEAD/README.md",
-      "development_status_reported": "Projeto de port não oficial; jogabilidade e limitações a confirmar na documentação atual do mantenedor.",
-      "description_review_note": "README consultado em 23/11/2026; sem teste de execução e sem receita GetAll.",
+      "development_status_reported": "Port com campanha completa segundo o mantenedor; Linux experimental e desempenho variável.",
+      "description_review_note": "Resumo técnico/editorial revisto em 23/11/2026 a partir do README oficial; as alegações de jogabilidade e desempenho são do mantenedor, sem teste independente ou receita GetAll.",
       "legacy_audit": {
         "developer": null,
         "version": {
@@ -4672,11 +4672,11 @@
     "tlg-pc": {
       "game_id": "the-last-guardian",
       "fallback_name": "The Last Guardian PC",
-      "description_pt": "Port nativo de The Last Guardian para PC.",
+      "description_pt": "Port nativo de The Last Guardian (PS4) para Linux e Windows, com suporte a controles e saves; requer jogo atualizado e módulos oficiais do firmware do próprio usuário.",
       "description_status": "reviewed_pt_br",
       "description_source_url": "https://raw.githubusercontent.com/HayatoG/tlg_pc/HEAD/README.md",
-      "development_status_reported": "Projeto de port não oficial; jogabilidade e limitações a confirmar na documentação atual do mantenedor.",
-      "description_review_note": "README consultado em 23/11/2026; sem teste de execução e sem receita GetAll.",
+      "development_status_reported": "Testado em Linux com progresso de gameplay e saves; build Windows ainda sem teste em jogo informado.",
+      "description_review_note": "Resumo técnico/editorial revisto em 23/11/2026 a partir do README oficial; as alegações de jogabilidade e desempenho são do mantenedor, sem teste independente ou receita GetAll.",
       "legacy_audit": {
         "developer": null,
         "version": {
@@ -4701,11 +4701,11 @@
     "iss-pc": {
       "game_id": "infamous-second-son",
       "fallback_name": "inFAMOUS Second Son PC",
-      "description_pt": "Port experimental de inFAMOUS Second Son para PC.",
+      "description_pt": "Port experimental de inFAMOUS Second Son (PS4) para Windows e Linux com launcher, sensores de movimento simuláveis e suporte a controle.",
       "description_status": "reviewed_pt_br",
       "description_source_url": "https://raw.githubusercontent.com/hayatog/iss_pc/HEAD/README.md",
-      "development_status_reported": "Projeto de port não oficial; jogabilidade e limitações a confirmar na documentação atual do mantenedor.",
-      "description_review_note": "README consultado em 23/11/2026; sem teste de execução e sem receita GetAll.",
+      "development_status_reported": "Gameplay parcial confirmado no README até Go to Longhouse; desempenho e estabilidade em desenvolvimento.",
+      "description_review_note": "Resumo técnico/editorial revisto em 23/11/2026 a partir do README oficial; as alegações de jogabilidade e desempenho são do mantenedor, sem teste independente ou receita GetAll.",
       "legacy_audit": {
         "developer": null,
         "version": {
@@ -4730,11 +4730,11 @@
     "pt-pc": {
       "game_id": "pt",
       "fallback_name": "P.T. for PC",
-      "description_pt": "Port nativo do teaser P.T. para PC.",
+      "description_pt": "Port de P.T., teaser de terror lançado para PS4 em 2014, para Windows, Linux e macOS com uso dos arquivos do console do próprio jogador.",
       "description_status": "reviewed_pt_br",
       "description_source_url": "https://raw.githubusercontent.com/LoreanXavier/pt-pc/HEAD/README.md",
-      "development_status_reported": "Projeto de port não oficial; jogabilidade e limitações a confirmar na documentação atual do mantenedor.",
-      "description_review_note": "README consultado em 23/11/2026; sem teste de execução e sem receita GetAll.",
+      "development_status_reported": "Distribuição de PC existente, com requisitos de dump PS4 e compatibilidade regional limitada ao que o mantenedor testou.",
+      "description_review_note": "Resumo técnico/editorial revisto em 23/11/2026 a partir do README oficial; as alegações de jogabilidade e desempenho são do mantenedor, sem teste independente ou receita GetAll.",
       "legacy_audit": {
         "developer": null,
         "version": {
