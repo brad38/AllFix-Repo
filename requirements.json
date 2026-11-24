@@ -3878,6 +3878,251 @@
       "translation_method": "automatic_machine_translation",
       "translation_reviewed_by_human": false
     },
+    "gt4recomp": {
+      "game_id": "gran-turismo-4",
+      "verification_status": "documented_in_readme",
+      "source_url": "https://raw.githubusercontent.com/moesuito/gt4-staticrecomp/HEAD/README.md",
+      "verified_at": "2026-11-23",
+      "system": "Windows 10 ou 11 de 64 bits; processador com SSE4.1; placa gráfica e driver com Vulkan 1.2 para o CoreGS 2.0, com Direct3D 11 disponível pelo backend GSdx em placas antigas. RAM, VRAM e espaço mínimos oficiais não especificados no README.",
+      "installation": "É exigida uma imagem ISO original própria de Gran Turismo 4 EUA v2.00 (SCUS-97328); o mod Spec II, se utilizado, precisa da imagem Spec II 1.10. Baixar o instalador GT4Recomp-Setup ou ZIP portátil na página Releases, abrir o launcher, selecionar a ISO, deixar preparar jogo e shaders e iniciar. O projeto não distribui os arquivos do jogo.",
+      "build": "O executável de jogo utiliza recompilação estática antecipada do código EE, VU0 e VU1 do PS2 e serviços de sistema nativos, mas reproduz componentes de hardware em software. Para compilar a partir do código-fonte, o guia docs/BUILD.md menciona Windows x86-64, VS2022, Windows SDK, clang-cl, CMake, Ninja, Rust e ferramentas auxiliares, além de artefatos privados de referência; não está comprovado um build reproduzível completo usando apenas checkout público.",
+      "general": "Jogabilidade e 60 FPS são alegados pelo desenvolvedor, não testados pelo All-Fix. A beta CoreGS pode apresentar queda de FPS em cenas movimentadas, problemas com drivers AMD e elementos de vídeo indisponíveis; GSdx pode servir de alternativa. Linux e Android aparecem apenas no planejamento, não como plataformas prontas. Releases contêm instalador/ZIP para Windows; nenhum jogo ou imagem ISO incluído.",
+      "source_text": {
+        "system": "## Requirements\n\n- **Windows 10 or 11, 64-bit**, and a **processor with SSE4.1** (Intel Core i3/i5/i7, AMD FX or newer).\n- **A graphics card with Vulkan 1.2** and current drivers for CoreGS 2.0 (GSdx can also use Direct3D 11 on older cards).\n- **Your own disc image** of Gran Turismo 4 USA v2.00 (SCUS-97328), and of Spec II 1.10 for the mod, as a plain `.iso`.\n  The launcher reads the image where you keep it; it is not copied.\n\nThe launcher checks the processor and the graphics card before setup and before Play, and says what is missing.",
+        "installation": "## Install\n\n1. Download the installer (**`GT4Recomp-Setup-<version>.exe`**) or the portable zip from\n   [Releases](https://github.com/moesuito/gt4-staticrecomp/releases): the latest release for Stable, or the newest\n   pre-release for Beta.\n2. Start **GT4Recomp** and choose your disc image. The launcher checks it, prepares the game and its shaders.\n3. Press **Play**.\n\nUpdates install from the launcher. Your settings, saves and replays are kept per Windows user in `%APPDATA%\\GT4Recomp`\n(the portable build keeps them in its own folder). Building from source needs your own game files and a development\nenvironment: see the [Build guide](docs/BUILD.md).\n\n### Controls\n\nControllers work out of the box with the DualShock 2 layout (analog triggers with pressure for throttle and brake) and\ncan be remapped in the launcher (Settings > Controls). The keyboard has a fixed layout:\n\n| Key | Action (PS2 button) |\n|---|---|\n| W · Enter | Accelerate, confirm (Cross) |\n| S | Brake (Square) |\n| Space | Handbrake (Circle) |\n| A · D · arrow keys | Steer, navigate (D-pad) |\n| Backspace · Esc | Back (Triangle) |\n| Shift | Nitro (R1) |\n| R · F | Gear up · gear down (R2 · L2) |\n| Q | Look back (L1) |\n| C · Tab | Camera (Select) |\n| P | Start / Pause |\n| Alt+Enter, F11 | Borderless fullscreen |",
+        "build": "## How it works\n\nThe EE game code is translated ahead of time into C++ and compiled for x86-64. The VU1 microcode, stored encrypted\ninside the executable, is recovered and compiled offline and verified against a reference interpreter; the VU0\nmicroprograms are compiled the same way. IOP system services are native, and frames are paced by one high-resolution\nclock. This is a **hybrid recompilation**: PS2 hardware is still modelled in software, so we do not claim zero emulation\nor full PS2 fidelity. Details: [Architecture](docs/ARCHITECTURE.md).",
+        "general": "## Known issues\n\n- **Busy driving views on laptop processors (CoreGS 2.0):** the player's view with the HUD and the rear-view mirror can\n  drop below 60 FPS on mid-range laptops (the first license, some city tracks). The cause is known (palette changes split\n  the drawing into too many batches) and the fix is planned for the next release candidate.\n- **Photo mode on slower graphics cards (CoreGS 2.0):** frame times can be uneven.\n- **Some AMD Radeon RX 5000/6000 drivers closed the game while CoreGS 2.0 prepared its shaders.** 1.3.0-rc14 guards\n  against it; GSdx works on those PCs.\n- **Some license demos and menu backgrounds do not play**; every license test is playable\n  ([why](docs/LICENSE-DEMO-CIPHER.md)).\n- **Spec II:** only images with Spec II 1.10's game code are supported; earlier Spec II releases are refused.\n- Menus, movies and photo mode stay 16:9 (pillarboxed) at other aspect ratios.\n- The installer is not code-signed: Windows SmartScreen may warn on the first start (\"More info\", \"Run anyway\").\n- Most testing was on an AMD graphics card; NVIDIA and Intel cards have had less testing."
+      },
+      "evidence": [
+        {
+          "category": "system",
+          "heading": "Requirements",
+          "source_url": "https://raw.githubusercontent.com/moesuito/gt4-staticrecomp/HEAD/README.md"
+        },
+        {
+          "category": "installation",
+          "heading": "Install",
+          "source_url": "https://raw.githubusercontent.com/moesuito/gt4-staticrecomp/HEAD/README.md"
+        },
+        {
+          "category": "build",
+          "heading": "How it works",
+          "source_url": "https://raw.githubusercontent.com/moesuito/gt4-staticrecomp/HEAD/README.md"
+        },
+        {
+          "category": "general",
+          "heading": "Known issues",
+          "source_url": "https://raw.githubusercontent.com/moesuito/gt4-staticrecomp/HEAD/README.md"
+        },
+        {
+          "category": "build",
+          "heading": "Current Path Build Guide",
+          "source_url": "https://github.com/moesuito/gt4-staticrecomp/blob/main/docs/BUILD.md"
+        },
+        {
+          "category": "general",
+          "heading": "Architecture",
+          "source_url": "https://github.com/moesuito/gt4-staticrecomp/blob/main/docs/ARCHITECTURE.md"
+        }
+      ],
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
+    },
+    "gt5-recomp": {
+      "game_id": "gran-turismo-5",
+      "verification_status": "documented_in_readme",
+      "source_url": "https://raw.githubusercontent.com/MormonFTP-hub/gt5-recomp/HEAD/README.md",
+      "verified_at": "2026-11-23",
+      "system": "Windows 10 ou 11 de 64 bits e GPU com Direct3D 12; CPU com AVX2 e 16 GB de RAM para a primeira compilação. Aproximadamente 25 GB livres em Windows. Linux x86-64 experimental requer FFmpeg 6.1+, driver Vulkan compatível, dependências de compilação e cerca de 30 GB livres. Não há mínimo oficial separado para VRAM ou desempenho do jogo.",
+      "installation": "Requer cópia própria de Gran Turismo 5 para PS3 (BCES00569, BCUS98114 ou BCAS20108), dumpeada como pasta com PS3_GAME ou ISO, e firmware PS3 oficial PS3UPDAT.PUP. O instalador oficial GT5-Installer.bat baixa o código e ferramentas, prepara/decripta localmente o executável e compila gt5.exe; não distribui o jogo. Versão de disco APP_VER 01.00 documentada; atualizações 2.01 e 2.17 possuem testes específicos, devendo usar EBOOT e dados correspondentes da atualização.",
+      "build": "Recompilação estática para C++ dos programas PowerPC/PPU e SPU, com runtime próprio de serviços do PS3 e renderização RSX via Direct3D 12. O instalador configura Git/Python e toolchain portátil, aproximadamente 1,5 GB de ferramentas; desenvolvimento manual por setup.ps1. A compilação inicial pode levar cerca de uma hora conforme o README; não requer instalação global do Visual Studio se o toolchain portátil for usado.",
+      "general": "STATUS.md atualizado em 23/11/2026 relata corridas entre 45 e 58 FPS em PC de teste potente, com modos A-Spec/B-Spec, licenças, replays e saves. Esse resultado não é um requisito mínimo nem garantia para outros PCs. Direct3D 12 é o backend mais desenvolvido; Vulkan e Linux permanecem experimentais. A release oferece o script de instalação, não um pacote do jogo pronto nem uma ISO.",
+      "source_text": {
+        "system": "## 🧰 Requirements\n\n- **Windows:** Windows 10 or 11 (x64) and a Direct3D 12 graphics card. The compiler is the\n  [standalone tools](#no-visual-studio) (what the installer fetches), or a Visual Studio 2022 you already\n  have with *Desktop development with C++*, *C++ Clang tools for Windows* and a Windows SDK.\n- **Linux (experimental):** an x86-64 distribution with FFmpeg 6.1 or newer (such as Ubuntu 24.04\n  or Linux Mint 22), and a Vulkan-compatible GPU with a Vulkan driver. Follow the\n  [Linux setup](#linux) to install build dependencies and prepare the game.\n- An AVX2-capable CPU and 16 GB of RAM for the first build.\n- Git and Python are not needed: `setup.ps1` fetches the port's own copies into `tools\\git` (MinGit,\n  only when the PC has no Git) and `tools\\python` (python.org's 3.11.9, 17 MB) and runs every tool on\n  them; nothing is installed in Windows.\n- About 25 GB free on Windows or 30 GB on Linux, including about 17 GB of game files.\n- Your own GT5 disc (BCES00569, BCUS98114 or BCAS20108) and the means to dump it, and\n  [RPCS3](https://rpcs3.net/download) to install PS3 firmware and decrypt the game's executable.\n\n<a id=\"pc-check\"></a>\n\n### A processor that calculates wrongly\n\nThe game is built on your PC by long calculations, and they assume every processor gives the right\nanswer. On some PCs one or two logical processors don't (seen on a 14th generation Intel desktop\nprocessor: two of its 28 failed a fixed job most of the time, the other 26 never). The signs are tools\nstopping with errors that make no sense, compiler crashes, or a game that misbehaves.\n\nSetup checks for this before it generates and builds the game: a small fixed job runs on every\nprocessor, and any processor that gives an error or a different result is left out of the whole install.\nYou are told which. The result is kept for 30 days in `.gt5\\pc-check.json`. To run the check by hand:\n\n```\npowershell -ExecutionPolicy Bypass -File pc-check.ps1\n```\n\nLeaving processors out gets the game built, but the PC still has the fault, and other programs (and the\ngame itself) can hit it. What usually cures it: the newest BIOS for your motherboard (for Intel 13th and\n14th generation processors it carries Intel's fix), the processor maker's default settings in the BIOS\ninstead of the motherboard's \"performance\" ones, memory at its standard speed, and current drivers.\n\n<a id=\"no-visual-studio\"></a>\n\n### No Visual Studio needed\n\n`GT5-Installer.bat` never installs or changes Visual Studio. When the PC has no Visual Studio with the\nClang tools and a Windows SDK, it runs `get-toolchain.ps1`, which puts the same compiler tools in the\ninstall folder (`tools\\toolchain`). By hand, the script puts them in one folder you choose, on any drive.\nIn the `gt5-recomp` folder, in PowerShell:\n\n```\npowershell -ExecutionPolicy Bypass -File get-toolchain.ps1\n```\n\n- It suggests a `toolchain` folder next to `gt5-recomp`. Type another folder to put it somewhere else,\n  for example on a second drive.\n[trecho original abreviado]",
+        "installation": "## ⬇️ Install\n\n**The easy way, on Windows 10 or 11:**\n\n1. Download **[GT5-Installer.bat](https://github.com/MormonFTP-hub/gt5-recomp/releases/latest/download/GT5-Installer.bat)**\n   and double-click it. If Windows warns about a downloaded file, choose **Run** (or **More info**, then\n   **Run anyway**).\n2. In its window, pick two things and press **Install**:\n   - **your GT5 game**: the folder of your disc dump (the one with `PS3_GAME` in it) or an `.iso`;\n   - **PS3UPDAT.PUP**, Sony's free PS3 system software (the window has a button that opens Sony's page).\n\nThat's all, and it all happens in that one window: the steps, a progress bar, and what went wrong if\nsomething does. Nothing is installed into Windows. It downloads this code and, into the install folder,\nits own copies of Git (38 MB, only when the PC has none), Python (17 MB) and the compiler tools\n(about 1.5 GB, into the install folder: **no Visual Studio is installed or changed**), unlocks your game's executable and the system software (with the port's own small tool; RPCS3 is fetched\nonly if that fails, as a tool:\nthe game itself runs natively as `gt5.exe`, not in an emulator), builds the game (about an hour the\nfirst time) with both renderers (DirectX 12 and Vulkan), adds AMD FSR 3 frame generation and, on a PC with\nan NVIDIA RTX card, NVIDIA DLSS, and puts **Gran Turismo 5 (PC)** on your desktop, which opens the\n[launcher](#launcher). Nothing from the game is ever uploaded or shared. Some of what it downloads comes\nunder another company's licence (Microsoft's C++ libraries in the compiler tools, when it fetches those;\nNVIDIA DLSS): the line by the **Install** button names them, with links, and pressing Install accepts them.\n\nRather do it by hand? See [Setup](#setup). On Linux? See [Linux](#linux).\n\n<a id=\"launcher\"></a>",
+        "build": "### No Visual Studio needed\n\n`GT5-Installer.bat` never installs or changes Visual Studio. When the PC has no Visual Studio with the\nClang tools and a Windows SDK, it runs `get-toolchain.ps1`, which puts the same compiler tools in the\ninstall folder (`tools\\toolchain`). By hand, the script puts them in one folder you choose, on any drive.\nIn the `gt5-recomp` folder, in PowerShell:\n\n```\npowershell -ExecutionPolicy Bypass -File get-toolchain.ps1\n```\n\n- It suggests a `toolchain` folder next to `gt5-recomp`. Type another folder to put it somewhere else,\n  for example on a second drive.\n- It downloads about 1.5 GB and keeps about 1.5 GB: LLVM 19.1.5 (clang-cl), CMake and Ninja from\n  their official GitHub pages, and Microsoft's C++ libraries and Windows SDK, fetched from Microsoft by\n  [mmozeiko's portable-msvc.py](https://gist.github.com/mmozeiko). Every download is checked.\n- Microsoft's part comes under Microsoft's licence. The script shows you the link and only goes on when\n  you type `yes`.\n- No administrator rights, and nothing is installed into Windows. To remove the tools, delete the folder.\n\nThen run `setup.ps1` as usual (it also offers to run `get-toolchain.ps1` when it finds no Visual Studio).\nWhen there's no Visual Studio, the build uses these tools.\n\n<a id=\"which-copy-of-gt5\"></a>",
+        "general": "## 🟢 Playable\n\nGran Turismo 5 boots, plays and saves on PC. Races run at roughly 45 to 58 frames per second on a\nfast desktop, and most modes of the game work. It's still a work in\nprogress: see the known issues below, and please [report what you find](https://github.com/MormonFTP-hub/gt5-recomp/issues/new/choose)."
+      },
+      "evidence": [
+        {
+          "category": "system",
+          "heading": "Requirements",
+          "source_url": "https://raw.githubusercontent.com/MormonFTP-hub/gt5-recomp/HEAD/README.md"
+        },
+        {
+          "category": "installation",
+          "heading": "Install",
+          "source_url": "https://raw.githubusercontent.com/MormonFTP-hub/gt5-recomp/HEAD/README.md"
+        },
+        {
+          "category": "build",
+          "heading": "No Visual Studio needed",
+          "source_url": "https://raw.githubusercontent.com/MormonFTP-hub/gt5-recomp/HEAD/README.md"
+        },
+        {
+          "category": "general",
+          "heading": "Current state",
+          "source_url": "https://raw.githubusercontent.com/MormonFTP-hub/gt5-recomp/HEAD/README.md"
+        },
+        {
+          "category": "general",
+          "heading": "Playable",
+          "source_url": "https://github.com/MormonFTP-hub/gt5-recomp/blob/main/STATUS.md"
+        },
+        {
+          "category": "installation",
+          "heading": "Which copy of GT5",
+          "source_url": "https://github.com/MormonFTP-hub/gt5-recomp/blob/main/README.md"
+        },
+        {
+          "category": "build",
+          "heading": "Setup",
+          "source_url": "https://github.com/MormonFTP-hub/gt5-recomp/blob/main/README.md"
+        }
+      ],
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
+    },
+    "rygt-gt7": {
+      "game_id": "gran-turismo-7",
+      "verification_status": "documented_in_readme",
+      "source_url": "https://raw.githubusercontent.com/RyGT-Team/RyGT/HEAD/README.md",
+      "verified_at": "2026-11-23",
+      "system": "Windows de 64 bits, placa gráfica compatível com Vulkan e drivers atuais, além de módulos e fontes do firmware PS4 do próprio usuário. O README do projeto anterior informa Windows x64 e GPU Vulkan, mas não define CPU, RAM, VRAM ou espaço mínimos oficiais para GT7.",
+      "installation": "Baixar RyGT-*.zip das Releases do repositório atual, extrair em pasta gravável e executar RyGTLauncher.exe. Selecionar Gran Turismo 7 e apontar o dump próprio e já descriptografado do PS4 CUSA24769, incluindo eboot.bin, sce_module, sce_sys e conteúdo do jogo, eventual atualização extraída, e os módulos de sistema e fontes do próprio firmware PS4. Acionar Set up para converter localmente e depois Play. O pacote não inclui jogo, firmware nem executável do jogo pronto. Não se trata da versão PS5.",
+      "build": "O conversor transforma executáveis PS4 em binários Windows; bibliotecas de runtime reproduzem chamadas do PS4 e o shadGT traduz gráficos para Vulkan. O README descreve compilação das bibliotecas, conversor, launcher e renderer em Windows com MSYS2/Clang e ferramentas complementares. Instalação de usuário e compilação do código-fonte são processos distintos.",
+      "general": "O código do antigo ryGT7 foi integrado ao RyGT, que é o repositório mantido. Testes do ryGT7 documentam menu e corrida em Deep Forest com CUSA24769 APP_VER 01.00; versões e hardware diferentes não estão universalmente verificados. Erros gráficos, travamentos e engasgos ao compilar shaders são possíveis. A release do RyGT fornece ferramentas comuns a GT7 e GT Sport, mas este registro cataloga apenas GT7.",
+      "source_text": {
+        "system": "## Download\n\nGet the latest build from [Releases](https://github.com/rygt-team/RyGTS/releases). One release\nserves both games: the runtime libraries, the renderer, the converter, the launcher, GT Sport's\nsettings, and GT7's files (its stub library `libs\\libSceTextToSpeech.prx`, its Offline mode patch\n`patches\\CUSA24769.xml`, and the online server in `server`). It contains **no game files**: you\nneed your own decrypted dump of GT Sport CUSA03220 with update 1.69 and/or GT7 CUSA24769, and the\nsystem modules and fonts from your own PS4 firmware.\n\nUnzip it anywhere and run `RyGTLauncher.exe`. Pick the game at the top left of the launcher, then\non its Game page pick your game, update, firmware module and font folders, press **Set up**, then\n**Play**. Do the same for the other game in the same folder. Updates (Settings > About > Updates)\nupdate the folder for both games. The loader's source is in\n[loader](loader). Manual setup steps are in [docs/gt-sport/README.md](docs/gt-sport/README.md).",
+        "installation": "## Download\n\nGet the latest build from [Releases](https://github.com/rygt-team/RyGTS/releases). One release\nserves both games: the runtime libraries, the renderer, the converter, the launcher, GT Sport's\nsettings, and GT7's files (its stub library `libs\\libSceTextToSpeech.prx`, its Offline mode patch\n`patches\\CUSA24769.xml`, and the online server in `server`). It contains **no game files**: you\nneed your own decrypted dump of GT Sport CUSA03220 with update 1.69 and/or GT7 CUSA24769, and the\nsystem modules and fonts from your own PS4 firmware.\n\nUnzip it anywhere and run `RyGTLauncher.exe`. Pick the game at the top left of the launcher, then\non its Game page pick your game, update, firmware module and font folders, press **Set up**, then\n**Play**. Do the same for the other game in the same folder. Updates (Settings > About > Updates)\nupdate the folder for both games. The loader's source is in\n[loader](loader). Manual setup steps are in [docs/gt-sport/README.md](docs/gt-sport/README.md).",
+        "build": "## Building\n\nMost people should use a [release](https://github.com/RyGT-Team/RyGTS/releases). To build it\nyourself on Windows you need:\n\n| What | Why | Where |\n| --- | --- | --- |\n| Git | cloning, with submodules | [git-scm.com](https://git-scm.com/download/win) |\n| MSYS2 (UCRT64 shell) with GCC, CMake and Ninja | the runtime libraries (`libs\\*.prx`) and the converter | [msys2.org](https://www.msys2.org) |\n| Internet access while configuring | CMake downloads FFmpeg's prebuilt libraries once | |\n| .NET Framework 4.x (part of Windows 10/11) | the launcher, `RyGTLauncher.exe` | built in |\n| Visual Studio's C++ tools with LLVM (clang) | only for GT7's stub library (`runtime/gt7/build.cmd`) | [visualstudio.microsoft.com](https://visualstudio.microsoft.com) |\n| Visual Studio 2022 with \"C++ Clang tools\", the Vulkan SDK | only to rebuild the renderer (`libSceVideoOut.prx`) | [visualstudio.microsoft.com](https://visualstudio.microsoft.com), [vulkan.lunarg.com](https://vulkan.lunarg.com) |\n\nYou also need everything a release needs to run: your own decrypted GT Sport dump (CUSA03220,\nupdate 1.69) and/or GT7 dump (CUSA24769), and your PS4 firmware's system modules and fonts.\n\n### 1. Get the code with its submodules\n\n```sh\ngit clone --recursive -b development https://github.com/mlgprorektm8/RyGT.git\ncd RyGT\n```\n\nAlready cloned without `--recursive`? Run `git submodule update --init --recursive`. Without the\nsubmodules (SDL2, FFmpeg, FreeType, stb, glslang and the others in `3rdparty`), CMake builds only\nthe converter and **skips every runtime library**, so `GTSport.exe` then fails to load\n`libScePad.prx` and the rest. The configure step warns about this.\n\n### 2. Install the compiler (MSYS2)\n\nOpen the **MSYS2 UCRT64** shell (not \"MSYS2 MSYS\") and run:\n\n```sh\npacman -S --needed git mingw-w64-ucrt-x86_64-gcc mingw-w64-ucrt-x86_64-cmake mingw-w64-ucrt-x86_64-ninja\n```\n\n### 3. Build the runtime libraries and the converter\n\nIn the UCRT64 shell, from the RyGT folder:\n\n```sh\ncmake -S . -B build/windows-mingw -G Ninja -DCMAKE_BUILD_TYPE=Release -DRTY_ENABLE_LTO=OFF -DRTY_BUILD_GUI=OFF\ncmake --build build/windows-mingw --target libs ryty\n```\n\nCheck that the configure output has no \"3rdparty submodules are missing\" warning. The results:\n\n- `build/windows-mingw/core/libs/libs/*.prx`: the runtime libraries. They go in the game folder's\n  `libs` folder.\n- `build/windows-mingw/core/relinker/ryty.exe`: the converter. It goes in `converter`.\n\nThe libraries also need `libgcc_s_seh-1.dll`, `libstdc++-6.dll` and `libwinpthread-1.dll` from\n`C:\\msys64\\ucrt64\\bin` next to `GTSport.exe` and `GT7.exe` (a release already has them). The same\nlibraries serve both games.\n\nBuilding from PowerShell or cmd instead of the UCRT64 shell? Put `C:\\msys64\\ucrt64\\bin` first on\n`PATH`, or the build fails without a clear error.\n\n### 4. Build the launcher\n\nFrom cmd or PowerShell:\n\n```bat\nloader\\build.cmd C:\\path\\to\\your\\game\\folder\n```\n\n[trecho original abreviado]",
+        "general": "Fonte atual — RyGT (GT7):\n## Status\n\nGT Sport:\n\n| Area | State |\n| --- | --- |\n| Boot, menus, car and track selection | Working |\n| Races | Working, about 42-60 fps depending on how many cars are on screen |\n| Race summary and results | Working |\n| Audio | Working |\n| Controllers | Working through SDL |\n| Steering Wheels | Working |\n| Online features | In Development |\n| VR features | In Development |\n\nKnown issues:\n- The first 30 seconds of a race can stutter while graphics pipelines compile.\n- ~~A few draws in the race summary can occasionally read garbage vertex descriptors; those draws\n  are skipped.~~\n\nTested on Windows 11 with an Intel i7-13700KF and an RTX 4070Ti.\n\nTested on Windows 11 with an AMD Ryzen 5 9600X and an RTX 3060 12GB\n\nTested on Windows 10 LTSC with an AMD Ryzen 7 7745HX and an RTX 4070 8GB\n\nGT7 (CUSA24769) is set up and started by the same launcher, with its Offline mode patch\n(`patches\\CUSA24769.xml`) and its online pages (Account, Online: RyGTServer and shadNet, see\n[server](server)). \n\nFonte histórica — ryGT7 integrado ao RyGT:\n## Alpha status\n\nVerified locally: clean-folder conversion and launch to the GT7 main menu, and racing at Deep Forest.\nThe tested dump reports `APP_VER=01.00` in its metadata. Other updates and hardware are unverified;\nfolder-selection support does not guarantee that every update converts or plays correctly.\nCrashes, rendering errors, and shader compilation stutter remain possible. Online play has been\ntested between two players (Australia and the UK, and with a player on Linux): see\n[Online play](#online-play) for what works.\n\nThis first prerelease fixes crowd instances flickering black or jumping because GPU output ranges\noverlapped, and black streamed textures on Deep Forest's pit building. Validation included 512\nshader-lowering checks, GPU captures with no remaining overlapping crowd writes, and 60-frame\ncrowd recordings without the large black flashes.\n\nThe second prerelease adds a fix for flickering night shadows at Yas Marina: cached render targets\nare no longer reused after the game remaps their memory, which left an empty shadow map on\nalternate frames. Packed-float render targets are also cleared and filled correctly. This fix is\nnot yet confirmed in game.\n\nThe current source also carries the Alsace shadow band and rear-view mirror fixes, the optional\nOffline mode patch step in Set up (see the release notes and [the launcher guide](loader/README.md)),\nand the racing wheel, ultrawide and frame generation work described in the next section.\n\nThe launcher retains display, FSR, optional DLSS, input bindings, controller ports, wheel, shader\ncompilation, and logging controls. GT Sport-specific script preparation and graphics patches are\nremoved from its interface. The package ships the DLSS plugin (`dlss\\ryGT_dlss.dll`, see\n[the plugin's notes](plugins/dlss/README.md)); NVIDIA's DLSS files come from the launcher's download button. AMD FSR is available in the supplied renderer."
+      },
+      "evidence": [
+        {
+          "category": "system",
+          "heading": "Download",
+          "source_url": "https://raw.githubusercontent.com/RyGT-Team/RyGT/HEAD/README.md"
+        },
+        {
+          "category": "installation",
+          "heading": "Download",
+          "source_url": "https://raw.githubusercontent.com/RyGT-Team/RyGT/HEAD/README.md"
+        },
+        {
+          "category": "build",
+          "heading": "Building",
+          "source_url": "https://raw.githubusercontent.com/RyGT-Team/RyGT/HEAD/README.md"
+        },
+        {
+          "category": "general",
+          "heading": "Status",
+          "source_url": "https://raw.githubusercontent.com/RyGT-Team/RyGT/HEAD/README.md"
+        },
+        {
+          "category": "general",
+          "heading": "Alpha status (documentação histórica do port integrado)",
+          "source_url": "https://github.com/RyGT-Team/rygt7/blob/main/README.md"
+        },
+        {
+          "category": "build",
+          "heading": "Unified launcher",
+          "source_url": "https://github.com/RyGT-Team/RyGT/blob/main/loader/UNIFIED-LAUNCHER.md"
+        }
+      ],
+      "translation_status": "machine_translated_pt_br",
+      "legacy_reported_pt": "",
+      "translation_method": "automatic_machine_translation",
+      "translation_reviewed_by_human": false
+    },
+    "god-of-war-recomp": {
+      "game_id": "god-of-war-2005",
+      "verification_status": "documented_in_readme",
+      "source_url": "https://raw.githubusercontent.com/KIexster/god-of-war-recomp/HEAD/README.md",
+      "verified_at": "2026-11-23",
+      "system": "Consulte requisitos documentados no README do port; não homologado pelo All-Fix.",
+      "installation": "Instalação manual do projeto; fornecer arquivos originais do jogo quando exigidos. GetAll desabilitado.",
+      "build": "Recompilação de God of War para PC; consulte documentação oficial para ferramentas e limitações.",
+      "general": "Port alternativo ao gow-pc-port já cadastrado. Estado e funcionalidade conforme documentação do desenvolvedor, sem teste funcional pelo All-Fix.",
+      "source_text": {
+        "system": "<div align=\"center\">\n\n# God of War — PS2 Static Recompilation\n\n**English** · [Español](README.es.md) · [Português (Brasil)](README.pt-BR.md)\n\n**A native PC port of *God of War* (PS2, NTSC-U `SCUS-97399`) built by statically recompiling MIPS R5900 code to C++.**\n\n![Platform](https://img.shields.io/badge/platform-Windows%20x64%20%7C%20Linux%20x64-0078D6)\n![Language](https://img.shields.io/badge/C%2B%2B-20-00599C?logo=cplusplus&logoColor=white)\n![Build](https://img.shields.io/badge/build-CMake%20%2B%20Ninja-064F8C?logo=cmake&logoColor=white)\n![Based on](https://img.shields.io/badge/based%20on-PS2Recomp-8A2BE2)\n![Status](https://img.shields.io/badge/status-experimental-orange)\n[![Tests](https://github.com/KIexster/god-of-war-recomp/actions/workflows/pruebas.yml/badge.svg)](https://github.com/KIexster/god-of-war-recomp/actions/workflows/pruebas.yml)\n[![Listed on PlayPorted](https://playported.com/badge.svg)](https://playported.com/ports/337-god-of-war/)\n\n</div>\n\n---\n\n> [!IMPORTANT]\n> This repository **does not contain any game files** (ISO, executable, IRX modules or `.PAK` data),\n> nor the C++ code generated from them. You need **your own legal copy** of God of War for the PS2.\n\n## Contents\n\n- [What is this?](#what-is-this)\n- [Current status](#current-status)\n- [Repository layout](#repository-layout)\n- [Requirements](#requirements)\n- [Building and running](#building-and-running)\n- [How it works](#how-it-works)\n- [Documentation](#documentation)\n- [Credits and license](#credits-and-license)\n\n## What is this?\n\nInstead of emulating the PlayStation 2, this project **translates the game's original executable (`SCUS_973.99`)\ninto C++** with [PS2Recomp](https://github.com/ran-j/PS2Recomp) and compiles it into a native Windows program.\nSince October 2026 the base is the runtime of [**Waffle565**](https://github.com/Waffle565/God-Of-War-Native-Port)'s\nnative port, which replaces every piece of PS2 hardware with native code that produces the\nsame result from the game's own data:\n\n| Layer | Native replacement |\n|---|---|\n| **EE CPU** (game code) | Static recompilation to C++ (6,414 functions) |\n| **VU1** (vector microcode) | Microprograms compiled ahead of time to C++ |\n| **GS*",
+        "installation": "<div align=\"center\">\n\n# God of War — PS2 Static Recompilation\n\n**English** · [Español](README.es.md) · [Português (Brasil)](README.pt-BR.md)\n\n**A native PC port of *God of War* (PS2, NTSC-U `SCUS-97399`) built by statically recompiling MIPS R5900 code to C++.**\n\n![Platform](https://img.shields.io/badge/platform-Windows%20x64%20%7C%20Linux%20x64-0078D6)\n![Language](https://img.shields.io/badge/C%2B%2B-20-00599C?logo=cplusplus&logoColor=white)\n![Build](https://img.shields.io/badge/build-CMake%20%2B%20Ninja-064F8C?logo=cmake&logoColor=white)\n![Based on](https://img.shields.io/badge/based%20on-PS2Recomp-8A2BE2)\n![Status](https://img.shields.io/badge/status-experimental-orange)\n[![Tests](https://github.com/KIexster/god-of-war-recomp/actions/workflows/pruebas.yml/badge.svg)](https://github.com/KIexster/god-of-war-recomp/actions/workflows/pruebas.yml)\n[![Listed on PlayPorted](https://playported.com/badge.svg)](https://playported.com/ports/337-god-of-war/)\n\n</div>\n\n---\n\n> [!IMPORTANT]\n> This repository **does not contain any game files** (ISO, executable, IRX modules or `.PAK` data),\n> nor the C++ code generated from them. You need **your own legal copy** of God of War for the PS2.\n\n## Contents\n\n- [What is this?](#what-is-this)\n- [Current status](#current-status)\n- [Repository layout](#repository-layout)\n- [Requirements](#requirements)\n- [Building and running](#building-and-running)\n- [How it works](#how-it-works)\n- [Documentation](#documentation)\n- [Credits and license](#credits-and-license)\n\n## What is this?\n\nInstead of emulating the PlayStation 2, this project **translates the game's original executable (`SCUS_973.99`)\ninto C++** with [PS2Recomp](https://github.com/ran-j/PS2Recomp) and compiles it into a native Windows program.\nSince October 2026 the base is the runtime of [**Waffle565**](https://github.com/Waffle565/God-Of-War-Native-Port)'s\nnative port, which replaces every piece of PS2 hardware with native code that produces the\nsame result from the game's own data:\n\n| Layer | Native replacement |\n|---|---|\n| **EE CPU** (game code) | Static recompilation to C++ (6,414 functions) |\n| **VU1** (vector microcode) | Microprograms compiled ahead of time to C++ |\n| **GS*",
+        "build": "<div align=\"center\">\n\n# God of War — PS2 Static Recompilation\n\n**English** · [Español](README.es.md) · [Português (Brasil)](README.pt-BR.md)\n\n**A native PC port of *God of War* (PS2, NTSC-U `SCUS-97399`) built by statically recompiling MIPS R5900 code to C++.**\n\n![Platform](https://img.shields.io/badge/platform-Windows%20x64%20%7C%20Linux%20x64-0078D6)\n![Language](https://img.shields.io/badge/C%2B%2B-20-00599C?logo=cplusplus&logoColor=white)\n![Build](https://img.shields.io/badge/build-CMake%20%2B%20Ninja-064F8C?logo=cmake&logoColor=white)\n![Based on](https://img.shields.io/badge/based%20on-PS2Recomp-8A2BE2)\n![Status](https://img.shields.io/badge/status-experimental-orange)\n[![Tests](https://github.com/KIexster/god-of-war-recomp/actions/workflows/pruebas.yml/badge.svg)](https://github.com/KIexster/god-of-war-recomp/actions/workflows/pruebas.yml)\n[![Listed on PlayPorted](https://playported.com/badge.svg)](https://playported.com/ports/337-god-of-war/)\n\n</div>\n\n---\n\n> [!IMPORTANT]\n> This repository **does not contain any game files** (ISO, executable, IRX modules or `.PAK` data),\n> nor the C++ code generated from them. You need **your own legal copy** of God of War for the PS2.\n\n## Contents\n\n- [What is this?](#what-is-this)\n- [Current status](#current-status)\n- [Repository layout](#repository-layout)\n- [Requirements](#requirements)\n- [Building and running](#building-and-running)\n- [How it works](#how-it-works)\n- [Documentation](#documentation)\n- [Credits and license](#credits-and-license)\n\n## What is this?\n\nInstead of emulating the PlayStation 2, this project **translates the game's original executable (`SCUS_973.99`)\ninto C++** with [PS2Recomp](https://github.com/ran-j/PS2Recomp) and compiles it into a native Windows program.\nSince October 2026 the base is the runtime of [**Waffle565**](https://github.com/Waffle565/God-Of-War-Native-Port)'s\nnative port, which replaces every piece of PS2 hardware with native code that produces the\nsame result from the game's own data:\n\n| Layer | Native replacement |\n|---|---|\n| **EE CPU** (game code) | Static recompilation to C++ (6,414 functions) |\n| **VU1** (vector microcode) | Microprograms compiled ahead of time to C++ |\n| **GS*",
+        "general": "<div align=\"center\">\n\n# God of War — PS2 Static Recompilation\n\n**English** · [Español](README.es.md) · [Português (Brasil)](README.pt-BR.md)\n\n**A native PC port of *God of War* (PS2, NTSC-U `SCUS-97399`) built by statically recompiling MIPS R5900 code to C++.**\n\n![Platform](https://img.shields.io/badge/platform-Windows%20x64%20%7C%20Linux%20x64-0078D6)\n![Language](https://img.shields.io/badge/C%2B%2B-20-00599C?logo=cplusplus&logoColor=white)\n![Build](https://img.shields.io/badge/build-CMake%20%2B%20Ninja-064F8C?logo=cmake&logoColor=white)\n![Based on](https://img.shields.io/badge/based%20on-PS2Recomp-8A2BE2)\n![Status](https://img.shields.io/badge/status-experimental-orange)\n[![Tests](https://github.com/KIexster/god-of-war-recomp/actions/workflows/pruebas.yml/badge.svg)](https://github.com/KIexster/god-of-war-recomp/actions/workflows/pruebas.yml)\n[![Listed on PlayPorted](https://playported.com/badge.svg)](https://playported.com/ports/337-god-of-war/)\n\n</div>\n\n---\n\n> [!IMPORTANT]\n> This repository **does not contain any game files** (ISO, executable, IRX modules or `.PAK` data),\n> nor the C++ code generated from them. You need **your own legal copy** of God of War for the PS2.\n\n## Contents\n\n- [What is this?](#what-is-this)\n- [Current status](#current-status)\n- [Repository layout](#repository-layout)\n- [Requirements](#requirements)\n- [Building and running](#building-and-running)\n- [How it works](#how-it-works)\n- [Documentation](#documentation)\n- [Credits and license](#credits-and-license)\n\n## What is this?\n\nInstead of emulating the PlayStation 2, this project **translates the game's original executable (`SCUS_973.99`)\ninto C++** with [PS2Recomp](https://github.com/ran-j/PS2Recomp) and compiles it into a native Windows program.\nSince October 2026 the base is the runtime of [**Waffle565**](https://github.com/Waffle565/God-Of-War-Native-Port)'s\nnative port, which replaces every piece of PS2 hardware with native code that produces the\nsame result from the game's own data:\n\n| Layer | Native replacement |\n|---|---|\n| **EE CPU** (game code) | Static recompilation to C++ (6,414 functions) |\n| **VU1** (vector microcode) | Microprograms compiled ahead of time to C++ |\n| **GS*"
+      },
+      "evidence": [
+        {
+          "category": "system",
+          "heading": "README oficial",
+          "source_url": "https://raw.githubusercontent.com/KIexster/god-of-war-recomp/HEAD/README.md"
+        },
+        {
+          "category": "installation",
+          "heading": "README oficial",
+          "source_url": "https://raw.githubusercontent.com/KIexster/god-of-war-recomp/HEAD/README.md"
+        },
+        {
+          "category": "build",
+          "heading": "README oficial",
+          "source_url": "https://raw.githubusercontent.com/KIexster/god-of-war-recomp/HEAD/README.md"
+        },
+        {
+          "category": "general",
+          "heading": "README oficial",
+          "source_url": "https://raw.githubusercontent.com/KIexster/god-of-war-recomp/HEAD/README.md"
+        }
+      ],
+      "translation_status": "pending_human_review",
+      "legacy_reported_pt": "",
+      "translation_method": "editorial_summary_from_readme",
+      "translation_reviewed_by_human": false
+    },
+    "fh1-reimagined": {
+      "game_id": "forza-horizon",
+      "verification_status": "documented_in_readme",
+      "source_url": "https://raw.githubusercontent.com/FH1-ReImagined/ForzaHorizon1-ReImagined/HEAD/README.md",
+      "verified_at": "2026-11-23",
+      "system": "Windows ou Linux; requisitos detalhados no README oficial, ainda não homologados pelo All-Fix.",
+      "installation": "Baixar o launcher oficial e fornecer os arquivos de uma cópia própria de Forza Horizon de Xbox 360. Instalação GetAll desabilitada.",
+      "build": "Recompilação estática da versão Xbox 360 para PC; launcher prepara o executável a partir dos arquivos originais.",
+      "general": "Inclui multiplayer comunitário Horizon World, leaderboards e Rivals. Compatibilidade e funcionamento não foram testados pelo All-Fix.",
+      "source_text": {
+        "system": "## Requirements\n\n- Windows 10/11 64-bit, or Linux x86-64. Windows can use Vulkan or Direct3D 12. Linux uses Vulkan. Vulkan 1.3 is what the Vulkan path asks for.\n- About 4 GB of free RAM while playing (the game peaks near 1.1 GB). A build needs more: about 2 GB at 4 jobs, about 3.2 GB at 8. About 15 GB of disk. [`docs/launcher.md`](docs/launcher.md)\n- Your own copy of Forza Horizon: a disc image, a Games on Demand package, or an extracted folder. Title Update 4 and DLC are optional. TU4 is what you want for Horizon Rally and the 1000 Club.\n- A controller, a keyboard and mouse, or a wheel.\n\n> [!IMPORTANT]\n> **macOS is a source-build experiment.** The launcher does not support macOS, and there is no Mac download.\n> Opening drives render on Apple Silicon. Full races, save reloads and physical controllers still need validation.\n> [macOS setup and limits](docs/macos.md)\n",
+        "installation": "## Install with the launcher\n\nThis is the way to install. The launcher builds the game on your machine from your own files. Nothing of the game is downloaded.\n\n1. Get the launcher from the [latest release](https://github.com/FH1-ReImagined/ForzaHorizon1-ReImagined/releases/latest). On Windows, the installer. On Linux, the Flatpak (recommended on SteamOS) or the `.tar.gz`. From v0.1.9 onward the launcher checks for updates itself (**About > Launcher updates**).\n   The Flatpak is `flatpak install --user ForzaHorizon1-ReImagined-x86_64.flatpak`. It pulls the freedesktop SDK runtime from Flathub. Install the compiler extension once, or the launcher downloads a 2 GB compiler instead and tells you so:\n\n   ```sh\n   flatpak install flathub org.freedesktop.Sdk.Extension.llvm22//26.08\n   ```\n\n   **On SteamOS (Steam Deck):** in Desktop Mode, download the `.flatpak` and open it in Dolphin (Discover installs it) or run the command above, install the compiler extension, then in Steam choose **Games > Add a Non-Steam Game to My Library** and pick **Forza Horizon 1: ReImagined**. It then starts from Game Mode. [`docs/steam_deck.md`](docs/steam_deck.md)\n\n2. In Setup, **Game files**: your disc image, Games on Demand package, or an extracted folder. **Updates & DLC**: Title Update 4 and your DLC folder, if you have them.\n3. **Build.** The launcher generates the game from your copy and compiles it. A measured build at 4 jobs on an 8-core PC took about 4.6 minutes ([`docs/launcher.md`](docs/launcher.md)). It can be cancelled and resumed, and it runs again only when something changed.\n4. **Prebuild shaders** (optional, Vulkan). This builds pipelines from your own game files before you play, so the first visit to a place stutters less. The launcher offers it again after a driver, launcher or graphics-setting change. [`docs/shader_prebuild.md`](docs/shader_prebuild.md)\n5. **Play.** Settings cover display, controls, audio, online, profile and advanced options. **Saves** is the backup and profile editor.\n\nDetails: [`docs/launcher.md`](docs/launcher.md).\n\nTo verify a download when its release includes `SHA256SUMS`, download that file from the\nsame release. On Windows, run `certutil -hashfile .\\YourDownloadedSetup.exe SHA256` or, in\nPowerShell, `Get-FileHash .\\YourDownloadedSetup.exe -Algorithm SHA256`, and compare the hash with\nthe matching filename in `SHA256SUMS` ([details](docs/launcher.md#verify-your-download)).\nOn Linux, put both files in the same folder and run\n`sha256sum --ignore-missing -c SHA256SUMS`. A match confirms the downloaded bytes match\nthe published checksum; it does not certify that the program is safe or code-signed.\n\nWindows releases also include `ForzaHoriz",
+        "build": "## Building from source\n\nFor developers. Players should use the launcher.\n\nLinux configure and the pinned SDK are in [`docs/PROJECT.md`](docs/PROJECT.md). Title Update 4 is in [`docs/dlc.md`](docs/dlc.md). The Windows cross-compile is `tools/build_windows.sh` ([`docs/launcher.md`](docs/launcher.md)). macOS is [`docs/macos.md`](docs/macos.md), ARM64 Linux [`docs/arm64_linux.md`](docs/arm64_linux.md). Android is only a study so far, with no build: [`docs/android-port.md`](docs/android-port.md). A source tree launches with `tools/play.sh` ([`docs/playing.md`](docs/playing.md)).\n",
+        "general": "<p align=\"center\">\n  <img src=\"docs/images/logo.svg\" alt=\"Forza Horizon 1: ReImagined logo\" width=\"160\">\n</p>\n\n<h1 align=\"center\">Forza Horizon 1: ReImagined</h1>\n\n<p align=\"center\">\n  <b>The original 2012 Forza Horizon, recompiled to run natively on Windows and Linux, and online again.</b>\n</p>\n\n<p align=\"center\">\n  The official online services closed on 22 August 2023\n  (<a href=\"https://forza.net/news/forza-horizon-online-services-closure\">Turn 10's notice</a>).\n  ReImagined is a static recompilation (recomp) of the Xbox 360 game: it runs natively on your PC and brings online play back through a public server,\n  or one you host yourself. You bring your own copy; no game code or data is included.\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/FH1-ReImagined/ForzaHorizon1-ReImagined/releases/latest\"><img alt=\"Latest release\" src=\"https://img.shields.io/github/v/release/FH1-ReImagined/ForzaHorizon1-ReImagined\"></a>\n  <a href=\"https://github.com/FH1-ReImagined/ForzaHorizon1-ReImagined/releases\"><img alt=\"Total downloads\" src=\"https://img.shields.io/github/downloads/FH1-ReImagined/ForzaHorizon1-ReImagined/total\"></a>\n  <a href=\"LICENSE\"><img alt=\"License: GPL-3.0-or-later\" src=\"https://img.shields.io/badge/license-GPL--3.0--or--later-blue\"></a>\n  <a href=\"https://discord.gg/yu7zScdcWw\"><img alt=\"Discord\" src=\"https://img.shields.io/discord/1560035448125137099?logo=discord&logoColor=white&label=Discord\"></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/FH1-ReImagined/ForzaHorizon1-ReImagined/releases/latest\"><img alt=\"Download the launcher\" src=\"https://img.shields.io/badge/Download-the%20launcher-e8964f?style=for-the-badge\"></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://forza.dyotson.dev\">Website</a> ·\n  <a href=\"https://discord.gg/yu7zScdcWw\">Discord</a> ·\n  <a href=\"https://forza.dyotson.dev/leaderboards.html\">Leaderboards</a>\n</p>\n\n<p align=\"center\">\n  The launcher is a Windows installer, a Linux Flatpak or a Linux <code>.tar.gz</code>.\n  It upd"
+      },
+      "evidence": [
+        {
+          "category": "system",
+          "heading": "README oficial",
+          "source_url": "https://raw.githubusercontent.com/FH1-ReImagined/ForzaHorizon1-ReImagined/HEAD/README.md"
+        },
+        {
+          "category": "installation",
+          "heading": "README oficial",
+          "source_url": "https://raw.githubusercontent.com/FH1-ReImagined/ForzaHorizon1-ReImagined/HEAD/README.md"
+        },
+        {
+          "category": "build",
+          "heading": "README oficial",
+          "source_url": "https://raw.githubusercontent.com/FH1-ReImagined/ForzaHorizon1-ReImagined/HEAD/README.md"
+        },
+        {
+          "category": "general",
+          "heading": "README oficial",
+          "source_url": "https://raw.githubusercontent.com/FH1-ReImagined/ForzaHorizon1-ReImagined/HEAD/README.md"
+        }
+      ],
+      "translation_status": "pending_human_review",
+      "legacy_reported_pt": "",
+      "translation_method": "editorial_summary_from_readme",
+      "translation_reviewed_by_human": false
+    },
     "lasrecomp": {
       "game_id": "the-legend-of-zelda-link-s-awakening",
       "verification_status": "documented_in_readme",
@@ -4585,90 +4830,6 @@
           "category": "general",
           "heading": "README oficial",
           "source_url": "https://raw.githubusercontent.com/adriadam10/mkw-recomp/HEAD/README.md"
-        }
-      ],
-      "translation_status": "pending_human_review",
-      "legacy_reported_pt": "",
-      "translation_method": "editorial_summary_from_readme",
-      "translation_reviewed_by_human": false
-    },
-    "god-of-war-recomp": {
-      "game_id": "god-of-war-2005",
-      "verification_status": "documented_in_readme",
-      "source_url": "https://raw.githubusercontent.com/KIexster/god-of-war-recomp/HEAD/README.md",
-      "verified_at": "2026-11-23",
-      "system": "Consulte requisitos documentados no README do port; não homologado pelo All-Fix.",
-      "installation": "Instalação manual do projeto; fornecer arquivos originais do jogo quando exigidos. GetAll desabilitado.",
-      "build": "Recompilação de God of War para PC; consulte documentação oficial para ferramentas e limitações.",
-      "general": "Port alternativo ao gow-pc-port já cadastrado. Estado e funcionalidade conforme documentação do desenvolvedor, sem teste funcional pelo All-Fix.",
-      "source_text": {
-        "system": "<div align=\"center\">\n\n# God of War — PS2 Static Recompilation\n\n**English** · [Español](README.es.md) · [Português (Brasil)](README.pt-BR.md)\n\n**A native PC port of *God of War* (PS2, NTSC-U `SCUS-97399`) built by statically recompiling MIPS R5900 code to C++.**\n\n![Platform](https://img.shields.io/badge/platform-Windows%20x64%20%7C%20Linux%20x64-0078D6)\n![Language](https://img.shields.io/badge/C%2B%2B-20-00599C?logo=cplusplus&logoColor=white)\n![Build](https://img.shields.io/badge/build-CMake%20%2B%20Ninja-064F8C?logo=cmake&logoColor=white)\n![Based on](https://img.shields.io/badge/based%20on-PS2Recomp-8A2BE2)\n![Status](https://img.shields.io/badge/status-experimental-orange)\n[![Tests](https://github.com/KIexster/god-of-war-recomp/actions/workflows/pruebas.yml/badge.svg)](https://github.com/KIexster/god-of-war-recomp/actions/workflows/pruebas.yml)\n[![Listed on PlayPorted](https://playported.com/badge.svg)](https://playported.com/ports/337-god-of-war/)\n\n</div>\n\n---\n\n> [!IMPORTANT]\n> This repository **does not contain any game files** (ISO, executable, IRX modules or `.PAK` data),\n> nor the C++ code generated from them. You need **your own legal copy** of God of War for the PS2.\n\n## Contents\n\n- [What is this?](#what-is-this)\n- [Current status](#current-status)\n- [Repository layout](#repository-layout)\n- [Requirements](#requirements)\n- [Building and running](#building-and-running)\n- [How it works](#how-it-works)\n- [Documentation](#documentation)\n- [Credits and license](#credits-and-license)\n\n## What is this?\n\nInstead of emulating the PlayStation 2, this project **translates the game's original executable (`SCUS_973.99`)\ninto C++** with [PS2Recomp](https://github.com/ran-j/PS2Recomp) and compiles it into a native Windows program.\nSince October 2026 the base is the runtime of [**Waffle565**](https://github.com/Waffle565/God-Of-War-Native-Port)'s\nnative port, which replaces every piece of PS2 hardware with native code that produces the\nsame result from the game's own data:\n\n| Layer | Native replacement |\n|---|---|\n| **EE CPU** (game code) | Static recompilation to C++ (6,414 functions) |\n| **VU1** (vector microcode) | Microprograms compiled ahead of time to C++ |\n| **GS*",
-        "installation": "<div align=\"center\">\n\n# God of War — PS2 Static Recompilation\n\n**English** · [Español](README.es.md) · [Português (Brasil)](README.pt-BR.md)\n\n**A native PC port of *God of War* (PS2, NTSC-U `SCUS-97399`) built by statically recompiling MIPS R5900 code to C++.**\n\n![Platform](https://img.shields.io/badge/platform-Windows%20x64%20%7C%20Linux%20x64-0078D6)\n![Language](https://img.shields.io/badge/C%2B%2B-20-00599C?logo=cplusplus&logoColor=white)\n![Build](https://img.shields.io/badge/build-CMake%20%2B%20Ninja-064F8C?logo=cmake&logoColor=white)\n![Based on](https://img.shields.io/badge/based%20on-PS2Recomp-8A2BE2)\n![Status](https://img.shields.io/badge/status-experimental-orange)\n[![Tests](https://github.com/KIexster/god-of-war-recomp/actions/workflows/pruebas.yml/badge.svg)](https://github.com/KIexster/god-of-war-recomp/actions/workflows/pruebas.yml)\n[![Listed on PlayPorted](https://playported.com/badge.svg)](https://playported.com/ports/337-god-of-war/)\n\n</div>\n\n---\n\n> [!IMPORTANT]\n> This repository **does not contain any game files** (ISO, executable, IRX modules or `.PAK` data),\n> nor the C++ code generated from them. You need **your own legal copy** of God of War for the PS2.\n\n## Contents\n\n- [What is this?](#what-is-this)\n- [Current status](#current-status)\n- [Repository layout](#repository-layout)\n- [Requirements](#requirements)\n- [Building and running](#building-and-running)\n- [How it works](#how-it-works)\n- [Documentation](#documentation)\n- [Credits and license](#credits-and-license)\n\n## What is this?\n\nInstead of emulating the PlayStation 2, this project **translates the game's original executable (`SCUS_973.99`)\ninto C++** with [PS2Recomp](https://github.com/ran-j/PS2Recomp) and compiles it into a native Windows program.\nSince October 2026 the base is the runtime of [**Waffle565**](https://github.com/Waffle565/God-Of-War-Native-Port)'s\nnative port, which replaces every piece of PS2 hardware with native code that produces the\nsame result from the game's own data:\n\n| Layer | Native replacement |\n|---|---|\n| **EE CPU** (game code) | Static recompilation to C++ (6,414 functions) |\n| **VU1** (vector microcode) | Microprograms compiled ahead of time to C++ |\n| **GS*",
-        "build": "<div align=\"center\">\n\n# God of War — PS2 Static Recompilation\n\n**English** · [Español](README.es.md) · [Português (Brasil)](README.pt-BR.md)\n\n**A native PC port of *God of War* (PS2, NTSC-U `SCUS-97399`) built by statically recompiling MIPS R5900 code to C++.**\n\n![Platform](https://img.shields.io/badge/platform-Windows%20x64%20%7C%20Linux%20x64-0078D6)\n![Language](https://img.shields.io/badge/C%2B%2B-20-00599C?logo=cplusplus&logoColor=white)\n![Build](https://img.shields.io/badge/build-CMake%20%2B%20Ninja-064F8C?logo=cmake&logoColor=white)\n![Based on](https://img.shields.io/badge/based%20on-PS2Recomp-8A2BE2)\n![Status](https://img.shields.io/badge/status-experimental-orange)\n[![Tests](https://github.com/KIexster/god-of-war-recomp/actions/workflows/pruebas.yml/badge.svg)](https://github.com/KIexster/god-of-war-recomp/actions/workflows/pruebas.yml)\n[![Listed on PlayPorted](https://playported.com/badge.svg)](https://playported.com/ports/337-god-of-war/)\n\n</div>\n\n---\n\n> [!IMPORTANT]\n> This repository **does not contain any game files** (ISO, executable, IRX modules or `.PAK` data),\n> nor the C++ code generated from them. You need **your own legal copy** of God of War for the PS2.\n\n## Contents\n\n- [What is this?](#what-is-this)\n- [Current status](#current-status)\n- [Repository layout](#repository-layout)\n- [Requirements](#requirements)\n- [Building and running](#building-and-running)\n- [How it works](#how-it-works)\n- [Documentation](#documentation)\n- [Credits and license](#credits-and-license)\n\n## What is this?\n\nInstead of emulating the PlayStation 2, this project **translates the game's original executable (`SCUS_973.99`)\ninto C++** with [PS2Recomp](https://github.com/ran-j/PS2Recomp) and compiles it into a native Windows program.\nSince October 2026 the base is the runtime of [**Waffle565**](https://github.com/Waffle565/God-Of-War-Native-Port)'s\nnative port, which replaces every piece of PS2 hardware with native code that produces the\nsame result from the game's own data:\n\n| Layer | Native replacement |\n|---|---|\n| **EE CPU** (game code) | Static recompilation to C++ (6,414 functions) |\n| **VU1** (vector microcode) | Microprograms compiled ahead of time to C++ |\n| **GS*",
-        "general": "<div align=\"center\">\n\n# God of War — PS2 Static Recompilation\n\n**English** · [Español](README.es.md) · [Português (Brasil)](README.pt-BR.md)\n\n**A native PC port of *God of War* (PS2, NTSC-U `SCUS-97399`) built by statically recompiling MIPS R5900 code to C++.**\n\n![Platform](https://img.shields.io/badge/platform-Windows%20x64%20%7C%20Linux%20x64-0078D6)\n![Language](https://img.shields.io/badge/C%2B%2B-20-00599C?logo=cplusplus&logoColor=white)\n![Build](https://img.shields.io/badge/build-CMake%20%2B%20Ninja-064F8C?logo=cmake&logoColor=white)\n![Based on](https://img.shields.io/badge/based%20on-PS2Recomp-8A2BE2)\n![Status](https://img.shields.io/badge/status-experimental-orange)\n[![Tests](https://github.com/KIexster/god-of-war-recomp/actions/workflows/pruebas.yml/badge.svg)](https://github.com/KIexster/god-of-war-recomp/actions/workflows/pruebas.yml)\n[![Listed on PlayPorted](https://playported.com/badge.svg)](https://playported.com/ports/337-god-of-war/)\n\n</div>\n\n---\n\n> [!IMPORTANT]\n> This repository **does not contain any game files** (ISO, executable, IRX modules or `.PAK` data),\n> nor the C++ code generated from them. You need **your own legal copy** of God of War for the PS2.\n\n## Contents\n\n- [What is this?](#what-is-this)\n- [Current status](#current-status)\n- [Repository layout](#repository-layout)\n- [Requirements](#requirements)\n- [Building and running](#building-and-running)\n- [How it works](#how-it-works)\n- [Documentation](#documentation)\n- [Credits and license](#credits-and-license)\n\n## What is this?\n\nInstead of emulating the PlayStation 2, this project **translates the game's original executable (`SCUS_973.99`)\ninto C++** with [PS2Recomp](https://github.com/ran-j/PS2Recomp) and compiles it into a native Windows program.\nSince October 2026 the base is the runtime of [**Waffle565**](https://github.com/Waffle565/God-Of-War-Native-Port)'s\nnative port, which replaces every piece of PS2 hardware with native code that produces the\nsame result from the game's own data:\n\n| Layer | Native replacement |\n|---|---|\n| **EE CPU** (game code) | Static recompilation to C++ (6,414 functions) |\n| **VU1** (vector microcode) | Microprograms compiled ahead of time to C++ |\n| **GS*"
-      },
-      "evidence": [
-        {
-          "category": "system",
-          "heading": "README oficial",
-          "source_url": "https://raw.githubusercontent.com/KIexster/god-of-war-recomp/HEAD/README.md"
-        },
-        {
-          "category": "installation",
-          "heading": "README oficial",
-          "source_url": "https://raw.githubusercontent.com/KIexster/god-of-war-recomp/HEAD/README.md"
-        },
-        {
-          "category": "build",
-          "heading": "README oficial",
-          "source_url": "https://raw.githubusercontent.com/KIexster/god-of-war-recomp/HEAD/README.md"
-        },
-        {
-          "category": "general",
-          "heading": "README oficial",
-          "source_url": "https://raw.githubusercontent.com/KIexster/god-of-war-recomp/HEAD/README.md"
-        }
-      ],
-      "translation_status": "pending_human_review",
-      "legacy_reported_pt": "",
-      "translation_method": "editorial_summary_from_readme",
-      "translation_reviewed_by_human": false
-    },
-    "fh1-reimagined": {
-      "game_id": "forza-horizon",
-      "verification_status": "documented_in_readme",
-      "source_url": "https://raw.githubusercontent.com/FH1-ReImagined/ForzaHorizon1-ReImagined/HEAD/README.md",
-      "verified_at": "2026-11-23",
-      "system": "Windows ou Linux; requisitos detalhados no README oficial, ainda não homologados pelo All-Fix.",
-      "installation": "Baixar o launcher oficial e fornecer os arquivos de uma cópia própria de Forza Horizon de Xbox 360. Instalação GetAll desabilitada.",
-      "build": "Recompilação estática da versão Xbox 360 para PC; launcher prepara o executável a partir dos arquivos originais.",
-      "general": "Inclui multiplayer comunitário Horizon World, leaderboards e Rivals. Compatibilidade e funcionamento não foram testados pelo All-Fix.",
-      "source_text": {
-        "system": "## Requirements\n\n- Windows 10/11 64-bit, or Linux x86-64. Windows can use Vulkan or Direct3D 12. Linux uses Vulkan. Vulkan 1.3 is what the Vulkan path asks for.\n- About 4 GB of free RAM while playing (the game peaks near 1.1 GB). A build needs more: about 2 GB at 4 jobs, about 3.2 GB at 8. About 15 GB of disk. [`docs/launcher.md`](docs/launcher.md)\n- Your own copy of Forza Horizon: a disc image, a Games on Demand package, or an extracted folder. Title Update 4 and DLC are optional. TU4 is what you want for Horizon Rally and the 1000 Club.\n- A controller, a keyboard and mouse, or a wheel.\n\n> [!IMPORTANT]\n> **macOS is a source-build experiment.** The launcher does not support macOS, and there is no Mac download.\n> Opening drives render on Apple Silicon. Full races, save reloads and physical controllers still need validation.\n> [macOS setup and limits](docs/macos.md)\n",
-        "installation": "## Install with the launcher\n\nThis is the way to install. The launcher builds the game on your machine from your own files. Nothing of the game is downloaded.\n\n1. Get the launcher from the [latest release](https://github.com/FH1-ReImagined/ForzaHorizon1-ReImagined/releases/latest). On Windows, the installer. On Linux, the Flatpak (recommended on SteamOS) or the `.tar.gz`. From v0.1.9 onward the launcher checks for updates itself (**About > Launcher updates**).\n   The Flatpak is `flatpak install --user ForzaHorizon1-ReImagined-x86_64.flatpak`. It pulls the freedesktop SDK runtime from Flathub. Install the compiler extension once, or the launcher downloads a 2 GB compiler instead and tells you so:\n\n   ```sh\n   flatpak install flathub org.freedesktop.Sdk.Extension.llvm22//26.08\n   ```\n\n   **On SteamOS (Steam Deck):** in Desktop Mode, download the `.flatpak` and open it in Dolphin (Discover installs it) or run the command above, install the compiler extension, then in Steam choose **Games > Add a Non-Steam Game to My Library** and pick **Forza Horizon 1: ReImagined**. It then starts from Game Mode. [`docs/steam_deck.md`](docs/steam_deck.md)\n\n2. In Setup, **Game files**: your disc image, Games on Demand package, or an extracted folder. **Updates & DLC**: Title Update 4 and your DLC folder, if you have them.\n3. **Build.** The launcher generates the game from your copy and compiles it. A measured build at 4 jobs on an 8-core PC took about 4.6 minutes ([`docs/launcher.md`](docs/launcher.md)). It can be cancelled and resumed, and it runs again only when something changed.\n4. **Prebuild shaders** (optional, Vulkan). This builds pipelines from your own game files before you play, so the first visit to a place stutters less. The launcher offers it again after a driver, launcher or graphics-setting change. [`docs/shader_prebuild.md`](docs/shader_prebuild.md)\n5. **Play.** Settings cover display, controls, audio, online, profile and advanced options. **Saves** is the backup and profile editor.\n\nDetails: [`docs/launcher.md`](docs/launcher.md).\n\nTo verify a download when its release includes `SHA256SUMS`, download that file from the\nsame release. On Windows, run `certutil -hashfile .\\YourDownloadedSetup.exe SHA256` or, in\nPowerShell, `Get-FileHash .\\YourDownloadedSetup.exe -Algorithm SHA256`, and compare the hash with\nthe matching filename in `SHA256SUMS` ([details](docs/launcher.md#verify-your-download)).\nOn Linux, put both files in the same folder and run\n`sha256sum --ignore-missing -c SHA256SUMS`. A match confirms the downloaded bytes match\nthe published checksum; it does not certify that the program is safe or code-signed.\n\nWindows releases also include `ForzaHoriz",
-        "build": "## Building from source\n\nFor developers. Players should use the launcher.\n\nLinux configure and the pinned SDK are in [`docs/PROJECT.md`](docs/PROJECT.md). Title Update 4 is in [`docs/dlc.md`](docs/dlc.md). The Windows cross-compile is `tools/build_windows.sh` ([`docs/launcher.md`](docs/launcher.md)). macOS is [`docs/macos.md`](docs/macos.md), ARM64 Linux [`docs/arm64_linux.md`](docs/arm64_linux.md). Android is only a study so far, with no build: [`docs/android-port.md`](docs/android-port.md). A source tree launches with `tools/play.sh` ([`docs/playing.md`](docs/playing.md)).\n",
-        "general": "<p align=\"center\">\n  <img src=\"docs/images/logo.svg\" alt=\"Forza Horizon 1: ReImagined logo\" width=\"160\">\n</p>\n\n<h1 align=\"center\">Forza Horizon 1: ReImagined</h1>\n\n<p align=\"center\">\n  <b>The original 2012 Forza Horizon, recompiled to run natively on Windows and Linux, and online again.</b>\n</p>\n\n<p align=\"center\">\n  The official online services closed on 22 August 2023\n  (<a href=\"https://forza.net/news/forza-horizon-online-services-closure\">Turn 10's notice</a>).\n  ReImagined is a static recompilation (recomp) of the Xbox 360 game: it runs natively on your PC and brings online play back through a public server,\n  or one you host yourself. You bring your own copy; no game code or data is included.\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/FH1-ReImagined/ForzaHorizon1-ReImagined/releases/latest\"><img alt=\"Latest release\" src=\"https://img.shields.io/github/v/release/FH1-ReImagined/ForzaHorizon1-ReImagined\"></a>\n  <a href=\"https://github.com/FH1-ReImagined/ForzaHorizon1-ReImagined/releases\"><img alt=\"Total downloads\" src=\"https://img.shields.io/github/downloads/FH1-ReImagined/ForzaHorizon1-ReImagined/total\"></a>\n  <a href=\"LICENSE\"><img alt=\"License: GPL-3.0-or-later\" src=\"https://img.shields.io/badge/license-GPL--3.0--or--later-blue\"></a>\n  <a href=\"https://discord.gg/yu7zScdcWw\"><img alt=\"Discord\" src=\"https://img.shields.io/discord/1560035448125137099?logo=discord&logoColor=white&label=Discord\"></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/FH1-ReImagined/ForzaHorizon1-ReImagined/releases/latest\"><img alt=\"Download the launcher\" src=\"https://img.shields.io/badge/Download-the%20launcher-e8964f?style=for-the-badge\"></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://forza.dyotson.dev\">Website</a> ·\n  <a href=\"https://discord.gg/yu7zScdcWw\">Discord</a> ·\n  <a href=\"https://forza.dyotson.dev/leaderboards.html\">Leaderboards</a>\n</p>\n\n<p align=\"center\">\n  The launcher is a Windows installer, a Linux Flatpak or a Linux <code>.tar.gz</code>.\n  It upd"
-      },
-      "evidence": [
-        {
-          "category": "system",
-          "heading": "README oficial",
-          "source_url": "https://raw.githubusercontent.com/FH1-ReImagined/ForzaHorizon1-ReImagined/HEAD/README.md"
-        },
-        {
-          "category": "installation",
-          "heading": "README oficial",
-          "source_url": "https://raw.githubusercontent.com/FH1-ReImagined/ForzaHorizon1-ReImagined/HEAD/README.md"
-        },
-        {
-          "category": "build",
-          "heading": "README oficial",
-          "source_url": "https://raw.githubusercontent.com/FH1-ReImagined/ForzaHorizon1-ReImagined/HEAD/README.md"
-        },
-        {
-          "category": "general",
-          "heading": "README oficial",
-          "source_url": "https://raw.githubusercontent.com/FH1-ReImagined/ForzaHorizon1-ReImagined/HEAD/README.md"
         }
       ],
       "translation_status": "pending_human_review",
