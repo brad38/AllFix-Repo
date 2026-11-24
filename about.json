@@ -2203,7 +2203,7 @@
       "description_pt": "Fork original que introduziu D3D12, Smooth Motion 240 FPS e escalada livre; foi oficialmente fundido de volta ao BlueWake em outubro de 2026.",
       "description_status": "reviewed_pt_br",
       "description_source_url": "https://raw.githubusercontent.com/elliotttate/Wind-Waker-Recomp/HEAD/README.md",
-      "development_status_reported": "Abandonado / Fundido ao BlueWake",
+      "development_status_reported": "Descontinuado / Substituído por bluewake",
       "legacy_audit": {
         "developer": null,
         "version": {
@@ -2630,7 +2630,7 @@
           "functional_installation_tested": false
         }
       },
-      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados. Classificado como base_decompilation (nao instalavel para Windows)."
     },
     "zelda3": {
       "game_id": "the-legend-of-zelda-a-link-to-the-past",
@@ -2949,7 +2949,7 @@
           "functional_installation_tested": false
         }
       },
-      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados. Classificado como base_decompilation (nao instalavel para Windows)."
     },
     "gsrecomp": {
       "game_id": "golden-sun-golden-sun-the-lost-age",
@@ -3587,7 +3587,7 @@
           "functional_installation_tested": false
         }
       },
-      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
+      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados. Classificado como base_decompilation (nao instalavel para Windows)."
     },
     "unleashedrecomp": {
       "game_id": "sonic-unleashed",
@@ -3740,7 +3740,7 @@
       "description_pt": "Overhauls completos sobre fork da RSDKv4 com widescreen aprimorado, melhorias visuais, novos personagens/modos e opções estilo Sonic 3 A.I.R. (espelho de código em ElspethThePict/TeamForever-v4-1.3).",
       "description_status": "reviewed_pt_br",
       "description_source_url": null,
-      "development_status_reported": "Estável",
+      "development_status_reported": "Depreciado / Alias de compatibilidade",
       "legacy_audit": {
         "developer": null,
         "version": {
@@ -3761,7 +3761,7 @@
           "functional_installation_tested": false
         }
       },
-      "description_review_note": "Resumo editorial em português; fonte oficial individual não foi verificada nesta auditoria."
+      "description_review_note": "Substituido pelos projetos independentes sonic-1-forever e sonic-2-absolute; ID preservado para compatibilidade retroativa."
     },
     "sonic-3-a-i-r-oxygen-engine": {
       "game_id": "sonic-3-knuckles",
@@ -4012,7 +4012,7 @@
         },
         "windows": {
           "reported_availability": "Sim (Project2099-Beta5-Setup.exe)",
-          "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+          "audit_result": "Bloqueado por redistribuicao: NO_GAME_DATA.md informa payload .eotp derivado nao isento de ativos e codigo de runtime ausente.",
           "installation_enabled": false
         },
         "validation": {
@@ -4022,7 +4022,7 @@
           "functional_installation_tested": false
         }
       },
-      "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
+      "description_review_note": "Mantido com installation_enabled=false devido a redistribuicao de payload com ativos derivados; use edge-of-time-recomp."
     },
     "king-kong-recompiled": {
       "game_id": "peter-jackson-s-king-kong",
@@ -4977,6 +4977,93 @@
           "repository": "GitHub API: OK",
           "releases": "Não auditadas individualmente",
           "notes": "Somente catálogo.",
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "sonic-1-forever": {
+      "game_id": "sonic-the-hedgehog-1-2-2013",
+      "fallback_name": "Sonic 1 Forever",
+      "description_pt": "Projeto independente do overhaul Sonic 1 Forever (fork RSDKv4) com widescreen, modos extras e suporte a mods; requer Data.rsdk ou APK legitimo do Sonic the Hedgehog (2013).",
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://github.com/TeamForeverDev/Sonic1Forever",
+      "development_status_reported": "Estável",
+      "description_review_note": "Curadoria de separacao individual do Team Forever em 24/11/2026.",
+      "legacy_audit": {
+        "developer": "Team Forever",
+        "version": {
+          "reported_by_gemini": "1.5.2",
+          "latest_tag_observed_in_audit": "1.5.2",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (pacote oficial Sonic 1 Forever ModOnly x64 em GitHub)",
+          "audit_result": "Arquivo Windows oficial verificado; installation_enabled=false nesta branch editorial do catalogo.",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Verificado no repositorio oficial",
+          "notes": "Sem Data.rsdk comercial embutido.",
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "sonic-2-absolute": {
+      "game_id": "sonic-the-hedgehog-1-2-2013",
+      "fallback_name": "Sonic 2 Absolute",
+      "description_pt": "Projeto independente do overhaul Sonic 2 Absolute (fork RSDKv4) com restauracoes, melhorias visuais e suporte a mods; requer Data.rsdk ou APK legitimo do Sonic the Hedgehog 2 (2013).",
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://github.com/TeamForeverDev/Sonic2Absolute",
+      "development_status_reported": "Estável",
+      "description_review_note": "Curadoria de separacao individual do Team Forever em 24/11/2026.",
+      "legacy_audit": {
+        "developer": "Team Forever",
+        "version": {
+          "reported_by_gemini": "1.2.2",
+          "latest_tag_observed_in_audit": "1.2.2",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (pacote oficial Sonic 2 Absolute ModOnly x64 em GitHub)",
+          "audit_result": "Arquivo Windows oficial verificado; installation_enabled=false nesta branch editorial do catalogo.",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK",
+          "releases": "Verificado no repositorio oficial",
+          "notes": "Sem Data.rsdk comercial embutido.",
+          "functional_installation_tested": false
+        }
+      }
+    },
+    "edge-of-time-recomp": {
+      "game_id": "spider-man-edge-of-time",
+      "fallback_name": "EdgeOfTimeRecomp",
+      "description_pt": "Port nativo por recompilacao estatica (ReXGlue SDK, BSD-3-Clause) da versao Xbox 360 de Spider-Man: Edge of Time, sem redistribuicao de ativos do jogo.",
+      "description_status": "reviewed_pt_br",
+      "description_source_url": "https://raw.githubusercontent.com/goliathret/EdgeOfTimeRecomp/HEAD/README.md",
+      "development_status_reported": "Ativo (v1.0.0 / v1.1 em releases oficiais)",
+      "description_review_note": "Alternativa open-source BSD-3-Clause adicionada em 24/11/2026 mantendo project-2099 desabilitado por redistribuicao de payload.",
+      "legacy_audit": {
+        "developer": "goliathret / EdgeOfTimeRecomp",
+        "version": {
+          "reported_by_gemini": "v1.0.0-20261030_1906 / v1.1",
+          "latest_tag_observed_in_audit": "v1.1",
+          "release_tag_to_install": null,
+          "release_asset_to_install": null
+        },
+        "windows": {
+          "reported_availability": "Sim (EdgeOfTimeRecomp-*-win-amd64.zip em GitHub Releases)",
+          "audit_result": "Binarios Windows oficiais verificados sem ativos comerciais.",
+          "installation_enabled": false
+        },
+        "validation": {
+          "repository": "GitHub API: OK (BSD-3-Clause)",
+          "releases": "Release GitHub verificada",
+          "notes": "Asset-free.",
           "functional_installation_tested": false
         }
       }

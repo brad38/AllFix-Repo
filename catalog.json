@@ -1096,7 +1096,9 @@
           "fallback_name": "Wind-Waker-Recomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "status": "superseded",
+          "superseded_by": "bluewake"
         }
       ]
     },
@@ -1386,7 +1388,8 @@
           "fallback_name": "doldecomp/mkdd (Decompilação-base)",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "classification": "base_decompilation"
         }
       ]
     },
@@ -1589,7 +1592,8 @@
           "fallback_name": "tmc (Decompilação-base)",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "classification": "base_decompilation"
         }
       ]
     },
@@ -2092,7 +2096,8 @@
           "fallback_name": "mml1 (Megaman Legends Decomp)",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "classification": "base_decompilation"
         }
       ]
     },
@@ -2227,7 +2232,38 @@
             "github_repository": null,
             "releases_url": null
           },
-          "fallback_name": "Sonic 1 Forever & Sonic 2 Absolute",
+          "fallback_name": "Sonic 1 Forever & Sonic 2 Absolute (Pacote Legado Unificado)",
+          "windows": {
+            "installation_enabled": false
+          },
+          "status": "deprecated",
+          "replaced_by": [
+            "sonic-1-forever",
+            "sonic-2-absolute"
+          ]
+        },
+        {
+          "id": "sonic-1-forever",
+          "source": {
+            "url": "https://github.com/TeamForeverDev/Sonic1Forever",
+            "provider": "github",
+            "github_repository": "TeamForeverDev/Sonic1Forever",
+            "releases_url": "https://github.com/TeamForeverDev/Sonic1Forever/releases"
+          },
+          "fallback_name": "Sonic 1 Forever",
+          "windows": {
+            "installation_enabled": false
+          }
+        },
+        {
+          "id": "sonic-2-absolute",
+          "source": {
+            "url": "https://github.com/TeamForeverDev/Sonic2Absolute",
+            "provider": "github",
+            "github_repository": "TeamForeverDev/Sonic2Absolute",
+            "releases_url": "https://github.com/TeamForeverDev/Sonic2Absolute/releases"
+          },
+          "fallback_name": "Sonic 2 Absolute",
           "windows": {
             "installation_enabled": false
           }
@@ -2466,6 +2502,20 @@
             "releases_url": "https://github.com/GenryTheFox0/Project-2099/releases"
           },
           "fallback_name": "Project 2099",
+          "windows": {
+            "installation_enabled": false
+          },
+          "status": "asset_redistribution_blocked"
+        },
+        {
+          "id": "edge-of-time-recomp",
+          "source": {
+            "url": "https://github.com/goliathret/EdgeOfTimeRecomp",
+            "provider": "github",
+            "github_repository": "goliathret/EdgeOfTimeRecomp",
+            "releases_url": "https://github.com/goliathret/EdgeOfTimeRecomp/releases"
+          },
+          "fallback_name": "EdgeOfTimeRecomp",
           "windows": {
             "installation_enabled": false
           }

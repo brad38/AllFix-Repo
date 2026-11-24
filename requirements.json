@@ -3148,7 +3148,7 @@
       },
       "evidence": [],
       "translation_status": "not_available",
-      "legacy_reported_pt": "Arquivo Data.rsdk / APK original de Sonic 1 ou Sonic 2 (2013)."
+      "legacy_reported_pt": "Entrada legada unificada (mantida para compatibilidade de IDs existentes). Prefira os projetos individuais sonic-1-forever e sonic-2-absolute."
     },
     "sonic-3-a-i-r-oxygen-engine": {
       "game_id": "sonic-3-knuckles",
@@ -4786,6 +4786,92 @@
         }
       ],
       "translation_status": "pending_human_review",
+      "legacy_reported_pt": "",
+      "translation_method": "editorial_summary_from_readme",
+      "translation_reviewed_by_human": false
+    },
+    "sonic-1-forever": {
+      "game_id": "sonic-the-hedgehog-1-2-2013",
+      "verification_status": "documented_in_readme",
+      "source_url": "https://teamforeverdev.github.io/projects.html",
+      "verified_at": "2026-11-24",
+      "system": "Windows 64 bits (x64).",
+      "installation": "Fornecer arquivo Data.rsdk ou APK legitimo correspondente ao Sonic 1 Forever e extrair o pacote oficial ModOnly correspondente.",
+      "build": null,
+      "general": "Repositorio oficial TeamForeverDev/Sonic1Forever; distribuicao oficial Windows sem redistribuicao de Data.rsdk comercial.",
+      "source_text": {
+        "system": null,
+        "installation": "Provide legitimate Data.rsdk or Android APK alongside Sonic 1 Forever ModOnly Windows release.",
+        "build": null,
+        "general": "Official Team Forever release at https://github.com/TeamForeverDev/Sonic1Forever"
+      },
+      "evidence": [
+        {
+          "category": "installation",
+          "heading": "Team Forever Projects Page",
+          "source_url": "https://teamforeverdev.github.io/projects.html"
+        }
+      ],
+      "translation_status": "editorial_summary_pt_br",
+      "legacy_reported_pt": "Arquivo Data.rsdk ou APK original correspondente.",
+      "translation_method": "editorial_summary_from_official_source",
+      "translation_reviewed_by_human": false
+    },
+    "sonic-2-absolute": {
+      "game_id": "sonic-the-hedgehog-1-2-2013",
+      "verification_status": "documented_in_readme",
+      "source_url": "https://teamforeverdev.github.io/projects.html",
+      "verified_at": "2026-11-24",
+      "system": "Windows 64 bits (x64).",
+      "installation": "Fornecer arquivo Data.rsdk ou APK legitimo correspondente ao Sonic 2 Absolute e extrair o pacote oficial ModOnly correspondente.",
+      "build": null,
+      "general": "Repositorio oficial TeamForeverDev/Sonic2Absolute; distribuicao oficial Windows sem redistribuicao de Data.rsdk comercial.",
+      "source_text": {
+        "system": null,
+        "installation": "Provide legitimate Data.rsdk or Android APK alongside Sonic 2 Absolute ModOnly Windows release.",
+        "build": null,
+        "general": "Official Team Forever release at https://github.com/TeamForeverDev/Sonic2Absolute"
+      },
+      "evidence": [
+        {
+          "category": "installation",
+          "heading": "Team Forever Projects Page",
+          "source_url": "https://teamforeverdev.github.io/projects.html"
+        }
+      ],
+      "translation_status": "editorial_summary_pt_br",
+      "legacy_reported_pt": "Arquivo Data.rsdk ou APK original correspondente.",
+      "translation_method": "editorial_summary_from_official_source",
+      "translation_reviewed_by_human": false
+    },
+    "edge-of-time-recomp": {
+      "game_id": "spider-man-edge-of-time",
+      "verification_status": "documented_in_readme",
+      "source_url": "https://raw.githubusercontent.com/goliathret/EdgeOfTimeRecomp/HEAD/README.md",
+      "verified_at": "2026-11-24",
+      "system": "Windows 10 (1909+), Linux x86-64 ou macOS 13.3+; CPU com AVX, 8 GB RAM, GPU D3D12 (SM6) ou Vulkan 1.2 e 10 GB livres.",
+      "installation": "Requer copia propria de Spider-Man: Edge of Time (Xbox 360 US) com Title Update (DLC Identity Crisis opcional) fornecida na primeira execucao.",
+      "build": "Recompilacao estatica ReXGlue SDK com codigo aberto BSD-3-Clause e XenosRecomp.",
+      "general": "Nao inclui ativos comerciais do jogo; downloads oficiais somente em github.com/goliathret/EdgeOfTimeRecomp/releases.",
+      "source_text": {
+        "system": "Windows 10 (1909), CPU with AVX, D3D12.0 (SM6) or Vulkan 1.2 GPU, 8 GB RAM, 10 GB storage.",
+        "installation": "Provide your own Xbox 360 US copy of Spider-Man: Edge of Time with Title Update (DLC optional).",
+        "build": "Static recompilation using ReXGlue SDK and custom XenosRecomp (BSD-3-Clause).",
+        "general": "Project does not include any game assets."
+      },
+      "evidence": [
+        {
+          "category": "system",
+          "heading": "Minimum System Requirements",
+          "source_url": "https://raw.githubusercontent.com/goliathret/EdgeOfTimeRecomp/HEAD/README.md"
+        },
+        {
+          "category": "installation",
+          "heading": "How to Install",
+          "source_url": "https://raw.githubusercontent.com/goliathret/EdgeOfTimeRecomp/HEAD/README.md"
+        }
+      ],
+      "translation_status": "editorial_summary_pt_br",
       "legacy_reported_pt": "",
       "translation_method": "editorial_summary_from_readme",
       "translation_reviewed_by_human": false
