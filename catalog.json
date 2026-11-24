@@ -368,7 +368,8 @@
           "fallback_name": "drmario64_recomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "status": "source_only"
         }
       ]
     },
@@ -1161,7 +1162,8 @@
           "fallback_name": "Twilight Princess: Courage Reborn",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "status": "official_package_unavailable"
         }
       ]
     },
@@ -1261,7 +1263,8 @@
           "fallback_name": "Metaforce",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "status": "official_package_unavailable"
         }
       ]
     },
@@ -1389,7 +1392,8 @@
           "windows": {
             "installation_enabled": false
           },
-          "classification": "base_decompilation"
+          "classification": "base_decompilation",
+          "status": "console_decompilation"
         }
       ]
     },
@@ -1593,7 +1597,8 @@
           "windows": {
             "installation_enabled": false
           },
-          "classification": "base_decompilation"
+          "classification": "base_decompilation",
+          "status": "console_decompilation"
         }
       ]
     },
@@ -2097,7 +2102,8 @@
           "windows": {
             "installation_enabled": false
           },
-          "classification": "base_decompilation"
+          "classification": "base_decompilation",
+          "status": "console_decompilation"
         }
       ]
     },
@@ -2518,7 +2524,8 @@
           "fallback_name": "EdgeOfTimeRecomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "status": "preparation_available"
         }
       ]
     },
