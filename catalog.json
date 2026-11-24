@@ -1568,10 +1568,10 @@
         {
           "id": "project-picori-999sian-tmc",
           "source": {
-            "url": "https://github.com/999sian",
-            "provider": "external",
-            "github_repository": null,
-            "releases_url": null
+            "url": "https://github.com/999sian/tmc",
+            "provider": "github",
+            "github_repository": "999sian/tmc",
+            "releases_url": "https://github.com/999sian/tmc/releases"
           },
           "fallback_name": "Project Picori (999sian/tmc)",
           "windows": {
