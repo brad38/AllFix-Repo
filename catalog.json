@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "catalog_version": "2026-11-23-gran-turismo-ports",
+  "catalog_version": "2026-11-23-new-native-ports",
   "language": "pt-BR",
   "requirements_file": "requirements.json",
   "about_file": "about.json",
@@ -1665,6 +1665,19 @@
           "windows": {
             "installation_enabled": false
           }
+        },
+        {
+          "id": "god-of-war-recomp",
+          "source": {
+            "url": "https://github.com/KIexster/god-of-war-recomp",
+            "provider": "github",
+            "github_repository": "KIexster/god-of-war-recomp",
+            "releases_url": "https://github.com/KIexster/god-of-war-recomp/releases"
+          },
+          "fallback_name": "God of War Recomp",
+          "windows": {
+            "installation_enabled": false
+          }
         }
       ]
     },
@@ -2293,6 +2306,19 @@
           "windows": {
             "installation_enabled": false
           }
+        },
+        {
+          "id": "fh1-reimagined",
+          "source": {
+            "url": "https://github.com/FH1-ReImagined/ForzaHorizon1-ReImagined",
+            "provider": "github",
+            "github_repository": "FH1-ReImagined/ForzaHorizon1-ReImagined",
+            "releases_url": "https://github.com/FH1-ReImagined/ForzaHorizon1-ReImagined/releases"
+          },
+          "fallback_name": "Forza Horizon 1: ReImagined",
+          "windows": {
+            "installation_enabled": false
+          }
         }
       ]
     },
@@ -2778,6 +2804,431 @@
             "releases_url": "https://github.com/RyGT-Team/RyGT/releases"
           },
           "fallback_name": "RyGT",
+          "windows": {
+            "installation_enabled": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "the-legend-of-zelda-link-s-awakening",
+      "title": "The Legend of Zelda: Link's Awakening",
+      "platform_group": "Nintendo Switch",
+      "category": null,
+      "cover": null,
+      "banner": null,
+      "screenshots": [],
+      "featured": false,
+      "projects": [
+        {
+          "id": "lasrecomp",
+          "source": {
+            "url": "https://github.com/peiikai/LASRecomp",
+            "provider": "github",
+            "github_repository": "peiikai/LASRecomp",
+            "releases_url": "https://github.com/peiikai/LASRecomp/releases"
+          },
+          "fallback_name": "LAS Recomp",
+          "windows": {
+            "installation_enabled": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "super-mario-odyssey",
+      "title": "Super Mario Odyssey",
+      "platform_group": "Nintendo Switch",
+      "category": null,
+      "cover": null,
+      "banner": null,
+      "screenshots": [],
+      "featured": false,
+      "projects": [
+        {
+          "id": "super-odyssey-pc-recomp",
+          "source": {
+            "url": "https://github.com/Simon3Sarkis/super-odyssey-pc-recomp",
+            "provider": "github",
+            "github_repository": "Simon3Sarkis/super-odyssey-pc-recomp",
+            "releases_url": "https://github.com/Simon3Sarkis/super-odyssey-pc-recomp/releases"
+          },
+          "fallback_name": "Super Odyssey PC Recomp",
+          "windows": {
+            "installation_enabled": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "god-hand",
+      "title": "God Hand",
+      "platform_group": "PlayStation 2",
+      "category": null,
+      "cover": null,
+      "banner": null,
+      "screenshots": [],
+      "featured": false,
+      "projects": [
+        {
+          "id": "god-hand-rearmed",
+          "source": {
+            "url": "https://github.com/God-Hand-Rearmed/God-Hand-Rearmed",
+            "provider": "github",
+            "github_repository": "God-Hand-Rearmed/God-Hand-Rearmed",
+            "releases_url": "https://github.com/God-Hand-Rearmed/God-Hand-Rearmed/releases"
+          },
+          "fallback_name": "God Hand: Rearmed",
+          "windows": {
+            "installation_enabled": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "grand-theft-auto-liberty-city-stories-vice-city-stories",
+      "title": "Grand Theft Auto: Liberty City Stories e Vice City Stories",
+      "platform_group": "PlayStation 2",
+      "category": null,
+      "cover": null,
+      "banner": null,
+      "screenshots": [],
+      "featured": false,
+      "projects": [
+        {
+          "id": "gta-stories-recompiled",
+          "source": {
+            "url": "https://github.com/batinium/gta-stories-recompiled",
+            "provider": "github",
+            "github_repository": "batinium/gta-stories-recompiled",
+            "releases_url": "https://github.com/batinium/gta-stories-recompiled/releases"
+          },
+          "fallback_name": "GTA Stories Recompiled",
+          "windows": {
+            "installation_enabled": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "god-of-war-iii-remastered",
+      "title": "God of War III Remastered",
+      "platform_group": "PlayStation 4",
+      "category": null,
+      "cover": null,
+      "banner": null,
+      "screenshots": [],
+      "featured": false,
+      "projects": [
+        {
+          "id": "spartanport",
+          "source": {
+            "url": "https://github.com/FelipePrado0/SpartanPort",
+            "provider": "github",
+            "github_repository": "FelipePrado0/SpartanPort",
+            "releases_url": "https://github.com/FelipePrado0/SpartanPort/releases"
+          },
+          "fallback_name": "SpartanPort",
+          "windows": {
+            "installation_enabled": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "the-last-guardian",
+      "title": "The Last Guardian",
+      "platform_group": "PlayStation 4",
+      "category": null,
+      "cover": null,
+      "banner": null,
+      "screenshots": [],
+      "featured": false,
+      "projects": [
+        {
+          "id": "tlg-pc",
+          "source": {
+            "url": "https://github.com/HayatoG/tlg_pc",
+            "provider": "github",
+            "github_repository": "HayatoG/tlg_pc",
+            "releases_url": "https://github.com/HayatoG/tlg_pc/releases"
+          },
+          "fallback_name": "The Last Guardian PC",
+          "windows": {
+            "installation_enabled": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "infamous-second-son",
+      "title": "inFAMOUS Second Son",
+      "platform_group": "PlayStation 4",
+      "category": null,
+      "cover": null,
+      "banner": null,
+      "screenshots": [],
+      "featured": false,
+      "projects": [
+        {
+          "id": "iss-pc",
+          "source": {
+            "url": "https://github.com/hayatog/iss_pc",
+            "provider": "github",
+            "github_repository": "hayatog/iss_pc",
+            "releases_url": "https://github.com/hayatog/iss_pc/releases"
+          },
+          "fallback_name": "inFAMOUS Second Son PC",
+          "windows": {
+            "installation_enabled": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "pt",
+      "title": "P.T.",
+      "platform_group": "PlayStation 4",
+      "category": null,
+      "cover": null,
+      "banner": null,
+      "screenshots": [],
+      "featured": false,
+      "projects": [
+        {
+          "id": "pt-pc",
+          "source": {
+            "url": "https://github.com/LoreanXavier/pt-pc",
+            "provider": "github",
+            "github_repository": "LoreanXavier/pt-pc",
+            "releases_url": "https://github.com/LoreanXavier/pt-pc/releases"
+          },
+          "fallback_name": "P.T. for PC",
+          "windows": {
+            "installation_enabled": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "gears-of-war-2",
+      "title": "Gears of War 2",
+      "platform_group": "Xbox 360",
+      "category": null,
+      "cover": null,
+      "banner": null,
+      "screenshots": [],
+      "featured": false,
+      "projects": [
+        {
+          "id": "gears-of-war-2-pc-port",
+          "source": {
+            "url": "https://github.com/santiquiroz/gears-of-war-2-pc-port",
+            "provider": "github",
+            "github_repository": "santiquiroz/gears-of-war-2-pc-port",
+            "releases_url": "https://github.com/santiquiroz/gears-of-war-2-pc-port/releases"
+          },
+          "fallback_name": "Gears of War 2 PC Port",
+          "windows": {
+            "installation_enabled": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ninja-gaiden-ii",
+      "title": "Ninja Gaiden II",
+      "platform_group": "Xbox 360",
+      "category": null,
+      "cover": null,
+      "banner": null,
+      "screenshots": [],
+      "featured": false,
+      "projects": [
+        {
+          "id": "ng2recomp",
+          "source": {
+            "url": "https://github.com/gamboozino/ng2recomp",
+            "provider": "github",
+            "github_repository": "gamboozino/ng2recomp",
+            "releases_url": "https://github.com/gamboozino/ng2recomp/releases"
+          },
+          "fallback_name": "Ninja Gaiden II Recompiled",
+          "windows": {
+            "installation_enabled": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "project-gotham-racing-4",
+      "title": "Project Gotham Racing 4",
+      "platform_group": "Xbox 360",
+      "category": null,
+      "cover": null,
+      "banner": null,
+      "screenshots": [],
+      "featured": false,
+      "projects": [
+        {
+          "id": "pgr4-recomp",
+          "source": {
+            "url": "https://github.com/beatrixzy/PGR4-Recomp",
+            "provider": "github",
+            "github_repository": "beatrixzy/PGR4-Recomp",
+            "releases_url": "https://github.com/beatrixzy/PGR4-Recomp/releases"
+          },
+          "fallback_name": "PGR4 Recomp",
+          "windows": {
+            "installation_enabled": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "burnout-3-takedown",
+      "title": "Burnout 3: Takedown",
+      "platform_group": "Xbox Original",
+      "category": null,
+      "cover": null,
+      "banner": null,
+      "screenshots": [],
+      "featured": false,
+      "projects": [
+        {
+          "id": "burnout3-recomp",
+          "source": {
+            "url": "https://github.com/sp00nznet/burnout3",
+            "provider": "github",
+            "github_repository": "sp00nznet/burnout3",
+            "releases_url": "https://github.com/sp00nznet/burnout3/releases"
+          },
+          "fallback_name": "Burnout 3 Recomp",
+          "windows": {
+            "installation_enabled": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "halo-combat-evolved",
+      "title": "Halo: Combat Evolved",
+      "platform_group": "Xbox Original",
+      "category": null,
+      "cover": null,
+      "banner": null,
+      "screenshots": [],
+      "featured": false,
+      "projects": [
+        {
+          "id": "opence",
+          "source": {
+            "url": "https://github.com/OpenCommunityEdition/OpenCE",
+            "provider": "github",
+            "github_repository": "OpenCommunityEdition/OpenCE",
+            "releases_url": "https://github.com/OpenCommunityEdition/OpenCE/releases"
+          },
+          "fallback_name": "OpenCE",
+          "windows": {
+            "installation_enabled": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "lost-odyssey",
+      "title": "Lost Odyssey",
+      "platform_group": "Xbox 360",
+      "category": null,
+      "cover": null,
+      "banner": null,
+      "screenshots": [],
+      "featured": false,
+      "projects": [
+        {
+          "id": "lost-odyssey-recomp",
+          "source": {
+            "url": "https://github.com/freefrank/LostOdysseyRecomp",
+            "provider": "github",
+            "github_repository": "freefrank/LostOdysseyRecomp",
+            "releases_url": "https://github.com/freefrank/LostOdysseyRecomp/releases"
+          },
+          "fallback_name": "Lost Odyssey Recomp",
+          "windows": {
+            "installation_enabled": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ssx-2012",
+      "title": "SSX (2012)",
+      "platform_group": "Xbox 360",
+      "category": null,
+      "cover": null,
+      "banner": null,
+      "screenshots": [],
+      "featured": false,
+      "projects": [
+        {
+          "id": "ssx-recomp",
+          "source": {
+            "url": "https://github.com/AmarilloNL/ssx-recomp",
+            "provider": "github",
+            "github_repository": "AmarilloNL/ssx-recomp",
+            "releases_url": "https://github.com/AmarilloNL/ssx-recomp/releases"
+          },
+          "fallback_name": "SSX Recomp",
+          "windows": {
+            "installation_enabled": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "donkey-kong-bananza",
+      "title": "Donkey Kong Bananza",
+      "platform_group": "Nintendo Switch 2",
+      "category": null,
+      "cover": null,
+      "banner": null,
+      "screenshots": [],
+      "featured": false,
+      "projects": [
+        {
+          "id": "dkb-pc-recomp",
+          "source": {
+            "url": "https://github.com/Lucas-blip-png/dkb-pc-recomp",
+            "provider": "github",
+            "github_repository": "Lucas-blip-png/dkb-pc-recomp",
+            "releases_url": "https://github.com/Lucas-blip-png/dkb-pc-recomp/releases"
+          },
+          "fallback_name": "DKB Recomp",
+          "windows": {
+            "installation_enabled": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "mario-kart-world",
+      "title": "Mario Kart World",
+      "platform_group": "Nintendo Switch 2",
+      "category": null,
+      "cover": null,
+      "banner": null,
+      "screenshots": [],
+      "featured": false,
+      "projects": [
+        {
+          "id": "mkw-recomp",
+          "source": {
+            "url": "https://github.com/adriadam10/mkw-recomp",
+            "provider": "github",
+            "github_repository": "adriadam10/mkw-recomp",
+            "releases_url": "https://github.com/adriadam10/mkw-recomp/releases"
+          },
+          "fallback_name": "mkw-recomp",
           "windows": {
             "installation_enabled": false
           }

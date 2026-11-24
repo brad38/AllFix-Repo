@@ -3,7 +3,7 @@
 Fonte: https://github.com/brad38/AllFix-Repo
 
 Arquivos na raiz:
-- **catalog.json**: estrutura principal (94 jogos, 127 projetos, identificadores, plataformas, links dos repositórios, imagens externas, addons); referencias `requirements_file` e `about_file`.
+- **catalog.json**: estrutura principal (111 jogos, 146 projetos, identificadores, plataformas, links dos repositórios, imagens externas, addons); referencias `requirements_file` e `about_file`.
 - **requirements.json**: requisitos por ID do projeto; categorias `system` (sistema), `installation` (instalação/execução), `build` (compilação), `general` (geral). O objeto `source_text` contém as seções ORIGINAIS dos READMEs, na maioria em inglês. Os campos localizados podem permanecer `null` nos registros ainda não traduzidos; não tratar `legacy_reported_pt` como documentação confirmada.
 - **about.json**: informações para a aba Sobre, indexadas por ID de jogo e de projeto. As descrições dos projetos em português estão em `description_pt` e são acompanhadas de informações sobre sua verificação; descrições e resumos editoriais não são prova de funcionamento. As descrições dos jogos devem permanecer separadas dos detalhes dos projetos de port e recompilação.
 
@@ -37,3 +37,11 @@ A verificação estrutural não substitui a conferência de imagens externas, o 
 - **Gran Turismo 7 — RyGT** (PS4, Windows; projeto antigo ryGT7 incorporado ao RyGT).
 
 Os três projetos permanecem com `windows.installation_enabled=false`, sem receitas GetAll. Instalação e jogabilidade não foram homologadas pelo All-Fix.
+
+## Ports promissores incorporados em 23/11/2026
+
+19 projetos adicionados para 17 jogos novos e dois jogos existentes com ports alternativos: God of War (2005) — God of War Recomp, e Forza Horizon (2012) — Forza Horizon 1: ReImagined. Mantidos os projetos originais `gow-pc-port` e `pinyon-shift` e preservadas as fontes oficiais corrigidas de Picori, Team Forever e Leonida.
+
+Novos projetos: LAS Recomp, Super Odyssey PC Recomp, God Hand Rearmed, GTA Stories Recompiled, SpartanPort, The Last Guardian PC, inFAMOUS Second Son PC, P.T. for PC, Gears of War 2 PC Port, Ninja Gaiden II Recompiled, PGR4 Recomp, Burnout 3 Recomp, OpenCE, Lost Odyssey Recomp, SSX Recomp, DKB Recomp e mkw-recomp.
+
+**Curadoria pendente:** o PR adiciona trechos dos READMEs e sumários técnicos provisórios. Imagens dos novos jogos, requisitos e fontes devem ser revisados antes da homologação. `windows.installation_enabled=false` para os novos projetos; sem alterações no GetAll, SDK ou Desktop.
