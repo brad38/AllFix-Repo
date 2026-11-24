@@ -32,8 +32,8 @@ A verificação estrutural não substitui a conferência de imagens externas, o 
 
 ## Ports de Gran Turismo catalogados em 23/11/2026
 
-- **Gran Turismo 4 — GT4Recomp** (Windows; jogo de PS2; requisitos de ISO SCUS-97328 v2.00 ou Spec II 1.10).
-- **Gran Turismo 5 — GT5 Recomp** (Windows; recompilação estática de PS3, requer cópia própria e preparação local; Linux experimental).
-- **Gran Turismo 7 — RyGT** (Windows; port da versão PS4 CUSA24769; o antigo ryGT7 foi integrado ao RyGT).
+- **Gran Turismo 4 — GT4Recomp** (PS2, Windows; ISO SCUS-97328 v2.00 ou Spec II 1.10).
+- **Gran Turismo 5 — GT5 Recomp** (PS3, Windows; requer cópia própria e preparação local; Linux experimental).
+- **Gran Turismo 7 — RyGT** (PS4, Windows; projeto antigo ryGT7 incorporado ao RyGT).
 
-Os três projetos iniciam com `windows.installation_enabled=false`, sem receitas GetAll ou homologação no All-Fix. A disponibilidade de ferramentas não significa que o jogo original seja distribuído nem que a instalação tenha sido testada.
+Os três projetos permanecem com `windows.installation_enabled=false`, sem receitas GetAll. Instalação e jogabilidade não foram homologadas pelo All-Fix.
