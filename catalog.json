@@ -8,7 +8,7 @@
     {
       "id": "super-mario-64",
       "title": "Super Mario 64",
-      "platform_group": "Nintendo 64 — Franquias Nintendo e Rare",
+      "platform_group": "Nintendo 64",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/f293653ffa5c0e53453463a82401dbec.png",
       "banner": "https://cdn2.steamgriddb.com/hero/0f409d747e1dfadd4b6317b894bb5348.jpg",
@@ -98,7 +98,7 @@
     {
       "id": "the-legend-of-zelda-ocarina-of-time",
       "title": "The Legend of Zelda: Ocarina of Time",
-      "platform_group": "Nintendo 64 — Franquias Nintendo e Rare",
+      "platform_group": "Nintendo 64",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/f711cc70dbdab88f32389ec84e56a242.png",
       "banner": "https://cdn2.steamgriddb.com/hero/1595af6435015c77a7149e92a551338e.png",
@@ -136,7 +136,7 @@
     {
       "id": "the-legend-of-zelda-majora-s-mask",
       "title": "The Legend of Zelda: Majora's Mask",
-      "platform_group": "Nintendo 64 — Franquias Nintendo e Rare",
+      "platform_group": "Nintendo 64",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/958c6e525626a72dc5722a63f638a80b.png",
       "banner": "https://cdn2.steamgriddb.com/hero/08d98638c6fcd194a4b1e6992063e944.png",
@@ -174,7 +174,7 @@
     {
       "id": "star-fox-64",
       "title": "Star Fox 64",
-      "platform_group": "Nintendo 64 — Franquias Nintendo e Rare",
+      "platform_group": "Nintendo 64",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/9122b7acc2588eff1d20211ce8fb8798.png",
       "banner": "https://cdn2.steamgriddb.com/hero/f8c6a207291e79a303cd2b3ab3e2c338.png",
@@ -199,7 +199,7 @@
     {
       "id": "mario-kart-64",
       "title": "Mario Kart 64",
-      "platform_group": "Nintendo 64 — Franquias Nintendo e Rare",
+      "platform_group": "Nintendo 64",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/8908077ce7fd405516d81c2c929de429.png",
       "banner": "https://cdn2.steamgriddb.com/hero/4744974da867bdb3e3e3a52691f6e8eb.png",
@@ -237,7 +237,7 @@
     {
       "id": "super-smash-bros",
       "title": "Super Smash Bros.",
-      "platform_group": "Nintendo 64 — Franquias Nintendo e Rare",
+      "platform_group": "Nintendo 64",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/aedfc9ce6f9548cae0642eb628fa23c7.png",
       "banner": "https://cdn2.steamgriddb.com/hero/33d7d0769bfdc19059c4068d98508ec5.png",
@@ -262,7 +262,7 @@
     {
       "id": "paper-mario",
       "title": "Paper Mario",
-      "platform_group": "Nintendo 64 — Franquias Nintendo e Rare",
+      "platform_group": "Nintendo 64",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/b109d948a80f5daedcecf2d6e082cfd7.png",
       "banner": "https://cdn2.steamgriddb.com/hero/a1ce72ac075b1141431d5b5e2d499b44.png",
@@ -287,7 +287,7 @@
     {
       "id": "donkey-kong-64",
       "title": "Donkey Kong 64",
-      "platform_group": "Nintendo 64 — Franquias Nintendo e Rare",
+      "platform_group": "Nintendo 64",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/86f7d456aa5848c284f7940bdecdef5d.png",
       "banner": "https://cdn2.steamgriddb.com/hero/a7abe5b03718c89f0e82d7a4a228aab6.png",
@@ -312,7 +312,7 @@
     {
       "id": "pokemon-snap",
       "title": "Pokémon Snap",
-      "platform_group": "Nintendo 64 — Franquias Nintendo e Rare",
+      "platform_group": "Nintendo 64",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/1661b79578c9a10b72cc4403977801bf.png",
       "banner": "https://cdn2.steamgriddb.com/hero/b0a192239a5bbbd7eb5461f62e2f0ade.png",
@@ -337,7 +337,7 @@
     {
       "id": "dr-mario-64",
       "title": "Dr. Mario 64",
-      "platform_group": "Nintendo 64 — Franquias Nintendo e Rare",
+      "platform_group": "Nintendo 64",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/c3884b938f2ccc63708d922671c5ea23.png",
       "banner": "https://cdn2.steamgriddb.com/hero/3a0d1535e1f1929f76f28f007a57584c.jpg",
@@ -375,7 +375,7 @@
     {
       "id": "banjo-kazooie",
       "title": "Banjo-Kazooie",
-      "platform_group": "Nintendo 64 — Franquias Nintendo e Rare",
+      "platform_group": "Nintendo 64",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/a154a70f923c579313aa9c47ed7c34e2.png",
       "banner": "https://cdn2.steamgriddb.com/hero/6e9187ba0044ab240088a05dc8c15152.png",
@@ -413,7 +413,7 @@
     {
       "id": "banjo-tooie",
       "title": "Banjo-Tooie",
-      "platform_group": "Nintendo 64 — Franquias Nintendo e Rare",
+      "platform_group": "Nintendo 64",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/92072878dd6bcea843fb557598077392.png",
       "banner": "https://cdn2.steamgriddb.com/hero/666c0c9957e2bfe09a12c89c59a443e6.png",
@@ -438,7 +438,7 @@
     {
       "id": "perfect-dark",
       "title": "Perfect Dark",
-      "platform_group": "Nintendo 64 — Franquias Nintendo e Rare",
+      "platform_group": "Nintendo 64",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/f2eaa301f9c53bb10fb8e5b9d3d0ea9c.png",
       "banner": "https://cdn2.steamgriddb.com/hero/e02721e864b2649003bcf15ba4da931a.png",
@@ -463,7 +463,7 @@
     {
       "id": "goldeneye-007",
       "title": "GoldenEye 007",
-      "platform_group": "Nintendo 64 — Franquias Nintendo e Rare",
+      "platform_group": "Nintendo 64",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/f0971d67a49ade9bab406f7664e8129d.png",
       "banner": "https://cdn2.steamgriddb.com/hero/f0b61533e010f0b14f8ea2f3f357d8d9.png",
@@ -501,7 +501,7 @@
     {
       "id": "dinosaur-planet",
       "title": "Dinosaur Planet",
-      "platform_group": "Nintendo 64 — Franquias Nintendo e Rare",
+      "platform_group": "Nintendo 64",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/11738c383581f80d010ca13ac005d763.png",
       "banner": "https://cdn2.steamgriddb.com/hero/9a1e683988210250b353c78039eb33e8.png",
@@ -526,7 +526,7 @@
     {
       "id": "bomberman-64",
       "title": "Bomberman 64",
-      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "platform_group": "Nintendo 64",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/c441bb7fef78f56bde133edf8d55ae4f.png",
       "banner": "https://cdn2.steamgriddb.com/hero/3a06105cf87a4a0d2b22ca218aca4783.png",
@@ -551,7 +551,7 @@
     {
       "id": "bomberman-hero",
       "title": "Bomberman Hero",
-      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "platform_group": "Nintendo 64",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/0e6e9339d71b9008e8ecd4680608d0ec.png",
       "banner": "https://cdn2.steamgriddb.com/hero/c127e72f8b87d565fa44bf00c5574a9b.png",
@@ -576,7 +576,7 @@
     {
       "id": "mystical-ninja-starring-goemon",
       "title": "Mystical Ninja Starring Goemon",
-      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "platform_group": "Nintendo 64",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/47e596b1edee7909345c64a4d1a39517.png",
       "banner": "https://cdn2.steamgriddb.com/hero/058a4a63fccbdb3d0b0ab0e8f7a8951c.png",
@@ -601,7 +601,7 @@
     {
       "id": "goemon-s-great-adventure",
       "title": "Goemon's Great Adventure",
-      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "platform_group": "Nintendo 64",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/69b717a1d64f62465d96885dcaf9a77d.png",
       "banner": "https://cdn2.steamgriddb.com/hero/889e24afeec5410f5a52d1ed9e09fba0.png",
@@ -639,7 +639,7 @@
     {
       "id": "duke-nukem-zero-hour",
       "title": "Duke Nukem: Zero Hour",
-      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "platform_group": "Nintendo 64",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/c2f8cdd9152894d36edf05bf7c2e5fd4.png",
       "banner": "https://cdn2.steamgriddb.com/hero/216affb7ef127f19f74a5a50e4d2907e.png",
@@ -664,7 +664,7 @@
     {
       "id": "body-harvest",
       "title": "Body Harvest",
-      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "platform_group": "Nintendo 64",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/4aaf958684327e6687135d41687a6581.png",
       "banner": "https://cdn2.steamgriddb.com/hero/786d203018e4c2e02516c19095af939e.png",
@@ -702,7 +702,7 @@
     {
       "id": "space-station-silicon-valley",
       "title": "Space Station Silicon Valley",
-      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "platform_group": "Nintendo 64",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/a540033cae33272f44875ca0a0921ed4.png",
       "banner": "https://cdn2.steamgriddb.com/hero/c59caa3f79c08451d88f41392a4e5ae7.png",
@@ -727,7 +727,7 @@
     {
       "id": "quest-64",
       "title": "Quest 64",
-      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "platform_group": "Nintendo 64",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/59e6bb2bb03821bb51050ea6d0a23bb8.png",
       "banner": "https://cdn2.steamgriddb.com/hero/4a1d5168500965ca6f5d3022242bb51d.jpg",
@@ -752,7 +752,7 @@
     {
       "id": "mega-man-64",
       "title": "Mega Man 64",
-      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "platform_group": "Nintendo 64",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/174cbbef75ac1b1b15847299d50f77bf.jpg",
       "banner": "https://cdn2.steamgriddb.com/hero/423971c507756f83500704f0e8d9214b.png",
@@ -777,7 +777,7 @@
     {
       "id": "battletanx-global-assault",
       "title": "BattleTanx: Global Assault",
-      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "platform_group": "Nintendo 64",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/dd9b3c422d830f2d03f296f81239a156.png",
       "banner": "https://cdn2.steamgriddb.com/hero/ff365cf2694d71ef4672f36c57ea8530.png",
@@ -815,7 +815,7 @@
     {
       "id": "snowboard-kids-2",
       "title": "Snowboard Kids 2",
-      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "platform_group": "Nintendo 64",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/b1a491999695f9df23123c2290041da8.jpg",
       "banner": "https://cdn2.steamgriddb.com/hero/63aec506bcfd90818d4d4eeed163edf6.png",
@@ -840,7 +840,7 @@
     {
       "id": "extreme-g",
       "title": "Extreme-G",
-      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "platform_group": "Nintendo 64",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/4092cce6014949383c30988c71d1e468.jpg",
       "banner": "https://cdn2.steamgriddb.com/hero/a14c771960d060aacab3a95556dce711.png",
@@ -865,7 +865,7 @@
     {
       "id": "rocket-robot-on-wheels",
       "title": "Rocket: Robot on Wheels",
-      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "platform_group": "Nintendo 64",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/1a582d186ac50e181d47124169575618.png",
       "banner": "https://cdn2.steamgriddb.com/hero/73a6f6568abb93b142a6b2fa0c115d8b.png",
@@ -890,7 +890,7 @@
     {
       "id": "chameleon-twist",
       "title": "Chameleon Twist",
-      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "platform_group": "Nintendo 64",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/78ec3e9ba98d856873f1bdb01194eef9.png",
       "banner": "https://cdn2.steamgriddb.com/hero/e4d9158658821b779fefcceffe2fbacf.jpg",
@@ -915,7 +915,7 @@
     {
       "id": "automobili-lamborghini",
       "title": "Automobili Lamborghini",
-      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "platform_group": "Nintendo 64",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/1c7e02e71df12a6cdae7888b9785b38f.png",
       "banner": "https://cdn2.steamgriddb.com/hero/7acc6b8a4fb3eecc9bdffe7ff1f88c25.png",
@@ -940,7 +940,7 @@
     {
       "id": "wcw-vs-nwo-world-tour",
       "title": "WCW vs. nWo: World Tour",
-      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "platform_group": "Nintendo 64",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/6ec2250be411a2de7180a68849af421b.jpg",
       "banner": "https://cdn2.steamgriddb.com/hero/8af8384d12df7752fbedd58ff37f25f7.jpg",
@@ -965,7 +965,7 @@
     {
       "id": "wcw-nwo-revenge",
       "title": "WCW/nWo Revenge",
-      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "platform_group": "Nintendo 64",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/3cec71c1070fd792e73a5c9a6cedef17.png",
       "banner": "https://cdn2.steamgriddb.com/hero/ec6847f4e5b3aab870c7a34d6090bf69.png",
@@ -990,7 +990,7 @@
     {
       "id": "wwf-wrestlemania-2000",
       "title": "WWF WrestleMania 2000",
-      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "platform_group": "Nintendo 64",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/4f15aadf3e169cd0a6ede1b83501fc03.png",
       "banner": "https://cdn2.steamgriddb.com/hero/36a213dec58f9ae20b81cd14d3358981.jpg",
@@ -1015,7 +1015,7 @@
     {
       "id": "virtual-pro-wrestling-64",
       "title": "Virtual Pro Wrestling 64",
-      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "platform_group": "Nintendo 64",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/8bbf85d7126441ecff35e09dd0e29c0a.jpg",
       "banner": "https://cdn2.steamgriddb.com/hero/becb3929a611b54a98837a26ba595c47.jpg",
@@ -1040,7 +1040,7 @@
     {
       "id": "wwf-no-mercy",
       "title": "WWF No Mercy",
-      "platform_group": "Nintendo 64 — Third-Party e Família AKI",
+      "platform_group": "Nintendo 64",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/f5b37ef64c0f6fa007638841fe2e377a.png",
       "banner": "https://cdn2.steamgriddb.com/hero/455c8959885c1b38871319571e9ab72c.jpg",
@@ -1065,7 +1065,7 @@
     {
       "id": "the-legend-of-zelda-the-wind-waker",
       "title": "The Legend of Zelda: The Wind Waker",
-      "platform_group": "GameCube, Wii e Wii U",
+      "platform_group": "GameCube",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/304678bd2a45713cc7bfcb1a9e19c8e4.png",
       "banner": "https://cdn2.steamgriddb.com/hero/3afa7b5aa70fc9e1f9e1464cc636e5bd.png",
@@ -1103,7 +1103,7 @@
     {
       "id": "the-legend-of-zelda-the-wind-waker-hd",
       "title": "The Legend of Zelda: The Wind Waker HD",
-      "platform_group": "GameCube, Wii e Wii U",
+      "platform_group": "Wii U",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/8d5c0500d7ec1c04842c4b33673d0f43.png",
       "banner": "https://cdn2.steamgriddb.com/hero/c5e4a3d4256265592a3e0c0831ed82bd.png",
@@ -1128,7 +1128,7 @@
     {
       "id": "the-legend-of-zelda-twilight-princess",
       "title": "The Legend of Zelda: Twilight Princess",
-      "platform_group": "GameCube, Wii e Wii U",
+      "platform_group": "GameCube",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/36d6a670240681fbbf69cbba0c9065ce.png",
       "banner": "https://cdn2.steamgriddb.com/hero/581c81b11afa90b13a0649c5af9ac4bb.jpg",
@@ -1166,7 +1166,7 @@
     {
       "id": "star-fox-adventures",
       "title": "Star Fox Adventures",
-      "platform_group": "GameCube, Wii e Wii U",
+      "platform_group": "GameCube",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/e9176bfe821b41775162a9beb913909c.png",
       "banner": "https://cdn2.steamgriddb.com/hero/c7175168a5229945c2d6426e9812d300.png",
@@ -1191,7 +1191,7 @@
     {
       "id": "animal-crossing",
       "title": "Animal Crossing",
-      "platform_group": "GameCube, Wii e Wii U",
+      "platform_group": "GameCube",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/d9e16849e6c8440f27574666b9e9735a.png",
       "banner": "https://cdn2.steamgriddb.com/hero/99590b9dee0da5b4dad9ebc4ba39a132.png",
@@ -1216,7 +1216,7 @@
     {
       "id": "pikmin-pikmin-2",
       "title": "Pikmin & Pikmin 2",
-      "platform_group": "GameCube, Wii e Wii U",
+      "platform_group": "GameCube",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/fbb12b97a88a081cf8528b62df955103.png",
       "banner": "https://cdn2.steamgriddb.com/hero/07866fcbfaacdea839de4caa4fd0236e.png",
@@ -1241,7 +1241,7 @@
     {
       "id": "metroid-prime",
       "title": "Metroid Prime",
-      "platform_group": "GameCube, Wii e Wii U",
+      "platform_group": "GameCube",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/0327d825efc9703e56afaa2e9e1cef9e.png",
       "banner": "https://cdn2.steamgriddb.com/hero/43a1b6e30d834c57456f0f6f727026b8.png",
@@ -1266,7 +1266,7 @@
     {
       "id": "super-mario-strikers",
       "title": "Super Mario Strikers",
-      "platform_group": "GameCube, Wii e Wii U",
+      "platform_group": "GameCube",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/a85d58f89d4a5e8f8f9a6336b3dd18f7.jpg",
       "banner": "https://cdn2.steamgriddb.com/hero/ada822e604972569cda7a8cddc045c0d.png",
@@ -1304,7 +1304,7 @@
     {
       "id": "mario-strikers-charged",
       "title": "Mario Strikers Charged",
-      "platform_group": "GameCube, Wii e Wii U",
+      "platform_group": "Wii",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/c9814f056e558d72a9729ea56950fc9a.png",
       "banner": "https://cdn2.steamgriddb.com/hero/bc4937e5755e250734c52f9079536380.png",
@@ -1342,7 +1342,7 @@
     {
       "id": "mario-kart-double-dash",
       "title": "Mario Kart: Double Dash!!",
-      "platform_group": "GameCube, Wii e Wii U",
+      "platform_group": "GameCube",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/c22ad3828656e72b71489a0e3b20df58.png",
       "banner": "https://cdn2.steamgriddb.com/hero/8410d493ab02b59ce1f6b4803d9dbb38.png",
@@ -1393,7 +1393,7 @@
     {
       "id": "the-legend-of-zelda-a-link-to-the-past",
       "title": "The Legend of Zelda: A Link to the Past",
-      "platform_group": "Super Nintendo (SNES) e Game Boy Advance (GBA)",
+      "platform_group": "SNES",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/7edaadde50012f0860952123564eb1ba.jpg",
       "banner": "https://cdn2.steamgriddb.com/hero/7e5b27a4cae379e4e7e31d2df1740ebb.jpg",
@@ -1431,7 +1431,7 @@
     {
       "id": "super-metroid",
       "title": "Super Metroid",
-      "platform_group": "Super Nintendo (SNES) e Game Boy Advance (GBA)",
+      "platform_group": "SNES",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/167248f62dbaf61aff4b7d1be9439282.jpg",
       "banner": "https://cdn2.steamgriddb.com/hero/7de793e05db68a8fc3e880d69b73264b.jpg",
@@ -1482,7 +1482,7 @@
     {
       "id": "super-mario-world",
       "title": "Super Mario World",
-      "platform_group": "Super Nintendo (SNES) e Game Boy Advance (GBA)",
+      "platform_group": "SNES",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/2bf887cd37fa5ba4ce0ba9713013a4f7.png",
       "banner": "https://cdn2.steamgriddb.com/hero/8e98d81f8217304975ccb23337bb5761.png",
@@ -1520,7 +1520,7 @@
     {
       "id": "earthbound-mother-2",
       "title": "EarthBound / Mother 2",
-      "platform_group": "Super Nintendo (SNES) e Game Boy Advance (GBA)",
+      "platform_group": "SNES",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/6fd01250b30177eeee04afa605bc91e7.png",
       "banner": "https://cdn2.steamgriddb.com/hero/a5c6c7d0988d5f1f646af2402ab4c5fb.png",
@@ -1545,7 +1545,7 @@
     {
       "id": "the-legend-of-zelda-the-minish-cap",
       "title": "The Legend of Zelda: The Minish Cap",
-      "platform_group": "Super Nintendo (SNES) e Game Boy Advance (GBA)",
+      "platform_group": "Game Boy Advance",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/a687f78b9842c87225e74921765feb1b.png",
       "banner": "https://cdn2.steamgriddb.com/hero/3683c77437ca00b55864049ba7f51124.png",
@@ -1596,7 +1596,7 @@
     {
       "id": "golden-sun-golden-sun-the-lost-age",
       "title": "Golden Sun & Golden Sun: The Lost Age",
-      "platform_group": "Super Nintendo (SNES) e Game Boy Advance (GBA)",
+      "platform_group": "Game Boy Advance",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/fc37c234a9b820027243ea2255da90b7.png",
       "banner": "https://cdn2.steamgriddb.com/hero/a368ea6fba383b4d5ac0e238ed6527a4.png",
@@ -1621,7 +1621,7 @@
     {
       "id": "jak-and-daxter-1-2-e-3",
       "title": "Jak and Daxter 1, 2 e 3",
-      "platform_group": "PlayStation 1 e PlayStation 2",
+      "platform_group": "PlayStation 2",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/7c2024f5b8c18c2f48daa603d013e1ef.png",
       "banner": "https://cdn2.steamgriddb.com/hero/7486581e59125cd5f9359ed626dc21cd.png",
@@ -1646,7 +1646,7 @@
     {
       "id": "god-of-war-2005",
       "title": "God of War (2005)",
-      "platform_group": "PlayStation 1 e PlayStation 2",
+      "platform_group": "PlayStation 2",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/72d0eaa80cc3412fda4a133ca1f884e8.png",
       "banner": "https://cdn2.steamgriddb.com/hero/261474eb96c1fdc6456d2abef7019e45.png",
@@ -1684,7 +1684,7 @@
     {
       "id": "shadow-of-rome",
       "title": "Shadow of Rome",
-      "platform_group": "PlayStation 1 e PlayStation 2",
+      "platform_group": "PlayStation 2",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/6c4cb9283e7d92d40c32eaf9b81dfcbb.png",
       "banner": "https://cdn2.steamgriddb.com/hero/b9c72b87254f0b30ae977c99e10b729e.png",
@@ -1709,7 +1709,7 @@
     {
       "id": "castlevania-symphony-of-the-night",
       "title": "Castlevania: Symphony of the Night",
-      "platform_group": "PlayStation 1 e PlayStation 2",
+      "platform_group": "PlayStation 1",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/13e50e203d8be253cc8cd7fbe1509c63.png",
       "banner": "https://cdn2.steamgriddb.com/hero/f306269688e3f58d59edecbc68feba60.png",
@@ -1734,7 +1734,7 @@
     {
       "id": "crash-team-racing",
       "title": "Crash Team Racing",
-      "platform_group": "PlayStation 1 e PlayStation 2",
+      "platform_group": "PlayStation 1",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/3a6430ccda63161354c5c81e538e7196.jpg",
       "banner": "https://cdn2.steamgriddb.com/hero/24fc896cbe09ff1674ba0b88342f9f24.png",
@@ -1785,7 +1785,7 @@
     {
       "id": "wipeout",
       "title": "Wipeout",
-      "platform_group": "PlayStation 1 e PlayStation 2",
+      "platform_group": "PlayStation 1",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/dd34ba7dd11b2b939681fbb68f36c868.jpg",
       "banner": "https://cdn2.steamgriddb.com/hero/a6f89a0cdac6eef11306113527e3ac90.png",
@@ -1823,7 +1823,7 @@
     {
       "id": "driver-2",
       "title": "Driver 2",
-      "platform_group": "PlayStation 1 e PlayStation 2",
+      "platform_group": "PlayStation 1",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/eb101d7eef150524b3cd895d08e4f673.png",
       "banner": "https://cdn2.steamgriddb.com/hero/a0159473c23821556b1f5fb937e1b640.png",
@@ -1848,7 +1848,7 @@
     {
       "id": "the-legend-of-dragoon",
       "title": "The Legend of Dragoon",
-      "platform_group": "PlayStation 1 e PlayStation 2",
+      "platform_group": "PlayStation 1",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/aa82fd1c7df60df76d515816cbdb76a0.png",
       "banner": "https://cdn2.steamgriddb.com/hero/cb6177279332c2087c7ce7d87694222a.jpg",
@@ -1873,7 +1873,7 @@
     {
       "id": "silent-hill",
       "title": "Silent Hill",
-      "platform_group": "PlayStation 1 e PlayStation 2",
+      "platform_group": "PlayStation 1",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/1aed88b7fdc56b77d7971de724e7c6d0.png",
       "banner": "https://cdn2.steamgriddb.com/hero/b7d0858d41a6c29b873e4aba411e6d04.jpg",
@@ -1898,7 +1898,7 @@
     {
       "id": "vandal-hearts",
       "title": "Vandal Hearts",
-      "platform_group": "PlayStation 1 e PlayStation 2",
+      "platform_group": "PlayStation 1",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/3afe7eae0504b08cd09bd4474ef4dcf1.png",
       "banner": "https://cdn2.steamgriddb.com/hero/22b02abb0e8a57e85588f4f1ca24a41c.png",
@@ -1923,7 +1923,7 @@
     {
       "id": "bloody-roar-ii",
       "title": "Bloody Roar II",
-      "platform_group": "PlayStation 1 e PlayStation 2",
+      "platform_group": "PlayStation 1",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/b7a39d954b0f57f9bdd6aa85a223091b.png",
       "banner": "https://cdn2.steamgriddb.com/hero/4618b76bc6d8287e67eddf8132b942fa.png",
@@ -1948,7 +1948,7 @@
     {
       "id": "wwf-smackdown-2-know-your-role",
       "title": "WWF SmackDown! 2: Know Your Role",
-      "platform_group": "PlayStation 1 e PlayStation 2",
+      "platform_group": "PlayStation 1",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/92cf2be99aae5b8cfee486bd269d3aab.png",
       "banner": "https://cdn2.steamgriddb.com/hero/74b315270aa6d01903402aa5e42d9c76.png",
@@ -1973,7 +1973,7 @@
     {
       "id": "king-s-field-jp-1994",
       "title": "King's Field (JP, 1994)",
-      "platform_group": "PlayStation 1 e PlayStation 2",
+      "platform_group": "PlayStation 1",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/b47071610ab585bc8d0db86cbe8d25dc.jpg",
       "banner": "https://cdn2.steamgriddb.com/hero/391e6809e1c9c36987ad52397b51b8fd.png",
@@ -1998,7 +1998,7 @@
     {
       "id": "yu-gi-oh-forbidden-memories",
       "title": "Yu-Gi-Oh! Forbidden Memories",
-      "platform_group": "PlayStation 1 e PlayStation 2",
+      "platform_group": "PlayStation 1",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/fb3fb416095812f23a22302e9efe50b6.png",
       "banner": "https://cdn2.steamgriddb.com/hero/d45b6d92e35ff59d3f5a1861e431d581.png",
@@ -2023,7 +2023,7 @@
     {
       "id": "tomb-raider-i-v",
       "title": "Tomb Raider I–V",
-      "platform_group": "PlayStation 1 e PlayStation 2",
+      "platform_group": "PlayStation 1",
       "category": null,
       "cover": null,
       "banner": null,
@@ -2061,7 +2061,7 @@
     {
       "id": "mega-man-legends-rockman-dash",
       "title": "Mega Man Legends / Rockman DASH",
-      "platform_group": "PlayStation 1 e PlayStation 2",
+      "platform_group": "PlayStation 1",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/de46b308829039baf89d3f4aee7e22a9.png",
       "banner": "https://cdn2.steamgriddb.com/hero/5d6d0cae2ebed7f09d27cb0482f6875d.png",
@@ -2099,7 +2099,7 @@
     {
       "id": "sonic-unleashed",
       "title": "Sonic Unleashed",
-      "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+      "platform_group": "Xbox 360",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/b80c0932cb6f7be27c8d37b4c847a8bd.png",
       "banner": "https://cdn2.steamgriddb.com/hero/c7ca2560d00603640b9d448885cefaf7.png",
@@ -2124,7 +2124,7 @@
     {
       "id": "sonic-the-hedgehog-2006",
       "title": "Sonic the Hedgehog (2006)",
-      "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+      "platform_group": "Xbox 360",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/2036af86769a62d2270da426bf3c1e38.png",
       "banner": "https://cdn2.steamgriddb.com/hero/f00d6e7fa557fa485810cea2b13001a9.png",
@@ -2149,7 +2149,7 @@
     {
       "id": "shadow-the-hedgehog",
       "title": "Shadow the Hedgehog",
-      "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+      "platform_group": "Xbox Original",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/b433b777c240c85b17b909158b9ed7b9.png",
       "banner": "https://cdn2.steamgriddb.com/hero/ede1b1327caaacabbae94b39575445cb.png",
@@ -2174,7 +2174,7 @@
     {
       "id": "sonic-adventure",
       "title": "Sonic Adventure",
-      "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+      "platform_group": "SEGA Dreamcast",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/ecab0875389ce64a83f13a947994500c.png",
       "banner": "https://cdn2.steamgriddb.com/hero/f69626c2de47a507a2802527d19a0048.png",
@@ -2199,7 +2199,7 @@
     {
       "id": "sonic-the-hedgehog-1-2-2013",
       "title": "Sonic the Hedgehog 1 & 2 (2013)",
-      "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+      "platform_group": "Android",
       "category": null,
       "cover": null,
       "banner": null,
@@ -2237,7 +2237,7 @@
     {
       "id": "sonic-3-knuckles",
       "title": "Sonic 3 & Knuckles",
-      "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+      "platform_group": "SEGA Mega Drive",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/6fb6646fd754ad4b8a6f0a88f7801f9a.png",
       "banner": "https://cdn2.steamgriddb.com/hero/871cc4c57f21320216fd23b2b5d83eb9.png",
@@ -2262,7 +2262,7 @@
     {
       "id": "outrun",
       "title": "OutRun",
-      "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+      "platform_group": "Arcade",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/d01309496ec309c4d609a2d6fdefb834.png",
       "banner": "https://cdn2.steamgriddb.com/hero/25755d27def15c633caaeda1357366f0.png",
@@ -2287,7 +2287,7 @@
     {
       "id": "forza-horizon",
       "title": "Forza Horizon",
-      "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+      "platform_group": "Xbox 360",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/c43043335d711ee1590cfcba87ed0009.png",
       "banner": "https://cdn2.steamgriddb.com/hero/896aa0b24b5ae9e82e57b23f9f43a0a3.jpg",
@@ -2325,7 +2325,7 @@
     {
       "id": "blue-dragon",
       "title": "Blue Dragon",
-      "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+      "platform_group": "Xbox 360",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/28e3bed162f123fc16f3084bbe61d98c.png",
       "banner": "https://cdn2.steamgriddb.com/hero/a3c7a78f574496fb0f36f863cc3bed68.png",
@@ -2350,7 +2350,7 @@
     {
       "id": "the-darkness",
       "title": "The Darkness",
-      "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+      "platform_group": "Xbox 360",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/d15f570c23c58513955f6b57aeaec948.jpg",
       "banner": "https://cdn2.steamgriddb.com/hero/eef8aa0aa2b3c4d059ccbab3055e910b.png",
@@ -2375,7 +2375,7 @@
     {
       "id": "silent-hill-downpour",
       "title": "Silent Hill: Downpour",
-      "platform_group": "PlayStation 1 e PlayStation 2",
+      "platform_group": "Xbox 360",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/0595e5860fe9c5eaba82fb617087dbc1.png",
       "banner": "https://cdn2.steamgriddb.com/hero/03afdbd66e7929b125f8597834fa83a4.png",
@@ -2400,7 +2400,7 @@
     {
       "id": "deadly-premonition",
       "title": "Deadly Premonition",
-      "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+      "platform_group": "Xbox 360",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/cd25d94f494c9aad155c867922594c01.png",
       "banner": "https://cdn2.steamgriddb.com/hero/1ee799704c561645258fee3161779773.png",
@@ -2425,7 +2425,7 @@
     {
       "id": "tony-hawk-s-project-8",
       "title": "Tony Hawk's Project 8",
-      "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+      "platform_group": "Xbox 360",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/f4916a3556ed7cd820b7d66f984bdc9f.png",
       "banner": "https://cdn2.steamgriddb.com/hero/0141a8aedb1b53970fac7c81dac79fbe.png",
@@ -2450,7 +2450,7 @@
     {
       "id": "spider-man-edge-of-time",
       "title": "Spider-Man: Edge of Time",
-      "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+      "platform_group": "Xbox 360",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/61c6ddc8fa35f40c7eb51fc06d66499a.png",
       "banner": "https://cdn2.steamgriddb.com/hero/332da72e6fc156f0340836378416136c.png",
@@ -2475,7 +2475,7 @@
     {
       "id": "peter-jackson-s-king-kong",
       "title": "Peter Jackson's King Kong",
-      "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+      "platform_group": "Xbox 360",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/95eb83542315080493f9a00e01920fe6.png",
       "banner": "https://cdn2.steamgriddb.com/hero/e3fc72518f213ad1f39ed9306da322b0.png",
@@ -2500,7 +2500,7 @@
     {
       "id": "earthworm-jim-hd",
       "title": "Earthworm Jim HD",
-      "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+      "platform_group": "Xbox 360",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/8dc370db271ef582493a28ebc4b3684f.png",
       "banner": "https://cdn2.steamgriddb.com/hero/6fdb8f7d90e975d5d19959a0fcebf123.png",
@@ -2525,7 +2525,7 @@
     {
       "id": "the-simpsons-game",
       "title": "The Simpsons Game",
-      "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+      "platform_group": "Xbox 360",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/df5ffddf7952e45a242c550a389dfb0b.png",
       "banner": "https://cdn2.steamgriddb.com/hero/1f7b0c67f3e92ee4c036553352df6f63.png",
@@ -2550,7 +2550,7 @@
     {
       "id": "dead-rising-2-case-zero-case-west",
       "title": "Dead Rising 2: Case Zero & Case West",
-      "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+      "platform_group": "Xbox 360",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/9ba0ccf0a69ae15c85d1b289baa4d494.png",
       "banner": "https://cdn2.steamgriddb.com/hero/2871ee1691ab11acaf09b65164f23f59.jpg",
@@ -2588,7 +2588,7 @@
     {
       "id": "dead-or-alive-xtreme-beach-volleyball",
       "title": "Dead or Alive Xtreme Beach Volleyball",
-      "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+      "platform_group": "Xbox Original",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/3323561254636cb8416efd2ca44c4b67.png",
       "banner": "https://cdn2.steamgriddb.com/hero/a1ede0fbb325095eeddd665433fb969c.jpg",
@@ -2613,7 +2613,7 @@
     {
       "id": "3-on-3-nhl-arcade",
       "title": "3 on 3 NHL Arcade",
-      "platform_group": "Xbox, Xbox 360 e SEGA (Dreamcast, Mega Drive, Arcade)",
+      "platform_group": "Xbox 360",
       "category": null,
       "cover": "https://cdn2.steamgriddb.com/grid/ba8bd60d7367bd2c9e281ceddcc56c20.png",
       "banner": "https://cdn2.steamgriddb.com/hero/fef1fe6098409d32a1ad393d0c23cb71.png",
@@ -2638,7 +2638,7 @@
     {
       "id": "grand-theft-auto-vi",
       "title": "Grand Theft Auto VI",
-      "platform_group": "PlayStation 5 e Xbox Series X|S",
+      "platform_group": "PlayStation 5",
       "category": null,
       "cover": "https://progressbar.gg/assets/gta6/cover-art.jpg",
       "banner": "https://cms-assets.xboxservices.com/assets/88/46/8846e055-df41-4fc0-a3a0-67c4cd158dba.jpg?n=Grand-Theft-Auto-VI_Page-Hero-1084_1920x720.jpg",
@@ -2688,7 +2688,7 @@
     {
       "id": "the-legend-of-zelda-breath-of-the-wild",
       "title": "The Legend of Zelda: Breath of the Wild",
-      "platform_group": "Nintendo Switch e Wii U",
+      "platform_group": "Nintendo Switch",
       "category": null,
       "cover": "https://www.cubed3.com/wp-content/uploads/2025/03/the-legend-of-zelda-breath-of-the-wild-cover-box-art.jpg",
       "banner": "https://cdn2.steamgriddb.com/grid/de6463ab48a09fdbacec5692b14de598.png",
@@ -2738,7 +2738,7 @@
     {
       "id": "gran-turismo-4",
       "title": "Gran Turismo 4",
-      "platform_group": "PlayStation 1 e PlayStation 2",
+      "platform_group": "PlayStation 1",
       "cover": "https://www.gran-turismo.com/images/c/i1qGJCl9mYhoPz.jpg",
       "banner": "https://raw.githubusercontent.com/moesuito/gt4-staticrecomp/main/docs/images/night-race-hires.webp",
       "category": null,
