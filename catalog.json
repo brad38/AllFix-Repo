@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "catalog_version": "2026-11-23-five-projects",
+  "catalog_version": "2026-11-23-gran-turismo-ports",
   "language": "pt-BR",
   "requirements_file": "requirements.json",
   "about_file": "about.json",
@@ -2703,6 +2703,81 @@
             "releases_url": "https://github.com/valentderah/totk-pc-recomp/releases"
           },
           "fallback_name": "TotK Recomp",
+          "windows": {
+            "installation_enabled": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "gran-turismo-4",
+      "title": "Gran Turismo 4",
+      "platform_group": "PlayStation 1 e PlayStation 2",
+      "cover": "https://www.gran-turismo.com/images/c/i1qGJCl9mYhoPz.jpg",
+      "banner": "https://raw.githubusercontent.com/moesuito/gt4-staticrecomp/main/docs/images/night-race-hires.webp",
+      "category": null,
+      "screenshots": [],
+      "featured": false,
+      "projects": [
+        {
+          "id": "gt4recomp",
+          "source": {
+            "url": "https://github.com/moesuito/gt4-staticrecomp",
+            "provider": "github",
+            "github_repository": "moesuito/gt4-staticrecomp",
+            "releases_url": "https://github.com/moesuito/gt4-staticrecomp/releases"
+          },
+          "fallback_name": "GT4Recomp",
+          "windows": {
+            "installation_enabled": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "gran-turismo-5",
+      "title": "Gran Turismo 5",
+      "platform_group": "PlayStation 3",
+      "cover": "https://media.falabella.com/falabellaCO/123238866_01/w%3D1500%2Ch%3D1500%2Cfit%3Dcover",
+      "banner": "https://www.gran-turismo.com/images/c/i1qYwsLmwXeQRcc.jpg",
+      "category": null,
+      "screenshots": [],
+      "featured": false,
+      "projects": [
+        {
+          "id": "gt5-recomp",
+          "source": {
+            "url": "https://github.com/MormonFTP-hub/gt5-recomp",
+            "provider": "github",
+            "github_repository": "MormonFTP-hub/gt5-recomp",
+            "releases_url": "https://github.com/MormonFTP-hub/gt5-recomp/releases"
+          },
+          "fallback_name": "GT5 Recomp",
+          "windows": {
+            "installation_enabled": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "gran-turismo-7",
+      "title": "Gran Turismo 7",
+      "platform_group": "PlayStation 4",
+      "cover": "https://i5.walmartimages.com/asr/68ffc694-caea-4de4-aa0a-bbe17a519786.278a786dba54e4739e892f2c356b6971.jpeg",
+      "banner": "https://media.motorbox.com/image/gran-turismo-7-uno-screenshot-della-versione-ps5-del-gioco/7/4/9/749883/749883-16x9-lg.jpg",
+      "category": null,
+      "screenshots": [],
+      "featured": false,
+      "projects": [
+        {
+          "id": "rygt-gt7",
+          "source": {
+            "url": "https://github.com/RyGT-Team/RyGT",
+            "provider": "github",
+            "github_repository": "RyGT-Team/RyGT",
+            "releases_url": "https://github.com/RyGT-Team/RyGT/releases"
+          },
+          "fallback_name": "RyGT",
           "windows": {
             "installation_enabled": false
           }

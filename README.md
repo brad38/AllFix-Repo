@@ -3,7 +3,7 @@
 Fonte: https://github.com/brad38/AllFix-Repo
 
 Arquivos na raiz:
-- **catalog.json**: estrutura principal (91 jogos, 124 projetos, identificadores, plataformas, links dos repositórios, imagens externas, addons); referencias `requirements_file` e `about_file`.
+- **catalog.json**: estrutura principal (94 jogos, 127 projetos, identificadores, plataformas, links dos repositórios, imagens externas, addons); referencias `requirements_file` e `about_file`.
 - **requirements.json**: requisitos por ID do projeto; categorias `system` (sistema), `installation` (instalação/execução), `build` (compilação), `general` (geral). O objeto `source_text` contém as seções ORIGINAIS dos READMEs, na maioria em inglês. Os campos localizados podem permanecer `null` nos registros ainda não traduzidos; não tratar `legacy_reported_pt` como documentação confirmada.
 - **about.json**: informações para a aba Sobre, indexadas por ID de jogo e de projeto. As descrições dos projetos em português estão em `description_pt` e são acompanhadas de informações sobre sua verificação; descrições e resumos editoriais não são prova de funcionamento. As descrições dos jogos devem permanecer separadas dos detalhes dos projetos de port e recompilação.
 
@@ -29,3 +29,11 @@ python scripts/validate_catalog.py
 O validador confere versões de schema, IDs únicos, URLs de fonte, campos estruturais e correspondência entre jogos, projetos, requisitos e descrições. O workflow `.github/workflows/validate-catalog.yml` executa esses testes em PRs que modificam o catálogo, e verifica também espaços em branco no diff.
 
 A verificação estrutural não substitui a conferência de imagens externas, o teste de execução do jogo nem a homologação do instalador GetAll.
+
+## Ports de Gran Turismo catalogados em 23/11/2026
+
+- **Gran Turismo 4 — GT4Recomp** (PS2, Windows; ISO SCUS-97328 v2.00 ou Spec II 1.10).
+- **Gran Turismo 5 — GT5 Recomp** (PS3, Windows; requer cópia própria e preparação local; Linux experimental).
+- **Gran Turismo 7 — RyGT** (PS4, Windows; projeto antigo ryGT7 incorporado ao RyGT).
+
+Os três projetos permanecem com `windows.installation_enabled=false`, sem receitas GetAll. Instalação e jogabilidade não foram homologadas pelo All-Fix.
