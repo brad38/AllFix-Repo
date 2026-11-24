@@ -4759,11 +4759,11 @@
     "gears-of-war-2-pc-port": {
       "game_id": "gears-of-war-2",
       "fallback_name": "Gears of War 2 PC Port",
-      "description_pt": "Port não oficial de Gears of War 2 para PC.",
+      "description_pt": "Port experimental para Windows de Gears of War 2 (Xbox 360), com recompilação nativa, opções de resolução, teclado/mouse e suporte inicial a mods.",
       "description_status": "reviewed_pt_br",
       "description_source_url": "https://raw.githubusercontent.com/santiquiroz/gears-of-war-2-pc-port/HEAD/README.md",
-      "development_status_reported": "Projeto de port não oficial; jogabilidade e limitações a confirmar na documentação atual do mantenedor.",
-      "description_review_note": "README consultado em 23/11/2026; sem teste de execução e sem receita GetAll.",
+      "development_status_reported": "Ato 1 jogável segundo o mantenedor; campanha restante e recursos novos sem homologação completa.",
+      "description_review_note": "Revisão editorial de 23/11/2026 baseada no README e, quando disponíveis, guias de instalação/status oficiais do projeto; funcionamento alegado pelo mantenedor e não homologado pelo All-Fix.",
       "legacy_audit": {
         "developer": null,
         "version": {
@@ -4788,11 +4788,11 @@
     "ng2recomp": {
       "game_id": "ninja-gaiden-ii",
       "fallback_name": "Ninja Gaiden II Recompiled",
-      "description_pt": "Recompilação estática de Ninja Gaiden II para Windows e Linux.",
+      "description_pt": "Recompilação estática de Ninja Gaiden II (2008, Xbox 360) para Windows e Linux com renderizador Vulkan e melhorias de controle e apresentação.",
       "description_status": "reviewed_pt_br",
       "description_source_url": "https://raw.githubusercontent.com/gamboozino/ng2recomp/HEAD/README.md",
-      "development_status_reported": "Projeto de port não oficial; jogabilidade e limitações a confirmar na documentação atual do mantenedor.",
-      "description_review_note": "README consultado em 23/11/2026; sem teste de execução e sem receita GetAll.",
+      "development_status_reported": "Jogável segundo o mantenedor; testes concentrados em Linux/Steam Deck, com limitações de cutscenes e funções experimentais.",
+      "description_review_note": "Revisão editorial de 23/11/2026 baseada no README e, quando disponíveis, guias de instalação/status oficiais do projeto; funcionamento alegado pelo mantenedor e não homologado pelo All-Fix.",
       "legacy_audit": {
         "developer": null,
         "version": {
@@ -4817,11 +4817,11 @@
     "pgr4-recomp": {
       "game_id": "project-gotham-racing-4",
       "fallback_name": "PGR4 Recomp",
-      "description_pt": "Port de Project Gotham Racing 4 para PC com instruções de preparação.",
+      "description_pt": "Port de Project Gotham Racing 4 (Xbox 360) para Windows por recompilação estática, com renderizador nativo, opções gráficas, split-screen e suporte relatado a atualizações e DLC.",
       "description_status": "reviewed_pt_br",
       "description_source_url": "https://raw.githubusercontent.com/beatrixzy/PGR4-Recomp/HEAD/README.md",
-      "development_status_reported": "Projeto de port não oficial; jogabilidade e limitações a confirmar na documentação atual do mantenedor.",
-      "description_review_note": "README consultado em 23/11/2026; sem teste de execução e sem receita GetAll.",
+      "development_status_reported": "Status.md declara jogo base funcional e estável; desenvolvimento temporariamente em pausa após a versão 2.",
+      "description_review_note": "Revisão editorial de 23/11/2026 baseada no README e, quando disponíveis, guias de instalação/status oficiais do projeto; funcionamento alegado pelo mantenedor e não homologado pelo All-Fix.",
       "legacy_audit": {
         "developer": null,
         "version": {
@@ -4846,11 +4846,11 @@
     "burnout3-recomp": {
       "game_id": "burnout-3-takedown",
       "fallback_name": "Burnout 3 Recomp",
-      "description_pt": "Recompilação estática alfa de Burnout 3 de Xbox original para Windows.",
+      "description_pt": "Recompilação estática experimental da edição de Xbox original de Burnout 3: Takedown para Windows; código nativo, mas renderização gráfica ainda lenta por software.",
       "description_status": "reviewed_pt_br",
       "description_source_url": "https://raw.githubusercontent.com/sp00nznet/burnout3/HEAD/README.md",
-      "development_status_reported": "Projeto de port não oficial; jogabilidade e limitações a confirmar na documentação atual do mantenedor.",
-      "description_review_note": "README consultado em 23/11/2026; sem teste de execução e sem receita GetAll.",
+      "development_status_reported": "Alfa técnica: corridas iniciam, porém 2–4 FPS relatados e ausência de perfil de salvamento; não considerar jogável em velocidade normal.",
+      "description_review_note": "Revisão editorial de 23/11/2026 baseada no README e, quando disponíveis, guias de instalação/status oficiais do projeto; funcionamento alegado pelo mantenedor e não homologado pelo All-Fix.",
       "legacy_audit": {
         "developer": null,
         "version": {
@@ -4875,11 +4875,11 @@
     "opence": {
       "game_id": "halo-combat-evolved",
       "fallback_name": "OpenCE",
-      "description_pt": "Port comunitário de Halo: Combat Evolved para Windows, Linux e Android.",
+      "description_pt": "Port comunitário de Halo: Combat Evolved (Xbox original) para Windows, Linux, Android e navegador, apoiado em descompilação e uso da cópia original do jogo.",
       "description_status": "reviewed_pt_br",
       "description_source_url": "https://raw.githubusercontent.com/OpenCommunityEdition/OpenCE/HEAD/README.md",
-      "development_status_reported": "Projeto de port não oficial; jogabilidade e limitações a confirmar na documentação atual do mantenedor.",
-      "description_review_note": "README consultado em 23/11/2026; sem teste de execução e sem receita GetAll.",
+      "development_status_reported": "Distribuições multiplataforma publicadas; multiplayer e mods documentados, sem homologação funcional pelo All-Fix.",
+      "description_review_note": "Revisão editorial de 23/11/2026 baseada no README e, quando disponíveis, guias de instalação/status oficiais do projeto; funcionamento alegado pelo mantenedor e não homologado pelo All-Fix.",
       "legacy_audit": {
         "developer": null,
         "version": {
@@ -4904,11 +4904,11 @@
     "lost-odyssey-recomp": {
       "game_id": "lost-odyssey",
       "fallback_name": "Lost Odyssey Recomp",
-      "description_pt": "Port nativo de Lost Odyssey para PC.",
+      "description_pt": "Port nativo de Lost Odyssey, RPG de Xbox 360, para Windows e outras plataformas, com shaders locais e melhorias gráficas.",
       "description_status": "reviewed_pt_br",
       "description_source_url": "https://raw.githubusercontent.com/freefrank/LostOdysseyRecomp/HEAD/README.md",
-      "development_status_reported": "Projeto de port não oficial; jogabilidade e limitações a confirmar na documentação atual do mantenedor.",
-      "description_review_note": "README consultado em 23/11/2026; sem teste de execução e sem receita GetAll.",
+      "development_status_reported": "Port com instalador por plataforma e gameplay documentado pelo mantenedor; configurações e compatibilidade variam por backend.",
+      "description_review_note": "Revisão editorial de 23/11/2026 baseada no README e, quando disponíveis, guias de instalação/status oficiais do projeto; funcionamento alegado pelo mantenedor e não homologado pelo All-Fix.",
       "legacy_audit": {
         "developer": null,
         "version": {
@@ -4933,11 +4933,11 @@
     "ssx-recomp": {
       "game_id": "ssx-2012",
       "fallback_name": "SSX Recomp",
-      "description_pt": "Recompilação estática de SSX (2012) para Windows e Linux.",
+      "description_pt": "Port de SSX (2012) de Xbox 360 para Windows e Linux por recompilação estática, com opções gráficas e instalador a partir da ISO do usuário.",
       "description_status": "reviewed_pt_br",
       "description_source_url": "https://raw.githubusercontent.com/AmarilloNL/ssx-recomp/HEAD/README.md",
-      "development_status_reported": "Projeto de port não oficial; jogabilidade e limitações a confirmar na documentação atual do mantenedor.",
-      "description_review_note": "README consultado em 23/11/2026; sem teste de execução e sem receita GetAll.",
+      "development_status_reported": "Jogável segundo a documentação, com Linux em beta e melhorias gráficas experimentais.",
+      "description_review_note": "Revisão editorial de 23/11/2026 baseada no README e, quando disponíveis, guias de instalação/status oficiais do projeto; funcionamento alegado pelo mantenedor e não homologado pelo All-Fix.",
       "legacy_audit": {
         "developer": null,
         "version": {
@@ -4962,11 +4962,11 @@
     "dkb-pc-recomp": {
       "game_id": "donkey-kong-bananza",
       "fallback_name": "DKB Recomp",
-      "description_pt": "Recompilação estática experimental de Donkey Kong Bananza para Windows.",
+      "description_pt": "Recompilação estática experimental de Donkey Kong Bananza (Nintendo Switch 2) para Windows com Vulkan e compilação local a partir da cópia do usuário.",
       "description_status": "reviewed_pt_br",
       "description_source_url": "https://raw.githubusercontent.com/Lucas-blip-png/dkb-pc-recomp/HEAD/README.md",
-      "development_status_reported": "Projeto de port não oficial; jogabilidade e limitações a confirmar na documentação atual do mantenedor.",
-      "description_review_note": "README consultado em 23/11/2026; sem teste de execução e sem receita GetAll.",
+      "development_status_reported": "Jogabilidade parcial/avançada relatada em NVIDIA recentes; AMD e outras configurações requerem testes adicionais.",
+      "description_review_note": "Revisão editorial de 23/11/2026 baseada no README e, quando disponíveis, guias de instalação/status oficiais do projeto; funcionamento alegado pelo mantenedor e não homologado pelo All-Fix.",
       "legacy_audit": {
         "developer": null,
         "version": {
@@ -4991,11 +4991,11 @@
     "mkw-recomp": {
       "game_id": "mario-kart-world",
       "fallback_name": "mkw-recomp",
-      "description_pt": "Port experimental de Mario Kart World por recompilação estática para Windows e Linux.",
+      "description_pt": "Recompilação estática de Mario Kart World (Nintendo Switch 2) para Windows e Linux, incluindo builds ARM Linux experimentais e preparação local do dump.",
       "description_status": "reviewed_pt_br",
       "description_source_url": "https://raw.githubusercontent.com/adriadam10/mkw-recomp/HEAD/README.md",
-      "development_status_reported": "Projeto de port não oficial; jogabilidade e limitações a confirmar na documentação atual do mantenedor.",
-      "description_review_note": "README consultado em 23/11/2026; sem teste de execução e sem receita GetAll.",
+      "development_status_reported": "Corridas relatadas em Windows e Linux; menus, áudio, compatibilidade GPU e multiplayer ainda em desenvolvimento.",
+      "description_review_note": "Revisão editorial de 23/11/2026 baseada no README e, quando disponíveis, guias de instalação/status oficiais do projeto; funcionamento alegado pelo mantenedor e não homologado pelo All-Fix.",
       "legacy_audit": {
         "developer": null,
         "version": {
