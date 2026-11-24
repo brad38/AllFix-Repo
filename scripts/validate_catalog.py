@@ -11,6 +11,17 @@ from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 
+# Uma plataforma de origem por jogo: categorias compostas ou grupos editoriais
+# não são admitidos. Para introduzir outro console, atualize esta lista e os
+# registros correspondentes no catálogo no mesmo PR.
+ALLOWED_PLATFORM_GROUPS = frozenset({
+    "Android", "Arcade", "Game Boy Advance", "GameCube", "Nintendo 64",
+    "Nintendo Switch", "Nintendo Switch 2", "PlayStation 1",
+    "PlayStation 2", "PlayStation 3", "PlayStation 4", "PlayStation 5",
+    "SEGA Dreamcast", "SEGA Mega Drive", "SNES", "Wii", "Wii U",
+    "Xbox 360", "Xbox Original",
+})
+
 
 def require(condition: bool, detail: str) -> None:
     if not condition:
@@ -62,6 +73,9 @@ def validate() -> None:
 
         require(isinstance(game.get("title"), str) and bool(game["title"].strip()),
                 f"Título ausente: {gid}")
+        group = game.get("platform_group")
+        require(group in ALLOWED_PLATFORM_GROUPS,
+                f"{gid}: categoria não é console/plataforma individual: {group!r}")
         projects = game.get("projects")
         require(isinstance(projects, list) and bool(projects), f"Jogo sem projetos: {gid}")
 
