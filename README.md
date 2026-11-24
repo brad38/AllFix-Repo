@@ -44,4 +44,16 @@ Os três projetos permanecem com `windows.installation_enabled=false`, sem recei
 
 Novos projetos: LAS Recomp, Super Odyssey PC Recomp, God Hand Rearmed, GTA Stories Recompiled, SpartanPort, The Last Guardian PC, inFAMOUS Second Son PC, P.T. for PC, Gears of War 2 PC Port, Ninja Gaiden II Recompiled, PGR4 Recomp, Burnout 3 Recomp, OpenCE, Lost Odyssey Recomp, SSX Recomp, DKB Recomp e mkw-recomp.
 
-**Curadoria pendente:** o PR adiciona trechos dos READMEs e sumários técnicos provisórios. Imagens dos novos jogos, requisitos e fontes devem ser revisados antes da homologação. `windows.installation_enabled=false` para os novos projetos; sem alterações no GetAll, SDK ou Desktop.
+**Curadoria realizada:** descrições editoriais dos 17 jogos revisadas, requisitos e limitações dos 19 ports novos individualizados por projeto e 17/17 jogos com capa e banner preenchidos. Os links de mídias externas não são garantia de disponibilidade permanente, e os estados de jogabilidade são declarados pelos mantenedores, não homologados pelo All-Fix. `windows.installation_enabled=false` para os novos projetos; sem alterações no GetAll, SDK ou Desktop.
+
+## Categorias por plataforma de origem (23/11/2026)
+
+O campo `platform_group` representa **uma única plataforma de origem do port**, sem agrupamentos genéricos de consoles. O validador rejeita valores compostos. Quando um jogo possui diferentes edições, a plataforma é a do projeto portado (por exemplo, `Gran Turismo 7` usa a edição PS4).
+
+Categorias presentes e quantidade de jogos: Android (1), Arcade (1), Game Boy Advance (2), GameCube (8), Nintendo 64 (35), Nintendo Switch (4), Nintendo Switch 2 (2), PlayStation 1 (14), PlayStation 2 (5), PlayStation 3 (1), PlayStation 4 (6), PlayStation 5 (1), SEGA Dreamcast (1), SEGA Mega Drive (1), SNES (4), Wii (1), Wii U (1), Xbox 360 (19) e Xbox Original (4). Android e Arcade são plataformas individuais de origem, não rótulos de múltiplos consoles.
+
+Foram recategorizados 90 jogos, preservando seus IDs e associações de projetos. Correções especiais incluem `The Wind Waker HD` (Wii U), `Mario Strikers Charged` (Wii), `The Minish Cap` (GBA), `Sonic Adventure` (Dreamcast), `Shadow the Hedgehog` (Xbox original) e `Silent Hill: Downpour` (Xbox 360).
+
+**Mídia:** 109 de 111 jogos têm capa e banner. As entradas agrupadas legadas `tomb-raider-i-v` e `sonic-the-hedgehog-1-2-2013` permanecem sem arte única, intencionalmente, para não associar arbitrariamente a capa de um jogo a uma coleção. URLs externas podem mudar; a presença de URLs não garante a disponibilidade futura do arquivo.
+
+**Limites:** não foram executados jogos, compilados projetos externos, validados instaladores, nem criadas receitas GetAll. Os 22 projetos adicionados nos PRs #4 e #5 continuam com `windows.installation_enabled=false`. Os resumos e requisitos em PT-BR foram revisados a partir das fontes dos projetos; não são testes independentes de desempenho ou jogabilidade.
