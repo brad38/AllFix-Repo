@@ -613,13 +613,6 @@
       "review_status": "reviewed_pt_br",
       "description_type": "resumo_editorial_do_jogo"
     },
-    "grand-theft-auto-vi": {
-      "title": "Grand Theft Auto VI",
-      "description": "Jogo de ação em mundo aberto situado no estado fictício de Leonida, com os protagonistas Lucia e Jason em uma história de crime e perseguição.",
-      "description_source_url": null,
-      "review_status": "reviewed_pt_br",
-      "description_type": "resumo_editorial_do_jogo"
-    },
     "shadow-of-the-colossus": {
       "title": "Shadow of the Colossus",
       "description": "Aventura de ação na qual Wander percorre uma terra isolada e enfrenta enormes colossos para tentar trazer Mono de volta à vida. Este registro se refere ao remake de PS4 lançado em 2018.",
@@ -4258,35 +4251,6 @@
         "validation": {
           "repository": "GitHub API: OK",
           "releases": "Releases e assets consultados",
-          "notes": "Somente catalogação; nenhuma instalação executada e nenhuma receita GetAll criada.",
-          "functional_installation_tested": false
-        }
-      }
-    },
-    "leonida": {
-      "game_id": "grand-theft-auto-vi",
-      "fallback_name": "Leonida",
-      "description_pt": "Projeto experimental de execução nativa do código da edição Xbox Series de Grand Theft Auto VI no Windows. Pesquisa um carregador e a tradução de gráficos para Vulkan, mas o jogo ainda não inicia; não existe distribuição jogável.",
-      "description_status": "reviewed_pt_br",
-      "description_source_url": "https://raw.githubusercontent.com/ItsNotRexed/Leonida/HEAD/README.md",
-      "development_status_reported": "Desenvolvimento inicial; o próprio README declara que o jogo ainda não inicia e não há jogabilidade.",
-      "description_review_note": "Resumo editorial elaborado a partir do README, da documentação e das releases em 23/11/2026. Instalação e funcionamento não foram testados pelo All-Fix; instalação GetAll desabilitada.",
-      "legacy_audit": {
-        "developer": null,
-        "version": {
-          "reported_by_gemini": null,
-          "latest_tag_observed_in_audit": null,
-          "release_tag_to_install": null,
-          "release_asset_to_install": null
-        },
-        "windows": {
-          "reported_availability": "Nenhuma release oficial; jogo não inicializável.",
-          "audit_result": "Situação dos assets de release consultada pelo GitHub; sem teste de funcionamento.",
-          "installation_enabled": false
-        },
-        "validation": {
-          "repository": "GitHub API: OK",
-          "releases": "Nenhuma release encontrada",
           "notes": "Somente catalogação; nenhuma instalação executada e nenhuma receita GetAll criada.",
           "functional_installation_tested": false
         }

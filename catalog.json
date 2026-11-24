@@ -2636,31 +2636,6 @@
       ]
     },
     {
-      "id": "grand-theft-auto-vi",
-      "title": "Grand Theft Auto VI",
-      "platform_group": "PlayStation 5",
-      "category": null,
-      "cover": "https://progressbar.gg/assets/gta6/cover-art.jpg",
-      "banner": "https://cms-assets.xboxservices.com/assets/88/46/8846e055-df41-4fc0-a3a0-67c4cd158dba.jpg?n=Grand-Theft-Auto-VI_Page-Hero-1084_1920x720.jpg",
-      "screenshots": [],
-      "featured": false,
-      "projects": [
-        {
-          "id": "leonida",
-          "source": {
-            "url": "https://github.com/ProjectLeonida/Leonida",
-            "provider": "github",
-            "github_repository": "ProjectLeonida/Leonida",
-            "releases_url": "https://github.com/ProjectLeonida/Leonida/releases"
-          },
-          "fallback_name": "Leonida",
-          "windows": {
-            "installation_enabled": false
-          }
-        }
-      ]
-    },
-    {
       "id": "shadow-of-the-colossus",
       "title": "Shadow of the Colossus",
       "platform_group": "PlayStation 4",
