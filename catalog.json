@@ -1568,10 +1568,10 @@
         {
           "id": "project-picori-999sian-tmc",
           "source": {
-            "url": "https://github.com/999sian",
-            "provider": "external",
-            "github_repository": null,
-            "releases_url": null
+            "url": "https://github.com/999sian/tmc",
+            "provider": "github",
+            "github_repository": "999sian/tmc",
+            "releases_url": "https://github.com/999sian/tmc/releases"
           },
           "fallback_name": "Project Picori (999sian/tmc)",
           "windows": {
@@ -2209,7 +2209,7 @@
         {
           "id": "sonic-1-forever-sonic-2-absolute",
           "source": {
-            "url": "https://teamforeveronline.wixsite.com/home/sonic-1-forever",
+            "url": "https://teamforeverdev.github.io/projects.html",
             "provider": "external",
             "github_repository": null,
             "releases_url": null
@@ -2622,10 +2622,10 @@
         {
           "id": "leonida",
           "source": {
-            "url": "https://github.com/ItsNotRexed/Leonida",
+            "url": "https://github.com/ProjectLeonida/Leonida",
             "provider": "github",
-            "github_repository": "ItsNotRexed/Leonida",
-            "releases_url": "https://github.com/ItsNotRexed/Leonida/releases"
+            "github_repository": "ProjectLeonida/Leonida",
+            "releases_url": "https://github.com/ProjectLeonida/Leonida/releases"
           },
           "fallback_name": "Leonida",
           "windows": {
