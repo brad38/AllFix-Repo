@@ -35,7 +35,14 @@ jobs:
           python -m json.tool about.json > /dev/null
 
       - name: Validar schemas e referências
-        run: python scripts/validate_catalog.py
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          if [ -n "$BASE_SHA" ]; then
+            python scripts/validate_catalog.py --require-dates --compare-with "$BASE_SHA"
+          else
+            python scripts/validate_catalog.py --require-dates
+          fi
 
       - name: Verificar espaços em branco no diff
         if: github.event_name == 'pull_request'

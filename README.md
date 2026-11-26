@@ -57,3 +57,16 @@ Foram recategorizados 90 jogos, preservando seus IDs e associações de projetos
 **Mídia:** 109 de 111 jogos têm capa e banner. As entradas agrupadas legadas `tomb-raider-i-v` e `sonic-the-hedgehog-1-2-2013` permanecem sem arte única, intencionalmente, para não associar arbitrariamente a capa de um jogo a uma coleção. URLs externas podem mudar; a presença de URLs não garante a disponibilidade futura do arquivo.
 
 **Limites:** não foram executados jogos, compilados projetos externos, validados instaladores, nem criadas receitas GetAll. Os 22 projetos adicionados nos PRs #4 e #5 continuam com `windows.installation_enabled=false`. Os resumos e requisitos em PT-BR foram revisados a partir das fontes dos projetos; não são testes independentes de desempenho ou jogabilidade.
+
+## Datas e rotina de descoberta
+
+O schema v4 aceita datas opcionais em `YYYY-MM-DD`. `games[].release_date` é a data de lançamento da edição citada no catálogo. `games[].added_at` e `games[].projects[].added_at` registram a inclusão no All-Fix. Em catálogos anteriores, campos ausentes equivalem a `null`. Consulte [as evidências do preenchimento histórico](RELEASE-DATES.md).
+
+Em cada execução de descoberta de repositórios, ports, decompilações e recompilações:
+
+1. Identifique a edição e a plataforma originais que o projeto representa. Pesquise a data de lançamento e registre a fonte em `RELEASE-DATES.md`. Se a data completa não puder ser comprovada, use `null`. Em entradas com vários títulos, documente as datas e use a mais recente.
+2. Ao adicionar um jogo ou projeto, registre a data real da inclusão no respectivo `added_at`. Atualize `catalog.json`, `about.json` e `requirements.json` com os mesmos identificadores. Um projeto novo em um jogo existente recebe a própria data.
+3. Preserve as datas de inclusão existentes ao atualizar versões, imagens, descrições ou requisitos. Em renomeações e reorganizações, use o histórico para manter a data do registro que mudou de identificador. Se uma data histórica desconhecida for comprovada, reaproveite a evidência histórica.
+4. Antes de publicar, execute `python scripts/validate_catalog.py --require-dates --compare-with HEAD` sobre a alteração ainda sem commit. Em um PR, a comparação usa o commit base do GitHub. Valide também as evidências de todos os IDs novos.
+
+A Loja usa exclusivamente `added_at` do jogo para preencher o carrossel, com desempate por título em português seguido de ID. A preferência de ordenação fica salva localmente no Desktop.

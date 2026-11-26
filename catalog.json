@@ -26,7 +26,8 @@
           "fallback_name": "Ghostship",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         },
         {
           "id": "sm64coopdx-super-mario-64-coop-deluxe",
@@ -39,7 +40,8 @@
           "fallback_name": "sm64coopdx (Super Mario 64 Coop Deluxe)",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         },
         {
           "id": "sm64plus",
@@ -52,7 +54,8 @@
           "fallback_name": "SM64Plus",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         },
         {
           "id": "render96ex",
@@ -65,7 +68,8 @@
           "fallback_name": "Render96ex",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         },
         {
           "id": "sm64ex",
@@ -78,7 +82,8 @@
           "fallback_name": "sm64ex",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         },
         {
           "id": "sm64rt",
@@ -91,9 +96,12 @@
           "fallback_name": "sm64rt",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1996-06-23",
+      "added_at": "2026-11-22"
     },
     {
       "id": "the-legend-of-zelda-ocarina-of-time",
@@ -116,7 +124,8 @@
           "fallback_name": "Ship of Harkinian (SoH)",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         },
         {
           "id": "hookshot-zelda-oot-port",
@@ -129,9 +138,12 @@
           "fallback_name": "Hookshot",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-23"
         }
-      ]
+      ],
+      "release_date": "1998-11-21",
+      "added_at": "2026-11-22"
     },
     {
       "id": "the-legend-of-zelda-majora-s-mask",
@@ -154,7 +166,8 @@
           "fallback_name": "Zelda 64: Recompiled",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         },
         {
           "id": "2-ship-2-harkinian-2s2h",
@@ -167,9 +180,12 @@
           "fallback_name": "2 Ship 2 Harkinian (2S2H)",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2000-04-27",
+      "added_at": "2026-11-22"
     },
     {
       "id": "star-fox-64",
@@ -192,9 +208,12 @@
           "fallback_name": "Starship",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1997-04-27",
+      "added_at": "2026-11-22"
     },
     {
       "id": "mario-kart-64",
@@ -217,7 +236,8 @@
           "fallback_name": "SpaghettiKart",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         },
         {
           "id": "mariokart-64-recompiled",
@@ -230,9 +250,12 @@
           "fallback_name": "MarioKart 64: Recompiled",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1996-12-14",
+      "added_at": "2026-11-22"
     },
     {
       "id": "super-smash-bros",
@@ -255,9 +278,12 @@
           "fallback_name": "BattleShip",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1999-01-21",
+      "added_at": "2026-11-22"
     },
     {
       "id": "paper-mario",
@@ -280,9 +306,12 @@
           "fallback_name": "PaperBoat",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2000-08-11",
+      "added_at": "2026-11-22"
     },
     {
       "id": "donkey-kong-64",
@@ -305,9 +334,12 @@
           "fallback_name": "Donkey Kong 64: Recompiled (DK64 Rekongpiled)",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1999-11-22",
+      "added_at": "2026-11-22"
     },
     {
       "id": "pokemon-snap",
@@ -330,9 +362,12 @@
           "fallback_name": "Snap64 Recomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1999-03-21",
+      "added_at": "2026-11-22"
     },
     {
       "id": "dr-mario-64",
@@ -355,7 +390,8 @@
           "fallback_name": "drmario64_recomp_plus",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         },
         {
           "id": "drmario64-recomp",
@@ -369,9 +405,12 @@
           "windows": {
             "installation_enabled": false
           },
-          "status": "source_only"
+          "status": "source_only",
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2001-04-09",
+      "added_at": "2026-11-22"
     },
     {
       "id": "banjo-kazooie",
@@ -394,7 +433,8 @@
           "fallback_name": "Banjo: Recompiled",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         },
         {
           "id": "lighthouse",
@@ -407,9 +447,12 @@
           "fallback_name": "Lighthouse",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1998-06-30",
+      "added_at": "2026-11-22"
     },
     {
       "id": "banjo-tooie",
@@ -432,9 +475,12 @@
           "fallback_name": "Banjo-Tooie: Recompiled",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2000-11-20",
+      "added_at": "2026-11-22"
     },
     {
       "id": "perfect-dark",
@@ -457,9 +503,12 @@
           "fallback_name": "Perfect Dark PC Port (perfect_dark)",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2000-05-22",
+      "added_at": "2026-11-22"
     },
     {
       "id": "goldeneye-007",
@@ -482,7 +531,8 @@
           "fallback_name": "Project Midas",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         },
         {
           "id": "goldeneye-007-pc-port",
@@ -495,9 +545,12 @@
           "fallback_name": "GoldenEye 007 PC Port",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1997-08-23",
+      "added_at": "2026-11-22"
     },
     {
       "id": "dinosaur-planet",
@@ -520,9 +573,12 @@
           "fallback_name": "Dinosaur Planet: Recompiled (dino-recomp)",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": null,
+      "added_at": "2026-11-22"
     },
     {
       "id": "bomberman-64",
@@ -545,9 +601,12 @@
           "fallback_name": "BM64Recomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1997-09-26",
+      "added_at": "2026-11-22"
     },
     {
       "id": "bomberman-hero",
@@ -570,9 +629,12 @@
           "fallback_name": "BMHeroRecomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1998-04-30",
+      "added_at": "2026-11-22"
     },
     {
       "id": "mystical-ninja-starring-goemon",
@@ -595,9 +657,12 @@
           "fallback_name": "Goemon64Recomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1997-08-07",
+      "added_at": "2026-11-22"
     },
     {
       "id": "goemon-s-great-adventure",
@@ -620,7 +685,8 @@
           "fallback_name": "GGARecomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         },
         {
           "id": "gga64recomp",
@@ -633,9 +699,12 @@
           "fallback_name": "GGA64Recomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1998-12-23",
+      "added_at": "2026-11-22"
     },
     {
       "id": "duke-nukem-zero-hour",
@@ -658,9 +727,12 @@
           "fallback_name": "DNZHRecomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1999-09-01",
+      "added_at": "2026-11-22"
     },
     {
       "id": "body-harvest",
@@ -683,7 +755,8 @@
           "fallback_name": "Adam's Ant Farm",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         },
         {
           "id": "body-harvest-recomp",
@@ -696,9 +769,12 @@
           "fallback_name": "body-harvest-recomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1998-10-20",
+      "added_at": "2026-11-22"
     },
     {
       "id": "space-station-silicon-valley",
@@ -721,9 +797,12 @@
           "fallback_name": "SSSV_Recomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1998-10-21",
+      "added_at": "2026-11-22"
     },
     {
       "id": "quest-64",
@@ -746,9 +825,12 @@
           "fallback_name": "Quest64-Recomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1998-06-11",
+      "added_at": "2026-11-22"
     },
     {
       "id": "mega-man-64",
@@ -771,9 +853,12 @@
           "fallback_name": "MegaMan64Recompiled",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2000-11-22",
+      "added_at": "2026-11-22"
     },
     {
       "id": "battletanx-global-assault",
@@ -796,7 +881,8 @@
           "fallback_name": "BattleTanx-Global-Assault-PC-Port",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         },
         {
           "id": "btgarecomp",
@@ -809,9 +895,12 @@
           "fallback_name": "btgarecomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1999-10-12",
+      "added_at": "2026-11-22"
     },
     {
       "id": "snowboard-kids-2",
@@ -834,9 +923,12 @@
           "fallback_name": "snowboardkids2-recomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1999-02-19",
+      "added_at": "2026-11-22"
     },
     {
       "id": "extreme-g",
@@ -859,9 +951,12 @@
           "fallback_name": "ExtremeGRecomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1997-10-25",
+      "added_at": "2026-11-22"
     },
     {
       "id": "rocket-robot-on-wheels",
@@ -884,9 +979,12 @@
           "fallback_name": "Rocket-R",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1999-11-17",
+      "added_at": "2026-11-22"
     },
     {
       "id": "chameleon-twist",
@@ -909,9 +1007,12 @@
           "fallback_name": "ChameleonTwist1-JP-Recomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1997-12-06",
+      "added_at": "2026-11-22"
     },
     {
       "id": "automobili-lamborghini",
@@ -934,9 +1035,12 @@
           "fallback_name": "automobililamborghini-recomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1997-11-30",
+      "added_at": "2026-11-22"
     },
     {
       "id": "wcw-vs-nwo-world-tour",
@@ -959,9 +1063,12 @@
           "fallback_name": "WCWvsNWOWorldTourRecomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1997-11-28",
+      "added_at": "2026-11-22"
     },
     {
       "id": "wcw-nwo-revenge",
@@ -984,9 +1091,12 @@
           "fallback_name": "WCWnWoRevengeRecomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1998-10-26",
+      "added_at": "2026-11-22"
     },
     {
       "id": "wwf-wrestlemania-2000",
@@ -1009,9 +1119,12 @@
           "fallback_name": "WWFWrestleMania2000Recomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1999-11-16",
+      "added_at": "2026-11-22"
     },
     {
       "id": "virtual-pro-wrestling-64",
@@ -1034,9 +1147,12 @@
           "fallback_name": "VPW64Recomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1997-12-19",
+      "added_at": "2026-11-22"
     },
     {
       "id": "wwf-no-mercy",
@@ -1059,9 +1175,12 @@
           "fallback_name": "WWFNoMercyRecomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2000-11-14",
+      "added_at": "2026-11-22"
     },
     {
       "id": "the-legend-of-zelda-the-wind-waker",
@@ -1084,7 +1203,8 @@
           "fallback_name": "BlueWake",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         },
         {
           "id": "wind-waker-recomp",
@@ -1099,9 +1219,12 @@
             "installation_enabled": false
           },
           "status": "superseded",
-          "superseded_by": "bluewake"
+          "superseded_by": "bluewake",
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2003-03-24",
+      "added_at": "2026-11-22"
     },
     {
       "id": "the-legend-of-zelda-the-wind-waker-hd",
@@ -1124,9 +1247,12 @@
           "fallback_name": "ZeldaWWHDRecomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2013-09-20",
+      "added_at": "2026-11-22"
     },
     {
       "id": "the-legend-of-zelda-twilight-princess",
@@ -1149,7 +1275,8 @@
           "fallback_name": "Dusklight (ex-Dusk)",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         },
         {
           "id": "twilight-princess-courage-reborn",
@@ -1163,9 +1290,12 @@
           "windows": {
             "installation_enabled": false
           },
-          "status": "official_package_unavailable"
+          "status": "official_package_unavailable",
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2006-12-02",
+      "added_at": "2026-11-22"
     },
     {
       "id": "star-fox-adventures",
@@ -1188,9 +1318,12 @@
           "fallback_name": "FoxHollow",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2002-09-23",
+      "added_at": "2026-11-22"
     },
     {
       "id": "animal-crossing",
@@ -1213,9 +1346,12 @@
           "fallback_name": "Nookery (ex-ACGC-PC-Port)",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2001-12-14",
+      "added_at": "2026-11-22"
     },
     {
       "id": "pikmin-pikmin-2",
@@ -1238,9 +1374,12 @@
           "fallback_name": "Open Nectar",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2004-08-30",
+      "added_at": "2026-11-22"
     },
     {
       "id": "metroid-prime",
@@ -1264,9 +1403,12 @@
           "windows": {
             "installation_enabled": false
           },
-          "status": "official_package_unavailable"
+          "status": "official_package_unavailable",
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2002-11-17",
+      "added_at": "2026-11-22"
     },
     {
       "id": "super-mario-strikers",
@@ -1289,7 +1431,8 @@
           "fallback_name": "Strikers",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         },
         {
           "id": "strikersrecomp",
@@ -1302,9 +1445,12 @@
           "fallback_name": "StrikersRecomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2005-12-05",
+      "added_at": "2026-11-22"
     },
     {
       "id": "mario-strikers-charged",
@@ -1327,7 +1473,8 @@
           "fallback_name": "Recharged",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         },
         {
           "id": "strikers-wiicompiled",
@@ -1340,9 +1487,12 @@
           "fallback_name": "Strikers-WiiCompiled",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2007-07-30",
+      "added_at": "2026-11-22"
     },
     {
       "id": "mario-kart-double-dash",
@@ -1365,7 +1515,8 @@
           "fallback_name": "mariokartdd-recomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         },
         {
           "id": "mkdd-recomp",
@@ -1378,7 +1529,8 @@
           "fallback_name": "MKDD-Recomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         },
         {
           "id": "doldecomp-mkdd-decompilacao-base",
@@ -1393,9 +1545,12 @@
             "installation_enabled": false
           },
           "classification": "base_decompilation",
-          "status": "console_decompilation"
+          "status": "console_decompilation",
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2003-11-17",
+      "added_at": "2026-11-22"
     },
     {
       "id": "the-legend-of-zelda-a-link-to-the-past",
@@ -1418,7 +1573,8 @@
           "fallback_name": "zelda3",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         },
         {
           "id": "zelda-3-launcher",
@@ -1431,9 +1587,12 @@
           "fallback_name": "Zelda 3 Launcher",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1991-11-21",
+      "added_at": "2026-11-22"
     },
     {
       "id": "super-metroid",
@@ -1456,7 +1615,8 @@
           "fallback_name": "Super Metroid Launcher",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         },
         {
           "id": "sm",
@@ -1469,7 +1629,8 @@
           "fallback_name": "sm",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         },
         {
           "id": "sm-rewrite",
@@ -1482,9 +1643,12 @@
           "fallback_name": "sm_rewrite",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1994-03-19",
+      "added_at": "2026-11-22"
     },
     {
       "id": "super-mario-world",
@@ -1507,7 +1671,8 @@
           "fallback_name": "SuperMarioWorldRecomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         },
         {
           "id": "smw",
@@ -1520,9 +1685,12 @@
           "fallback_name": "smw",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1990-11-21",
+      "added_at": "2026-11-22"
     },
     {
       "id": "earthbound-mother-2",
@@ -1545,9 +1713,12 @@
           "fallback_name": "Phase Distorter",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1994-08-27",
+      "added_at": "2026-11-22"
     },
     {
       "id": "the-legend-of-zelda-the-minish-cap",
@@ -1570,7 +1741,8 @@
           "fallback_name": "AutoTMC (auto-tmc)",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         },
         {
           "id": "project-picori-999sian-tmc",
@@ -1583,7 +1755,8 @@
           "fallback_name": "Project Picori (999sian/tmc)",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         },
         {
           "id": "tmc-decompilacao-base",
@@ -1598,9 +1771,12 @@
             "installation_enabled": false
           },
           "classification": "base_decompilation",
-          "status": "console_decompilation"
+          "status": "console_decompilation",
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2005-01-10",
+      "added_at": "2026-11-22"
     },
     {
       "id": "golden-sun-golden-sun-the-lost-age",
@@ -1623,9 +1799,12 @@
           "fallback_name": "GSRecomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2003-04-14",
+      "added_at": "2026-11-22"
     },
     {
       "id": "jak-and-daxter-1-2-e-3",
@@ -1648,9 +1827,12 @@
           "fallback_name": "OpenGOAL",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2004-11-09",
+      "added_at": "2026-11-22"
     },
     {
       "id": "god-of-war-2005",
@@ -1673,7 +1855,8 @@
           "fallback_name": "God of War: native PC port (gow-pc-port)",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         },
         {
           "id": "god-of-war-recomp",
@@ -1686,9 +1869,12 @@
           "fallback_name": "God of War Recomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-23"
         }
-      ]
+      ],
+      "release_date": "2005-03-22",
+      "added_at": "2026-11-22"
     },
     {
       "id": "shadow-of-rome",
@@ -1711,9 +1897,12 @@
           "fallback_name": "Shadow of Rome Recompiled",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2005-02-08",
+      "added_at": "2026-11-22"
     },
     {
       "id": "castlevania-symphony-of-the-night",
@@ -1736,9 +1925,12 @@
           "fallback_name": "SymphonyRecomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1997-10-02",
+      "added_at": "2026-11-22"
     },
     {
       "id": "crash-team-racing",
@@ -1761,7 +1953,8 @@
           "fallback_name": "Crash Team Racing: High Octane",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         },
         {
           "id": "crash-team-racing-turbocharged",
@@ -1774,7 +1967,8 @@
           "fallback_name": "Crash Team Racing: Turbocharged",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         },
         {
           "id": "ctr-native",
@@ -1787,9 +1981,12 @@
           "fallback_name": "CTR Native",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1999-10-20",
+      "added_at": "2026-11-22"
     },
     {
       "id": "wipeout",
@@ -1812,7 +2009,8 @@
           "fallback_name": "WipeOut Phantom Edition",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         },
         {
           "id": "wipeout-rewrite",
@@ -1825,9 +2023,12 @@
           "fallback_name": "wipEout Rewrite",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1995-09-29",
+      "added_at": "2026-11-22"
     },
     {
       "id": "driver-2",
@@ -1850,9 +2051,12 @@
           "fallback_name": "REDRIVER2",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2000-11-16",
+      "added_at": "2026-11-22"
     },
     {
       "id": "the-legend-of-dragoon",
@@ -1875,9 +2079,12 @@
           "fallback_name": "Severed Chains",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2000-06-13",
+      "added_at": "2026-11-22"
     },
     {
       "id": "silent-hill",
@@ -1900,9 +2107,12 @@
           "fallback_name": "Silent Hill - Native PC Port",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1999-01-31",
+      "added_at": "2026-11-22"
     },
     {
       "id": "vandal-hearts",
@@ -1925,9 +2135,12 @@
           "fallback_name": "VandalHearts-PcPort",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1997-03-15",
+      "added_at": "2026-11-22"
     },
     {
       "id": "bloody-roar-ii",
@@ -1950,9 +2163,12 @@
           "fallback_name": "BloodyRoar2Recomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1999-01-28",
+      "added_at": "2026-11-22"
     },
     {
       "id": "wwf-smackdown-2-know-your-role",
@@ -1975,9 +2191,12 @@
           "fallback_name": "KnowYourRoleRecomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2000-11-20",
+      "added_at": "2026-11-22"
     },
     {
       "id": "king-s-field-jp-1994",
@@ -2000,9 +2219,12 @@
           "fallback_name": "kf1-enhanced",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1994-12-16",
+      "added_at": "2026-11-22"
     },
     {
       "id": "yu-gi-oh-forbidden-memories",
@@ -2025,9 +2247,12 @@
           "fallback_name": "Yu-Gi-Oh! Forbidden Memories Recompiled",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2002-03-20",
+      "added_at": "2026-11-22"
     },
     {
       "id": "tomb-raider-i-v",
@@ -2050,7 +2275,8 @@
           "fallback_name": "TRX (Tomb Raider I–III Community Edition)",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         },
         {
           "id": "openlara",
@@ -2063,9 +2289,12 @@
           "fallback_name": "OpenLara",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2000-11-17",
+      "added_at": "2026-11-22"
     },
     {
       "id": "mega-man-legends-rockman-dash",
@@ -2088,7 +2317,8 @@
           "fallback_name": "Mega Man Legends Modernization Project",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         },
         {
           "id": "mml1-megaman-legends-decomp",
@@ -2103,9 +2333,12 @@
             "installation_enabled": false
           },
           "classification": "base_decompilation",
-          "status": "console_decompilation"
+          "status": "console_decompilation",
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1998-08-31",
+      "added_at": "2026-11-22"
     },
     {
       "id": "sonic-unleashed",
@@ -2128,9 +2361,12 @@
           "fallback_name": "UnleashedRecomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2008-11-18",
+      "added_at": "2026-11-22"
     },
     {
       "id": "sonic-the-hedgehog-2006",
@@ -2153,9 +2389,12 @@
           "fallback_name": "Marathon Recompiled",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2006-11-14",
+      "added_at": "2026-11-22"
     },
     {
       "id": "shadow-the-hedgehog",
@@ -2178,9 +2417,12 @@
           "fallback_name": "Shadow Recompiled",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2005-11-15",
+      "added_at": "2026-11-22"
     },
     {
       "id": "sonic-adventure",
@@ -2203,9 +2445,12 @@
           "fallback_name": "SARecomp (Sonic Adventure Recompiled)",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1998-12-23",
+      "added_at": "2026-11-22"
     },
     {
       "id": "sonic-the-hedgehog-1-2-2013",
@@ -2228,7 +2473,8 @@
           "fallback_name": "RSDKv4-Decompilation",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         },
         {
           "id": "sonic-1-forever-sonic-2-absolute",
@@ -2246,7 +2492,8 @@
           "replaced_by": [
             "sonic-1-forever",
             "sonic-2-absolute"
-          ]
+          ],
+          "added_at": "2026-11-22"
         },
         {
           "id": "sonic-1-forever",
@@ -2259,7 +2506,8 @@
           "fallback_name": "Sonic 1 Forever",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-24"
         },
         {
           "id": "sonic-2-absolute",
@@ -2272,9 +2520,12 @@
           "fallback_name": "Sonic 2 Absolute",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-24"
         }
-      ]
+      ],
+      "release_date": "2013-12-12",
+      "added_at": "2026-11-22"
     },
     {
       "id": "sonic-3-knuckles",
@@ -2297,9 +2548,12 @@
           "fallback_name": "Sonic 3 A.I.R. (Oxygen Engine)",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1994-10-18",
+      "added_at": "2026-11-22"
     },
     {
       "id": "outrun",
@@ -2322,9 +2576,12 @@
           "fallback_name": "Cannonball",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "1986-09-20",
+      "added_at": "2026-11-22"
     },
     {
       "id": "forza-horizon",
@@ -2347,7 +2604,8 @@
           "fallback_name": "Pinyon Shift",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         },
         {
           "id": "fh1-reimagined",
@@ -2360,9 +2618,12 @@
           "fallback_name": "Forza Horizon 1: ReImagined",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-23"
         }
-      ]
+      ],
+      "release_date": "2012-10-23",
+      "added_at": "2026-11-22"
     },
     {
       "id": "blue-dragon",
@@ -2385,9 +2646,12 @@
           "fallback_name": "re:Blue",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2007-08-28",
+      "added_at": "2026-11-22"
     },
     {
       "id": "the-darkness",
@@ -2410,9 +2674,12 @@
           "fallback_name": "The-Darkness-Recomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2007-06-25",
+      "added_at": "2026-11-22"
     },
     {
       "id": "silent-hill-downpour",
@@ -2435,9 +2702,12 @@
           "fallback_name": "DownpourRecomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2012-03-13",
+      "added_at": "2026-11-22"
     },
     {
       "id": "deadly-premonition",
@@ -2460,9 +2730,12 @@
           "fallback_name": "DPRecomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2010-02-23",
+      "added_at": "2026-11-22"
     },
     {
       "id": "tony-hawk-s-project-8",
@@ -2485,9 +2758,12 @@
           "fallback_name": "Project8Recomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2006-11-07",
+      "added_at": "2026-11-22"
     },
     {
       "id": "spider-man-edge-of-time",
@@ -2511,7 +2787,8 @@
           "windows": {
             "installation_enabled": false
           },
-          "status": "asset_redistribution_blocked"
+          "status": "asset_redistribution_blocked",
+          "added_at": "2026-11-22"
         },
         {
           "id": "edge-of-time-recomp",
@@ -2525,9 +2802,12 @@
           "windows": {
             "installation_enabled": false
           },
-          "status": "preparation_available"
+          "status": "preparation_available",
+          "added_at": "2026-11-24"
         }
-      ]
+      ],
+      "release_date": "2011-10-04",
+      "added_at": "2026-11-22"
     },
     {
       "id": "peter-jackson-s-king-kong",
@@ -2550,9 +2830,12 @@
           "fallback_name": "King Kong: Recompiled",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2005-11-22",
+      "added_at": "2026-11-22"
     },
     {
       "id": "earthworm-jim-hd",
@@ -2575,9 +2858,12 @@
           "fallback_name": "Earthworm Jim HD: Recompiled",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2010-06-09",
+      "added_at": "2026-11-22"
     },
     {
       "id": "the-simpsons-game",
@@ -2600,9 +2886,12 @@
           "fallback_name": "TheSimpsonsGameRecomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2007-10-30",
+      "added_at": "2026-11-22"
     },
     {
       "id": "dead-rising-2-case-zero-case-west",
@@ -2625,7 +2914,8 @@
           "fallback_name": "Dead_Rising_2_Case_Zero_Xenon_Recomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         },
         {
           "id": "dead-rising-2-case-west-xenon-recomp",
@@ -2638,9 +2928,12 @@
           "fallback_name": "Dead_Rising_2_Case_West_Xenon_Recomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2010-12-27",
+      "added_at": "2026-11-22"
     },
     {
       "id": "dead-or-alive-xtreme-beach-volleyball",
@@ -2663,9 +2956,12 @@
           "fallback_name": "doaxvb-re",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2003-01-22",
+      "added_at": "2026-11-22"
     },
     {
       "id": "3-on-3-nhl-arcade",
@@ -2688,9 +2984,12 @@
           "fallback_name": "3on3NHL-recomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-22"
         }
-      ]
+      ],
+      "release_date": "2009-02-11",
+      "added_at": "2026-11-22"
     },
     {
       "id": "shadow-of-the-colossus",
@@ -2713,9 +3012,12 @@
           "fallback_name": "Shadow of the Colossus PC",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-23"
         }
-      ]
+      ],
+      "release_date": "2018-02-06",
+      "added_at": "2026-11-23"
     },
     {
       "id": "the-legend-of-zelda-breath-of-the-wild",
@@ -2738,9 +3040,12 @@
           "fallback_name": "Savage Wind Recomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-23"
         }
-      ]
+      ],
+      "release_date": "2017-03-03",
+      "added_at": "2026-11-23"
     },
     {
       "id": "the-legend-of-zelda-tears-of-the-kingdom",
@@ -2763,14 +3068,17 @@
           "fallback_name": "TotK Recomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-23"
         }
-      ]
+      ],
+      "release_date": "2023-05-12",
+      "added_at": "2026-11-23"
     },
     {
       "id": "gran-turismo-4",
       "title": "Gran Turismo 4",
-      "platform_group": "PlayStation 1",
+      "platform_group": "PlayStation 2",
       "cover": "https://www.gran-turismo.com/images/c/i1qGJCl9mYhoPz.jpg",
       "banner": "https://raw.githubusercontent.com/moesuito/gt4-staticrecomp/main/docs/images/night-race-hires.webp",
       "category": null,
@@ -2788,9 +3096,12 @@
           "fallback_name": "GT4Recomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-23"
         }
-      ]
+      ],
+      "release_date": "2004-12-28",
+      "added_at": "2026-11-23"
     },
     {
       "id": "gran-turismo-5",
@@ -2813,9 +3124,12 @@
           "fallback_name": "GT5 Recomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-23"
         }
-      ]
+      ],
+      "release_date": "2010-11-24",
+      "added_at": "2026-11-23"
     },
     {
       "id": "gran-turismo-7",
@@ -2838,9 +3152,12 @@
           "fallback_name": "RyGT",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-23"
         }
-      ]
+      ],
+      "release_date": "2022-03-04",
+      "added_at": "2026-11-23"
     },
     {
       "id": "the-legend-of-zelda-link-s-awakening",
@@ -2863,9 +3180,12 @@
           "fallback_name": "LAS Recomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-23"
         }
-      ]
+      ],
+      "release_date": "2019-09-20",
+      "added_at": "2026-11-23"
     },
     {
       "id": "super-mario-odyssey",
@@ -2888,9 +3208,12 @@
           "fallback_name": "Super Odyssey PC Recomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-23"
         }
-      ]
+      ],
+      "release_date": "2017-10-27",
+      "added_at": "2026-11-23"
     },
     {
       "id": "god-hand",
@@ -2913,9 +3236,12 @@
           "fallback_name": "God Hand: Rearmed",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-23"
         }
-      ]
+      ],
+      "release_date": "2006-09-14",
+      "added_at": "2026-11-23"
     },
     {
       "id": "grand-theft-auto-liberty-city-stories-vice-city-stories",
@@ -2938,9 +3264,12 @@
           "fallback_name": "GTA Stories Recompiled",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-23"
         }
-      ]
+      ],
+      "release_date": "2007-03-05",
+      "added_at": "2026-11-23"
     },
     {
       "id": "god-of-war-iii-remastered",
@@ -2963,9 +3292,12 @@
           "fallback_name": "SpartanPort",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-23"
         }
-      ]
+      ],
+      "release_date": "2015-07-14",
+      "added_at": "2026-11-23"
     },
     {
       "id": "the-last-guardian",
@@ -2988,9 +3320,12 @@
           "fallback_name": "The Last Guardian PC",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-23"
         }
-      ]
+      ],
+      "release_date": "2016-12-06",
+      "added_at": "2026-11-23"
     },
     {
       "id": "infamous-second-son",
@@ -3013,9 +3348,12 @@
           "fallback_name": "inFAMOUS Second Son PC",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-23"
         }
-      ]
+      ],
+      "release_date": "2014-03-21",
+      "added_at": "2026-11-23"
     },
     {
       "id": "pt",
@@ -3038,9 +3376,12 @@
           "fallback_name": "P.T. for PC",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-23"
         }
-      ]
+      ],
+      "release_date": "2014-08-12",
+      "added_at": "2026-11-23"
     },
     {
       "id": "gears-of-war-2",
@@ -3063,9 +3404,12 @@
           "fallback_name": "Gears of War 2 PC Port",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-23"
         }
-      ]
+      ],
+      "release_date": "2008-11-07",
+      "added_at": "2026-11-23"
     },
     {
       "id": "ninja-gaiden-ii",
@@ -3088,9 +3432,12 @@
           "fallback_name": "Ninja Gaiden II Recompiled",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-23"
         }
-      ]
+      ],
+      "release_date": "2008-06-03",
+      "added_at": "2026-11-23"
     },
     {
       "id": "project-gotham-racing-4",
@@ -3113,9 +3460,12 @@
           "fallback_name": "PGR4 Recomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-23"
         }
-      ]
+      ],
+      "release_date": "2007-10-02",
+      "added_at": "2026-11-23"
     },
     {
       "id": "burnout-3-takedown",
@@ -3138,9 +3488,12 @@
           "fallback_name": "Burnout 3 Recomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-23"
         }
-      ]
+      ],
+      "release_date": "2004-09-07",
+      "added_at": "2026-11-23"
     },
     {
       "id": "halo-combat-evolved",
@@ -3163,9 +3516,12 @@
           "fallback_name": "OpenCE",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-23"
         }
-      ]
+      ],
+      "release_date": "2001-11-15",
+      "added_at": "2026-11-23"
     },
     {
       "id": "lost-odyssey",
@@ -3188,9 +3544,12 @@
           "fallback_name": "Lost Odyssey Recomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-23"
         }
-      ]
+      ],
+      "release_date": "2008-02-12",
+      "added_at": "2026-11-23"
     },
     {
       "id": "ssx-2012",
@@ -3213,9 +3572,12 @@
           "fallback_name": "SSX Recomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-23"
         }
-      ]
+      ],
+      "release_date": "2012-02-28",
+      "added_at": "2026-11-23"
     },
     {
       "id": "donkey-kong-bananza",
@@ -3238,9 +3600,12 @@
           "fallback_name": "DKB Recomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-23"
         }
-      ]
+      ],
+      "release_date": "2025-07-17",
+      "added_at": "2026-11-23"
     },
     {
       "id": "mario-kart-world",
@@ -3263,9 +3628,12 @@
           "fallback_name": "mkw-recomp",
           "windows": {
             "installation_enabled": false
-          }
+          },
+          "added_at": "2026-11-23"
         }
-      ]
+      ],
+      "release_date": "2025-06-05",
+      "added_at": "2026-11-23"
     }
   ],
   "addons": []

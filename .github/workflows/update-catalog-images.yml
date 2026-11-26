@@ -44,7 +44,7 @@ jobs:
 
       - name: Validar alteracoes
         run: |
-          python -m json.tool catalog.json > /dev/null
+          python scripts/validate_catalog.py --compare-with HEAD
           git diff --check
           git diff --stat
 

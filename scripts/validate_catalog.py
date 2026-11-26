@@ -3,8 +3,12 @@
 
 from __future__ import annotations
 
+import argparse
 import json
+import re
+import subprocess
 import sys
+from datetime import date
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -43,7 +47,39 @@ def valid_url(value: object) -> bool:
     return parsed.scheme == "https" and bool(parsed.netloc)
 
 
-def validate() -> None:
+def validate_date(record: dict, key: str, identity: str, required: bool) -> None:
+    if required:
+        require(key in record, f"{identity}: {key} ausente")
+    value = record.get(key)
+    if value is None:
+        return
+    require(isinstance(value, str) and re.fullmatch(r"[0-9]{4}-[0-9]{2}-[0-9]{2}", value),
+            f"{identity}: {key} deve ser YYYY-MM-DD ou null")
+    try:
+        date.fromisoformat(value)
+    except ValueError:
+        raise ValueError(f"{identity}: {key} contém uma data inválida") from None
+
+
+def validate_addition_history(catalog: dict, base: dict) -> None:
+    def entries(document: dict) -> dict:
+        games = document["games"]
+        return {
+            "jogo": {g["id"]: g.get("added_at") for g in games},
+            "projeto": {p["id"]: p.get("added_at") for g in games for p in g.get("projects", [])},
+        }
+
+    previous = entries(base)
+    for kind, records in entries(catalog).items():
+        for identity, value in records.items():
+            if identity not in previous[kind]:
+                require(value is not None, f"{kind} novo {identity}: informe a data de inclusão")
+            elif previous[kind][identity] is not None:
+                require(value == previous[kind][identity],
+                        f"{kind} {identity}: preserve a data de inclusão existente")
+
+
+def validate(require_dates: bool = False, compare_with: str | None = None) -> None:
     catalog = load("catalog.json")
     requirements = load("requirements.json")
     about = load("about.json")
@@ -70,6 +106,8 @@ def validate() -> None:
         require(isinstance(gid, str) and bool(gid.strip()), "ID de jogo ausente")
         require(gid not in game_ids, f"ID de jogo duplicado: {gid}")
         game_ids.add(gid)
+        validate_date(game, "release_date", gid, require_dates)
+        validate_date(game, "added_at", gid, require_dates)
 
         require(isinstance(game.get("title"), str) and bool(game["title"].strip()),
                 f"Título ausente: {gid}")
@@ -85,6 +123,7 @@ def validate() -> None:
             require(isinstance(pid, str) and bool(pid.strip()), f"ID de projeto ausente em {gid}")
             require(pid not in project_to_game, f"ID de projeto duplicado: {pid}")
             project_to_game[pid] = gid
+            validate_date(project, "added_at", pid, require_dates)
 
             source = project.get("source")
             require(isinstance(source, dict), f"{pid}: source ausente")
@@ -139,13 +178,22 @@ def validate() -> None:
         require(isinstance(description.get("description_pt"), str),
                 f"{pid}: description_pt ausente")
 
+    if compare_with:
+        base = json.loads(subprocess.check_output(
+            ["git", "show", f"{compare_with}:catalog.json"], cwd=ROOT))
+        validate_addition_history(catalog, base)
+
     print(f"PASSOU: {len(game_ids)} jogos, {len(project_to_game)} projetos, "
           "IDs únicos, referências 1:1, schemas e campos obrigatórios.")
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--require-dates", action="store_true", help="exige os campos de data, mesmo quando nulos")
+    parser.add_argument("--compare-with", metavar="REV", help="compara datas de inclusão com uma revisão do Git")
+    args = parser.parse_args()
     try:
-        validate()
-    except (ValueError, OSError, json.JSONDecodeError) as exc:
+        validate(args.require_dates, args.compare_with)
+    except (ValueError, OSError, subprocess.CalledProcessError) as exc:
         print(f"ERRO: {exc}", file=sys.stderr)
         sys.exit(1)
