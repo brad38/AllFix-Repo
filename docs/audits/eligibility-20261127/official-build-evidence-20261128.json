@@ -231,5 +231,1312 @@
       }
     },
     "limits": "Official Visual Studio solution; no source patch, ROM, game execution or original-media validation."
+  },
+  "sm_rewrite_build": {
+    "repository": "https://github.com/testyourmine/sm_rewrite",
+    "commit": "523787384a7c912153883b21714f5edabf4e2406",
+    "archive_url": "https://codeload.github.com/testyourmine/sm_rewrite/zip/523787384a7c912153883b21714f5edabf4e2406",
+    "archive_sha256": "b96cea8987cda3bb08b507a7435c98c43d34efc733763bd68825a005035839ee",
+    "checked_at_utc": "2026-11-28T02:56:50.785608+00:00",
+    "configure_command": [
+      "C:\\Program Files\\CMake\\bin\\cmake.exe",
+      "--preset",
+      "windows-relwithdebinfo",
+      "-DCMAKE_MAKE_PROGRAM={user-profile}\\AppData\\Local\\Microsoft\\WinGet\\Links\\ninja.EXE",
+      "-B",
+      "{workspace}\\evidence-r18\\official-scope-20261127\\sm-rewrite-official\\b"
+    ],
+    "build_command": [
+      "C:\\Program Files\\CMake\\bin\\cmake.exe",
+      "--build",
+      "{workspace}\\evidence-r18\\official-scope-20261127\\sm-rewrite-official\\b",
+      "--parallel",
+      "2"
+    ],
+    "exit_code": 0,
+    "original_source_files": 193,
+    "changed_original_sources": [],
+    "output_directory": "{workspace}\\evidence-r18\\official-scope-20261127\\sm-rewrite-official\\b",
+    "outputs": {
+      "SDL2.dll": {
+        "bytes": 1665536,
+        "sha256": "0b9b692fe142f66f84e44f2de5eeae25f59af84a1fe9168f39f8908ff2bb3bac"
+      },
+      "sm.exe": {
+        "bytes": 1842176,
+        "sha256": "e908d2a2b15cc18e66320de2feb808e057021727fbd8562da97ca0e1031c1c11"
+      }
+    },
+    "limits": "Official Windows CMake preset and VS bundled vcpkg; no source patch, ROM, game execution or original-media validation.",
+    "build_log": {
+      "path": "{workspace}\\evidence-r18\\official-scope-20261127\\sm-rewrite-official\\build.log",
+      "bytes": 355631,
+      "sha256": "fd229a7b66ca04ec328daaa59c758fcf433ec01ef004935aea14ecbdba5836f9"
+    }
+  },
+  "sm_native_probes": {
+    "sm": {
+      "project": "sm",
+      "error": "Timeout waiting for missing-ROM rejection",
+      "scope": "No media supplied; timeout does not validate launch"
+    },
+    "sm-rewrite": {
+      "project": "sm-rewrite",
+      "command": [
+        "{workspace}\\evidence-r18\\official-scope-20261127\\sm-rewrite-official\\native-no-rom-probe\\sm.exe",
+        "--config",
+        "{workspace}\\evidence-r18\\official-scope-20261127\\sm-rewrite-official\\native-no-rom-probe\\sm.ini",
+        "{workspace}\\evidence-r18\\official-scope-20261127\\sm-rewrite-official\\native-no-rom-probe\\missing.smc"
+      ],
+      "exit_code": 1,
+      "output": "Failed to read file\r\nError: unable to load rom: {workspace}\\evidence-r18\\official-scope-20261127\\sm-rewrite-official\\native-no-rom-probe\\missing.smc\r\n",
+      "source_unchanged": true,
+      "input_rom_exists": false,
+      "binary_hashes": {
+        "sm.exe": "e908d2a2b15cc18e66320de2feb808e057021727fbd8562da97ca0e1031c1c11",
+        "SDL2.dll": "0b9b692fe142f66f84e44f2de5eeae25f59af84a1fe9168f39f8908ff2bb3bac",
+        "sm.ini": "371cf99151daffdc9d41245800ce8ed837510abfb25c95a553723af3cfd86674"
+      },
+      "test_only_environment": {
+        "SDL_VIDEODRIVER": "dummy",
+        "SDL_AUDIODRIVER": "dummy"
+      },
+      "scope": "Actual unmodified MSVC executable with official config and absent media. No original ROM, game boot or gameplay. Dummy drivers apply only to this negative probe."
+    }
+  },
+  "sm_source_kits": {
+    "sm": {
+      "count": 124,
+      "bytes": 5382506,
+      "aggregate_sha256": "bf1a714a0ef2489d3d4d79d2cdb0520fcc7255f011e9fbf4fbd9d515fb1ef584"
+    },
+    "sm-rewrite": {
+      "count": 193,
+      "bytes": 8609207,
+      "aggregate_sha256": "006f59cb4b845bc8a70b097da20433574ef5a9b89fb44c44ba0111e151a2064f"
+    }
+  },
+  "sm_rewrite_vcpkg_baseline": "7f9f0e44db287e8e67c0e888141bfa200ab45121",
+  "mkdd_build": {
+    "recorded_at_utc": "2026-11-28T03:24:19.578014+00:00",
+    "scope": "Official Windows runtime_check plus negative extractor; no original media, game link, OpenXR runtime build, boot or gameplay.",
+    "profile": "mariokartdd-bd36eb9-official-msvc-clang",
+    "source_archive": {
+      "repository": "ethannicholas/mariokartdd-recomp",
+      "commit": "bd36eb982ea58c6651584cc48264876d1aba9546",
+      "url": "https://codeload.github.com/ethannicholas/mariokartdd-recomp/zip/bd36eb982ea58c6651584cc48264876d1aba9546",
+      "bytes": 289326,
+      "sha256": "e03e848d0c82dc21d34913d5bf872f120d415ad343494cd493d0192f7242fe04"
+    },
+    "submodule_archive": {
+      "repository": "ethannicholas/gcn-recomp",
+      "commit": "b2193d7c7ce65c40959cf81859beaacafeebfd99",
+      "url": "https://codeload.github.com/ethannicholas/gcn-recomp/zip/b2193d7c7ce65c40959cf81859beaacafeebfd99",
+      "bytes": 614300,
+      "sha256": "25c3ccde27d7198320f21467f2692a4521eab59a2f4a6ef9a77dba0035e3bc28"
+    },
+    "native_build": {
+      "checked_at_utc": "2026-11-28T03:21:06.783159+00:00",
+      "repository": "https://github.com/ethannicholas/mariokartdd-recomp",
+      "commit": "bd36eb982ea58c6651584cc48264876d1aba9546",
+      "submodule_commit": "b2193d7c7ce65c40959cf81859beaacafeebfd99",
+      "build_command": [
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "-NoProfile",
+        "-NonInteractive",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "{workspace}\\evidence-r18\\official-scope-20261127\\mkdd-official\\source\\build.ps1",
+        "-DPython3_EXECUTABLE={workspace}\\evidence-r18\\official-scope-20261127\\mkdd-official\\python\\python.exe"
+      ],
+      "exit_code": 0,
+      "original_source_files": 165,
+      "changed_original_sources": [],
+      "runtime_check_object_files": 42,
+      "game_executable_present": false,
+      "cache": {
+        "CMAKE_CXX_COMPILER:STRING": "{workspace}/evidence-r18/mkdd-llvm23/bin/clang++.exe",
+        "CMAKE_C_COMPILER:STRING": "{workspace}/evidence-r18/mkdd-llvm23/bin/clang.exe",
+        "GAME_ISO:FILEPATH": "",
+        "GCN_BENCH_ONLY:BOOL": "OFF",
+        "GCN_OPENXR:BOOL": "ON",
+        "GCN_SDL2_PREFIX:PATH": "{user-profile}/AppData/Local/gcn-recomp/SDL2-2.30.9-Clang23_1_3_AMD64_Release"
+      },
+      "compiler": {
+        "path": "{workspace}\\evidence-r18\\mkdd-llvm23\\bin\\clang.exe",
+        "bytes": 113284096,
+        "sha256": "9584244d83bb095c5a2983f814692cb50e0b8d2916585516cad8f3e8596d8261",
+        "version": "clang version 23.1.3 (https://github.com/llvm/llvm-project 0d261d1ca552c95a8f007e061c787ac7132fbcbc)\nTarget: x86_64-pc-windows-msvc\nThread model: posix\nInstalledDir: {workspace}\\evidence-r18\\mkdd-llvm23\\bin\nBuild config: +alloc:rpmalloc\n"
+      },
+      "negative_extract": {
+        "command": [
+          "{workspace}\\evidence-r18\\official-scope-20261127\\mkdd-official\\python\\python.exe",
+          "{workspace}\\evidence-r18\\official-scope-20261127\\mkdd-official\\source\\gcn-recomp\\recomp\\extract_dol.py",
+          "{workspace}\\evidence-r18\\official-scope-20261127\\mkdd-official\\synthetic-invalid.iso",
+          "{workspace}\\evidence-r18\\official-scope-20261127\\mkdd-official\\invalid-main.dol",
+          "GM4E01",
+          "e389e50357d4a5076ab3d38672204658f411123d"
+        ],
+        "exit_code": 1,
+        "output": "error: main.dol SHA-1 9aa0c21f9fde3f1dfdc721bb409a6ab292dae086 does not match the supported build (e389e50357d4a5076ab3d38672204658f411123d).\n",
+        "synthetic_input_sha256": "1be6100a3b48ef8887767393ae960122898c76133021a4d3ad850e995089cd90",
+        "output_created": false
+      },
+      "limits": "Official runtime_check compilation without a disc; no game-generated code/final link, OpenXR runtime build, original media, boot, gameplay or toolchain installation. Default OpenXR option preserved."
+    },
+    "earlier_incompatible_toolchain": {
+      "checked_at_utc": "2026-11-28T03:15:43.736389+00:00",
+      "repository": "https://github.com/ethannicholas/mariokartdd-recomp",
+      "commit": "bd36eb982ea58c6651584cc48264876d1aba9546",
+      "submodule_commit": "b2193d7c7ce65c40959cf81859beaacafeebfd99",
+      "build_command": [
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "-NoProfile",
+        "-NonInteractive",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "{workspace}\\evidence-r18\\official-scope-20261127\\mkdd-official\\source\\build.ps1"
+      ],
+      "exit_code": 1,
+      "original_source_files": 165,
+      "changed_original_sources": [],
+      "runtime_check_object_files": 0,
+      "game_executable_present": false,
+      "cache": {
+        "CMAKE_CXX_COMPILER:STRING": "{workspace}/evidence-r18/drmario-desktop-flow-20261127/source-tools-production-4/llvm/bin/clang++.exe",
+        "CMAKE_C_COMPILER:STRING": "{workspace}/evidence-r18/drmario-desktop-flow-20261127/source-tools-production-4/llvm/bin/clang.exe",
+        "GAME_ISO:FILEPATH": "",
+        "GCN_BENCH_ONLY:BOOL": "OFF",
+        "GCN_OPENXR:BOOL": "ON",
+        "GCN_SDL2_PREFIX:PATH": "{user-profile}/AppData/Local/gcn-recomp/SDL2-2.30.9-Clang18_1_8_AMD64_Release"
+      },
+      "compiler": {
+        "path": "{workspace}\\evidence-r18\\drmario-desktop-flow-20261127\\source-tools-production-4\\llvm\\bin\\clang.exe",
+        "bytes": 119562240,
+        "sha256": "03e9199b6f87683a3c479c2d629bca4bc33e380bc7194e4fcce56fe8163ad275",
+        "version": "clang version 18.1.8\nTarget: x86_64-pc-windows-msvc\nThread model: posix\nInstalledDir: {workspace}\\evidence-r18\\drmario-desktop-flow-20261127\\source-tools-production-4\\llvm\\bin\n"
+      },
+      "negative_extract": {
+        "command": [
+          "{user-profile}\\AppData\\Local\\Programs\\Python\\Python312\\python.EXE",
+          "-I",
+          "{workspace}\\evidence-r18\\official-scope-20261127\\mkdd-official\\source\\gcn-recomp\\recomp\\extract_dol.py",
+          "{workspace}\\evidence-r18\\official-scope-20261127\\mkdd-official\\synthetic-invalid.iso",
+          "{workspace}\\evidence-r18\\official-scope-20261127\\mkdd-official\\invalid-main.dol",
+          "GM4E01",
+          "e389e50357d4a5076ab3d38672204658f411123d"
+        ],
+        "exit_code": 1,
+        "output": "error: main.dol SHA-1 9aa0c21f9fde3f1dfdc721bb409a6ab292dae086 does not match the supported build (e389e50357d4a5076ab3d38672204658f411123d).\n",
+        "synthetic_input_sha256": "1be6100a3b48ef8887767393ae960122898c76133021a4d3ad850e995089cd90",
+        "output_created": false
+      },
+      "limits": "Official runtime_check compilation without a disc; no game-generated code/final link, OpenXR runtime build, original media, boot, gameplay or toolchain installation. Default OpenXR option preserved."
+    },
+    "source_manifest": {
+      "files": [
+        {
+          "Path": ".claude/settings.json",
+          "Size": 467,
+          "Sha256": "8ab8e634a922ff0ea3c3e6b1d9672eacc1e7aaf695faeda8fcf0258fb5ed7912"
+        },
+        {
+          "Path": ".gitattributes",
+          "Size": 291,
+          "Sha256": "64365151003f090015f7862ea8f657ba97d60a414bc01816c59b0e97744edc2b"
+        },
+        {
+          "Path": ".gitignore",
+          "Size": 639,
+          "Sha256": "d8097a1796898c8c18395f9d13b94133d68ba906000be6860cfabf29c6361e63"
+        },
+        {
+          "Path": ".gitmodules",
+          "Size": 99,
+          "Sha256": "595acb52939d3bcd9654cbc6fdee65bb343d776abde0d0407327b58f32682efb"
+        },
+        {
+          "Path": ".recomp.json",
+          "Size": 822,
+          "Sha256": "4085cddde9c0dfc3811c1f59a1c5f31449dbb28c85c24c770dd1ad8b67fce5f5"
+        },
+        {
+          "Path": "CLAUDE.md",
+          "Size": 2752,
+          "Sha256": "116dd9bf08cf7fe42dab96c451c706d8e3febbc545b78c67f19e3264c6ca95af"
+        },
+        {
+          "Path": "CMakeLists.txt",
+          "Size": 1474,
+          "Sha256": "88ed4a28bb89c52f487431550c5eb738536950786577ea21d2c6db08f7e92c7e"
+        },
+        {
+          "Path": "LICENSE",
+          "Size": 1071,
+          "Sha256": "ff3a0215ca3efc9ae6e7e8a6a834fe2108139947a17e295856ebc60f4eeb11c3"
+        },
+        {
+          "Path": "README.md",
+          "Size": 18857,
+          "Sha256": "3413012a80689dc3460ad9e87fef872bc4a2f37fa0224e953b40c93dc6225cab"
+        },
+        {
+          "Path": "analysis/config.yml",
+          "Size": 66,
+          "Sha256": "a9da4794b844708c64ab43d3e7eaf09cf492584ddfe90cc93e0b842c03fe9132"
+        },
+        {
+          "Path": "analysis/splits.txt",
+          "Size": 465,
+          "Sha256": "892e06e8f43dc046475ec0a5e4b97f77c5289f6208c328f7821560875ad4da11"
+        },
+        {
+          "Path": "analysis/symbols.txt",
+          "Size": 1772583,
+          "Sha256": "76874b8ddef7b4f9c0a6e59f5b584ade980fd1a8e1e76d405e2e0c5d76bebe6b"
+        },
+        {
+          "Path": "build-android.ps1",
+          "Size": 5473,
+          "Sha256": "bf3f4c63b1106d8420e8d46b22c06455b50c779dc9f5b17ab561b5abc21f69e4"
+        },
+        {
+          "Path": "build-visionos.sh",
+          "Size": 3303,
+          "Sha256": "2d4f05ef9a5a75e94ab9eda16a3f515ba07849586a1de0ecffb8a9e92a34eb38"
+        },
+        {
+          "Path": "build.ps1",
+          "Size": 1555,
+          "Sha256": "5ce9f320e3cd3455726bbb45c05f42ffb1b85291b2ab85cae27140979f381882"
+        },
+        {
+          "Path": "build.sh",
+          "Size": 778,
+          "Sha256": "26b5f73378f6036399fa139111a7985e03841bbfb70b36560cffbdb8a34aed42"
+        },
+        {
+          "Path": "docs/dev/audio.md",
+          "Size": 3416,
+          "Sha256": "44dab5519c93310465d81f1277b2fa3f3869babe6845042bbc7309a6f35a0c46"
+        },
+        {
+          "Path": "docs/dev/controls.md",
+          "Size": 1187,
+          "Sha256": "c74de1900fc7e637cca2d06580074d3490ced095bd2d6ed31420c4a75bcd304a"
+        },
+        {
+          "Path": "docs/dev/routes.md",
+          "Size": 1232,
+          "Sha256": "1ae5feaade5899e76aede2fb951d624f593e389a0666de56a36e0e5c04440064"
+        },
+        {
+          "Path": "docs/dev/status.md",
+          "Size": 4088,
+          "Sha256": "81c216390be29b2157f7565589d35df41738901a8054fc0fc84a70ff83f88cd7"
+        },
+        {
+          "Path": "docs/dev/symbols.md",
+          "Size": 1615,
+          "Sha256": "cee283ef57b4b8ab046c91b2c2bbbe2a4679a6576d4716cc34e5a692feb16ad7"
+        },
+        {
+          "Path": "docs/dev/vr.md",
+          "Size": 19172,
+          "Sha256": "e9020d4aa358ce993b2ec155d531ff73d1edc0109059f707f4b166e8553a3dee"
+        },
+        {
+          "Path": "package-apk.ps1",
+          "Size": 503,
+          "Sha256": "5f8a0d937f812cab40eebb5b7eb6d196c256cba683ba14aec81eeeedfd77f513"
+        },
+        {
+          "Path": "recomp/hle.txt",
+          "Size": 121,
+          "Sha256": "83464b09f529b75f00ad81a3c9b329452e258cd7907b981f0ddf26b09ef872d5"
+        },
+        {
+          "Path": "recomp/idle.txt",
+          "Size": 202,
+          "Sha256": "bd2f5b6c000e2bd8ea6e77abcc19d2bda1f1668d066eac40cc256cc6097a8a5b"
+        },
+        {
+          "Path": "recomp/names.txt",
+          "Size": 113,
+          "Sha256": "7b469261f3dfb59e5812bedd5acd0307157b71c194439355ddd366c74cd12b76"
+        },
+        {
+          "Path": "recomp/patches.txt",
+          "Size": 78,
+          "Sha256": "fa58bc9c724a3f972234f1b2078955e955997b5213e80f7e02863007f74e96c6"
+        },
+        {
+          "Path": "recomp/special_calls.txt",
+          "Size": 90,
+          "Sha256": "abad0c6f02112d0c5edc15517740cdba2716d17cee88ac2fa8283d9ddb5bb47d"
+        },
+        {
+          "Path": "rom/README.md",
+          "Size": 354,
+          "Sha256": "fdbd6e1ac1b8c2742d28916e3ed1ee9dad720f4030e23c808d74e167f02e0c53"
+        },
+        {
+          "Path": "src/controls.cpp",
+          "Size": 919,
+          "Sha256": "67e82ca4018eb34feb6daa212a216557401e1ddcac94df4664120c13f2213d0e"
+        },
+        {
+          "Path": "src/motion.cpp",
+          "Size": 10483,
+          "Sha256": "6be2d135ea1db63a5c72af8e10c814cbbdeef243f212773291f73dbf2f8f856d"
+        },
+        {
+          "Path": "src/motion.h",
+          "Size": 405,
+          "Sha256": "a5c1bfc86f41fa524236ce8cd1a3ce711d93223579dc8fc91b8fef844e65aab9"
+        },
+        {
+          "Path": "src/race.cpp",
+          "Size": 5005,
+          "Sha256": "0109ce8af3a0385263d188f8401cf391424262d6137cf898eb097c3b61525130"
+        },
+        {
+          "Path": "src/race.h",
+          "Size": 3731,
+          "Sha256": "ebb8f49d2770ddcbcd5d9014d7896019f7c64f79fdc51cf2989df46252686c03"
+        },
+        {
+          "Path": "src/shader_keys.bin",
+          "Size": 43784,
+          "Sha256": "89c869933b2dfb80311f7385c37e036fb91677a243eb89a4d8e23d9cb4a5bdae"
+        },
+        {
+          "Path": "src/vr_mkdd.cpp",
+          "Size": 17073,
+          "Sha256": "f08ce14ccc74d879d6057d741edf87807d7b76da10318048bbc19312cbb9f545"
+        },
+        {
+          "Path": "tools/analyze.sh",
+          "Size": 282,
+          "Sha256": "a32b419aa33f6acbb8200fec0785571137ad6392a882c215e6dba5735110decc"
+        },
+        {
+          "Path": "tools/dis",
+          "Size": 363,
+          "Sha256": "2cf16c71002cf2c67596bfd01186f22139a4fdc0058013e7b6377c2b0e7046a5"
+        },
+        {
+          "Path": "tools/disraw",
+          "Size": 969,
+          "Sha256": "760d57c7e5e712a984b9d345492615256d577e9b8b5de0bcde9810d32431eeb1"
+        },
+        {
+          "Path": "tools/name_from_map.py",
+          "Size": 3353,
+          "Sha256": "c2de1827703ef99681629cb0f3eb421072f009357b35cbbde624ba63c5e783a4"
+        },
+        {
+          "Path": "gcn-recomp/.claude/settings.json",
+          "Size": 456,
+          "Sha256": "f07894c5c5ccba2d72035f97393de8619d8f4d1aee667935ce76c8fa14f7518a"
+        },
+        {
+          "Path": "gcn-recomp/.gitattributes",
+          "Size": 291,
+          "Sha256": "64365151003f090015f7862ea8f657ba97d60a414bc01816c59b0e97744edc2b"
+        },
+        {
+          "Path": "gcn-recomp/.githooks/pre-commit",
+          "Size": 401,
+          "Sha256": "a1a022f12743b0586d037f8ef0bc14d8aea6bbe0f3d917f9dd7de9ed8a2189dc"
+        },
+        {
+          "Path": "gcn-recomp/.gitignore",
+          "Size": 55,
+          "Sha256": "26214e81ea3f1082c72e10d35af94d4f8cbbd55a6cbb7409342de1c98582c50f"
+        },
+        {
+          "Path": "gcn-recomp/CLAUDE.md",
+          "Size": 2330,
+          "Sha256": "682b681773381321c164c4d8bfd1dbe634dee98cb1d2169674ffc4363817455c"
+        },
+        {
+          "Path": "gcn-recomp/CMakeLists.txt",
+          "Size": 38919,
+          "Sha256": "91eb268d01ee1e26a4c1dea196072a2d5883084daf60fe1561f6b735424971aa"
+        },
+        {
+          "Path": "gcn-recomp/LICENSE",
+          "Size": 1071,
+          "Sha256": "ff3a0215ca3efc9ae6e7e8a6a834fe2108139947a17e295856ebc60f4eeb11c3"
+        },
+        {
+          "Path": "gcn-recomp/README.md",
+          "Size": 4866,
+          "Sha256": "184690568554a56136bbe1bc2e983822071e2fc9b0b516843dee12b8156ffc36"
+        },
+        {
+          "Path": "gcn-recomp/android/AndroidManifest.xml.in",
+          "Size": 2865,
+          "Sha256": "4aa3265169ba7b9c31141fff2b65703e74ba9a66f42678f780167acc74e10b86"
+        },
+        {
+          "Path": "gcn-recomp/android/audio_aaudio.cpp",
+          "Size": 9429,
+          "Sha256": "656b1ec5cb9d8da365cd5f19d2c9706f424af566b0fcd7071be94e6f821cfbed"
+        },
+        {
+          "Path": "gcn-recomp/android/egl_main.cpp",
+          "Size": 35834,
+          "Sha256": "60847ea4fd495ef8169b183d13775f5a331add359c89ba4282e7fba4d48f3296"
+        },
+        {
+          "Path": "gcn-recomp/android/openxr_main.cpp",
+          "Size": 16658,
+          "Sha256": "b75ea8de3665c3eb8f5f1ee5787afe131ea1af94e1643598a5c102181b3d1ea7"
+        },
+        {
+          "Path": "gcn-recomp/docs/diagnostics.md",
+          "Size": 51151,
+          "Sha256": "5e089150a9658b483d425800c64d53d03d36d6b8d5ee98fdbf454104fa76c7fc"
+        },
+        {
+          "Path": "gcn-recomp/docs/graphics.md",
+          "Size": 73427,
+          "Sha256": "684def4091b67ee00200d288d6f1c2557e418ab748a033c60aaec88438310728"
+        },
+        {
+          "Path": "gcn-recomp/docs/mmu.md",
+          "Size": 3784,
+          "Sha256": "b56243ff7e1d825062f01fbf76af9dc951d0db1e97f14487a47e7cbbe589255e"
+        },
+        {
+          "Path": "gcn-recomp/docs/modules.md",
+          "Size": 2736,
+          "Sha256": "d4e1bdff24e4cf7600ccbd30869afa88ad3213b2f7a39bb958090a87321d5b02"
+        },
+        {
+          "Path": "gcn-recomp/docs/rels.md",
+          "Size": 3910,
+          "Sha256": "233b2660c570cd78c98aa36cc2c74673b3d9e42ab3537347e567bdb419f1c772"
+        },
+        {
+          "Path": "gcn-recomp/docs/visionos.md",
+          "Size": 16874,
+          "Sha256": "4e46fd84f8252d5d875117a73aada772e803ed2be322293b1389a873c3acc580"
+        },
+        {
+          "Path": "gcn-recomp/openxr/xr_desktop.cpp",
+          "Size": 8885,
+          "Sha256": "b40f66947da9d424b314a35fde2c5738b25183dd48d6db5d77b2c1b44e3fac6b"
+        },
+        {
+          "Path": "gcn-recomp/openxr/xr_desktop.h",
+          "Size": 765,
+          "Sha256": "b1afe8b1876a53dc000d7e1ca9d9cf6190a044db0982cf29909bec4b4d1cecda"
+        },
+        {
+          "Path": "gcn-recomp/openxr/xr_frontend.cpp",
+          "Size": 97815,
+          "Sha256": "7e1b6d1d06d0646a37d748be771b3323f588679625d61bb78bc92d2ff933c2c2"
+        },
+        {
+          "Path": "gcn-recomp/openxr/xr_frontend.h",
+          "Size": 4312,
+          "Sha256": "1cf8cc3c9cbe3c60876a82822a79d5c2e596fcbd0268da90270618c06ef5b395"
+        },
+        {
+          "Path": "gcn-recomp/recomp/dol.py",
+          "Size": 3231,
+          "Sha256": "04a3c0ce51dc2b3204d075c336107700edcaaf72731c01fb757f1826f5d22723"
+        },
+        {
+          "Path": "gcn-recomp/recomp/extract_dol.py",
+          "Size": 1294,
+          "Sha256": "dd97c6bb2e5fe757724fba7357da913a2e5cf73cf25a59aa2f8dd8733d666be9"
+        },
+        {
+          "Path": "gcn-recomp/recomp/ppc.py",
+          "Size": 30578,
+          "Sha256": "b54921d4c9687b605b2e3bd9fc8d05190d180c67506bf8cf0e50f7ca3d27fe0c"
+        },
+        {
+          "Path": "gcn-recomp/recomp/recomp.py",
+          "Size": 23477,
+          "Sha256": "b54b4a474287e770e582e1f46e96068b928ec3ee3f9321d1d0d3e4bf157370a0"
+        },
+        {
+          "Path": "gcn-recomp/recomp/rel.py",
+          "Size": 13789,
+          "Sha256": "e261580746eb39ea9535d02ba4d0f4f82a0477b374cf7bd79d2afa65a258d7e0"
+        },
+        {
+          "Path": "gcn-recomp/runtime/audio.cpp",
+          "Size": 10642,
+          "Sha256": "99fccb349be6cce96fb81680faf91417bc12665a9ec24858fe4a1d96a6221917"
+        },
+        {
+          "Path": "gcn-recomp/runtime/audio_sdl.cpp",
+          "Size": 1812,
+          "Sha256": "2f92bcf06232e52136008b292c53cf5057526a5f4352928ede2afd7df4ddea53"
+        },
+        {
+          "Path": "gcn-recomp/runtime/audio_stub.cpp",
+          "Size": 476,
+          "Sha256": "aba36f954a98a93b420a727dc80c678b59ecb462500ed2df46590749456f9043"
+        },
+        {
+          "Path": "gcn-recomp/runtime/bench_main.cpp",
+          "Size": 6841,
+          "Sha256": "4b67b2e4bb2b17b56bc875776d4adc7205e6d907a8edc544958ec9a250991eeb"
+        },
+        {
+          "Path": "gcn-recomp/runtime/boot.cpp",
+          "Size": 2752,
+          "Sha256": "bd83394687efb1eb55ceda5924223207aa8ac2cea6467031ac93a421b298c0e6"
+        },
+        {
+          "Path": "gcn-recomp/runtime/compat.h",
+          "Size": 2293,
+          "Sha256": "2a0ef023f90658b2325e8d01bd48ef83373575d238c635b331d0432c9a495760"
+        },
+        {
+          "Path": "gcn-recomp/runtime/cpu.cpp",
+          "Size": 26954,
+          "Sha256": "fcc5ec77d25b5fe1c63c979f3493fb36013e1e182daee1870da18e5c8da5303b"
+        },
+        {
+          "Path": "gcn-recomp/runtime/ffb.cpp",
+          "Size": 11569,
+          "Sha256": "73823d970781e73e0c746dea4c10da91ca11b71c7fe74d247097cd95f8ae38a2"
+        },
+        {
+          "Path": "gcn-recomp/runtime/ffb.h",
+          "Size": 2787,
+          "Sha256": "a21276b83c17dffab2f3682afe829a292f2aa731ad122b760146173de17213b0"
+        },
+        {
+          "Path": "gcn-recomp/runtime/gx/cmd.cpp",
+          "Size": 14323,
+          "Sha256": "a3a89230f6bc517a901ecc34b8202f7c039d7d430764e069bec51649ed553d8f"
+        },
+        {
+          "Path": "gcn-recomp/runtime/gx/fifo.cpp",
+          "Size": 39483,
+          "Sha256": "a5a0d91b59df7c2ef6068a212b830c60d2d2047aa7f085b99884b0d1cbf9f84c"
+        },
+        {
+          "Path": "gcn-recomp/runtime/gx/gl.h",
+          "Size": 3072,
+          "Sha256": "bf29a45047a9b1d543ea3f30fe899124ef275f226b101c421fa686dae3d0db64"
+        },
+        {
+          "Path": "gcn-recomp/runtime/gx/gl_load.cpp",
+          "Size": 2664,
+          "Sha256": "627086ab729878c8862982573848dbb6133c242411226076268fdf01e0b58a73"
+        },
+        {
+          "Path": "gcn-recomp/runtime/gx/gl_msrtt.h",
+          "Size": 1817,
+          "Sha256": "a298d3d5dfd73ddf15a037c50871bfe3ab7944e0d72f2bf8a2c1f3604bc0183a"
+        },
+        {
+          "Path": "gcn-recomp/runtime/gx/glad/include/KHR/khrplatform.h",
+          "Size": 11131,
+          "Sha256": "7b1e01aaa7ad8f6fc34b5c7bdf79ebf5189bb09e2c4d2e79fc5d350623d11e83"
+        },
+        {
+          "Path": "gcn-recomp/runtime/gx/glad/include/glad/gl.h",
+          "Size": 110638,
+          "Sha256": "90befb1c66d3677837b9bd6b58d8c9bf99a39807fe427b12a3ed74b06e57cfd2"
+        },
+        {
+          "Path": "gcn-recomp/runtime/gx/glad/src/gl.c",
+          "Size": 58477,
+          "Sha256": "421def813ec71345297c1a707a738cb2b01358ef8bf849f64ba45fad66277466"
+        },
+        {
+          "Path": "gcn-recomp/runtime/gx/glad_es/include/KHR/khrplatform.h",
+          "Size": 11131,
+          "Sha256": "7b1e01aaa7ad8f6fc34b5c7bdf79ebf5189bb09e2c4d2e79fc5d350623d11e83"
+        },
+        {
+          "Path": "gcn-recomp/runtime/gx/glad_es/include/glad/gles2.h",
+          "Size": 125580,
+          "Sha256": "86b8f787ca531344b73d1d09efb8982e8f8ea9efa676ea18a0856a3f2b8e3ca5"
+        },
+        {
+          "Path": "gcn-recomp/runtime/gx/glad_es/src/gles2.c",
+          "Size": 59600,
+          "Sha256": "93ed377c5976b59ea68e92a0454800128e73f178161b6965dccac6b467cf8252"
+        },
+        {
+          "Path": "gcn-recomp/runtime/gx/gx.h",
+          "Size": 7624,
+          "Sha256": "2882b527ce0598fea24dc5ff2c65bb30987bceb042ca38414cf0c373cc3f5683"
+        },
+        {
+          "Path": "gcn-recomp/runtime/gx/render.h",
+          "Size": 18451,
+          "Sha256": "dd5b3a586a0419a07371084e9a18425c20b036f8dc1d37880890ba785a4c42e3"
+        },
+        {
+          "Path": "gcn-recomp/runtime/gx/render_gl.cpp",
+          "Size": 233425,
+          "Sha256": "ff5e218c7a6063eaa2c57e0cbc261a69115b771515439d130127c7668b8ff03f"
+        },
+        {
+          "Path": "gcn-recomp/runtime/gx/render_gl.h",
+          "Size": 12543,
+          "Sha256": "68cb2f684c02e72855c19eee858682a369d8b9242029f59129bc0182e89855b8"
+        },
+        {
+          "Path": "gcn-recomp/runtime/gx/render_stub.cpp",
+          "Size": 900,
+          "Sha256": "25e6fcfb2cfdac6033c06423d66417196e83746dfcb982b0fae38af1014c87f5"
+        },
+        {
+          "Path": "gcn-recomp/runtime/gx/shadergen.cpp",
+          "Size": 51635,
+          "Sha256": "40610a7071bcf34a8027e43dedca98c9173c5e408df8a024a5765b55fbb2b750"
+        },
+        {
+          "Path": "gcn-recomp/runtime/gx/shadergen.h",
+          "Size": 4531,
+          "Sha256": "b37f56c710f70d491bb16e775603554dbb73f803844b4ee2f18af18cda6bbace"
+        },
+        {
+          "Path": "gcn-recomp/runtime/gx/texture.cpp",
+          "Size": 26449,
+          "Sha256": "686b2291c4f8ed87b0982eac80f58e96abceac42e6a03fffe0860b986d23630c"
+        },
+        {
+          "Path": "gcn-recomp/runtime/gx/texture.h",
+          "Size": 1524,
+          "Sha256": "37f76bba97b12a27ed10fbd3c4f687bfa68e9b02fa8a07e8d2c0fcc2696fdad5"
+        },
+        {
+          "Path": "gcn-recomp/runtime/gx/xf.cpp",
+          "Size": 93152,
+          "Sha256": "bf7b307793c0b4af2fadec09274ad1d1663530d9a07eae2e13f1abbdae8bc84b"
+        },
+        {
+          "Path": "gcn-recomp/runtime/heap_trace.cpp",
+          "Size": 8571,
+          "Sha256": "fa9aa8e125fa7c73b9421fd8c00b245daecbcfc6fcaea097976d4d4156dc07dd"
+        },
+        {
+          "Path": "gcn-recomp/runtime/hle_os.cpp",
+          "Size": 8706,
+          "Sha256": "0304ead2523273c7c254d89ba41acc7b5ee6b4d3da434c20eb133be2ac6415aa"
+        },
+        {
+          "Path": "gcn-recomp/runtime/host_profile.cpp",
+          "Size": 4308,
+          "Sha256": "1501e94f2d38df89bb98343044421686db1a2666307d6b8317b25981827d4a82"
+        },
+        {
+          "Path": "gcn-recomp/runtime/hw/ai.cpp",
+          "Size": 3319,
+          "Sha256": "a2400b5cb03ccba1e1c5818da89724d6fb9ee60a069e4ea31b9052e9301a5e34"
+        },
+        {
+          "Path": "gcn-recomp/runtime/hw/ax.cpp",
+          "Size": 14169,
+          "Sha256": "63029a979603217a3dc278856bf4f98aa57b28bd33401d1cdf8ca39f9a67597d"
+        },
+        {
+          "Path": "gcn-recomp/runtime/hw/ax.h",
+          "Size": 104,
+          "Sha256": "6bb7bd0d0e4f650c9c489a815956569758f7604b19d58ce74a599eddc786acc7"
+        },
+        {
+          "Path": "gcn-recomp/runtime/hw/di.cpp",
+          "Size": 6812,
+          "Sha256": "91ab57ad8ac67bdead206eb8eeb3724d7dac15622b7bc8e844c6e668523d90e8"
+        },
+        {
+          "Path": "gcn-recomp/runtime/hw/dsp.cpp",
+          "Size": 13647,
+          "Sha256": "cfda989635cd5e693a38cd32391c7c0c102857f259376128bdb075dfd999d517"
+        },
+        {
+          "Path": "gcn-recomp/runtime/hw/dsp_hle.cpp",
+          "Size": 5350,
+          "Sha256": "a4eeedf7b61a59bf3e19abf79c5ad151ea0c1fded3681552521c0fb1d8c0a68b"
+        },
+        {
+          "Path": "gcn-recomp/runtime/hw/dsp_hle.h",
+          "Size": 223,
+          "Sha256": "c581f7c32126fd382d6a1aea0137ef0c13e87e889f2cd12f0a981914686f6e65"
+        },
+        {
+          "Path": "gcn-recomp/runtime/hw/dtk.h",
+          "Size": 411,
+          "Sha256": "4f8bb45a065b00e392a7beea0a7432e0ff1252a55346ee0a715a4c8c36df45d8"
+        },
+        {
+          "Path": "gcn-recomp/runtime/hw/exi.cpp",
+          "Size": 7154,
+          "Sha256": "bd8b69b21158d00c1aa8cf7613174c1494bf709f8759afae06f74bcb171a1c25"
+        },
+        {
+          "Path": "gcn-recomp/runtime/hw/jaudio.cpp",
+          "Size": 33066,
+          "Sha256": "ce111e733976ff57074646b2fa30b34f7579f9083226a495f3b79f7f0dc90cf1"
+        },
+        {
+          "Path": "gcn-recomp/runtime/hw/jaudio.h",
+          "Size": 479,
+          "Sha256": "2c39dcfb1e4b5a1bb69d0ebf9a8bbc0665b46b96e8306df4367c73e39096c4da"
+        },
+        {
+          "Path": "gcn-recomp/runtime/hw/memcard.cpp",
+          "Size": 8548,
+          "Sha256": "42be5d7a52ee30f93c06162ef2c02b28e94ab06377dac87226d9757e85c1aa25"
+        },
+        {
+          "Path": "gcn-recomp/runtime/hw/memcard.h",
+          "Size": 672,
+          "Sha256": "791d48f5f71a139fb3f63ccfb70f792ee5c3e538c066b2dd3eaf3e55778f4bbf"
+        },
+        {
+          "Path": "gcn-recomp/runtime/hw/mmio.cpp",
+          "Size": 8379,
+          "Sha256": "73f0ba4a381a54a6de20938a40fb639cc28bba1040d0dc3855479f77def1d745"
+        },
+        {
+          "Path": "gcn-recomp/runtime/hw/pad.h",
+          "Size": 754,
+          "Sha256": "0cf0a48d49c658c6dddfa1ba834201e397936b0e630ad1f449d1148dc094d577"
+        },
+        {
+          "Path": "gcn-recomp/runtime/hw/si.cpp",
+          "Size": 6412,
+          "Sha256": "62c7c948a82187a8984de70eb517e91795d7f2179a26596a37d2cfbf08a73fe1"
+        },
+        {
+          "Path": "gcn-recomp/runtime/hw/vi.cpp",
+          "Size": 3228,
+          "Sha256": "fa31b1f680a756b12043abc0f115731f56c5b1d79b6d6a3b02dce70bba084893"
+        },
+        {
+          "Path": "gcn-recomp/runtime/input_defaults.cpp",
+          "Size": 510,
+          "Sha256": "749e845b6c1dafc9fd3f22af40a87012e8d91d03be4b81bdfcfbcf1c1acbe713"
+        },
+        {
+          "Path": "gcn-recomp/runtime/input_defaults.h",
+          "Size": 481,
+          "Sha256": "f922b1a057ea88bde6b5d428a5956c9e99d286e6ad67fbedebd1bc2606836de8"
+        },
+        {
+          "Path": "gcn-recomp/runtime/input_log.cpp",
+          "Size": 14715,
+          "Sha256": "5502a9a51285cfea018ac83b334ba9bda0dcfa4ceeddea027fa08319367100ae"
+        },
+        {
+          "Path": "gcn-recomp/runtime/input_log.h",
+          "Size": 4250,
+          "Sha256": "77517841230afe9642baf61288c0780e1d18c13bee23a8526cef2f0492b9c9f6"
+        },
+        {
+          "Path": "gcn-recomp/runtime/input_map.cpp",
+          "Size": 25882,
+          "Sha256": "5a2d1bdf163ce4946039441304fc83a9b2397e1e7b0bb88d4dcf5490723f2e3b"
+        },
+        {
+          "Path": "gcn-recomp/runtime/input_map.h",
+          "Size": 4212,
+          "Sha256": "86e5879affcfb28951c3baef7a2e6ae7b1c59413c6a6300b7efe1c42690c7fd7"
+        },
+        {
+          "Path": "gcn-recomp/runtime/input_script.cpp",
+          "Size": 3040,
+          "Sha256": "f887aeaf4f947dbd054cecb633f8682caf82d74b53a000c6b733de8534be4e7f"
+        },
+        {
+          "Path": "gcn-recomp/runtime/input_script.h",
+          "Size": 926,
+          "Sha256": "38e9baf2d68d52c144084b3d6deedbb584963e3c7d8f062408dc558d18ed2fc9"
+        },
+        {
+          "Path": "gcn-recomp/runtime/main.cpp",
+          "Size": 24225,
+          "Sha256": "bf217eaae3365234300cdfd44502a75d396832f0598da2566cd8027529c6a121"
+        },
+        {
+          "Path": "gcn-recomp/runtime/mmu.cpp",
+          "Size": 12888,
+          "Sha256": "be7a00e5633be0249625508bab12e192cc69201048ab34da5cc983959c2eaab8"
+        },
+        {
+          "Path": "gcn-recomp/runtime/mmu.h",
+          "Size": 673,
+          "Sha256": "10f3154979c70a07fe13c604117bccf34ea27e5842127cf298c861ca0335d237"
+        },
+        {
+          "Path": "gcn-recomp/runtime/modules.cpp",
+          "Size": 5646,
+          "Sha256": "94ebcff95dca4447dd8d9d8882ab446dcdd5a7fff9269c1761064da3254b36b3"
+        },
+        {
+          "Path": "gcn-recomp/runtime/modules.h",
+          "Size": 304,
+          "Sha256": "242736d453d3c8147f43e76d7e44380e8b4150143e98575fb6c164257f161297"
+        },
+        {
+          "Path": "gcn-recomp/runtime/platform.cpp",
+          "Size": 16663,
+          "Sha256": "a99d1fc3e580301ca36a08c583194b80d88be7191de598b93b3aec4869d08b0a"
+        },
+        {
+          "Path": "gcn-recomp/runtime/platform.h",
+          "Size": 3779,
+          "Sha256": "bb1f3ff62c65e171c940e3bc4588261d6b40adf8d2128c3304b21e78c9becdf0"
+        },
+        {
+          "Path": "gcn-recomp/runtime/png.cpp",
+          "Size": 2533,
+          "Sha256": "e66ab03ddc84ccdbf16ebeb9300781d361f45ee95724f5a19b95d250582954b3"
+        },
+        {
+          "Path": "gcn-recomp/runtime/recomp.h",
+          "Size": 17929,
+          "Sha256": "52d7293a10f2246b488d9e6e9faf9f02d1d5129c60772d0746c2698170ceb90c"
+        },
+        {
+          "Path": "gcn-recomp/runtime/record.cpp",
+          "Size": 13959,
+          "Sha256": "66df3fa51a96d569d412d32f47cf2c2af60632c27ca7c8683e606df948defd7e"
+        },
+        {
+          "Path": "gcn-recomp/runtime/record.h",
+          "Size": 1258,
+          "Sha256": "e421446b4827c25f94d5b2a4e1bbf28a5d0b887146b5db667860a1ffc7497706"
+        },
+        {
+          "Path": "gcn-recomp/runtime/rels.cpp",
+          "Size": 7834,
+          "Sha256": "08b6017cd29fa625851be6a21a5011dad69e7760eca0b59776089e81b6d373df"
+        },
+        {
+          "Path": "gcn-recomp/runtime/runtime.h",
+          "Size": 10145,
+          "Sha256": "526a9ddf8f7f10b9ab3a38064e585486b9f5f292a9670a8c4302252bf198b15d"
+        },
+        {
+          "Path": "gcn-recomp/runtime/step.cpp",
+          "Size": 6439,
+          "Sha256": "22cebd80582d17c35ea6936f430e77e43752f73fa78ac49b9ac8ccb2942310b1"
+        },
+        {
+          "Path": "gcn-recomp/runtime/telemetry.cpp",
+          "Size": 16668,
+          "Sha256": "5598335da28218199a278a3dd3618309b9110e2bb1b302c8f8e96f2aac9b3a75"
+        },
+        {
+          "Path": "gcn-recomp/runtime/telemetry.h",
+          "Size": 4113,
+          "Sha256": "1a4d0bb36d8ff0e6c9b0ad6def6d51245cf22d6a035d45ea74e9f5bb906a8434"
+        },
+        {
+          "Path": "gcn-recomp/runtime/threads.cpp",
+          "Size": 29376,
+          "Sha256": "899550feb23f93132868821d8cf3770d770d259b636c68a2b24a15a3b7166c44"
+        },
+        {
+          "Path": "gcn-recomp/runtime/vr_config.cpp",
+          "Size": 9086,
+          "Sha256": "61ce1e4c92c5129ff0391067d2288dfecdfe8b7567986b592595331478c16bce"
+        },
+        {
+          "Path": "gcn-recomp/runtime/vr_config.h",
+          "Size": 9369,
+          "Sha256": "fa89eb791b3a57dc9f4e3ae6d98addbecf3264da36b89f86d6459cbfecdb851f"
+        },
+        {
+          "Path": "gcn-recomp/runtime/vr_game.h",
+          "Size": 7219,
+          "Sha256": "744e2a1bce364f5d987f28b91c43295dfdc9c7b7cf9cb71d3351f4d80a0ab2c1"
+        },
+        {
+          "Path": "gcn-recomp/tools/build-angle-visionos.sh",
+          "Size": 2885,
+          "Sha256": "69751a63332f8febee16cdeaca76d7d6a1c7bfe31b944425d5add12392ff4259"
+        },
+        {
+          "Path": "gcn-recomp/tools/check_generic.py",
+          "Size": 3670,
+          "Sha256": "52a3c308c842a9ac425b478257909b48fa7eb1722e5826e653a45bf160b5ba9f"
+        },
+        {
+          "Path": "gcn-recomp/tools/contact.py",
+          "Size": 2355,
+          "Sha256": "8989cd1dcb601322ba31b61b8d502dfa5bf917ff966b53b56fb3e780f71c65cf"
+        },
+        {
+          "Path": "gcn-recomp/tools/embed_shader_keys.cmake",
+          "Size": 726,
+          "Sha256": "d012c241cc61c8888286c53bebbff57fb41a62fc53a00cde67711884c26cef70"
+        },
+        {
+          "Path": "gcn-recomp/tools/fetch_dtk.sh",
+          "Size": 578,
+          "Sha256": "af5bdf894c6ccf1c4f680b3f06b6657a6b9936b3eb2622c0e71e6f2eb73053e4"
+        },
+        {
+          "Path": "gcn-recomp/tools/game_terms.txt",
+          "Size": 1199,
+          "Sha256": "680280c5642e4dc48f464311d6e85f23e16b36c030b8f54b2ed2ec24a0f9cae1"
+        },
+        {
+          "Path": "gcn-recomp/tools/glprobe.c",
+          "Size": 3151,
+          "Sha256": "af7b69408a1bc411b5332a6b5f9194d3789db91f5826b551e8030f8b0d16b439"
+        },
+        {
+          "Path": "gcn-recomp/tools/package-apk.ps1",
+          "Size": 6158,
+          "Sha256": "5bea21fefee730e60c19ea591db23185b763b814ebaf77c24cfdceeabedc0c36"
+        },
+        {
+          "Path": "gcn-recomp/tools/profile_report.py",
+          "Size": 3511,
+          "Sha256": "e47ec7b90cda743eeaa55899fc89d807882cef09348b2d900c0e3889523a7e8a"
+        },
+        {
+          "Path": "gcn-recomp/tools/shader_keys.cpp",
+          "Size": 3645,
+          "Sha256": "5c2f3ee6c3098d2d936e9937b4a62ba2020ffcc5689365aabdb344ce8b5cca19"
+        },
+        {
+          "Path": "gcn-recomp/visionos/App.swift",
+          "Size": 7184,
+          "Sha256": "a2a31e31b522a5d0f393a860b354530a62799fa5d5d56d8cc0cd10e38a4fc761"
+        },
+        {
+          "Path": "gcn-recomp/visionos/Info.plist.in",
+          "Size": 2091,
+          "Sha256": "c26e7e3ccef6b4c3ebcf9a1f15464a5c9b31b22c3eb037187e9f6fe52f2ef960"
+        },
+        {
+          "Path": "gcn-recomp/visionos/angle.h",
+          "Size": 1432,
+          "Sha256": "1790b922155eedde92ba521b619edc86be9f73d99be5ee4e2bb625980f58c46f"
+        },
+        {
+          "Path": "gcn-recomp/visionos/angle.mm",
+          "Size": 4502,
+          "Sha256": "4c4de8be11eda26c6a8637395cd1bb07a96d2681b41bddf6e659bca0d6c3ff7e"
+        },
+        {
+          "Path": "gcn-recomp/visionos/app.entitlements",
+          "Size": 616,
+          "Sha256": "072a696a1bdaeec02f060bab98ade0e0698e87237f0878b626b7bca97f551dfd"
+        },
+        {
+          "Path": "gcn-recomp/visionos/audio_coreaudio.mm",
+          "Size": 4747,
+          "Sha256": "6a3fa9ff413feaa98f229b406b52263f69443a77ad4aebb197be712214de6782"
+        },
+        {
+          "Path": "gcn-recomp/visionos/bridge.h",
+          "Size": 771,
+          "Sha256": "94f53743c17927245d3bc4086848d42bab7c868889994041a09ca5cefaf61875"
+        },
+        {
+          "Path": "gcn-recomp/visionos/visionos_main.mm",
+          "Size": 9830,
+          "Sha256": "bd45b1e9a192850884d583d72a04a067fc0d5b8518a56d2c3d3e8d491131a6e2"
+        },
+        {
+          "Path": "gcn-recomp/visionos/vos_runtime.h",
+          "Size": 1684,
+          "Sha256": "c85d7f59e98d630837f17eaeb30ed73e2e54b39d74f34b698cd27edb3f902096"
+        },
+        {
+          "Path": "gcn-recomp/visionos/xr_runtime.mm",
+          "Size": 64503,
+          "Sha256": "ecaf4efd77a1e38757be1cd2b2df2cd602eecd61dca23b8ac0f6dce7f5eedad3"
+        }
+      ],
+      "count": 165,
+      "bytes": 3846384,
+      "sha256": "4831bf87b1efdc468091a1b615f7fa4483ee11d5bad396c8a58b7a9e522b1392"
+    },
+    "compiler_archive": {
+      "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-23.1.3/clang+llvm-23.1.3-x86_64-pc-windows-msvc.tar.xz",
+      "bytes": 901331280,
+      "sha256": "9ee6a2192fbb30c776415af529927f76ca6b5d1d55699bb1315f9878e610b5b8",
+      "source": "Existing verified cache; extracted privately, no installer executed.",
+      "extracted_subset_files": 372,
+      "extracted_subset_bytes": 761043275,
+      "member_manifest_sha256": "d075b81cdd58354144842884b9d1f6922eac4a4768028790bd3e6cd6c7d12aea"
+    },
+    "toolchain_policy": "The shared Desktop helper discovers a compatible official MSVC/Clang installation. Missing Microsoft tools require explicit license consent. The local proof reused official LLVM 23.1.3 from cache; Clang 18 fails STL1000 with MSVC 14.44 and was not patched or bypassed.",
+    "python_archive": {
+      "url": "https://www.python.org/ftp/python/3.12.10/python-3.12.10-embed-amd64.zip",
+      "bytes": 11133606,
+      "sha256": "4acbed6dd1c744b0376e3b1cf57ce906f9dc9e95e68824584c8099a63025a3c3",
+      "configuration": "Only python312._pth sets the upstream sibling import directories. Game sources remain unchanged."
+    },
+    "logs": [
+      {
+        "path": "evidence-r18\\official-scope-20261127\\mkdd-official\\build-official.log",
+        "bytes": 279234,
+        "sha256": "c5144fa4c154b6d6285412d7a6c995c4a9b525dca1cbb3d6cfee5892892fc3db"
+      },
+      {
+        "path": "evidence-r18\\official-scope-20261127\\mkdd-official\\build-official-clang18.log",
+        "bytes": 237239,
+        "sha256": "c9f1fdb3ec8effce7494bbf4279457dd805aa0f91d5ab8f2bf88ef89805fe05f"
+      },
+      {
+        "path": "evidence-r18\\official-scope-20261127\\mkdd-official\\negative-extraction.log",
+        "bytes": 143,
+        "sha256": "9db855f86f82ba7ce06ba1a334e4ff770e7996589fb7bddd6d407f9960b0c053"
+      }
+    ],
+    "reproduction_script": {
+      "path": "evidence-r18\\official-scope-20261127\\build-mkdd-official-runtime.py",
+      "sha256": "81988bad6332d20dbda879f86ea06c19bf59e6c9a3f210d333c8475f9a354ee9"
+    }
+  },
+  "gt5_official_library_and_launcher": {
+    "checked_at_utc": "2026-11-28T03:11:49.859321+00:00",
+    "repository": "https://github.com/MormonFTP-hub/gt5-recomp",
+    "commit": "64ca1697c5f9bb513bfe0414d9a36c10dafd0a37",
+    "archive_sha256": "d771f73525b70e5e2e4c306bc43e54dc768f319faaeb08a9d6f61ef21e82ca78",
+    "source_path": "{workspace}\\evidence-r18\\official-scope-20261127\\root-review\\GT5 espaço oficial\\gt5-recomp-64ca1697c5f9bb513bfe0414d9a36c10dafd0a37",
+    "original_source_files": 254,
+    "changed_original_sources": [],
+    "lib_probe_exit_code": 0,
+    "lib_probe": {
+      "role": "lib",
+      "functions": [
+        "Invoke-Engine",
+        "Invoke-Install",
+        "Get-LicenceParts",
+        "Find-VsClang",
+        "Test-WinSdk",
+        "Test-RtxCard"
+      ],
+      "destination_with_spaces_and_unicode": {
+        "HasFw": false,
+        "Resume": false,
+        "Ok": true,
+        "HasGame": false,
+        "Full": "{workspace}\\evidence-r18\\official-scope-20261127\\root-review\\GT5 espaço oficial\\gt5-recomp-64ca1697c5f9bb513bfe0414d9a36c10dafd0a37",
+        "Text": "Already installed here: it will be updated and rebuilt. 116 GB free.",
+        "Free": 116,
+        "Existing": true
+      },
+      "licence_parts_tools_present_no_rtx": [],
+      "licence_parts_tools_absent": [
+        "msvc"
+      ],
+      "licence_parts_tools_absent_rtx": [
+        "dlss",
+        "msvc"
+      ],
+      "msvc_clang_detected": false,
+      "windows_sdk_detected": true,
+      "engine_invoked": false,
+      "installation_invoked": false
+    },
+    "launcher_build_exit_code": 0,
+    "launcher_build_arguments": [
+      "-File",
+      "{workspace}\\evidence-r18\\official-scope-20261127\\root-review\\GT5 espaço oficial\\gt5-recomp-64ca1697c5f9bb513bfe0414d9a36c10dafd0a37\\launcher\\build-launcher.ps1"
+    ],
+    "launcher": {
+      "bytes": 211968,
+      "sha256": "bae26361849e56338a5fdcf06bddc8f0fb3258342830dcb2509db4590d656b36",
+      "signature": "50450000",
+      "machine": "0x14c",
+      "subsystem": 2
+    },
+    "limits": "Only unchanged official library-mode functions and unchanged launcher build ran. No installer engine, toolchain install, media, runtime launch, boot or gameplay.",
+    "logs": [
+      "{workspace}\\evidence-r18\\official-scope-20261127\\root-review\\gt5-library-probe.log",
+      "{workspace}\\evidence-r18\\official-scope-20261127\\root-review\\gt5-launcher-build.log"
+    ]
+  },
+  "mario_official_tools": {
+    "scope": "Official all target; earlier all-except-recomp probe was inapplicable outside SM64Plus",
+    "projects": [
+      {
+        "project": "sm64ex",
+        "command": "make -C tools -j2 all",
+        "exit_code": 0,
+        "seconds": 13.16,
+        "log": "sm64ex-official-tools-all.log",
+        "log_sha256": "8d78d7ffe6d2d643d08dfb901c7751a8c284d574f8500b884d972100b9b14263",
+        "tracked_sources_unchanged": true
+      },
+      {
+        "project": "render96ex",
+        "command": "make -C tools -j2 all",
+        "exit_code": 0,
+        "seconds": 13.22,
+        "log": "render96ex-official-tools-all.log",
+        "log_sha256": "1b1037d22883bf310c1fd15cfbc488e3447f04367077edbacdd6ea1a5795a8f2",
+        "tracked_sources_unchanged": true
+      },
+      {
+        "project": "sm64rt",
+        "command": "make -C tools -j2 all",
+        "exit_code": 0,
+        "seconds": 13.3,
+        "log": "sm64rt-official-tools-all.log",
+        "log_sha256": "7f83a3302e9ab5475a9ad1714d3f27219fcfa890e125a6f645f8880d9d7d241c",
+        "tracked_sources_unchanged": true
+      }
+    ]
+  },
+  "sm64plus_official_script": {
+    "scope": "official clone and missing-media negative preflight; no original ROM, game build, boot or gameplay",
+    "commit": "44fccee2fc4bd4768ae4eff1e5c47b21abe5d85d",
+    "steps": [
+      {
+        "name": "clone",
+        "arguments": [
+          "-lc",
+          "git clone --depth 1 --branch master https://github.com/MorsGames/sm64plus.git sm64plus"
+        ],
+        "exit_code": 0,
+        "seconds": 4.89,
+        "log": "sm64plus-official-clone.log",
+        "log_sha256": "2c3a7a0dacbb9f92b4d20b9d6eedb5a2f0f8231e9d36d0686754146d4451f1a1"
+      },
+      {
+        "name": "head",
+        "arguments": [
+          "-lc",
+          "git -C sm64plus rev-parse HEAD"
+        ],
+        "exit_code": 0,
+        "seconds": 0.09,
+        "log": "sm64plus-official-head.log",
+        "log_sha256": "4b0eeb2c8218eea2f48022cf13562c464350c9ce6cb4cb21c2b5d4ae44c56855"
+      },
+      {
+        "name": "syntax-crlf",
+        "arguments": [
+          "-lc",
+          "bash -n build.sh"
+        ],
+        "exit_code": 0,
+        "seconds": 0.09,
+        "log": "sm64plus-official-syntax-crlf.log",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "name": "syntax-igncr",
+        "arguments": [
+          "-lc",
+          "bash -o igncr -n build.sh"
+        ],
+        "exit_code": 0,
+        "seconds": 0.09,
+        "log": "sm64plus-official-syntax-igncr.log",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "name": "missing-rom",
+        "arguments": [
+          "-lc",
+          "exec bash -o igncr build.sh 1"
+        ],
+        "exit_code": 1,
+        "seconds": 0.75,
+        "log": "sm64plus-official-missing-rom.log",
+        "log_sha256": "03e438214419c7cd01abb72a6af49dd28dc085a69aa769e93aa63b2b6a17d241"
+      },
+      {
+        "name": "source-integrity",
+        "arguments": [
+          "-lc",
+          "git -C sm64plus diff --exit-code; git -C sm64plus status --porcelain --untracked-files=no"
+        ],
+        "exit_code": 0,
+        "seconds": 0.81,
+        "log": "sm64plus-official-source-integrity.log",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "missing_rom_rejected": true,
+    "script_sha256_after": "46683247c8d1d4bebcaa69d88924214959f9175ec93d8405dca3cd0ce76d5cd4",
+    "tracked_sources_unchanged": true,
+    "produced_game": false
+  },
+  "remaining_official_blockers": {
+    "reviewed_at": "2026-11-28",
+    "scope": "Official-procedure gaps, never a determination of illegality or lack of upstream gameplay",
+    "projects": [
+      {
+        "project_id": "strikersrecomp",
+        "decision": "blocked",
+        "source_commit": "cd88f71f5a836c103484c038454b4143000d883c",
+        "reason": "O bootstrap oficial fixa GXRuntime v0.1.0, mas essa versão exporta DolRuntime enquanto o Strikers exige GXRuntime. A embalagem RecompCore oficial não contempla .dll no Windows e o GXRuntime lista suporte Windows no roadmap. A integração anterior recorria a alterações próprias; não há contrato Windows íntegro validado nesta revisão.",
+        "official_alternative": "Procedimento upstream: bootstrap.sh, tools/generate.py com ISO própria; módulo RecompCore ou build standalone nos hosts oficialmente documentados. Não foi afirmado que o projeto seja impossível de compilar no Windows.",
+        "restore_when": "Validar uma combinação oficial compatível de dependências e embalagem Windows, ou integrar um ambiente oficialmente suportado sem modificar código/runtime do jogo.",
+        "receipts": [
+          "strikers-official-procedure-review.json",
+          "strikers-gxruntime-v0.1.0-sources.json"
+        ],
+        "receipt_hashes": {
+          "strikers-official-procedure-review.json": "df5fb4e41fb76eda058cf86f2b13cff0b2825c94d20cc85c1e7d8c7bc26f7d99",
+          "strikers-gxruntime-v0.1.0-sources.json": "e284a519891213ae939c31416932a37aeb036fa648da5e9c33bec24cb7aec50d"
+        }
+      },
+      {
+        "project_id": "vandalhearts-pcport",
+        "decision": "blocked",
+        "source_commit": "14552fffa0e0b47e02b57592e274fc6e7a649923",
+        "release_tag_commit": "7450a2462c0d437740da2ec438a7d8d55c27fadf",
+        "reason": "O NOTICE declara dados do jogo/BIOS incorporados nos binários. A alternativa fonte foi verificada e usa executável PS-X e BIOS próprios; o teste nativo CMake intacto falhou na criação obrigatória de symlinks por falta de privilégio. O procedimento Windows documentado usa cross-compilação Linux/macOS e dependências próprias, ainda sem integração validada no Desktop.",
+        "official_alternative": "CMake VH_PSX_EXE + VH_KROM_SOURCE, mantendo VH_WEBP/VH_HDVIDEO ligados. A fonte atual pode ler diretamente PS-X EXE sem ELF/PsyQ; o gerador aceita BIOS próprio e valida o hash da região de fonte. A embalagem unificada oficial compila os dois cores regionais US/JP e usa libav estático.",
+        "restore_when": "Integrar e verificar ambiente oficial de compilação que suporte o staging de symlinks, gerando todos os dados necessários exclusivamente das mídias/BIOS fornecidos pelo usuário. Não substituir por binário que já incorpora esses dados.",
+        "native_configuration_exit": 1,
+        "source_files_checked": 505,
+        "source_files_unchanged": true,
+        "receipts": [
+          "payload-provenance-review.json",
+          "vandal-official-source-review.json",
+          "vandal-native-configure-result.json",
+          "vandal-native-configure.log"
+        ],
+        "receipt_hashes": {
+          "payload-provenance-review.json": "71d289b0aac8b57d8f3d1c5e87489bf6221bc2e803a3e73655613fcb2933cfcf",
+          "vandal-official-source-review.json": "25d34652874ed8fa69d323ca6a0cf272bcae6fcbe66c34976285ed30b7cb41d9",
+          "vandal-native-configure-result.json": "5d10e19348dcc548e70abb7a80ecbb6e6ff6222b9c32770180a71ab75f34d3bc",
+          "vandal-native-configure.log": "29f1449594748d357b95ed08370376d631f3821a637cb994263a8977620545da"
+        }
+      },
+      {
+        "project_id": "redriver2",
+        "decision": "blocked",
+        "source_commit": "acca6b139302dd72c1fbff52556f3493aafda2dd",
+        "reason": "A compilação oficial copia os mesmos 76 arquivos rastreados data/DRIVER2 ao pacote. Os conversores oficiais geram apenas vídeo e áudio da mídia própria; não fornecem reconstrução dos extras LANG/GFX/GAL/REPLAYS questionados na issue234. Compilar somente o executável não resolve a lacuna de procedência desses dados.",
+        "official_alternative": "Método Windows oficial com ambos CDs próprios, launcher Java ou _convert_cd_fmv_xa.bat. A via de fonte VS2019/premake permanece documentada, porém sua embalagem usa o mesmo diretório de dados; não foi verificada uma rota que derive todos os extras dos discos.",
+        "restore_when": "Documentar a procedência dos extras ou validar uma reconstrução oficial desses dados a partir das mídias próprias, preservando as funcionalidades do upstream.",
+        "receipts": [
+          "payload-provenance-review.json",
+          "redriver2-official-data-tree-review.json",
+          "redriver2-packaging-conversion-sources.json",
+          "redriver2-wiki-procedure-sources.json"
+        ],
+        "receipt_hashes": {
+          "payload-provenance-review.json": "71d289b0aac8b57d8f3d1c5e87489bf6221bc2e803a3e73655613fcb2933cfcf",
+          "redriver2-official-data-tree-review.json": "270cc642457eb7f38488008a2fc4e080deb6dda16f93de7293a3711d623f18e5",
+          "redriver2-packaging-conversion-sources.json": "3561fd80decdcb030616bac11d8406110165a9b4e764660bb0825a42d71f61bb",
+          "redriver2-wiki-procedure-sources.json": "f00e009b49eb6be240421143eefaf6d849ef76fffced2a35542d0101cdca4b01"
+        }
+      }
+    ]
   }
 }

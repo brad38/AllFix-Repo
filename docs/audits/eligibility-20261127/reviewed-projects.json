@@ -189,11 +189,11 @@
     "game_id": "super-mario-64",
     "game_title": "Super Mario 64",
     "project_name": "SM64Plus",
-    "classification": "functional_manual_install",
+    "classification": "functional_with_limitations",
     "eligible": true,
     "official_repository": "https://github.com/MorsGames/sm64plus",
     "previous_catalog_repository": "https://github.com/MorsGames/sm64plus",
-    "official_install_method": "Preferir o instalador oficial no MFGG ou o launcher oficial sm64plus-launcher. LauncherMirror é uma distribuição legítima do launcher sem instalador; a própria ferramenta solicita a ROM e compila. Para alternativa manual seguir Manual-Building-Guide sem patches GetAll.",
+    "official_install_method": "Usar o launcher oficial LauncherMirror ou seu build.sh intacto com MSYS2 MINGW64 e fonte oficial fixada. A integração fornece o ambiente privado oficial, recebe a ROM própria e executa o script do autor; as ferramentas foram compiladas e a ausência de ROM foi rejeitada. Não há boot local homologado.",
     "official_install_sources": [
       "https://www.mfgg.net/?act=resdb&param=02&c=2&id=38190",
       "https://github.com/MorsGames/sm64plus-launcher",
@@ -216,7 +216,7 @@
     "limitations": [
       "Compilação do launcher pode falhar por ambiente/dependências; câmera e tearing têm relatos. A distribuição do launcher não equivale a jogo pronto sem mídia."
     ],
-    "reason": "Port jogável confirmado; manter no catálogo. Instalação automatizada que depende de patches locais deve ficar suspensa até usar procedimento oficial.",
+    "reason": "Port jogável confirmado por relatos primários. A nova automação utiliza o procedimento oficial sem alterar fontes; os testes de ferramenta e mídia ausente não homologam gameplay pelo GetAll.",
     "reinclusion_conditions": [],
     "last_verified_local": "2026-11-27",
     "review_depth": "README/procedimento oficial, metadados de distribuição, issues com ações de jogo ou demonstrações identificadas por repositório; leitura contextual e pesquisa adicional quando a evidência inicial não bastava.",
@@ -263,7 +263,12 @@
     "initial_research_classification": "functional_manual_install",
     "provenance_review": "official_source_and_distribution",
     "requires_allfix_game_changes": false,
-    "reviewed_by": "Documentary audit of primary sources; original-media tests not performed in this review."
+    "reviewed_by": "Documentary audit of primary sources; original-media tests not performed in this review.",
+    "automation_continuation": {
+      "reviewed_at": "2026-11-28",
+      "assessment": "Official installation route restored under a new reviewed contract; original-media installation, boot and gameplay remain unproven locally.",
+      "record": "docs/audits/eligibility-20261127/official-installation-procedures-20261128.json"
+    }
   },
   {
     "project_id": "render96ex",
@@ -271,7 +276,7 @@
     "game_id": "super-mario-64",
     "game_title": "Super Mario 64",
     "project_name": "Render96ex",
-    "classification": "functional_manual_install",
+    "classification": "functional_with_limitations",
     "eligible": true,
     "official_repository": "https://github.com/Render96/Render96ex",
     "previous_catalog_repository": "https://github.com/Render96/Render96ex",
@@ -330,7 +335,12 @@
     "initial_research_classification": "functional_manual_install",
     "provenance_review": "official_source",
     "requires_allfix_game_changes": false,
-    "reviewed_by": "Documentary audit of primary sources; original-media tests not performed in this review."
+    "reviewed_by": "Documentary audit of primary sources; original-media tests not performed in this review.",
+    "automation_continuation": {
+      "reviewed_at": "2026-11-28",
+      "assessment": "Official installation route restored under a new reviewed contract; original-media installation, boot and gameplay remain unproven locally.",
+      "record": "docs/audits/eligibility-20261127/official-installation-procedures-20261128.json"
+    }
   },
   {
     "project_id": "sm64ex",
@@ -338,7 +348,7 @@
     "game_id": "super-mario-64",
     "game_title": "Super Mario 64",
     "project_name": "sm64ex",
-    "classification": "functional_manual_install",
+    "classification": "functional_with_limitations",
     "eligible": true,
     "official_repository": "https://github.com/sm64pc/sm64ex",
     "previous_catalog_repository": "https://github.com/sm64pc/sm64ex",
@@ -396,7 +406,12 @@
     "initial_research_classification": "functional_manual_install",
     "provenance_review": "official_source",
     "requires_allfix_game_changes": false,
-    "reviewed_by": "Documentary audit of primary sources; original-media tests not performed in this review."
+    "reviewed_by": "Documentary audit of primary sources; original-media tests not performed in this review.",
+    "automation_continuation": {
+      "reviewed_at": "2026-11-28",
+      "assessment": "Official installation route restored under a new reviewed contract; original-media installation, boot and gameplay remain unproven locally.",
+      "record": "docs/audits/eligibility-20261127/official-installation-procedures-20261128.json"
+    }
   },
   {
     "project_id": "sm64rt",
@@ -404,7 +419,7 @@
     "game_id": "super-mario-64",
     "game_title": "Super Mario 64",
     "project_name": "sm64rt",
-    "classification": "functional_manual_install",
+    "classification": "functional_with_limitations",
     "eligible": true,
     "official_repository": "https://github.com/DarioSamo/sm64rt",
     "previous_catalog_repository": "https://github.com/DarioSamo/sm64rt",
@@ -463,7 +478,12 @@
     "initial_research_classification": "functional_manual_install",
     "provenance_review": "official_source",
     "requires_allfix_game_changes": false,
-    "reviewed_by": "Documentary audit of primary sources; original-media tests not performed in this review."
+    "reviewed_by": "Documentary audit of primary sources; original-media tests not performed in this review.",
+    "automation_continuation": {
+      "reviewed_at": "2026-11-28",
+      "assessment": "Official installation route restored under a new reviewed contract; original-media installation, boot and gameplay remain unproven locally.",
+      "record": "docs/audits/eligibility-20261127/official-installation-procedures-20261128.json"
+    }
   },
   {
     "project_id": "ship-of-harkinian-soh",
@@ -1640,6 +1660,11 @@
         "kind": "documentacao_oficial_de_limites",
         "observed": "Autor descreve teste tecnológico, muito pouco testado, um controle, problemas de aspecto e segfault ao fechar; não pretende fornecer releases nem aceitar pedidos de funcionalidades. Isso não demonstra por si só uma partida jogável.",
         "ref_id_if_web": "turn105409507search0"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=1em2OY-i4JY",
+        "kind": "different_fork_cross_reference",
+        "observed": "O vídeo do Video Game Esoterica já foi inspecionado e a descrição vincula theboy181/drmario64_recomp_plus, ID drmario64-recomp-plus mantido. Os quadros de partidas pertencem ao fork Plus; não comprovam execução do repositório base AngheloAlf/drmario64_recomp."
       }
     ],
     "limitations": [
@@ -4961,10 +4986,10 @@
   {
     "project_id": "mariokartdd-recomp",
     "row": 63,
-    "classification": "functional_manual_install",
+    "classification": "functional_with_limitations",
     "eligible": true,
     "official_repository": "https://github.com/ethannicholas/mariokartdd-recomp",
-    "official_install_method": "Gerar/buildar pelo procedimento oficial ethannicholas/mariokartdd-recomp com ISO própria e dependências CMake/LLVM/SDL; Windows possui build.ps1, cuja execução não foi confirmada pelo autor.",
+    "official_install_method": "Executar build.ps1 oficial de ethannicholas/mariokartdd-recomp com ISO própria GM4E01, submódulo gcn-recomp fixado e Clang compatível com os cabeçalhos MSVC/SDK. Preservar OpenXR e opções padrão. O alvo runtime_check compilou intacto em Windows; o build final com disco não foi testado.",
     "gameplay_evidence": [
       {
         "url": "https://github.com/ethannicholas/mariokartdd-recomp/blob/bd36eb982ea58c6651584cc48264876d1aba9546/docs/dev/status.md",
@@ -4975,9 +5000,10 @@
       }
     ],
     "limitations": [
-      "Windows build.ps1 explicitamente ainda não executado no ambiente do autor.",
-      "Cobertura documentada concentra primeira corrida/Quest; áudio não comparado de ouvido e cup inteiro pendente.",
-      "Instalação automática deve aguardar caminho oficial validado, sem patch de compilador/render do AllFix."
+      "O autor registra Windows build.ps1 como não testado no seu ambiente. Na continuação AllFix, runtime_check passou com LLVM 23.1.3/MSVC 14.44, mas sem ISO nem link final do jogo.",
+      "Cobertura upstream concentra primeira corrida/Quest; áudio não comparado de ouvido e cup inteiro pendente.",
+      "Clang 18 é incompatível com os cabeçalhos MSVC 14.44 observados. A integração exige ferramenta oficial compatível e consentimento antes de provisionar componentes Microsoft ausentes.",
+      "OpenXR ficou habilitado no CMake; o alvo sem mídia não compila o frontend OpenXR. Nenhuma mídia original, boot ou gameplay foi homologado."
     ],
     "reason": "Há evidência específica de execução interativa/partida em fonte upstream e procedimento oficial. Bugs e ausência de boot GetAll não justificam excluir o projeto funcional.",
     "reinclusion_conditions": [],
@@ -5004,7 +5030,12 @@
     "initial_research_classification": "functional_manual_install",
     "provenance_review": "official_source",
     "requires_allfix_game_changes": false,
-    "reviewed_by": "Documentary audit of primary sources; original-media tests not performed in this review."
+    "reviewed_by": "Documentary audit of primary sources; original-media tests not performed in this review.",
+    "automation_continuation": {
+      "reviewed_at": "2026-11-28",
+      "assessment": "Official installation route restored under a new reviewed contract; original-media installation, boot and gameplay remain unproven locally.",
+      "record": "docs/audits/eligibility-20261127/official-installation-procedures-20261128.json"
+    }
   },
   {
     "project_id": "mkdd-recomp",
@@ -5259,7 +5290,7 @@
     "classification": "functional_with_limitations",
     "eligible": true,
     "official_repository": "https://github.com/snesrev/sm",
-    "official_install_method": "Build oficial snesrev/sm e geração de dados da ROM compatível do usuário; conservar verificações/mismatch do projeto.",
+    "official_install_method": "Compilar a solução oficial sm.sln em Release/x64 com MSBuild /restore /p:RestorePackagesConfig=true, conservar sm.ini e fornecer a ROM própria USA sm.smc ao runtime. 124 fontes permaneceram intactas na prova; não desativar verificadores.",
     "gameplay_evidence": [
       {
         "url": "https://github.com/snesrev/sm/issues/44",
@@ -5313,7 +5344,7 @@
     "classification": "functional_with_limitations",
     "eligible": true,
     "official_repository": "https://github.com/testyourmine/sm_rewrite",
-    "official_install_method": "Seguir BUILDING/README oficiais do fork sm_rewrite e mídia própria; só aceitar funcionalidades/patches presentes no commit upstream escolhido.",
+    "official_install_method": "Compilar o preset oficial windows-relwithdebinfo com Visual Studio 2022/CMake/Ninja/vcpkg; o baseline 7f9f0e44db287e8e67c0e888141bfa200ab45121 é fixado pelo autor. Preservar sm.ini e fornecer ROM própria USA sm.smc; 193 fontes permaneceram intactas.",
     "gameplay_evidence": [
       {
         "url": "https://github.com/testyourmine/sm_rewrite/issues/6",
@@ -5835,10 +5866,10 @@
   {
     "project_id": "god-of-war-recomp",
     "row": 80,
-    "classification": "functional_manual_install",
+    "classification": "functional_with_limitations",
     "eligible": true,
     "official_repository": "https://github.com/KIexster/god-of-war-recomp",
-    "official_install_method": "Build oficial KIexster/god-of-war-recomp com mídiaSCUS973.99, MSVC/clang e scripts do autor; aplicar somente patchset versionado pelo próprio upstream.",
+    "official_install_method": "Extrair a ISO própria com tools/iso_extract.py oficial e compilar pelo scripts/compilar.ps1 fixado em d1d11ec, com MSVC/CMake/Ninja e PS2Recomp c5a9d02 definidos pelo autor. Executar scripts/ejecutar.ps1, preservando opções e dados originais; ferramentas Microsoft ausentes requerem aceite antes de provisão.",
     "gameplay_evidence": [
       {
         "url": "https://github.com/KIexster/god-of-war-recomp/blob/d1d11ec545c3baf2f3fc17e2df4247ac4b732d5c/docs/ESTADO.md",
@@ -5878,7 +5909,12 @@
     "initial_research_classification": "functional_manual_install",
     "provenance_review": "official_source",
     "requires_allfix_game_changes": false,
-    "reviewed_by": "Documentary audit of primary sources; original-media tests not performed in this review."
+    "reviewed_by": "Documentary audit of primary sources; original-media tests not performed in this review.",
+    "automation_continuation": {
+      "reviewed_at": "2026-11-28",
+      "assessment": "Official installation route restored under a new reviewed contract; original-media installation, boot and gameplay remain unproven locally.",
+      "record": "docs/audits/eligibility-20261127/official-installation-procedures-20261128.json"
+    }
   },
   {
     "project_id": "shadow-of-rome-recompiled",

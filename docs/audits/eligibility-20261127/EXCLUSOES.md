@@ -23,3 +23,7 @@ A exclusão por falta de comprovação não afirma que o projeto nunca funcionou
 ## Inspeção adicional do Project 2099
 
 O índice Beta5 contém 21 registros com tamanhos de origem e destino diferentes. Um patch de 16.333 bytes foi lido com hash verificado: utiliza modo 1 e dois blocos cobrindo todo o recurso de destino, de 80.488 bytes. O parser oficial cria um destino vazio nesse modo. Isso confirma que a questão sobre recursos completos de substituição também se aplica ao pacote atual; a autoria e as condições de distribuição ainda não estão demonstradas. Nenhum asset foi descompactado ou preservado e nenhum runtime foi executado. Consulte `project2099-eotp-records.json`.
+
+## Distinção entre os projetos de Dr. Mario 64
+
+O [vídeo de Video Game Esoterica](https://www.youtube.com/watch?v=1em2OY-i4JY) já foi inspecionado: sua descrição vincula [theboy181/drmario64_recomp_plus](https://github.com/theboy181/drmario64_recomp_plus), ID mantido drmario64-recomp-plus. Os quadros de partida e progressão pertencem a esse fork. Eles não alteram a decisão sobre a base AngheloAlf/drmario64_recomp, cujo registro agora contém a referência cruzada explícita.

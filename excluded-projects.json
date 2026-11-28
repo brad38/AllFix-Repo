@@ -53,6 +53,11 @@
             "kind": "documentacao_oficial_de_limites",
             "observed": "Autor descreve teste tecnológico, muito pouco testado, um controle, problemas de aspecto e segfault ao fechar; não pretende fornecer releases nem aceitar pedidos de funcionalidades. Isso não demonstra por si só uma partida jogável.",
             "ref_id_if_web": "turn105409507search0"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=1em2OY-i4JY",
+            "kind": "different_fork_cross_reference",
+            "observed": "O vídeo do Video Game Esoterica já foi inspecionado e a descrição vincula theboy181/drmario64_recomp_plus, ID drmario64-recomp-plus mantido. Os quadros de partidas pertencem ao fork Plus; não comprovam execução do repositório base AngheloAlf/drmario64_recomp."
           }
         ],
         "limitations": [

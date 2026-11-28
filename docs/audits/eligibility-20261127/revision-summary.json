@@ -27,8 +27,8 @@
     "metroid-prime"
   ],
   "classification_counts": {
-    "functional_with_limitations": 121,
-    "functional_manual_install": 12,
+    "functional_with_limitations": 130,
+    "functional_manual_install": 3,
     "functional_eligible": 4
   },
   "retained_ids_dates_and_metadata_preserved": true,
@@ -50,6 +50,6 @@
       "reason": "Use the canonical maintainer distribution; mirror executable digests differed."
     }
   ],
-  "getall_index_sha256": "97b19eb79682ebde0bd50c3e5d34d1ad73394d5263ccd5a4a9d9c535b06a41a9",
+  "getall_index_sha256": "deb759f53fbbbdbc40f712542d28de4990756bf752048dde1284ae0611f132dd",
   "note": "available_contract does not mean original-media validation, boot or gameplay by GetAll."
 }

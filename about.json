@@ -886,8 +886,8 @@
       "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados.",
       "scope_review": {
         "reviewed_at": "2026-11-27",
-        "classification": "functional_manual_install",
-        "official_installation_pt": "Preferir o instalador oficial no MFGG ou o launcher oficial sm64plus-launcher. LauncherMirror é uma distribuição legítima do launcher sem instalador; a própria ferramenta solicita a ROM e compila. Para alternativa manual seguir Manual-Building-Guide sem patches GetAll.",
+        "classification": "functional_with_limitations",
+        "official_installation_pt": "Usar o launcher oficial LauncherMirror ou seu build.sh intacto com MSYS2 MINGW64 e fonte oficial fixada. A integração fornece o ambiente privado oficial, recebe a ROM própria e executa o script do autor; as ferramentas foram compiladas e a ausência de ROM foi rejeitada. Não há boot local homologado.",
         "limitations_pt": [
           "Compilação do launcher pode falhar por ambiente/dependências; câmera e tearing têm relatos. A distribuição do launcher não equivale a jogo pronto sem mídia."
         ],
@@ -939,7 +939,7 @@
       "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados.",
       "scope_review": {
         "reviewed_at": "2026-11-27",
-        "classification": "functional_manual_install",
+        "classification": "functional_with_limitations",
         "official_installation_pt": "Compilar Render96ex com ROM própria segundo a wiki oficial; obter ModelPack e texturas opcionais dos repositórios indicados pelo autor. Ausência de executável oficial pronto não impede elegibilidade.",
         "limitations_pt": [
           "Build no MSYS2 atual tem relatos de dependências quebradas; manter toolchain compatível ou método oficial alternativo. Ray tracing tem incompatibilidade com alguns drivers AMD."
@@ -958,7 +958,7 @@
             "source_evidence_kind": "relato_primario_de_execucao_em_issue"
           }
         ],
-        "notice_pt": "Projeto oficial funcional. A instalação automática está temporariamente indisponível; siga o procedimento do autor.",
+        "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente.",
         "official_repository": "https://github.com/Render96/Render96ex"
       }
     },
@@ -992,7 +992,7 @@
       "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados.",
       "scope_review": {
         "reviewed_at": "2026-11-27",
-        "classification": "functional_manual_install",
+        "classification": "functional_with_limitations",
         "official_installation_pt": "Build oficial do branch/commit verificável sm64ex com ROM própria e dependências da wiki Windows/MXE/WSL. O argumento oficial --savepath deve ser preferido a modificar o caminho de saves no código.",
         "limitations_pt": [
           "Builds com GCC/SDL novos podem exigir ambiente compatível; não transferir correções de forks distintos para este projeto sem procedência oficial."
@@ -1011,7 +1011,7 @@
             "source_evidence_kind": "relato_primario_de_execucao_em_issue"
           }
         ],
-        "notice_pt": "Projeto oficial funcional. A instalação automática está temporariamente indisponível; siga o procedimento do autor.",
+        "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente.",
         "official_repository": "https://github.com/sm64pc/sm64ex"
       }
     },
@@ -1045,7 +1045,7 @@
       "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados.",
       "scope_review": {
         "reviewed_at": "2026-11-27",
-        "classification": "functional_manual_install",
+        "classification": "functional_with_limitations",
         "official_installation_pt": "Compilar a versão oficial sm64rt seguindo os requisitos sm64ex com RENDER_API=RT64 e a versão de RT64 indicada pelo autor. Requer Windows 10 v2004+, GPU DXR e runtime VC++ correspondente; ROM própria.",
         "limitations_pt": [
           "Projeto alpha e dependente de GPU/drivers DXR. Wine/Linux não é substituto automaticamente homologado. Não desativar renderizador para obter build."
@@ -1064,7 +1064,7 @@
             "source_evidence_kind": "relato_primario_de_execucao_em_issue"
           }
         ],
-        "notice_pt": "Projeto oficial funcional. A instalação automática está temporariamente indisponível; siga o procedimento do autor.",
+        "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente.",
         "official_repository": "https://github.com/DarioSamo/sm64rt"
       }
     },
@@ -3601,12 +3601,13 @@
       "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados.",
       "scope_review": {
         "reviewed_at": "2026-11-27",
-        "classification": "functional_manual_install",
-        "official_installation_pt": "Gerar/buildar pelo procedimento oficial ethannicholas/mariokartdd-recomp com ISO própria e dependências CMake/LLVM/SDL; Windows possui build.ps1, cuja execução não foi confirmada pelo autor.",
+        "classification": "functional_with_limitations",
+        "official_installation_pt": "Executar build.ps1 oficial de ethannicholas/mariokartdd-recomp com ISO própria GM4E01, submódulo gcn-recomp fixado e Clang compatível com os cabeçalhos MSVC/SDK. Preservar OpenXR e opções padrão. O alvo runtime_check compilou intacto em Windows; o build final com disco não foi testado.",
         "limitations_pt": [
-          "Windows build.ps1 explicitamente ainda não executado no ambiente do autor.",
-          "Cobertura documentada concentra primeira corrida/Quest; áudio não comparado de ouvido e cup inteiro pendente.",
-          "Instalação automática deve aguardar caminho oficial validado, sem patch de compilador/render do AllFix."
+          "O autor registra Windows build.ps1 como não testado no seu ambiente. Na continuação AllFix, runtime_check passou com LLVM 23.1.3/MSVC 14.44, mas sem ISO nem link final do jogo.",
+          "Cobertura upstream concentra primeira corrida/Quest; áudio não comparado de ouvido e cup inteiro pendente.",
+          "Clang 18 é incompatível com os cabeçalhos MSVC 14.44 observados. A integração exige ferramenta oficial compatível e consentimento antes de provisionar componentes Microsoft ausentes.",
+          "OpenXR ficou habilitado no CMake; o alvo sem mídia não compila o frontend OpenXR. Nenhuma mídia original, boot ou gameplay foi homologado."
         ],
         "evidence": [
           {
@@ -3617,7 +3618,7 @@
             "source_evidence_kind": "upstream_validation_document"
           }
         ],
-        "notice_pt": "Projeto oficial funcional. A instalação automática está temporariamente indisponível; siga o procedimento do autor.",
+        "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente.",
         "official_repository": "https://github.com/ethannicholas/mariokartdd-recomp"
       }
     },
@@ -3860,8 +3861,8 @@
       "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados.",
       "scope_review": {
         "reviewed_at": "2026-11-27",
-        "classification": "functional_manual_install",
-        "official_installation_pt": "Build oficial snesrev/sm e geração de dados da ROM compatível do usuário; conservar verificações/mismatch do projeto.",
+        "classification": "functional_with_limitations",
+        "official_installation_pt": "Compilar a solução oficial sm.sln em Release/x64 com MSBuild /restore /p:RestorePackagesConfig=true, conservar sm.ini e fornecer a ROM própria USA sm.smc ao runtime. 124 fontes permaneceram intactas na prova; não desativar verificadores.",
         "limitations_pt": [
           "Projeto inicial com divergências e softlocks; evidencia navegação real, não campanha completável.",
           "Não desativar verificador para vender o port como resolvido."
@@ -3882,7 +3883,7 @@
             "source_evidence_kind": "upstream_issue_execution_report"
           }
         ],
-        "notice_pt": "Projeto oficial funcional. A instalação automática está temporariamente indisponível; siga o procedimento do autor.",
+        "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente.",
         "official_repository": "https://github.com/snesrev/sm"
       }
     },
@@ -3916,8 +3917,8 @@
       "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados.",
       "scope_review": {
         "reviewed_at": "2026-11-27",
-        "classification": "functional_manual_install",
-        "official_installation_pt": "Seguir BUILDING/README oficiais do fork sm_rewrite e mídia própria; só aceitar funcionalidades/patches presentes no commit upstream escolhido.",
+        "classification": "functional_with_limitations",
+        "official_installation_pt": "Compilar o preset oficial windows-relwithdebinfo com Visual Studio 2022/CMake/Ninja/vcpkg; o baseline 7f9f0e44db287e8e67c0e888141bfa200ab45121 é fixado pelo autor. Preservar sm.ini e fornecer ROM própria USA sm.smc; 193 fontes permaneceram intactas.",
         "limitations_pt": [
           "Bugs de fim de campanha podem impedir término; existência de gameplay não prova conclusão.",
           "Não adicionar mecanismos próprios de contorno de mismatch/runtime."
@@ -3938,7 +3939,7 @@
             "source_evidence_kind": "upstream_issue_execution_report"
           }
         ],
-        "notice_pt": "Projeto oficial funcional. A instalação automática está temporariamente indisponível; siga o procedimento do autor.",
+        "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente.",
         "official_repository": "https://github.com/testyourmine/sm_rewrite"
       }
     },
@@ -6810,7 +6811,7 @@
       },
       "scope_review": {
         "reviewed_at": "2026-11-27",
-        "classification": "functional_manual_install",
+        "classification": "functional_with_limitations",
         "official_installation_pt": "GT5-Installer.bat oficial provisiona o ambiente e compila a partir do próprio disco Blu-ray/executável base01.00 suportado. Usar GT5Launcher/play.bat e os fluxos de atualização do upstream; mods/updates adicionais têm compatibilidade separada.",
         "limitations_pt": [
           "Issues 51/52 usam Master Mod e não homologam a configuração base. O STATUS oficial documenta separadamente corrida com disco europeu 01.00 e configurações padrão; nenhum desses testes foi reproduzido localmente pelo GetAll.",
@@ -6840,7 +6841,7 @@
             "source_bytes": 27379
           }
         ],
-        "notice_pt": "Projeto oficial funcional. A instalação automática está temporariamente indisponível; siga o procedimento do autor.",
+        "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente.",
         "official_repository": "https://github.com/MormonFTP-hub/gt5-recomp"
       }
     },
@@ -6929,8 +6930,8 @@
       },
       "scope_review": {
         "reviewed_at": "2026-11-27",
-        "classification": "functional_manual_install",
-        "official_installation_pt": "Build oficial KIexster/god-of-war-recomp com mídiaSCUS973.99, MSVC/clang e scripts do autor; aplicar somente patchset versionado pelo próprio upstream.",
+        "classification": "functional_with_limitations",
+        "official_installation_pt": "Extrair a ISO própria com tools/iso_extract.py oficial e compilar pelo scripts/compilar.ps1 fixado em d1d11ec, com MSVC/CMake/Ninja e PS2Recomp c5a9d02 definidos pelo autor. Executar scripts/ejecutar.ps1, preservando opções e dados originais; ferramentas Microsoft ausentes requerem aceite antes de provisão.",
         "limitations_pt": [
           "Campanha inteira pendente; alguns testes usam warp/savespreexistentes, não equivalem a progressão natural completa.",
           "MinGW/patches adicionais AllFix não são caminho oficial.",
@@ -6945,7 +6946,7 @@
             "source_evidence_kind": "upstream_validation_document"
           }
         ],
-        "notice_pt": "Projeto oficial funcional. A instalação automática está temporariamente indisponível; siga o procedimento do autor.",
+        "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente.",
         "official_repository": "https://github.com/KIexster/god-of-war-recomp"
       }
     },
