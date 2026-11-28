@@ -37,3 +37,9 @@ A reconferência adicional está em `source-followup-20261127.json`, com URLs fi
 A revisão mantém 108 jogos e 137 projetos ativos; os 11 excluídos continuam registrados para reavaliação. Os validadores também verificam que exclusões anteriores não desapareçam e que a reinclusão não altere artificialmente as datas de entrada.
 
 O estado `available_contract` pode representar uma etapa parcial. Por exemplo, o encaminhamento ao launcher oficial do SM64 Plus não é instalação integral comprovada; por isso a classificação manual pode coexistir com um contrato de preparação. Consulte a matriz GetAll para a cobertura de cada etapa.
+
+## Procedimentos oficiais conferidos na continua??o
+
+[PROCEDIMENTOS-OFICIAIS.md](PROCEDIMENTOS-OFICIAIS.md) detalha os dez procedimentos investigados, com comandos, sa?das e limites por projeto. Os JSON associados preservam commits, hashes e testes. O extrator SoH alternativo e a solu??o MSVC oficial de SM compilaram sem mudan?as nas fontes; isso n?o comprova m?dia original, boot ou gameplay.
+
+O snapshot de integra??o de 28/11/2026 tem 121 projetos funcionais com limita??es, 12 com instala??o manual e 4 eleg?veis sem ressalva espec?fica. A contagem de 108 jogos/137 projetos e os 11 arquivados n?o mudou. O SHA-256 do ?ndice GetAll usado est? em revision-summary.json; instala??es recuperadas devem atualizar esse snapshot.

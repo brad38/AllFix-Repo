@@ -493,7 +493,7 @@
       "game_id": "the-legend-of-zelda-ocarina-of-time",
       "game_title": "The Legend of Zelda: Ocarina of Time",
       "project_name": "Ship of Harkinian (SoH)",
-      "classification": "functional_manual_install",
+      "classification": "functional_with_limitations",
       "eligible": true,
       "official_repository": "https://github.com/HarbourMasters/Shipwright",
       "previous_catalog_repository": "https://github.com/HarbourMasters/Shipwright",
@@ -566,8 +566,10 @@
       "provenance_review": "official_source_and_distribution",
       "requires_allfix_game_changes": false,
       "reviewed_by": "Documentary audit of primary sources; original-media tests not performed in this review.",
-      "automation_catalog_state": "temporarily_unavailable",
-      "automation_contract_tags": []
+      "automation_catalog_state": "available_contract",
+      "automation_contract_tags": [
+        "9.3.1"
+      ]
     },
     "hookshot-zelda-oot-port": {
       "project_id": "hookshot-zelda-oot-port",
@@ -5661,7 +5663,7 @@
     "god-of-war-native-pc-port-gow-pc-port": {
       "project_id": "god-of-war-native-pc-port-gow-pc-port",
       "row": 79,
-      "classification": "functional_manual_install",
+      "classification": "functional_with_limitations",
       "eligible": true,
       "official_repository": "https://github.com/danielalves96/gow-pc-port",
       "official_install_method": "Launcher oficial gow-pc-port, que recebe ISO/arquivos do discoPS2 compatível e gera runtime pelo kit publicado; não incluir patches de issues de terceiros.",
@@ -5718,8 +5720,10 @@
       "provenance_review": "official_source",
       "requires_allfix_game_changes": false,
       "reviewed_by": "Documentary audit of primary sources; original-media tests not performed in this review.",
-      "automation_catalog_state": "temporarily_unavailable",
-      "automation_contract_tags": []
+      "automation_catalog_state": "available_contract",
+      "automation_contract_tags": [
+        "launcher-v0.4.0"
+      ]
     },
     "god-of-war-recomp": {
       "project_id": "god-of-war-recomp",
@@ -7998,7 +8002,7 @@
     },
     "pinyon-shift": {
       "row": 110,
-      "classification": "functional_manual_install",
+      "classification": "functional_with_limitations",
       "eligible": true,
       "official_install_method": "PinyonShift-Launcher.zip: executar PinyonShiftLauncher.exe, escolher ISO próprio USA MS-2505 (ou extração aceita), confirmar posse e Verify and build. O launcher provisiona toolchain e compila; preservar TU4/DLC e opções oficiais.",
       "gameplay_evidence": [
@@ -8472,12 +8476,14 @@
       "provenance_review": "official_source_and_distribution",
       "requires_allfix_game_changes": false,
       "reviewed_by": "Documentary audit of primary sources; original-media tests not performed in this review.",
-      "automation_catalog_state": "temporarily_unavailable",
-      "automation_contract_tags": []
+      "automation_catalog_state": "available_contract",
+      "automation_contract_tags": [
+        "v0.9.5"
+      ]
     },
     "fh1-reimagined": {
       "row": 111,
-      "classification": "functional_manual_install",
+      "classification": "functional_with_limitations",
       "eligible": true,
       "official_install_method": "Usar o launcher/instalador Windows oficial FH1 ReImagined, com disco, GOD ou pasta extraída própria. Ele gera o C++ e compila localmente; manter os renderizadores, TU4, DLC e funções online oficiais.",
       "gameplay_evidence": [
@@ -8668,8 +8674,10 @@
       "provenance_review": "official_source_and_distribution",
       "requires_allfix_game_changes": false,
       "reviewed_by": "Documentary audit of primary sources; original-media tests not performed in this review.",
-      "automation_catalog_state": "temporarily_unavailable",
-      "automation_contract_tags": []
+      "automation_catalog_state": "available_contract",
+      "automation_contract_tags": [
+        "v0.3.9"
+      ]
     },
     "re-blue": {
       "row": 112,

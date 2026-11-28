@@ -1098,7 +1098,7 @@
       "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados.",
       "scope_review": {
         "reviewed_at": "2026-11-27",
-        "classification": "functional_manual_install",
+        "classification": "functional_with_limitations",
         "official_installation_pt": "Usar pacote oficial Ship of Harkinian e extrator oficial com ROM compatível, preservando hashes/versão exigidos. O launcher gera recursos o2r; build de fonte é alternativa documentada.",
         "limitations_pt": [
           "Relatos de crashes/extração em versões específicas; não generalizar problema antigo para todas as releases. O helper de extração GetAll precisa ter procedência verificada separadamente."
@@ -1111,7 +1111,7 @@
             "source_evidence_kind": "relato_primario_de_execucao_em_issue"
           }
         ],
-        "notice_pt": "Projeto oficial funcional. A instalação automática está temporariamente indisponível; siga o procedimento do autor.",
+        "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente.",
         "official_repository": "https://github.com/HarbourMasters/Shipwright"
       }
     },
@@ -4350,7 +4350,7 @@
       "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados.",
       "scope_review": {
         "reviewed_at": "2026-11-27",
-        "classification": "functional_manual_install",
+        "classification": "functional_with_limitations",
         "official_installation_pt": "Launcher oficial gow-pc-port, que recebe ISO/arquivos do discoPS2 compatível e gera runtime pelo kit publicado; não incluir patches de issues de terceiros.",
         "limitations_pt": [
           "Quedas de desempenho e travas deprogressão.",
@@ -4379,7 +4379,7 @@
             "source_evidence_kind": "upstream_issue_execution_report"
           }
         ],
-        "notice_pt": "Projeto oficial funcional. A instalação automática está temporariamente indisponível; siga o procedimento do autor.",
+        "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente.",
         "official_repository": "https://github.com/danielalves96/gow-pc-port"
       }
     },
@@ -5837,7 +5837,7 @@
       "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados.",
       "scope_review": {
         "reviewed_at": "2026-11-27",
-        "classification": "functional_manual_install",
+        "classification": "functional_with_limitations",
         "official_installation_pt": "PinyonShift-Launcher.zip: executar PinyonShiftLauncher.exe, escolher ISO próprio USA MS-2505 (ou extração aceita), confirmar posse e Verify and build. O launcher provisiona toolchain e compila; preservar TU4/DLC e opções oficiais.",
         "limitations_pt": [
           "Crashes de eventos, áudio e conquistas; #1137 usa mods. Evidência upstream não valida builds customizados do AllFix."
@@ -5858,7 +5858,7 @@
             "source_evidence_kind": "player_issue"
           }
         ],
-        "notice_pt": "Projeto oficial funcional. A instalação automática está temporariamente indisponível; siga o procedimento do autor.",
+        "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente.",
         "official_repository": "https://github.com/arcanite24/pinyon-shift"
       }
     },
@@ -6979,7 +6979,7 @@
       },
       "scope_review": {
         "reviewed_at": "2026-11-27",
-        "classification": "functional_manual_install",
+        "classification": "functional_with_limitations",
         "official_installation_pt": "Usar o launcher/instalador Windows oficial FH1 ReImagined, com disco, GOD ou pasta extraída própria. Ele gera o C++ e compila localmente; manter os renderizadores, TU4, DLC e funções online oficiais.",
         "limitations_pt": [
           "Falhas de volante, renderização e cenas dependem da versão. Foto D3D12 em #962 é hipótese não testada no jogo e foi excluída da evidência positiva."
@@ -6999,7 +6999,7 @@
             "ref_id_if_web": null
           }
         ],
-        "notice_pt": "Projeto oficial funcional. A instalação automática está temporariamente indisponível; siga o procedimento do autor.",
+        "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente.",
         "official_repository": "https://github.com/FH1-ReImagined/ForzaHorizon1-ReImagined"
       }
     },

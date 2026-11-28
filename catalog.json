@@ -163,10 +163,10 @@
           },
           "added_at": "2026-11-22",
           "eligibility": {
-            "classification": "functional_manual_install",
+            "classification": "functional_with_limitations",
             "reviewed_at": "2026-11-27",
-            "automation_availability": "temporarily_unavailable",
-            "notice_pt": "Projeto oficial funcional. A instalação automática está temporariamente indisponível; siga o procedimento do autor."
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
           }
         },
         {
@@ -2163,10 +2163,10 @@
           },
           "added_at": "2026-11-22",
           "eligibility": {
-            "classification": "functional_manual_install",
+            "classification": "functional_with_limitations",
             "reviewed_at": "2026-11-27",
-            "automation_availability": "temporarily_unavailable",
-            "notice_pt": "Projeto oficial funcional. A instalação automática está temporariamente indisponível; siga o procedimento do autor."
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
           }
         },
         {
@@ -3051,10 +3051,10 @@
           },
           "added_at": "2026-11-22",
           "eligibility": {
-            "classification": "functional_manual_install",
+            "classification": "functional_with_limitations",
             "reviewed_at": "2026-11-27",
-            "automation_availability": "temporarily_unavailable",
-            "notice_pt": "Projeto oficial funcional. A instalação automática está temporariamente indisponível; siga o procedimento do autor."
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
           }
         },
         {
@@ -3071,10 +3071,10 @@
           },
           "added_at": "2026-11-23",
           "eligibility": {
-            "classification": "functional_manual_install",
+            "classification": "functional_with_limitations",
             "reviewed_at": "2026-11-27",
-            "automation_availability": "temporarily_unavailable",
-            "notice_pt": "Projeto oficial funcional. A instalação automática está temporariamente indisponível; siga o procedimento do autor."
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
           }
         }
       ],

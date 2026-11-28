@@ -1,0 +1,297 @@
+{
+  "checked_at_utc": "2026-11-28T02:54:21.354778+00:00",
+  "scope": "Procedimentos oficiais dos dez projetos antes mantidos como manuais. Separar procedimento documentado, ferramenta compilada, contrato GetAll e execução com mídia original.",
+  "projects": [
+    {
+      "project_id": "sm64ex",
+      "repository": "https://github.com/sm64pc/sm64ex",
+      "status": "official_procedure_requires_own_media_build",
+      "official_procedure": "MSYS2 MINGW64 com pacotes oficiais da wiki; ROM própria baserom.us.z64; make EXTERNAL_DATA=1.",
+      "expected_outputs": "build/us_pc/sm64.us.<microcode>.exe e recursos externos correspondentes.",
+      "verification_limit": "O build depende da ROM para gerar assets. Não foi repetido com mídia original; a receita antiga que alterava fontes não foi reativada. A documentação oficial existe e isto não é uma alegação de impossibilidade de automação.",
+      "source_refs": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/sm64pc/sm64ex/d7ca2c04364a6dd0dac58b47151e04e26887e6f0/README.md",
+          "sha256": "d33cfe3b25fe4fcfe65f95ff59311f8eabbb35e8bc6c17356bea61cbb546a787",
+          "bytes": 2305
+        },
+        {
+          "path": "Makefile",
+          "url": "https://raw.githubusercontent.com/sm64pc/sm64ex/d7ca2c04364a6dd0dac58b47151e04e26887e6f0/Makefile",
+          "sha256": "56b67d1e5b577c6132f69d3e7296ea7311fda5eeaa94fdb882096eb5fe650540",
+          "bytes": 33932
+        }
+      ],
+      "reviewed_commit": "d7ca2c04364a6dd0dac58b47151e04e26887e6f0"
+    },
+    {
+      "project_id": "render96ex",
+      "repository": "https://github.com/Render96/Render96ex",
+      "status": "official_procedure_requires_own_media_build",
+      "official_procedure": "Compilar fonte oficial com a ROM própria e procedimento da wiki Windows; opções EXTERNAL_DATA=1/DynOS previstas no upstream. ModelPack/texture pack somente das fontes indicadas pelo autor.",
+      "expected_outputs": "build/us_pc, pacote oficial Render96_DynOs_v3.0.7z em dynos/packs; texturas opcionais em res/gfx.",
+      "verification_limit": "Não se deve retirar renderers, mudar código de runtime nem substituir packs para contornar erro de compilação. Build intacto com mídia original ainda não testado nesta retomada.",
+      "source_refs": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/Render96/Render96ex/48da5c491c8abfb2f5192b59278c1c269411e533/README.md",
+          "sha256": "4dfc6387ad27fabd542713fc3a7729ab5a2364006f1d6fa626193097b0b9e5a5",
+          "bytes": 1108
+        },
+        {
+          "path": "Makefile",
+          "url": "https://raw.githubusercontent.com/Render96/Render96ex/48da5c491c8abfb2f5192b59278c1c269411e533/Makefile",
+          "sha256": "f2c1d101b384cb11aa46608a7368a480b2c2536ac585776825723608cb9019d7",
+          "bytes": 33480
+        }
+      ],
+      "reviewed_commit": "48da5c491c8abfb2f5192b59278c1c269411e533"
+    },
+    {
+      "project_id": "sm64rt",
+      "repository": "https://github.com/DarioSamo/sm64rt",
+      "status": "official_procedure_requires_own_media_build",
+      "official_procedure": "Procedimento sm64ex/MSYS2, com RENDER_API=RT64 EXTERNAL_DATA=1 e RT64 oficial incluído na versão.",
+      "expected_outputs": "Executável em build/us_pc com dependências RT64 correspondentes; Windows 10 2004+, GPU DXR e runtime VC++ documentados.",
+      "verification_limit": "Desativar RT64 descaracterizaria o projeto. Build oficial dependente de ROM ainda não executado; não há prova de ausência de procedimento oficial.",
+      "source_refs": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/DarioSamo/sm64rt/20e618b75ae4a6810bd92ac6a937cb167517aac5/README.md",
+          "sha256": "84ea18f55a5e417d6c8ac8f8cce0d60d2d48a3fb37cfbf3fb99cb680197d87f8",
+          "bytes": 2603
+        },
+        {
+          "path": "Makefile",
+          "url": "https://raw.githubusercontent.com/DarioSamo/sm64rt/20e618b75ae4a6810bd92ac6a937cb167517aac5/Makefile",
+          "sha256": "26c57df844c1802c6e546a843fc8ff99075a4b415da70b37e7fb9c7b7c5226f6",
+          "bytes": 33087
+        }
+      ],
+      "reviewed_commit": "20e618b75ae4a6810bd92ac6a937cb167517aac5"
+    },
+    {
+      "project_id": "sm",
+      "repository": "https://github.com/snesrev/sm",
+      "status": "official_build_passed_handler_pending",
+      "official_procedure": "MSBuild sm.sln /restore /p:RestorePackagesConfig=true /p:Configuration=Release /p:Platform=x64. Solução upstream v143 e SDL2 NuGet 2.26.3.",
+      "expected_outputs": "build/bin-x64-Release/sm.exe e SDL2.dll; sm.ini oficial e ROM própria sm.smc ao lado da instalação conforme upstream.",
+      "verification_limit": "Build real sem ROM passou em 17 s com 124 fontes intactas. Fonte compilada não é evidência de boot. Novo contrato de instalação está em implementação; não reativar perfil antigo com patches.",
+      "source_refs": [
+        {
+          "path": "BUILDING.md",
+          "url": "https://raw.githubusercontent.com/snesrev/sm/578f90b3cc49557bb70060ad033bb90b8cf8ac50/BUILDING.md",
+          "sha256": "cedb482754718d71ac1e3e6393cf13bd031191c2fa0a24b71682b2588f0ba973",
+          "bytes": 3395
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/snesrev/sm/578f90b3cc49557bb70060ad033bb90b8cf8ac50/README.md",
+          "sha256": "01f1c98c43eacb6c53b2b73a46f4987d24bb0a579304514e0085db3c6297c51b",
+          "bytes": 462
+        },
+        {
+          "path": "src/sm.vcxproj",
+          "url": "https://raw.githubusercontent.com/snesrev/sm/578f90b3cc49557bb70060ad033bb90b8cf8ac50/src/sm.vcxproj",
+          "sha256": "b8e70e9eca017bacea37a9bb880eb852893f1023f041beb44dc296003ebc79fe",
+          "bytes": 14777
+        },
+        {
+          "path": "src/sm.vcxproj.filters",
+          "url": "https://raw.githubusercontent.com/snesrev/sm/578f90b3cc49557bb70060ad033bb90b8cf8ac50/src/sm.vcxproj.filters",
+          "sha256": "6fe688c88d42d9d06d546ce79cf6a2c5cf2d20ac66ab8c064569e6262c66671b",
+          "bytes": 8171
+        }
+      ],
+      "reviewed_commit": "578f90b3cc49557bb70060ad033bb90b8cf8ac50",
+      "build_evidence": "official-build-evidence-20261128.json"
+    },
+    {
+      "project_id": "sm-rewrite",
+      "repository": "https://github.com/testyourmine/sm_rewrite",
+      "status": "official_build_in_verification",
+      "official_procedure": "Visual Studio 2022/CMake/vcpkg: cmake --preset windows-relwithdebinfo; cmake --build build-windows-relwithdebinfo. Preset e CMake são do upstream.",
+      "expected_outputs": "build-windows-relwithdebinfo/sm.exe, SDL2.dll e sm.ini oficial; ROM própria em runtime.",
+      "verification_limit": "A alternativa oficial MSVC evita as adaptações MinGW anteriores. A prova isolada estava em andamento ao registrar este relatório; não equivale a build concluído nem autoriza reativar o perfil histórico.",
+      "source_refs": [
+        {
+          "path": "BUILDING.md",
+          "url": "https://raw.githubusercontent.com/testyourmine/sm_rewrite/523787384a7c912153883b21714f5edabf4e2406/BUILDING.md",
+          "sha256": "35cc71bc674d0679f380c9756537077c69f4d004b97adb7b0232834c907d204f",
+          "bytes": 3743
+        },
+        {
+          "path": "CMakePresets.json",
+          "url": "https://raw.githubusercontent.com/testyourmine/sm_rewrite/523787384a7c912153883b21714f5edabf4e2406/CMakePresets.json",
+          "sha256": "2c50c20e968bff111bfc132ad7a86fcd4fede49f78e3387bdd1a20008c46b06f",
+          "bytes": 1092
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/testyourmine/sm_rewrite/523787384a7c912153883b21714f5edabf4e2406/README.md",
+          "sha256": "b31ff9befb400d3a1ace696e7dbfab6f43f01b195530729ce4f645238ec5bb26",
+          "bytes": 1309
+        }
+      ],
+      "reviewed_commit": "523787384a7c912153883b21714f5edabf4e2406"
+    },
+    {
+      "project_id": "ship-of-harkinian-soh",
+      "repository": "https://github.com/HarbourMasters/Shipwright",
+      "status": "official_helper_build_and_synthetic_probes_passed",
+      "official_procedure": "Torch standalone oficial no submódulo 2ab12fe9660aec04e02ee89fe81baed304a1a1d6, com opções de formato do Shipwright 9.3.1. torch.exe o2r ROM.z64 -s assets -d output -u 9.3.1.",
+      "expected_outputs": "oot.o2r ou oot-mq.o2r conforme config; verificar version e portVersion antes de concluir.",
+      "verification_limit": "Wrapper soh-torch 9.3.1 falha em C2664; alternativa standalone compilou intacta e 7 checks sintéticos passaram. Hash não reconhecido retorna exit0 sem archive: a instalação deve validar saída. Nenhuma ROM original, boot ou gameplay testados.",
+      "source_refs": [
+        {
+          "url": "https://github.com/HarbourMasters/Shipwright/blob/f0599f96f8d442f26d0fa1c5cedafddacd56633f/CMakeLists.txt"
+        },
+        {
+          "url": "https://github.com/HarbourMasters/Torch/blob/2ab12fe9660aec04e02ee89fe81baed304a1a1d6/src/main.cpp"
+        }
+      ],
+      "reviewed_commit": "f0599f96f8d442f26d0fa1c5cedafddacd56633f",
+      "build_evidence": "official-build-evidence-20261128.json",
+      "reproduction_recipe": "AllFix-Desktop/Tools/NativeExtractors/SoH"
+    },
+    {
+      "project_id": "strikersrecomp",
+      "repository": "https://github.com/aharonahdoot/StrikersRecomp",
+      "status": "official_procedure_platform_gap",
+      "official_procedure": "bootstrap.sh; python3 tools/generate.py --iso <ISO G4QE01 própria>; tools/package_module.sh para RecompCore recomendado. Standalone GXRuntime é rota distinta.",
+      "expected_outputs": "Módulo gG4QE01_recomp; RecompCore com CPUCore=6. Fontes geradas da mídia permanecem locais.",
+      "verification_limit": "O README cita DLL por plataforma, mas package_module.sh só distingue Darwin .dylib e demais .so, usando Ninja/ThinLTO e exemplo Metal. macOS é a plataforma testada declarada. Não foi comprovado pacote Windows fiel; não aplicar novos patches de SEH/renderer.",
+      "source_refs": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/aharonahdoot/StrikersRecomp/cd88f71f5a836c103484c038454b4143000d883c/README.md",
+          "sha256": "7febbfaa60dc7eb2ac0a318f083e55a81e36206289b2c4668f874e4932236b0d",
+          "bytes": 3459
+        },
+        {
+          "path": "bootstrap.sh",
+          "url": "https://raw.githubusercontent.com/aharonahdoot/StrikersRecomp/cd88f71f5a836c103484c038454b4143000d883c/bootstrap.sh",
+          "sha256": "84e76025f7d9fef35cd39b574e0cc8b8ef843122ae0d9c7b818b4837fb2e6084",
+          "bytes": 1073
+        },
+        {
+          "path": "patches/README.md",
+          "url": "https://raw.githubusercontent.com/aharonahdoot/StrikersRecomp/cd88f71f5a836c103484c038454b4143000d883c/patches/README.md",
+          "sha256": "aa7f918d501203407bfa83fb2baeb98b5a135d5a4a976d86d0514873f120f914",
+          "bytes": 578
+        },
+        {
+          "path": "tools/generate.py",
+          "url": "https://raw.githubusercontent.com/aharonahdoot/StrikersRecomp/cd88f71f5a836c103484c038454b4143000d883c/tools/generate.py",
+          "sha256": "8e13577594c878f3513ac331284ffc274cd655104550ec6cab2f912626f71b87",
+          "bytes": 4791
+        },
+        {
+          "path": "tools/package_module.sh",
+          "url": "https://raw.githubusercontent.com/aharonahdoot/StrikersRecomp/cd88f71f5a836c103484c038454b4143000d883c/tools/package_module.sh",
+          "sha256": "f2602dfb2503d0bc306345bf4636fd4053213bb019a2ff07cef4cff176d95d5e",
+          "bytes": 1976
+        }
+      ],
+      "reviewed_commit": "cd88f71f5a836c103484c038454b4143000d883c"
+    },
+    {
+      "project_id": "mkdd-recomp",
+      "repository": "https://github.com/LeftInWalmart/MKDD-Recomp",
+      "status": "official_pipeline_requires_own_disc_and_generation",
+      "official_procedure": "ciso_extract.py; Ghidra 12.1.4 + GameCubeLoader 1.3.0 + ghidra-cli 0.2.2; ExportSheets/ExportPcode; build_sheets/import_symbols/build_sheets/gen_rust; play.bat.",
+      "expected_outputs": "Crates Rust gerados localmente, mkdd-bevy e ROM/disco via MKDD_DISC ou rust/disc.txt. Rust 1.98 e Bevy 0.19.1 documentados.",
+      "verification_limit": "Repositório omite código/dados derivados da mídia. Pipeline Ghidra exige projeto/programa/configuração reais. Não foi reproduzido integralmente com disco; inserir IL customizada ou corrigir gerador no AllFix não é alternativa fiel.",
+      "source_refs": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/LeftInWalmart/MKDD-Recomp/e173ce40a70eab4830f98ccd9dfdf1ac0d683657/README.md",
+          "sha256": "0c1de7d49ecfb25d427f1e3d5c55ee5a49c12abe4f8d5943a2f5c61377347ff1",
+          "bytes": 16640
+        },
+        {
+          "path": "play.bat",
+          "url": "https://raw.githubusercontent.com/LeftInWalmart/MKDD-Recomp/e173ce40a70eab4830f98ccd9dfdf1ac0d683657/play.bat",
+          "sha256": "de2a7729e28e835836312e49cbe71f214bbd6ce2df6204af9e3373abcdab24c8",
+          "bytes": 163
+        }
+      ],
+      "reviewed_commit": "e173ce40a70eab4830f98ccd9dfdf1ac0d683657"
+    },
+    {
+      "project_id": "gt5-recomp",
+      "repository": "https://github.com/MormonFTP-hub/gt5-recomp",
+      "status": "official_installer_available_integration_pending",
+      "official_procedure": "GT5-Installer.bat oficial seleciona pasta PS3_GAME ou ISO própria, provisiona ferramentas locais, extrai/desbloqueia EBOOT e chama setup oficial. Preferir a interface oficial de instalação e GT5Launcher.exe.",
+      "expected_outputs": "GT5/input/EBOOT.elf, GT5/vfs, executáveis e launcher construídos pelo upstream; jogo base 01.00 BCES00569/BCUS98114.",
+      "verification_limit": "O instalador tem modos engine/console e variáveis documentadas GT5_INSTALL_GAME/DEST/NOGUI/NOBUILD. As escolhas e aceitação dos componentes são da interface oficial; não impor aceite nem renderers. Não foi executado com disco nesta revisão.",
+      "source_refs": [
+        {
+          "path": "GT5-Installer.bat",
+          "url": "https://raw.githubusercontent.com/MormonFTP-hub/gt5-recomp/950f7ce48006b45e0c1391e80ea0071c04cef2cf/GT5-Installer.bat",
+          "sha256": "8580e90a30ed2849f1f487530455bd0cdb0b83d448a8ef51df53e46e1d04fa67",
+          "bytes": 109773
+        },
+        {
+          "path": "GT5/play.bat",
+          "url": "https://raw.githubusercontent.com/MormonFTP-hub/gt5-recomp/950f7ce48006b45e0c1391e80ea0071c04cef2cf/GT5/play.bat",
+          "sha256": "1eaadd415f5eeaf936d774c32613a7d9048c681105df69898cba359305aaf3dd",
+          "bytes": 6532
+        },
+        {
+          "path": "GT5/scripts/rebuild.ps1",
+          "url": "https://raw.githubusercontent.com/MormonFTP-hub/gt5-recomp/950f7ce48006b45e0c1391e80ea0071c04cef2cf/GT5/scripts/rebuild.ps1",
+          "sha256": "f32b8fdd46dce5a89ff4d0e3a898cc9b308be772565e32da985f54b190a681d1",
+          "bytes": 1278
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/MormonFTP-hub/gt5-recomp/950f7ce48006b45e0c1391e80ea0071c04cef2cf/README.md",
+          "sha256": "2e1b39fd171bbb21d384017f9bd8e0a7f4600d1dd5cd952023f76af7ffbd9e21",
+          "bytes": 87374
+        }
+      ],
+      "reviewed_commit": "950f7ce48006b45e0c1391e80ea0071c04cef2cf"
+    },
+    {
+      "project_id": "god-of-war-recomp",
+      "repository": "https://github.com/KIexster/god-of-war-recomp",
+      "status": "official_scripts_available_integration_pending",
+      "official_procedure": "python tools/iso_extract.py <ISO SCUS-97399 própria> game --layout; scripts/1_instalar_herramientas.cmd; scripts/2_compilar.cmd. GOW_WORK, GOW_ELF e GOW_LLVM são opções oficiais.",
+      "expected_outputs": "GOW_WORK/out/build ou build-clang/ps2EntryRunner.exe, game com SCUS_973.99, IRX, PART1/PART2.PAK e .disc_layout; scripts/3_ejecutar_manual.cmd inicia o runtime.",
+      "verification_limit": "O próprio script fixa PS2Recomp c5a9d02 e aplica patches versionados pelo autor. Isso difere de patches particulares do AllFix. Build completo com mídia ainda não reproduzido; não remover subsistemas/runtime.",
+      "source_refs": [
+        {
+          "path": "README.es.md",
+          "url": "https://raw.githubusercontent.com/KIexster/god-of-war-recomp/d1d11ec545c3baf2f3fc17e2df4247ac4b732d5c/README.es.md",
+          "sha256": "715c7bf9d63a03253085e717c864111a4b2444e9f3f0446ce97420e0343792b1",
+          "bytes": 15476
+        },
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/KIexster/god-of-war-recomp/d1d11ec545c3baf2f3fc17e2df4247ac4b732d5c/README.md",
+          "sha256": "199f2ca1ed89ea1097be9e6c68104abba505a6ea195a6c5aa106c82196aa3820",
+          "bytes": 14669
+        },
+        {
+          "path": "README.pt-BR.md",
+          "url": "https://raw.githubusercontent.com/KIexster/god-of-war-recomp/d1d11ec545c3baf2f3fc17e2df4247ac4b732d5c/README.pt-BR.md",
+          "sha256": "919da600c35bc159d5fd3cc4ad575e5c670a2126cda7d2c4f9a16f655b5a0388",
+          "bytes": 15395
+        },
+        {
+          "path": "game/README.md",
+          "url": "https://raw.githubusercontent.com/KIexster/god-of-war-recomp/d1d11ec545c3baf2f3fc17e2df4247ac4b732d5c/game/README.md",
+          "sha256": "438098c31e2e13ae2b88711b808dd12672d68513f5cff51b2b9da3119bf9c39d",
+          "bytes": 263
+        }
+      ],
+      "reviewed_commit": "d1d11ec545c3baf2f3fc17e2df4247ac4b732d5c"
+    }
+  ],
+  "additional_notes": {
+    "sm64plus": "LauncherMirror permanece preparação parcial oficial; inspeção de 51 arquivos GML/sh/bat não identificou uma CLI de instalação. Receipt no GetAll docs/validations/official-scope/sm64plus-launcher-source-review.json.",
+    "source_preservation": "Fontes capturadas com URL, commit e hash; não confundir ausência de teste local com falha do upstream."
+  }
+}
