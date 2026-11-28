@@ -1405,14 +1405,20 @@
             "url": "https://github.com/GenryTheFox0/Project-2099/releases/download/v2.0.0-beta.5/Project2099-Beta5-Payload.zip",
             "kind": "official_payload_directory_inspected",
             "observed": "Inspeção HTTP206 do diretório ZIPBeta5 encontrou413 entradas,18avisos de licença e patchesEOTP/EOTP2. Aviso interno credita reeot e declara não conter dados do jogo; o documento oficial THIRD_PARTY_LICENSES declara substituições completas em algunsEOTP. Preservados nomes,tamanhos,CRC e hashes dos avisos; nenhum runtime executado. A divergência sobre recursos ainda precisa de reconciliação específica."
+          },
+          {
+            "url": "https://github.com/GenryTheFox0/Project-2099/blob/main/src/EotpPatch.cs",
+            "kind": "distribution_inspection",
+            "observed": "O índice do payload Beta5 contém 21 registros com tamanho de origem diferente do destino. Inspeção de um patch EOTP de 16.333 bytes, com SHA256 verificado, confirmou modo 1 e dois blocos cobrindo integralmente Data/Act01.pkz (80.488 bytes). O parser oficial cria destino vazio nesse modo. Isso confirma recurso completo de substituição na distribuição atual, mas não determina sua autoria ou licença. Não foram descompactados assets nem executado runtime."
           }
         ],
         "limitations": [
           "Código público cobre principalmente instalador; runtime/payload é componente separado.",
           "Relatos consultados não confirmam uma sessão Beta5 Windows limpa do início ao fim; há regressão Steam Deck e histórico de 3D branco.",
-          "O ZIP de1,3GB não foi baixado integralmente: diretório/avisos lidos por faixasHTTP206, sem execução. Isso não certifica todo conteúdo nem prova ilegalidade."
+          "O ZIP de1,3GB não foi baixado integralmente: diretório/avisos lidos por faixasHTTP206, sem execução. Isso não certifica todo conteúdo nem prova ilegalidade.",
+          "A inspeção atual confirmou o formato de substituição completa; não estabelece a origem/licença do recurso. Registro: docs/audits/eligibility-20261127/project2099-eotp-records.json."
         ],
-        "reason": "Distribuição oficial e runtime existem. A pendência é confirmar a procedência dos recursos de substituição no payloadBeta5: o ZIP mantémEOTP/EOTP2 e um aviso de ausência de dados do jogo, enquanto a documentação oficial declara dados completos de substituição. Suspensão reavaliável por comprovação insuficiente de distribuição, sem concluir ilegalidade ou inexistência de port.",
+        "reason": "Distribuição oficial, launcher e runtime existem. A procedência dos recursos completos de substituição no payload Beta5 não está suficientemente documentada. Um patch atual foi inspecionado e cobre integralmente o recurso de destino, conforme o parser oficial; isso confirma a questão de distribuição que os documentos oficiais deixam em aberto. Suspensão reavaliável por comprovação insuficiente, sem concluir ilegalidade ou inexistência de port.",
         "reinclusion_conditions": [
           "Manifesto e documentação reconciliados com o payloadBeta5, identificando origem e condições de distribuição dos recursos de substituição e dos componentes.",
           "Evidência específica de gameplay da distribuição revisada com mídia própria; launcher fechado e falta de receitaGetAll, isoladamente, não impedem reinclusão."

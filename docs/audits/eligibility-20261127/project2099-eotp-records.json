@@ -1,0 +1,79 @@
+{
+  "url": "https://github.com/GenryTheFox0/Project-2099/releases/download/v2.0.0-beta.5/Project2099-Beta5-Payload.zip",
+  "patch": {
+    "set": "English",
+    "Path": "Data/Act01.pkz",
+    "SourceSize": 65536,
+    "SourceSha256": "6674F10AF991AB6B3307B736CA1824FB2B756FFD9097ABEC89D8ECC8FA2D768E",
+    "TargetSize": 80488,
+    "TargetSha256": "1659C0B04E4509583033EC8214F5349266833F7520784714E38538AD0FF60E55",
+    "Delta": "data/df72a4ae287e06ef23c6e662d634867b9e23f6a9c35eb1c80c79bf8671ed60f4.eotp",
+    "DeltaSize": 16333,
+    "DeltaSha256": "DF72A4AE287E06EF23C6E662D634867B9E23F6A9C35EB1C80C79BF8671ED60F4"
+  },
+  "changed_size_records_in_index": 21,
+  "mode": 1,
+  "block_size": 65536,
+  "source_size": 65536,
+  "target_size": 80488,
+  "source_sha256": "6674f10af991ab6b3307b736ca1824fb2b756ffd9097abec89d8ecc8fa2d768e",
+  "target_sha256": "1659c0b04e4509583033ec8214f5349266833f7520784714e38538ad0ff60e55",
+  "records": [
+    {
+      "offset": 0,
+      "raw_length": 65536,
+      "stored_length": 13916,
+      "codec": 1
+    },
+    {
+      "offset": 65536,
+      "raw_length": 14952,
+      "stored_length": 2289,
+      "codec": 1
+    }
+  ],
+  "records_cover_entire_target": true,
+  "official_parser": "https://github.com/GenryTheFox0/Project-2099/blob/main/src/EotpPatch.cs",
+  "official_parser_git_blob": "e7fcafce6487d1926762cba53ee690d566f41116",
+  "interpretation": "Mode 1 creates an empty target and these literal/compressed records cover every target byte. This establishes a full replacement resource, not its provenance or licensing.",
+  "limits": "No original media used; no game asset decompressed or retained; no runtime or launcher executed. No conclusion of illegality.",
+  "transferred_bytes": 67024,
+  "ranges": [
+    {
+      "start": 1361209134,
+      "end": 1361209155,
+      "bytes": 22,
+      "sha256": "b18c57d42cf3fa24ac189d7e4a936b4c12f1c97e46ca1906b29f57425c6152da"
+    },
+    {
+      "start": 1361209114,
+      "end": 1361209133,
+      "bytes": 20,
+      "sha256": "0c3afece144d1aa71c0d7ace5ea296f3b2963d0954db852b09d53a3e02061232"
+    },
+    {
+      "start": 1361158605,
+      "end": 1361209133,
+      "bytes": 50529,
+      "sha256": "b1afa7af696a17d40913020583eca837c4620087a9a663093b7f340355ac32d1"
+    },
+    {
+      "start": 587181176,
+      "end": 587181205,
+      "bytes": 30,
+      "sha256": "a9c7ed8faad6d232d87574cbc056091705e0aa8a0ceb8e0e2f7546ecc407eff4"
+    },
+    {
+      "start": 587181206,
+      "end": 587181295,
+      "bytes": 90,
+      "sha256": "2a04219cbff1d4c55f6ac29f7f9efe973eeebfd9de7e40d1bacf4496ea1e0172"
+    },
+    {
+      "start": 587181296,
+      "end": 587197628,
+      "bytes": 16333,
+      "sha256": "df72a4ae287e06ef23c6e662d634867b9e23f6a9c35eb1c80c79bf8671ed60f4"
+    }
+  ]
+}
