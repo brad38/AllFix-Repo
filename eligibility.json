@@ -6242,10 +6242,10 @@
     "redriver2": {
       "project_id": "redriver2",
       "row": 88,
-      "classification": "functional_manual_install",
+      "classification": "functional_with_limitations",
       "eligible": true,
       "official_repository": "https://github.com/OpenDriver2/REDRIVER2",
-      "official_install_method": "Fonte oficial e instruções da wiki para dois discos próprios e conversão dos filmes. Antes de reativar a receita do pacote completo, verificar a procedência dos dados extras em data/DRIVER2 ou um procedimento oficial que os obtenha da mídia própria; a receita atual não demonstrou isso.",
+      "official_install_method": "Baixar diretamente do upstream o REDRIVER2_Win32_Release.zip 7.4-rc2 fixado por tamanho e SHA-256. O perfil fechado pede dois BIN originais da mesma região/revisão PAL ou NTSC-U, prepara Java 21 privado e usa o jPSXdec oficial incluído para gerar vídeo/áudio localmente. Preserva os 93 arquivos do kit, incluindo os 76 extras e os avisos; mantém os discos no local selecionado para jogar. O addon não espelha nem reempacota esses recursos.",
       "gameplay_evidence": [
         {
           "url": "https://github.com/OpenDriver2/REDRIVER2/issues/192",
@@ -6263,12 +6263,13 @@
         }
       ],
       "limitations": [
-        "Há evidência independente de jogo em andamento, mas a procedência dos arquivos extras em data/DRIVER2 segue sem resposta na issue 234. Não atribuir automaticamente a licença MIT a esses dados.",
-        "A disponibilidade da fonte e a prova de jogabilidade são mantidas separadas da aprovação de redistribuição do pacote; a instalação automatizada precisa resolver a lacuna específica."
+        "A origem dos 76 extras foi documentada por grupo e por commits upstream: galeria de progresso, locales/traduções, replays regravados, legendas de texto/tempo e créditos/avisos. Isso não atribui licença MIT integral aos elementos de terceiros nem autoriza espelhamento/reempacotamento.",
+        "A issue 234 permanece uma pergunta upstream sem resposta; a revisão adicional registra origens mistas, em vez de alegar que os conversores de áudio/vídeo reconstroem todos os extras.",
+        "A instalação experimental conserva o pacote oficial integral e depende dos dois discos originais compatíveis. Nenhuma instalação completa com mídia original, primeiro boot ou gameplay pelo GetAll foi homologado nesta revisão."
       ],
       "reason": "Há evidência específica de execução interativa/partida em fonte upstream e procedimento oficial. Bugs e ausência de boot GetAll não justificam excluir o projeto funcional.",
       "reinclusion_conditions": [],
-      "last_verified_local": "2026-11-27",
+      "last_verified_local": "2026-11-28",
       "review_depth": "README/procedimento oficial + listagem das releases e issues; aprofundamento em relatos de fases/combate, documentos de validação e distribuição quando necessário. URLs, observações e limites preservados neste registro; hashes anteriores mantidos quando existentes.",
       "review_limits": [
         "Pesquisa de fontes públicas; nenhuma mídia original foi obtida e nenhum jogo foi executado localmente nesta auditoria.",
@@ -6285,15 +6286,17 @@
         "gameplay": "unknown"
       },
       "integrity_provenance": {
-        "source": "Official repository/release or documented upstream owner, with canonical URLs recorded.",
-        "claim_limit": "No claim of legal ownership of the original game, independent binary reproducibility, or byte-for-byte identity of all release assets. Original game media remains user supplied."
+        "source": "Direct, unmodified official 7.4-rc2 release fixed by SHA-256 92c20bf6194af715a84c058783fa3095ed09d3aeeb4c41485b11c984d14d276c and upstream commit acca6b139302dd72c1fbff52556f3493aafda2dd. Ancillary-data origins are recorded by group in GetAll-Addon/docs/validations/official-scope/redriver2-provenance-20261128.json.",
+        "claim_limit": "The upstream MIT notice applies within rights the publisher can grant. Gallery screenshots, game/source dialogue, credits and third-party notices are not declared independently relicensed. GetAll neither hosts nor repackages these assets; original discs remain user supplied."
       },
       "initial_research_classification": "functional_with_limitations",
       "provenance_review": "official_source",
       "requires_allfix_game_changes": false,
       "reviewed_by": "Documentary audit of primary sources; original-media tests not performed in this review.",
-      "automation_catalog_state": "temporarily_unavailable",
-      "automation_contract_tags": []
+      "automation_catalog_state": "available_contract",
+      "automation_contract_tags": [
+        "7.4-rc2"
+      ]
     },
     "severed-chains": {
       "project_id": "severed-chains",
@@ -6412,10 +6415,10 @@
     "vandalhearts-pcport": {
       "project_id": "vandalhearts-pcport",
       "row": 91,
-      "classification": "functional_manual_install",
+      "classification": "functional_with_limitations",
       "eligible": true,
       "official_repository": "https://github.com/HalmyLyseas/VandalHearts-PcPort",
-      "official_install_method": "Compilar a fonte oficial com CMake/Makefile e os geradores do projeto, usando executável PS1, imagem BIN e BIOS/kanji próprios conforme a documentação. A receita de download do binário 2.1.0 não implementa essa regeneração e fica suspensa até existir um caminho de instalação com procedência verificada.",
+      "official_install_method": "Build oficial unificado Windows a partir do commit 14552fffa0e0b47e02b57592e274fc6e7a649923, com CMake e geradores upstream intactos em Ubuntu x64 no WSL2. O perfil fechado pede os discos BIN originais US SLUS-00447 e JP SLPM-86007 e BIOS/KROM compatível; prepara dependências privadas de Windows e mantém WebP/HD video ligados. Requer Python 3.12+, glibc 2.38+, CMake, Ninja, Make, GCC, dpkg-deb, Bash e libzstd disponíveis no Ubuntu.",
       "gameplay_evidence": [
         {
           "url": "https://github.com/HalmyLyseas/VandalHearts-PcPort/blob/14552fffa0e0b47e02b57592e274fc6e7a649923/docs/cross-platform.md",
@@ -6442,11 +6445,12 @@
       "limitations": [
         "A evidência de gameplay é documental e externa; nenhum teste com a mídia do usuário foi executado nesta revisão.",
         "A origem dos bytes incorporados é declarada no NOTICE, mas não se deve tratar a licença GPL do código como autorização para redistribuir dados Konami/Sony. Preferir o build oficial que gera esses componentes localmente de arquivos próprios.",
-        "HD pack não é requisito do jogo. Patch Wayland sugerido em uma issue não deve ser adotado sem incorporação oficial pelo upstream."
+        "HD pack não é requisito do jogo. Patch Wayland sugerido em uma issue não deve ser adotado sem incorporação oficial pelo upstream.",
+        "A nova rota é experimental e exige o ambiente Ubuntu/WSL e as três entradas originais. Configuração cruzada, ferramentas e testes negativos não comprovam uma instalação completa nem primeiro boot do jogo pelo GetAll."
       ],
       "reason": "Há evidência específica de execução interativa/partida em fonte upstream e procedimento oficial. Bugs e ausência de boot GetAll não justificam excluir o projeto funcional.",
       "reinclusion_conditions": [],
-      "last_verified_local": "2026-11-27",
+      "last_verified_local": "2026-11-28",
       "review_depth": "README/procedimento oficial + listagem das releases e issues; aprofundamento em relatos de fases/combate, documentos de validação e distribuição quando necessário. URLs, observações e limites preservados neste registro; hashes anteriores mantidos quando existentes.",
       "review_limits": [
         "Pesquisa de fontes públicas; nenhuma mídia original foi obtida e nenhum jogo foi executado localmente nesta auditoria.",
@@ -6463,15 +6467,17 @@
         "gameplay": "unknown"
       },
       "integrity_provenance": {
-        "source": "Official repository/release or documented upstream owner, with canonical URLs recorded.",
+        "source": "Official source archive fixed at commit 14552fffa0e0b47e02b57592e274fc6e7a649923 and SHA-256 e7c50aaddf57c05df97eee50c9355473a1a4ea6d8354fe719c9450f89b14160f. Both original discs and BIOS/KROM are supplied locally by the user; the retired precompiled v2.1.0 payload is not used.",
         "claim_limit": "No claim of legal ownership of the original game, independent binary reproducibility, or byte-for-byte identity of all release assets. Original game media remains user supplied."
       },
       "initial_research_classification": "functional_with_limitations",
       "provenance_review": "official_source",
       "requires_allfix_game_changes": false,
       "reviewed_by": "Documentary audit of primary sources; original-media tests not performed in this review.",
-      "automation_catalog_state": "temporarily_unavailable",
-      "automation_contract_tags": []
+      "automation_catalog_state": "available_contract",
+      "automation_contract_tags": [
+        "build-14552ff"
+      ]
     },
     "bloodyroar2recomp": {
       "project_id": "bloodyroar2recomp",

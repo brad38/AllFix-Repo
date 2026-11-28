@@ -2413,10 +2413,10 @@
           },
           "added_at": "2026-11-22",
           "eligibility": {
-            "classification": "functional_manual_install",
-            "reviewed_at": "2026-11-27",
-            "automation_availability": "temporarily_unavailable",
-            "notice_pt": "Projeto oficial funcional. A instalação automática está temporariamente indisponível; siga o procedimento do autor."
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-28",
+            "automation_availability": "available_contract",
+            "notice_pt": "Instalação experimental pelo pacote oficial 7.4-rc2, baixado diretamente do autor, e pelos dois discos originais da mesma região e revisão. O All-Fix prepara Java 21 privado. Primeiro boot pelo GetAll ainda não homologado."
           }
         }
       ],
@@ -2515,10 +2515,10 @@
           },
           "added_at": "2026-11-22",
           "eligibility": {
-            "classification": "functional_manual_install",
-            "reviewed_at": "2026-11-27",
-            "automation_availability": "temporarily_unavailable",
-            "notice_pt": "Projeto oficial funcional. A instalação automática está temporariamente indisponível; siga o procedimento do autor."
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-28",
+            "automation_availability": "available_contract",
+            "notice_pt": "Instalação experimental pelo build oficial unificado US/JP em Ubuntu no WSL2. Requer os dois discos originais, BIOS/KROM compatível e os pré-requisitos de compilação informados. Primeiro boot pelo GetAll ainda não homologado."
           }
         }
       ],
