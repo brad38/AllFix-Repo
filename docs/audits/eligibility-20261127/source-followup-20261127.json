@@ -1,0 +1,29 @@
+{
+  "reviewed_at_local": "2026-11-27",
+  "scope": "Revisão dos 148 registros existentes, reforço de três fontes e preservação de exclusões; não é instalação ou gameplay local.",
+  "sources": [
+    {
+      "project_id": "gt5-recomp",
+      "url": "https://github.com/MormonFTP-hub/gt5-recomp/blob/950f7ce48006b45e0c1391e80ea0071c04cef2cf/STATUS.md",
+      "sha256": "ee72ca70713351abb9ed2c6003aebe1e8e8c07de26c2ec89a60b02376075c879",
+      "bytes": 27379,
+      "result": "Relato específico de sessão com disco 01.00 e configuração padrão, independente dos relatos Master Mod."
+    },
+    {
+      "project_id": "redriver2",
+      "url": "https://api.github.com/repos/OpenDriver2/REDRIVER2/issues/234",
+      "sha256": "6666efd1890b1ed1618d3a5dbb5372fb2e8b14fbe52c140c63a9cd93ee0e528e",
+      "bytes": 3916,
+      "result": "Questão de procedência dos dados extras, zero comentários; ausência de resposta não permite inferir a licença."
+    },
+    {
+      "project_id": "vandalhearts-pcport",
+      "url": "https://github.com/HalmyLyseas/VandalHearts-PcPort/blob/14552fffa0e0b47e02b57592e274fc6e7a649923/NOTICE",
+      "sha256": "0744b759761907508ce4a24302c0b62b503a2df112cf336d7dd349af3ff5cc60",
+      "bytes": 5299,
+      "result": "NOTICE diferencia código próprio, dados derivados nos binários e reconstrução de arquivos próprios no build."
+    }
+  ],
+  "historical_raw_snapshots": "Hashes anteriores mantidos. As cópias brutas correspondentes não foram localizadas no workspace retomado; não foram fabricadas nem declaradas como presentes.",
+  "gameplay_not_executed": true
+}

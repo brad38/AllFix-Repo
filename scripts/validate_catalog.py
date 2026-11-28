@@ -87,6 +87,47 @@ def validate_addition_history(catalog: dict, base: dict) -> None:
                     f"{game['id']}: preserve a data de lançamento existente")
 
 
+
+def validate_archival_history(catalog: dict, excluded: dict, base: dict,
+                              previous_excluded: dict | None = None) -> None:
+    """Every removal must remain reviewable with its complete earlier metadata."""
+    current = {p["id"]: g["id"] for g in catalog["games"] for p in g["projects"]}
+    current_projects = {p["id"]: p for g in catalog["games"] for p in g["projects"]}
+    current_games = {g["id"]: g for g in catalog["games"]}
+    archived = excluded.get("projects", {})
+    for game in base["games"]:
+        old_game = {key: value for key, value in game.items() if key != "projects"}
+        for project in game["projects"]:
+            pid = project["id"]
+            if pid in current:
+                require(current[pid] == game["id"],
+                        f"{pid}: preserve the existing game/project association")
+                continue
+            require(pid in archived, f"{pid}: removed project missing from exclusion register")
+            record = archived[pid]
+            require(record.get("project") == project,
+                    f"{pid}: preserve the complete excluded project snapshot")
+            require(record.get("game_id") == game["id"] and record.get("game") == old_game,
+                    f"{pid}: preserve the complete excluded game snapshot")
+
+    for pid, previous in (previous_excluded or {}).get("projects", {}).items():
+        if pid in current:
+            require(current[pid] == previous["game_id"],
+                    f"{pid}: reactivation must preserve game identity")
+            require(current_projects[pid].get("added_at") == previous["project"].get("added_at"),
+                    f"{pid}: reactivation must preserve original project inclusion date")
+            current_game = current_games[current[pid]]
+            for key in ("added_at", "release_date"):
+                require(current_game.get(key) == previous["game"].get(key),
+                        f"{pid}: reactivation must preserve original game dates")
+            continue
+        require(pid in archived, f"{pid}: previously excluded project missing from register")
+        for key in ("project", "game", "game_id", "requirements", "about"):
+            require(archived[pid].get(key) == previous.get(key),
+                    f"{pid}: preserve existing archived {key} metadata")
+
+
+
 def validate(require_dates: bool = False, compare_with: str | None = None) -> None:
     catalog = load("catalog.json")
     requirements = load("requirements.json")
@@ -190,6 +231,13 @@ def validate(require_dates: bool = False, compare_with: str | None = None) -> No
         base = json.loads(subprocess.check_output(
             ["git", "show", f"{compare_with}:catalog.json"], cwd=ROOT))
         validate_addition_history(catalog, base)
+        previous_excluded = None
+        exists = subprocess.run(["git", "cat-file", "-e", f"{compare_with}:excluded-projects.json"],
+                                cwd=ROOT, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        if exists.returncode == 0:
+            previous_excluded = json.loads(subprocess.check_output(
+                ["git", "show", f"{compare_with}:excluded-projects.json"], cwd=ROOT))
+        validate_archival_history(catalog, load("excluded-projects.json"), base, previous_excluded)
 
     require(catalog.get("eligibility_file") == "eligibility.json", "eligibility_file inválido")
     validate_registers(catalog, load("eligibility.json"), load("excluded-projects.json"))

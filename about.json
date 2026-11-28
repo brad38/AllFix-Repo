@@ -4249,14 +4249,14 @@
           {
             "url": "https://github.com/Shmargus/GSRecomp/issues/22",
             "kind": "user_gameplay_report",
-            "observed": "v0.8.4Ubuntu chega ao topo deMercuryLighthouse, derrotaSaturos e mede queda de desempenho; capturas/sistema especificados.",
+            "observed": "Em Ubuntu, a v0.8.4 chega ao topo de Mercury Lighthouse, derrota Saturos e apresenta queda de desempenho; o relato inclui capturas e sistema.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_issue_execution_report"
           },
           {
             "url": "https://github.com/Shmargus/GSRecomp/issues/39",
             "kind": "user_gameplay_report",
-            "observed": "Jogador usaEscape, localiza navio e relata impossibilidade de embarcar.",
+            "observed": "Jogador usa Escape, localiza o navio e relata não conseguir embarcar.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_issue_execution_report"
           }
@@ -4305,14 +4305,14 @@
           {
             "url": "https://github.com/open-goal/jak-project/issues/4466",
             "kind": "user_gameplay_report",
-            "observed": "Relato de missão emJakII descreve interação com objetivo e corte de cena faltante; usado somente como relato de jogador, não campanha certificada.",
+            "observed": "Relato de uma missão de Jak II descreve interação com o objetivo e uma cutscene ausente. É evidência de jogo ativo, sem certificar toda a campanha.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_issue_execution_report"
           },
           {
             "url": "https://opengoal.dev/docs/usage/installation/",
             "kind": "official_installation",
-            "observed": "Guia oficial apresenta launcher e fluxoISO→extração→compilação para os três primeirosJak, requisitos e plataformas.",
+            "observed": "Guia oficial apresenta o launcher e o fluxo ISO, extração e compilação para os três primeiros jogos Jak, com requisitos e plataformas.",
             "ref_id_if_web": "turn597242887view2"
           }
         ],
@@ -4360,21 +4360,21 @@
           {
             "url": "https://github.com/danielalves96/gow-pc-port/issues/52",
             "kind": "user_gameplay_report",
-            "observed": "v0.4.0Windows11 jogada atéTempleofOracle apresenta queda60→9fps a4K; hardware e configuração especificados.",
+            "observed": "No Windows 11, a v0.4.0 chega ao Temple of the Oracle e apresenta queda de 60 para 9 FPS em 4K; há hardware e configuração especificados.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_issue_execution_report"
           },
           {
             "url": "https://github.com/danielalves96/gow-pc-port/issues/35",
             "kind": "user_gameplay_report",
-            "observed": "v0.3.3Windows chega ao sextoGorgonEye e trava após coletá-lo.",
+            "observed": "Na v0.3.3 em Windows, o jogador coleta o sexto Gorgon Eye e encontra um travamento.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_issue_execution_report"
           },
           {
             "url": "https://github.com/danielalves96/gow-pc-port/issues/42",
             "kind": "user_gameplay_report",
-            "observed": "Relato de campanha completa usou intervenções/patcheslocais do jogador e IA; explicitamente NÃO usado para certificar campanha completa do upstream.",
+            "observed": "O relato de campanha completa utilizou patches locais do jogador e IA; não foi usado para certificar a campanha completa do upstream.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_issue_execution_report"
           }
@@ -4423,20 +4423,20 @@
           {
             "url": "https://github.com/Korvonordico/shadow-of-rome-recompiled/releases/tag/v2.9.5",
             "kind": "maintainer_gameplay_report",
-            "observed": "Notas registram teste manual nafloresta/riodoCapítulo1 comCLEAN, mudanças de controlesPS4 aplicadasnojogo e mídiaamericana/russa; documentação de release também informa campanhaPALjogada atécréditos.",
+            "observed": "Notas de playtest descrevem teste manual na floresta e no rio do capítulo 1 com dados CLEAN, controles PS4 em jogo e mídia americana/russa; também há declaração do mantenedor de campanha PAL até os créditos.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_release_playtest"
           },
           {
             "url": "https://www.youtube.com/watch?v=2GsRxUH3Ctk",
             "kind": "official_demo_link_unplayed",
-            "observed": "Demonstração ligada pelo próprio autor compara primeira arenaPS2 eportPC;URLidentificada, vídeo não reproduzido pela ferramenta.",
+            "observed": "O próprio autor vincula demonstração comparando a primeira arena no PS2 e no port PC; o vídeo não foi reproduzido pela ferramenta.",
             "ref_id_if_web": null
           },
           {
             "url": "https://github.com/Korvonordico/shadow-of-rome-recompiled/issues/3",
             "kind": "user_gameplay_report",
-            "observed": "Usuário confirma testePALitalianov1.9 e relata deriva de áudio nascinemáticas a60FPS.",
+            "observed": "Usuário confirma teste com PAL italiano na v1.9 e relata deriva de áudio nas cinemáticas a 60 FPS.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_issue_execution_report"
           }
@@ -4484,14 +4484,14 @@
           {
             "url": "https://github.com/BlackLabelHQ/SymphonyRecomp/issues/163",
             "kind": "user_gameplay_report",
-            "observed": "Jogador atravessa sala de espinhos dasCatacumbas e volta; fornece dois vídeos do problema gráfico.",
+            "observed": "Jogador atravessa a sala de espinhos das Catacumbas e volta; dois vídeos acompanham o defeito gráfico.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_issue_execution_report"
           },
           {
             "url": "https://github.com/BlackLabelHQ/SymphonyRecomp/issues/166",
             "kind": "user_gameplay_report",
-            "observed": "Captura mostra defeito na extensãowidescreen das salasCD.",
+            "observed": "Captura mostra um defeito na extensão widescreen das salas CD.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_issue_execution_report"
           }
@@ -4539,14 +4539,14 @@
           {
             "url": "https://github.com/Rinnegatamante/Crash-Team-Racing-High-Octane/issues/42",
             "kind": "user_gameplay_report",
-            "observed": "Usuário tenta repetidamente atalho deHotAirSkyway, testa30FPS e compara física comoriginal.",
+            "observed": "Jogador tenta repetidamente o atalho de Hot Air Skyway, testa a 30 FPS e compara a física com a versão original.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_issue_execution_report"
           },
           {
             "url": "https://github.com/Rinnegatamante/Crash-Team-Racing-High-Octane/issues/30",
             "kind": "user_gameplay_report",
-            "observed": "Família relata partidas frequentes3–4jogadores ecrash reproduzível emMysteryCaves.",
+            "observed": "Família relata partidas frequentes com três ou quatro jogadores e crash reproduzível em Mystery Caves.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_issue_execution_report"
           }
@@ -4595,21 +4595,21 @@
           {
             "url": "https://github.com/CameronRedmore/Crash-Team-Racing-Turbocharged/issues/47",
             "kind": "user_gameplay_report",
-            "observed": "WindowsZIP07d0c49 rodaAdventure/HotAirSkyway; jogador testa30FPS e mede impossibilidade de salto.",
+            "observed": "O ZIP Windows 07d0c49 permite jogar Adventure e Hot Air Skyway; o jogador compara o salto a 30 FPS.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_issue_execution_report"
           },
           {
             "url": "https://github.com/CameronRedmore/Crash-Team-Racing-Turbocharged/issues/46",
             "kind": "user_gameplay_report",
-            "observed": "MesmoWindowsZIP alcança quarto hub e repete desafioCTRToken deOxideStation maisde20vezes.",
+            "observed": "O mesmo ZIP Windows chega ao quarto hub; o jogador repete mais de vinte vezes o desafio CTR Token de Oxide Station.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_issue_execution_report"
           },
           {
             "url": "https://github.com/CameronRedmore/Crash-Team-Racing-Turbocharged/issues/25",
             "kind": "user_gameplay_report",
-            "observed": "Usuário observa páginaReleases vazia; isso não apaga evidência de jogo do artefatoCI.",
+            "observed": "Usuário relata página de releases vazia; isso não elimina a evidência de partidas no artefato oficial de CI.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_issue_execution_report"
           }
@@ -4657,14 +4657,14 @@
           {
             "url": "https://github.com/CTR-tools/ctr-native/issues/58",
             "kind": "user_gameplay_report",
-            "observed": "TestesWindows/Linux3–4jogadores emVsSingle/Cup percorremMysteryCaves; caminhodireito e1–2jogadoresfuncionam,esquerdofalha.",
+            "observed": "Testes Windows e Linux com três ou quatro jogadores em Vs Single/Cup percorrem Mystery Caves: o caminho à direita funciona; à esquerda, falha. Com um ou dois jogadores, funciona.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_issue_execution_report"
           },
           {
             "url": "https://github.com/CTR-tools/ctr-native/issues/52",
             "kind": "user_gameplay_report",
-            "observed": "Relato alcança final doscréditos e identifica tela preta posterior, semprovar como créditosforamacessados.",
+            "observed": "Relato chega ao final dos créditos e identifica uma tela preta posterior, sem esclarecer como os créditos foram acessados.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_issue_execution_report"
           }
@@ -4713,14 +4713,14 @@
           {
             "url": "https://github.com/wipeout-phantom-edition/wipeout-phantom-edition/issues/58",
             "kind": "user_gameplay_report",
-            "observed": "Jogador compara dificuldade dos adversários durante corridas e solicita ghost de melhor tempo.",
+            "observed": "Jogador compara a dificuldade dos adversários durante corridas e solicita ghost do melhor tempo.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_issue_execution_report"
           },
           {
             "url": "https://github.com/wipeout-phantom-edition/wipeout-phantom-edition/issues/56",
             "kind": "user_gameplay_report",
-            "observed": "Relato com capturas descreve nave presa fora da pista.",
+            "observed": "Relato com capturas mostra uma nave presa fora da pista.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_issue_execution_report"
           }
@@ -4769,14 +4769,14 @@
           {
             "url": "https://github.com/phoboslab/wipeout-rewrite/issues/138",
             "kind": "user_gameplay_report",
-            "observed": "Jogador relata um mês de corridas e reproduz colisões emAltimaVII comparadas ao original.",
+            "observed": "Jogador relata um mês de corridas e reproduz colisões em Altima VII comparadas ao original.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_issue_execution_report"
           },
           {
             "url": "https://github.com/phoboslab/wipeout-rewrite/issues/141",
             "kind": "user_gameplay_report",
-            "observed": "Teste repetido trava indicador de mira ao sairdeuma corrida comalvo e iniciara seguinte.",
+            "observed": "Teste repetido mantém o indicador de mira depois de sair de uma corrida com alvo e iniciar outra.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_issue_execution_report"
           }
@@ -4815,29 +4815,29 @@
       "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados.",
       "scope_review": {
         "reviewed_at": "2026-11-27",
-        "classification": "functional_with_limitations",
-        "official_installation_pt": "Distribuição oficial REDRIVER2 e procedimento wiki de importação dos dois discos próprios/filmes; não redistribuir dados da cópia do usuário.",
+        "classification": "functional_manual_install",
+        "official_installation_pt": "Fonte oficial e instruções da wiki para dois discos próprios e conversão dos filmes. Antes de reativar a receita do pacote completo, verificar a procedência dos dados extras em data/DRIVER2 ou um procedimento oficial que os obtenha da mídia própria; a receita atual não demonstrou isso.",
         "limitations_pt": [
-          "Háquestãodeproveniência de dadosinclusosnãoesclarecida no#234; não afirmar quelicençaMITcobre esses dados.",
-          "Autoriza-se caminho de mídia própria; revisão de redistribuição desses componentes é separada da prova de jogabilidade."
+          "Há evidência independente de jogo em andamento, mas a procedência dos arquivos extras em data/DRIVER2 segue sem resposta na issue 234. Não atribuir automaticamente a licença MIT a esses dados.",
+          "A disponibilidade da fonte e a prova de jogabilidade são mantidas separadas da aprovação de redistribuição do pacote; a instalação automatizada precisa resolver a lacuna específica."
         ],
         "evidence": [
           {
             "url": "https://github.com/OpenDriver2/REDRIVER2/issues/192",
             "kind": "user_gameplay_report",
-            "observed": "Windows11/Ryzen5800X3D/RX6800XT: missãoPursueJericho emHavana chegaàtransição seguinte, comcrash/regra incorreta de dano100%reproduzível.",
+            "observed": "Em Windows 11, Ryzen 5800X3D e RX 6800 XT, jogador chega à transição da missão Pursue Jericho em Havana e reproduz crash ou dano incorreto. Isso comprova progressão real; não certifica toda a campanha.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_issue_execution_report"
           },
           {
             "url": "https://github.com/OpenDriver2/REDRIVER2/issues/234",
-            "kind": "user_gameplay_report",
-            "observed": "Pergunta recente de empacotador sobre proveniência deLANG/GFX/REPLAYS/XA járastreadosnoGit; nenhumcomentário de resposta encontrado.",
+            "kind": "provenance_gap",
+            "observed": "Empacotador pergunta a origem e licença de LANG, GFX/GAL, REPLAYS/ReChases, XA e DATA/CREDITS.ENG rastreados em data/DRIVER2; diz não conseguir reproduzir esses arquivos pela extração dos discos. A issue tinha zero comentários na reconferência. É uma lacuna de procedência, não prova de ilegalidade nem evidência positiva de gameplay.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_issue_execution_report"
           }
         ],
-        "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente.",
+        "notice_pt": "Projeto oficial funcional. A instalação automática está temporariamente indisponível; siga o procedimento do autor.",
         "official_repository": "https://github.com/OpenDriver2/REDRIVER2"
       }
     },
@@ -4880,14 +4880,14 @@
           {
             "url": "https://github.com/Legend-of-Dragoon-Modding/Severed-Chains/issues/2914",
             "kind": "user_gameplay_report",
-            "observed": "Jogador descreve fimnatural deDragoon deDart, compara comdestransformação antecipada eanexavídeo.",
+            "observed": "Jogador descreve o fim natural da forma Dragoon de Dart e compara com a destransformação antecipada; há vídeo.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_issue_execution_report"
           },
           {
             "url": "https://github.com/Legend-of-Dragoon-Modding/Severed-Chains/issues/2922",
             "kind": "user_gameplay_report",
-            "observed": "Relato de treino deAddition registra dano aofalhar counter e persistência após fugir.",
+            "observed": "Relato de treino de Addition registra dano ao falhar um counter e persistência após fugir.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_issue_execution_report"
           }
@@ -4935,14 +4935,14 @@
           {
             "url": "https://github.com/SlickAmogus/silent-hill-decomp/issues/216",
             "kind": "user_gameplay_report",
-            "observed": "Jogador chegaaoprimeiroesgoto/OldSilentHill eAnnie'sBar, relata itens/pickups nãointeragíveis.",
+            "observed": "Jogador chega ao primeiro esgoto, a Old Silent Hill e ao Annie's Bar, relatando itens que não podem ser coletados.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_issue_execution_report"
           },
           {
             "url": "https://github.com/SlickAmogus/silent-hill-decomp/issues/203",
             "kind": "user_gameplay_report",
-            "observed": "ControleXboxTurtleBeach permite mirar/atirar; usuário descrevefalha detroca dealvo emgrupos deinimigos.",
+            "observed": "Controle Xbox Turtle Beach permite mirar e atirar; o jogador descreve falha ao trocar de alvo em grupos de inimigos.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_issue_execution_report"
           }
@@ -4981,30 +4981,37 @@
       "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados.",
       "scope_review": {
         "reviewed_at": "2026-11-27",
-        "classification": "functional_with_limitations",
-        "official_installation_pt": "PacoteoficialVandalHearts2.1.0 eBINpróprio deregion suportada, colocado conforme game/; buildCMakeoficial requer executávelPS1eKanjiROM/BIOSpróprios.",
+        "classification": "functional_manual_install",
+        "official_installation_pt": "Compilar a fonte oficial com CMake/Makefile e os geradores do projeto, usando executável PS1, imagem BIN e BIOS/kanji próprios conforme a documentação. A receita de download do binário 2.1.0 não implementa essa regeneração e fica suspensa até existir um caminho de instalação com procedência verificada.",
         "limitations_pt": [
-          "Provas são relatosdevalidação upstream,não execução nossacomROM.",
-          "Releaseembutedadosreconstruídos deoriginais/BIOS segundoNOTICE; não afirmar ausência absoluta deconteúdo derivado.",
-          "PatchWayland propostoemissue6não deve seradotado fora deupstreamoficial."
+          "A evidência de gameplay é documental e externa; nenhum teste com a mídia do usuário foi executado nesta revisão.",
+          "A origem dos bytes incorporados é declarada no NOTICE, mas não se deve tratar a licença GPL do código como autorização para redistribuir dados Konami/Sony. Preferir o build oficial que gera esses componentes localmente de arquivos próprios.",
+          "HD pack não é requisito do jogo. Patch Wayland sugerido em uma issue não deve ser adotado sem incorporação oficial pelo upstream."
         ],
         "evidence": [
           {
             "url": "https://github.com/HalmyLyseas/VandalHearts-PcPort/blob/14552fffa0e0b47e02b57592e274fc6e7a649923/docs/cross-platform.md",
             "kind": "maintainer_gameplay_report",
-            "observed": "Documento devalidação descreveAppImageDebian12 jogadanoArch atébatalhafinal,pósbatalha,FMVs e póscréditos;Windows também informado como fullplaythrough. macOS cobre primeirabatalha/shops/saves, não campanha.",
+            "observed": "Documento de validação relata AppImage Debian 12 jogada no Arch até a batalha final, FMVs e pós-créditos, além de campanha completa em Windows. No macOS, o escopo é primeira batalha, lojas e saves. São relatos do mantenedor, não testes locais GetAll.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_validation_document"
           },
           {
             "url": "https://github.com/HalmyLyseas/VandalHearts-PcPort/blob/14552fffa0e0b47e02b57592e274fc6e7a649923/docs/known_issues.md",
             "kind": "maintainer_gameplay_report",
-            "observed": "Comparação de campo debatallha comVRAMDuckStation e limitações backend documentadas.",
+            "observed": "Documento oficial compara a renderização de um campo de batalha com a VRAM no DuckStation e identifica limitações dos backends.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_validation_document"
+          },
+          {
+            "url": "https://github.com/HalmyLyseas/VandalHearts-PcPort/blob/14552fffa0e0b47e02b57592e274fc6e7a649923/NOTICE",
+            "kind": "official_distribution_scope",
+            "observed": "NOTICE separa o código próprio dos dados derivados. Os binários incluem segmento estático e textos do jogo, tabelas e glifos kanji derivados do BIOS PS1; esses itens não são abrangidos pela GPL do código próprio. A fonte gera executável/dados necessários a partir dos arquivos legítimos do usuário. O HD pack é opcional e contém arte/FMVs derivados.",
+            "source_sha256": "0744b759761907508ce4a24302c0b62b503a2df112cf336d7dd349af3ff5cc60",
+            "source_bytes": 5299
           }
         ],
-        "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente.",
+        "notice_pt": "Projeto oficial funcional. A instalação automática está temporariamente indisponível; siga o procedimento do autor.",
         "official_repository": "https://github.com/HalmyLyseas/VandalHearts-PcPort"
       }
     },
@@ -5048,21 +5055,21 @@
           {
             "url": "https://github.com/novapowers0/BloodyRoar2Recomp/issues/3",
             "kind": "user_gameplay_report",
-            "observed": "Anexo inspecionado: lutaAlice×Uriko emandamento, cronômetro51,Uriko jácomvida reduzida, personagens transformadas emataque/defesa; relato trata de21:9. SHA256 daimagem5badc209ea98fe1c1803680e209ad17a9e99c4ed2dec06590895afc59d3911ca.",
+            "observed": "Captura inspecionada da issue mostra luta Alice contra Uriko em andamento, cronômetro em 51, vida reduzida e personagens transformadas em ataque/defesa. O contexto é o formato 21:9; hash da imagem 5badc209ea98fe1c1803680e209ad17a9e99c4ed2dec06590895afc59d3911ca.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_issue_execution_report"
           },
           {
             "url": "https://github.com/novapowers0/BloodyRoar2Recomp/issues/4",
             "kind": "user_gameplay_report",
-            "observed": "Testador relata áudio danarração pré-luta, demais sonsfuncionais; emcomentário especificaUSA/OpenGL/48000Hz.",
+            "observed": "Jogador relata áudio ausente na narração pré-luta e demais sons funcionais; especifica USA, OpenGL e 48000 Hz.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_issue_execution_report"
           },
           {
             "url": "https://github.com/novapowers0/BloodyRoar2Recomp/issues/7",
             "kind": "user_gameplay_report",
-            "observed": "Mantenedor reconhecehooksPGXPausentes emreleaseantiga ecorreçãooficial0.7.0.",
+            "observed": "Mantenedor reconhece hooks PGXP ausentes numa release antiga e a correção oficial 0.7.0.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_issue_execution_report"
           }
@@ -5111,20 +5118,20 @@
           {
             "url": "https://github.com/Comfubar/KnowYourRoleRecomp/blob/32cf0309e85b2a4f504622b507e9d523c3a138bd/docs/STATUS.md",
             "kind": "maintainer_gameplay_report",
-            "observed": "ValidaçãoWindows11NTSC-U diferencia testesmanuais deautomações: luta1P×COM comDualSenseUSBporpessoa; tipos decombate por30s e vários atéfim; sessão67min e saves. SeasonCONTINUE não confirmado.",
+            "observed": "Validação Windows 11/NTSC-U distingue testes humanos das automações: luta 1P contra COM com DualSense USB, vários tipos de luta até o fim, sessão de 67 minutos e saves. Season CONTINUE continua sem confirmação.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_validation_document"
           },
           {
             "url": "https://github.com/Comfubar/KnowYourRoleRecomp/blob/v0.2.0/Launcher/Program.cs",
             "kind": "official_cli_contract",
-            "observed": "CLI oficialconfirmado no tagv0.2.0(eca626b79ffeab146b84e8de260e43713fb9a649),BuildJobretorna0/1e--playverificaestado.",
+            "observed": "CLI oficial confirmada no tag v0.2.0, commit eca626b79ffeab146b84e8de260e43713fb9a649: BuildJob retorna 0 ou 1 e --play verifica o estado.",
             "ref_id_if_web": null
           },
           {
             "url": "https://github.com/Comfubar/KnowYourRoleRecomp/blob/v0.2.0/tools/package-release.ps1",
             "kind": "official_packaging",
-            "observed": "PacoteoficialpubblicaLauncherauto contidoKnowYourRole.exe e runtime; hashasset127898385bytes=5771e291f13c621537301922bb63fbb8e3b9645ec30a7c3bc8359fe978da4e2a.",
+            "observed": "Script oficial empacota o launcher autocontido KnowYourRole.exe e o runtime. O asset observado tem 127898385 bytes e SHA256 5771e291f13c621537301922bb63fbb8e3b9645ec30a7c3bc8359fe978da4e2a.",
             "ref_id_if_web": null
           }
         ],
@@ -5172,21 +5179,21 @@
           {
             "url": "https://github.com/Acranon/kf1-enhanced/releases/tag/v0.1.0-pre.3",
             "kind": "maintainer_gameplay_report",
-            "observed": "Notasdeplaytest doautor restringem testes sobretudo aosdoisprimeirosandares e descrevem pontesHarpa,pits,usodechaves/mapa; não alegam campanha validada.",
+            "observed": "Notas de playtest do autor restringem os testes sobretudo aos dois primeiros andares e descrevem pontes, armadilhas, chaves e mapa; não afirmam campanha inteira validada.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_release_playtest"
           },
           {
             "url": "https://github.com/Acranon/kf1-enhanced/blob/ac147450249c95b8d7683300292a2761796cb611/docs/port-notes.md",
             "kind": "maintainer_gameplay_report",
-            "observed": "Notasdetalhamordemdemovimento,colisão,arma/equipamento e efeitosverificados ou pendentes; não tratadas como teste executadoporesta auditoria.",
+            "observed": "Notas detalham movimento, colisão, armas, equipamento e efeitos verificados ou pendentes; são registros upstream, não testes desta auditoria.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_validation_document"
           },
           {
             "url": "https://github.com/Acranon/kf1-enhanced/blob/ac147450249c95b8d7683300292a2761796cb611/tests/runtime_scenarios.py",
             "kind": "official_reproduction_script",
-            "observed": "Procedimento upstreamreproduzível para pisos/save/reentrada comrecursos legítimos; existência doscriptisoladanãoprova aprovação.",
+            "observed": "Script upstream descreve cenários reproduzíveis de andares, save e reentrada usando recursos legítimos; sua existência isolada não comprova aprovação.",
             "ref_id_if_web": null
           }
         ],
@@ -5234,14 +5241,14 @@
           {
             "url": "https://github.com/krystalgamer/Yu-Gi-Oh-Forbidden-Memories-Recompiled/issues/229",
             "kind": "user_gameplay_report",
-            "observed": "Jogador distingue falha doBuildDeck apósloadstate de vários duelos decampanha jájogados, nosquaisosstatesfuncionam; vídeoanexado.",
+            "observed": "Jogador distingue falha do BuildDeck após loadstate de vários duelos de campanha já jogados nos quais os estados funcionam; há vídeo.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_issue_execution_report"
           },
           {
             "url": "https://github.com/krystalgamer/Yu-Gi-Oh-Forbidden-Memories-Recompiled/issues/278",
             "kind": "user_gameplay_report",
-            "observed": "Usuário da0.2.0 carrega estadoemFreeDuel e relata spritesHDdesativados.",
+            "observed": "Na v0.2.0, jogador carrega estado em Free Duel e relata que sprites HD ficam desativados.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_issue_execution_report"
           }
@@ -5289,14 +5296,14 @@
           {
             "url": "https://github.com/LostArtefacts/TRX/issues/6169",
             "kind": "user_gameplay_report",
-            "observed": "NoWindows10TRX1.9.3, jogadorreproduz interação deobjetos físicos/inimigos comgradesquebráveis deAldwych emjogovanilla.",
+            "observed": "No Windows 10/TRX 1.9.3, jogador reproduz interação de objetos e inimigos com grades quebráveis de Aldwych em jogo vanilla.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_issue_execution_report"
           },
           {
             "url": "https://github.com/LostArtefacts/TRX/issues/4975",
             "kind": "user_gameplay_report",
-            "observed": "JogadorLinuxcomparatodos níveisoficiaisTR1 e relataqueda apenasemReturntoEgypt comhardwareespecificado.",
+            "observed": "Jogador Linux compara todos os níveis oficiais de TR1 e relata queda apenas em Return to Egypt, com hardware especificado.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_issue_execution_report"
           }
@@ -5344,14 +5351,14 @@
           {
             "url": "https://github.com/XProger/OpenLara/issues/530",
             "kind": "user_gameplay_report",
-            "observed": "Jogador nolevel12 descreve deslizarporrampa, agarrar beirada e mover lateralmente; capturavinculada e versãoNix1.03.23.",
+            "observed": "Jogador no nível 12 descreve deslizar por uma rampa, agarrar a beirada e mover lateralmente; vincula captura e versão Nix 1.03.23.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_issue_execution_report"
           },
           {
             "url": "https://github.com/XProger/OpenLara/issues/37",
             "kind": "maintainer_gameplay_report",
-            "observed": "Registrodeplaytestingporfaseenumera gatilhosdefim ebugsdosníveis; históricoéusadocomo execução efetiva,nãopercentualdecomp.",
+            "observed": "Registro de playtesting por fase enumera gatilhos de fim e bugs dos níveis; foi usado como evidência de execução, sem inferência por percentual de decompilação.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_gameplay_test_inventory"
           }
@@ -5400,21 +5407,21 @@
           {
             "url": "https://github.com/Drakfix/MML_Modernization-Project/issues/13",
             "kind": "user_gameplay_report",
-            "observed": "Jogador usaLockOn comSpecialWeapons emalvos acima/abaixo e descreve falhadeaimvertical.",
+            "observed": "Jogador utiliza Lock On com Special Weapons em alvos acima ou abaixo e descreve falha na mira vertical.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_issue_execution_report"
           },
           {
             "url": "https://github.com/Drakfix/MML_Modernization-Project/issues/20",
             "kind": "user_gameplay_report",
-            "observed": "Captura deSharukurusu comproblema gráficodurante encontro.",
+            "observed": "Captura mostra Sharukurusu com problema gráfico durante um encontro.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_issue_execution_report"
           },
           {
             "url": "https://github.com/Drakfix/MML_Modernization-Project/issues/12",
             "kind": "user_gameplay_report",
-            "observed": "Relato chegaàcena emqueRollconsertaobarco deWily e detecta legendasausentes.",
+            "observed": "Jogador chega à cena em que Roll conserta o barco de Wily e detecta legendas ausentes.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_issue_execution_report"
           }
@@ -5462,7 +5469,7 @@
           {
             "url": "https://github.com/hedge-dev/UnleashedRecomp/issues/1573",
             "kind": "user_gameplay_report",
-            "observed": "v1.0.3Windows11, semmods/códigos, jogada atéhourglass deEggmanland, troca paraWerehog eaciona alavanca; efeito sonoroausente comvídeo/hardware.",
+            "observed": "Na v1.0.3 em Windows 11, sem mods ou códigos, o jogador chega ao hourglass de Eggmanland, muda para Werehog e aciona uma alavanca; relata um efeito sonoro ausente com vídeo e hardware.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_issue_execution_report"
           }
@@ -6806,7 +6813,8 @@
         "classification": "functional_manual_install",
         "official_installation_pt": "GT5-Installer.bat oficial provisiona o ambiente e compila a partir do próprio disco Blu-ray/executável base01.00 suportado. Usar GT5Launcher/play.bat e os fluxos de atualização do upstream; mods/updates adicionais têm compatibilidade separada.",
         "limitations_pt": [
-          "Evidências de jogadores citadas incluem Master Mod; não homologa build base limpo. Desempenho muito desigual por pista e problemas de cockpit."
+          "Issues 51/52 usam Master Mod e não homologam a configuração base. O STATUS oficial documenta separadamente corrida com disco europeu 01.00 e configurações padrão; nenhum desses testes foi reproduzido localmente pelo GetAll.",
+          "Desempenho desigual por pista e hardware, problemas de cockpit e suporte parcial de outras regiões/updates permanecem documentados."
         ],
         "evidence": [
           {
@@ -6822,6 +6830,14 @@
             "observed": "Relato com contadores de threads descreve corrida em Roma com trechos3–4FPS e outros13–40FPS em5600X/RTX2070S; explicitamente não é benchmark uniforme.",
             "ref_id_if_web": null,
             "source_evidence_kind": "player_issue"
+          },
+          {
+            "url": "https://github.com/MormonFTP-hub/gt5-recomp/blob/950f7ce48006b45e0c1391e80ea0071c04cef2cf/STATUS.md",
+            "kind": "maintainer_gameplay_report",
+            "observed": "Mantenedor documenta sessão de corrida de 10 minutos em 9/11/2026 com disco europeu BCES00569 01.00, sem update, e play.bat padrão: 45–58 FPS reais, mediana 47, em i9-14900KF/RTX 4070 Ti SUPER/Windows 11. O registro distingue contagem duplicada antiga dos frames reais. É evidência de execução do jogo base, separada dos relatos com Master Mod.",
+            "source_evidence_kind": "maintainer_measured_gameplay",
+            "source_sha256": "ee72ca70713351abb9ed2c6003aebe1e8e8c07de26c2ec89a60b02376075c879",
+            "source_bytes": 27379
           }
         ],
         "notice_pt": "Projeto oficial funcional. A instalação automática está temporariamente indisponível; siga o procedimento do autor.",
@@ -6924,7 +6940,7 @@
           {
             "url": "https://github.com/KIexster/god-of-war-recomp/blob/d1d11ec545c3baf2f3fc17e2df4247ac4b732d5c/docs/ESTADO.md",
             "kind": "maintainer_gameplay_report",
-            "observed": "Diário técnico de6nov registra combate no barco comscriptnormal,60FPS, guardado/recarga no altar e áreasArena09, alémdecontagens e limitações. Cabeçalho antigo9outnão representa últimasentradas.",
+            "observed": "Diário técnico de 6 de novembro registra combate no barco com script normal a 60 FPS, save e recarga no altar, além da área Arena09. Alguns testes usam warp e saves prévios; não provam progressão natural de toda a campanha.",
             "ref_id_if_web": null,
             "source_evidence_kind": "upstream_validation_document"
           }
@@ -7716,7 +7732,7 @@
       },
       "scope_review": {
         "reviewed_at": "2026-11-27",
-        "classification": "functional_manual_install",
+        "classification": "functional_with_limitations",
         "official_installation_pt": "Usar ssx-recomp.exe oficial em pasta vazia: Get started, selecionar ISO USA Xbox360 própria (ou extração default.xex), importar TU/DLC próprios e Install; o programa provisiona toolchain/ReXGlue/ReGPU e compila. Depois vira o launcher.",
         "limitations_pt": [
           "Compilação/cache de shaders no primeiro percurso e funcionalidades online têm escopo próprio. Respeitar ReGPU oficial e não substituí-lo por renderer reduzido."
@@ -7737,7 +7753,7 @@
             "source_evidence_kind": "player_issue"
           }
         ],
-        "notice_pt": "Projeto oficial funcional. A instalação automática está temporariamente indisponível; siga o procedimento do autor.",
+        "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente.",
         "official_repository": "https://github.com/AmarilloNL/ssx-recomp"
       }
     },

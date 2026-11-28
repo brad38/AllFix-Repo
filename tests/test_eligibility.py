@@ -6,7 +6,7 @@ import unittest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from eligibility_rules import validate_assessment, validate_registers
-from validate_catalog import validate_addition_history
+from validate_catalog import validate_addition_history, validate_archival_history
 
 
 def reviewed():
@@ -17,7 +17,9 @@ def reviewed():
                 "observed": "Relato de uma corrida concluída com controles e resultado final."}],
             "official_repository": "https://example.org/port",
             "official_install_method": "Executar o launcher oficial e selecionar a mídia original verificada.",
-            "provenance_review": "official_source_and_distribution", "limitations": ["Sem teste local GetAll."]}
+            "provenance_review": "official_source_and_distribution",
+            "reason": "Relato específico de partida comprova interação além da tela inicial.",
+            "limitations": ["Sem teste local GetAll."]}
 
 
 class AdmissionTests(unittest.TestCase):
@@ -75,6 +77,65 @@ class AdmissionTests(unittest.TestCase):
         archive["projects"]["port"] = {"assessment": record}
         with self.assertRaisesRegex(ValueError, "still appears"):
             validate_registers(catalog, assessments, archive)
+
+
+    def test_removed_project_must_have_complete_archive(self):
+        original = {"games": [{"id": "game", "added_at": "2026-11-22",
+            "release_date": "1998-11-21", "projects": [
+                {"id": "port", "added_at": "2026-11-22", "name": "Original"}]}]}
+        revised = {"games": []}
+        archive = {"projects": {}}
+        with self.assertRaisesRegex(ValueError, "missing from exclusion"):
+            validate_archival_history(revised, archive, original)
+        archive["projects"]["port"] = {
+            "project": copy.deepcopy(original["games"][0]["projects"][0]),
+            "game_id": "game",
+            "game": {key: value for key, value in original["games"][0].items() if key != "projects"}}
+        validate_archival_history(revised, archive, original)
+        archive["projects"]["port"]["project"].pop("name")
+        with self.assertRaisesRegex(ValueError, "complete excluded project"):
+            validate_archival_history(revised, archive, original)
+
+    def test_game_history_and_project_association_cannot_disappear(self):
+        original = {"games": [{"id": "game", "release_date": "1998-11-21",
+            "projects": [{"id": "port"}]}]}
+        archive = {"projects": {"port": {"project": {"id": "port"},
+            "game_id": "game", "game": {"id": "game"}}}}
+        with self.assertRaisesRegex(ValueError, "complete excluded game"):
+            validate_archival_history({"games": []}, archive, original)
+        with self.assertRaisesRegex(ValueError, "association"):
+            validate_archival_history({"games": [{"id": "different", "projects": [{"id": "port"}]}]},
+                                       {"projects": {}}, original)
+
+
+    def test_existing_exclusion_cannot_be_dropped_or_reactivated_with_new_dates(self):
+        previous = {"projects": {"port": {
+            "game_id": "game", "project": {"id": "port", "added_at": "2026-11-22"},
+            "game": {"id": "game", "added_at": "2026-11-22", "release_date": "1998-11-21"},
+            "requirements": {"source": "preserved"}, "about": {"description": "preserved"}}}}
+        empty = {"games": []}
+        with self.assertRaisesRegex(ValueError, "previously excluded"):
+            validate_archival_history(empty, {"projects": {}}, empty, previous)
+        validate_archival_history(empty, copy.deepcopy(previous), empty, previous)
+        reactivated = {"games": [{"id": "game", "added_at": "2026-11-22",
+            "release_date": "1998-11-21", "projects": [
+                {"id": "port", "added_at": "2026-11-22"}]}]}
+        validate_archival_history(reactivated, {"projects": {}}, empty, previous)
+        reactivated["games"][0]["projects"][0]["added_at"] = "2026-11-27"
+        with self.assertRaisesRegex(ValueError, "original project inclusion"):
+            validate_archival_history(reactivated, {"projects": {}}, empty, previous)
+
+    def test_reinclusion_conditions_and_limitations_are_lists_of_text(self):
+        record = reviewed()
+        record.update(classification="unproven", eligible=False)
+        for invalid in ("Publish gameplay", [], [""], [None]):
+            record["reinclusion_conditions"] = invalid
+            with self.subTest(invalid=invalid), self.assertRaisesRegex(ValueError, "reinclusion"):
+                validate_assessment("port", record, active=False)
+        record = reviewed()
+        record["limitations"] = [None]
+        with self.assertRaisesRegex(ValueError, "limitations"):
+            validate_assessment("port", record, active=True)
 
     def test_removal_preserves_dates_for_retained_games_and_projects(self):
         original = {"games": [{"id": "game", "added_at": "2026-11-22",

@@ -1,0 +1,52 @@
+[
+  {
+    "command": [
+      "python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "test_archive_cannot_leak_back_into_active_store (test_eligibility.AdmissionTests.test_archive_cannot_leak_back_into_active_store) ... ok\ntest_build_readme_release_and_fixture_are_not_gameplay (test_eligibility.AdmissionTests.test_build_readme_release_and_fixture_are_not_gameplay) ... ok\ntest_existing_exclusion_cannot_be_dropped_or_reactivated_with_new_dates (test_eligibility.AdmissionTests.test_existing_exclusion_cannot_be_dropped_or_reactivated_with_new_dates) ... ok\ntest_functional_upstream_can_remain_without_getall_boot (test_eligibility.AdmissionTests.test_functional_upstream_can_remain_without_getall_boot) ... ok\ntest_game_history_and_project_association_cannot_disappear (test_eligibility.AdmissionTests.test_game_history_and_project_association_cannot_disappear) ... ok\ntest_official_provenance_required (test_eligibility.AdmissionTests.test_official_provenance_required) ... ok\ntest_official_repository_is_a_verifiable_https_source (test_eligibility.AdmissionTests.test_official_repository_is_a_verifiable_https_source) ... ok\ntest_reinclusion_conditions_and_limitations_are_lists_of_text (test_eligibility.AdmissionTests.test_reinclusion_conditions_and_limitations_are_lists_of_text) ... ok\ntest_removal_preserves_dates_for_retained_games_and_projects (test_eligibility.AdmissionTests.test_removal_preserves_dates_for_retained_games_and_projects) ... ok\ntest_removed_project_must_have_complete_archive (test_eligibility.AdmissionTests.test_removed_project_must_have_complete_archive) ... ok\ntest_unproven_is_archived_with_reason_and_reentry_conditions (test_eligibility.AdmissionTests.test_unproven_is_archived_with_reason_and_reentry_conditions) ... ok\ntest_upstream_completion_cannot_be_an_installation_requirement (test_eligibility.AdmissionTests.test_upstream_completion_cannot_be_an_installation_requirement) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 0.002s\n\nOK\n"
+  },
+  {
+    "command": [
+      "python",
+      "scripts/validate_catalog.py",
+      "--require-dates",
+      "--compare-with",
+      "44bdb508842407d501e420457274eb4064f5d935"
+    ],
+    "exit_code": 0,
+    "stdout": "PASSOU: 108 jogos, 137 projetos, IDs únicos, referências 1:1, schemas e campos obrigatórios.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "python",
+      "scripts/validate_catalog.py",
+      "--require-dates",
+      "--compare-with",
+      "HEAD"
+    ],
+    "exit_code": 0,
+    "stdout": "PASSOU: 108 jogos, 137 projetos, IDs únicos, referências 1:1, schemas e campos obrigatórios.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "git",
+      "-c",
+      "core.autocrlf=false",
+      "diff",
+      "--check"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+]

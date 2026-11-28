@@ -36,6 +36,8 @@ def validate_assessment(project_id: str, record: dict, *, active: bool) -> None:
     require(isinstance(record, dict), f"{project_id}: assessment must be an object")
     require(record.get("project_id") == project_id, f"{project_id}: assessment identity mismatch")
     status = record.get("classification")
+    require(isinstance(record.get("reason"), str) and len(record["reason"].strip()) >= 20,
+            f"{project_id}: explain the eligibility decision")
     require(status in CLASSIFICATIONS, f"{project_id}: unknown eligibility classification")
     require(record.get("eligible") is (status in FUNCTIONAL), f"{project_id}: eligibility/status mismatch")
     require(active == (status in FUNCTIONAL), f"{project_id}: eligibility does not match active catalog")
@@ -47,6 +49,8 @@ def validate_assessment(project_id: str, record: dict, *, active: bool) -> None:
     require(isinstance(evidence, list), f"{project_id}: evidence list required")
     for item in evidence:
         require(isinstance(item, dict) and https(item.get("url")), f"{project_id}: evidence URL must be HTTPS")
+        require(isinstance(item.get("kind"), str) and bool(item["kind"].strip()),
+                f"{project_id}: evidence kind required")
         require(isinstance(item.get("observed"), str) and len(item["observed"].strip()) >= 20,
                 f"{project_id}: explain what the source actually establishes")
     if active:
@@ -60,9 +64,13 @@ def validate_assessment(project_id: str, record: dict, *, active: bool) -> None:
         require(record.get("provenance_review") in {"official_source", "official_distribution", "official_source_and_distribution"},
                 f"{project_id}: official provenance must be reviewed")
     else:
-        require(bool(record.get("reason")), f"{project_id}: exclusion reason required")
-        require(bool(record.get("reinclusion_conditions")), f"{project_id}: reinclusion conditions required")
-    require(isinstance(record.get("limitations"), list), f"{project_id}: limitations list required")
+        conditions = record.get("reinclusion_conditions")
+        require(isinstance(conditions, list) and bool(conditions)
+                and all(isinstance(value, str) and value.strip() for value in conditions),
+                f"{project_id}: reinclusion conditions must be a nonempty list of text")
+    require(isinstance(record.get("limitations"), list)
+            and all(isinstance(value, str) and value.strip() for value in record["limitations"]),
+            f"{project_id}: limitations must be a list of text")
     # No automated source completion, feature stripping or unconditional success
     # may be treated as a legitimate installation method.
     require(record.get("requires_allfix_game_changes", False) is False or not active,

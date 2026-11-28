@@ -372,7 +372,7 @@
           "Somente se voltar a existir projeto independente funcional e verificável, distinto de BlueWake."
         ],
         "last_verified_local": "2026-11-27",
-        "review_depth": "README/procedimento oficial + listagem das releases e issues; aprofundamento em relatos de fases/combate, documentos de validação e distribuição quando necessário. Arquivos brutos preservados com hashes.",
+        "review_depth": "README/procedimento oficial + listagem das releases e issues; aprofundamento em relatos de fases/combate, documentos de validação e distribuição quando necessário. URLs, observações e limites preservados neste registro; hashes anteriores mantidos quando existentes.",
         "review_limits": [
           "Pesquisa de fontes públicas; nenhuma mídia original foi obtida e nenhum jogo foi executado localmente nesta auditoria.",
           "Relatos upstream são evidência externa, não homologação de instalação, boot ou gameplay via GetAll. Não se auditou bit a bit cada binário distribuído.",
@@ -526,7 +526,7 @@
           "Repositório ou pacote oficial acessível, procedimento reproduzível com mídia própria e demonstração verificável de gameplay além de boot/render."
         ],
         "last_verified_local": "2026-11-27",
-        "review_depth": "README/procedimento oficial + listagem das releases e issues; aprofundamento em relatos de fases/combate, documentos de validação e distribuição quando necessário. Arquivos brutos preservados com hashes.",
+        "review_depth": "README/procedimento oficial + listagem das releases e issues; aprofundamento em relatos de fases/combate, documentos de validação e distribuição quando necessário. URLs, observações e limites preservados neste registro; hashes anteriores mantidos quando existentes.",
         "review_limits": [
           "Pesquisa de fontes públicas; nenhuma mídia original foi obtida e nenhum jogo foi executado localmente nesta auditoria.",
           "Relatos upstream são evidência externa, não homologação de instalação, boot ou gameplay via GetAll. Não se auditou bit a bit cada binário distribuído.",
@@ -679,7 +679,7 @@
           "Localizar distribuição oficial íntegra com origem/versionamento verificável e evidência de gameplay correspondente, ou reproduzir build oficial acessível sem patches AllFix."
         ],
         "last_verified_local": "2026-11-27",
-        "review_depth": "README/procedimento oficial + listagem das releases e issues; aprofundamento em relatos de fases/combate, documentos de validação e distribuição quando necessário. Arquivos brutos preservados com hashes.",
+        "review_depth": "README/procedimento oficial + listagem das releases e issues; aprofundamento em relatos de fases/combate, documentos de validação e distribuição quando necessário. URLs, observações e limites preservados neste registro; hashes anteriores mantidos quando existentes.",
         "review_limits": [
           "Pesquisa de fontes públicas; nenhuma mídia original foi obtida e nenhum jogo foi executado localmente nesta auditoria.",
           "Relatos upstream são evidência externa, não homologação de instalação, boot ou gameplay via GetAll. Não se auditou bit a bit cada binário distribuído.",
@@ -808,12 +808,12 @@
         "limitations": [
           "Decompilação e executável GameCube não constituem port nativo para PC."
         ],
-        "reason": "Base matching-decomp GameCube; ports nativos independentes são outros IDs e não tornam esta base um produto PC separado.",
+        "reason": "O alvo oficial reconstrói o jogo de GameCube. Os ports independentes para PC têm outros IDs; sua existência não transforma esta base em produto PC separado.",
         "reinclusion_conditions": [
-          "Novo alvo de port independente e gameplay verificável sem exigir criação de runtime pelo AllFix."
+          "Publicar um alvo independente para PC com gameplay verificável, sem exigir a criação de runtime pelo AllFix."
         ],
         "last_verified_local": "2026-11-27",
-        "review_depth": "README/procedimento oficial + listagem das releases e issues; aprofundamento em relatos de fases/combate, documentos de validação e distribuição quando necessário. Arquivos brutos preservados com hashes.",
+        "review_depth": "README/procedimento oficial + listagem das releases e issues; aprofundamento em relatos de fases/combate, documentos de validação e distribuição quando necessário. URLs, observações e limites preservados neste registro; hashes anteriores mantidos quando existentes.",
         "review_limits": [
           "Pesquisa de fontes públicas; nenhuma mídia original foi obtida e nenhum jogo foi executado localmente nesta auditoria.",
           "Relatos upstream são evidência externa, não homologação de instalação, boot ou gameplay via GetAll. Não se auditou bit a bit cada binário distribuído.",
@@ -935,19 +935,19 @@
           {
             "url": "https://github.com/zeldaret/tmc",
             "kind": "upstream_target_definition",
-            "observed": "Projeto descreve decompilação/ROMGBA como produto do build.",
+            "observed": "O projeto documenta a reconstrução de uma ROM de Game Boy Advance; não foi identificado alvo independente para PC.",
             "ref_id_if_web": null
           }
         ],
         "limitations": [
           "Issue de usuário enviada ao repositório errado sobrePicori não altera o alvo da base."
         ],
-        "reason": "Base de decompilação para console sem alvoPC independente identificado; não usar funcionalidade do forkPicori para validar a base.",
+        "reason": "Base de decompilação para Game Boy Advance, sem alvo independente para PC identificado. A funcionalidade do fork Picori não valida esta entrada.",
         "reinclusion_conditions": [
-          "PortPC independente publicado e comprovado; preservar Picori existente."
+          "Publicar um port independente para PC com gameplay comprovado. Preservar o ID do Picori já existente."
         ],
         "last_verified_local": "2026-11-27",
-        "review_depth": "README/procedimento oficial + listagem das releases e issues; aprofundamento em relatos de fases/combate, documentos de validação e distribuição quando necessário. Arquivos brutos preservados com hashes.",
+        "review_depth": "README/procedimento oficial + listagem das releases e issues; aprofundamento em relatos de fases/combate, documentos de validação e distribuição quando necessário. URLs, observações e limites preservados neste registro; hashes anteriores mantidos quando existentes.",
         "review_limits": [
           "Pesquisa de fontes públicas; nenhuma mídia original foi obtida e nenhum jogo foi executado localmente nesta auditoria.",
           "Relatos upstream são evidência externa, não homologação de instalação, boot ou gameplay via GetAll. Não se auditou bit a bit cada binário distribuído.",
@@ -1077,19 +1077,19 @@
           {
             "url": "https://github.com/ChrisNonyminus/mml1",
             "kind": "upstream_target_definition",
-            "observed": "Escopo documentadoWIPdecomp doMegaManLegendsPS1 e build console.",
+            "observed": "O escopo documentado é uma decompilação em desenvolvimento de Mega Man Legends para PS1, com build para o console.",
             "ref_id_if_web": null
           }
         ],
         "limitations": [
           "Sem evidência dealvoPCseparado."
         ],
-        "reason": "Base decompPS1 semportPCindependente comprovado. Modernization usa outroproduto, Windowsoriginal, e não valida estaentrada.",
+        "reason": "Base de decompilação para PS1, sem port independente para PC comprovado. O Modernization Project usa o jogo original de Windows e não valida esta entrada.",
         "reinclusion_conditions": [
-          "PortPCoficial próprio efuncional com mídiaoriginal; não reutilizar evidência deModernization."
+          "Publicar um port próprio e funcional para PC, com mídia original. Não reutilizar evidência do Modernization Project."
         ],
         "last_verified_local": "2026-11-27",
-        "review_depth": "README/procedimento oficial + listagem das releases e issues; aprofundamento em relatos de fases/combate, documentos de validação e distribuição quando necessário. Arquivos brutos preservados com hashes.",
+        "review_depth": "README/procedimento oficial + listagem das releases e issues; aprofundamento em relatos de fases/combate, documentos de validação e distribuição quando necessário. URLs, observações e limites preservados neste registro; hashes anteriores mantidos quando existentes.",
         "review_limits": [
           "Pesquisa de fontes públicas; nenhuma mídia original foi obtida e nenhum jogo foi executado localmente nesta auditoria.",
           "Relatos upstream são evidência externa, não homologação de instalação, boot ou gameplay via GetAll. Não se auditou bit a bit cada binário distribuído.",
@@ -1548,7 +1548,8 @@
           ],
           "readme_sha256": "cf07075db3017d346f7bff5cfdcc3f3fb736c462ac7412ab5076af460383d398",
           "raw_evidence_sha256": "85988bc187feed4b9f8722af4b816f94c97d596db9ba4be0989f9fac2e9020e4",
-          "scope": "Identidade do repositório/autor, procedimento de mídia própria e metadados das releases. Hashes retornados pelo GitHub identificam arquivos; não substituem execução nem auditoria jurídica de todo binário."
+          "scope": "Identidade do repositório/autor, procedimento de mídia própria e metadados das releases. Hashes retornados pelo GitHub identificam arquivos; não substituem execução nem auditoria jurídica de todo binário.",
+          "raw_snapshot_availability": "Hash herdado da pesquisa anterior; cópia bruta correspondente não localizada no workspace retomado. O hash é referência histórica, não comprovação de um arquivo local ainda disponível."
         },
         "review_depth": {
           "level": "conflicting_provenance_documents_and_limited_beta5_gameplay",
@@ -1744,7 +1745,8 @@
           ],
           "readme_sha256": "c47a4cb396c830247b190be4cfc14f878a63a29a95cdcb7cbcdf4e7793907c78",
           "raw_evidence_sha256": "c5e1b58eee40344f76bfe97ee2cb2f946f3b72e078514a09864fcfb39079312c",
-          "scope": "Identidade do repositório/autor, procedimento de mídia própria e metadados das releases. Hashes retornados pelo GitHub identificam arquivos; não substituem execução nem auditoria jurídica de todo binário."
+          "scope": "Identidade do repositório/autor, procedimento de mídia própria e metadados das releases. Hashes retornados pelo GitHub identificam arquivos; não substituem execução nem auditoria jurídica de todo binário.",
+          "raw_snapshot_availability": "Hash herdado da pesquisa anterior; cópia bruta correspondente não localizada no workspace retomado. O hash é referência histórica, não comprovação de um arquivo local ainda disponível."
         },
         "review_depth": {
           "level": "documentary_primary_sources_and_specific_gameplay",

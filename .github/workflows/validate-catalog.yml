@@ -48,12 +48,12 @@ jobs:
 
       - name: Validar schemas e referências
         env:
-          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
         run: |
-          if [ -n "$BASE_SHA" ]; then
+          if [ -n "$BASE_SHA" ] && [ "$BASE_SHA" != "0000000000000000000000000000000000000000" ]; then
             python scripts/validate_catalog.py --require-dates --compare-with "$BASE_SHA"
           else
-            python scripts/validate_catalog.py --require-dates
+            python scripts/validate_catalog.py --require-dates --compare-with 44bdb508842407d501e420457274eb4064f5d935
           fi
 
       - name: Verificar espaços em branco no diff
