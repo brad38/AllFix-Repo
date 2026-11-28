@@ -1,0 +1,1852 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-11-27",
+  "policy": "Registro para reavaliação; estes IDs não aparecem na loja ativa.",
+  "projects": {
+    "drmario64-recomp": {
+      "game_id": "dr-mario-64",
+      "game": {
+        "id": "dr-mario-64",
+        "title": "Dr. Mario 64",
+        "platform_group": "Nintendo 64",
+        "category": null,
+        "cover": "https://cdn2.steamgriddb.com/grid/c3884b938f2ccc63708d922671c5ea23.png",
+        "banner": "https://cdn2.steamgriddb.com/hero/3a0d1535e1f1929f76f28f007a57584c.jpg",
+        "screenshots": [],
+        "featured": false,
+        "release_date": "2001-04-09",
+        "added_at": "2026-11-22"
+      },
+      "project": {
+        "id": "drmario64-recomp",
+        "source": {
+          "url": "https://github.com/AngheloAlf/drmario64_recomp",
+          "provider": "github",
+          "github_repository": "AngheloAlf/drmario64_recomp",
+          "releases_url": "https://github.com/AngheloAlf/drmario64_recomp/releases"
+        },
+        "fallback_name": "drmario64_recomp",
+        "windows": {
+          "installation_enabled": false
+        },
+        "status": "source_only",
+        "added_at": "2026-11-22"
+      },
+      "assessment": {
+        "project_id": "drmario64-recomp",
+        "row": 19,
+        "game_id": "dr-mario-64",
+        "game_title": "Dr. Mario 64",
+        "project_name": "drmario64_recomp",
+        "classification": "unproven",
+        "eligible": false,
+        "official_repository": "https://github.com/AngheloAlf/drmario64_recomp",
+        "previous_catalog_repository": "https://github.com/AngheloAlf/drmario64_recomp",
+        "official_install_method": "Procedimento de build experimental documenta Linux, decompilação e N64Recomp fixados; Windows fica sem procedimento completo. Solicita ROM US própria, mas não há distribuição de jogo publicada pelo autor.",
+        "official_install_sources": [
+          "https://github.com/AngheloAlf/drmario64_recomp",
+          "https://github.com/AngheloAlf/drmario64_recomp/releases"
+        ],
+        "gameplay_evidence": [
+          {
+            "url": "https://github.com/AngheloAlf/drmario64_recomp",
+            "kind": "documentacao_oficial_de_limites",
+            "observed": "Autor descreve teste tecnológico, muito pouco testado, um controle, problemas de aspecto e segfault ao fechar; não pretende fornecer releases nem aceitar pedidos de funcionalidades. Isso não demonstra por si só uma partida jogável.",
+            "ref_id_if_web": "turn105409507search0"
+          }
+        ],
+        "limitations": [
+          "Não foram encontrados releases, issues de jogadores, vídeos ou demonstrações identificáveis deste repositório após buscas pelo nome exato e autor. Evidência do fork Plus não foi atribuída à base."
+        ],
+        "reason": "Após pesquisa de fontes oficiais e demonstrações, não há prova verificável de partida funcional deste projeto específico além da descrição técnica. Não foi concluído que seja impossível jogar.",
+        "reinclusion_conditions": [
+          "Publicar ou identificar gravação/relato reproduzível de partida com cápsulas e progressão usando este repositório e versão identificada.",
+          "Documentar procedimento oficial reproduzível ou distribuição legítima sem patches GetAll."
+        ],
+        "last_verified_local": "2026-11-27",
+        "review_depth": "Investigados README integral, API de releases/issues, árvore e pesquisas em dois motores por repositório, autor, gameplay e vídeo. Nenhum binário foi executado; não se atribui ausência de boot GetAll como motivo.",
+        "review_limits": [
+          "Auditoria documental e visual remota; nenhum boot com mídia original nem teste local de gameplay feito nesta rodada.",
+          "Evidência de uma versão pode demonstrar funcionalidade histórica do projeto, sem certificar todas as releases recentes ou todos os modos.",
+          "Hashes de assets são metadados fornecidos pelo hospedeiro; não foram revalidados por download."
+        ],
+        "provenance": "Código/documentação/releases consultados no repositório do mantenedor identificado; ROMs, ISOs e recursos proprietários não foram baixados.",
+        "official_distribution_observed": [],
+        "selected_issue_metadata": [],
+        "getall_boot_proven": false,
+        "getall_original_media_validation": false,
+        "getall_automation_assessment": "Separada da elegibilidade upstream; consultar decisão de implementação/fidelidade. A falta de boot GetAll não foi usada para excluir o projeto.",
+        "initial_research_classification": "unproven",
+        "provenance_review": "unconfirmed",
+        "reviewed_by": "Documentary audit of primary sources; original-media tests not performed in this review."
+      },
+      "requirements": {
+        "game_id": "dr-mario-64",
+        "verification_status": "documented_in_readme",
+        "source_url": "https://raw.githubusercontent.com/AngheloAlf/drmario64_recomp/HEAD/README.md",
+        "verified_at": "2026-11-22",
+        "system": null,
+        "installation": null,
+        "build": null,
+        "general": "• Compiladores C (c17) e C++ (c++20). • É recomendado o Clang 15 ou mais recente. • Isso deve ser instalado a partir do código-fonte no Linux. • Por exemplo: tar -xzf SDL2-2.26.1.tar.gz sudo make install • libgtk-3-dev",
+        "source_text": {
+          "system": null,
+          "installation": null,
+          "build": null,
+          "general": "[Dependencies]\n- git\n- C (c17) and C++ (c++20) compilers.\n  - Clang 15 or newer is recommended.\n- SDL2\n  - This has to be installed from source under Linux.\n  - For example:\n\n    ```bash\n    wget https://www.libsdl.org/release/SDL2-2.26.1.tar.gz\n    tar -xzf SDL2-2.26.1.tar.gz\n    cd SDL2-2.26.1\n    ./configure\n    make -j $(nproc)\n    sudo make install\n    ```\n\n- libgtk-3-dev"
+        },
+        "evidence": [
+          {
+            "category": "general",
+            "heading": "Dependencies",
+            "source_url": "https://raw.githubusercontent.com/AngheloAlf/drmario64_recomp/HEAD/README.md"
+          }
+        ],
+        "translation_status": "machine_translated_pt_br",
+        "legacy_reported_pt": "Compilação manual complexa (decomp + N64Recomp + CMake/Clang) e ROM US original.",
+        "translation_method": "automatic_machine_translation",
+        "translation_reviewed_by_human": false
+      },
+      "about": {
+        "project": {
+          "game_id": "dr-mario-64",
+          "fallback_name": "drmario64_recomp",
+          "description_pt": "Prova de conceito inicial limitada a 1 jogador, com problemas de proporção e crash ao fechar. Substituído pelo fork drmario64_recomp_plus.",
+          "description_status": "reviewed_pt_br",
+          "description_source_url": "https://raw.githubusercontent.com/AngheloAlf/drmario64_recomp/HEAD/README.md",
+          "development_status_reported": "Abandonado / Arquivado",
+          "legacy_audit": {
+            "developer": null,
+            "version": {
+              "reported_by_gemini": "Sem releases (arquivado em 06/10/2026)",
+              "latest_tag_observed_in_audit": "-",
+              "release_tag_to_install": null,
+              "release_asset_to_install": null
+            },
+            "windows": {
+              "reported_availability": "Não (compilação manual)",
+              "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+              "installation_enabled": false
+            },
+            "validation": {
+              "repository": "GitHub API: OK",
+              "releases": "Sem releases GitHub",
+              "notes": "Repositório arquivado; não há releases.",
+              "functional_installation_tested": false
+            }
+          },
+          "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
+        },
+        "game": {
+          "title": "Dr. Mario 64",
+          "description": "Jogo de quebra-cabeça em que cápsulas coloridas precisam ser combinadas para eliminar vírus do tabuleiro.",
+          "description_source_url": null,
+          "review_status": "reviewed_pt_br",
+          "description_type": "resumo_editorial_do_jogo"
+        }
+      }
+    },
+    "gga64recomp": {
+      "game_id": "goemon-s-great-adventure",
+      "game": {
+        "id": "goemon-s-great-adventure",
+        "title": "Goemon's Great Adventure",
+        "platform_group": "Nintendo 64",
+        "category": null,
+        "cover": "https://cdn2.steamgriddb.com/grid/69b717a1d64f62465d96885dcaf9a77d.png",
+        "banner": "https://cdn2.steamgriddb.com/hero/889e24afeec5410f5a52d1ed9e09fba0.png",
+        "screenshots": [],
+        "featured": false,
+        "release_date": "1998-12-23",
+        "added_at": "2026-11-22"
+      },
+      "project": {
+        "id": "gga64recomp",
+        "source": {
+          "url": "https://github.com/StopSine/GGA64Recomp",
+          "provider": "github",
+          "github_repository": "StopSine/GGA64Recomp",
+          "releases_url": "https://github.com/StopSine/GGA64Recomp/releases"
+        },
+        "fallback_name": "GGA64Recomp",
+        "windows": {
+          "installation_enabled": false
+        },
+        "added_at": "2026-11-22"
+      },
+      "assessment": {
+        "project_id": "gga64recomp",
+        "row": 31,
+        "game_id": "goemon-s-great-adventure",
+        "game_title": "Goemon's Great Adventure",
+        "project_name": "GGA64Recomp",
+        "classification": "unproven",
+        "eligible": false,
+        "official_repository": "https://github.com/StopSine/GGA64Recomp",
+        "previous_catalog_repository": "https://github.com/StopSine/GGA64Recomp",
+        "official_install_method": "Release oficial StopSine/GGA64Recomp v0.1.0 oferece pacotes Windows e build documentado no branch dev; requer ROM própria US de Goemon's Great Adventure.",
+        "official_install_sources": [
+          "https://github.com/StopSine/GGA64Recomp",
+          "https://github.com/StopSine/GGA64Recomp/releases"
+        ],
+        "gameplay_evidence": [
+          {
+            "url": "https://github.com/StopSine/GGA64Recomp/releases/tag/v0.1.0",
+            "kind": "declaracao_do_autor_na_release",
+            "observed": "Autor afirma ter testado algumas fases, sem identificação de quais, vídeo, save ou relato detalhado verificável. A existência desse pacote e afirmação genérica não foram tomadas como prova suficiente de gameplay."
+          }
+        ],
+        "limitations": [
+          "Não foram encontradas issues de execução, demonstrações identificáveis ou relato externo específico após busca ampliada. Listagem Quiver repete informações gerais sem prova adicional. Não transferir a evidência de DreaXer/GGARecomp para este fork."
+        ],
+        "reason": "Documentação e release sugerem execução, mas a investigação não encontrou evidência específica verificável além dessas declarações. Isso significa prova insuficiente, não conclusão de que o port esteja quebrado.",
+        "reinclusion_conditions": [
+          "Identificar demonstração ou relato reproduzível com fases/ações reais, versão e este repositório exatos.",
+          "Confirmar que a release/processo oficial reproduz o jogo sem patches funcionais do GetAll."
+        ],
+        "last_verified_local": "2026-11-27",
+        "review_depth": "Investigados README, release0.1.0, árvore dev, API de issues vazia e pesquisas em dois motores por StopSine/GGA64Recomp, autor, gameplay, levels, vídeo e relatos. Comparação com DreaXer foi feita sem transferir provas entre forks.",
+        "review_limits": [
+          "Auditoria documental e visual remota; nenhum boot com mídia original nem teste local de gameplay feito nesta rodada.",
+          "Evidência de uma versão pode demonstrar funcionalidade histórica do projeto, sem certificar todas as releases recentes ou todos os modos.",
+          "Hashes de assets são metadados fornecidos pelo hospedeiro; não foram revalidados por download."
+        ],
+        "provenance": "Código/documentação/releases consultados no repositório do mantenedor identificado; ROMs, ISOs e recursos proprietários não foram baixados.",
+        "official_distribution_observed": [
+          {
+            "url": "https://github.com/StopSine/GGA64Recomp/releases/tag/v0.1.0",
+            "tag": "v0.1.0",
+            "published_at": "2026-09-19T09:50:32Z",
+            "assets": [
+              {
+                "name": "GGA64Recompiled-Windows-Debug.zip",
+                "url": "https://github.com/StopSine/GGA64Recomp/releases/download/v0.1.0/GGA64Recompiled-Windows-Debug.zip",
+                "bytes": 23697598,
+                "digest": "sha256:74e0222e2fe79222588c8826910255f52b3da9f4fac8671c57ff202b164c919a"
+              },
+              {
+                "name": "GGA64Recompiled-Windows-RelWithDebInfo.zip",
+                "url": "https://github.com/StopSine/GGA64Recomp/releases/download/v0.1.0/GGA64Recompiled-Windows-RelWithDebInfo.zip",
+                "bytes": 19956602,
+                "digest": "sha256:ce2301089d964545db5d58ff04d68dccd8c79e078f53a353b3e56bbf86220883"
+              }
+            ]
+          }
+        ],
+        "selected_issue_metadata": [],
+        "getall_boot_proven": false,
+        "getall_original_media_validation": false,
+        "getall_automation_assessment": "Separada da elegibilidade upstream; consultar decisão de implementação/fidelidade. A falta de boot GetAll não foi usada para excluir o projeto.",
+        "initial_research_classification": "unproven",
+        "provenance_review": "unconfirmed",
+        "reviewed_by": "Documentary audit of primary sources; original-media tests not performed in this review."
+      },
+      "requirements": {
+        "game_id": "goemon-s-great-adventure",
+        "verification_status": "documented_in_readme",
+        "source_url": "https://raw.githubusercontent.com/StopSine/GGA64Recomp/HEAD/README.md",
+        "verified_at": "2026-11-22",
+        "system": "É necessária uma GPU compatível com Direct3D 12.0 (Shader Model 6), Vulkan 1.2 ou suporte a Metal Argument Buffers Tier 2 para executar este projeto. As GPUs mais antigas que devem ser compatíveis para cada fornecedor são: • GeForce GT 630 • Radeon HD 7750 (a de 2012, não confundir com a série RX 7000) e mais recentes • Intel HD 510 (Skylake)",
+        "installation": null,
+        "build": "As instruções sobre como compilar este projeto podem ser encontradas no arquivo [BUILDING.md](BUILDING.md). A compilação requer uma cópia do jogo, e a geração do código desmontado a partir do qual ele é recompilado é uma etapa separada, gerenciada pelo submódulo `lib/gga`.",
+        "general": null,
+        "source_text": {
+          "system": "[System Requirements]\nA GPU supporting Direct3D 12.0 (Shader Model 6), Vulkan 1.2, or Metal Argument Buffers Tier 2 support is required to run this project. The oldest GPUs that should be supported for each vendor are:\n* GeForce GT 630\n* Radeon HD 7750 (the one from 2012, not to be confused with the RX 7000 series) and newer\n* Intel HD 510 (Skylake)\n* A Mac with Apple Silicon or an Intel 7th Gen CPU with MacOS 13.0+\n\nOn x86-64 PCs, a CPU supporting the SSE4.1 instruction set is also required (Intel Core 2 Penryn series or AMD Bulldozer and newer). ARM64 builds will work on any ARM64 CPU.\n\nIf you have issues with crashes on startup, make sure your graphics drivers are fully up to date.",
+          "installation": null,
+          "build": "[Building]\nInstructions on how to build this project can be found in the [BUILDING.md](BUILDING.md) file. Building requires a copy of the game, and generating the disassembly it recompiles from is a separate step handled by the [`lib/gga`](https://github.com/StopSine/gga) submodule.",
+          "general": null
+        },
+        "evidence": [
+          {
+            "category": "system",
+            "heading": "System Requirements",
+            "source_url": "https://raw.githubusercontent.com/StopSine/GGA64Recomp/HEAD/README.md"
+          },
+          {
+            "category": "build",
+            "heading": "Building",
+            "source_url": "https://raw.githubusercontent.com/StopSine/GGA64Recomp/HEAD/README.md"
+          }
+        ],
+        "translation_status": "machine_translated_pt_br",
+        "legacy_reported_pt": "ROM US de Goemon's Great Adventure e build local para testes.",
+        "translation_method": "automatic_machine_translation",
+        "translation_reviewed_by_human": false
+      },
+      "about": {
+        "project": {
+          "game_id": "goemon-s-great-adventure",
+          "fallback_name": "GGA64Recomp",
+          "description_pt": "Fork WIP de Goemon64Recomp com widescreen e Controller Pak funcional, em estágio inicial frente ao GGARecomp (baseado na decompilação PandaPandel/Goemons-Great-Adventure-Decomp).",
+          "description_status": "reviewed_pt_br",
+          "description_source_url": "https://raw.githubusercontent.com/StopSine/GGA64Recomp/HEAD/README.md",
+          "development_status_reported": "Beta / Experimental",
+          "legacy_audit": {
+            "developer": null,
+            "version": {
+              "reported_by_gemini": "1 tag inicial (WIP)",
+              "latest_tag_observed_in_audit": "v0.1.0",
+              "release_tag_to_install": null,
+              "release_asset_to_install": null
+            },
+            "windows": {
+              "reported_availability": "Não verificado / WIP inicial",
+              "audit_result": "Arquivo Windows confirmado pelo nome na release consultada",
+              "installation_enabled": false
+            },
+            "validation": {
+              "repository": "GitHub API: OK",
+              "releases": "Release GitHub consultada",
+              "notes": null,
+              "functional_installation_tested": false
+            }
+          },
+          "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
+        },
+        "game": {
+          "title": "Goemon's Great Adventure",
+          "description": "Jogo de plataforma com Goemon e seus aliados, combinando exploração, combate e trechos com o robô Impact.",
+          "description_source_url": null,
+          "review_status": "reviewed_pt_br",
+          "description_type": "resumo_editorial_do_jogo"
+        }
+      }
+    },
+    "wind-waker-recomp": {
+      "game_id": "the-legend-of-zelda-the-wind-waker",
+      "game": {
+        "id": "the-legend-of-zelda-the-wind-waker",
+        "title": "The Legend of Zelda: The Wind Waker",
+        "platform_group": "GameCube",
+        "category": null,
+        "cover": "https://cdn2.steamgriddb.com/grid/304678bd2a45713cc7bfcb1a9e19c8e4.png",
+        "banner": "https://cdn2.steamgriddb.com/hero/3afa7b5aa70fc9e1f9e1464cc636e5bd.png",
+        "screenshots": [],
+        "featured": false,
+        "release_date": "2003-03-24",
+        "added_at": "2026-11-22"
+      },
+      "project": {
+        "id": "wind-waker-recomp",
+        "source": {
+          "url": "https://github.com/elliotttate/Wind-Waker-Recomp",
+          "provider": "github",
+          "github_repository": "elliotttate/Wind-Waker-Recomp",
+          "releases_url": "https://github.com/elliotttate/Wind-Waker-Recomp/releases"
+        },
+        "fallback_name": "Wind-Waker-Recomp",
+        "windows": {
+          "installation_enabled": false
+        },
+        "status": "superseded",
+        "superseded_by": "bluewake",
+        "added_at": "2026-11-22"
+      },
+      "assessment": {
+        "project_id": "wind-waker-recomp",
+        "row": 51,
+        "classification": "ineligible",
+        "eligible": false,
+        "official_repository": "https://github.com/elliotttate/Wind-Waker-Recomp",
+        "official_install_method": "Seguir a migração oficial para BlueWake; não publicar instalação separada deste ID.",
+        "gameplay_evidence": [
+          {
+            "url": "https://github.com/elliotttate/Wind-Waker-Recomp",
+            "kind": "upstream_supersession_notice",
+            "observed": "Aviso inicial do repositório anuncia mudança para BlueWake.",
+            "ref_id_if_web": null
+          },
+          {
+            "url": "https://github.com/elliotttate/Wind-Waker-Recomp/issues/27",
+            "kind": "user_gameplay_report",
+            "observed": "Relato de softlock em Forsaken Fortress refere-se ao port atual, não justifica conservar a entrada histórica duplicada.",
+            "ref_id_if_web": null,
+            "source_evidence_kind": "upstream_issue_execution_report"
+          }
+        ],
+        "limitations": [
+          "Identidade do projeto mudou; ausência de release independente atual."
+        ],
+        "reason": "Entrada antiga supersedida: o próprio repositório redireciona a BlueWake, projeto já catalogado. Remover a duplicidade, sem concluir que BlueWake não funciona.",
+        "reinclusion_conditions": [
+          "Somente se voltar a existir projeto independente funcional e verificável, distinto de BlueWake."
+        ],
+        "last_verified_local": "2026-11-27",
+        "review_depth": "README/procedimento oficial + listagem das releases e issues; aprofundamento em relatos de fases/combate, documentos de validação e distribuição quando necessário. Arquivos brutos preservados com hashes.",
+        "review_limits": [
+          "Pesquisa de fontes públicas; nenhuma mídia original foi obtida e nenhum jogo foi executado localmente nesta auditoria.",
+          "Relatos upstream são evidência externa, não homologação de instalação, boot ou gameplay via GetAll. Não se auditou bit a bit cada binário distribuído.",
+          "A falta de confirmação de fim de campanha não foi tratada como ausência de gameplay. Capturas de títulos/menus e builds isolados não foram aceitos como prova."
+        ],
+        "upstream_functional": {
+          "status": "ineligible",
+          "scope": "catalog_eligibility"
+        },
+        "getall_execution_evidence": {
+          "original_media": "unknown",
+          "first_boot": "unknown",
+          "gameplay": "unknown"
+        },
+        "integrity_provenance": {
+          "source": "Official repository/release or documented upstream owner, with canonical URLs recorded.",
+          "claim_limit": "No claim of legal ownership of the original game, independent binary reproducibility, or byte-for-byte identity of all release assets. Original game media remains user supplied."
+        },
+        "initial_research_classification": "ineligible",
+        "provenance_review": "official_source",
+        "reviewed_by": "Documentary audit of primary sources; original-media tests not performed in this review."
+      },
+      "requirements": {
+        "game_id": "the-legend-of-zelda-the-wind-waker",
+        "verification_status": "documented_in_readme",
+        "source_url": "https://raw.githubusercontent.com/elliotttate/Wind-Waker-Recomp/HEAD/README.md",
+        "verified_at": "2026-11-22",
+        "system": null,
+        "installation": null,
+        "build": "• *Baixe:** a versão do Windows na página de lançamentos do BlueWake. 1. Descompacte a pasta inteira em qualquer lugar e execute `BlueWake.exe`. Ele não está assinado, então o Windows pode dizer que protegeu seu PC: escolha **Mais informações** e **Executar mesmo assim**. 2. Na primeira vez, ele pede a imagem do seu disco. Ele verifica se é o disco dos EUA, prepara-o uma vez (alguns segundos; um `.rvz` é primeiro descompactado em um ISO) e lembra-se dele.",
+        "general": null,
+        "source_text": {
+          "system": null,
+          "installation": null,
+          "build": "[Windows]\n**Download:** the Windows build from [BlueWake's Releases page](https://github.com/chrissotraidis/bluewake/releases/latest).\n\n1. Unpack the whole folder anywhere and run `BlueWake.exe`. It is not signed, so Windows may say it\n   protected your PC: choose **More info**, then **Run anyway**.\n2. The first time, it asks for your disc image. It checks that it is the USA disc, prepares it once (a few\n   seconds; an `.rvz` is first unpacked to an ISO) and remembers it. Later launches start the game straight away.\n\nNeeds Windows 10 or 11 (64-bit), a Direct3D 12 GPU and a CPU with AVX2 (Intel Haswell, AMD Zen or newer).\n\nThe settings (F1) have four tabs: **Display** (fullscreen; the frame rate: 30 FPS, 60 or 120 FPS with frame\ninterpolation, the display's own rate up to 240, or the experimental 60 Hz game logic; resolution, filtering), **Controls** (mouse and stick cameras), **Mods** (aspect ratio, Better Wind Waker,\nquick doors, climbing, HD textures) and **Sound and files**, with **Save state** and **Load latest state**\nat the bottom. Saves, settings, save states (`states`), the prepared disc and session logs are in\n`%APPDATA%\\BlueWake`.\n\nBuilding it yourself from your disc (Visual Studio's clang, Python, CMake and Ninja): see\n[docs/WINDOWS.md](https://github.com/elliotttate/Wind-Waker-Recomp/blob/windows-release/docs/WINDOWS.md)\non the `windows-release` branch, where the Windows port lives.",
+          "general": null
+        },
+        "evidence": [
+          {
+            "category": "build",
+            "heading": "Windows",
+            "source_url": "https://raw.githubusercontent.com/elliotttate/Wind-Waker-Recomp/HEAD/README.md"
+          }
+        ],
+        "translation_status": "machine_translated_pt_br",
+        "legacy_reported_pt": "Mesmos do BlueWake (baixar diretamente no repositório BlueWake).",
+        "translation_method": "automatic_machine_translation",
+        "translation_reviewed_by_human": false
+      },
+      "about": {
+        "project": {
+          "game_id": "the-legend-of-zelda-the-wind-waker",
+          "fallback_name": "Wind-Waker-Recomp",
+          "description_pt": "Fork original que introduziu D3D12, Smooth Motion 240 FPS e escalada livre; foi oficialmente fundido de volta ao BlueWake em outubro de 2026.",
+          "description_status": "reviewed_pt_br",
+          "description_source_url": "https://raw.githubusercontent.com/elliotttate/Wind-Waker-Recomp/HEAD/README.md",
+          "development_status_reported": "Descontinuado / Substituído por bluewake",
+          "legacy_audit": {
+            "developer": null,
+            "version": {
+              "reported_by_gemini": "Despublicado em out/2026 (última tag 0.4.0)",
+              "latest_tag_observed_in_audit": "-",
+              "release_tag_to_install": null,
+              "release_asset_to_install": null
+            },
+            "windows": {
+              "reported_availability": "Não neste repo (downloads movidos para BlueWake)",
+              "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+              "installation_enabled": false
+            },
+            "validation": {
+              "repository": "GitHub API: OK",
+              "releases": "Sem releases GitHub",
+              "notes": null,
+              "functional_installation_tested": false
+            }
+          },
+          "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados."
+        },
+        "game": {
+          "title": "The Legend of Zelda: The Wind Waker",
+          "description": "Aventura de ação em que Link navega por um grande oceano, explora ilhas e enfrenta ameaças ao reino.",
+          "description_source_url": null,
+          "review_status": "reviewed_pt_br",
+          "description_type": "resumo_editorial_do_jogo"
+        }
+      }
+    },
+    "twilight-princess-courage-reborn": {
+      "game_id": "the-legend-of-zelda-twilight-princess",
+      "game": {
+        "id": "the-legend-of-zelda-twilight-princess",
+        "title": "The Legend of Zelda: Twilight Princess",
+        "platform_group": "GameCube",
+        "category": null,
+        "cover": "https://cdn2.steamgriddb.com/grid/36d6a670240681fbbf69cbba0c9065ce.png",
+        "banner": "https://cdn2.steamgriddb.com/hero/581c81b11afa90b13a0649c5af9ac4bb.jpg",
+        "screenshots": [],
+        "featured": false,
+        "release_date": "2006-12-02",
+        "added_at": "2026-11-22"
+      },
+      "project": {
+        "id": "twilight-princess-courage-reborn",
+        "source": {
+          "url": "https://www.pcgamer.com/games/action/zelda-twilight-princess-pc-port-inches-closer-to-release-with-new-showcase-video-and-modders-have-already-added-linkle-into-the-game/",
+          "provider": "external",
+          "github_repository": null,
+          "releases_url": null
+        },
+        "fallback_name": "Twilight Princess: Courage Reborn",
+        "windows": {
+          "installation_enabled": false
+        },
+        "status": "official_package_unavailable",
+        "added_at": "2026-11-22"
+      },
+      "assessment": {
+        "project_id": "twilight-princess-courage-reborn",
+        "row": 54,
+        "classification": "unproven",
+        "eligible": false,
+        "official_repository": "https://github.com/Linifadomra/Courage-Reborn",
+        "official_install_method": "Documentação oficial prescreve branch 0.8, submódulos, MSVC, CMake e vcpkg. Repositório/README do branch/releases retornaram404; não se conseguiu obter uma distribuição verificável para reproduzir o procedimento.",
+        "gameplay_evidence": [
+          {
+            "url": "https://docs.couragereborn.com/building/build/",
+            "kind": "official_build_documentation",
+            "observed": "Guia oficial aponta clone do branch 0.8 e build MSVC+vcpkg; a existência do guia não substitui acesso ao código e prova de jogo.",
+            "ref_id_if_web": "turn669615857view1"
+          },
+          {
+            "url": "https://api.github.com/repos/Linifadomra/Courage-Reborn",
+            "kind": "official_source_access_failure",
+            "observed": "Consulta ao repo e às releases devolveu404; leitura de README.md em0.8 também404.",
+            "ref_id_if_web": null
+          },
+          {
+            "url": "https://github.com/Linifadomra/Petrichor",
+            "kind": "related_official_source",
+            "observed": "Framework de mods público existe, mas não contém o port completo.",
+            "ref_id_if_web": null
+          }
+        ],
+        "limitations": [
+          "Vídeo de demonstração foi localizado, mas sua reprodução pelo navegador de pesquisa falhou; não foi tratado como prova assistida.",
+          "Documentação e projetos auxiliares não bastam para instalar o jogo."
+        ],
+        "reason": "Existe documentação oficial e demonstrações anunciadas, mas fonte/pacote necessários não ficaram acessíveis nesta investigação. Não sustenta instalação ativa nem conclusão de que o jogo jamais funcionou.",
+        "reinclusion_conditions": [
+          "Repositório ou pacote oficial acessível, procedimento reproduzível com mídia própria e demonstração verificável de gameplay além de boot/render."
+        ],
+        "last_verified_local": "2026-11-27",
+        "review_depth": "README/procedimento oficial + listagem das releases e issues; aprofundamento em relatos de fases/combate, documentos de validação e distribuição quando necessário. Arquivos brutos preservados com hashes.",
+        "review_limits": [
+          "Pesquisa de fontes públicas; nenhuma mídia original foi obtida e nenhum jogo foi executado localmente nesta auditoria.",
+          "Relatos upstream são evidência externa, não homologação de instalação, boot ou gameplay via GetAll. Não se auditou bit a bit cada binário distribuído.",
+          "A falta de confirmação de fim de campanha não foi tratada como ausência de gameplay. Capturas de títulos/menus e builds isolados não foram aceitos como prova."
+        ],
+        "upstream_functional": {
+          "status": "unknown",
+          "scope": "catalog_eligibility"
+        },
+        "getall_execution_evidence": {
+          "original_media": "unknown",
+          "first_boot": "unknown",
+          "gameplay": "unknown"
+        },
+        "integrity_provenance": {
+          "source": "Official repository/release or documented upstream owner, with canonical URLs recorded.",
+          "claim_limit": "No claim of legal ownership of the original game, independent binary reproducibility, or byte-for-byte identity of all release assets. Original game media remains user supplied."
+        },
+        "initial_research_classification": "unproven",
+        "provenance_review": "unconfirmed",
+        "reviewed_by": "Documentary audit of primary sources; original-media tests not performed in this review."
+      },
+      "requirements": {
+        "game_id": "the-legend-of-zelda-twilight-princess",
+        "verification_status": "pending_review",
+        "source_url": null,
+        "verified_at": null,
+        "system": null,
+        "installation": null,
+        "build": null,
+        "general": null,
+        "source_text": {
+          "system": null,
+          "installation": null,
+          "build": null,
+          "general": null
+        },
+        "evidence": [],
+        "translation_status": "not_available",
+        "legacy_reported_pt": "Ainda indisponível ao público; exigirá ISO legal de Twilight Princess (GC) quando lançado."
+      },
+      "about": {
+        "project": {
+          "game_id": "the-legend-of-zelda-twilight-princess",
+          "fallback_name": "Twilight Princess: Courage Reborn",
+          "description_pt": "Port nativo separado baseado na decompilação GC em parceria anunciada com libultraship, focado em 60+ FPS, mouse/teclado, texturas e mods.",
+          "description_status": "reviewed_pt_br",
+          "description_source_url": null,
+          "development_status_reported": "Beta / Experimental (fechado)",
+          "legacy_audit": {
+            "developer": null,
+            "version": {
+              "reported_by_gemini": "Sem release pública (sem repo público no GitHub)",
+              "latest_tag_observed_in_audit": "-",
+              "release_tag_to_install": null,
+              "release_asset_to_install": null
+            },
+            "windows": {
+              "reported_availability": "Não (desenvolvimento fechado em Discord)",
+              "audit_result": "Requer verificação na origem",
+              "installation_enabled": false
+            },
+            "validation": {
+              "repository": "Fonte externa ou URL não específica de repositório GitHub",
+              "releases": "Não verificado por API GitHub",
+              "notes": null,
+              "functional_installation_tested": false
+            }
+          },
+          "description_review_note": "Resumo editorial em português; fonte oficial individual não foi verificada nesta auditoria."
+        },
+        "game": {
+          "title": "The Legend of Zelda: Twilight Princess",
+          "description": "Aventura de ação em Hyrule na qual Link alterna entre as formas humana e de lobo para enfrentar o Reino do Crepúsculo.",
+          "description_source_url": null,
+          "review_status": "reviewed_pt_br",
+          "description_type": "resumo_editorial_do_jogo"
+        }
+      }
+    },
+    "metaforce": {
+      "game_id": "metroid-prime",
+      "game": {
+        "id": "metroid-prime",
+        "title": "Metroid Prime",
+        "platform_group": "GameCube",
+        "category": null,
+        "cover": "https://cdn2.steamgriddb.com/grid/0327d825efc9703e56afaa2e9e1cef9e.png",
+        "banner": "https://cdn2.steamgriddb.com/hero/43a1b6e30d834c57456f0f6f727026b8.png",
+        "screenshots": [],
+        "featured": false,
+        "release_date": "2002-11-17",
+        "added_at": "2026-11-22"
+      },
+      "project": {
+        "id": "metaforce",
+        "source": {
+          "url": "https://github.com/AxioDL/metaforce",
+          "provider": "github",
+          "github_repository": "AxioDL/metaforce",
+          "releases_url": null
+        },
+        "fallback_name": "Metaforce",
+        "windows": {
+          "installation_enabled": false
+        },
+        "status": "official_package_unavailable",
+        "added_at": "2026-11-22"
+      },
+      "assessment": {
+        "project_id": "metaforce",
+        "row": 58,
+        "classification": "unproven",
+        "eligible": false,
+        "official_repository": "https://github.com/AxioDL/metaforce",
+        "official_install_method": "O site AxioDL aponta Metaforce/HECL e diretórios oficiais de downloads; os diretórios continuous e dev retornaram404. Repositório AxioDL também404; mirror Antidote possui código e instruções CMake/MSVC, mas declara builds indisponíveis durante estabilização.",
+        "gameplay_evidence": [
+          {
+            "url": "https://axiodl.com/",
+            "kind": "official_project_status",
+            "observed": "Site oficial declara Metaforce In-Game para Metroid Prime1 e aponta código/download/vídeo.",
+            "ref_id_if_web": "turn597242887view1"
+          },
+          {
+            "url": "https://releases.axiodl.com/",
+            "kind": "official_distribution_access_failure",
+            "observed": "Índice responde, mas /continuous/ e /dev/ vinculados responderam404.",
+            "ref_id_if_web": "turn718005213view0"
+          },
+          {
+            "url": "https://github.com/Antidote/metaforce",
+            "kind": "official_maintainer_mirror",
+            "observed": "Mirror do mantenedor tem README de reescrita sobre matching-decomp e informa builds indisponíveis em estabilização; nenhuma release/issue no mirror.",
+            "ref_id_if_web": null
+          },
+          {
+            "url": "https://github.com/chrissotraidis/ectopad",
+            "kind": "related_fork_limit",
+            "observed": "Fork Apple declara pausa pela fonte upstream privada; seu teste de59% em Chozo Ruins não foi atribuído ao build Windows catalogado.",
+            "ref_id_if_web": null
+          }
+        ],
+        "limitations": [
+          "Não se baixaram builds antigos nem se executou mídia original.",
+          "Falha de acesso não prova que toda versão histórica é não jogável.",
+          "Não reusar build/custom patches do GetAll como substituto da fonte oficial."
+        ],
+        "reason": "Há histórico e anúncio oficial de execução em jogo, porém não foi possível vincular uma distribuição oficial hoje acessível ou build reproduzido à jogabilidade do commit pretendido. Retirar provisoriamente do ativo e reavaliar; não classificar como decomp sem port.",
+        "reinclusion_conditions": [
+          "Localizar distribuição oficial íntegra com origem/versionamento verificável e evidência de gameplay correspondente, ou reproduzir build oficial acessível sem patches AllFix."
+        ],
+        "last_verified_local": "2026-11-27",
+        "review_depth": "README/procedimento oficial + listagem das releases e issues; aprofundamento em relatos de fases/combate, documentos de validação e distribuição quando necessário. Arquivos brutos preservados com hashes.",
+        "review_limits": [
+          "Pesquisa de fontes públicas; nenhuma mídia original foi obtida e nenhum jogo foi executado localmente nesta auditoria.",
+          "Relatos upstream são evidência externa, não homologação de instalação, boot ou gameplay via GetAll. Não se auditou bit a bit cada binário distribuído.",
+          "A falta de confirmação de fim de campanha não foi tratada como ausência de gameplay. Capturas de títulos/menus e builds isolados não foram aceitos como prova."
+        ],
+        "upstream_functional": {
+          "status": "unknown",
+          "scope": "catalog_eligibility"
+        },
+        "getall_execution_evidence": {
+          "original_media": "unknown",
+          "first_boot": "unknown",
+          "gameplay": "unknown"
+        },
+        "integrity_provenance": {
+          "source": "Official repository/release or documented upstream owner, with canonical URLs recorded.",
+          "claim_limit": "No claim of legal ownership of the original game, independent binary reproducibility, or byte-for-byte identity of all release assets. Original game media remains user supplied."
+        },
+        "initial_research_classification": "unproven",
+        "provenance_review": "unconfirmed",
+        "reviewed_by": "Documentary audit of primary sources; original-media tests not performed in this review."
+      },
+      "requirements": {
+        "game_id": "metroid-prime",
+        "verification_status": "pending_review",
+        "source_url": null,
+        "verified_at": null,
+        "system": null,
+        "installation": null,
+        "build": null,
+        "general": null,
+        "source_text": {
+          "system": null,
+          "installation": null,
+          "build": null,
+          "general": null
+        },
+        "evidence": [],
+        "translation_status": "not_available",
+        "legacy_reported_pt": "ISO legal de Metroid Prime e compilação manual do código-fonte (ou verificação de builds externas em axiodl.com)."
+      },
+      "about": {
+        "project": {
+          "game_id": "metroid-prime",
+          "fallback_name": "Metaforce",
+          "description_pt": "Reimplementação nativa em C++ da engine da Retro Studios (Metroid Prime 1 e DKCR) com extrator HECL e apoio de PrimeDecomp. Reconstrução completa da engine do zero (status In-Game em MP1).",
+          "description_status": "reviewed_pt_br",
+          "description_source_url": null,
+          "development_status_reported": "Beta / Experimental (desenvolvimento lento)",
+          "legacy_audit": {
+            "developer": null,
+            "version": {
+              "reported_by_gemini": "p12 (02/09/2015 — tag obsoleta no GitHub)",
+              "latest_tag_observed_in_audit": "ERROR",
+              "release_tag_to_install": null,
+              "release_asset_to_install": null
+            },
+            "windows": {
+              "reported_availability": "Não atualizado nas GitHub Releases",
+              "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+              "installation_enabled": false
+            },
+            "validation": {
+              "repository": "GitHub API: 404 (fonte indexada na busca pública; conferir acesso)",
+              "releases": "GitHub API 404",
+              "notes": "Requisições autenticadas de metadata e releases retornaram 404, mas buscas públicas indexam a página. Tratar como acesso não resolvido, não como inexistente.",
+              "functional_installation_tested": false
+            }
+          },
+          "description_review_note": "Resumo editorial em português; fonte oficial individual não foi verificada nesta auditoria."
+        },
+        "game": {
+          "title": "Metroid Prime",
+          "description": "Aventura de ação em primeira pessoa em que Samus Aran explora Tallon IV, encontra equipamentos e investiga uma ameaça biológica.",
+          "description_source_url": null,
+          "review_status": "reviewed_pt_br",
+          "description_type": "resumo_editorial_do_jogo"
+        }
+      }
+    },
+    "doldecomp-mkdd-decompilacao-base": {
+      "game_id": "mario-kart-double-dash",
+      "game": {
+        "id": "mario-kart-double-dash",
+        "title": "Mario Kart: Double Dash!!",
+        "platform_group": "GameCube",
+        "category": null,
+        "cover": "https://cdn2.steamgriddb.com/grid/c22ad3828656e72b71489a0e3b20df58.png",
+        "banner": "https://cdn2.steamgriddb.com/hero/8410d493ab02b59ce1f6b4803d9dbb38.png",
+        "screenshots": [],
+        "featured": false,
+        "release_date": "2003-11-17",
+        "added_at": "2026-11-22"
+      },
+      "project": {
+        "id": "doldecomp-mkdd-decompilacao-base",
+        "source": {
+          "url": "https://github.com/doldecomp/mkdd",
+          "provider": "github",
+          "github_repository": "doldecomp/mkdd",
+          "releases_url": "https://github.com/doldecomp/mkdd/releases"
+        },
+        "fallback_name": "doldecomp/mkdd (Decompilação-base)",
+        "windows": {
+          "installation_enabled": false
+        },
+        "classification": "base_decompilation",
+        "status": "console_decompilation",
+        "added_at": "2026-11-22"
+      },
+      "assessment": {
+        "project_id": "doldecomp-mkdd-decompilacao-base",
+        "row": 65,
+        "classification": "ineligible",
+        "eligible": false,
+        "official_repository": "https://github.com/doldecomp/mkdd",
+        "official_install_method": "O build do doldecomp/mkdd reconstrói executável/imagem GameCube, não instala um port Windows.",
+        "gameplay_evidence": [
+          {
+            "url": "https://github.com/doldecomp/mkdd",
+            "kind": "upstream_target_definition",
+            "observed": "Objetivo e toolchain documentados são reconstrução de Mario Kart Double Dash para GameCube.",
+            "ref_id_if_web": null
+          }
+        ],
+        "limitations": [
+          "Decompilação e executável GameCube não constituem port nativo para PC."
+        ],
+        "reason": "Base matching-decomp GameCube; ports nativos independentes são outros IDs e não tornam esta base um produto PC separado.",
+        "reinclusion_conditions": [
+          "Novo alvo de port independente e gameplay verificável sem exigir criação de runtime pelo AllFix."
+        ],
+        "last_verified_local": "2026-11-27",
+        "review_depth": "README/procedimento oficial + listagem das releases e issues; aprofundamento em relatos de fases/combate, documentos de validação e distribuição quando necessário. Arquivos brutos preservados com hashes.",
+        "review_limits": [
+          "Pesquisa de fontes públicas; nenhuma mídia original foi obtida e nenhum jogo foi executado localmente nesta auditoria.",
+          "Relatos upstream são evidência externa, não homologação de instalação, boot ou gameplay via GetAll. Não se auditou bit a bit cada binário distribuído.",
+          "A falta de confirmação de fim de campanha não foi tratada como ausência de gameplay. Capturas de títulos/menus e builds isolados não foram aceitos como prova."
+        ],
+        "upstream_functional": {
+          "status": "ineligible",
+          "scope": "catalog_eligibility"
+        },
+        "getall_execution_evidence": {
+          "original_media": "unknown",
+          "first_boot": "unknown",
+          "gameplay": "unknown"
+        },
+        "integrity_provenance": {
+          "source": "Official repository/release or documented upstream owner, with canonical URLs recorded.",
+          "claim_limit": "No claim of legal ownership of the original game, independent binary reproducibility, or byte-for-byte identity of all release assets. Original game media remains user supplied."
+        },
+        "initial_research_classification": "ineligible",
+        "provenance_review": "official_source",
+        "reviewed_by": "Documentary audit of primary sources; original-media tests not performed in this review."
+      },
+      "requirements": {
+        "game_id": "mario-kart-double-dash",
+        "verification_status": "pending_review",
+        "source_url": "https://raw.githubusercontent.com/doldecomp/mkdd/HEAD/README.md",
+        "verified_at": null,
+        "system": null,
+        "installation": null,
+        "build": null,
+        "general": null,
+        "source_text": {
+          "system": null,
+          "installation": null,
+          "build": null,
+          "general": null
+        },
+        "evidence": [],
+        "translation_status": "not_available",
+        "legacy_reported_pt": "Disco debug MarioClub_us, Python 3 e Ninja para validar o executável GameCube."
+      },
+      "about": {
+        "project": {
+          "game_id": "mario-kart-double-dash",
+          "fallback_name": "doldecomp/mkdd (Decompilação-base)",
+          "description_pt": "Decompilação matching em andamento (focada na build de debug MarioClub_us) que fornece símbolos para futuros ports nativos.",
+          "description_status": "reviewed_pt_br",
+          "description_source_url": "https://raw.githubusercontent.com/doldecomp/mkdd/HEAD/README.md",
+          "development_status_reported": "Beta / Experimental (WIP)",
+          "legacy_audit": {
+            "developer": null,
+            "version": {
+              "reported_by_gemini": "Sem releases ou tags (commit nov/2026)",
+              "latest_tag_observed_in_audit": "-",
+              "release_tag_to_install": null,
+              "release_asset_to_install": null
+            },
+            "windows": {
+              "reported_availability": "Não (decompilação 1:1 para GameCube)",
+              "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+              "installation_enabled": false
+            },
+            "validation": {
+              "repository": "GitHub API: OK",
+              "releases": "Sem releases GitHub",
+              "notes": null,
+              "functional_installation_tested": false
+            }
+          },
+          "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados. Classificado como base_decompilation (nao instalavel para Windows)."
+        },
+        "game": {
+          "title": "Mario Kart: Double Dash!!",
+          "description": "Jogo de corrida de karts para GameCube em que cada veículo leva dois personagens, que alternam entre dirigir e usar itens.",
+          "description_source_url": null,
+          "review_status": "reviewed_pt_br",
+          "description_type": "resumo_editorial_do_jogo"
+        }
+      }
+    },
+    "tmc-decompilacao-base": {
+      "game_id": "the-legend-of-zelda-the-minish-cap",
+      "game": {
+        "id": "the-legend-of-zelda-the-minish-cap",
+        "title": "The Legend of Zelda: The Minish Cap",
+        "platform_group": "Game Boy Advance",
+        "category": null,
+        "cover": "https://cdn2.steamgriddb.com/grid/a687f78b9842c87225e74921765feb1b.png",
+        "banner": "https://cdn2.steamgriddb.com/hero/3683c77437ca00b55864049ba7f51124.png",
+        "screenshots": [],
+        "featured": false,
+        "release_date": "2005-01-10",
+        "added_at": "2026-11-22"
+      },
+      "project": {
+        "id": "tmc-decompilacao-base",
+        "source": {
+          "url": "https://github.com/zeldaret/tmc",
+          "provider": "github",
+          "github_repository": "zeldaret/tmc",
+          "releases_url": "https://github.com/zeldaret/tmc/releases"
+        },
+        "fallback_name": "tmc (Decompilação-base)",
+        "windows": {
+          "installation_enabled": false
+        },
+        "classification": "base_decompilation",
+        "status": "console_decompilation",
+        "added_at": "2026-11-22"
+      },
+      "assessment": {
+        "project_id": "tmc-decompilacao-base",
+        "row": 76,
+        "classification": "ineligible",
+        "eligible": false,
+        "official_repository": "https://github.com/zeldaret/tmc",
+        "official_install_method": "Build oficial zeldaret/tmc reconstrói ROM deGBA. ProjectPicori é o portPC distinto.",
+        "gameplay_evidence": [
+          {
+            "url": "https://github.com/zeldaret/tmc",
+            "kind": "upstream_target_definition",
+            "observed": "Projeto descreve decompilação/ROMGBA como produto do build.",
+            "ref_id_if_web": null
+          }
+        ],
+        "limitations": [
+          "Issue de usuário enviada ao repositório errado sobrePicori não altera o alvo da base."
+        ],
+        "reason": "Base de decompilação para console sem alvoPC independente identificado; não usar funcionalidade do forkPicori para validar a base.",
+        "reinclusion_conditions": [
+          "PortPC independente publicado e comprovado; preservar Picori existente."
+        ],
+        "last_verified_local": "2026-11-27",
+        "review_depth": "README/procedimento oficial + listagem das releases e issues; aprofundamento em relatos de fases/combate, documentos de validação e distribuição quando necessário. Arquivos brutos preservados com hashes.",
+        "review_limits": [
+          "Pesquisa de fontes públicas; nenhuma mídia original foi obtida e nenhum jogo foi executado localmente nesta auditoria.",
+          "Relatos upstream são evidência externa, não homologação de instalação, boot ou gameplay via GetAll. Não se auditou bit a bit cada binário distribuído.",
+          "A falta de confirmação de fim de campanha não foi tratada como ausência de gameplay. Capturas de títulos/menus e builds isolados não foram aceitos como prova."
+        ],
+        "upstream_functional": {
+          "status": "ineligible",
+          "scope": "catalog_eligibility"
+        },
+        "getall_execution_evidence": {
+          "original_media": "unknown",
+          "first_boot": "unknown",
+          "gameplay": "unknown"
+        },
+        "integrity_provenance": {
+          "source": "Official repository/release or documented upstream owner, with canonical URLs recorded.",
+          "claim_limit": "No claim of legal ownership of the original game, independent binary reproducibility, or byte-for-byte identity of all release assets. Original game media remains user supplied."
+        },
+        "initial_research_classification": "ineligible",
+        "provenance_review": "official_source",
+        "reviewed_by": "Documentary audit of primary sources; original-media tests not performed in this review."
+      },
+      "requirements": {
+        "game_id": "the-legend-of-zelda-the-minish-cap",
+        "verification_status": "documented_in_readme",
+        "source_url": "https://raw.githubusercontent.com/zeldaret/tmc/HEAD/README.md",
+        "verified_at": "2026-11-22",
+        "system": null,
+        "installation": "Para configurar o repositório, consulte [INSTALL.md](INSTALL.md).",
+        "build": null,
+        "general": null,
+        "source_text": {
+          "system": null,
+          "installation": "[Installation]\nTo set up the repository, see [INSTALL.md](INSTALL.md).",
+          "build": null,
+          "general": null
+        },
+        "evidence": [
+          {
+            "category": "installation",
+            "heading": "Installation",
+            "source_url": "https://raw.githubusercontent.com/zeldaret/tmc/HEAD/README.md"
+          }
+        ],
+        "translation_status": "machine_translated_pt_br",
+        "legacy_reported_pt": "ROM .gba e toolchain GBA para reconstrução.",
+        "translation_method": "automatic_machine_translation",
+        "translation_reviewed_by_human": false
+      },
+      "about": {
+        "project": {
+          "game_id": "the-legend-of-zelda-the-minish-cap",
+          "fallback_name": "tmc (Decompilação-base)",
+          "description_pt": "Decompilação matching (95,2%) das versões USA/JP/EU/Demos que serve de base para o Project Picori.",
+          "description_status": "reviewed_pt_br",
+          "description_source_url": "https://raw.githubusercontent.com/zeldaret/tmc/HEAD/README.md",
+          "development_status_reported": "Beta / Experimental (WIP maduro)",
+          "legacy_audit": {
+            "developer": null,
+            "version": {
+              "reported_by_gemini": "Sem releases ou tags (commit set/2026)",
+              "latest_tag_observed_in_audit": "-",
+              "release_tag_to_install": null,
+              "release_asset_to_install": null
+            },
+            "windows": {
+              "reported_availability": "Não (decompilação em C para GBA)",
+              "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+              "installation_enabled": false
+            },
+            "validation": {
+              "repository": "GitHub API: OK",
+              "releases": "Sem releases GitHub",
+              "notes": null,
+              "functional_installation_tested": false
+            }
+          },
+          "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados. Classificado como base_decompilation (nao instalavel para Windows)."
+        },
+        "game": {
+          "title": "The Legend of Zelda: The Minish Cap",
+          "description": "Aventura de ação em que Link pode encolher para explorar locais ocultos e ajudar os Minish.",
+          "description_source_url": null,
+          "review_status": "reviewed_pt_br",
+          "description_type": "resumo_editorial_do_jogo"
+        }
+      }
+    },
+    "mml1-megaman-legends-decomp": {
+      "game_id": "mega-man-legends-rockman-dash",
+      "game": {
+        "id": "mega-man-legends-rockman-dash",
+        "title": "Mega Man Legends / Rockman DASH",
+        "platform_group": "PlayStation 1",
+        "category": null,
+        "cover": "https://cdn2.steamgriddb.com/grid/de46b308829039baf89d3f4aee7e22a9.png",
+        "banner": "https://cdn2.steamgriddb.com/hero/5d6d0cae2ebed7f09d27cb0482f6875d.png",
+        "screenshots": [],
+        "featured": false,
+        "release_date": "1998-08-31",
+        "added_at": "2026-11-22"
+      },
+      "project": {
+        "id": "mml1-megaman-legends-decomp",
+        "source": {
+          "url": "https://github.com/ChrisNonyminus/mml1",
+          "provider": "github",
+          "github_repository": "ChrisNonyminus/mml1",
+          "releases_url": "https://github.com/ChrisNonyminus/mml1/releases"
+        },
+        "fallback_name": "mml1 (Megaman Legends Decomp)",
+        "windows": {
+          "installation_enabled": false
+        },
+        "classification": "base_decompilation",
+        "status": "console_decompilation",
+        "added_at": "2026-11-22"
+      },
+      "assessment": {
+        "project_id": "mml1-megaman-legends-decomp",
+        "row": 99,
+        "classification": "ineligible",
+        "eligible": false,
+        "official_repository": "https://github.com/ChrisNonyminus/mml1",
+        "official_install_method": "Procedimento doChrisNonyminus/mml1 recompõe programaPS1; não produzportWindows.",
+        "gameplay_evidence": [
+          {
+            "url": "https://github.com/ChrisNonyminus/mml1",
+            "kind": "upstream_target_definition",
+            "observed": "Escopo documentadoWIPdecomp doMegaManLegendsPS1 e build console.",
+            "ref_id_if_web": null
+          }
+        ],
+        "limitations": [
+          "Sem evidência dealvoPCseparado."
+        ],
+        "reason": "Base decompPS1 semportPCindependente comprovado. Modernization usa outroproduto, Windowsoriginal, e não valida estaentrada.",
+        "reinclusion_conditions": [
+          "PortPCoficial próprio efuncional com mídiaoriginal; não reutilizar evidência deModernization."
+        ],
+        "last_verified_local": "2026-11-27",
+        "review_depth": "README/procedimento oficial + listagem das releases e issues; aprofundamento em relatos de fases/combate, documentos de validação e distribuição quando necessário. Arquivos brutos preservados com hashes.",
+        "review_limits": [
+          "Pesquisa de fontes públicas; nenhuma mídia original foi obtida e nenhum jogo foi executado localmente nesta auditoria.",
+          "Relatos upstream são evidência externa, não homologação de instalação, boot ou gameplay via GetAll. Não se auditou bit a bit cada binário distribuído.",
+          "A falta de confirmação de fim de campanha não foi tratada como ausência de gameplay. Capturas de títulos/menus e builds isolados não foram aceitos como prova."
+        ],
+        "upstream_functional": {
+          "status": "ineligible",
+          "scope": "catalog_eligibility"
+        },
+        "getall_execution_evidence": {
+          "original_media": "unknown",
+          "first_boot": "unknown",
+          "gameplay": "unknown"
+        },
+        "integrity_provenance": {
+          "source": "Official repository/release or documented upstream owner, with canonical URLs recorded.",
+          "claim_limit": "No claim of legal ownership of the original game, independent binary reproducibility, or byte-for-byte identity of all release assets. Original game media remains user supplied."
+        },
+        "initial_research_classification": "ineligible",
+        "provenance_review": "official_source",
+        "reviewed_by": "Documentary audit of primary sources; original-media tests not performed in this review."
+      },
+      "requirements": {
+        "game_id": "mega-man-legends-rockman-dash",
+        "verification_status": "documented_in_readme",
+        "source_url": "https://raw.githubusercontent.com/ChrisNonyminus/mml1/HEAD/README.md",
+        "verified_at": "2026-11-22",
+        "system": null,
+        "installation": null,
+        "build": "• Pegue um cue e uma lixeira do lançamento americano de Mega Man Legends e coloque-o na pasta de discos. • Renomeie o compartimento da trilha 1 para mml1.us.track1.bin. (A faixa 2 é apenas um arquivo vazio de 32MB) • execute ``make extract_disk`` • execute ``make split_all`` • execute ``make`` • Para fazer uma nova imagem de disco do jogo, execute ``make disk``.",
+        "general": null,
+        "source_text": {
+          "system": null,
+          "installation": null,
+          "build": "[BUILDING]\n- Take a cue and bin of the US release of Mega Man Legends, and place it in the disks folder.\n- Rename the Track 1 bin to mml1.us.track1.bin. (Track 2 is just an empty 32MB file)\n- run ``make extract_disk``\n- run ``make split_all``\n- run ``make``\n- To make a new disk image of the game, run ``make disk``.",
+          "general": null
+        },
+        "evidence": [
+          {
+            "category": "build",
+            "heading": "BUILDING",
+            "source_url": "https://raw.githubusercontent.com/ChrisNonyminus/mml1/HEAD/README.md"
+          }
+        ],
+        "translation_status": "machine_translated_pt_br",
+        "legacy_reported_pt": "Compilação manual em Linux (mipsel-linux-gnu) + BIN+CUE PS1 US.",
+        "translation_method": "automatic_machine_translation",
+        "translation_reviewed_by_human": false
+      },
+      "about": {
+        "project": {
+          "game_id": "mega-man-legends-rockman-dash",
+          "fallback_name": "mml1 (Megaman Legends Decomp)",
+          "description_pt": "Decompilação inicial em C da versão PS1 US focada apenas em reconstruir ROCK_NEO.EXE para PS1. Não gera port jogável de PC.",
+          "description_status": "reviewed_pt_br",
+          "description_source_url": "https://raw.githubusercontent.com/ChrisNonyminus/mml1/HEAD/README.md",
+          "development_status_reported": "Abandonado / Inativo",
+          "legacy_audit": {
+            "developer": null,
+            "version": {
+              "reported_by_gemini": "Sem tag / release (último commit ~2023)",
+              "latest_tag_observed_in_audit": "-",
+              "release_tag_to_install": null,
+              "release_asset_to_install": null
+            },
+            "windows": {
+              "reported_availability": "Não (apenas Linux/MIPS)",
+              "audit_result": "Arquivo Windows não confirmado na release mais recente; conferir assets/alternativas",
+              "installation_enabled": false
+            },
+            "validation": {
+              "repository": "GitHub API: OK",
+              "releases": "Sem releases GitHub",
+              "notes": null,
+              "functional_installation_tested": false
+            }
+          },
+          "description_review_note": "Resumo editorial em português, baseado no catálogo inicial; verifique funcionalidades e suporte atuais na documentação oficial. A presença do README foi confirmada, mas seus detalhes técnicos não foram homologados. Classificado como base_decompilation (nao instalavel para Windows)."
+        },
+        "game": {
+          "title": "Mega Man Legends / Rockman DASH",
+          "description": "Aventura de ação 3D com Mega Man Volnutt, combinando exploração de ruínas, personagens e combate.",
+          "description_source_url": null,
+          "review_status": "reviewed_pt_br",
+          "description_type": "resumo_editorial_do_jogo"
+        }
+      }
+    },
+    "sonic-1-forever-sonic-2-absolute": {
+      "game_id": "sonic-the-hedgehog-1-2-2013",
+      "game": {
+        "id": "sonic-the-hedgehog-1-2-2013",
+        "title": "Sonic the Hedgehog 1 & 2 (2013)",
+        "platform_group": "Android",
+        "category": null,
+        "cover": null,
+        "banner": null,
+        "screenshots": [],
+        "featured": false,
+        "release_date": "2013-12-12",
+        "added_at": "2026-11-22"
+      },
+      "project": {
+        "id": "sonic-1-forever-sonic-2-absolute",
+        "source": {
+          "url": "https://teamforeverdev.github.io/projects.html",
+          "provider": "external",
+          "github_repository": null,
+          "releases_url": null
+        },
+        "fallback_name": "Sonic 1 Forever & Sonic 2 Absolute (Pacote Legado Unificado)",
+        "windows": {
+          "installation_enabled": false
+        },
+        "status": "deprecated",
+        "replaced_by": [
+          "sonic-1-forever",
+          "sonic-2-absolute"
+        ],
+        "added_at": "2026-11-22"
+      },
+      "assessment": {
+        "row": 105,
+        "classification": "ineligible",
+        "eligible": false,
+        "official_install_method": "Utilizar os dois projetos individuais, Sonic 1 Forever e Sonic 2 Absolute, cada um com o instalador oficial que recebe APK/RSDK próprio.",
+        "gameplay_evidence": [
+          {
+            "url": "https://teamforeverdev.github.io/projects.html",
+            "kind": "official_catalog_identity",
+            "observed": "Site da equipe separa Sonic 1 Forever e Sonic 2 Absolute em páginas e downloads próprios.",
+            "ref_id_if_web": "turn997946102view0"
+          },
+          {
+            "url": "https://www.speedrun.com/s1forever/runs/zqo9kv5y",
+            "kind": "documented_playthrough",
+            "observed": "O jogo coberto por uma parte deste pacote tem corrida completa PC verificada em 22m31s na v1.5.1.",
+            "ref_id_if_web": "turn579376699view0",
+            "source_evidence_kind": "verified_speedrun"
+          }
+        ],
+        "limitations": [
+          "Entrada do catálogo já era deprecated, installation_enabled=false e replaced_by=[sonic-1-forever, sonic-2-absolute]. Não se trata de declarar os dois jogos não funcionais."
+        ],
+        "reason": "ID de pacote legado duplicado: manter histórico e os dois IDs individuais, sem contá-lo como projeto ativo independente.",
+        "reinclusion_conditions": [
+          "Não reativar como terceiro projeto duplicado. Preservar migração/histórico para sonic-1-forever e sonic-2-absolute."
+        ],
+        "project_id": "sonic-1-forever-sonic-2-absolute",
+        "game_id": "sonic-the-hedgehog-1-2-2013",
+        "game_title": "Sonic the Hedgehog 1 & 2 (2013)",
+        "project_name": "Sonic 1 Forever & Sonic 2 Absolute (Pacote Legado Unificado)",
+        "official_repository": "https://teamforeverdev.github.io/projects.html",
+        "last_verified_local": "2026-11-27",
+        "installation_sources": [
+          "https://teamforeverdev.github.io/projects.html"
+        ],
+        "provenance": {
+          "repository_identity": "https://teamforeverdev.github.io/projects.html",
+          "reviewed_release_tags": [],
+          "releases": [],
+          "readme_sha256": null,
+          "raw_evidence_sha256": null,
+          "scope": "Identidade do repositório/autor, procedimento de mídia própria e metadados das releases. Hashes retornados pelo GitHub identificam arquivos; não substituem execução nem auditoria jurídica de todo binário."
+        },
+        "review_depth": {
+          "level": "documentary_primary_sources_and_specific_gameplay",
+          "readme_reviewed": false,
+          "recent_releases_reviewed": 0,
+          "recent_issue_records_available": 0,
+          "specific_evidence_read": 2,
+          "method": "Leitura do procedimento oficial e releases; busca no tracker com leitura de relatos específicos; pesquisas adicionais e inspeção de capturas quando o tracker não bastou. A conclusão não foi gerada por palavras-chave."
+        },
+        "review_limits": [
+          "Não executei jogos nem importei mídia original nesta pesquisa. Nenhuma ROM, ISO, jogo ou build foi baixado.",
+          "Relatos e demos são evidência de terceiros/upstream; não equivalem a boot ou jogabilidade validada pelo GetAll.",
+          "As versões e plataformas citadas são limites da evidência. Não foi auditada toda missão, GPU, DLC, plugin ou função online.",
+          "Capturas publicadas foram inspecionadas quando indicado; vídeos encontrados por metadados não foram assistidos integralmente."
+        ],
+        "getall_validation": {
+          "upstream_eligibility_is_not_getall_validation": true,
+          "installation_implemented_verified_here": false,
+          "synthetic_validation_performed_here": false,
+          "original_media_validation_performed_here": false,
+          "first_boot_performed_here": false,
+          "gameplay_performed_here": false,
+          "recommendation": "Manter registro separado e reavaliar as condições específicas; não completar o jogo pelo instalador."
+        },
+        "initial_research_classification": "ineligible",
+        "provenance_review": "official_source",
+        "reviewed_by": "Documentary audit of primary sources; original-media tests not performed in this review."
+      },
+      "requirements": {
+        "game_id": "sonic-the-hedgehog-1-2-2013",
+        "verification_status": "pending_review",
+        "source_url": null,
+        "verified_at": null,
+        "system": null,
+        "installation": null,
+        "build": null,
+        "general": null,
+        "source_text": {
+          "system": null,
+          "installation": null,
+          "build": null,
+          "general": null
+        },
+        "evidence": [],
+        "translation_status": "not_available",
+        "legacy_reported_pt": "Entrada legada unificada (mantida para compatibilidade de IDs existentes). Prefira os projetos individuais sonic-1-forever e sonic-2-absolute."
+      },
+      "about": {
+        "project": {
+          "game_id": "sonic-the-hedgehog-1-2-2013",
+          "fallback_name": "Sonic 1 Forever & Sonic 2 Absolute",
+          "description_pt": "Overhauls completos sobre fork da RSDKv4 com widescreen aprimorado, melhorias visuais, novos personagens/modos e opções estilo Sonic 3 A.I.R. (espelho de código em ElspethThePict/TeamForever-v4-1.3).",
+          "description_status": "reviewed_pt_br",
+          "description_source_url": null,
+          "development_status_reported": "Depreciado / Alias de compatibilidade",
+          "legacy_audit": {
+            "developer": null,
+            "version": {
+              "reported_by_gemini": "Sonic 1 Forever 1.5.1 (14/10/2024) · Sonic 2 Absolute 1.2.1",
+              "latest_tag_observed_in_audit": "-",
+              "release_tag_to_install": null,
+              "release_asset_to_install": null
+            },
+            "windows": {
+              "reported_availability": "Sim (pacotes Windows no site oficial Team Forever)",
+              "audit_result": "Requer verificação na origem",
+              "installation_enabled": false
+            },
+            "validation": {
+              "repository": "Fonte externa ou URL não específica de repositório GitHub",
+              "releases": "Não verificado por API GitHub",
+              "notes": null,
+              "functional_installation_tested": false
+            }
+          },
+          "description_review_note": "Substituido pelos projetos independentes sonic-1-forever e sonic-2-absolute; ID preservado para compatibilidade retroativa."
+        },
+        "game": {
+          "title": "Sonic the Hedgehog 1 & 2 (2013)",
+          "description": "Versões de Sonic 1 e Sonic 2 para dispositivos modernos, baseadas nos jogos clássicos de plataforma em 2D.",
+          "description_source_url": null,
+          "review_status": "reviewed_pt_br",
+          "description_type": "resumo_editorial_do_jogo"
+        }
+      }
+    },
+    "project-2099": {
+      "game_id": "spider-man-edge-of-time",
+      "game": {
+        "id": "spider-man-edge-of-time",
+        "title": "Spider-Man: Edge of Time",
+        "platform_group": "Xbox 360",
+        "category": null,
+        "cover": "https://cdn2.steamgriddb.com/grid/61c6ddc8fa35f40c7eb51fc06d66499a.png",
+        "banner": "https://cdn2.steamgriddb.com/hero/332da72e6fc156f0340836378416136c.png",
+        "screenshots": [],
+        "featured": false,
+        "release_date": "2011-10-04",
+        "added_at": "2026-11-22"
+      },
+      "project": {
+        "id": "project-2099",
+        "source": {
+          "url": "https://github.com/GenryTheFox0/Project-2099",
+          "provider": "github",
+          "github_repository": "GenryTheFox0/Project-2099",
+          "releases_url": "https://github.com/GenryTheFox0/Project-2099/releases"
+        },
+        "fallback_name": "Project 2099",
+        "windows": {
+          "installation_enabled": false
+        },
+        "status": "asset_redistribution_blocked",
+        "added_at": "2026-11-22"
+      },
+      "assessment": {
+        "row": 117,
+        "classification": "unproven",
+        "eligible": false,
+        "official_install_method": "Existe instalador oficial Project2099-Beta5-Setup.exe: seleciona ISO/ZIP/GOD/pasta próprios e baixa payload (~1,3 GB), com remaster 4K opcional separado. Usar pares de instalador/payload da mesma release e conferir SHA256; não improvisar um runtime.",
+        "gameplay_evidence": [
+          {
+            "url": "https://github.com/GenryTheFox0/Project-2099/issues/3",
+            "kind": "user_gameplay_report",
+            "observed": "Relato técnico Beta4.1 confirma importação de dados próprios e entrada em saves/cenas jogadas, mas no Intel testado o 3D ficava branco; não é prova de boa jogabilidade nessa configuração.",
+            "ref_id_if_web": null,
+            "source_evidence_kind": "player_issue"
+          },
+          {
+            "url": "https://github.com/GenryTheFox0/Project-2099/issues/6",
+            "kind": "user_gameplay_report",
+            "observed": "Jogador de Steam Deck afirma que o port funcionava antes da Beta5 e passa a cair no launcher após atualizar; logs identificam reeot modificado na Beta5.",
+            "ref_id_if_web": null,
+            "source_evidence_kind": "player_issue"
+          },
+          {
+            "url": "https://github.com/GenryTheFox0/Project-2099/releases/tag/v2.0.0-beta.5",
+            "kind": "official_release_context",
+            "observed": "Beta5 distribui instalador, payload e hashes, refere engine reeot e playthroughs do autor; isso corrige a alegação anterior de inexistência de runtime.",
+            "ref_id_if_web": "turn195913912search0"
+          },
+          {
+            "url": "https://github.com/GenryTheFox0/Project-2099/blob/main/THIRD_PARTY_LICENSES.md",
+            "kind": "provenance_gap",
+            "observed": "Documento oficial declara inventário incompleto das bibliotecas do payload e blocos .eotp com recursos completos de substituição; não certifica pacote livre de assets. A release Beta5 afirma conter licenças, mas não resolve documentalmente essa divergência.",
+            "ref_id_if_web": null
+          },
+          {
+            "url": "https://github.com/GenryTheFox0/Project-2099/releases/download/v2.0.0-beta.5/Project2099-Beta5-Payload.zip",
+            "kind": "official_payload_directory_inspected",
+            "observed": "Inspeção HTTP206 do diretório ZIPBeta5 encontrou413 entradas,18avisos de licença e patchesEOTP/EOTP2. Aviso interno credita reeot e declara não conter dados do jogo; o documento oficial THIRD_PARTY_LICENSES declara substituições completas em algunsEOTP. Preservados nomes,tamanhos,CRC e hashes dos avisos; nenhum runtime executado. A divergência sobre recursos ainda precisa de reconciliação específica."
+          }
+        ],
+        "limitations": [
+          "Código público cobre principalmente instalador; runtime/payload é componente separado.",
+          "Relatos consultados não confirmam uma sessão Beta5 Windows limpa do início ao fim; há regressão Steam Deck e histórico de 3D branco.",
+          "O ZIP de1,3GB não foi baixado integralmente: diretório/avisos lidos por faixasHTTP206, sem execução. Isso não certifica todo conteúdo nem prova ilegalidade."
+        ],
+        "reason": "Distribuição oficial e runtime existem. A pendência é confirmar a procedência dos recursos de substituição no payloadBeta5: o ZIP mantémEOTP/EOTP2 e um aviso de ausência de dados do jogo, enquanto a documentação oficial declara dados completos de substituição. Suspensão reavaliável por comprovação insuficiente de distribuição, sem concluir ilegalidade ou inexistência de port.",
+        "reinclusion_conditions": [
+          "Manifesto e documentação reconciliados com o payloadBeta5, identificando origem e condições de distribuição dos recursos de substituição e dos componentes.",
+          "Evidência específica de gameplay da distribuição revisada com mídia própria; launcher fechado e falta de receitaGetAll, isoladamente, não impedem reinclusão."
+        ],
+        "review_flags": [
+          "A nota de licenças ainda descreve geração EOTP anterior, enquanto Beta5 usa outro runtime. Sua aplicação integral ao payload Beta5 não foi confirmada; não é prova de infração. Decisão final de catálogo deve resolver esse desalinhamento, não presumir ilegalidade.",
+          "Se a procedência oficial e uso de mídia própria forem considerados suficientes após reconciliação, reclassificar como functional_manual_install; não excluir por falta de fonte completa do runtime ou de receita GetAll."
+        ],
+        "project_id": "project-2099",
+        "game_id": "spider-man-edge-of-time",
+        "game_title": "Spider-Man: Edge of Time",
+        "project_name": "Project 2099",
+        "official_repository": "https://github.com/GenryTheFox0/Project-2099",
+        "last_verified_local": "2026-11-27",
+        "installation_sources": [
+          "https://github.com/GenryTheFox0/Project-2099/releases/tag/v2.0.0-beta.5",
+          "https://github.com/GenryTheFox0/Project-2099/blob/main/INSTALL_EN.md",
+          "https://github.com/GenryTheFox0/Project-2099/blob/main/THIRD_PARTY_LICENSES.md"
+        ],
+        "provenance": {
+          "repository_identity": "GenryTheFox0/Project-2099",
+          "reviewed_release_tags": [
+            "android-v1.0.0-beta.1",
+            "v2.0.0-beta.5",
+            "v2.0.0-beta.4.1"
+          ],
+          "releases": [
+            {
+              "html_url": "https://github.com/GenryTheFox0/Project-2099/releases/tag/android-v1.0.0-beta.1",
+              "tag_name": "android-v1.0.0-beta.1",
+              "name": "Project 2099 — ANDROID BETA 1",
+              "published_at": "2026-10-21T15:21:20Z",
+              "prerelease": false,
+              "assets": [
+                {
+                  "name": "Project2099-Android-Beta1.apk",
+                  "bytes": 164830084,
+                  "digest": "sha256:aafc45cfae3f1e8e91ae0901f205595be1759330d757b7696f5c3ebe3ff1b4e4",
+                  "url": "https://github.com/GenryTheFox0/Project-2099/releases/download/android-v1.0.0-beta.1/Project2099-Android-Beta1.apk"
+                },
+                {
+                  "name": "SHA256SUMS.txt",
+                  "bytes": 96,
+                  "digest": "sha256:d3cc0d038763f52f1ae0e56f8f4c5fb9f63b3c43f90b9d09ae3a055c19bb40b3",
+                  "url": "https://github.com/GenryTheFox0/Project-2099/releases/download/android-v1.0.0-beta.1/SHA256SUMS.txt"
+                }
+              ]
+            },
+            {
+              "html_url": "https://github.com/GenryTheFox0/Project-2099/releases/tag/v2.0.0-beta.5",
+              "tag_name": "v2.0.0-beta.5",
+              "name": "Project 2099 — V2 BETA 5",
+              "published_at": "2026-10-13T13:25:15Z",
+              "prerelease": false,
+              "assets": [
+                {
+                  "name": "Project2099-Beta5-4K-Remaster-part1.zip",
+                  "bytes": 1104798041,
+                  "digest": "sha256:5e7851b9c2c4918bc5bfae36c95b203d68105a4d943652cede82489a09d168b0",
+                  "url": "https://github.com/GenryTheFox0/Project-2099/releases/download/v2.0.0-beta.5/Project2099-Beta5-4K-Remaster-part1.zip"
+                },
+                {
+                  "name": "Project2099-Beta5-4K-Remaster-part2.zip",
+                  "bytes": 1103717600,
+                  "digest": "sha256:79fc09c9a9160afd2457373a2822ee5aed20146549f3bd10d142f085907442b4",
+                  "url": "https://github.com/GenryTheFox0/Project-2099/releases/download/v2.0.0-beta.5/Project2099-Beta5-4K-Remaster-part2.zip"
+                },
+                {
+                  "name": "Project2099-Beta5-4K-Remaster-part3.zip",
+                  "bytes": 758525880,
+                  "digest": "sha256:d18701f4fc4bb96b0bf1e4215794db6e51f3606e8736e1cef6ad914afa87ee95",
+                  "url": "https://github.com/GenryTheFox0/Project-2099/releases/download/v2.0.0-beta.5/Project2099-Beta5-4K-Remaster-part3.zip"
+                },
+                {
+                  "name": "Project2099-Beta5-Payload.zip",
+                  "bytes": 1361209156,
+                  "digest": "sha256:0e5f6e981f77feda3e2fe9dea238b1308c8150f289882da3eebaf987b665000a",
+                  "url": "https://github.com/GenryTheFox0/Project-2099/releases/download/v2.0.0-beta.5/Project2099-Beta5-Payload.zip"
+                },
+                {
+                  "name": "Project2099-Beta5-Setup.exe",
+                  "bytes": 4613632,
+                  "digest": "sha256:04fa13e7a538a7425ac7b3604432ec2f71f5db31cd372103a8230627a45660cb",
+                  "url": "https://github.com/GenryTheFox0/Project-2099/releases/download/v2.0.0-beta.5/Project2099-Beta5-Setup.exe"
+                },
+                {
+                  "name": "SHA256SUMS.txt",
+                  "bytes": 508,
+                  "digest": "sha256:e60d7a25e2ed8ccb238bfdc6670e825bbf6b7ba97450d1d432372414f504fc10",
+                  "url": "https://github.com/GenryTheFox0/Project-2099/releases/download/v2.0.0-beta.5/SHA256SUMS.txt"
+                }
+              ]
+            },
+            {
+              "html_url": "https://github.com/GenryTheFox0/Project-2099/releases/tag/v2.0.0-beta.4.1",
+              "tag_name": "v2.0.0-beta.4.1",
+              "name": "Project 2099 — V2 BETA 4.1 — Installer hotfix",
+              "published_at": "2026-09-24T13:28:02Z",
+              "prerelease": false,
+              "assets": [
+                {
+                  "name": "EOT-PC-Payload-v2.0.0-beta.4.1.zip",
+                  "bytes": 1173005536,
+                  "digest": "sha256:91e6d01f91a4e8c4a04e155b9cb5f26c88f99cb96f41bbeec5e3da79b2212fcb",
+                  "url": "https://github.com/GenryTheFox0/Project-2099/releases/download/v2.0.0-beta.4.1/EOT-PC-Payload-v2.0.0-beta.4.1.zip"
+                },
+                {
+                  "name": "EOTInstaller-v2.0.0-beta.4.1.exe",
+                  "bytes": 2798080,
+                  "digest": "sha256:526d65eaca119f11b7a8cb5af16ca9a982244c4c5c721051ec8897a9af652043",
+                  "url": "https://github.com/GenryTheFox0/Project-2099/releases/download/v2.0.0-beta.4.1/EOTInstaller-v2.0.0-beta.4.1.exe"
+                },
+                {
+                  "name": "release-manifest.json",
+                  "bytes": 1307,
+                  "digest": "sha256:2809f8dd01862f54fa92deff86850979f5e815ca28161707930a3a8f83f28321",
+                  "url": "https://github.com/GenryTheFox0/Project-2099/releases/download/v2.0.0-beta.4.1/release-manifest.json"
+                },
+                {
+                  "name": "SHA256SUMS.txt",
+                  "bytes": 202,
+                  "digest": "sha256:36ba58aec25404f9675f71f6aefaf9042a806163894b22d62e9e61aeff5d7f49",
+                  "url": "https://github.com/GenryTheFox0/Project-2099/releases/download/v2.0.0-beta.4.1/SHA256SUMS.txt"
+                }
+              ]
+            }
+          ],
+          "readme_sha256": "cf07075db3017d346f7bff5cfdcc3f3fb736c462ac7412ab5076af460383d398",
+          "raw_evidence_sha256": "85988bc187feed4b9f8722af4b816f94c97d596db9ba4be0989f9fac2e9020e4",
+          "scope": "Identidade do repositório/autor, procedimento de mídia própria e metadados das releases. Hashes retornados pelo GitHub identificam arquivos; não substituem execução nem auditoria jurídica de todo binário."
+        },
+        "review_depth": {
+          "level": "conflicting_provenance_documents_and_limited_beta5_gameplay",
+          "readme_reviewed": true,
+          "recent_releases_reviewed": 3,
+          "recent_issue_records_available": 6,
+          "specific_evidence_read": 4,
+          "method": "Leitura do procedimento oficial e releases; busca no tracker com leitura de relatos específicos; pesquisas adicionais e inspeção de capturas quando o tracker não bastou. A conclusão não foi gerada por palavras-chave."
+        },
+        "review_limits": [
+          "Não executei jogos nem importei mídia original nesta pesquisa. Nenhuma ROM, ISO, jogo ou build foi baixado.",
+          "Relatos e demos são evidência de terceiros/upstream; não equivalem a boot ou jogabilidade validada pelo GetAll.",
+          "As versões e plataformas citadas são limites da evidência. Não foi auditada toda missão, GPU, DLC, plugin ou função online.",
+          "Capturas publicadas foram inspecionadas quando indicado; vídeos encontrados por metadados não foram assistidos integralmente."
+        ],
+        "getall_validation": {
+          "upstream_eligibility_is_not_getall_validation": true,
+          "installation_implemented_verified_here": false,
+          "synthetic_validation_performed_here": false,
+          "original_media_validation_performed_here": false,
+          "first_boot_performed_here": false,
+          "gameplay_performed_here": false,
+          "recommendation": "Manter registro separado e reavaliar as condições específicas; não completar o jogo pelo instalador."
+        },
+        "initial_research_classification": "unproven",
+        "provenance_review": "unconfirmed",
+        "reviewed_by": "Documentary audit of primary sources; original-media tests not performed in this review."
+      },
+      "requirements": {
+        "game_id": "spider-man-edge-of-time",
+        "verification_status": "documented_in_readme",
+        "source_url": "https://raw.githubusercontent.com/GenryTheFox0/Project-2099/HEAD/README.md",
+        "verified_at": "2026-11-22",
+        "system": null,
+        "installation": "O iniciador lida com resolução, modo de exibição, VSync, limites de taxa de quadros, seleção de monitor e GPU, filtragem, idioma, controles, salvamentos e conquistas locais. Inicie o jogo através do `Launcher.exe`; ele inicia `SpiderManEOT.exe`. O instalador permanece separado do jogo instalado. O limitador oferece valores de até **120 FPS**. Se o jogo realmente os alcança depende da cena, do hardware e das configurações.",
+        "build": null,
+        "general": null,
+        "source_text": {
+          "system": null,
+          "installation": "[Windows launcher]\nThe launcher handles resolution, display mode, VSync, frame-rate limits, monitor and GPU selection, filtering, language, controls, saves and local achievements.\n\nStart the game through `Launcher.exe`; it launches `SpiderManEOT.exe`. The installer remains separate from the installed game.\n\nThe limiter offers values up to **120 FPS**. Whether the game actually reaches them depends on the scene, hardware and settings.\n\nTransition stutter and frame pacing remain major targets for V2.\n\n[Installation]\n1. Download the installer attached to the matching GitHub Release.\n2. Let it download and verify the matching PC Edition support package.\n3. Select a supported local Xbox 360 source.\n4. Choose an empty destination folder and complete installation.\n5. Start the installed `Launcher.exe`.\n\nFor an online installation, download the installer from the same release as the matching payload. For an offline installation, place the matching payload ZIP beside the installer or select it in the installer. Do not mix installer and payload files from different beta versions.\n\nInstallation guides: [English](INSTALL_EN.md) · [Русский](INSTALL_RU.md) · [Deutsch](INSTALL_DE.md) · [Français](INSTALL_FR.md) · [Italiano](INSTALL_IT.md) · [Español](INSTALL_ES.md)\n\nThe input can be an XDVDFS ISO, a ZIP containing the game root, a ZIP containing a GOD image (the installer unpacks it itself onto a drive with room and checks every fragment's length), an extracted folder containing `Default.xex` and `Data`, an outer folder containing one compatible game root, or a GOD/SVOD container. A GOD image may be selected at any level a player is likely to click: the outer folder, the title-id folder, `00007000`, the container file itself or its `.data` directory. If a selected directory contains one ISO or ZIP, the installer opens it automatically.\n\nAfter a successful installation, the source ISO, GOD or extracted folder is no longer needed. The PC Edition runs entirely from the chosen destination and is not tied to the source drive letter. Saves and installer caches use the current Windows user's profile rather than a developer-specific path.\n\n**A container extension or header alone is not enough.** The current reader handles SVOD/GOD; it does not support every STFS package that happens to start with LIVE, PIRS or CON.\n\n**Which dumps work**\n\nThe installer recognizes compatible Xbox 360 sources by file contents, including the level\npackages that contain embedded dialogue. The language checks cover both shared text files\nand scene subtitles. A container name, region label or matching `Default.xex` alone is not\nenough to prove that its text files can be reconstructed correctly.\n\nRecorded revisions, named on screen when they match:\n\n- `usa-europe-retail` and `usa-europe-retail-r2`: two USA/Europe retail revisions.\n- `eu-retail`: the PC Edition original-language baseline.",
+          "build": null,
+          "general": null
+        },
+        "evidence": [
+          {
+            "category": "installation",
+            "heading": "Windows launcher",
+            "source_url": "https://raw.githubusercontent.com/GenryTheFox0/Project-2099/HEAD/README.md"
+          },
+          {
+            "category": "installation",
+            "heading": "Installation",
+            "source_url": "https://raw.githubusercontent.com/GenryTheFox0/Project-2099/HEAD/README.md"
+          }
+        ],
+        "translation_status": "machine_translated_pt_br",
+        "legacy_reported_pt": "Cópia Xbox 360 em ISO, ZIP, pasta extraída ou GOD/SVOD. O instalador monta a edição PC automaticamente.",
+        "translation_method": "automatic_machine_translation",
+        "translation_reviewed_by_human": false
+      },
+      "about": {
+        "project": {
+          "game_id": "spider-man-edge-of-time",
+          "fallback_name": "Project 2099",
+          "description_pt": "Recompilação ReXGlue focada em Windows (D3D12), 30/60/75/120 FPS, até 4K, AF 16x, teclado/mouse com QTEs dinâmicos, 6 idiomas, 47 conquistas locais e 9 trajes novos.",
+          "description_status": "reviewed_pt_br",
+          "description_source_url": "https://raw.githubusercontent.com/GenryTheFox0/Project-2099/HEAD/README.md",
+          "development_status_reported": "Beta / Experimental",
+          "legacy_audit": {
+            "developer": null,
+            "version": {
+              "reported_by_gemini": "V2 BETA 5 (out/2026)",
+              "latest_tag_observed_in_audit": "android-v1.0.0-beta.1",
+              "release_tag_to_install": null,
+              "release_asset_to_install": null
+            },
+            "windows": {
+              "reported_availability": "Sim (Project2099-Beta5-Setup.exe)",
+              "audit_result": "Bloqueado por redistribuicao: NO_GAME_DATA.md informa payload .eotp derivado nao isento de ativos e codigo de runtime ausente.",
+              "installation_enabled": false
+            },
+            "validation": {
+              "repository": "GitHub API: OK",
+              "releases": "Release GitHub consultada",
+              "notes": null,
+              "functional_installation_tested": false
+            }
+          },
+          "description_review_note": "Mantido com installation_enabled=false devido a redistribuicao de payload com ativos derivados; use edge-of-time-recomp."
+        },
+        "game": {
+          "title": "Spider-Man: Edge of Time",
+          "description": "Jogo de ação em que duas versões do Homem-Aranha atuam em períodos diferentes para impedir uma catástrofe.",
+          "description_source_url": null,
+          "review_status": "reviewed_pt_br",
+          "description_type": "resumo_editorial_do_jogo"
+        }
+      }
+    },
+    "burnout3-recomp": {
+      "game_id": "burnout-3-takedown",
+      "game": {
+        "id": "burnout-3-takedown",
+        "title": "Burnout 3: Takedown",
+        "platform_group": "Xbox Original",
+        "category": null,
+        "cover": "https://cdn2.steamgriddb.com/grid/3b74f65970cf0bf9f29190c0d6b50bf3.jpg",
+        "banner": "https://cdn2.steamgriddb.com/hero/0b61e0b51eb2377cb824c8bb24dab3c0.png",
+        "screenshots": [],
+        "featured": false,
+        "release_date": "2004-09-07",
+        "added_at": "2026-11-23"
+      },
+      "project": {
+        "id": "burnout3-recomp",
+        "source": {
+          "url": "https://github.com/sp00nznet/burnout3",
+          "provider": "github",
+          "github_repository": "sp00nznet/burnout3",
+          "releases_url": "https://github.com/sp00nznet/burnout3/releases"
+        },
+        "fallback_name": "Burnout 3 Recomp",
+        "windows": {
+          "installation_enabled": false
+        },
+        "added_at": "2026-11-23"
+      },
+      "assessment": {
+        "row": 143,
+        "classification": "ineligible",
+        "eligible": false,
+        "official_install_method": "Há instalador oficial Burnout3-Installer-windows-x64.exe e Setup.cmd para gerar C/build a partir da ISO Xbox própria usando toolkit pinado. Esse caminho existe, mas não resolve a falta de jogabilidade prática atual.",
+        "gameplay_evidence": [
+          {
+            "url": "https://github.com/sp00nznet/burnout3/blob/main/README.md",
+            "kind": "official_status_limitation",
+            "observed": "O estado oficial afirma renderizador NV2A por software, menus~14FPS e corridas2–4FPS emCPU12núcleos, sem perfil/save e repetição de tutoriais a cada inicialização.",
+            "ref_id_if_web": null
+          },
+          {
+            "url": "https://github.com/sp00nznet/burnout3/releases/tag/v0.1.0",
+            "kind": "official_release_limitation",
+            "observed": "O instalador v0.1.0 distribui build oficial e avisa que corridas ficam em poucos quadros por segundo; não equivale a certificação de jogo utilizável.",
+            "ref_id_if_web": null
+          },
+          {
+            "url": "https://github.com/sp00nznet/burnout3/tree/main/docs",
+            "kind": "official_evidence_inventory",
+            "observed": "Árvore oficial contém sequências de corrida, crash, road rage e split-screen. Isso impede chamá-lo de decompilação sem runtime, mas não supera a limitação declarada de2–4FPS.",
+            "ref_id_if_web": null
+          }
+        ],
+        "limitations": [
+          "Existe execução interativa e vários modos implementados; a inelegibilidade recomendada é por estágio prático/performance/persistência, não pela ausência de código/build.",
+          "Não desenvolver renderizador ou save no AllFix para compensar o upstream."
+        ],
+        "reason": "Retirar temporariamente do catálogo ativo: protótipo funcional em aspectos técnicos, mas o próprio projeto documenta corridas sem velocidade utilizável e sem save.",
+        "reinclusion_conditions": [
+          "Evidência oficial verificável de corridas a velocidade utilizável em hardware suportado e fluxo de persistência/save funcional, sem substituição de renderer ou gameplay pelo AllFix.",
+          "Release/build oficial reproduzível que incorpore essas melhorias; revisar novamente demonstrações e relatos de execução."
+        ],
+        "project_id": "burnout3-recomp",
+        "game_id": "burnout-3-takedown",
+        "game_title": "Burnout 3: Takedown",
+        "project_name": "Burnout 3 Recomp",
+        "official_repository": "https://github.com/sp00nznet/burnout3",
+        "last_verified_local": "2026-11-27",
+        "installation_sources": [
+          "https://github.com/sp00nznet/burnout3/blob/HEAD/README.md",
+          "https://github.com/sp00nznet/burnout3/releases"
+        ],
+        "provenance": {
+          "repository_identity": "sp00nznet/burnout3",
+          "reviewed_release_tags": [
+            "v0.1.0"
+          ],
+          "releases": [
+            {
+              "html_url": "https://github.com/sp00nznet/burnout3/releases/tag/v0.1.0",
+              "tag_name": "v0.1.0",
+              "name": "Burnout 3 recomp 0.1.0",
+              "published_at": "2026-10-20T09:49:10Z",
+              "prerelease": false,
+              "assets": [
+                {
+                  "name": "Burnout3-Installer-windows-x64.exe",
+                  "bytes": 19200000,
+                  "digest": "sha256:92b7c6d7cc0634332053ee53f7a7cd3d2e14b2d54d5a985e2f38502a14b7c5bf",
+                  "url": "https://github.com/sp00nznet/burnout3/releases/download/v0.1.0/Burnout3-Installer-windows-x64.exe"
+                }
+              ]
+            }
+          ],
+          "readme_sha256": "c47a4cb396c830247b190be4cfc14f878a63a29a95cdcb7cbcdf4e7793907c78",
+          "raw_evidence_sha256": "c5e1b58eee40344f76bfe97ee2cb2f946f3b72e078514a09864fcfb39079312c",
+          "scope": "Identidade do repositório/autor, procedimento de mídia própria e metadados das releases. Hashes retornados pelo GitHub identificam arquivos; não substituem execução nem auditoria jurídica de todo binário."
+        },
+        "review_depth": {
+          "level": "documentary_primary_sources_and_specific_gameplay",
+          "readme_reviewed": true,
+          "recent_releases_reviewed": 1,
+          "recent_issue_records_available": 3,
+          "specific_evidence_read": 3,
+          "method": "Leitura do procedimento oficial e releases; busca no tracker com leitura de relatos específicos; pesquisas adicionais e inspeção de capturas quando o tracker não bastou. A conclusão não foi gerada por palavras-chave."
+        },
+        "review_limits": [
+          "Não executei jogos nem importei mídia original nesta pesquisa. Nenhuma ROM, ISO, jogo ou build foi baixado.",
+          "Relatos e demos são evidência de terceiros/upstream; não equivalem a boot ou jogabilidade validada pelo GetAll.",
+          "As versões e plataformas citadas são limites da evidência. Não foi auditada toda missão, GPU, DLC, plugin ou função online.",
+          "Capturas publicadas foram inspecionadas quando indicado; vídeos encontrados por metadados não foram assistidos integralmente."
+        ],
+        "getall_validation": {
+          "upstream_eligibility_is_not_getall_validation": true,
+          "installation_implemented_verified_here": false,
+          "synthetic_validation_performed_here": false,
+          "original_media_validation_performed_here": false,
+          "first_boot_performed_here": false,
+          "gameplay_performed_here": false,
+          "recommendation": "Manter registro separado e reavaliar as condições específicas; não completar o jogo pelo instalador."
+        },
+        "initial_research_classification": "ineligible",
+        "provenance_review": "official_source",
+        "reviewed_by": "Documentary audit of primary sources; original-media tests not performed in this review."
+      },
+      "requirements": {
+        "game_id": "burnout-3-takedown",
+        "verification_status": "documented_in_readme",
+        "source_url": "https://raw.githubusercontent.com/sp00nznet/burnout3/HEAD/README.md",
+        "verified_at": "2026-11-23",
+        "system": "Windows 10/11 x64, aproximadamente 12 GB livres, ISO própria de Burnout 3 para Xbox original e controle Xbox/XInput (dois para tela dividida). Não há mapeamento de teclado informado.",
+        "installation": "Baixar Burnout3-Installer-windows-x64.exe de Releases e escolher pasta com a ISO própria do Xbox original. O instalador baixa xboxrecomp e dependências para gerar o executável no PC, podendo solicitar VS2022 C++ Build Tools e ferramentas de compilação. Alternativamente usar Setup.cmd conforme README.",
+        "build": "Recompilação estática do código x86 do Xbox original para aplicativo nativo Windows com xboxrecomp. GPU NV2A ainda é reproduzida por software, causando desempenho muito baixo; a primeira preparação utiliza toolchain local.",
+        "general": "Alfa de pesquisa, não recomendada para jogar normalmente. Os modos abrem e executam corridas, mas o mantenedor relata aproximadamente 14 FPS em menus e 2–4 FPS nas pistas em CPU de 12 núcleos. Ainda não há perfil de salvamento e várias funções são incompletas.",
+        "source_text": {
+          "system": "# Burnout 3: Takedown — static recompilation\n\nA static recompilation of the Xbox version of Burnout 3: Takedown (Criterion, 2004)\ninto a native Windows executable. The game's own x86 code is lifted to C by the\n[xboxrecomp](https://github.com/sp00nznet/xboxrecomp) toolkit. It boots through\nits real entry point and runs its own menus, races and renderer on the toolkit's\nXbox runtime. No game logic or screen is hand-written.\n\n**Generated source is not distributed.** The repository holds the build glue, the\nper-title data and the docs. You supply your own disc image; the recompiler runs\non your machine and writes the C into a gitignored folder.\n\n![Two-player split-screen race, both cars off the line](docs/screenshots/hero_splitscreen.gif)\n\n*Two-player split-screen, recorded headless with `--record`-style per-flip frames and scripted pads.*\n\n## Status\n\n**Alpha.** Every game mode boots, renders and plays, one or two players, driven by\nan Xbox/XInput pad. It is not yet fun to play: the NV2A GPU is emulated in\nsoftware, so menus run at about 14 fps and races at 2–4 fps on a 12-core machine.\nThere is no save profile yet, so every launch replays the tutorial videos.\n\n| Mode | Players | Status |\n|---|---|---|\n| Race (Single Event) | 1 | plays to the finish |\n| Time Attack | 1 | plays |\n| Road Rage | 1 | plays |\n| Crash | 1 | plays: launch, pile-up, score |\n| Race | 2, split-screen | plays |\n| Road Rage | 2, split-screen | plays |\n| Double Impact | 2, split-screen | plays |\n| Team Crush | 2, split-screen | plays |\n| Party Crash | 2–8, pass the pad | plays |\n| Xbox Live / System Link | — | not attempted |\n\nKnown gaps: vertical streaks over the menu backdrop movie, seams in the sky dome,\nbump-mapped (dot-product) texture stages read as zero, and no profile saving.\n[ROADMAP.md](ROADMAP.md) has the list; [docs/boot.md](docs/boot.md) has what it\ntook to get here, fix by fix.\n\nThis is one title in the xboxrecomp family and follows its house style: the\ntoolkit carries everything that ",
+          "installation": "### Quick start: the installer\n\n1. Download **`Burnout3-Installer-windows-x64.exe`** from the\n   [latest release](https://github.com/sp00nznet/burnout3/releases/latest) and run it.\n   It isn't signed, so SmartScreen asks first: **More info**, **Run anyway**.\n2. **Choose folder…**: the folder your `.iso` is in. **Build my recomp**.\n\n   It downloads this repo and the xboxrecomp toolkit into `%USERPROFILE%\\recomp`\n   (**Change** picks another place), then runs `Setup.cmd` below with no questions:\n   it installs whatever is missing, and Windows asks for permission once, for the\n   Visual Studio Build Tools. **Show details** has the full output; every run is\n   also logged under `recomp\\logs\\`.\n3. **Play Burnout 3**. Opened again later, the installer starts at that button.\n\n[recomp-launcher](https://github.com/sp00nznet/recomp-launcher) builds the\ninstaller from [`launcher/launcher.json`](launcher/launcher.json).\n",
+          "build": "## Building from source\n\n`regen.sh` runs the toolkit's pipeline on `default.xbe`. The stages are XBE parser,\ndisassembler, library-function identification, ABI analysis and the recompiler.\nCMake then builds the generated C against the xboxrecomp runtime. That runtime\nsupplies the Xbox kernel, a software NV2A GPU, the MCPX audio processor, a USB\nOHCI host with emulated pads, and the XMV movie player. See\n[docs/architecture.md](docs/architecture.md) for which part owns what.\n\nThe C is regenerated, not edited. If the output is wrong, the fix goes in the\ntoolkit's recompiler or in this repo's per-title data\n(`config/seed_functions.json`, `src/game/main.c`), never by hand in `gen/`.\n",
+          "general": "## Status\n\n**Alpha.** Every game mode boots, renders and plays, one or two players, driven by\nan Xbox/XInput pad. It is not yet fun to play: the NV2A GPU is emulated in\nsoftware, so menus run at about 14 fps and races at 2–4 fps on a 12-core machine.\nThere is no save profile yet, so every launch replays the tutorial videos.\n\n| Mode | Players | Status |\n|---|---|---|\n| Race (Single Event) | 1 | plays to the finish |\n| Time Attack | 1 | plays |\n| Road Rage | 1 | plays |\n| Crash | 1 | plays: launch, pile-up, score |\n| Race | 2, split-screen | plays |\n| Road Rage | 2, split-screen | plays |\n| Double Impact | 2, split-screen | plays |\n| Team Crush | 2, split-screen | plays |\n| Party Crash | 2–8, pass the pad | plays |\n| Xbox Live / System Link | — | not attempted |\n\nKnown gaps: vertical streaks over the menu backdrop movie, seams in the sky dome,\nbump-mapped (dot-product) texture stages read as zero, and no profile saving.\n[ROADMAP.md](ROADMAP.md) has the list; [docs/boot.md](docs/boot.md) has what it\ntook to get here, fix by fix.\n\nThis is one title in the xboxrecomp family and follows its house style: the\ntoolkit carries everything that isn't specific to Burnout 3, and this repo carries\nonly what is.\n"
+        },
+        "evidence": [
+          {
+            "category": "system",
+            "heading": "README oficial",
+            "source_url": "https://raw.githubusercontent.com/sp00nznet/burnout3/HEAD/README.md"
+          },
+          {
+            "category": "installation",
+            "heading": "README oficial",
+            "source_url": "https://raw.githubusercontent.com/sp00nznet/burnout3/HEAD/README.md"
+          },
+          {
+            "category": "build",
+            "heading": "README oficial",
+            "source_url": "https://raw.githubusercontent.com/sp00nznet/burnout3/HEAD/README.md"
+          },
+          {
+            "category": "general",
+            "heading": "README oficial",
+            "source_url": "https://raw.githubusercontent.com/sp00nznet/burnout3/HEAD/README.md"
+          }
+        ],
+        "translation_status": "pending_human_review",
+        "legacy_reported_pt": "",
+        "translation_method": "editorial_summary_from_readme",
+        "translation_reviewed_by_human": false
+      },
+      "about": {
+        "project": {
+          "game_id": "burnout-3-takedown",
+          "fallback_name": "Burnout 3 Recomp",
+          "description_pt": "Recompilação estática experimental da edição de Xbox original de Burnout 3: Takedown para Windows; código nativo, mas renderização gráfica ainda lenta por software.",
+          "description_status": "reviewed_pt_br",
+          "description_source_url": "https://raw.githubusercontent.com/sp00nznet/burnout3/HEAD/README.md",
+          "development_status_reported": "Alfa técnica: corridas iniciam, porém 2–4 FPS relatados e ausência de perfil de salvamento; não considerar jogável em velocidade normal.",
+          "description_review_note": "Revisão editorial de 23/11/2026 baseada no README e, quando disponíveis, guias de instalação/status oficiais do projeto; funcionamento alegado pelo mantenedor e não homologado pelo All-Fix.",
+          "legacy_audit": {
+            "developer": null,
+            "version": {
+              "reported_by_gemini": null,
+              "latest_tag_observed_in_audit": null,
+              "release_tag_to_install": null,
+              "release_asset_to_install": null
+            },
+            "windows": {
+              "reported_availability": "Consultar releases oficiais.",
+              "audit_result": "Sem teste funcional.",
+              "installation_enabled": false
+            },
+            "validation": {
+              "repository": "GitHub API: OK",
+              "releases": "Não auditadas individualmente",
+              "notes": "Somente catálogo.",
+              "functional_installation_tested": false
+            }
+          }
+        },
+        "game": {
+          "title": "Burnout 3: Takedown",
+          "description": "Jogo de corrida arcade de 2004 para PlayStation 2 e Xbox original. Enfatiza velocidade, colisões e manobras agressivas que eliminam adversários, além de modos de corrida e acidentes de grande escala.",
+          "description_source_url": null,
+          "review_status": "reviewed_pt_br",
+          "description_type": "resumo_editorial_do_jogo"
+        }
+      }
+    }
+  }
+}

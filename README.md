@@ -1,72 +1,48 @@
-# AllFix — dados remotos da Loja (schema v4)
+# AllFix — catálogo de projetos funcionais
 
 Fonte: https://github.com/brad38/AllFix-Repo
 
-Arquivos na raiz:
-- **catalog.json**: estrutura principal (111 jogos, 146 projetos, identificadores, plataformas, links dos repositórios, imagens externas, addons); referencias `requirements_file` e `about_file`.
-- **requirements.json**: requisitos por ID do projeto; categorias `system` (sistema), `installation` (instalação/execução), `build` (compilação), `general` (geral). O objeto `source_text` contém as seções ORIGINAIS dos READMEs, na maioria em inglês. Os campos localizados podem permanecer `null` nos registros ainda não traduzidos; não tratar `legacy_reported_pt` como documentação confirmada.
-- **about.json**: informações para a aba Sobre, indexadas por ID de jogo e de projeto. As descrições dos projetos em português estão em `description_pt` e são acompanhadas de informações sobre sua verificação; descrições e resumos editoriais não são prova de funcionamento. As descrições dos jogos devem permanecer separadas dos detalhes dos projetos de port e recompilação.
+A revisão de27/11/2026 contém **108 jogos e137 projetos ativos**, a partir de110 jogos e148 projetos. Os11 projetos retirados estão em registro separado e podem ser reavaliados. Não existe meta artificial de quantidade.
 
-A interface deve ser em português brasileiro. Não apresentar texto inglês cru ao usuário; enquanto faltar tradução de requisitos, exibir aviso em português e um link para a documentação oficial. Não apresentar requisitos desatualizados da pesquisa antiga como verificados. Seções de compilação não são requisitos de execução.
+O catálogo oferece ports/recompilações que permitem jogar e possuem fonte ou distribuição oficial verificável. A funcionalidade upstream é independente da disponibilidade ou homologação do GetAll. Um projeto funcional pode permanecer com instalação automática temporariamente indisponível.
 
-Os dados dinâmicos de repositórios GitHub (nome, descrição, disponibilidade) e as versões/downloads são consultados pela API do GitHub sob demanda, com cache. **Não** incluir tags/releases atuais no catálogo. Projetos de provedores externos requerem integração apropriada.
+## Arquivos
 
-**Compatibilidade:** o aplicativo que aceita apenas schema v3 precisa ser adaptado antes de usar a versão v4. A divisão em três arquivos é uma mudança intencional do formato de distribuição de dados.
+- `catalog.json` — schema4, jogos, projetos, IDs, mídia, plataformas, datas e marcadores de elegibilidade.
+- `requirements.json` — schema1, requisitos e procedimento oficial; `scope_review` contém a revisão atual em português. Trechos históricos de README ficam preservados.
+- `about.json` — schema1, descrições dos jogos/projetos e revisão atual, sem apresentar descrição editorial como teste.
+- `eligibility.json` — schema1, somente projetos ativos, com evidências concretas, limites e procedência.
+- `excluded-projects.json` — schema1, projetos fora da loja, motivo, condições de retorno e cópia completa dos metadados anteriores.
 
-**Importante:** a auditoria original localizou seções relevantes em 99 projetos, mas não revisou manualmente todas as instruções de README/BUILDING. `verification_status=documented_in_readme` significa apenas que o trecho consta no README, não que a instalação tenha sido testada. A tradução de texto técnico completo ainda está pendente, conforme `translation_status`.
+A interface é em português brasileiro. Requisitos de compilação são distintos dos de execução. Tags e downloads continuam consultados sob demanda na origem oficial; a revisão de evidências registra versões observadas sem convertê-las em versão dinâmica do catálogo.
 
-## Validação do catálogo
+## Critérios e revisão
 
-A validação local não instala jogos nem executa código dos projetos catalogados:
+Consulte [a política de elegibilidade](docs/ELIGIBILITY-POLICY.md), [o relatório dos excluídos](docs/audits/eligibility-20261127/EXCLUSOES.md) e [o método/evidências dos148 IDs](docs/audits/eligibility-20261127/README.md).
+
+A inclusão exige evidência específica de jogo em execução: partidas/progressão relatadas no tracker oficial, demos/capturas examinadas, playtests documentados ou outros registros verificáveis. README, percentual de decompilação, release existente, build e fixture sintética não bastam isoladamente. Bugs e limitações documentadas não excluem automaticamente um port jogável.
+
+O GetAll automatiza procedimentos oficiais, com mídia própria quando necessária. Não deve completar motores, gameplay, compiladores de shaders ou runtimes, nem aplicar patches próprios ao código upstream. Os detalhes dessa política estão na instrução do usuário preservada em `docs/INSTALLATION-SCOPE-REQUEST-20261127.md`.
+
+## Descoberta e reavaliação
+
+A rotina de descoberta pesquisa novos projetos e revisita `excluded-projects.json` quando surgem releases, demos ou mudanças de distribuição. Um achado entra primeiro em revisão. Só é admitido após registrar procedência, procedimento oficial e evidência específica de gameplay. A rotina não ativa candidatos ou receitas automaticamente apenas por uma release nova.
+
+O status `available_contract` informa a existência de contrato ativo GetAll. Não comprova instalação com mídia original, boot ou jogabilidade. `temporarily_unavailable` encaminha ao procedimento oficial sem retirar o projeto funcional da loja.
+
+## Datas e ordenação
+
+`games[].release_date` é a data de lançamento da edição original do jogo. `games[].added_at` e `games[].projects[].added_at` são as datas de inclusão no AllFix. Nenhum desses campos é substituído pela data da pesquisa, build ou release do port. Os registros retidos preservam IDs, datas e metadados; a única correção de origem desta revisão é o repositório canônico do Hookshot, documentada no relatório.
+
+O carrossel Adicionados recentemente usa `added_at` do jogo, com desempate por título e ID. As categorias continuam representando uma plataforma de origem por jogo. A fonte das datas históricas está em [RELEASE-DATES.md](RELEASE-DATES.md).
+
+## Validação
 
 ```bash
-python -m json.tool catalog.json > /dev/null
-python -m json.tool requirements.json > /dev/null
-python -m json.tool about.json > /dev/null
-python scripts/validate_catalog.py
+python scripts/validate_catalog.py --require-dates --compare-with 44bdb508842407d501e420457274eb4064f5d935
+python -m unittest discover -s tests -v
 ```
 
-O validador confere versões de schema, IDs únicos, URLs de fonte, campos estruturais e correspondência entre jogos, projetos, requisitos e descrições. O workflow `.github/workflows/validate-catalog.yml` executa esses testes em PRs que modificam o catálogo, e verifica também espaços em branco no diff.
+O validador exige correspondência1:1 entre os IDs ativos e os documentos de requisitos, descrições e elegibilidade. Ele impede vazamento do registro de excluídos para a loja, evidência insuficiente e alteração das datas existentes. Os schemas de elegibilidade/exclusão estão em `schemas/`. CI executa os contratos e regressões, sem instalar jogos.
 
-A verificação estrutural não substitui a conferência de imagens externas, o teste de execução do jogo nem a homologação do instalador GetAll.
-
-## Ports de Gran Turismo catalogados em 23/11/2026
-
-- **Gran Turismo 4 — GT4Recomp** (PS2, Windows; ISO SCUS-97328 v2.00 ou Spec II 1.10).
-- **Gran Turismo 5 — GT5 Recomp** (PS3, Windows; requer cópia própria e preparação local; Linux experimental).
-- **Gran Turismo 7 — RyGT** (PS4, Windows; projeto antigo ryGT7 incorporado ao RyGT).
-
-Os três projetos permanecem com `windows.installation_enabled=false`, sem receitas GetAll. Instalação e jogabilidade não foram homologadas pelo All-Fix.
-
-## Ports promissores incorporados em 23/11/2026
-
-19 projetos adicionados para 17 jogos novos e dois jogos existentes com ports alternativos: God of War (2005) — God of War Recomp, e Forza Horizon (2012) — Forza Horizon 1: ReImagined. Mantidos os projetos originais `gow-pc-port` e `pinyon-shift` e preservadas as fontes oficiais corrigidas de Picori, Team Forever e Leonida.
-
-Novos projetos: LAS Recomp, Super Odyssey PC Recomp, God Hand Rearmed, GTA Stories Recompiled, SpartanPort, The Last Guardian PC, inFAMOUS Second Son PC, P.T. for PC, Gears of War 2 PC Port, Ninja Gaiden II Recompiled, PGR4 Recomp, Burnout 3 Recomp, OpenCE, Lost Odyssey Recomp, SSX Recomp, DKB Recomp e mkw-recomp.
-
-**Curadoria realizada:** descrições editoriais dos 17 jogos revisadas, requisitos e limitações dos 19 ports novos individualizados por projeto e 17/17 jogos com capa e banner preenchidos. Os links de mídias externas não são garantia de disponibilidade permanente, e os estados de jogabilidade são declarados pelos mantenedores, não homologados pelo All-Fix. `windows.installation_enabled=false` para os novos projetos; sem alterações no GetAll, SDK ou Desktop.
-
-## Categorias por plataforma de origem (23/11/2026)
-
-O campo `platform_group` representa **uma única plataforma de origem do port**, sem agrupamentos genéricos de consoles. O validador rejeita valores compostos. Quando um jogo possui diferentes edições, a plataforma é a do projeto portado (por exemplo, `Gran Turismo 7` usa a edição PS4).
-
-Categorias presentes e quantidade de jogos: Android (1), Arcade (1), Game Boy Advance (2), GameCube (8), Nintendo 64 (35), Nintendo Switch (4), Nintendo Switch 2 (2), PlayStation 1 (14), PlayStation 2 (5), PlayStation 3 (1), PlayStation 4 (6), PlayStation 5 (1), SEGA Dreamcast (1), SEGA Mega Drive (1), SNES (4), Wii (1), Wii U (1), Xbox 360 (19) e Xbox Original (4). Android e Arcade são plataformas individuais de origem, não rótulos de múltiplos consoles.
-
-Foram recategorizados 90 jogos, preservando seus IDs e associações de projetos. Correções especiais incluem `The Wind Waker HD` (Wii U), `Mario Strikers Charged` (Wii), `The Minish Cap` (GBA), `Sonic Adventure` (Dreamcast), `Shadow the Hedgehog` (Xbox original) e `Silent Hill: Downpour` (Xbox 360).
-
-**Mídia:** 109 de 111 jogos têm capa e banner. As entradas agrupadas legadas `tomb-raider-i-v` e `sonic-the-hedgehog-1-2-2013` permanecem sem arte única, intencionalmente, para não associar arbitrariamente a capa de um jogo a uma coleção. URLs externas podem mudar; a presença de URLs não garante a disponibilidade futura do arquivo.
-
-**Limites:** não foram executados jogos, compilados projetos externos, validados instaladores, nem criadas receitas GetAll. Os 22 projetos adicionados nos PRs #4 e #5 continuam com `windows.installation_enabled=false`. Os resumos e requisitos em PT-BR foram revisados a partir das fontes dos projetos; não são testes independentes de desempenho ou jogabilidade.
-
-## Datas e rotina de descoberta
-
-O schema v4 aceita datas opcionais em `YYYY-MM-DD`. `games[].release_date` é a data de lançamento da edição citada no catálogo. `games[].added_at` e `games[].projects[].added_at` registram a inclusão no All-Fix. Em catálogos anteriores, campos ausentes equivalem a `null`. Consulte [as evidências do preenchimento histórico](RELEASE-DATES.md).
-
-Em cada execução de descoberta de repositórios, ports, decompilações e recompilações:
-
-1. Identifique a edição e a plataforma originais que o projeto representa. Pesquise a data de lançamento e registre a fonte em `RELEASE-DATES.md`. Se a data completa não puder ser comprovada, use `null`. Em entradas com vários títulos, documente as datas e use a mais recente.
-2. Ao adicionar um jogo ou projeto, registre a data real da inclusão no respectivo `added_at`. Atualize `catalog.json`, `about.json` e `requirements.json` com os mesmos identificadores. Um projeto novo em um jogo existente recebe a própria data.
-3. Preserve as datas de inclusão existentes ao atualizar versões, imagens, descrições ou requisitos. Em renomeações e reorganizações, use o histórico para manter a data do registro que mudou de identificador. Se uma data histórica desconhecida for comprovada, reaproveite a evidência histórica.
-4. Antes de publicar, execute `python scripts/validate_catalog.py --require-dates --compare-with HEAD` sobre a alteração ainda sem commit. Em um PR, a comparação usa o commit base do GitHub. Valide também as evidências de todos os IDs novos.
-
-A Loja usa exclusivamente `added_at` do jogo para preencher o carrossel, com desempate por título em português seguido de ID. A preferência de ordenação fica salva localmente no Desktop.
+Não houve merge emmain ou publicação de release nesta revisão. A branch é para revisão e teste com catálogo fixado por commit no complemento de desenvolvimento.

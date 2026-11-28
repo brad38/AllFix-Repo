@@ -12,6 +12,8 @@ from datetime import date
 from pathlib import Path
 from urllib.parse import urlparse
 
+from eligibility_rules import validate_registers
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -77,6 +79,12 @@ def validate_addition_history(catalog: dict, base: dict) -> None:
             elif previous[kind][identity] is not None:
                 require(value == previous[kind][identity],
                         f"{kind} {identity}: preserve a data de inclusão existente")
+    old_games = {g["id"]: g for g in base["games"]}
+    for game in catalog["games"]:
+        previous_game = old_games.get(game["id"])
+        if previous_game is not None:
+            require(game.get("release_date") == previous_game.get("release_date"),
+                    f"{game['id']}: preserve a data de lançamento existente")
 
 
 def validate(require_dates: bool = False, compare_with: str | None = None) -> None:
@@ -182,6 +190,9 @@ def validate(require_dates: bool = False, compare_with: str | None = None) -> No
         base = json.loads(subprocess.check_output(
             ["git", "show", f"{compare_with}:catalog.json"], cwd=ROOT))
         validate_addition_history(catalog, base)
+
+    require(catalog.get("eligibility_file") == "eligibility.json", "eligibility_file inválido")
+    validate_registers(catalog, load("eligibility.json"), load("excluded-projects.json"))
 
     print(f"PASSOU: {len(game_ids)} jogos, {len(project_to_game)} projetos, "
           "IDs únicos, referências 1:1, schemas e campos obrigatórios.")

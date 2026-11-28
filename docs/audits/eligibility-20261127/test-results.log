@@ -1,0 +1,14 @@
+test_archive_cannot_leak_back_into_active_store (test_eligibility.AdmissionTests.test_archive_cannot_leak_back_into_active_store) ... ok
+test_build_readme_release_and_fixture_are_not_gameplay (test_eligibility.AdmissionTests.test_build_readme_release_and_fixture_are_not_gameplay) ... ok
+test_functional_upstream_can_remain_without_getall_boot (test_eligibility.AdmissionTests.test_functional_upstream_can_remain_without_getall_boot) ... ok
+test_official_provenance_required (test_eligibility.AdmissionTests.test_official_provenance_required) ... ok
+test_official_repository_is_a_verifiable_https_source (test_eligibility.AdmissionTests.test_official_repository_is_a_verifiable_https_source) ... ok
+test_removal_preserves_dates_for_retained_games_and_projects (test_eligibility.AdmissionTests.test_removal_preserves_dates_for_retained_games_and_projects) ... ok
+test_unproven_is_archived_with_reason_and_reentry_conditions (test_eligibility.AdmissionTests.test_unproven_is_archived_with_reason_and_reentry_conditions) ... ok
+test_upstream_completion_cannot_be_an_installation_requirement (test_eligibility.AdmissionTests.test_upstream_completion_cannot_be_an_installation_requirement) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+OK
+PASSOU: 108 jogos, 137 projetos, IDs únicos, referências 1:1, schemas e campos obrigatórios.

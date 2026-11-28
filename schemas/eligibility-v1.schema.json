@@ -1,0 +1,217 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "projects"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "reviewed_at": {
+      "type": "string",
+      "format": "date"
+    },
+    "projects": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/$defs/assessment"
+      }
+    }
+  },
+  "additionalProperties": true,
+  "$defs": {
+    "assessment": {
+      "type": "object",
+      "required": [
+        "project_id",
+        "classification",
+        "eligible",
+        "official_repository",
+        "official_install_method",
+        "gameplay_evidence",
+        "limitations",
+        "reason",
+        "last_verified_local",
+        "provenance_review"
+      ],
+      "properties": {
+        "project_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "classification": {
+          "enum": [
+            "functional_eligible",
+            "functional_with_limitations",
+            "functional_manual_install",
+            "unproven",
+            "ineligible"
+          ]
+        },
+        "eligible": {
+          "type": "boolean"
+        },
+        "official_repository": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "uri",
+              "pattern": "^https://"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "official_install_method": {
+          "type": "string"
+        },
+        "gameplay_evidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "url",
+              "kind",
+              "observed"
+            ],
+            "properties": {
+              "url": {
+                "type": "string",
+                "format": "uri",
+                "pattern": "^https://"
+              },
+              "kind": {
+                "type": "string",
+                "minLength": 1
+              },
+              "observed": {
+                "type": "string",
+                "minLength": 20
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "reason": {
+          "type": "string"
+        },
+        "reinclusion_conditions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "last_verified_local": {
+          "type": "string",
+          "format": "date"
+        },
+        "provenance_review": {
+          "enum": [
+            "official_source",
+            "official_distribution",
+            "official_source_and_distribution",
+            "unconfirmed",
+            "unavailable"
+          ]
+        },
+        "requires_allfix_game_changes": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": true,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "eligible": {
+                "const": true
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "classification": {
+                "enum": [
+                  "functional_eligible",
+                  "functional_with_limitations",
+                  "functional_manual_install"
+                ]
+              },
+              "official_repository": {
+                "type": "string",
+                "format": "uri",
+                "pattern": "^https://"
+              },
+              "official_install_method": {
+                "type": "string",
+                "minLength": 20
+              },
+              "provenance_review": {
+                "enum": [
+                  "official_source",
+                  "official_distribution",
+                  "official_source_and_distribution"
+                ]
+              },
+              "requires_allfix_game_changes": {
+                "const": false
+              },
+              "gameplay_evidence": {
+                "contains": {
+                  "properties": {
+                    "kind": {
+                      "enum": [
+                        "gameplay_demo",
+                        "maintainer_gameplay_report",
+                        "user_gameplay_report",
+                        "original_media_play_test",
+                        "gameplay_video",
+                        "gameplay_issue",
+                        "gameplay_screenshot_with_context",
+                        "documented_playthrough"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "kind"
+                  ]
+                }
+              }
+            }
+          },
+          "else": {
+            "required": [
+              "reinclusion_conditions"
+            ],
+            "properties": {
+              "classification": {
+                "enum": [
+                  "unproven",
+                  "ineligible"
+                ]
+              },
+              "reason": {
+                "type": "string",
+                "minLength": 20
+              },
+              "reinclusion_conditions": {
+                "type": "array",
+                "minItems": 1
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "title": "AllFix reviewed upstream eligibility v1"
+}

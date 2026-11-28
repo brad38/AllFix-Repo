@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "catalog_version": "2026-11-23-console-categories-curated",
+  "catalog_version": "2026-11-27-functional-eligibility-review",
   "language": "pt-BR",
   "requirements_file": "requirements.json",
   "about_file": "about.json",
@@ -27,7 +27,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         },
         {
           "id": "sm64coopdx-super-mario-64-coop-deluxe",
@@ -41,7 +47,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         },
         {
           "id": "sm64plus",
@@ -55,7 +67,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_manual_install",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         },
         {
           "id": "render96ex",
@@ -69,7 +87,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_manual_install",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "temporarily_unavailable",
+            "notice_pt": "Projeto oficial funcional. A instalação automática está temporariamente indisponível; siga o procedimento do autor."
+          }
         },
         {
           "id": "sm64ex",
@@ -83,7 +107,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_manual_install",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "temporarily_unavailable",
+            "notice_pt": "Projeto oficial funcional. A instalação automática está temporariamente indisponível; siga o procedimento do autor."
+          }
         },
         {
           "id": "sm64rt",
@@ -97,7 +127,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_manual_install",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "temporarily_unavailable",
+            "notice_pt": "Projeto oficial funcional. A instalação automática está temporariamente indisponível; siga o procedimento do autor."
+          }
         }
       ],
       "release_date": "1996-06-23",
@@ -125,21 +161,33 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_manual_install",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "temporarily_unavailable",
+            "notice_pt": "Projeto oficial funcional. A instalação automática está temporariamente indisponível; siga o procedimento do autor."
+          }
         },
         {
           "id": "hookshot-zelda-oot-port",
           "source": {
-            "url": "https://github.com/ZuanCrisp/Zelda-OOT-Port",
+            "url": "https://github.com/ItsNotRexed/Hookshot",
             "provider": "github",
-            "github_repository": "ZuanCrisp/Zelda-OOT-Port",
-            "releases_url": "https://github.com/ZuanCrisp/Zelda-OOT-Port/releases"
+            "github_repository": "ItsNotRexed/Hookshot",
+            "releases_url": "https://github.com/ItsNotRexed/Hookshot/releases"
           },
           "fallback_name": "Hookshot",
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-23"
+          "added_at": "2026-11-23",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1998-11-21",
@@ -167,7 +215,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         },
         {
           "id": "2-ship-2-harkinian-2s2h",
@@ -181,7 +235,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2000-04-27",
@@ -209,7 +269,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1997-04-27",
@@ -237,7 +303,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         },
         {
           "id": "mariokart-64-recompiled",
@@ -251,7 +323,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1996-12-14",
@@ -279,7 +357,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1999-01-21",
@@ -307,7 +391,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2000-08-11",
@@ -335,7 +425,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1999-11-22",
@@ -363,7 +459,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1999-03-21",
@@ -391,22 +493,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
-        },
-        {
-          "id": "drmario64-recomp",
-          "source": {
-            "url": "https://github.com/AngheloAlf/drmario64_recomp",
-            "provider": "github",
-            "github_repository": "AngheloAlf/drmario64_recomp",
-            "releases_url": "https://github.com/AngheloAlf/drmario64_recomp/releases"
-          },
-          "fallback_name": "drmario64_recomp",
-          "windows": {
-            "installation_enabled": false
-          },
-          "status": "source_only",
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2001-04-09",
@@ -434,7 +527,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         },
         {
           "id": "lighthouse",
@@ -448,7 +547,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1998-06-30",
@@ -476,7 +581,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2000-11-20",
@@ -504,7 +615,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2000-05-22",
@@ -532,7 +649,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         },
         {
           "id": "goldeneye-007-pc-port",
@@ -546,7 +669,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1997-08-23",
@@ -574,7 +703,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": null,
@@ -602,7 +737,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1997-09-26",
@@ -630,7 +771,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1998-04-30",
@@ -658,7 +805,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1997-08-07",
@@ -686,21 +839,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
-        },
-        {
-          "id": "gga64recomp",
-          "source": {
-            "url": "https://github.com/StopSine/GGA64Recomp",
-            "provider": "github",
-            "github_repository": "StopSine/GGA64Recomp",
-            "releases_url": "https://github.com/StopSine/GGA64Recomp/releases"
-          },
-          "fallback_name": "GGA64Recomp",
-          "windows": {
-            "installation_enabled": false
-          },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1998-12-23",
@@ -728,7 +873,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1999-09-01",
@@ -756,7 +907,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         },
         {
           "id": "body-harvest-recomp",
@@ -770,7 +927,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1998-10-20",
@@ -798,7 +961,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1998-10-21",
@@ -826,7 +995,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1998-06-11",
@@ -854,7 +1029,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2000-11-22",
@@ -882,7 +1063,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         },
         {
           "id": "btgarecomp",
@@ -896,7 +1083,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1999-10-12",
@@ -924,7 +1117,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1999-02-19",
@@ -952,7 +1151,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1997-10-25",
@@ -980,7 +1185,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1999-11-17",
@@ -1008,7 +1219,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1997-12-06",
@@ -1036,7 +1253,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1997-11-30",
@@ -1064,7 +1287,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1997-11-28",
@@ -1092,7 +1321,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1998-10-26",
@@ -1120,7 +1355,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1999-11-16",
@@ -1148,7 +1389,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1997-12-19",
@@ -1176,7 +1423,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2000-11-14",
@@ -1204,23 +1457,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
-        },
-        {
-          "id": "wind-waker-recomp",
-          "source": {
-            "url": "https://github.com/elliotttate/Wind-Waker-Recomp",
-            "provider": "github",
-            "github_repository": "elliotttate/Wind-Waker-Recomp",
-            "releases_url": "https://github.com/elliotttate/Wind-Waker-Recomp/releases"
-          },
-          "fallback_name": "Wind-Waker-Recomp",
-          "windows": {
-            "installation_enabled": false
-          },
-          "status": "superseded",
-          "superseded_by": "bluewake",
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2003-03-24",
@@ -1248,7 +1491,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2013-09-20",
@@ -1276,22 +1525,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
-        },
-        {
-          "id": "twilight-princess-courage-reborn",
-          "source": {
-            "url": "https://www.pcgamer.com/games/action/zelda-twilight-princess-pc-port-inches-closer-to-release-with-new-showcase-video-and-modders-have-already-added-linkle-into-the-game/",
-            "provider": "external",
-            "github_repository": null,
-            "releases_url": null
-          },
-          "fallback_name": "Twilight Princess: Courage Reborn",
-          "windows": {
-            "installation_enabled": false
-          },
-          "status": "official_package_unavailable",
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2006-12-02",
@@ -1319,7 +1559,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2002-09-23",
@@ -1347,7 +1593,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2001-12-14",
@@ -1375,39 +1627,16 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2004-08-30",
-      "added_at": "2026-11-22"
-    },
-    {
-      "id": "metroid-prime",
-      "title": "Metroid Prime",
-      "platform_group": "GameCube",
-      "category": null,
-      "cover": "https://cdn2.steamgriddb.com/grid/0327d825efc9703e56afaa2e9e1cef9e.png",
-      "banner": "https://cdn2.steamgriddb.com/hero/43a1b6e30d834c57456f0f6f727026b8.png",
-      "screenshots": [],
-      "featured": false,
-      "projects": [
-        {
-          "id": "metaforce",
-          "source": {
-            "url": "https://github.com/AxioDL/metaforce",
-            "provider": "github",
-            "github_repository": "AxioDL/metaforce",
-            "releases_url": null
-          },
-          "fallback_name": "Metaforce",
-          "windows": {
-            "installation_enabled": false
-          },
-          "status": "official_package_unavailable",
-          "added_at": "2026-11-22"
-        }
-      ],
-      "release_date": "2002-11-17",
       "added_at": "2026-11-22"
     },
     {
@@ -1432,7 +1661,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         },
         {
           "id": "strikersrecomp",
@@ -1446,7 +1681,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_manual_install",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "temporarily_unavailable",
+            "notice_pt": "Projeto oficial funcional. A instalação automática está temporariamente indisponível; siga o procedimento do autor."
+          }
         }
       ],
       "release_date": "2005-12-05",
@@ -1474,7 +1715,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         },
         {
           "id": "strikers-wiicompiled",
@@ -1488,7 +1735,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2007-07-30",
@@ -1516,7 +1769,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_manual_install",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "temporarily_unavailable",
+            "notice_pt": "Projeto oficial funcional. A instalação automática está temporariamente indisponível; siga o procedimento do autor."
+          }
         },
         {
           "id": "mkdd-recomp",
@@ -1530,23 +1789,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
-        },
-        {
-          "id": "doldecomp-mkdd-decompilacao-base",
-          "source": {
-            "url": "https://github.com/doldecomp/mkdd",
-            "provider": "github",
-            "github_repository": "doldecomp/mkdd",
-            "releases_url": "https://github.com/doldecomp/mkdd/releases"
-          },
-          "fallback_name": "doldecomp/mkdd (Decompilação-base)",
-          "windows": {
-            "installation_enabled": false
-          },
-          "classification": "base_decompilation",
-          "status": "console_decompilation",
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2003-11-17",
@@ -1574,7 +1823,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         },
         {
           "id": "zelda-3-launcher",
@@ -1588,7 +1843,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1991-11-21",
@@ -1616,7 +1877,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         },
         {
           "id": "sm",
@@ -1630,7 +1897,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_manual_install",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "temporarily_unavailable",
+            "notice_pt": "Projeto oficial funcional. A instalação automática está temporariamente indisponível; siga o procedimento do autor."
+          }
         },
         {
           "id": "sm-rewrite",
@@ -1644,7 +1917,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_manual_install",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "temporarily_unavailable",
+            "notice_pt": "Projeto oficial funcional. A instalação automática está temporariamente indisponível; siga o procedimento do autor."
+          }
         }
       ],
       "release_date": "1994-03-19",
@@ -1672,7 +1951,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         },
         {
           "id": "smw",
@@ -1686,7 +1971,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1990-11-21",
@@ -1714,7 +2005,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1994-08-27",
@@ -1742,7 +2039,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         },
         {
           "id": "project-picori-999sian-tmc",
@@ -1756,23 +2059,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
-        },
-        {
-          "id": "tmc-decompilacao-base",
-          "source": {
-            "url": "https://github.com/zeldaret/tmc",
-            "provider": "github",
-            "github_repository": "zeldaret/tmc",
-            "releases_url": "https://github.com/zeldaret/tmc/releases"
-          },
-          "fallback_name": "tmc (Decompilação-base)",
-          "windows": {
-            "installation_enabled": false
-          },
-          "classification": "base_decompilation",
-          "status": "console_decompilation",
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2005-01-10",
@@ -1800,7 +2093,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2003-04-14",
@@ -1828,7 +2127,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2004-11-09",
@@ -1856,7 +2161,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_manual_install",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "temporarily_unavailable",
+            "notice_pt": "Projeto oficial funcional. A instalação automática está temporariamente indisponível; siga o procedimento do autor."
+          }
         },
         {
           "id": "god-of-war-recomp",
@@ -1870,7 +2181,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-23"
+          "added_at": "2026-11-23",
+          "eligibility": {
+            "classification": "functional_manual_install",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "temporarily_unavailable",
+            "notice_pt": "Projeto oficial funcional. A instalação automática está temporariamente indisponível; siga o procedimento do autor."
+          }
         }
       ],
       "release_date": "2005-03-22",
@@ -1898,7 +2215,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2005-02-08",
@@ -1926,7 +2249,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1997-10-02",
@@ -1954,7 +2283,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         },
         {
           "id": "crash-team-racing-turbocharged",
@@ -1968,7 +2303,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         },
         {
           "id": "ctr-native",
@@ -1982,7 +2323,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1999-10-20",
@@ -2010,7 +2357,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         },
         {
           "id": "wipeout-rewrite",
@@ -2024,7 +2377,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1995-09-29",
@@ -2052,7 +2411,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2000-11-16",
@@ -2080,7 +2445,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2000-06-13",
@@ -2108,7 +2479,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1999-01-31",
@@ -2136,7 +2513,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1997-03-15",
@@ -2164,7 +2547,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1999-01-28",
@@ -2192,7 +2581,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2000-11-20",
@@ -2220,7 +2615,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1994-12-16",
@@ -2248,7 +2649,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2002-03-20",
@@ -2276,7 +2683,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         },
         {
           "id": "openlara",
@@ -2290,7 +2703,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2000-11-17",
@@ -2318,23 +2737,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
-        },
-        {
-          "id": "mml1-megaman-legends-decomp",
-          "source": {
-            "url": "https://github.com/ChrisNonyminus/mml1",
-            "provider": "github",
-            "github_repository": "ChrisNonyminus/mml1",
-            "releases_url": "https://github.com/ChrisNonyminus/mml1/releases"
-          },
-          "fallback_name": "mml1 (Megaman Legends Decomp)",
-          "windows": {
-            "installation_enabled": false
-          },
-          "classification": "base_decompilation",
-          "status": "console_decompilation",
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1998-08-31",
@@ -2362,7 +2771,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2008-11-18",
@@ -2390,7 +2805,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2006-11-14",
@@ -2418,7 +2839,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2005-11-15",
@@ -2446,7 +2873,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1998-12-23",
@@ -2474,26 +2907,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
-        },
-        {
-          "id": "sonic-1-forever-sonic-2-absolute",
-          "source": {
-            "url": "https://teamforeverdev.github.io/projects.html",
-            "provider": "external",
-            "github_repository": null,
-            "releases_url": null
-          },
-          "fallback_name": "Sonic 1 Forever & Sonic 2 Absolute (Pacote Legado Unificado)",
-          "windows": {
-            "installation_enabled": false
-          },
-          "status": "deprecated",
-          "replaced_by": [
-            "sonic-1-forever",
-            "sonic-2-absolute"
-          ],
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         },
         {
           "id": "sonic-1-forever",
@@ -2507,7 +2927,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-24"
+          "added_at": "2026-11-24",
+          "eligibility": {
+            "classification": "functional_eligible",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         },
         {
           "id": "sonic-2-absolute",
@@ -2521,7 +2947,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-24"
+          "added_at": "2026-11-24",
+          "eligibility": {
+            "classification": "functional_eligible",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2013-12-12",
@@ -2549,7 +2981,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_eligible",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1994-10-18",
@@ -2577,7 +3015,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_eligible",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "1986-09-20",
@@ -2605,7 +3049,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_manual_install",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "temporarily_unavailable",
+            "notice_pt": "Projeto oficial funcional. A instalação automática está temporariamente indisponível; siga o procedimento do autor."
+          }
         },
         {
           "id": "fh1-reimagined",
@@ -2619,7 +3069,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-23"
+          "added_at": "2026-11-23",
+          "eligibility": {
+            "classification": "functional_manual_install",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "temporarily_unavailable",
+            "notice_pt": "Projeto oficial funcional. A instalação automática está temporariamente indisponível; siga o procedimento do autor."
+          }
         }
       ],
       "release_date": "2012-10-23",
@@ -2647,7 +3103,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2007-08-28",
@@ -2675,7 +3137,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2007-06-25",
@@ -2703,7 +3171,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2012-03-13",
@@ -2731,7 +3205,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2010-02-23",
@@ -2759,7 +3239,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2006-11-07",
@@ -2776,21 +3262,6 @@
       "featured": false,
       "projects": [
         {
-          "id": "project-2099",
-          "source": {
-            "url": "https://github.com/GenryTheFox0/Project-2099",
-            "provider": "github",
-            "github_repository": "GenryTheFox0/Project-2099",
-            "releases_url": "https://github.com/GenryTheFox0/Project-2099/releases"
-          },
-          "fallback_name": "Project 2099",
-          "windows": {
-            "installation_enabled": false
-          },
-          "status": "asset_redistribution_blocked",
-          "added_at": "2026-11-22"
-        },
-        {
           "id": "edge-of-time-recomp",
           "source": {
             "url": "https://github.com/goliathret/EdgeOfTimeRecomp",
@@ -2803,7 +3274,13 @@
             "installation_enabled": false
           },
           "status": "preparation_available",
-          "added_at": "2026-11-24"
+          "added_at": "2026-11-24",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2011-10-04",
@@ -2831,7 +3308,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2005-11-22",
@@ -2859,7 +3342,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2010-06-09",
@@ -2887,7 +3376,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2007-10-30",
@@ -2915,7 +3410,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         },
         {
           "id": "dead-rising-2-case-west-xenon-recomp",
@@ -2929,7 +3430,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2010-12-27",
@@ -2957,7 +3464,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2003-01-22",
@@ -2985,7 +3498,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-22"
+          "added_at": "2026-11-22",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2009-02-11",
@@ -3013,7 +3532,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-23"
+          "added_at": "2026-11-23",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2018-02-06",
@@ -3041,7 +3566,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-23"
+          "added_at": "2026-11-23",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2017-03-03",
@@ -3069,7 +3600,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-23"
+          "added_at": "2026-11-23",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2023-05-12",
@@ -3097,7 +3634,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-23"
+          "added_at": "2026-11-23",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2004-12-28",
@@ -3125,7 +3668,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-23"
+          "added_at": "2026-11-23",
+          "eligibility": {
+            "classification": "functional_manual_install",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "temporarily_unavailable",
+            "notice_pt": "Projeto oficial funcional. A instalação automática está temporariamente indisponível; siga o procedimento do autor."
+          }
         }
       ],
       "release_date": "2010-11-24",
@@ -3153,7 +3702,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-23"
+          "added_at": "2026-11-23",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2022-03-04",
@@ -3181,7 +3736,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-23"
+          "added_at": "2026-11-23",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2019-09-20",
@@ -3209,7 +3770,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-23"
+          "added_at": "2026-11-23",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2017-10-27",
@@ -3237,7 +3804,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-23"
+          "added_at": "2026-11-23",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2006-09-14",
@@ -3265,7 +3838,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-23"
+          "added_at": "2026-11-23",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2007-03-05",
@@ -3293,7 +3872,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-23"
+          "added_at": "2026-11-23",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2015-07-14",
@@ -3321,7 +3906,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-23"
+          "added_at": "2026-11-23",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2016-12-06",
@@ -3349,7 +3940,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-23"
+          "added_at": "2026-11-23",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2014-03-21",
@@ -3377,7 +3974,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-23"
+          "added_at": "2026-11-23",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2014-08-12",
@@ -3405,7 +4008,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-23"
+          "added_at": "2026-11-23",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2008-11-07",
@@ -3433,7 +4042,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-23"
+          "added_at": "2026-11-23",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2008-06-03",
@@ -3461,38 +4076,16 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-23"
+          "added_at": "2026-11-23",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2007-10-02",
-      "added_at": "2026-11-23"
-    },
-    {
-      "id": "burnout-3-takedown",
-      "title": "Burnout 3: Takedown",
-      "platform_group": "Xbox Original",
-      "category": null,
-      "cover": "https://cdn2.steamgriddb.com/grid/3b74f65970cf0bf9f29190c0d6b50bf3.jpg",
-      "banner": "https://cdn2.steamgriddb.com/hero/0b61e0b51eb2377cb824c8bb24dab3c0.png",
-      "screenshots": [],
-      "featured": false,
-      "projects": [
-        {
-          "id": "burnout3-recomp",
-          "source": {
-            "url": "https://github.com/sp00nznet/burnout3",
-            "provider": "github",
-            "github_repository": "sp00nznet/burnout3",
-            "releases_url": "https://github.com/sp00nznet/burnout3/releases"
-          },
-          "fallback_name": "Burnout 3 Recomp",
-          "windows": {
-            "installation_enabled": false
-          },
-          "added_at": "2026-11-23"
-        }
-      ],
-      "release_date": "2004-09-07",
       "added_at": "2026-11-23"
     },
     {
@@ -3517,7 +4110,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-23"
+          "added_at": "2026-11-23",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2001-11-15",
@@ -3545,7 +4144,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-23"
+          "added_at": "2026-11-23",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2008-02-12",
@@ -3573,7 +4178,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-23"
+          "added_at": "2026-11-23",
+          "eligibility": {
+            "classification": "functional_manual_install",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "temporarily_unavailable",
+            "notice_pt": "Projeto oficial funcional. A instalação automática está temporariamente indisponível; siga o procedimento do autor."
+          }
         }
       ],
       "release_date": "2012-02-28",
@@ -3601,7 +4212,13 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-23"
+          "added_at": "2026-11-23",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2025-07-17",
@@ -3629,12 +4246,19 @@
           "windows": {
             "installation_enabled": false
           },
-          "added_at": "2026-11-23"
+          "added_at": "2026-11-23",
+          "eligibility": {
+            "classification": "functional_with_limitations",
+            "reviewed_at": "2026-11-27",
+            "automation_availability": "available_contract",
+            "notice_pt": "Há evidência de jogabilidade no projeto oficial. A validação da instalação pelo GetAll é registrada separadamente."
+          }
         }
       ],
       "release_date": "2025-06-05",
       "added_at": "2026-11-23"
     }
   ],
-  "addons": []
+  "addons": [],
+  "eligibility_file": "eligibility.json"
 }

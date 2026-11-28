@@ -1,0 +1,55 @@
+{
+  "base_catalog_commit": "44bdb508842407d501e420457274eb4064f5d935",
+  "reviewed_at": "2026-11-27",
+  "before": {
+    "games": 110,
+    "projects": 148
+  },
+  "after": {
+    "games": 108,
+    "projects": 137
+  },
+  "excluded_project_ids": [
+    "drmario64-recomp",
+    "gga64recomp",
+    "wind-waker-recomp",
+    "twilight-princess-courage-reborn",
+    "metaforce",
+    "doldecomp-mkdd-decompilacao-base",
+    "tmc-decompilacao-base",
+    "mml1-megaman-legends-decomp",
+    "sonic-1-forever-sonic-2-absolute",
+    "project-2099",
+    "burnout3-recomp"
+  ],
+  "removed_game_ids": [
+    "burnout-3-takedown",
+    "metroid-prime"
+  ],
+  "classification_counts": {
+    "functional_with_limitations": 118,
+    "functional_manual_install": 15,
+    "functional_eligible": 4
+  },
+  "retained_ids_dates_and_metadata_preserved": true,
+  "source_corrections": [
+    {
+      "project_id": "hookshot-zelda-oot-port",
+      "before": {
+        "url": "https://github.com/ZuanCrisp/Zelda-OOT-Port",
+        "provider": "github",
+        "github_repository": "ZuanCrisp/Zelda-OOT-Port",
+        "releases_url": "https://github.com/ZuanCrisp/Zelda-OOT-Port/releases"
+      },
+      "after": {
+        "url": "https://github.com/ItsNotRexed/Hookshot",
+        "provider": "github",
+        "github_repository": "ItsNotRexed/Hookshot",
+        "releases_url": "https://github.com/ItsNotRexed/Hookshot/releases"
+      },
+      "reason": "Use the canonical maintainer distribution; mirror executable digests differed."
+    }
+  ],
+  "getall_index_sha256": "3eb6c9bd534db5c76b9f1be99e859d76bcbd9a200a9d3ea546f8ec5720ae8b54",
+  "note": "available_contract does not mean original-media validation, boot or gameplay by GetAll."
+}

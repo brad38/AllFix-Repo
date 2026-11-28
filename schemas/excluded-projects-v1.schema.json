@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AllFix excluded project register v1",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "projects"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "projects": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "project",
+          "game",
+          "game_id",
+          "assessment",
+          "requirements",
+          "about"
+        ],
+        "properties": {
+          "assessment": {
+            "$ref": "eligibility-v1.schema.json#/$defs/assessment"
+          },
+          "project": {
+            "type": "object",
+            "required": [
+              "id",
+              "source",
+              "added_at"
+            ]
+          },
+          "game": {
+            "type": "object",
+            "required": [
+              "id",
+              "added_at",
+              "release_date"
+            ]
+          },
+          "game_id": {
+            "type": "string"
+          },
+          "requirements": {
+            "type": "object"
+          },
+          "about": {
+            "type": "object"
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}
