@@ -4754,7 +4754,7 @@
     "strikersrecomp": {
       "project_id": "strikersrecomp",
       "row": 60,
-      "classification": "functional_manual_install",
+      "classification": "functional_with_limitations",
       "eligible": true,
       "official_repository": "https://github.com/aharonahdoot/StrikersRecomp",
       "official_install_method": "Clone oficial com bootstrap.sh; gerar código da ISO própria por tools/generate.py; caminho oficialmente recomendado usa tools/package_module.sh e RecompCore com CPUCore=6. Standalone GXRuntime é opção distinta e tem desempenho/efeitos incompletos.",
@@ -4776,11 +4776,12 @@
       "limitations": [
         "Evidência forte é do módulo RecompCore em macOS, não valida automaticamente standalone Windows.",
         "RecompCore usa hardware/backend Dolphin e fallback de CPU para trechos não cobertos; identidade deve ser explícita.",
-        "Autor suspendeu desenvolvimento em favor da abordagem adotada por GekkoRuntime; não fabricar correções no GetAll."
+        "Autor suspendeu desenvolvimento em favor da abordagem adotada por GekkoRuntime; não fabricar correções no GetAll.",
+        "A rota experimental usa o módulo oficial e o RecompCore Windows. A geração com mídia original e o primeiro boot pelo GetAll ainda precisam de homologação."
       ],
       "reason": "Há evidência específica de execução interativa/partida em fonte upstream e procedimento oficial. Bugs e ausência de boot GetAll não justificam excluir o projeto funcional.",
       "reinclusion_conditions": [],
-      "last_verified_local": "2026-11-27",
+      "last_verified_local": "2026-11-28",
       "review_depth": "README/procedimento oficial + listagem das releases e issues; aprofundamento em relatos de fases/combate, documentos de validação e distribuição quando necessário. URLs, observações e limites preservados neste registro; hashes anteriores mantidos quando existentes.",
       "review_limits": [
         "Pesquisa de fontes públicas; nenhuma mídia original foi obtida e nenhum jogo foi executado localmente nesta auditoria.",
@@ -4804,8 +4805,10 @@
       "provenance_review": "official_source",
       "requires_allfix_game_changes": false,
       "reviewed_by": "Documentary audit of primary sources; original-media tests not performed in this review.",
-      "automation_catalog_state": "temporarily_unavailable",
-      "automation_contract_tags": []
+      "automation_catalog_state": "available_contract",
+      "automation_contract_tags": [
+        "build-cd88f71"
+      ]
     },
     "recharged": {
       "project_id": "recharged",

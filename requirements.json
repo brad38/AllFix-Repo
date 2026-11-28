@@ -2827,13 +2827,14 @@
       "translation_method": "automatic_machine_translation",
       "translation_reviewed_by_human": false,
       "scope_review": {
-        "reviewed_at": "2026-11-27",
-        "classification": "functional_manual_install",
+        "reviewed_at": "2026-11-28",
+        "classification": "functional_with_limitations",
         "official_installation_pt": "Clone oficial com bootstrap.sh; gerar código da ISO própria por tools/generate.py; caminho oficialmente recomendado usa tools/package_module.sh e RecompCore com CPUCore=6. Standalone GXRuntime é opção distinta e tem desempenho/efeitos incompletos.",
         "limitations_pt": [
           "Evidência forte é do módulo RecompCore em macOS, não valida automaticamente standalone Windows.",
           "RecompCore usa hardware/backend Dolphin e fallback de CPU para trechos não cobertos; identidade deve ser explícita.",
-          "Autor suspendeu desenvolvimento em favor da abordagem adotada por GekkoRuntime; não fabricar correções no GetAll."
+          "Autor suspendeu desenvolvimento em favor da abordagem adotada por GekkoRuntime; não fabricar correções no GetAll.",
+          "A rota experimental usa o módulo oficial e o RecompCore Windows. A geração com mídia original e o primeiro boot pelo GetAll ainda precisam de homologação."
         ],
         "evidence": [
           {
@@ -2850,7 +2851,7 @@
             "ref_id_if_web": null
           }
         ],
-        "notice_pt": "Projeto oficial funcional. A instalação automática está temporariamente indisponível; siga o procedimento do autor.",
+        "notice_pt": "Instalação experimental com a ISO original americana de Super Mario Strikers. Primeiro boot no Windows ainda não homologado.",
         "official_repository": "https://github.com/aharonahdoot/StrikersRecomp"
       }
     },
